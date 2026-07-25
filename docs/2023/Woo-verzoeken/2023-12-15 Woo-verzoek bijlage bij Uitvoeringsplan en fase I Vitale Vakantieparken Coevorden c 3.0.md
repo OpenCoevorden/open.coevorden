@@ -1,8 +1,39 @@
 ---
-title: "2023-12-15 Woo-verzoek bijlage bij Uitvoeringsplan en fase I Vitale Vakantieparken Coevorden c 3.0"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-12-15 Woo-verzoek bijlage bij Uitvoeringsplan en fase I Vitale Vakantieparken Coevorden c 3.0.pdf"
-date: 2026-07-25
+title: >-
+  2023-12-15 Woo-verzoek bijlage bij Uitvoeringsplan en fase I Vitale
+  Vakantieparken Coevorden c 3.0
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  2023/Woo-verzoeken/2023-12-15 Woo-verzoek bijlage bij Uitvoeringsplan en fase
+  I Vitale Vakantieparken Coevorden c 3.0.pdf
+date: 2026-07-25T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek van 2023 zag op openbaarmaking van de bijlage bij het
+  Uitvoeringsplan Vitale Vakantieparken Coevorden. Na verdaging en een beroep
+  niet tijdig beslissen volgde op 2023-12-15 een toewijzend besluit, nadat de
+  gemeenteraad de geheimhouding had opgeheven.
+milestones:
+  - date: '2023-05-09'
+    event: Woo-verzoek ingediend
+  - date: '2023-06-20'
+    event: verlenging/verdagingsbrief
+  - date: '2023-08-14'
+    event: beroep niet tijdig beslissen ingediend
+  - date: '2023-09-22'
+    event: >-
+      uitspraak rechtbank: binnen 4 weken beslissen en dwangsom bij
+      overschrijding
+  - date: '2023-11-07'
+    event: college stelt raad voor geheimhouding op te heffen
+  - date: '2023-12-12'
+    event: gemeenteraad heft geheimhouding op
+  - date: '2023-12-15'
+    event: 'besluit Woo-verzoek: toewijzing en openbaarmaking'
+ai_content_hash: c4ed50cf9b5dd474
+ai_processed_at: '2026-07-25T14:59:22.723Z'
+ai_status: done
 ---
 
 Postadres:

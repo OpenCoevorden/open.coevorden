@@ -1,8 +1,24 @@
 ---
-title: "2023-08-03 Woo-verzoek documentatie WOZ"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-08-03 Woo-verzoek documentatie WOZ.pdf"
-date: 2026-07-25
+title: 2023-08-03 Woo-verzoek documentatie WOZ
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: 2023/Woo-verzoeken/2023-08-03 Woo-verzoek documentatie WOZ.pdf
+date: 2026-07-25T00:00:00.000Z
+summary: >-
+  Op 2023-07-27 ontving de gemeente Coevorden een Woo-verzoek over
+  WOZ-gerelateerde documenten en informatie. Op 2023-08-03 wees de gemeente het
+  verzoek af, onder meer omdat voor een deel artikel 40 WOZ als bijzondere
+  openbaarmakingsregeling geldt en voor andere onderdelen geen documenten
+  voorhanden zijn.
+milestones:
+  - date: '2023-07-27'
+    event: Woo-verzoek ingediend
+  - date: '2023-08-03'
+    event: 'Besluit: verzoek afgewezen'
+ai_content_hash: 5a4d5605076c9b40
+ai_processed_at: '2026-07-25T15:03:18.003Z'
+ai_status: done
 ---
 
 -r:.

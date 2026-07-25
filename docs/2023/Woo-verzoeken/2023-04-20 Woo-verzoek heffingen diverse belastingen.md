@@ -1,8 +1,23 @@
 ---
-title: "2023-04-20 Woo-verzoek heffingen diverse belastingen"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-04-20 Woo-verzoek heffingen diverse belastingen.pdf"
-date: 2026-07-25
+title: 2023-04-20 Woo-verzoek heffingen diverse belastingen
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: 2023/Woo-verzoeken/2023-04-20 Woo-verzoek heffingen diverse belastingen.pdf
+date: 2026-07-25T00:00:00.000Z
+summary: >-
+  Op 2023-03-14 is een Woo-verzoek ingediend bij de gemeente Coevorden over
+  aantallen aanslagen, bezwaren en rechtsmiddelen voor 2018-2020. Op 2023-04-20
+  is het verzoek beantwoord en is een verdagingsbrief genoemd die eerder per
+  post was verzonden.
+milestones:
+  - date: '2023-03-14'
+    event: Woo-verzoek ingediend
+  - date: '2023-04-20'
+    event: Woo-verzoek beantwoord
+ai_content_hash: 2c75ffab393fb871
+ai_processed_at: '2026-07-25T15:04:28.073Z'
+ai_status: done
 ---
 
 1

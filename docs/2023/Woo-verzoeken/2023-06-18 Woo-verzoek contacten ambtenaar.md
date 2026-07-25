@@ -1,8 +1,24 @@
 ---
-title: "2023-06-18 Woo-verzoek contacten ambtenaar"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-06-18 Woo-verzoek contacten ambtenaar.pdf"
-date: 2026-07-25
+title: 2023-06-18 Woo-verzoek contacten ambtenaar
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: 2023/Woo-verzoeken/2023-06-18 Woo-verzoek contacten ambtenaar.pdf
+date: 2026-07-25T00:00:00.000Z
+summary: >-
+  Op 2023-06-18 diende betrokkene een Woo-verzoek in om een geluidsopname en
+  onderliggende documenten rond een eerder besluit te ontvangen. De gemeente
+  besliste op 2023-07-10 gedeeltelijk af te wijzen en gedeeltelijk toe te
+  wijzen, waarbij de opname werd geweigerd en e-mailwisselingen deels openbaar
+  werden gemaakt.
+milestones:
+  - date: '2023-06-18'
+    event: Woo-verzoek ingediend
+  - date: '2023-07-10'
+    event: 'Besluit op Woo-verzoek: gedeeltelijk afgewezen en gedeeltelijk toegewezen'
+ai_content_hash: 66d899a7c431b970
+ai_processed_at: '2026-07-25T15:04:05.604Z'
+ai_status: done
 ---
 
 A

@@ -1,8 +1,27 @@
 ---
-title: "2023-04-19 Woo-verzoek whatsappgeschiedenis tussen verzoeker en medewerker gemeente"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-04-19 Woo-verzoek whatsappgeschiedenis tussen verzoeker en medewerker gemeente.pdf"
-date: 2026-07-25
+title: >-
+  2023-04-19 Woo-verzoek whatsappgeschiedenis tussen verzoeker en medewerker
+  gemeente
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  2023/Woo-verzoeken/2023-04-19 Woo-verzoek whatsappgeschiedenis tussen
+  verzoeker en medewerker gemeente.pdf
+date: 2026-07-25T00:00:00.000Z
+summary: >-
+  Op 2023-03-24 is een Woo-verzoek ingediend voor de volledige
+  WhatsApp-geschiedenis tussen 2022-02-01 en 2023-03-24. Op 2023-04-17 heeft de
+  gemeente het verzoek toegewezen en de gevraagde documenten deels openbaar
+  gemaakt met weglakking van persoonsgegevens.
+milestones:
+  - date: '2023-03-24'
+    event: Woo-verzoek ingediend
+  - date: '2023-04-17'
+    event: 'Besluit: verzoek toegewezen'
+ai_content_hash: 4da17ad02b95c82b
+ai_processed_at: '2026-07-25T15:04:31.860Z'
+ai_status: done
 ---
 
 Gemeente
