@@ -1,8 +1,53 @@
 ---
-title: "2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen, handhavingsopdrachten vanaf 18-12-2022"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen, handhavingsopdrachten vanaf 18-12-2022.pdf"
-date: 2026-07-25
+title: >-
+  2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen,
+  handhavingsopdrachten vanaf 18-12-2022
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  2023/Woo-verzoeken/2023-07-27 Woo-verzoek bungalowpark WICO, notities,
+  notulen, handhavingsopdrachten vanaf 18-12-2022.pdf
+date: 2026-07-25T00:00:00.000Z
+summary: >-
+  De Woo-aanvraag over bungalowpark Wico is ingediend op 2023-04-15 en op
+  2023-07-27 beslist. De beslistermijn is tussentijds verlengd en opgeschort;
+  het besluit bevat gedeeltelijke openbaarmaking en uitgestelde openbaarmaking
+  voor één document.
+milestones:
+  - date: '2023-03-08'
+    event: Brief aan eigenaren/bewoners over traject Wico en aangekondigde handhaving
+  - date: '2023-03-20'
+    event: >-
+      Verzoek om juridische beoordeling van de dienstwoning en permanente
+      bewoning
+  - date: '2023-03-22'
+    event: Gesprek over park Wico en terugkeer naar recreatieve bestemming
+  - date: '2023-03-24'
+    event: Verzoek om gesprek naar aanleiding van de brief over park Wico
+  - date: '2023-03-27'
+    event: Parkbezoek/gesprekken met bewoners en eigenaren op Wico
+  - date: '2023-04-05'
+    event: >-
+      Toelichting gemeente: beleid blijft gericht op recreatieve functie en
+      beëindiging permanente bewoning
+  - date: '2023-04-13'
+    event: Reactie op verzoek om formulering over handhaving en toekomstplan
+  - date: '2023-04-15'
+    event: Woo-verzoek ingediend
+  - date: '2023-05-09'
+    event: Behandeltermijn verlengd met 2 weken
+  - date: '2023-05-25'
+    event: Behandeltermijn opgeschort wegens zienswijzeronde
+  - date: '2023-07-05'
+    event: >-
+      Verzoek verder uitgesteld wegens extra inventarisatie en nieuwe
+      zienswijzeronde
+  - date: '2023-07-27'
+    event: Woo-besluit genomen
+ai_content_hash: 57b0ac7b3b8df475
+ai_processed_at: '2026-07-25T16:38:26.611Z'
+ai_status: done
 ---
 
 Postadres:

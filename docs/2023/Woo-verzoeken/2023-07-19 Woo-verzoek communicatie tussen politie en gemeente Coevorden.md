@@ -1,8 +1,25 @@
 ---
-title: "2023-07-19 Woo-verzoek communicatie tussen politie en gemeente Coevorden"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-07-19 Woo-verzoek communicatie tussen politie en gemeente Coevorden.pdf"
-date: 2026-07-25
+title: 2023-07-19 Woo-verzoek communicatie tussen politie en gemeente Coevorden
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  2023/Woo-verzoeken/2023-07-19 Woo-verzoek communicatie tussen politie en
+  gemeente Coevorden.pdf
+date: 2026-07-25T00:00:00.000Z
+summary: >-
+  Op 2023-06-19 is een Woo-verzoek ingediend over communicatie tussen gemeente
+  en politie rond het bedrijf aan de Brink 9 te Sleen. Op 2023-07-19 is dit
+  verzoek toegewezen en zijn mailwisselingen openbaar gemaakt met weglakking van
+  persoonsgegevens.
+milestones:
+  - date: '2023-06-19'
+    event: Woo-verzoek ingediend
+  - date: '2023-07-19'
+    event: 'Woo-besluit: verzoek toegewezen, documenten deels openbaar gemaakt'
+ai_content_hash: b7205cef85519cc1
+ai_processed_at: '2026-07-25T16:38:30.640Z'
+ai_status: done
 ---
 
 Gemeente

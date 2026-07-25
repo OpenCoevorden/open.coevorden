@@ -1,8 +1,34 @@
 ---
-title: "2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude Rabobank"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude Rabobank.pdf"
-date: 2026-07-25
+title: >-
+  2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude
+  Rabobank
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  2023/Woo-verzoeken/2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang
+  gebouw oude Rabobank.pdf
+date: 2026-07-25T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2023-01-20 een Woo-verzoek over communicatie
+  en documenten rond de crisisnoodopvang in Kasteel 2 en besloot op 2023-03-20
+  de gevraagde informatie grotendeels openbaar te maken, met weglakking van
+  persoonsgegevens. Eerder was er in 2022 een bruikleenovereenkomst voor het
+  pand gesloten voor crisisnoodopvang, met een looptijd vanaf 2022-10-06.
+milestones:
+  - date: '2022-10-06'
+    event: bruikleenovereenkomst crisisnoodopvang Kasteel 2 ingegaan
+  - date: '2022-10-13'
+    event: bruikleenovereenkomst crisisnoodopvang Kasteel 2 getekend
+  - date: '2023-01-20'
+    event: Woo-verzoek ingediend
+  - date: '2023-03-20'
+    event: >-
+      besluit op Woo-verzoek: deels openbaarmaking met weglakking
+      persoonsgegevens
+ai_content_hash: 9025fd5167ec3e0a
+ai_processed_at: '2026-07-25T16:39:34.487Z'
+ai_status: done
 ---
 
 Postadres:

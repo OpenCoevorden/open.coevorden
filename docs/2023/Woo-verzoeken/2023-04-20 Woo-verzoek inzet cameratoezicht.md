@@ -1,8 +1,22 @@
 ---
-title: "2023-04-20 Woo-verzoek inzet cameratoezicht"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-04-20 Woo-verzoek inzet cameratoezicht.pdf"
-date: 2026-07-25
+title: 2023-04-20 Woo-verzoek inzet cameratoezicht
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: 2023/Woo-verzoeken/2023-04-20 Woo-verzoek inzet cameratoezicht.pdf
+date: 2026-07-25T00:00:00.000Z
+summary: >-
+  Op 2023-03-09 diende Simpel Zodiak een Woo-verzoek in over cameratoezicht en
+  ANPR-camera’s in de gemeente Coevorden. Op 2023-04-20 wees het college dit
+  verzoek af.
+milestones:
+  - date: '2023-03-09'
+    event: Woo-verzoek ingediend
+  - date: '2023-04-20'
+    event: 'Besluit: Woo-verzoek afgewezen'
+ai_content_hash: 64beef7257116591
+ai_processed_at: '2026-07-25T16:39:17.388Z'
+ai_status: done
 ---
 
 Postadres:
