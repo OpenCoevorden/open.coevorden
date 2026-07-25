@@ -537,6 +537,16 @@
     </div>
 
     {{/*
+        RETRIEVAL-DATA — door enrich.js gegenereerde embeddings, alleen aanwezig
+        bij lange documenten. Base64-JSON, buiten de pagefind-regio zodat het niet
+        mee-geïndexeerd wordt. Ontbreekt dit blok, dan valt de chat terug op de
+        keyword-retrieval (zie buildContext hieronder).
+    */}}
+    {{ with .Params.ai_retrieval }}
+    <script type="application/json" id="ai-retrieval">{{ . }}</script>
+    {{ end }}
+
+    {{/*
         WCAG 2.4.1: "skip to main content" — standaard best practice.
         Staat in CSS als sr-only zodat hij alleen zichtbaar is bij focus.
     */}}
@@ -578,8 +588,157 @@
 
     <script>
         const START_MESSAGE = "Stel hier met AI een vraag over bovenstaand document.";
-        const MAX_CONTEXT = 200000;
+        const WORKER_URL = "https://coevorden-pdf-ai.vincentvandijkprive1996.workers.dev/";
+
+        /*
+         * CONTEXT-STRATEGIE
+         * -----------------
+         * 1. Lang document mét embeddings (ai_retrieval aanwezig): semantische
+         *    retrieval — vraag wordt een vector, best passende stukken worden
+         *    meegestuurd. Vangt synoniemen/parafrases op ("toestemming" vindt
+         *    "vergunning").
+         * 2. Geen embeddings: val terug op keyword-retrieval (buildContext).
+         *    Korte documenten worden daar volledig meegestuurd.
+         */
+        const FULL_LIMIT = 120000;      // keyword-fallback: hieronder alles meesturen (stem af op EMBED_THRESHOLD in enrich.js)
+        const RETRIEVE_BUDGET = 40000;  // tekens die we maximaal aan context meesturen
+        const INTRO_CHARS = 3000;       // begin van het document sturen we altijd mee
+
         let chatHistory = [];
+        let lastQuestion = "";          // voor vervolgvragen ("en daarna?")
+        let RETRIEVAL = undefined;      // undefined = nog niet geladen, null = geen embeddings
+
+        const STOPWORDS = new Set(
+            "de het een van en in op te dat die aan met voor is zijn was er of ook naar bij als dan zo om uit over dit deze zijn haar hun ik jij wij zij niet wel maar want dus".split(" ")
+        );
+
+        /* ---------- KEYWORD-FALLBACK (documenten zonder embeddings) ---------- */
+
+        function splitIntoChunks(fullText) {
+            const paras = fullText.split(/\n+/).map(p => p.trim()).filter(Boolean);
+            const chunks = [];
+            let buf = "";
+            for (const p of paras) {
+                if (buf && buf.length + p.length > 1200) { chunks.push(buf); buf = ""; }
+                buf += (buf ? "\n" : "") + p;
+            }
+            if (buf) chunks.push(buf);
+            return chunks;
+        }
+
+        function buildContext(fullText, question) {
+            if (fullText.length <= FULL_LIMIT) return fullText;
+
+            const chunks = splitIntoChunks(fullText);
+            const queryText = (question + " " + lastQuestion).toLowerCase();
+            const qWords = [...new Set(
+                (queryText.match(/[\p{L}\p{N}]{3,}/gu) || []).filter(w => !STOPWORDS.has(w))
+            )];
+
+            const scored = chunks.map((text, idx) => {
+                const lower = text.toLowerCase();
+                const score = qWords.reduce((s, w) => s + (lower.includes(w) ? 1 : 0), 0);
+                return { text, idx, score };
+            });
+
+            const budget = RETRIEVE_BUDGET - INTRO_CHARS;
+            const picked = [];
+            let used = 0;
+            for (const c of [...scored].sort((a, b) => b.score - a.score)) {
+                if (c.score === 0 || used + c.text.length > budget) continue;
+                picked.push(c); used += c.text.length;
+            }
+            picked.sort((a, b) => a.idx - b.idx);
+
+            const intro = fullText.slice(0, INTRO_CHARS);
+            if (picked.length === 0) {
+                // Geen enkele treffer: intro + een gespreide greep uit het document.
+                const step = Math.max(1, Math.floor(chunks.length / 12));
+                const sample = [];
+                let sUsed = 0;
+                for (let i = 0; i < chunks.length && sUsed + chunks[i].length <= budget; i += step) {
+                    sample.push(chunks[i]); sUsed += chunks[i].length;
+                }
+                return intro + "\n\n[...]\n\n" + sample.join("\n\n[...]\n\n");
+            }
+            return intro + "\n\n[...]\n\n" + picked.map(c => c.text).join("\n\n[...]\n\n");
+        }
+
+        /* ---------- SEMANTISCHE RETRIEVAL (documenten mét embeddings) ---------- */
+
+        function b64ToInt8(b64) {
+            const bin = atob(b64);
+            const arr = new Int8Array(bin.length);
+            for (let i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i); // wrapt naar signed
+            return arr;
+        }
+
+        function loadRetrieval() {
+            const el = document.getElementById('ai-retrieval');
+            if (!el) return null; // kort document zonder embeddings
+            try {
+                const payload = JSON.parse(atob(el.textContent.trim()));
+                const chunks = payload.c.map(({ t, v }) => {
+                    const vec = b64ToInt8(v);
+                    let n = 0; for (let i = 0; i < vec.length; i++) n += vec[i] * vec[i];
+                    return { t, v: vec, norm: Math.sqrt(n) || 1 };
+                });
+                return { d: payload.d, chunks };
+            } catch (err) {
+                console.warn("Retrieval-blok kon niet worden gelezen:", err);
+                return null;
+            }
+        }
+
+        async function embedQuestion(question) {
+            const r = await fetch(WORKER_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ embed: (question + " " + lastQuestion).trim() })
+            });
+            const d = await r.json();
+            if (!d.embedding) throw new Error("Geen embedding ontvangen");
+            return d.embedding;
+        }
+
+        async function buildContextSemantic(fullText, question) {
+            if (RETRIEVAL === undefined) RETRIEVAL = loadRetrieval();
+            // Geen embeddings beschikbaar: keyword-fallback.
+            if (!RETRIEVAL) return buildContext(fullText, question);
+
+            let q;
+            try {
+                q = await embedQuestion(question);
+            } catch (err) {
+                console.warn("Embedding van vraag mislukt, val terug op keywords:", err);
+                return buildContext(fullText, question);
+            }
+
+            let qn = 0; for (const x of q) qn += x * x; qn = Math.sqrt(qn) || 1;
+
+            const scored = RETRIEVAL.chunks.map((c, idx) => {
+                let dot = 0;
+                const len = Math.min(q.length, c.v.length);
+                for (let i = 0; i < len; i++) dot += q[i] * c.v[i];
+                return { idx, t: c.t, score: dot / (c.norm * qn) };
+            }).sort((a, b) => b.score - a.score);
+
+            const budget = RETRIEVE_BUDGET - INTRO_CHARS;
+            const picked = [];
+            let used = 0;
+            for (const c of scored) {
+                if (used + c.t.length > budget) continue;
+                picked.push(c); used += c.t.length;
+                if (used > budget * 0.9) break;
+            }
+            picked.sort((a, b) => a.idx - b.idx); // documentvolgorde behouden
+
+            const intro = fullText.slice(0, INTRO_CHARS);
+            if (picked.length === 0) return intro;
+            return intro + "\n\n[...]\n\n" + picked.map(c => c.t).join("\n\n[...]\n\n");
+        }
+
+        /* ---------- CHAT-UI ---------- */
 
         function initChat() {
             addMessage("assistant", START_MESSAGE);
@@ -669,15 +828,20 @@
             document.getElementById('chat-window').appendChild(typing);
 
             try {
+                // Bouw de context (semantisch bij lange documenten, anders keywords).
+                const context = await buildContextSemantic(pageContent, question);
+                // Pas ná het bouwen bijwerken zodat deze vraag de "vorige" wordt.
+                lastQuestion = question;
+
                 const controller = new AbortController();
                 const timeout = setTimeout(() => controller.abort(), 20000);
 
-                const response = await fetch('https://coevorden-pdf-ai.vincentvandijkprive1996.workers.dev/', {
+                const response = await fetch(WORKER_URL, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     signal: controller.signal,
                     body: JSON.stringify({
-                        context: pageContent.slice(0, MAX_CONTEXT),
+                        context: context,
                         messages: chatHistory
                     })
                 });
