@@ -18,6 +18,16 @@ const REQUEST_DELAY_MS = parseInt(process.env.REQUEST_DELAY_MS || "1500", 10);
 const DOC_YEAR = process.env.DOC_YEAR || "2023";
 const DRY_RUN = process.env.DRY_RUN === "1";
 
+/* --- EMBEDDINGS (semantische retrieval voor lange documenten) --- */
+// Alleen documenten langer dan EMBED_THRESHOLD krijgen embeddings. Kortere
+// documenten worden in de browser toch volledig meegestuurd, dus daar is
+// retrieval overbodig. Stem EMBED_THRESHOLD af op FULL_LIMIT in single.html.
+const EMBED_MODEL = process.env.EMBED_MODEL || "text-embedding-3-small";
+const EMBED_DIM = parseInt(process.env.EMBED_DIM || "256", 10); // moet gelijk zijn aan de worker + single.html
+const EMBED_THRESHOLD = parseInt(process.env.EMBED_THRESHOLD || "120000", 10);
+const RETRIEVAL_CHUNK_CHARS = parseInt(process.env.RETRIEVAL_CHUNK_CHARS || "1500", 10);
+const EMBED_BATCH = parseInt(process.env.EMBED_BATCH || "64", 10);
+
 const SYSTEM_PROMPT =
   "Je bent een expert in Nederlandse Woo-dossiers. Taak: Extraheer een chronologische tijdlijn en samenvatting. " +
   "Neem alleen kerngebeurtenissen op: indiening aanvraag, besluit, bezwaar/beroep, uitspraak, verlenging, intrekking. " +
@@ -177,6 +187,64 @@ function extractSummaryBlocksSmart(text) {
   return summaryText;
 }
 
+/* ------------------ RETRIEVAL EMBEDDINGS ------------------ */
+
+// Kleine stukjes speciaal voor semantische retrieval — losstaand van de grote
+// milestone-chunks. Elk stukje wordt straks een vector waarmee de browser de
+// vraag semantisch matcht (synoniemen/parafrases inbegrepen).
+function chunkForRetrieval(text, size = RETRIEVAL_CHUNK_CHARS) {
+  const paras = text.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+  const chunks = [];
+  let buf = "";
+  for (const p of paras) {
+    if (p.length > size) {
+      // Paragraaf groter dan de chunkgrootte: hard opknippen.
+      if (buf) { chunks.push(buf); buf = ""; }
+      for (let i = 0; i < p.length; i += size) chunks.push(p.slice(i, i + size));
+      continue;
+    }
+    if (buf && buf.length + p.length + 1 > size) { chunks.push(buf); buf = ""; }
+    buf += (buf ? "\n" : "") + p;
+  }
+  if (buf) chunks.push(buf);
+  return chunks;
+}
+
+async function embedChunks(chunks, label = "") {
+  const vectors = [];
+  for (let i = 0; i < chunks.length; i += EMBED_BATCH) {
+    const batch = chunks.slice(i, i + EMBED_BATCH);
+    const res = await withRetry(
+      () => openai.embeddings.create({ model: EMBED_MODEL, dimensions: EMBED_DIM, input: batch }),
+      `${label} [embed ${i}]`
+    );
+    if (!res) return null; // context te groot / mislukt → hele blob afblazen
+    for (const d of res.data) vectors.push(d.embedding);
+  }
+  return vectors;
+}
+
+// Vector → int8 → base64. Eén byte per dimensie i.p.v. ~7 tekens als JSON-float,
+// zodat de frontmatter compact blijft.
+function packVector(vec) {
+  const buf = Buffer.alloc(vec.length);
+  for (let i = 0; i < vec.length; i++) {
+    buf[i] = Math.round(Math.max(-1, Math.min(1, vec[i])) * 127) & 0xff;
+  }
+  return buf.toString("base64");
+}
+
+// Bouwt het volledige retrieval-blok als één base64-string. Door alles in één
+// string te stoppen voorkomen we YAML-escaping-problemen in de frontmatter.
+async function buildRetrievalBlob(content, label) {
+  const chunks = chunkForRetrieval(content);
+  if (chunks.length === 0) return null;
+  const vectors = await embedChunks(chunks, label);
+  if (!vectors || vectors.length !== chunks.length) return null;
+  const payload = { d: EMBED_DIM, c: chunks.map((t, i) => ({ t, v: packVector(vectors[i]) })) };
+  return Buffer.from(JSON.stringify(payload), "utf8").toString("base64");
+}
+
 /* ------------------ AI ------------------ */
 
 async function analyzeContent(textBlocks, label = "") {
@@ -251,10 +319,13 @@ async function processFile(file, stats) {
 
   const contentHash = hashContent(content);
 
+  // Heeft dit (lange) document nog embeddings nodig? Dan mag de skip-check het
+  // niet overslaan, ook al is de AI-tekst al "done".
+  const needsEmbedding = content.length > EMBED_THRESHOLD && data.ai_retrieval_hash !== contentHash;
+
   // Skip alleen als eerder succesvol verwerkt ÉN de content sindsdien niet
-  // is gewijzigd. Dit vervangt de oude OR-check die bestanden met een
-  // mislukte helft permanent oversloeg.
-  if (data.ai_status === "done" && data.ai_content_hash === contentHash) {
+  // is gewijzigd ÉN er geen embeddings meer ontbreken.
+  if (data.ai_status === "done" && data.ai_content_hash === contentHash && !needsEmbedding) {
     stats.skipped++;
     return;
   }
@@ -316,6 +387,29 @@ async function processFile(file, stats) {
     data.ai_content_hash = contentHash;
     data.ai_processed_at = new Date().toISOString();
     data.ai_status = summaryOk && milestonesOk ? "done" : "partial";
+
+    // --- EMBEDDINGS (alleen lange documenten) ---
+    // Losstaand van de summary/milestone-status: ook een 'partial' document mag
+    // gewoon embeddings krijgen. We herberekenen alleen als de content wijzigde.
+    if (content.length > EMBED_THRESHOLD && data.ai_retrieval_hash !== contentHash) {
+      try {
+        await sleep(REQUEST_DELAY_MS);
+        const blob = await buildRetrievalBlob(content, `${file} [embed]`);
+        if (blob) {
+          data.ai_retrieval = blob;
+          data.ai_retrieval_hash = contentHash;
+          console.log(`   🔎 embeddings toegevoegd (${file})`);
+        } else {
+          console.warn(`⚠️  Embeddings overgeslagen voor ${file} (lege of mislukte blob)`);
+        }
+      } catch (err) {
+        console.error(`❌ Embeddings mislukt voor ${file} | ${err.message}`);
+      }
+    } else if (content.length <= EMBED_THRESHOLD && data.ai_retrieval) {
+      // Document is korter geworden en heeft geen retrieval meer nodig: opruimen.
+      delete data.ai_retrieval;
+      delete data.ai_retrieval_hash;
+    }
 
     writeFrontmatter(file, content, data);
 
