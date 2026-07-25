@@ -10,18 +10,18 @@ date: 2026-07-23T00:00:00.000Z
 summary: >-
   Op 2023-07-24 is een Woo-verzoek ingediend bij de gemeente Coevorden over
   correspondentie met de NVWA. Op 2023-08-17 is dit verzoek toegewezen en zijn
-  de gevraagde documenten deels openbaar gemaakt, met uitzondering van
-  persoonsgegevens.
+  de gevraagde documenten, met uitzondering van persoonsgegevens, openbaar
+  gemaakt.
 milestones:
   - date: '2023-07-24'
     event: Woo-verzoek ingediend
   - date: '2023-08-17'
-    event: >-
-      Besluit: verzoek toegewezen en documenten openbaar gemaakt met
-      uitzonderingen
+    event: 'Besluit op Woo-verzoek: toegewezen en openbaarmaking met uitzonderingen'
   - date: '2023-08-21'
     event: Besluit verzonden
-ai_processed_at: '2026-07-23T11:23:06.426Z'
+ai_processed_at: '2026-07-25T13:48:16.676Z'
+ai_content_hash: 1075791cf8022e41
+ai_status: done
 ---
 
 Gemeente

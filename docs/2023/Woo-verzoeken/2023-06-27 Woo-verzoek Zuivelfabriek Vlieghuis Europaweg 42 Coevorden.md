@@ -9,9 +9,9 @@ source: >-
 date: 2026-07-23T00:00:00.000Z
 summary: >-
   Op 2023-04-27 is een Woo-verzoek ingediend over documenten rond KH Dairy
-  Sourcing BV (A-ware) in Coevorden. Op 2023-06-27 is daarop beslist:
-  gedeeltelijke openbaarmaking met toepassing van uitzonderingsgronden, gevolgd
-  door uitgestelde verstrekking van de stukken op 2023-07-13.
+  Sourcing BV/A-ware in Coevorden. Op 2023-06-27 is daarop beslist: de
+  informatie werd deels openbaar gemaakt, met uitgestelde openbaarmaking van
+  enkele दस्तumenten; op 2023-07-13 zijn de stukken uiteindelijk verzonden.
 milestones:
   - date: '2023-04-27'
     event: Woo-verzoek ingediend
@@ -20,8 +20,10 @@ milestones:
       Woo-besluit genomen: gedeeltelijke openbaarmaking en uitgestelde
       verstrekking
   - date: '2023-07-13'
-    event: Stukken na afloop termijn verzonden
-ai_processed_at: '2026-07-23T11:23:59.434Z'
+    event: Stukken na afloop uitstel verzonden
+ai_processed_at: '2026-07-25T13:49:11.910Z'
+ai_content_hash: de1a1495d97f130e
+ai_status: done
 ---
 
 Postadres:

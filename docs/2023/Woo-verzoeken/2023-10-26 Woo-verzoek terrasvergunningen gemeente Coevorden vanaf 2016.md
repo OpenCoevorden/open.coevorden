@@ -10,28 +10,24 @@ date: 2026-07-23T00:00:00.000Z
 summary: >-
   Op 2023-09-30 is een Woo-verzoek ingediend voor alle door de gemeente
   Coevorden afgegeven terrasvergunningen sinds 2016. Op 2023-10-26 is dit
-  verzoek toegewezen en zijn de gevraagde documenten met weglakking van
-  persoonsgegevens verstrekt.
+  verzoek toegewezen en zijn de gevraagde documenten verstrekt, met uitzondering
+  van persoonsgegevens.
 milestones:
-  - date: '2020-02-03'
-    event: Aanvraag terras Drostenstraat 8 ingediend
-  - date: '2020-04-27'
-    event: Aanvraag terras Friesestraat 2 ingediend
   - date: '2020-05-20'
     event: Ontheffing terras Friesestraat 2 verleend
-  - date: '2020-05-26'
+  - date: '2020-05-28'
     event: Ontheffing terras Drostenstraat 8 verleend
-  - date: '2020-06-04'
-    event: Wijzigingsbesluit voorschrift 2 Drostenstraat 8
-  - date: '2022-03-22'
-    event: Aanvraag terras Friesestraat 122 ingediend
+  - date: '2020-06-05'
+    event: Correctie op ontheffing Friesestraat 2 vastgesteld
   - date: '2022-09-20'
     event: Ontheffing terras Friesestraat 122 verleend
   - date: '2023-09-30'
     event: Woo-verzoek ingediend
   - date: '2023-10-26'
     event: 'Woo-besluit: verzoek toegewezen en documenten verstrekt'
-ai_processed_at: '2026-07-23T11:21:23.250Z'
+ai_processed_at: '2026-07-25T13:45:26.073Z'
+ai_content_hash: e0dd86afa96913d1
+ai_status: done
 ---
 
 Gemeente

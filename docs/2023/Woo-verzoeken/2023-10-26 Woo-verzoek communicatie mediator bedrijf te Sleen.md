@@ -17,8 +17,10 @@ milestones:
   - date: '2023-09-30'
     event: Woo-verzoek ingediend
   - date: '2023-10-26'
-    event: 'Besluit: gedeeltelijk toegewezen'
-ai_processed_at: '2026-07-23T11:21:27.351Z'
+    event: 'Besluit: gedeeltelijke toewijzing Woo-verzoek'
+ai_processed_at: '2026-07-25T13:45:29.765Z'
+ai_content_hash: 8b15706c8147934c
+ai_status: done
 ---
 
 Gemeente

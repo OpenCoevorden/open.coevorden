@@ -10,16 +10,18 @@ source: >-
   Drenthe en gemeente over bedrijfsbezoek.pdf
 date: 2026-07-23T00:00:00.000Z
 summary: >-
-  De gemeente Coevorden ontving op 2023-03-24 een Woo-verzoek over communicatie
-  tussen de VRD en de gemeente over de groepsaccommodatie. Op 2023-04-24 is het
-  verzoek toegewezen en zijn twee documenten openbaar gemaakt, met weglakking
-  van persoonsgegevens.
+  Op 2023-03-24 diende betrokkene een Woo-verzoek in over alle communicatie
+  tussen de VRD en de gemeente Coevorden over de groepsaccommodatie. De gemeente
+  besloot het verzoek toe te wijzen en maakte twee documenten openbaar, met
+  uitzondering van persoonsgegevens.
 milestones:
   - date: '2023-03-24'
-    event: Woo-verzoek ingediend en ontvangen
+    event: Woo-verzoek ingediend
   - date: '2023-04-24'
-    event: 'Besluit: Woo-verzoek toegewezen'
-ai_processed_at: '2026-07-23T11:24:18.914Z'
+    event: 'Besluit: verzoek toegewezen en documenten deels openbaar gemaakt'
+ai_processed_at: '2026-07-25T13:49:29.330Z'
+ai_content_hash: d504507ea6a792a3
+ai_status: done
 ---
 
 * Gemeente

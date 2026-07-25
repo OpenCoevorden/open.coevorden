@@ -10,17 +10,19 @@ source: >-
   verkiezingen 1998 tot 2010.pdf
 date: 2026-07-23T00:00:00.000Z
 summary: >-
-  Op 2023-02-27 diende een verzoeker een Woo-verzoek in bij de gemeente
-  Coevorden over verkiezingsuitslagen en processen-verbaal uit 1998-2010. Op
-  2023-03-28 wees de gemeente het verzoek af omdat de gevraagde overzichten niet
-  als bestaande documenten aanwezig waren en processen-verbaal buiten de
-  reikwijdte van de Woo vallen.
+  De gemeente Coevorden ontving op 2023-02-27 een Woo-verzoek over
+  verkiezingsuitslagen en processen-verbaal van 1998 t/m 2010. Op 2023-03-28 is
+  dit verzoek afgewezen omdat de gevraagde overzichten niet als bestaande
+  documenten aanwezig zijn en processen-verbaal buiten de reikwijdte van de Woo
+  vallen.
 milestones:
   - date: '2023-02-27'
     event: Woo-verzoek ingediend
   - date: '2023-03-28'
     event: 'Besluit: Woo-verzoek afgewezen'
-ai_processed_at: '2026-07-23T11:24:44.143Z'
+ai_processed_at: '2026-07-25T13:49:59.838Z'
+ai_content_hash: 75a4e0d0f6aa7154
+ai_status: done
 ---
 
 .7 Gemeente

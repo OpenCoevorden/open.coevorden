@@ -8,16 +8,17 @@ source: >-
   zaakbelasting (OZB).pdf
 date: 2026-07-23T00:00:00.000Z
 summary: >-
-  Stichting Scipova diende op 2023-09-29 een Woo-verzoek in bij de gemeente
-  Coevorden over kwijtscheldingen van OZB voor 2021-2023. De gemeente ontving
-  het verzoek op 2023-10-02 en wees het verzoek vervolgens af bij besluit van
-  2023-10-31.
+  Op 2023-10-02 ontving de gemeente Coevorden een Woo-verzoek over overzichten
+  van kwijtscheldingen OZB voor 2021-2023. Op 2023-10-31 wees de gemeente het
+  verzoek af omdat geen gespecificeerde overzichten beschikbaar waren.
 milestones:
   - date: '2023-09-29'
     event: Woo-verzoek ingediend
   - date: '2023-10-31'
     event: 'Besluit: verzoek afgewezen'
-ai_processed_at: '2026-07-23T11:21:17.337Z'
+ai_processed_at: '2026-07-25T13:45:20.234Z'
+ai_content_hash: 4acd338741a83939
+ai_status: done
 ---
 
 From: info@coevorden.nl

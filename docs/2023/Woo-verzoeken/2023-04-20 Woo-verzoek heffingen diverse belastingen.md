@@ -8,14 +8,17 @@ date: 2026-07-23T00:00:00.000Z
 summary: >-
   Op 2023-03-14 is een Woo-verzoek ingediend bij de gemeente Coevorden over
   aantallen aanslagen, bezwaren en rechtsmiddelen voor diverse heffingen in
-  2018-2020. Op 2023-04-20 is dit verzoek beantwoord en is een verdagingsbrief
-  genoemd die eerder per post is verzonden.
+  2018-2020. Op 2023-04-20 is daarop inhoudelijk geantwoord en is meegedeeld dat
+  voor 2018-2023 geen reinigingsrechten, baatbelasting, precariobelasting en
+  vermakelijkhedenretributie worden geheven.
 milestones:
   - date: '2023-03-14'
     event: Woo-verzoek ingediend
   - date: '2023-04-20'
-    event: Besluit/beantwoording Woo-verzoek
-ai_processed_at: '2026-07-23T11:24:30.965Z'
+    event: Woo-verzoek beantwoord
+ai_processed_at: '2026-07-25T13:49:41.662Z'
+ai_content_hash: e70723162fa36972
+ai_status: done
 ---
 
 1

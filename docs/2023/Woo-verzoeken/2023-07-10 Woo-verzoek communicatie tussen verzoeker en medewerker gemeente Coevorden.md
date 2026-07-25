@@ -11,17 +11,18 @@ source: >-
 date: 2026-07-23T00:00:00.000Z
 summary: >-
   Op 2023-06-18 diende verzoeker een Woo-verzoek in voor een geluidsopname van
-  een telefonisch gesprek en voor alle documenten die zijn gebruikt voor de
-  brief van 2023-06-15. Op 2023-07-10 besloot de gemeente het verzoek
-  gedeeltelijk af te wijzen (geen opname) en gedeeltelijk toe te wijzen door de
-  gevraagde mailwisselingen openbaar te maken, met weglakking van
-  persoonsgegevens.
+  een telefonisch gesprek en de onderliggende documenten voor een brief van
+  2023-06-15. Op 2023-07-10 besliste de gemeente gedeeltelijk af te wijzen en
+  gedeeltelijk toe te wijzen: geen opname beschikbaar, wel verstrekking van
+  e-mailwisselingen met weglakking van persoonsgegevens.
 milestones:
   - date: '2023-06-18'
     event: Woo-verzoek ingediend
   - date: '2023-07-10'
-    event: 'Besluit op Woo-verzoek: gedeeltelijke afwijzing en toewijzing'
-ai_processed_at: '2026-07-23T11:23:49.480Z'
+    event: 'Besluit Woo-verzoek: gedeeltelijk afwijzen en gedeeltelijk toewijzen'
+ai_processed_at: '2026-07-25T13:49:02.276Z'
+ai_content_hash: e48011a6d77878af
+ai_status: done
 ---
 
 A

@@ -10,14 +10,13 @@ source: >-
   handhaving Brink 9 en 9a te Sleen.pdf
 date: 2026-07-23T00:00:00.000Z
 summary: >-
-  In 2022 dienden omwonenden een handhavingsverzoek in over overlast en strijdig
-  gebruik van Brink 9 te Sleen; de gemeente wees dit op 2022-12-05 af en stelde
-  dat het gebruik als groepsaccommodatie was toegestaan, terwijl voor de
-  glijbaan geen handhaving nodig was wegens zicht op legalisatie. In 2023
-  volgden nieuwe handhavingsverzoeken over hotelgebruik en zonnepanelen; op
-  2023-08-09 wees de gemeente het hotelverzoek af en op 2023-08-21 kondigde zij
-  voor de zonnepanelen een last onder dwangsom aan, waarna op 2023-10-25 een
-  Woo-besluit volgde over gedeeltelijke openbaarmaking van documenten.
+  In 2022 dienden omwonenden een handhavingsverzoek in over overlast bij Brink 9
+  te Sleen; de gemeente wees dit op 2022-12-05 af en stelde dat voor het gebruik
+  als groepsaccommodatie geen strijd met het bestemmingsplan bestond. In 2023
+  volgden nieuwe handhavingsverzoeken over hotelgebruik en zonnepanelen, waarna
+  de gemeente op 2023-08-09 het hotel-handhavingsverzoek afwees en op 2023-08-21
+  een voornemen tot last onder dwangsom voor de zonnepanelen stuurde; op
+  2023-10-25 werd het Woo-verzoek deels openbaar gemaakt.
 milestones:
   - date: '2022-06-16'
     event: handhavingsverzoek over overlast Brink 9 ingediend
@@ -36,20 +35,18 @@ milestones:
   - date: '2023-07-06'
     event: handhavingsverzoek over hotelgebruik Brink 9 ingediend
   - date: '2023-07-13'
-    event: >-
-      ontvangstbevestiging handhavingsverzoek en doorzending onderdeel
-      hygiënecode
+    event: ontvangstbevestiging handhavingsverzoek en doorzending hygiënecode
   - date: '2023-07-18'
     event: handhavingsverzoek over zonnepanelen ingediend
   - date: '2023-08-09'
     event: 'besluit op handhavingsverzoek hotelgebruik: afgewezen'
   - date: '2023-08-21'
     event: voornemen last onder dwangsom zonnepanelen
-  - date: '2023-08-21'
-    event: Woo-verzoek ingediend
   - date: '2023-10-25'
-    event: besluit op Woo-verzoek
-ai_processed_at: '2026-07-23T11:21:46.621Z'
+    event: 'Woo-besluit: gedeeltelijke openbaarmaking documenten'
+ai_processed_at: '2026-07-25T13:45:49.464Z'
+ai_content_hash: 20aa4dcac42ed3a0
+ai_status: done
 ---
 
 1

@@ -6,17 +6,20 @@ maps:
 source: 2023/Woo-verzoeken/2023-06-18 Woo-verzoek contacten ambtenaar.pdf
 date: 2026-07-23T00:00:00.000Z
 summary: >-
-  Op 2023-06-18 diende verzoeker een Woo-verzoek in om een geluidsopname en
-  onderliggende documenten rond een brief van 2023-06-15 te ontvangen. Op
-  2023-07-10 besloot de gemeente het verzoek gedeeltelijk af te wijzen en
-  gedeeltelijk toe te wijzen, waarbij de opname werd geweigerd en de beschikbare
-  e-mailwisselingen deels openbaar werden gemaakt.
+  Op 2023-06-18 diende verzoeker een Woo-verzoek in om een geluidsopname van een
+  telefoongesprek en onderliggende documenten voor een eerdere brief te
+  ontvangen. Op 2023-07-10 besloot de gemeente het verzoek gedeeltelijk af te
+  wijzen en gedeeltelijk toe te wijzen: geen opname omdat het gesprek niet was
+  opgenomen, wel verstrekking van e-mailwisselingen met weglakking van
+  persoonsgegevens.
 milestones:
   - date: '2023-06-18'
     event: Woo-verzoek ingediend
   - date: '2023-07-10'
-    event: 'Besluit op Woo-verzoek: gedeeltelijk afgewezen en gedeeltelijk toegewezen'
-ai_processed_at: '2026-07-23T11:24:04.232Z'
+    event: 'Besluit Woo-verzoek: gedeeltelijk afgewezen en gedeeltelijk toegewezen'
+ai_processed_at: '2026-07-25T13:49:16.235Z'
+ai_content_hash: e89490e223a3c122
+ai_status: done
 ---
 
 A

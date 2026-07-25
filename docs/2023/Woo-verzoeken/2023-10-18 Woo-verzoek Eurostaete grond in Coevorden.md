@@ -6,17 +6,21 @@ maps:
 source: 2023/Woo-verzoeken/2023-10-18 Woo-verzoek Eurostaete grond in Coevorden.pdf
 date: 2026-07-23T00:00:00.000Z
 summary: >-
-  De Woo-aanvraag is op 2023-08-21 ingediend en op 2023-10-18 toegewezen,
-  waarbij 166 documenten (gedeeltelijk) openbaar zijn gemaakt met lakking van
-  persoonsgegevens en enkele bedragen. In de stukken staat ook dat eerder op
-  2016-11-21 een Woo-besluit is genomen op een latere
-  aansprakelijkstelling/Woo-verzoek, na een verdaging op 2016-11-07.
+  Het Woo-verzoek is op 2023-08-21 ingediend en op 2023-10-18 toegewezen, met
+  openbaarmaking van 166 documenten deels gelakt wegens persoonsgegevens en
+  financiële belangen. In 2016 volgde een Woo-verzoek met aansprakelijkstelling,
+  waarna de gemeente het verzoek verdagde en op 2016-11-21 deels afwees en deels
+  documenten verstrekte; bezwaar/beroep of uitspraak blijkt niet uit de tekst.
 milestones:
+  - date: '2020-01-01'
+    event: geen relevante Woo-proceduregebeurtenissen na 2020 aangetroffen
   - date: '2023-08-21'
     event: Woo-verzoek ingediend
   - date: '2023-10-18'
-    event: 'Besluit Woo-verzoek: toegewezen en documenten deels openbaar gemaakt'
-ai_processed_at: '2026-07-23T11:22:46.610Z'
+    event: 'Besluit Woo-verzoek: toegewezen, 166 documenten gedeeltelijk openbaar'
+ai_processed_at: '2026-07-25T13:47:34.171Z'
+ai_content_hash: 1fe12bcc792e28bf
+ai_status: done
 ---
 
 Postadres:

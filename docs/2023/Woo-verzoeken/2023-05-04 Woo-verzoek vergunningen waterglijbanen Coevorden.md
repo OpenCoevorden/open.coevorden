@@ -8,17 +8,19 @@ source: >-
   Coevorden.pdf
 date: 2026-07-23T00:00:00.000Z
 summary: >-
-  De Woo-aanvraag is op 2023-03-24 ingediend en de beslistermijn is op
+  De Woo-aanvraag is op 2023-03-24 ontvangen en de beslistermijn is op
   2023-04-20 met 2 weken verlengd. Op 2023-05-04 is het verzoek toegewezen en
-  zijn de gevraagde documenten per e-mail verstrekt.
+  zijn het besluit en de bijlagen per e-mail verzonden.
 milestones:
   - date: '2023-03-24'
     event: Woo-verzoek ingediend
   - date: '2023-04-20'
     event: Beslistermijn verlengd met 2 weken
   - date: '2023-05-04'
-    event: Besluit op Woo-verzoek genomen en verzonden
-ai_processed_at: '2026-07-23T11:24:09.251Z'
+    event: Woo-besluit genomen en verzonden
+ai_processed_at: '2026-07-25T13:49:21.091Z'
+ai_content_hash: 284ac1bc12383b74
+ai_status: done
 ---
 
 1

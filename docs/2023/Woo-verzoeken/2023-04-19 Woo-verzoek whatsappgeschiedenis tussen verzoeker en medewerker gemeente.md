@@ -10,16 +10,18 @@ source: >-
   verzoeker en medewerker gemeente.pdf
 date: 2026-07-23T00:00:00.000Z
 summary: >-
-  Op 2023-03-24 is een Woo-verzoek ingediend voor de volledige
+  Op 2023-03-24 is een Woo-verzoek ingediend over de volledige
   WhatsApp-geschiedenis tussen 2022-02-01 en 2023-03-24. Op 2023-04-17 heeft de
-  gemeente het verzoek toegewezen en de gevraagde chatgeschiedenis deels
-  openbaar gemaakt met weglakking van persoonsgegevens.
+  gemeente het verzoek toegewezen en de gevraagde documenten deels openbaar
+  gemaakt met weglakking van persoonsgegevens.
 milestones:
   - date: '2023-03-24'
     event: Woo-verzoek ingediend
   - date: '2023-04-17'
-    event: 'Besluit: verzoek toegewezen'
-ai_processed_at: '2026-07-23T11:24:35.497Z'
+    event: 'Besluit: Woo-verzoek toegewezen'
+ai_processed_at: '2026-07-25T13:49:45.469Z'
+ai_content_hash: 71594cbe73e972cb
+ai_status: done
 ---
 
 Gemeente

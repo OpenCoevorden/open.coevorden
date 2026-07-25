@@ -10,16 +10,17 @@ source: >-
   Coevorden adres te Sleen.pdf
 date: 2026-07-23T00:00:00.000Z
 summary: >-
-  De gemeente Coevorden ontving op 2023-03-24 een Woo-verzoek over communicatie
-  met de NVWA over een groepsaccommodatie en besloot dit verzoek toe te wijzen.
-  Daarbij werden drie e-mails openbaar gemaakt, met weglakking van
+  Het Woo-verzoek is op 2023-03-24 ontvangen en op 2023-04-24 toegewezen. De
+  gemeente maakte drie NVWA-e-mails openbaar, met weglakking van
   persoonsgegevens.
 milestones:
   - date: '2023-03-24'
     event: Woo-verzoek ingediend
   - date: '2023-04-24'
-    event: 'Woo-besluit: verzoek toegewezen'
-ai_processed_at: '2026-07-23T11:24:23.314Z'
+    event: 'Besluit: verzoek toegewezen'
+ai_processed_at: '2026-07-25T13:49:33.308Z'
+ai_content_hash: af7ae79a0c230b59
+ai_status: done
 ---
 
 Gemeente

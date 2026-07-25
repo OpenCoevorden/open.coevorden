@@ -9,15 +9,19 @@ source: >-
 date: 2026-07-23T00:00:00.000Z
 summary: >-
   Op 2023-08-23 is een Woo-verzoek ingediend over de verkiezing voor het
-  dorpsbudget van Schoonoord in 2022. Op 2023-09-05 is dit verzoek afgewezen
-  omdat de gemeente geen informatie over de stemming had en geen partij was bij
-  de lokale procedure.
+  dorpsbudget van Schoonoord in 2022. De gemeente heeft op 2023-09-05 laten
+  weten de gevraagde informatie niet te kunnen verstrekken, waarna op 2023-11-21
+  nog een vervolgbericht is verzonden.
 milestones:
   - date: '2023-08-23'
-    event: indiening Woo-verzoek
+    event: Woo-verzoek ingediend
   - date: '2023-09-05'
-    event: 'besluit: informatie niet verstrekt'
-ai_processed_at: '2026-07-23T11:22:50.768Z'
+    event: 'Besluit/afwijzende reactie: informatie niet verstrekt'
+  - date: '2023-11-21'
+    event: Vervolgbericht verzonden
+ai_processed_at: '2026-07-25T13:47:56.151Z'
+ai_content_hash: e2264b8edb48f447
+ai_status: done
 ---
 
 1

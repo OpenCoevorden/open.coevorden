@@ -10,48 +10,52 @@ source: >-
   notulen, handhavingsopdrachten vanaf 18-12-2022.pdf
 date: 2026-07-23T00:00:00.000Z
 summary: >-
-  De gemeente Coevorden ontving op 2023-04-17 een Woo-verzoek over bungalowpark
-  Wico/Vitale Vakantieparken en verlengde de behandeltermijn op 2023-05-09. Op
-  2023-07-27 volgde het besluit: deels openbaarmaking, deels anonimisering en
-  uitgestelde openbaarmaking voor een deel van de documenten.
+  Op 2023-04-17 is een Woo-verzoek ingediend over bungalowpark Wico en Vitale
+  Vakantieparken in de gemeente Coevorden. Op 2023-07-27 heeft de gemeente
+  daarop beslist: deels openbaarmaking, deels anonimisering en uitgestelde
+  openbaarmaking voor één document.
 milestones:
   - date: '2023-03-08'
-    event: Brief aan bewoners/eigenaren over park Wico verzonden
+    event: brief aan bewoners/eigenaren over Wico en traject naar recreatie
   - date: '2023-03-20'
-    event: Verzoek om informatie over factsheet/rapport Wico
-  - date: '2023-03-20'
-    event: >-
-      Gemeente vraagt RO/juridisch advies over permanente bewoning dienstwoning
-      Slenerweg 83
+    event: verzoek om stukken over Wico en reactie gemeente met toelichting beleid
   - date: '2023-03-22'
-    event: Gesprek over park Wico gevoerd
+    event: gesprek over park Wico en toekomstplan
   - date: '2023-03-24'
-    event: Verzoek om gesprek over brief Wico ingediend
+    event: verzoek om afspraak voor gesprek bij bewoners thuis
   - date: '2023-03-27'
-    event: Gesprekken op het park gepland/uitgevoerd
+    event: bezoek op het park voor gesprekken met bewoners/eigenaren
   - date: '2023-04-03'
     event: >-
-      Verzoek om kopie gespreksformulier en onderbouwing terugkeer naar
+      verzoek om kopie gespreksformulier en onderbouwing terugkeer naar
       recreatie
   - date: '2023-04-05'
-    event: >-
-      Gemeente verstrekt toelichting: beleid blijft recreatie, huidige
-      bestemming wijzigt niet
+    event: gemeente verstrekt nadere toelichting en stukken over Wico
+  - date: '2023-04-07'
+    event: verzoek om afspraak voor gesprek over handhaving en toekomstplan
+  - date: '2023-04-12'
+    event: gemeente plant persoonlijk gesprek in over plannen en verwachtingen
   - date: '2023-04-13'
-    event: Verzoek om formulering over handhaving te herzien
-  - date: '2023-04-15'
+    event: reactie op gemeentelijke formulering over handhaving en toekomstplan
+  - date: '2023-04-17'
     event: Woo-verzoek ingediend
   - date: '2023-04-20'
     event: >-
-      Samenvatting gesprek: permanente bewoning wordt beëindigd en toekomstplan
+      gemeente bevestigt dat permanente bewoning wordt beëindigd en toekomstplan
       volgt
   - date: '2023-05-09'
-    event: Behandeltermijn verlengd
+    event: Behandeltermijn verlengd met 2 weken
   - date: '2023-05-25'
     event: Behandeltermijn opgeschort wegens zienswijzeronde
+  - date: '2023-07-05'
+    event: Aanvullende zienswijzeronde aangekondigd voor extra aangetroffen stukken
   - date: '2023-07-27'
-    event: Besluit op Woo-verzoek genomen
-ai_processed_at: '2026-07-23T11:23:40.843Z'
+    event: >-
+      Besluit op Woo-verzoek genomen; deels openbaarmaking en deels uitgestelde
+      openbaarmaking
+ai_processed_at: '2026-07-25T13:48:42.759Z'
+ai_content_hash: 2a74462371a3fff2
+ai_status: done
 ---
 
 Postadres:

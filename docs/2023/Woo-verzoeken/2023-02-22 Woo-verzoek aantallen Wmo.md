@@ -7,7 +7,7 @@ source: 2023/Woo-verzoeken/2023-02-22 Woo-verzoek aantallen Wmo.pdf
 date: 2026-07-23T00:00:00.000Z
 summary: >-
   Op 2023-02-04 is een Woo-verzoek ingediend bij de gemeente Coevorden over
-  Wmo-aanvragen in 2020, 2021 en 2022. Op 2023-02-22 is dit verzoek toegewezen
+  aantallen Wmo-aanvragen in 2020-2022. Op 2023-02-22 is het verzoek toegewezen
   en zijn overzichten met gegevens openbaar gemaakt, met weglakking van
   nationale identificatienummers.
 milestones:
@@ -15,7 +15,9 @@ milestones:
     event: Woo-verzoek ingediend
   - date: '2023-02-22'
     event: 'Besluit: Woo-verzoek toegewezen'
-ai_processed_at: '2026-07-23T11:24:48.536Z'
+ai_processed_at: '2026-07-25T13:50:04.320Z'
+ai_content_hash: db8d3b22a3c9af80
+ai_status: done
 ---
 
 Gemeente

@@ -12,8 +12,10 @@ milestones:
   - date: '2023-03-09'
     event: Woo-verzoek ingediend
   - date: '2023-04-20'
-    event: 'Besluit: verzoek afgewezen'
-ai_processed_at: '2026-07-23T11:24:27.037Z'
+    event: Woo-verzoek afgewezen
+ai_processed_at: '2026-07-25T13:49:37.286Z'
+ai_content_hash: 243b5d6b5825bd53
+ai_status: done
 ---
 
 Postadres:
