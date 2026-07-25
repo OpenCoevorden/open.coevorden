@@ -1,4 +1,5 @@
 import fs from "fs";
+import crypto from "crypto";
 import matter from "gray-matter";
 import OpenAI from "openai";
 import { globSync } from "glob";
@@ -6,27 +7,59 @@ import pLimit from "p-limit";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-/* CONFIG */
-const MODEL = "gpt-5.4-mini";
-const MAX_CONCURRENT = 1;
-const MAX_TOKENS_PER_REQUEST = 50000; // Veiligheidsmarge voor milestones
-const MAX_SUMMARY_TOKENS = 30000;    // Harde bovengrens voor de samenvatting
+/* ------------------ CONFIG ------------------ */
+
+const MODEL = process.env.AI_MODEL || "gpt-5.4-mini";
+const MAX_CONCURRENT = parseInt(process.env.CONCURRENCY || "1", 10);
+const MAX_TOKENS_PER_REQUEST = parseInt(process.env.MAX_TOKENS_PER_REQUEST || "50000", 10); // Veiligheidsmarge voor milestones
+const MAX_SUMMARY_TOKENS = parseInt(process.env.MAX_SUMMARY_TOKENS || "30000", 10); // Harde bovengrens voor de samenvatting
+const MAX_CHUNKS_PER_FILE = parseInt(process.env.MAX_CHUNKS_PER_FILE || "6", 10);
+const REQUEST_DELAY_MS = parseInt(process.env.REQUEST_DELAY_MS || "1500", 10);
 const DOC_YEAR = process.env.DOC_YEAR || "2023";
+const DRY_RUN = process.env.DRY_RUN === "1";
+
+const SYSTEM_PROMPT =
+  "Je bent een expert in Nederlandse Woo-dossiers. Taak: Extraheer een chronologische tijdlijn en samenvatting. " +
+  "Neem alleen kerngebeurtenissen op: indiening aanvraag, besluit, bezwaar/beroep, uitspraak, verlenging, intrekking. " +
+  "Laat proceduregebeurtenissen zoals ontvangstbevestigingen, interne herinneringen en correspondentie zonder inhoudelijke wijziging weg. " +
+  "Gebruik ISO datums (YYYY-MM-DD). Negeer vóór 2020.";
 
 /* ------------------ UTIL ------------------ */
 
 const estimateTokens = (text) => Math.ceil(text.length / 4);
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-function normalizeDate(dateStr) {
-  if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) return dateStr;
-  return null;
+function hashContent(content) {
+  return crypto.createHash("sha256").update(content).digest("hex").slice(0, 16);
 }
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+// Lenient ISO-datum parser: accepteert ook niet-gepadde vormen zoals "2023-1-5"
+function normalizeDate(dateStr) {
+  if (typeof dateStr !== "string") return null;
+  const m = dateStr.trim().match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+  if (!m) return null;
+  const year = parseInt(m[1], 10);
+  const month = parseInt(m[2], 10);
+  const day = parseInt(m[3], 10);
+  if (month < 1 || month > 12 || day < 1 || day > 31) return null;
+  return `${year}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+}
+
+function writeFrontmatter(file, content, data) {
+  if (DRY_RUN) {
+    console.log(`   (dry-run) zou schrijven: ${file}`);
+    return;
+  }
+  // Atomic write: eerst naar tmp-bestand, dan renamen. Voorkomt corrupte
+  // .md bestanden als het proces halverwege een write crasht.
+  const tmpFile = `${file}.tmp`;
+  fs.writeFileSync(tmpFile, matter.stringify(content, data));
+  fs.renameSync(tmpFile, file);
+}
 
 /* ------------------ RETRY WRAPPER ------------------ */
 
-async function withRetry(fn, retries = 5) {
+async function withRetry(fn, label, retries = 5) {
   let lastErr;
   for (let i = 0; i < retries; i++) {
     try {
@@ -37,14 +70,14 @@ async function withRetry(fn, retries = 5) {
       const isContext = err?.status === 400 || err?.message?.includes("maximum context length");
 
       if (isRateLimit) {
-        console.warn(`⏳ Rate limit geraakt. Wachten... (${i + 1}/${retries})`);
+        console.warn(`⏳ Rate limit geraakt (${label}). Wachten... (${i + 1}/${retries})`);
         await sleep(2000 * Math.pow(2, i));
         continue;
       }
-      
+
       if (isContext) {
-        console.warn("⚠️ Context te groot, blok overgeslagen.");
-        return null; 
+        console.warn(`⚠️  Context te groot (${label}), blok overgeslagen.`);
+        return null;
       }
       throw err;
     }
@@ -54,29 +87,40 @@ async function withRetry(fn, retries = 5) {
 
 /* ------------------ CHUNKING & FILTERING ------------------ */
 
+// Alleen ondubbelzinnige boilerplate wordt weggegooid. Als een paragraaf óók
+// een datum of een inhoudelijk keyword bevat, blijft hij staan — we willen
+// nooit een echte gebeurtenis kwijtraken omdat er toevallig een standaardzin
+// naast staat.
+const IMPORTANT_RX =
+  /\b(woo|besluit|verzoek|publicatie|termijn|afgehandeld|vastgesteld|toegekend|verlengd|ingetrokken|bezwaar|beroep|uitspraak|zienswijze)\b/i;
+
+const DATE_RX =
+  /(\d{4}-\d{2}-\d{2})|(\d{1,2}\s*(?:jan(?:uari)?|feb(?:ruari)?|mrt|maart|apr(?:il)?|mei|jun[i]?|jul[i]?|aug(?:ustus)?|sep(?:tember)?|okt(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s*\d{4})/i;
+
+const BOILERPLATE_RX = [
+  /wettelijk kader.{0,20}artikel 5\./i,
+  /aan deze brief kunnen geen rechten worden ontleend/i,
+  /voor (algemene )?vragen kunt u (contact opnemen|bellen)/i,
+  /^\s*ontvangstbevestiging\s*$/i,
+];
+
 function extractRelevantBlocks(text) {
-  const ignore = /bezwaar en beroep|wettelijk kader|artikel 5\./i;
-  const important = /woo|besluit|verzoek|publicatie|termijn|afgehandeld|vastgesteld|toegekend|verlengd/i;
-  const date = /\d{1,2}[-/\s](jan|feb|maa|apr|mei|jun|jul|aug|sep|okt|nov|dec|[0-9]{1,2})[-/\s]\d{4}/i;
-
-  const paragraphs = text.split(/\n\s*\n/);
-
-  const scored = paragraphs
-    .map((p) => {
-      let score = 0;
-      if (ignore.test(p)) score -= 5;
-      if (important.test(p)) score += 3;
-      if (date.test(p)) score += 5;
-      if (p.length > 80) score += 1;
-      return { text: p.trim(), score };
-    })
-    .filter((p) => p.score > 0)
-    .sort((a, b) => b.score - a.score);
-
-  return scored.map((p) => p.text);
+  return text
+    .split(/\n\s*\n/)
+    .map((p) => p.trim())
+    .filter((p) => p.length > 0)
+    .filter((p) => {
+      const hasSignal = IMPORTANT_RX.test(p) || DATE_RX.test(p) || p.length > 80;
+      const isPureBoilerplate =
+        BOILERPLATE_RX.some((rx) => rx.test(p)) && !DATE_RX.test(p) && !IMPORTANT_RX.test(p);
+      return hasSignal && !isPureBoilerplate;
+    });
 }
 
 function buildSafeChunks(blocks) {
+  // Blocks staan in originele documentvolgorde (chronologisch), dus chunks
+  // dat ook. Dit voorkomt dat een datum en de bijbehorende gebeurtenis in
+  // verschillende, ver uit elkaar verwerkte chunks belanden.
   const chunks = [];
   let current = [];
   let tokens = 0;
@@ -84,14 +128,13 @@ function buildSafeChunks(blocks) {
   for (const block of blocks) {
     const t = estimateTokens(block);
 
-    // FIX: Als 1 blok extreem groot is (bijv. geen alinea-scheidingen in de PDF)
-    // Knippen we het hier geforceerd in kleinere stukken om crashes te voorkomen.
+    // Eén blok is extreem groot (bijv. geen alinea-scheidingen in de PDF):
+    // geforceerd in kleinere stukken knippen om crashes te voorkomen.
     if (t > MAX_TOKENS_PER_REQUEST) {
       let remainingText = block;
+      const sliceSize = MAX_TOKENS_PER_REQUEST * 4;
       while (remainingText.length > 0) {
-        const sliceSize = MAX_TOKENS_PER_REQUEST * 4; // Max karakters per veilige chunk
-        const piece = remainingText.substring(0, sliceSize);
-        chunks.push([piece]);
+        chunks.push([remainingText.substring(0, sliceSize)]);
         remainingText = remainingText.substring(sliceSize);
       }
       continue;
@@ -136,27 +179,41 @@ function extractSummaryBlocksSmart(text) {
 
 /* ------------------ AI ------------------ */
 
-async function analyzeContent(textBlocks) {
-  if (!textBlocks || textBlocks.length === 0) return null;
-  
+async function analyzeContent(textBlocks, label = "") {
+  const isEmpty =
+    !textBlocks ||
+    (Array.isArray(textBlocks) && textBlocks.length === 0) ||
+    (typeof textBlocks === "string" && textBlocks.trim().length === 0);
+  if (isEmpty) return null;
+
   return withRetry(async () => {
     const response = await openai.chat.completions.create({
       model: MODEL,
       temperature: 0,
       response_format: { type: "json_object" },
       messages: [
-        {
-          role: "system",
-          content: "Je bent een expert in Nederlandse Woo-dossiers. Taak: Extraheer een chronologische tijdlijn en samenvatting. Neem alleen kerngebeurtenissen op: indiening aanvraag, besluit, bezwaar/beroep, uitspraak, verlenging, intrekking. Laat proceduregebeurtenissen zoals ontvangstbevestigingen, interne herinneringen en correspondentie zonder inhoudelijke wijziging weg. Gebruik ISO datums (YYYY-MM-DD). Negeer vóór 2020.",
-        },
+        { role: "system", content: SYSTEM_PROMPT },
         {
           role: "user",
-          content: `Geef STRICT JSON:\n{\n  "summary": "max 2 zinnen",\n  "milestones": [{ "date": "YYYY-MM-DD", "event": "kort" }]\n}\n\nTEKST:\n${Array.isArray(textBlocks) ? textBlocks.join("\n\n") : textBlocks}`,
+          content: `Geef STRICT JSON:\n{\n  "summary": "max 2 zinnen",\n  "milestones": [{ "date": "YYYY-MM-DD", "event": "kort" }]\n}\n\nTEKST:\n${
+            Array.isArray(textBlocks) ? textBlocks.join("\n\n") : textBlocks
+          }`,
         },
       ],
     });
-    return JSON.parse(response.choices[0].message.content);
-  });
+
+    const raw = response.choices?.[0]?.message?.content;
+    if (!raw) {
+      console.warn(`⚠️  Lege AI-response (${label})`);
+      return null;
+    }
+    try {
+      return JSON.parse(raw);
+    } catch (err) {
+      console.warn(`⚠️  Ongeldige JSON van model (${label}): ${err.message}`);
+      return null;
+    }
+  }, label);
 }
 
 /* ------------------ CLEANING ------------------ */
@@ -166,10 +223,10 @@ function cleanMilestones(milestones) {
   return milestones
     .map((m) => ({
       date: normalizeDate(m.date),
-      event: m.event?.trim(),
+      event: typeof m.event === "string" ? m.event.trim() : String(m.event ?? "").trim(),
     }))
-    .filter((m) => m.date && m.event)
-    .filter((m) => parseInt(m.date.slice(0, 4)) >= 2020)
+    .filter((m) => m.date && m.event.length > 0)
+    .filter((m) => parseInt(m.date.slice(0, 4), 10) >= 2020)
     .filter((m) => {
       const id = `${m.date}-${m.event.toLowerCase()}`;
       if (seen.has(id)) return false;
@@ -181,33 +238,74 @@ function cleanMilestones(milestones) {
 
 /* ------------------ FILE PROCESSING ------------------ */
 
-async function processFile(file) {
+async function processFile(file, stats) {
+  let data, content;
   try {
     const raw = fs.readFileSync(file, "utf8");
-    const { data, content } = matter(raw);
+    ({ data, content } = matter(raw));
+  } catch (err) {
+    console.error(`❌ Kan bestand niet lezen: ${file} | ${err.message}`);
+    stats.failed++;
+    return;
+  }
 
-    if ((data.summary && data.summary.trim().length > 0) || (Array.isArray(data.milestones) && data.milestones.length > 0)) {
-      return; // Skip al verwerkte bestanden
+  const contentHash = hashContent(content);
+
+  // Skip alleen als eerder succesvol verwerkt ÉN de content sindsdien niet
+  // is gewijzigd. Dit vervangt de oude OR-check die bestanden met een
+  // mislukte helft permanent oversloeg.
+  if (data.ai_status === "done" && data.ai_content_hash === contentHash) {
+    stats.skipped++;
+    return;
+  }
+
+  try {
+    const blocks = extractRelevantBlocks(content);
+
+    if (blocks.length === 0) {
+      console.warn(`⚠️  Geen relevante content gevonden, overgeslagen: ${file}`);
+      data.ai_status = "no_content";
+      data.ai_content_hash = contentHash;
+      data.ai_processed_at = new Date().toISOString();
+      writeFrontmatter(file, content, data);
+      stats.noContent++;
+      return;
     }
 
-    const blocks = extractRelevantBlocks(content);
-    if (blocks.length === 0) return;
-
     // --- SUMMARY ---
-    const summaryInput = extractSummaryBlocksSmart(content);
-    const summaryResult = await analyzeContent(summaryInput);
-    const summary = summaryResult?.summary || "";
+    let summary = "";
+    let summaryOk = false;
+    try {
+      const summaryInput = extractSummaryBlocksSmart(content);
+      const summaryResult = await analyzeContent(summaryInput, `${file} [summary]`);
+      summary = summaryResult?.summary?.trim() || "";
+      summaryOk = summary.length > 0;
+    } catch (err) {
+      console.error(`❌ Summary mislukt voor ${file} | ${err.message}`);
+    }
 
     // --- MILESTONES ---
     const chunks = buildSafeChunks(blocks);
-    let allMilestones = [];
-    const MAX_CHUNKS_PER_FILE = 3;
+    const chunksToProcess = chunks.slice(0, MAX_CHUNKS_PER_FILE);
+    if (chunks.length > MAX_CHUNKS_PER_FILE) {
+      console.warn(
+        `⚠️  ${file}: ${chunks.length} chunks gevonden, slechts ${MAX_CHUNKS_PER_FILE} verwerkt ` +
+          `(zet MAX_CHUNKS_PER_FILE hoger als dit document waarschijnlijk milestones mist).`
+      );
+    }
 
-    for (const chunk of chunks.slice(0, MAX_CHUNKS_PER_FILE)) {
-      await sleep(1500); // Iets langere pauze om de Rate Limit (TPM) te sparen
-      const result = await analyzeContent(chunk);
-      if (result?.milestones?.length) {
-        allMilestones.push(...result.milestones);
+    let allMilestones = [];
+    let milestonesOk = true;
+    for (const [i, chunk] of chunksToProcess.entries()) {
+      await sleep(REQUEST_DELAY_MS);
+      try {
+        const result = await analyzeContent(chunk, `${file} [chunk ${i + 1}/${chunksToProcess.length}]`);
+        if (result?.milestones?.length) {
+          allMilestones.push(...result.milestones);
+        }
+      } catch (err) {
+        console.error(`❌ Milestone-chunk ${i + 1} mislukt voor ${file} | ${err.message}`);
+        milestonesOk = false;
       }
     }
 
@@ -215,25 +313,68 @@ async function processFile(file) {
 
     data.summary = summary;
     data.milestones = cleaned;
+    data.ai_content_hash = contentHash;
     data.ai_processed_at = new Date().toISOString();
-    delete data.ai_hash;
+    data.ai_status = summaryOk && milestonesOk ? "done" : "partial";
 
-    fs.writeFileSync(file, matter.stringify(content, data));
-    console.log(`✅ Updated: ${file}`);
-    
+    writeFrontmatter(file, content, data);
+
+    if (data.ai_status === "done") {
+      console.log(`✅ ${file} (${cleaned.length} milestones)`);
+      stats.done++;
+    } else {
+      console.log(`🟡 ${file} deels verwerkt (${cleaned.length} milestones) — zie logs hierboven`);
+      stats.partial++;
+    }
   } catch (err) {
-    console.error(`❌ Failed: ${file} | Reden: ${err.message}`);
+    console.error(`❌ Onverwachte fout bij ${file} | ${err.message}`);
+    stats.failed++;
   }
 }
 
 /* ------------------ MAIN ------------------ */
 
 async function main() {
+  if (!process.env.OPENAI_API_KEY) {
+    console.error("❌ OPENAI_API_KEY ontbreekt. Zet deze environment variable en probeer opnieuw.");
+    process.exit(1);
+  }
+
   const files = globSync(`docs/${DOC_YEAR}/**/*.md`);
+  if (files.length === 0) {
+    console.warn(`⚠️  Geen .md bestanden gevonden voor docs/${DOC_YEAR}/**/*.md — klopt DOC_YEAR ("${DOC_YEAR}")?`);
+    return;
+  }
+
+  console.log(
+    `📂 ${files.length} bestand(en) gevonden voor jaar ${DOC_YEAR}${DRY_RUN ? " (DRY RUN, er wordt niets weggeschreven)" : ""}`
+  );
+
+  const stats = { done: 0, partial: 0, noContent: 0, skipped: 0, failed: 0 };
   const limit = pLimit(MAX_CONCURRENT);
 
-  await Promise.all(files.map((f) => limit(() => processFile(f))));
-  console.log("Gereed.");
+  const results = await Promise.allSettled(files.map((f) => limit(() => processFile(f, stats))));
+  results.forEach((r, i) => {
+    if (r.status === "rejected") {
+      console.error(`❌ Onverwachte fout bij ${files[i]}: ${r.reason?.message || r.reason}`);
+      stats.failed++;
+    }
+  });
+
+  console.log("\n──────── Samenvatting ────────");
+  console.log(`✅ Volledig verwerkt : ${stats.done}`);
+  console.log(`🟡 Deels verwerkt    : ${stats.partial}`);
+  console.log(`⚪ Geen content      : ${stats.noContent}`);
+  console.log(`⏭️  Overgeslagen      : ${stats.skipped}`);
+  console.log(`❌ Mislukt           : ${stats.failed}`);
+  console.log("───────────────────────────────");
+
+  if (stats.partial > 0 || stats.failed > 0) {
+    console.log("Tip: draai het script opnieuw — bestanden met status 'partial' of een leesfout worden automatisch herpakt.");
+  }
 }
 
-main();
+main().catch((err) => {
+  console.error("❌ Fatale fout:", err);
+  process.exit(1);
+});
