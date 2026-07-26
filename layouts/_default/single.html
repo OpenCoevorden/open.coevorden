@@ -580,18 +580,33 @@
         const START_MESSAGE = "Stel hier met AI een vraag over bovenstaand document.";
 
         /*
-         * CONTEXT-STRATEGIE
-         * -----------------
-         * Korte documenten sturen we volledig mee (huidig gedrag).
-         * Te lange documenten worden NIET meer botweg afgekapt met slice(0, N) —
-         * dan verdween alles voorbij de limiet en faalden vragen over het einde
-         * van een dossier stil. In plaats daarvan halen we per vraag alleen de
-         * best passende alinea's op (woord-overlap) en sturen die, samen met het
-         * begin van het document als anker voor overzichtsvragen.
+         * CONTEXT-STRATEGIE  (BM25 + lichte NL-stemmer + synoniemen)
+         * ----------------------------------------------------------
+         * Korte documenten sturen we volledig mee.
+         * Te lange documenten worden NIET afgekapt met slice(0, N) — dan verdween
+         * alles voorbij de limiet en faalden vragen over het einde van een dossier
+         * stil. In plaats daarvan halen we per vraag de best passende alinea's op
+         * en sturen die, samen met het begin van het document als anker voor
+         * overzichtsvragen.
+         *
+         * De relevantiebepaling is bewust een klassieke tekst-ranking (BM25) i.p.v.
+         * embeddings: geen tweede API-call op query-time, geen sync-drift tussen
+         * frontend/backend, en de HTML blijft licht. Drie lagen tillen het boven
+         * naïeve woord-overlap uit:
+         *   1. Lichte Nederlandse stemmer — laat inflectievarianten samenvallen
+         *      (vergunning/vergunningen/vergund, besluit/besluiten, dwangsom/
+         *      dwangsommen). Onregelmatige vormen vangt hij niet.
+         *   2. Synoniem-/begripsgroepen — overbruggen echte woordkeuze-verschillen
+         *      (toestemming↔vergunning, schuurtje↔bijgebouw). Handmatig; makkelijk
+         *      uit te breiden bij gemiste vragen (zie SYNONYM_GROUPS).
+         *   3. BM25 — weegt zeldzame termen zwaarder (IDF), verzadigt herhaling en
+         *      normaliseert op chunk-lengte, i.p.v. elk woord even zwaar te tellen.
          */
         const FULL_LIMIT = 150000;      // Past het document hierin? Stuur alles.
         const RETRIEVE_BUDGET = 40000;  // Te lang? Budget voor opgehaalde stukken.
         const INTRO_CHARS = 3000;       // Begin van het document sturen we altijd mee.
+        const BM25_K1 = 1.5;            // Verzadiging van herhaalde termen.
+        const BM25_B = 0.75;           // Sterkte van lengte-normalisatie.
 
         let chatHistory = [];
         // Onthoudt de vorige vraag zodat vervolgvragen ("en daarna?") met weinig
@@ -599,8 +614,96 @@
         let lastQuestion = "";
 
         const STOPWORDS = new Set(
-            "de het een van en in op te dat die aan met voor is zijn was er of ook naar bij als dan zo om uit over dit deze zijn haar hun ik jij wij zij niet wel maar want dus".split(" ")
+            ("de het een van en in op te dat die aan met voor is zijn was er of ook naar bij als dan " +
+             "zo om uit over dit deze haar hun ik jij wij zij niet wel maar want dus heeft hebben had " +
+             "werd worden wordt geen nog al reeds per tot door tegen onder tussen binnen buiten hierbij " +
+             "daarbij welke wat wie waar wanneer hoe zoals mede tevens alsmede betreffende inzake").split(/\s+/)
         );
+
+        /* --- Normaliseren --- */
+        function stripDiacritics(w) {
+            return w.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        }
+
+        /* --- Lichte Nederlandse stemmer ---
+           Bewust licht en leesbaar i.p.v. volledige Snowball: makkelijker te
+           onderhouden en te controleren. Getest op de gangbare Woo-woordfamilies.
+           Wil je linguïstisch zuiverder resultaat, dan kun je hier een volledige
+           Snowball-NL-implementatie inpluggen zonder de rest te wijzigen. */
+        function undoubleConsonant(w) {
+            return w.replace(/(kk|dd|ff|gg|ll|mm|nn|pp|rr|ss|tt|bb|zz)$/, (m) => m[0]);
+        }
+        function undoubleVowel(w) {
+            if (w.length <= 4) return w;
+            // aa/ee/oo/uu → a/e/o/u (rescue voor open/gesloten-lettergreep-spelling,
+            // bv. aanvraag ↔ aanvragen).
+            return w.replace(/(aa|ee|oo|uu)(?=[bcdfghjklmnpqrstvwxz]*$)/, (m) => m[0]);
+        }
+        function stem(word) {
+            let w = stripDiacritics(word.toLowerCase());
+            if (w.length <= 3) return w;
+            if (/heden$/.test(w) && w.length > 6) {
+                return undoubleVowel(undoubleConsonant(w.slice(0, -5) + "heid"));
+            }
+            w = w.replace(/(etje|pje|kje|tje|je)$/, "");         // verkleinwoorden
+            if (/en$/.test(w) && w.length > 4) w = w.slice(0, -2); // meervoud -en
+            else if (/s$/.test(w) && w.length > 3) w = w.slice(0, -1); // meervoud -s
+            if (/e$/.test(w) && w.length > 4) w = w.slice(0, -1);  // losse -e (finale stap)
+            w = undoubleConsonant(w);
+            w = undoubleVowel(w);
+            return w;
+        }
+
+        /* --- Synoniem-/begripsgroepen (bidirectioneel) ---
+           Raakt een zoekwoord één lid, dan tellen alle leden mee. Klein en
+           handmatig gehouden: breid uit als je systematisch vragen mist. */
+        const SYNONYM_GROUPS = [
+            ["vergunning", "toestemming", "ontheffing", "vergund"],
+            ["bezwaar", "beroep"],
+            ["zienswijze", "reactie"],
+            ["afwijzing", "weigering", "afgewezen", "geweigerd"],
+            ["toekenning", "toegekend", "toewijzing", "verleend"],
+            ["besluit", "beslissing", "besloten"],
+            ["verlenging", "uitstel", "verlengd"],
+            ["intrekking", "intrekken", "ingetrokken"],
+            ["boete", "dwangsom"],
+            ["woning", "huis", "pand", "gebouw"],
+            ["schuur", "schuurtje", "bijgebouw"],
+            ["bouwen", "bouw", "nieuwbouw", "verbouwing"],
+            ["aanvraag", "verzoek", "aangevraagd"],
+        ];
+        const SYNONYM_EXPANSION = (() => {
+            const map = new Map();
+            for (const group of SYNONYM_GROUPS) {
+                const stems = [...new Set(group.map(stem))];
+                for (const s of stems) {
+                    if (!map.has(s)) map.set(s, new Set());
+                    stems.forEach((x) => map.get(s).add(x));
+                }
+            }
+            return map;
+        })();
+
+        /* --- Tokenisatie (stopwoorden eruit, alles gestemd) --- */
+        function tokenize(text) {
+            const raw = text.toLowerCase().match(/[\p{L}\p{N}]{3,}/gu) || [];
+            const out = [];
+            for (const t of raw) {
+                if (STOPWORDS.has(t)) continue;
+                out.push(stem(t));
+            }
+            return out;
+        }
+
+        function queryStems(question) {
+            const base = tokenize(question + " " + lastQuestion);
+            const expanded = new Set(base);
+            for (const s of base) {
+                const syn = SYNONYM_EXPANSION.get(s);
+                if (syn) syn.forEach((x) => expanded.add(x));
+            }
+            return [...expanded];
+        }
 
         function splitIntoChunks(fullText) {
             const paras = fullText.split(/\n+/).map(p => p.trim()).filter(Boolean);
@@ -617,6 +720,36 @@
             return chunks;
         }
 
+        /* --- BM25-ranking over de chunks --- */
+        function bm25Score(chunks, qStems) {
+            const docs = chunks.map((text) => {
+                const toks = tokenize(text);
+                const tf = new Map();
+                for (const t of toks) tf.set(t, (tf.get(t) || 0) + 1);
+                return { len: toks.length, tf };
+            });
+            const N = docs.length || 1;
+            const avgdl = (docs.reduce((s, d) => s + d.len, 0) / N) || 1;
+
+            const idf = new Map();
+            for (const q of qStems) {
+                let n = 0;
+                for (const d of docs) if (d.tf.has(q)) n++;
+                idf.set(q, Math.log(1 + (N - n + 0.5) / (n + 0.5)));
+            }
+
+            return docs.map((d, idx) => {
+                let score = 0;
+                for (const q of qStems) {
+                    const f = d.tf.get(q) || 0;
+                    if (f === 0) continue;
+                    const denom = f + BM25_K1 * (1 - BM25_B + (BM25_B * d.len) / avgdl);
+                    score += idf.get(q) * ((f * (BM25_K1 + 1)) / denom);
+                }
+                return { idx, score };
+            });
+        }
+
         function buildContext(fullText, question) {
             // Kort genoeg: stuur het hele document mee.
             if (fullText.length <= FULL_LIMIT) return fullText;
@@ -624,34 +757,28 @@
             // 1. Splits in stukjes in documentvolgorde (chronologie blijft behouden).
             const chunks = splitIntoChunks(fullText);
 
-            // 2. Bepaal zoekwoorden uit de huidige + vorige vraag.
-            const queryText = (question + " " + lastQuestion).toLowerCase();
-            const qWords = [...new Set(
-                (queryText.match(/[\p{L}\p{N}]{3,}/gu) || []).filter(w => !STOPWORDS.has(w))
-            )];
+            // 2. Zoekwoorden uit huidige + vorige vraag, gestemd en synoniem-uitgebreid.
+            const qStems = queryStems(question);
 
-            // 3. Scoor elk stukje op woord-overlap.
-            const scored = chunks.map((text, idx) => {
-                const lower = text.toLowerCase();
-                const score = qWords.reduce((s, w) => s + (lower.includes(w) ? 1 : 0), 0);
-                return { text, idx, score };
-            });
+            // 3. Scoor met BM25.
+            const scored = bm25Score(chunks, qStems)
+                .map((s) => ({ ...s, text: chunks[s.idx] }));
 
             // 4. Pak de best scorende stukjes tot het budget vol is.
             const budget = RETRIEVE_BUDGET - INTRO_CHARS;
             const picked = [];
             let used = 0;
             for (const c of [...scored].sort((a, b) => b.score - a.score)) {
-                if (c.score === 0 || used + c.text.length > budget) continue;
+                if (c.score <= 0 || used + c.text.length > budget) continue;
                 picked.push(c);
                 used += c.text.length;
             }
 
-            // 5. Terug in documentvolgorde.
+            // 5. Terug in documentvolgorde (chronologie in de context behouden).
             picked.sort((a, b) => a.idx - b.idx);
 
             // 6. Begin van het document altijd meesturen (onderwerp/besluit staat
-            //    meestal vooraan). Als er niets is gevonden, valt de AI hierop terug.
+            //    meestal vooraan). Bij nul treffers valt de AI hierop terug.
             const intro = fullText.slice(0, INTRO_CHARS);
             if (picked.length === 0) return intro;
 
@@ -736,7 +863,9 @@
             document.getElementById('chat-window').setAttribute('aria-busy', 'true');
 
             const contentElement = document.querySelector('[data-pagefind-body]');
-            const pageContent = contentElement ? contentElement.innerText : "";
+            // textContent i.p.v. innerText: het bronelement heeft display:none,
+            // en innerText geeft voor niet-gerenderde elementen "" terug.
+            const pageContent = contentElement ? contentElement.textContent : "";
 
             // Bouw de context op basis van de vraag (retrieval bij lange documenten).
             const context = buildContext(pageContent, question);
