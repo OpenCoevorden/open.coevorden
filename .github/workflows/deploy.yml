@@ -146,7 +146,7 @@ jobs:
           mkdir -p "content/docs/$SYNC_FOLDER"
           # Kopieer alleen de gesyncte map naar de Hugo content
           cp -r "docs/$SYNC_FOLDER/." "content/docs/$SYNC_FOLDER/" 2>/dev/null || true
-          hugo --minify --baseURL "https://d3jow2udcm31b0.cloudfront.net/$SYNC_FOLDER/"
+          hugo --minify --baseURL "https://publicaties-coevorden-site.s3.eu-north-1.amazonaws.com/$SYNC_FOLDER/"
 
       - name: Index with Pagefind
         run: npx pagefind@latest --site public --output-subdir _pagefind
