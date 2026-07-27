@@ -20,7 +20,7 @@ env:
   #
   # Per onderwerp een eigen kopie van deze workflow (deploy-woo.yml,
   # deploy-raadsstukken.yml, ...) met alleen deze regel anders.
-  SYNC_FOLDER: "woo-publicaties/2024"
+  SYNC_FOLDER: "woo-publicaties/2023"
   AWS_DEFAULT_REGION: eu-central-1
 
 jobs:
