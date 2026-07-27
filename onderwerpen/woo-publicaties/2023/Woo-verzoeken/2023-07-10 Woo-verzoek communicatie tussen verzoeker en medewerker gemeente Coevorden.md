@@ -1,9 +1,31 @@
 ---
-title: "2023-07-10 Woo-verzoek communicatie tussen verzoeker en medewerker gemeente Coevorden"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-07-10 Woo-verzoek communicatie tussen verzoeker en medewerker gemeente Coevorden.pdf"
-s3_etag: "6a312306b31266bda7907fcbe0b38c9c"
-date: 2026-07-27
+title: >-
+  2023-07-10 Woo-verzoek communicatie tussen verzoeker en medewerker gemeente
+  Coevorden
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-07-10 Woo-verzoek communicatie tussen
+  verzoeker en medewerker gemeente Coevorden.pdf
+s3_etag: 6a312306b31266bda7907fcbe0b38c9c
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Op 2023-06-18 diende verzoeker een Woo-verzoek in voor een geluidsbestand van
+  een telefonisch gesprek en voor alle documenten die zijn gebruikt voor de
+  brief van 2023-06-15. Op 2023-07-10 besloot de gemeente het verzoek
+  gedeeltelijk af te wijzen en gedeeltelijk toe te wijzen: geen opname
+  beschikbaar, wel verstrekking van de aanwezige mailwisselingen met weglakking
+  van persoonsgegevens.
+milestones:
+  - date: '2023-06-18'
+    event: Woo-verzoek ingediend
+  - date: '2023-07-10'
+    event: 'Besluit: gedeeltelijke afwijzing en gedeeltelijke toewijzing'
+ai_content_hash: fcdd06c83a2e2a11
+ai_processed_at: '2026-07-27T15:23:02.595Z'
+ai_status: done
 ---
 
 A

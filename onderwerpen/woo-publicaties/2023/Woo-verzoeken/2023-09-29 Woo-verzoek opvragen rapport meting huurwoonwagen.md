@@ -1,9 +1,29 @@
 ---
-title: "2023-09-29 Woo-verzoek opvragen rapport meting huurwoonwagen"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-09-29 Woo-verzoek opvragen rapport meting huurwoonwagen.pdf"
-s3_etag: "9d56d9b64cfbc7f828fbff0d8232ead9"
-date: 2026-07-27
+title: 2023-09-29 Woo-verzoek opvragen rapport meting huurwoonwagen
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-09-29 Woo-verzoek opvragen rapport
+  meting huurwoonwagen.pdf
+s3_etag: 9d56d9b64cfbc7f828fbff0d8232ead9
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Op 2023-09-08 diende verzoeker een Woo-verzoek in bij de gemeente Coevorden
+  voor het rapport van de meting in zijn huurwoonwagen. Op 2023-09-29 werd het
+  verzoek toegewezen en werd de rapportage van 2022-11-17 openbaar gemaakt, met
+  uitzondering van persoonsgegevens.
+milestones:
+  - date: '2023-09-08'
+    event: Woo-verzoek ingediend
+  - date: '2023-09-29'
+    event: >-
+      Besluit: Woo-verzoek toegewezen; rapport openbaar gemaakt met weglakking
+      persoonsgegevens
+ai_content_hash: 36563eac5d3d7b8d
+ai_processed_at: '2026-07-27T15:21:37.513Z'
+ai_status: done
 ---
 
 Gemeente

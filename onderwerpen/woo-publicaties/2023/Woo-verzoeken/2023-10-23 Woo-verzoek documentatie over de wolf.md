@@ -1,9 +1,27 @@
 ---
-title: "2023-10-23 Woo-verzoek documentatie over de wolf"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-10-23 Woo-verzoek documentatie over de wolf.pdf"
-s3_etag: "38a1b6dfc77f856440faed7ff8f59040"
-date: 2026-07-27
+title: 2023-10-23 Woo-verzoek documentatie over de wolf
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-10-23 Woo-verzoek documentatie over de
+  wolf.pdf
+s3_etag: 38a1b6dfc77f856440faed7ff8f59040
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Op 2023-09-14 diende verzoeker een Woo-verzoek in over alle stukken rond het
+  onderwerp wolf binnen de gemeente Coevorden. Op 2023-10-23 wees de gemeente
+  het verzoek toe en maakte 8 documenten openbaar, met uitzondering van
+  persoonsgegevens.
+milestones:
+  - date: '2023-09-14'
+    event: Woo-verzoek ingediend
+  - date: '2023-10-23'
+    event: 'Woo-besluit: verzoek toegewezen, documenten verstrekt met uitzonderingen'
+ai_content_hash: 471539be8ac05728
+ai_processed_at: '2026-07-27T15:19:46.977Z'
+ai_status: done
 ---
 
 Postadres:

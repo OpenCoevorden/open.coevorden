@@ -1,9 +1,63 @@
 ---
-title: "2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen, handhavingsopdrachten vanaf 18-12-2022"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen, handhavingsopdrachten vanaf 18-12-2022.pdf"
-s3_etag: "ecd3ea39e3b2036122bf158eb25dc59d"
-date: 2026-07-27
+title: >-
+  2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen,
+  handhavingsopdrachten vanaf 18-12-2022
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-07-27 Woo-verzoek bungalowpark WICO,
+  notities, notulen, handhavingsopdrachten vanaf 18-12-2022.pdf
+s3_etag: ecd3ea39e3b2036122bf158eb25dc59d
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over bungalowpark Wico is ingediend op 2023-04-15 en op
+  2023-07-27 beslist, waarbij documenten deels openbaar zijn gemaakt en voor één
+  document uitgestelde openbaarmaking is toegepast. De beslistermijn is
+  tussentijds verlengd en opgeschort vanwege een zienswijzeronde.
+milestones:
+  - date: '2023-02-20'
+    event: >-
+      Gesprek over park Wico; gemeente kondigt beëindiging permanente bewoning
+      en toekomstplan aan.
+  - date: '2023-03-08'
+    event: >-
+      Brief aan bewoners/eigenaren park Wico verzonden met aankondiging
+      handhaving en terugkeer naar recreatie.
+  - date: '2023-03-17'
+    event: >-
+      Gemeente stuurt nadere toelichting over het Wico-traject en de geplande
+      parkbezoeken.
+  - date: '2023-03-20'
+    event: >-
+      Interne juridische afstemming over de dienstwoning op Slenerweg 83 en
+      permanente bewoning.
+  - date: '2023-03-24'
+    event: Bewoner vraagt om gesprek over de brief en het Wico-traject.
+  - date: '2023-03-27'
+    event: Gemeente is op het park aanwezig voor gesprekken met bewoners/eigenaren.
+  - date: '2023-04-03'
+    event: Verzoek om stukken over de vaststelling dat Wico teruggaat naar recreatie.
+  - date: '2023-04-05'
+    event: >-
+      Gemeente licht toe dat het beleid uit het programmacontract volgt en dat
+      de bestemming van Wico niet wijzigt.
+  - date: '2023-04-13'
+    event: >-
+      Bewoner vraagt om aanpassing van de formulering over handhaving; gemeente
+      reageert dat het traject ongewijzigd blijft.
+  - date: '2023-04-15'
+    event: Woo-verzoek ingediend
+  - date: '2023-05-09'
+    event: Behandeltermijn verlengd
+  - date: '2023-05-25'
+    event: Behandeltermijn opgeschort wegens zienswijzeronde
+  - date: '2023-07-27'
+    event: Besluit op Woo-verzoek genomen
+ai_content_hash: 57b0ac7b3b8df475
+ai_processed_at: '2026-07-27T15:22:43.886Z'
+ai_status: done
 ---
 
 Postadres:

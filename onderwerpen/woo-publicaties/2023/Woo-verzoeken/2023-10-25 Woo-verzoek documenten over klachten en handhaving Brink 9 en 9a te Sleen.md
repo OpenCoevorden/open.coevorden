@@ -1,9 +1,48 @@
 ---
-title: "2023-10-25 Woo-verzoek documenten over klachten en handhaving Brink 9 en 9a te Sleen"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-10-25 Woo-verzoek documenten over klachten en handhaving Brink 9 en 9a te Sleen.pdf"
-s3_etag: "90b73872f82c920bff031c0afd07b43c"
-date: 2026-07-27
+title: >-
+  2023-10-25 Woo-verzoek documenten over klachten en handhaving Brink 9 en 9a te
+  Sleen
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-10-25 Woo-verzoek documenten over
+  klachten en handhaving Brink 9 en 9a te Sleen.pdf
+s3_etag: 90b73872f82c920bff031c0afd07b43c
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  In 2022 dienden omwonenden een handhavingsverzoek in over overlast en vermeend
+  strijdig gebruik van Brink 9 te Sleen; de gemeente wees dit verzoek op
+  2022-12-05 af. In 2023 volgden een nieuw handhavingsverzoek over zonnepanelen
+  en een Woo-verzoek, waarop de gemeente op 2023-08-21 respectievelijk
+  2023-10-25 besliste.
+milestones:
+  - date: '2022-06-16'
+    event: handhavingsverzoek over overlast Brink 9 ingediend
+  - date: '2022-11-04'
+    event: ingebrekestelling wegens te laat beslissen
+  - date: '2022-11-16'
+    event: beroep niet tijdig beslissen ingesteld
+  - date: '2022-12-05'
+    event: 'besluit op handhavingsverzoek: afgewezen'
+  - date: '2023-05-11'
+    event: aanschrijving glijbaan zonder omgevingsvergunning
+  - date: '2023-07-06'
+    event: handhavingsverzoek over hotelgebruik Brink 9 ingediend
+  - date: '2023-07-18'
+    event: handhavingsverzoek over zonnepanelen ingediend
+  - date: '2023-08-09'
+    event: 'besluit op handhavingsverzoek hotelgebruik: afgewezen'
+  - date: '2023-08-21'
+    event: voornemen last onder dwangsom voor zonnepanelen
+  - date: '2023-08-21'
+    event: Woo-verzoek ingediend
+  - date: '2023-10-25'
+    event: 'besluit op Woo-verzoek: gedeeltelijk openbaar gemaakt'
+ai_content_hash: 1f10724b0e093fda
+ai_processed_at: '2026-07-27T15:19:35.752Z'
+ai_status: done
 ---
 
 1

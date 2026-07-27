@@ -1,9 +1,24 @@
 ---
-title: "2023-02-22 Woo-verzoek aantallen Wmo"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-02-22 Woo-verzoek aantallen Wmo.pdf"
-s3_etag: "ebaeed8b4a26395fba1785d321011f18"
-date: 2026-07-27
+title: 2023-02-22 Woo-verzoek aantallen Wmo
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: woo-publicaties/2023/Woo-verzoeken/2023-02-22 Woo-verzoek aantallen Wmo.pdf
+s3_etag: ebaeed8b4a26395fba1785d321011f18
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Op 2023-02-04 is een Woo-verzoek ingediend over Wmo-aanvragen in 2020-2022. Op
+  2023-02-22 is het verzoek toegewezen en zijn documenten openbaar gemaakt met
+  weglakking van nationale identificatienummers.
+milestones:
+  - date: '2023-02-04'
+    event: Woo-verzoek ontvangen
+  - date: '2023-02-22'
+    event: 'Woo-besluit: verzoek toegewezen'
+ai_content_hash: ffb523271e72b81b
+ai_processed_at: '2026-07-27T15:24:16.405Z'
+ai_status: done
 ---
 
 Gemeente

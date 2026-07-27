@@ -1,9 +1,27 @@
 ---
-title: "2023-10-31 Woo-verzoek kwijtscheldingen onroerende zaakbelasting (OZB)"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-10-31 Woo-verzoek kwijtscheldingen onroerende zaakbelasting (OZB).pdf"
-s3_etag: "eb426c081638324af9526d3eb22b9d1c"
-date: 2026-07-27
+title: 2023-10-31 Woo-verzoek kwijtscheldingen onroerende zaakbelasting (OZB)
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-10-31 Woo-verzoek kwijtscheldingen
+  onroerende zaakbelasting (OZB).pdf
+s3_etag: eb426c081638324af9526d3eb22b9d1c
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Stichting Scipova diende op 2023-09-29 een Woo-verzoek in over
+  kwijtscheldingen van de OZB voor 2021-2023. De gemeente Coevorden ontving het
+  verzoek op 2023-10-02 en wees het verzoek op 2023-10-31 af omdat geen
+  gespecificeerde overzichten beschikbaar waren.
+milestones:
+  - date: '2023-10-02'
+    event: Woo-verzoek ingediend
+  - date: '2023-10-31'
+    event: Woo-verzoek afgewezen
+ai_content_hash: 3880da9ff70108ab
+ai_processed_at: '2026-07-27T15:19:08.740Z'
+ai_status: done
 ---
 
 From: info@coevorden.nl

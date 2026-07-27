@@ -1,9 +1,26 @@
 ---
-title: "2023-04-18 Woo-verzoek rapportages bedrijfsbezoek"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-04-18 Woo-verzoek rapportages bedrijfsbezoek.pdf"
-s3_etag: "e6a52ffc67c09d7f9b3004e4cf15aab4"
-date: 2026-07-27
+title: 2023-04-18 Woo-verzoek rapportages bedrijfsbezoek
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-04-18 Woo-verzoek rapportages
+  bedrijfsbezoek.pdf
+s3_etag: e6a52ffc67c09d7f9b3004e4cf15aab4
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Op 2023-03-22 diende verzoeker een Woo-verzoek in over documenten rond een
+  controle op 2023-03-20. Op 2023-04-18 besloot de gemeente de beschikbare
+  documenten openbaar te maken, met uitzondering van persoonsgegevens.
+milestones:
+  - date: '2023-03-22'
+    event: Woo-verzoek ingediend
+  - date: '2023-04-18'
+    event: 'Besluit genomen: documenten deels openbaar gemaakt'
+ai_content_hash: 077ead7fac576469
+ai_processed_at: '2026-07-27T15:23:55.188Z'
+ai_status: done
 ---
 
 Gemeente

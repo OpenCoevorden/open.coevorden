@@ -1,9 +1,33 @@
 ---
-title: "2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude Rabobank"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude Rabobank.pdf"
-s3_etag: "f4521a11a1c2769bdf8f0343d69f260c"
-date: 2026-07-27
+title: >-
+  2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude
+  Rabobank
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-04-04 Woo-verzoek communicatie rondom
+  crisisnoodopvang gebouw oude Rabobank.pdf
+s3_etag: f4521a11a1c2769bdf8f0343d69f260c
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  De Woo-aanvraag is op 2023-01-20 ingediend en op 2023-03-20 is daarop besloten
+  de gevraagde informatie grotendeels openbaar te maken, met weglakking van
+  persoonsgegevens. De beoordeling was eerder opgeschort vanwege een
+  zienswijzetermijn voor een derde-belanghebbende.
+milestones:
+  - date: '2023-01-20'
+    event: Woo-verzoek ingediend
+  - date: '2023-03-03'
+    event: behandeling verzoek opgeschort wegens zienswijze derde-belanghebbende
+  - date: '2023-03-20'
+    event: 'besluit op Woo-verzoek: deels openbaarmaking'
+  - date: '2023-04-04'
+    event: verzenddatum besluit
+ai_content_hash: 9025fd5167ec3e0a
+ai_processed_at: '2026-07-27T15:24:02.727Z'
+ai_status: done
 ---
 
 Postadres:

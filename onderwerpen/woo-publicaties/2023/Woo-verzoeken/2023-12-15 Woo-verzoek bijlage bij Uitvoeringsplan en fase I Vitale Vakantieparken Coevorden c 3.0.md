@@ -1,9 +1,42 @@
 ---
-title: "2023-12-15 Woo-verzoek bijlage bij Uitvoeringsplan en fase I Vitale Vakantieparken Coevorden c 3.0"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-12-15 Woo-verzoek bijlage bij Uitvoeringsplan en fase I Vitale Vakantieparken Coevorden c 3.0.pdf"
-s3_etag: "ab4a8ff108a72e41ae61bd57d8770a75"
-date: 2026-07-27
+title: >-
+  2023-12-15 Woo-verzoek bijlage bij Uitvoeringsplan en fase I Vitale
+  Vakantieparken Coevorden c 3.0
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-12-15 Woo-verzoek bijlage bij
+  Uitvoeringsplan en fase I Vitale Vakantieparken Coevorden c 3.0.pdf
+s3_etag: ab4a8ff108a72e41ae61bd57d8770a75
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  De Woo-aanvraag is op 2023-05-09 ingediend en leidde uiteindelijk tot
+  openbaarmaking van het gevraagde document op 2023-12-15. In de tussentijd werd
+  beroep wegens niet tijdig beslissen ingesteld en volgde een rechterlijke
+  uitspraak die het college opdroeg binnen vier weken te beslissen, waarna de
+  gemeente te laat besliste en een dwangsom verschuldigd werd.
+milestones:
+  - date: '2023-05-09'
+    event: Woo-verzoek ingediend
+  - date: '2023-06-20'
+    event: Verdaging besluittermijn
+  - date: '2023-07-23'
+    event: Ingebrekestelling wegens niet tijdig beslissen
+  - date: '2023-08-14'
+    event: Beroep niet tijdig beslissen ingesteld
+  - date: '2023-09-22'
+    event: Rechtbank deed uitspraak en stelde beslistermijn
+  - date: '2023-11-07'
+    event: College stelde opheffing geheimhouding voor
+  - date: '2023-12-12'
+    event: Gemeenteraad hief geheimhouding op
+  - date: '2023-12-15'
+    event: Woo-verzoek toegewezen en document openbaar gemaakt
+ai_content_hash: c4ed50cf9b5dd474
+ai_processed_at: '2026-07-27T15:18:23.741Z'
+ai_status: done
 ---
 
 Postadres:

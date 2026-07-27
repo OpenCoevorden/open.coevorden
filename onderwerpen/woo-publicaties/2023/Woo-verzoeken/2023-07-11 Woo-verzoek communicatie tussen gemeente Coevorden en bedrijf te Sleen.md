@@ -1,9 +1,30 @@
 ---
-title: "2023-07-11 Woo-verzoek communicatie tussen gemeente Coevorden en bedrijf te Sleen"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-07-11 Woo-verzoek communicatie tussen gemeente Coevorden en bedrijf te Sleen.pdf"
-s3_etag: "a8b8ae99fcd72862a75c56b7ed557533"
-date: 2026-07-27
+title: >-
+  2023-07-11 Woo-verzoek communicatie tussen gemeente Coevorden en bedrijf te
+  Sleen
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-07-11 Woo-verzoek communicatie tussen
+  gemeente Coevorden en bedrijf te Sleen.pdf
+s3_etag: a8b8ae99fcd72862a75c56b7ed557533
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Op 2023-06-25 diende verzoeker een Woo-verzoek in bij de gemeente Coevorden.
+  Omdat het verzoek na een specificatieverzoek niet werd verduidelijkt, besloot
+  de gemeente op 2023-07-11 het verzoek niet in behandeling te nemen.
+milestones:
+  - date: '2023-06-25'
+    event: Woo-verzoek ingediend
+  - date: '2023-06-29'
+    event: Specificatieverzoek door gemeente
+  - date: '2023-07-11'
+    event: 'Besluit: Woo-verzoek niet in behandeling genomen'
+ai_content_hash: d49a22893ee7d8e7
+ai_processed_at: '2026-07-27T15:22:56.713Z'
+ai_status: done
 ---
 
 J
