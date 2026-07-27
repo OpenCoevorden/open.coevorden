@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  enrich:
+  woo-publicaties-verrijken:
     runs-on: ubuntu-latest
 
     env:
@@ -27,7 +27,7 @@ jobs:
         run: npm install gray-matter openai glob fs-extra p-limit
 
       - name: Run enrichment script
-        run: node scripts/enrich.js
+        run: node scripts/woo-publicaties-verrijken.js
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DOC_PATH: ${{ env.DOC_PATH }}
