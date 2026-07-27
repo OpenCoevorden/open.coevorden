@@ -15,7 +15,9 @@ const MAX_TOKENS_PER_REQUEST = parseInt(process.env.MAX_TOKENS_PER_REQUEST || "5
 const MAX_SUMMARY_TOKENS = parseInt(process.env.MAX_SUMMARY_TOKENS || "30000", 10); // Harde bovengrens voor de samenvatting
 const MAX_CHUNKS_PER_FILE = parseInt(process.env.MAX_CHUNKS_PER_FILE || "6", 10);
 const REQUEST_DELAY_MS = parseInt(process.env.REQUEST_DELAY_MS || "1500", 10);
-const DOC_YEAR = process.env.DOC_YEAR || "2023";
+// DOC_PATH is het pad-fragment onder onderwerpen/, bv. "Woo-publicaties/2023".
+// (Voorheen DOC_YEAR, dat alleen een jaartal was.) De workflow zet deze env.
+const DOC_PATH = process.env.DOC_PATH || "Woo-publicaties/2023";
 const DRY_RUN = process.env.DRY_RUN === "1";
 
 const SYSTEM_PROMPT =
@@ -340,14 +342,14 @@ async function main() {
     process.exit(1);
   }
 
-  const files = globSync(`docs/${DOC_YEAR}/**/*.md`);
+  const files = globSync(`onderwerpen/${DOC_PATH}/**/*.md`);
   if (files.length === 0) {
-    console.warn(`⚠️  Geen .md bestanden gevonden voor docs/${DOC_YEAR}/**/*.md — klopt DOC_YEAR ("${DOC_YEAR}")?`);
+    console.warn(`⚠️  Geen .md bestanden gevonden voor onderwerpen/${DOC_PATH}/**/*.md — klopt DOC_PATH ("${DOC_PATH}")?`);
     return;
   }
 
   console.log(
-    `📂 ${files.length} bestand(en) gevonden voor jaar ${DOC_YEAR}${DRY_RUN ? " (DRY RUN, er wordt niets weggeschreven)" : ""}`
+    `📂 ${files.length} bestand(en) gevonden voor ${DOC_PATH}${DRY_RUN ? " (DRY RUN, er wordt niets weggeschreven)" : ""}`
   );
 
   const stats = { done: 0, partial: 0, noContent: 0, skipped: 0, failed: 0 };
