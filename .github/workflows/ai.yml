@@ -1,4 +1,4 @@
-name: Metagegevens toevoegen op basis van AI
+name: Woo publicaties verrijken
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
-      DOC_YEAR: 2023
+      PATH: /onderwerpen/woo-publicaties/2023
 
     steps:
       - name: Checkout repo
@@ -26,7 +26,7 @@ jobs:
         run: node scripts/enrich.js
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          DOC_YEAR: ${{ env.DOC_YEAR }}
+          PATH: ${{ env.PATH }}
 
       - name: Commit changes
         run: |
