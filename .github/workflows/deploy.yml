@@ -7,8 +7,20 @@ on:
   workflow_dispatch:
 
 env:
-  # PAS HIER DE MAPNAAM AAN
-  SYNC_FOLDER: "woo-publicaties/2026" 
+  # ── PAS HIER HET ONDERWERP + JAAR AAN ──────────────────────────
+  # Vorm: "<onderwerp>/<jaar>", bijv. "Woo-publicaties/2023".
+  # Dit is de eenheid voor syncen, bouwen én opruimen. De bron-bucket
+  # is leidend: dit pad moet exact als prefix in de bron-bucket bestaan.
+  # De site-bucket wordt hiervan een 1-op-1 spiegel.
+  #
+  # LET OP casing: S3, CloudFront en de Pagefind-paden zijn
+  # hoofdlettergevoelig. Gebruik EXACT dezelfde schrijfwijze
+  # ("Woo-publicaties" met hoofdletter W) overal — ook in index.html
+  # (BASE_PATH) en in de bron-bucket — anders krijg je 404's.
+  #
+  # Per onderwerp een eigen kopie van deze workflow (deploy-woo.yml,
+  # deploy-raadsstukken.yml, ...) met alleen deze regel anders.
+  SYNC_FOLDER: "woo-publicaties/2026"
   AWS_DEFAULT_REGION: eu-central-1
 
 jobs:
@@ -33,8 +45,10 @@ jobs:
           BUCKET_NAME: publicaties-coevorden
         run: |
           set -euo pipefail
-          # Maak de specifieke map aan
-          mkdir -p "docs/$SYNC_FOLDER"
+          # Repo-opslag voor de gegenereerde .md-bestanden. Heet nu "onderwerpen/"
+          # i.p.v. het oude "docs/" — puur een betekenisvollere naam. Hier leest
+          # de volgende run de ETags uit terug voor change-detectie.
+          mkdir -p "onderwerpen/$SYNC_FOLDER"
 
           echo "📥 S3 listing voor map: $SYNC_FOLDER..."
 
@@ -72,13 +86,13 @@ jobs:
 
           echo "📊 PDF count in $SYNC_FOLDER: $(wc -l < s3_list.txt)"
 
-          echo "🧹 Cleanup removed files in docs/$SYNC_FOLDER..."
+          echo "🧹 Cleanup removed files in onderwerpen/$SYNC_FOLDER..."
           # We zoeken ALLEEN in de specifieke submap om andere mappen te ontzien
-          if [ -d "docs/$SYNC_FOLDER" ]; then
-            find "docs/$SYNC_FOLDER" -name "*.md" -print0 | while IFS= read -r -d '' md_path; do
+          if [ -d "onderwerpen/$SYNC_FOLDER" ]; then
+            find "onderwerpen/$SYNC_FOLDER" -name "*.md" -print0 | while IFS= read -r -d '' md_path; do
               # Bepaal de relatieve S3 key op basis van het md pad
-              # bijv: docs/coevorden/test.md -> coevorden/test.pdf
-              relative_to_docs="${md_path#docs/}"
+              # bijv: onderwerpen/coevorden/test.md -> coevorden/test.pdf
+              relative_to_docs="${md_path#onderwerpen/}"
               expected_pdf="${relative_to_docs%.md}.pdf"
 
               if ! grep -Fxq "$expected_pdf" s3_list.txt; then
@@ -93,8 +107,8 @@ jobs:
           process_file () {
             pdf_key="$1"
             s3_etag="$2"
-            # md_path wordt bijv: docs/coevorden/sub/bestand.md
-            md_path="docs/${pdf_key%.pdf}.md"
+            # md_path wordt bijv: onderwerpen/coevorden/sub/bestand.md
+            md_path="onderwerpen/${pdf_key%.pdf}.md"
 
             if [ -f "$md_path" ]; then
               # Vergelijk de opgeslagen ETag met die uit de S3-listing.
@@ -161,17 +175,21 @@ jobs:
         with:
           commit_message: "Sync: S3 folder ${{ env.SYNC_FOLDER }} naar Hugo"
           # Alleen wijzigingen in de specifieke map committen
-          file_pattern: "docs/${{ env.SYNC_FOLDER }}/**"
+          file_pattern: "onderwerpen/${{ env.SYNC_FOLDER }}/**"
 
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v2
 
       - name: Build Hugo site
         run: |
-          # Schoon de content folder op voor een zuivere build
-          mkdir -p "content/docs/$SYNC_FOLDER"
-          # Kopieer alleen de gesyncte map naar de Hugo content
-          cp -r "docs/$SYNC_FOLDER/." "content/docs/$SYNC_FOLDER/" 2>/dev/null || true
+          # De .md-bestanden leven in onderwerpen/ (repo-opslag). We kopiëren ze
+          # naar content/ ZONDER extra tussenlaag, zodat de Hugo-sectie het
+          # onderwerp wordt (content/Woo-publicaties/2023/... -> sectie
+          # "Woo-publicaties") en de site-URL de bron exact spiegelt:
+          #   bron : Woo-publicaties/2023/Woo-verzoeken/doc.pdf
+          #   site : .../Woo-publicaties/2023/Woo-verzoeken/doc.html
+          mkdir -p "content/$SYNC_FOLDER"
+          cp -r "onderwerpen/$SYNC_FOLDER/." "content/$SYNC_FOLDER/" 2>/dev/null || true
           hugo --minify --baseURL "https://publicaties-coevorden-site.s3.eu-north-1.amazonaws.com/$SYNC_FOLDER/"
 
       - name: Index with Pagefind
