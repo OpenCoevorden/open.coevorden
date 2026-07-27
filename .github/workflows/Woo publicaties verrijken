@@ -1,14 +1,18 @@
 name: Woo publicaties verrijken
-
 on:
   workflow_dispatch:
 
 jobs:
   enrich:
     runs-on: ubuntu-latest
-    
+
     env:
-      PATH: /onderwerpen/woo-publicaties/2023
+      # Pad-fragment onder onderwerpen/ dat verrijkt moet worden.
+      # Vorm: "<onderwerp>/<jaar>". Zelfde casing als in deploy.yml
+      # (Woo-publicaties met hoofdletter W), anders vindt de glob niks.
+      # LET OP: NIET "PATH" noemen — dat is een systeemvariabele en breekt
+      # het vinden van node/git/npm op de runner.
+      DOC_PATH: "Woo-publicaties/2023"
 
     steps:
       - name: Checkout repo
@@ -26,12 +30,13 @@ jobs:
         run: node scripts/enrich.js
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          PATH: ${{ env.PATH }}
+          DOC_PATH: ${{ env.DOC_PATH }}
 
       - name: Commit changes
         run: |
           git config user.name "ai-bot"
           git config user.email "ai-bot@users.noreply.github.com"
-          git add docs/**/*.md
-          git commit -m "chore: enrich markdown with AI metadata" || exit 0
+          # Alleen de verrijkte map committen (zelfde scope als DOC_PATH)
+          git add "onderwerpen/${DOC_PATH}"/**/*.md
+          git commit -m "chore: enrich markdown with AI metadata (${DOC_PATH})" || exit 0
           git push
