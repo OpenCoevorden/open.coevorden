@@ -12,7 +12,7 @@ jobs:
       # (Woo-publicaties met hoofdletter W), anders vindt de glob niks.
       # LET OP: NIET "PATH" noemen — dat is een systeemvariabele en breekt
       # het vinden van node/git/npm op de runner.
-      DOC_PATH: "Woo-publicaties/2023"
+      DOC_PATH: "woo-publicaties/2023"
 
     steps:
       - name: Checkout repo
