@@ -8,7 +8,7 @@ on:
 
 env:
   # PAS HIER DE MAPNAAM AAN
-  SYNC_FOLDER: "2024" 
+  SYNC_FOLDER: "2023" 
   AWS_DEFAULT_REGION: eu-central-1
 
 jobs:
@@ -38,7 +38,8 @@ jobs:
 
           echo "📥 S3 listing voor map: $SYNC_FOLDER..."
 
-          > s3_list.txt
+          # s3_map.txt bevat per PDF twee kolommen (tab-gescheiden): key <TAB> etag
+          > s3_map.txt
           TOKEN=""
 
           while : ; do
@@ -55,13 +56,19 @@ jobs:
                 --max-items 1000)
             fi
 
-            # Alleen PDF's ophalen
-            echo "$RESPONSE" | jq -r '.Contents[]? | .Key' | grep '\.pdf$' >> s3_list.txt || true
+            # Alleen PDF's ophalen, mét de ETag (content-hash) uit dezelfde listing.
+            # De omringende quotes van de ETag strippen we direct met gsub.
+            echo "$RESPONSE" \
+              | jq -r '.Contents[]? | select(.Key | endswith(".pdf")) | "\(.Key)\t\(.ETag | gsub("\""; ""))"' \
+              >> s3_map.txt || true
             TOKEN=$(echo "$RESPONSE" | jq -r '.NextToken // empty')
             [ -z "$TOKEN" ] && break
           done
 
-          sort -u s3_list.txt -o s3_list.txt
+          sort -u s3_map.txt -o s3_map.txt
+
+          # Alleen-keys lijst afleiden voor de cleanup (blijft ongewijzigd werken).
+          cut -f1 s3_map.txt | sort -u > s3_list.txt
 
           echo "📊 PDF count in $SYNC_FOLDER: $(wc -l < s3_list.txt)"
 
@@ -85,14 +92,25 @@ jobs:
 
           process_file () {
             pdf_key="$1"
+            s3_etag="$2"
             # md_path wordt bijv: docs/coevorden/sub/bestand.md
             md_path="docs/${pdf_key%.pdf}.md"
 
             if [ -f "$md_path" ]; then
-              return
+              # Vergelijk de opgeslagen ETag met die uit de S3-listing.
+              # Gelijk  -> onveranderd, overslaan.
+              # Anders  -> PDF is vervangen, opnieuw verwerken (frontmatter wordt
+              #            vers weggeschreven zonder ai_status, zodat enrich.js
+              #            de AI-verrijking opnieuw oppakt).
+              stored=$(grep -m1 '^s3_etag:' "$md_path" 2>/dev/null \
+                | sed 's/^s3_etag:[[:space:]]*//; s/^"//; s/"$//' || true)
+              if [ "$stored" = "$s3_etag" ]; then
+                return
+              fi
+              echo "♻️  Gewijzigd, opnieuw verwerken: $pdf_key"
+            else
+              echo "🆕 Processing: $pdf_key"
             fi
-
-            echo "🆕 Processing: $pdf_key"
 
             mkdir -p "$(dirname "$md_path")"
             tmpfile=$(mktemp --suffix=.pdf)
@@ -115,6 +133,7 @@ jobs:
                 printf "title: \"%s\"\n" "$clean_title"
                 printf "maps: [%s]\n" "$taxonomy_list"
                 printf "source: \"%s\"\n" "$pdf_key"
+                printf "s3_etag: \"%s\"\n" "$s3_etag"
                 printf "date: %s\n" "$(date +%Y-%m-%d)"
                 printf -- "---\n\n"
               } > "$md_path"
@@ -124,11 +143,18 @@ jobs:
             rm -f "$tmpfile"
           }
 
-          export -f process_file
-          export BUCKET_NAME
-          export SYNC_FOLDER
-
-          tr '\n' '\0' < s3_list.txt | xargs -0 -I {} -P 4 bash -c 'process_file "$1"' _ {}
+          # Verwerk parallel (max 4 tegelijk) in dezelfde shell, zodat we per
+          # regel zowel de key als de etag kunnen doorgeven. Geen 'export -f'
+          # of 'bash -c'-subshells meer nodig.
+          max_jobs=4
+          while IFS=$'\t' read -r pdf_key s3_etag; do
+            [ -z "$pdf_key" ] && continue
+            process_file "$pdf_key" "$s3_etag" &
+            while [ "$(jobs -r | wc -l)" -ge "$max_jobs" ]; do
+              wait -n
+            done
+          done < s3_map.txt
+          wait
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
