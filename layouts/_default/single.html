@@ -323,12 +323,30 @@
 </head>
 <body>
 
-    {{/* DATA EXTRACTION */}}
+    {{/* ═══════════════════════════════════════════════════════════
+         CONFIGURATIE — welke positie in `maps` is welk niveau?
+         Tel vanaf 0. Zet een waarde op -1 om dat niveau uit te schakelen.
+         Herorden je ooit de mapstructuur? Pas ALLEEN deze drie regels aan.
+
+         Huidige structuur:  jaar / categorie / [zaak]
+             $jaarIndex = 0, $categorieIndex = 1, $zaakIndex = 2
+
+         Voorbeeld nieuwe structuur:  woo-publicatie / jaar / categorie / [zaak]
+             $jaarIndex = 1, $categorieIndex = 2, $zaakIndex = 3
+         ─────────────────────────────────────────────────────────── */}}
+    {{ $jaarIndex      := 0 }}
+    {{ $categorieIndex := 1 }}
+    {{ $zaakIndex      := 2 }}
+    {{/* ═══════════════════════════════════════════════════════════ */}}
+
+    {{/* DATA EXTRACTION — leest de niveaus op basis van de config hierboven.
+         De (gt (len $maps) idx)-check voorkomt out-of-bounds; de (ge idx 0)-check
+         slaat uitgeschakelde niveaus (-1) netjes over. */}}
     {{ $maps := .Params.maps | default (slice) }}
     {{ $jaar := "" }}{{ $categorie := "" }}{{ $zaak := "" }}
-    {{ if ge (len $maps) 1 }}{{ $jaar = index $maps 0 }}{{ end }}
-    {{ if ge (len $maps) 2 }}{{ $categorie = index $maps 1 }}{{ end }}
-    {{ if ge (len $maps) 3 }}{{ $zaak = index $maps 2 }}{{ end }}
+    {{ if and (ge $jaarIndex 0)      (gt (len $maps) $jaarIndex)      }}{{ $jaar      = index $maps $jaarIndex }}{{ end }}
+    {{ if and (ge $categorieIndex 0) (gt (len $maps) $categorieIndex) }}{{ $categorie = index $maps $categorieIndex }}{{ end }}
+    {{ if and (ge $zaakIndex 0)      (gt (len $maps) $zaakIndex)      }}{{ $zaak      = index $maps $zaakIndex }}{{ end }}
 
     {{/*
         WCAG 2.4.2: De <title> bevat al {{ .Title }} — goed.
@@ -473,7 +491,7 @@
 
                     {{ $hasRelated := false }}
                     {{ range (where .Site.RegularPages "Section" "docs") }}
-                        {{ if and (ne .Permalink $.Permalink) (isset .Params "maps") (ge (len .Params.maps) 3) (eq (index .Params.maps 2) $zaak) }}
+                        {{ if and (ne .Permalink $.Permalink) (isset .Params "maps") (gt (len .Params.maps) $zaakIndex) (eq (index .Params.maps $zaakIndex) $zaak) }}
                             {{ $hasRelated = true }}
                         {{ end }}
                     {{ end }}
@@ -481,7 +499,7 @@
                     {{ if $hasRelated }}
                         <ul>
                         {{ range (where .Site.RegularPages "Section" "docs") }}
-                            {{ if and (ne .Permalink $.Permalink) (isset .Params "maps") (ge (len .Params.maps) 3) (eq (index .Params.maps 2) $zaak) }}
+                            {{ if and (ne .Permalink $.Permalink) (isset .Params "maps") (gt (len .Params.maps) $zaakIndex) (eq (index .Params.maps $zaakIndex) $zaak) }}
                                 <li>
                                     {{/*
                                         WCAG 2.4.4: Linktekst is de documenttitel — beschrijvend genoeg.
