@@ -1,9 +1,26 @@
 ---
-title: "2023-08-25 Woo-verzoek expolitatievergunningen groepsaccomodaties"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-08-25 Woo-verzoek expolitatievergunningen groepsaccomodaties.pdf"
-s3_etag: "d8c4ca3a268ef0d466845aa5147d2da5"
-date: 2026-07-27
+title: 2023-08-25 Woo-verzoek expolitatievergunningen groepsaccomodaties
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  2023/Woo-verzoeken/2023-08-25 Woo-verzoek expolitatievergunningen
+  groepsaccomodaties.pdf
+s3_etag: d8c4ca3a268ef0d466845aa5147d2da5
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Op 2023-08-23 diende verzoeker een Woo-verzoek in voor alle
+  exploitatievergunningen van groepsaccommodaties in de gemeente Coevorden. Op
+  2023-08-25 wees de gemeente het verzoek af omdat zij niet over de gevraagde
+  documenten beschikte.
+milestones:
+  - date: '2023-08-23'
+    event: Woo-verzoek ingediend
+  - date: '2023-08-25'
+    event: Woo-verzoek afgewezen
+ai_content_hash: 3be31b3148ca5388
+ai_processed_at: '2026-07-27T07:42:50.727Z'
+ai_status: done
 ---
 
 Postadres:

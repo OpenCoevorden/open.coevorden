@@ -1,9 +1,31 @@
 ---
-title: "2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude Rabobank"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude Rabobank.pdf"
-s3_etag: "f4521a11a1c2769bdf8f0343d69f260c"
-date: 2026-07-27
+title: >-
+  2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude
+  Rabobank
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  2023/Woo-verzoeken/2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang
+  gebouw oude Rabobank.pdf
+s3_etag: f4521a11a1c2769bdf8f0343d69f260c
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  De Woo-aanvraag is op 2023-01-20 ingediend en op 2023-04-04 is daarop beslist:
+  de gemeente maakte de gevraagde informatie grotendeels openbaar, met
+  weglakking van persoonsgegevens. In 2022 speelde voorafgaand hieraan de
+  bruikleenovereenkomst voor Kasteel 2, die op 2022-10-06 inging en op
+  2022-10-17/19 werd ondertekend en uitgevoerd.
+milestones:
+  - date: '2023-01-20'
+    event: Woo-aanvraag ingediend
+  - date: '2023-03-20'
+    event: Woo-besluit genomen
+  - date: '2023-04-04'
+    event: Besluit verzonden
+ai_content_hash: 9025fd5167ec3e0a
+ai_processed_at: '2026-07-27T07:44:36.722Z'
+ai_status: done
 ---
 
 Postadres:

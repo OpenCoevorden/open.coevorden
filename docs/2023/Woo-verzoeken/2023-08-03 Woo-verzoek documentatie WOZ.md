@@ -1,9 +1,23 @@
 ---
-title: "2023-08-03 Woo-verzoek documentatie WOZ"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-08-03 Woo-verzoek documentatie WOZ.pdf"
-s3_etag: "fb1188b611e0e5bbf783ec7ecf936f3a"
-date: 2026-07-27
+title: 2023-08-03 Woo-verzoek documentatie WOZ
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: 2023/Woo-verzoeken/2023-08-03 Woo-verzoek documentatie WOZ.pdf
+s3_etag: fb1188b611e0e5bbf783ec7ecf936f3a
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Op 2023-07-27 ontving de gemeente Coevorden een Woo-verzoek over
+  WOZ-gerelateerde documenten en gegevens. Op 2023-08-03 wees de gemeente het
+  verzoek af.
+milestones:
+  - date: '2023-07-27'
+    event: Woo-verzoek ontvangen
+  - date: '2023-08-03'
+    event: 'Besluit: verzoek afgewezen'
+ai_content_hash: 5a4d5605076c9b40
+ai_processed_at: '2026-07-27T07:43:07.125Z'
+ai_status: done
 ---
 
 -r:.

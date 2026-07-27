@@ -1,9 +1,38 @@
 ---
-title: "2023-11-27 Woo-verzoek documenten over tussentijdse scan beleid programma Vitale Vakantieparken"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-11-27 Woo-verzoek documenten over tussentijdse scan beleid programma Vitale Vakantieparken.pdf"
-s3_etag: "e08ae208297f0dbd2a68b222f40f5794-2"
-date: 2026-07-27
+title: >-
+  2023-11-27 Woo-verzoek documenten over tussentijdse scan beleid programma
+  Vitale Vakantieparken
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  2023/Woo-verzoeken/2023-11-27 Woo-verzoek documenten over tussentijdse scan
+  beleid programma Vitale Vakantieparken.pdf
+s3_etag: e08ae208297f0dbd2a68b222f40f5794-2
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Op 2023-08-23 diende de verzoeker een Woo-verzoek in over documenten rond de
+  tussentijdse scan van het programma Vitale Vakantieparken Coevorden. De
+  gemeente splitste het verzoek in twee deelbesluiten, nam op 2023-11-27 een
+  eerste gedeeltelijk toewijzend besluit en op 2023-12-21 een tweede
+  gedeeltelijk toewijzend besluit na opheffing van geheimhouding door de
+  gemeenteraad.
+milestones:
+  - date: '2020-10-01'
+    event: Uitvoeringsplan fase I vastgesteld
+  - date: '2022-02-01'
+    event: Herbeoordeling toekomst en planning parken vastgesteld
+  - date: '2023-07-27'
+    event: Opdracht voor herijking einddoelen parken verstuurd
+  - date: '2023-08-23'
+    event: Woo-verzoek ingediend
+  - date: '2023-11-21'
+    event: Eerste deelbesluit Woo genomen
+  - date: '2023-12-21'
+    event: Tweede deelbesluit Woo genomen
+ai_content_hash: a24a2d8141683c66
+ai_processed_at: '2026-07-27T07:39:31.931Z'
+ai_status: done
 ---
 
 Postadres:

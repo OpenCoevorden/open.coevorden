@@ -1,9 +1,64 @@
 ---
-title: "2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen, handhavingsopdrachten vanaf 18-12-2022"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen, handhavingsopdrachten vanaf 18-12-2022.pdf"
-s3_etag: "4522eab37c8c0ccd7b72df9a8a87cd9d-2"
-date: 2026-07-27
+title: >-
+  2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen,
+  handhavingsopdrachten vanaf 18-12-2022
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  2023/Woo-verzoeken/2023-07-27 Woo-verzoek bungalowpark WICO, notities,
+  notulen, handhavingsopdrachten vanaf 18-12-2022.pdf
+s3_etag: 4522eab37c8c0ccd7b72df9a8a87cd9d-2
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2023-04-17 een Woo-verzoek over bungalowpark
+  Wico/Vitale Vakantieparken en verlengde de behandeltermijn op 2023-05-09. Op
+  2023-07-27 volgde het Woo-besluit met gedeeltelijke openbaarmaking en
+  uitgestelde openbaarmaking voor één document.
+milestones:
+  - date: '2023-02-20'
+    event: >-
+      Gesprek over park Wico; gemeente deelt mee dat permanente bewoning wordt
+      beëindigd en een toekomstplan volgt.
+  - date: '2023-03-08'
+    event: >-
+      Brief aan bewoners/eigenaren over park Wico: terug naar recreatie en
+      beëindiging permanente bewoning.
+  - date: '2023-03-17'
+    event: >-
+      Gemeente stuurt de brief over park Wico ter informatie door en kondigt
+      parkbezoeken aan.
+  - date: '2023-03-20'
+    event: >-
+      Verzoek om stukken over Wico; gemeente bevestigt dat het beleid gericht is
+      op behoud van recreatieve functie.
+  - date: '2023-03-24'
+    event: Bewoner vraagt om een gesprek naar aanleiding van de brief over park Wico.
+  - date: '2023-04-03'
+    event: >-
+      Verzoek om kopieën van het gespreksformulier en de onderbouwing dat Wico
+      teruggaat naar recreatie.
+  - date: '2023-04-05'
+    event: >-
+      Gemeente bevestigt opnieuw dat de huidige bestemming van Wico niet wijzigt
+      en dat het park recreatief moet blijven.
+  - date: '2023-04-13'
+    event: >-
+      Bewoner vraagt de gemeente de formulering over handhaving te herzien;
+      gemeente reageert niet met een inhoudelijke beleidswijziging.
+  - date: '2023-04-17'
+    event: Woo-verzoek ingediend
+  - date: '2023-05-09'
+    event: Behandeltermijn verlengd
+  - date: '2023-05-25'
+    event: Behandeltermijn opgeschort
+  - date: '2023-07-27'
+    event: Woo-besluit genomen
+  - date: '2023-08-11'
+    event: Uitgestelde openbaarmaking termijn
+ai_content_hash: 57b0ac7b3b8df475
+ai_processed_at: '2026-07-27T07:43:27.274Z'
+ai_status: done
 ---
 
 Postadres:

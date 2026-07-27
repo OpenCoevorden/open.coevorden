@@ -1,9 +1,24 @@
 ---
-title: "2023-10-23 Woo-verzoek documentatie over de wolf"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-10-23 Woo-verzoek documentatie over de wolf.pdf"
-s3_etag: "38a1b6dfc77f856440faed7ff8f59040"
-date: 2026-07-27
+title: 2023-10-23 Woo-verzoek documentatie over de wolf
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: 2023/Woo-verzoeken/2023-10-23 Woo-verzoek documentatie over de wolf.pdf
+s3_etag: 38a1b6dfc77f856440faed7ff8f59040
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Op 2023-09-14 is een Woo-verzoek ingediend over alle gemeentelijke stukken
+  rond het onderwerp wolf over de periode januari 2015 tot en met 2023-09-14. Op
+  2023-10-23 is dit verzoek toegewezen en zijn 8 documenten openbaar gemaakt,
+  met uitzondering van persoonsgegevens.
+milestones:
+  - date: '2023-09-14'
+    event: Woo-verzoek ingediend
+  - date: '2023-10-23'
+    event: 'Woo-besluit: verzoek toegewezen en documenten verstrekt'
+ai_content_hash: 471539be8ac05728
+ai_processed_at: '2026-07-27T07:40:40.682Z'
+ai_status: done
 ---
 
 Postadres:

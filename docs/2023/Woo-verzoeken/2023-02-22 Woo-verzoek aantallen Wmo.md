@@ -1,9 +1,22 @@
 ---
-title: "2023-02-22 Woo-verzoek aantallen Wmo"
-maps: ["2023","Woo-verzoeken"]
-source: "2023/Woo-verzoeken/2023-02-22 Woo-verzoek aantallen Wmo.pdf"
-s3_etag: "ebaeed8b4a26395fba1785d321011f18"
-date: 2026-07-27
+title: 2023-02-22 Woo-verzoek aantallen Wmo
+maps:
+  - '2023'
+  - Woo-verzoeken
+source: 2023/Woo-verzoeken/2023-02-22 Woo-verzoek aantallen Wmo.pdf
+s3_etag: ebaeed8b4a26395fba1785d321011f18
+date: 2026-07-27T00:00:00.000Z
+summary: >-
+  Op 2023-02-04 is een Woo-verzoek ingediend over aantallen Wmo-aanvragen in
+  2020-2022. De gemeente Coevorden heeft dit verzoek op 2023-02-22 toegewezen.
+milestones:
+  - date: '2023-02-04'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2023-02-22'
+    event: 'Besluit: Woo-verzoek toegewezen'
+ai_content_hash: ffb523271e72b81b
+ai_processed_at: '2026-07-27T07:44:47.091Z'
+ai_status: done
 ---
 
 Gemeente
