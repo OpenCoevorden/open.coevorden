@@ -1,43 +1,9 @@
 ---
-title: >-
-  2023-10-25 Woo-verzoek documenten over klachten en handhaving Brink 9 en 9a te
-  Sleen
-maps:
-  - '2023'
-  - Woo-verzoeken
-source: >-
-  2023/Woo-verzoeken/2023-10-25 Woo-verzoek documenten over klachten en
-  handhaving Brink 9 en 9a te Sleen.pdf
-date: 2026-07-25T00:00:00.000Z
-summary: >-
-  In 2022 dienden omwonenden een handhavingsverzoek in over overlast en strijdig
-  gebruik van Brink 9 te Sleen; de gemeente wees dit verzoek op 2022-12-05 af.
-  In 2023 volgden een nieuw handhavingsverzoek over hotelgebruik en
-  zonnepanelen, waarna de gemeente op 2023-08-09 het hotelverzoek afwees en op
-  2023-08-21 een voornemen tot last onder dwangsom voor de zonnepanelen stuurde;
-  op 2023-10-25 werd op het Woo-verzoek beslist.
-milestones:
-  - date: '2022-06-16'
-    event: handhavingsverzoek over overlast Brink 9 ingediend
-  - date: '2022-12-05'
-    event: 'besluit op handhavingsverzoek: afgewezen'
-  - date: '2023-05-11'
-    event: aanschrijving glijbaan zonder vergunning
-  - date: '2023-07-06'
-    event: handhavingsverzoek over hotelgebruik Brink 9 ingediend
-  - date: '2023-07-18'
-    event: handhavingsverzoek over zonnepanelen ingediend
-  - date: '2023-08-09'
-    event: 'besluit op handhavingsverzoek hotel: afgewezen'
-  - date: '2023-08-21'
-    event: voornemen last onder dwangsom voor zonnepanelen
-  - date: '2023-08-21'
-    event: Woo-verzoek ingediend
-  - date: '2023-10-25'
-    event: besluit op Woo-verzoek
-ai_content_hash: 1f10724b0e093fda
-ai_processed_at: '2026-07-25T16:35:28.743Z'
-ai_status: done
+title: "2023-10-25 Woo-verzoek documenten over klachten en handhaving Brink 9 en 9a te Sleen"
+maps: ["2023","Woo-verzoeken"]
+source: "2023/Woo-verzoeken/2023-10-25 Woo-verzoek documenten over klachten en handhaving Brink 9 en 9a te Sleen.pdf"
+s3_etag: "90b73872f82c920bff031c0afd07b43c"
+date: 2026-07-27
 ---
 
 1

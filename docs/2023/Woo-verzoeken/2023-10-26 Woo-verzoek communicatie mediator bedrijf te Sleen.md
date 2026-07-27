@@ -1,26 +1,9 @@
 ---
-title: 2023-10-26 Woo-verzoek communicatie mediator bedrijf te Sleen
-maps:
-  - '2023'
-  - Woo-verzoeken
-source: >-
-  2023/Woo-verzoeken/2023-10-26 Woo-verzoek communicatie mediator bedrijf te
-  Sleen.pdf
-date: 2026-07-25T00:00:00.000Z
-summary: >-
-  De gemeente Coevorden ontving op 2023-09-30 een Woo-verzoek over alle
-  communicatie met een externe mediator rond een mogelijk mediationtraject. Op
-  2023-10-26 besloot de gemeente het verzoek gedeeltelijk toe te wijzen en
-  documenten openbaar te maken met weglakking van persoonsgegevens en
-  concurrentiegevoelige gegevens.
-milestones:
-  - date: '2023-09-30'
-    event: Woo-verzoek ingediend
-  - date: '2023-10-26'
-    event: Gedeeltelijk besluit op Woo-verzoek
-ai_content_hash: b13f993cb96a75f9
-ai_processed_at: '2026-07-25T16:35:09.176Z'
-ai_status: done
+title: "2023-10-26 Woo-verzoek communicatie mediator bedrijf te Sleen"
+maps: ["2023","Woo-verzoeken"]
+source: "2023/Woo-verzoeken/2023-10-26 Woo-verzoek communicatie mediator bedrijf te Sleen.pdf"
+s3_etag: "cb6cad76a69f672ad53385564c107857"
+date: 2026-07-27
 ---
 
 Gemeente

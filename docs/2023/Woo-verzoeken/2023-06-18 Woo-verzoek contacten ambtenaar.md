@@ -1,29 +1,9 @@
 ---
-title: 2023-06-18 Woo-verzoek contacten ambtenaar
-maps:
-  - '2023'
-  - Woo-verzoeken
-source: 2023/Woo-verzoeken/2023-06-18 Woo-verzoek contacten ambtenaar.pdf
-date: 2026-07-25T00:00:00.000Z
-summary: >-
-  De Woo-aanvraag is op 2023-06-18 ingediend en op 2023-07-10 deels toegewezen
-  en deels afgewezen. In de voorafgaande correspondentie over de
-  alcoholvergunning werd op 2023-06-12 aangegeven dat een nieuwe aanvraag nodig
-  was en dat de eerdere aanvraag van 2022-05-16 buiten behandeling was gesteld.
-milestones:
-  - date: '2023-06-12'
-    event: Nieuwe aanvraag alcoholvergunning gevraagd / stukken opnieuw opgevraagd
-  - date: '2023-06-12'
-    event: Mededeling dat eerdere aanvraag van 2022 buiten behandeling is gesteld
-  - date: '2023-06-15'
-    event: Brief over belverbod/contactafspraken verzonden
-  - date: '2023-06-18'
-    event: Woo-verzoek ingediend
-  - date: '2023-07-10'
-    event: 'Besluit op Woo-verzoek: gedeeltelijk afwijzen en gedeeltelijk toewijzen'
-ai_content_hash: 66d899a7c431b970
-ai_processed_at: '2026-07-25T16:38:58.056Z'
-ai_status: done
+title: "2023-06-18 Woo-verzoek contacten ambtenaar"
+maps: ["2023","Woo-verzoeken"]
+source: "2023/Woo-verzoeken/2023-06-18 Woo-verzoek contacten ambtenaar.pdf"
+s3_etag: "68bc34b34440a852c08fe1f892247437"
+date: 2026-07-27
 ---
 
 A
