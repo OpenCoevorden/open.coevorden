@@ -8,20 +8,16 @@ on:
 
 env:
   # ── PAS HIER HET ONDERWERP + JAAR AAN ──────────────────────────
-  # Vorm: "<onderwerp>/<jaar>", bijv. "Woo-publicaties/2023".
-  # Dit is de eenheid voor syncen, bouwen én opruimen. De bron-bucket
-  # is leidend: dit pad moet exact als prefix in de bron-bucket bestaan.
-  # De site-bucket wordt hiervan een 1-op-1 spiegel.
-  #
-  # LET OP casing: S3, CloudFront en de Pagefind-paden zijn
-  # hoofdlettergevoelig. Gebruik EXACT dezelfde schrijfwijze
-  # ("Woo-publicaties" met hoofdletter W) overal — ook in index.html
-  # (BASE_PATH) en in de bron-bucket — anders krijg je 404's.
-  #
-  # Per onderwerp een eigen kopie van deze workflow (deploy-woo.yml,
-  # deploy-raadsstukken.yml, ...) met alleen deze regel anders.
-  SYNC_FOLDER: "woo-publicaties/2024"
-  AWS_DEFAULT_REGION: eu-central-1
+  # Vorm: "<onderwerp>/<jaar>". Moet EXACT (incl. casing) als prefix
+  # bestaan in de bron-bucket; de site-bucket wordt hiervan de spiegel.
+  SYNC_FOLDER: "woo-publicaties/2023"
+
+  # Beide buckets staan in eu-north-1 (zie origin-domeinen in CloudFront).
+  AWS_DEFAULT_REGION: eu-north-1
+
+  # De site wordt via CloudFront geserveerd, niet via de rauwe (privé/OAC) S3-URL.
+  # Absolute links (canonical, permalinks) moeten dus naar dit domein wijzen.
+  CDN_BASE_URL: "https://d3jow2udcm31b0.cloudfront.net"
 
 jobs:
   deploy:
@@ -33,121 +29,84 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y poppler-utils jq
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
 
-      - name: Sync S3 → Markdown (Scoped to Folder)
+      - name: Sync S3 → Markdown (scoped to folder)
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           BUCKET_NAME: publicaties-coevorden
         run: |
           set -euo pipefail
-          # Repo-opslag voor de gegenereerde .md-bestanden. Heet nu "onderwerpen/"
-          # i.p.v. het oude "docs/" — puur een betekenisvollere naam. Hier leest
-          # de volgende run de ETags uit terug voor change-detectie.
           mkdir -p "onderwerpen/$SYNC_FOLDER"
 
-          echo "📥 S3 listing voor map: $SYNC_FOLDER..."
+          echo "📥 S3 listing voor: $SYNC_FOLDER"
+          # De AWS CLI pagineert list-objects-v2 zelf; geen handmatige token-loop
+          # nodig. We projecteren key+etag direct als tab-gescheiden tekst.
+          # 'None' = lege listing (JMESPath op een lege bucket) -> eruit filteren.
+          aws s3api list-objects-v2 \
+            --bucket "$BUCKET_NAME" \
+            --prefix "$SYNC_FOLDER/" \
+            --query "Contents[?ends_with(Key, '.pdf')].[Key, ETag]" \
+            --output text > s3_raw.txt
+          grep -v '^None' s3_raw.txt | tr -d '"' | sort -u > s3_map.txt || true
 
-          # s3_map.txt bevat per PDF twee kolommen (tab-gescheiden): key <TAB> etag
-          > s3_map.txt
-          TOKEN=""
-
-          while : ; do
-            if [ -z "$TOKEN" ]; then
-              RESPONSE=$(aws s3api list-objects-v2 \
-                --bucket "$BUCKET_NAME" \
-                --prefix "$SYNC_FOLDER/" \
-                --max-items 1000)
-            else
-              RESPONSE=$(aws s3api list-objects-v2 \
-                --bucket "$BUCKET_NAME" \
-                --prefix "$SYNC_FOLDER/" \
-                --starting-token "$TOKEN" \
-                --max-items 1000)
-            fi
-
-            # Alleen PDF's ophalen, mét de ETag (content-hash) uit dezelfde listing.
-            # De omringende quotes van de ETag strippen we direct met gsub.
-            echo "$RESPONSE" \
-              | jq -r '.Contents[]? | select(.Key | endswith(".pdf")) | "\(.Key)\t\(.ETag | gsub("\""; ""))"' \
-              >> s3_map.txt || true
-            TOKEN=$(echo "$RESPONSE" | jq -r '.NextToken // empty')
-            [ -z "$TOKEN" ] && break
-          done
-
-          sort -u s3_map.txt -o s3_map.txt
-
-          # Alleen-keys lijst afleiden voor de cleanup (blijft ongewijzigd werken).
-          cut -f1 s3_map.txt | sort -u > s3_list.txt
-
-          echo "📊 PDF count in $SYNC_FOLDER: $(wc -l < s3_list.txt)"
-
-          echo "🧹 Cleanup removed files in onderwerpen/$SYNC_FOLDER..."
-          # We zoeken ALLEEN in de specifieke submap om andere mappen te ontzien
-          if [ -d "onderwerpen/$SYNC_FOLDER" ]; then
-            find "onderwerpen/$SYNC_FOLDER" -name "*.md" -print0 | while IFS= read -r -d '' md_path; do
-              # Bepaal de relatieve S3 key op basis van het md pad
-              # bijv: onderwerpen/coevorden/test.md -> coevorden/test.pdf
-              relative_to_docs="${md_path#onderwerpen/}"
-              expected_pdf="${relative_to_docs%.md}.pdf"
-
-              if ! grep -Fxq "$expected_pdf" s3_list.txt; then
-                echo "❌ Removing: $md_path (niet meer in S3)"
-                rm "$md_path"
-              fi
-            done
+          # ── VEILIGHEIDSREM ──────────────────────────────────────────
+          # Zonder PDF's zou Hugo een lege site bouwen en 'aws s3 sync --delete'
+          # daarna de hele live-prefix leegvegen. Bij 0 treffers: hard stoppen.
+          if [ ! -s s3_map.txt ]; then
+            echo "❌ Geen PDF's onder '$SYNC_FOLDER/'. Klopt de prefix/casing?"
+            echo "   Afgebroken vóór build/deploy om dataverlies te voorkomen."
+            exit 1
           fi
 
-          echo "➕ Processing PDFs..."
+          cut -f1 s3_map.txt | sort -u > s3_list.txt
+          echo "📊 PDF count: $(wc -l < s3_list.txt)"
 
+          echo "🧹 Opruimen verdwenen bestanden in onderwerpen/$SYNC_FOLDER"
+          find "onderwerpen/$SYNC_FOLDER" -name "*.md" -print0 | while IFS= read -r -d '' md_path; do
+            expected_pdf="${md_path#onderwerpen/}"
+            expected_pdf="${expected_pdf%.md}.pdf"
+            if ! grep -Fxq "$expected_pdf" s3_list.txt; then
+              echo "❌ Verwijderen: $md_path (niet meer in S3)"
+              rm "$md_path"
+            fi
+          done
+
+          echo "➕ Verwerken PDF's..."
           process_file () {
-            pdf_key="$1"
-            s3_etag="$2"
-            # md_path wordt bijv: onderwerpen/coevorden/sub/bestand.md
+            pdf_key="$1"; s3_etag="$2"
             md_path="onderwerpen/${pdf_key%.pdf}.md"
 
             if [ -f "$md_path" ]; then
-              # Vergelijk de opgeslagen ETag met die uit de S3-listing.
-              # Gelijk  -> onveranderd, overslaan.
-              # Anders  -> PDF is vervangen, opnieuw verwerken (frontmatter wordt
-              #            vers weggeschreven zonder ai_status, zodat enrich.js
-              #            de AI-verrijking opnieuw oppakt).
+              # Ongewijzigde ETag -> overslaan. Gewijzigd -> frontmatter vers
+              # wegschrijven (zonder ai_status), zodat de enrich-stap 'm herpakt.
               stored=$(grep -m1 '^s3_etag:' "$md_path" 2>/dev/null \
                 | sed 's/^s3_etag:[[:space:]]*//; s/^"//; s/"$//' || true)
-              if [ "$stored" = "$s3_etag" ]; then
-                return
-              fi
-              echo "♻️  Gewijzigd, opnieuw verwerken: $pdf_key"
+              [ "$stored" = "$s3_etag" ] && return
+              echo "♻️  Gewijzigd: $pdf_key"
             else
-              echo "🆕 Processing: $pdf_key"
+              echo "🆕 Nieuw: $pdf_key"
             fi
 
             mkdir -p "$(dirname "$md_path")"
             tmpfile=$(mktemp --suffix=.pdf)
-
             if aws s3 cp "s3://$BUCKET_NAME/$pdf_key" "$tmpfile" --quiet; then
-              filename=$(basename "${pdf_key%.pdf}")
-              clean_title=$(echo "$filename" | tr '"' "'")
+              clean_title=$(basename "${pdf_key%.pdf}" | tr '"' "'")
 
-              # Taxonomy opbouw
-              relative_path="${pdf_key%.pdf}"
-              IFS='/' read -ra parts <<< "$relative_path"
+              # maps[] = alle paddelen behalve de bestandsnaam (jaar/categorie/…).
+              IFS='/' read -ra parts <<< "${pdf_key%.pdf}"
               taxo=()
-              for ((i=0; i<${#parts[@]}-1; i++)); do
-                taxo+=("\"${parts[$i]}\"")
-              done
+              for ((i=0; i<${#parts[@]}-1; i++)); do taxo+=("\"${parts[$i]}\""); done
               taxonomy_list=$(IFS=,; echo "${taxo[*]}")
 
               {
                 printf -- "---\n"
-                printf "title: \"%s\"\n" "$clean_title"
+                printf 'title: "%s"\n' "$clean_title"
                 printf "maps: [%s]\n" "$taxonomy_list"
-                printf "source: \"%s\"\n" "$pdf_key"
-                printf "s3_etag: \"%s\"\n" "$s3_etag"
+                printf 'source: "%s"\n' "$pdf_key"
+                printf 's3_etag: "%s"\n' "$s3_etag"
                 printf "date: %s\n" "$(date +%Y-%m-%d)"
                 printf -- "---\n\n"
               } > "$md_path"
@@ -157,16 +116,11 @@ jobs:
             rm -f "$tmpfile"
           }
 
-          # Verwerk parallel (max 4 tegelijk) in dezelfde shell, zodat we per
-          # regel zowel de key als de etag kunnen doorgeven. Geen 'export -f'
-          # of 'bash -c'-subshells meer nodig.
-          max_jobs=4
+          # Parallel, max 4 tegelijk.
           while IFS=$'\t' read -r pdf_key s3_etag; do
             [ -z "$pdf_key" ] && continue
             process_file "$pdf_key" "$s3_etag" &
-            while [ "$(jobs -r | wc -l)" -ge "$max_jobs" ]; do
-              wait -n
-            done
+            while [ "$(jobs -r | wc -l)" -ge 4 ]; do wait -n; done
           done < s3_map.txt
           wait
 
@@ -174,23 +128,24 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Sync: S3 folder ${{ env.SYNC_FOLDER }} naar Hugo"
-          # Alleen wijzigingen in de specifieke map committen
           file_pattern: "onderwerpen/${{ env.SYNC_FOLDER }}/**"
 
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.128.0'   # pin voor reproduceerbare builds
+          extended: true
 
       - name: Build Hugo site
         run: |
-          # De .md-bestanden leven in onderwerpen/ (repo-opslag). We kopiëren ze
-          # naar content/ ZONDER extra tussenlaag, zodat de Hugo-sectie het
-          # onderwerp wordt (content/Woo-publicaties/2023/... -> sectie
-          # "Woo-publicaties") en de site-URL de bron exact spiegelt:
-          #   bron : Woo-publicaties/2023/Woo-verzoeken/doc.pdf
-          #   site : .../Woo-publicaties/2023/Woo-verzoeken/doc.html
-          mkdir -p "content/$SYNC_FOLDER"
-          cp -r "onderwerpen/$SYNC_FOLDER/." "content/$SYNC_FOLDER/" 2>/dev/null || true
-          hugo --minify --baseURL "https://publicaties-coevorden-site.s3.eu-north-1.amazonaws.com/$SYNC_FOLDER/"
+          set -euo pipefail
+          # Content PLAT neerzetten: we kopiëren de INHOUD van de jaarmap naar
+          # content/ (dus zonder de "woo-publicaties/2023"-tussenlaag). De prefix
+          # zit al in de baseURL én in de deploy-bestemming; nog een keer nesten
+          # in content/ gaf dubbele paden (…/2023/woo-publicaties/2023/…).
+          rm -rf content && mkdir -p content
+          cp -r "onderwerpen/$SYNC_FOLDER/." content/
+          hugo --minify --baseURL "$CDN_BASE_URL/$SYNC_FOLDER/"
 
       - name: Index with Pagefind
         run: npx pagefind@latest --site public --output-subdir _pagefind
@@ -201,7 +156,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_SITE }}
           BUCKET_NAME: publicaties-coevorden-site
         run: |
-          # Sync de output naar de submap in de S3 bucket
-          # --delete zorgt dat bestanden die lokaal weg zijn, ook in die S3 submap verdwijnen
-          aws s3 sync ./public "s3://$BUCKET_NAME/$SYNC_FOLDER" \
-            --delete
+          set -euo pipefail
+          # public/ wordt de prefix-map. --delete blijft zo netjes scoped tot
+          # deze jaarmap en raakt andere jaren niet.
+          aws s3 sync ./public "s3://$BUCKET_NAME/$SYNC_FOLDER" --delete
