@@ -16,7 +16,8 @@ env:
   AWS_DEFAULT_REGION: eu-north-1
 
   # De site wordt via CloudFront geserveerd, niet via de rauwe (privé/OAC) S3-URL.
-  # Absolute links (canonical, permalinks) moeten dus naar dit domein wijzen.
+  # baseURL blijft de CloudFront-ROOT: door de geneste content zet Hugo de
+  # prefix zelf al in elke permalink.
   CDN_BASE_URL: "https://d3jow2udcm31b0.cloudfront.net"
 
 jobs:
@@ -54,7 +55,7 @@ jobs:
 
           # ── VEILIGHEIDSREM ──────────────────────────────────────────
           # Zonder PDF's zou Hugo een lege site bouwen en 'aws s3 sync --delete'
-          # daarna de hele live-prefix leegvegen. Bij 0 treffers: hard stoppen.
+          # daarna de live-prefix leegvegen. Bij 0 treffers: hard stoppen.
           if [ ! -s s3_map.txt ]; then
             echo "❌ Geen PDF's onder '$SYNC_FOLDER/'. Klopt de prefix/casing?"
             echo "   Afgebroken vóór build/deploy om dataverlies te voorkomen."
@@ -139,16 +140,20 @@ jobs:
       - name: Build Hugo site
         run: |
           set -euo pipefail
-          # Content PLAT neerzetten: we kopiëren de INHOUD van de jaarmap naar
-          # content/ (dus zonder de "woo-publicaties/2023"-tussenlaag). De prefix
-          # zit al in de baseURL én in de deploy-bestemming; nog een keer nesten
-          # in content/ gaf dubbele paden (…/2023/woo-publicaties/2023/…).
-          rm -rf content && mkdir -p content
-          cp -r "onderwerpen/$SYNC_FOLDER/." content/
-          hugo --minify --baseURL "$CDN_BASE_URL/$SYNC_FOLDER/"
+          # Content GENEST neerzetten (content/woo-publicaties/2023/…), zodat:
+          #   • .File.Path de prefix behoudt -> de PDF-fallback in single.html klopt
+          #   • Hugo de prefix zelf in elke permalink zet
+          # baseURL blijft daarom de CloudFront-root (géén prefix erin).
+          rm -rf content && mkdir -p "content/$SYNC_FOLDER"
+          cp -r "onderwerpen/$SYNC_FOLDER/." "content/$SYNC_FOLDER/"
+          hugo --minify --baseURL "$CDN_BASE_URL/"
 
       - name: Index with Pagefind
-        run: npx pagefind@latest --site public --output-subdir _pagefind
+        run: |
+          # Index in de jaarmap schrijven, zodat de resultaat-URL's de volle
+          # prefix (…/woo-publicaties/2023/…) bevatten en index.html de bundle
+          # op /woo-publicaties/2023/_pagefind/ vindt.
+          npx pagefind@latest --site public --output-path "public/$SYNC_FOLDER/_pagefind"
 
       - name: Deploy to S3
         env:
@@ -157,6 +162,9 @@ jobs:
           BUCKET_NAME: publicaties-coevorden-site
         run: |
           set -euo pipefail
-          # public/ wordt de prefix-map. --delete blijft zo netjes scoped tot
-          # deze jaarmap en raakt andere jaren niet.
-          aws s3 sync ./public "s3://$BUCKET_NAME/$SYNC_FOLDER" --delete
+          # Naar bucket-ROOT syncen, maar --include/--delete strak op de jaarmap
+          # scopen: andere jaren én de losse root-index.html blijven onaangeraakt.
+          aws s3 sync ./public "s3://$BUCKET_NAME" \
+            --delete \
+            --exclude "*" \
+            --include "$SYNC_FOLDER/*"
