@@ -262,7 +262,7 @@
             height: 12px;
             background: var(--accent);
             border-radius: 50%;
-            aria-hidden: true; /* Let op: aria-hidden werkt niet op pseudo-elementen; screenreaders negeren ::before content standaard */
+            /* Screenreaders negeren ::before-content standaard; geen ARIA nodig. */
         }
 
         /* === TERUG-KNOP === */
@@ -323,6 +323,9 @@
 </head>
 <body>
 
+    {{/* WCAG 2.4.1: Skip-link als allereerste focusbaar element op de pagina */}}
+    <a href="#main-content" class="skip-link">Ga naar hoofdinhoud</a>
+
     {{/* ═══════════════════════════════════════════════════════════
          CONFIGURATIE — welke positie in `maps` is welk niveau?
          Tel vanaf 0. Zet een waarde op -1 om dat niveau uit te schakelen.
@@ -334,9 +337,9 @@
          Voorbeeld nieuwe structuur:  woo-publicatie / jaar / categorie / [zaak]
              $jaarIndex = 1, $categorieIndex = 2, $zaakIndex = 3
          ─────────────────────────────────────────────────────────── */}}
-    {{ $jaarIndex      := 0 }}
-    {{ $categorieIndex := 1 }}
-    {{ $zaakIndex      := 2 }}
+    {{ $jaarIndex      := 1 }}
+    {{ $categorieIndex := 2 }}
+    {{ $zaakIndex      := 3 }}
     {{/* ═══════════════════════════════════════════════════════════ */}}
 
     {{/* DATA EXTRACTION — leest de niveaus op basis van de config hierboven.
@@ -405,9 +408,11 @@
                 {{ end }}
 
                 <div class="pdf-action">
-                    {{ $full_path := .File.Path | default "" }}
-                    {{ $cleaned_path := strings.TrimPrefix "docs/" $full_path }}
-                    {{ $pdf_path := replace $cleaned_path ".md" ".pdf" }}
+                    {{/* De exacte S3-key staat al in de frontmatter (source),
+                         weggeschreven door de sync-workflow. Die is leidend.
+                         Fallback: leid het pad af uit het bestandspad en vervang
+                         alleen de .md-extensie (niet elke ".md" in het pad). */}}
+                    {{ $pdf_path := .Params.source | default (printf "%s.pdf" (strings.TrimSuffix ".md" .File.Path)) }}
                     {{ $base := .Site.Params.s3_url | default "" }}
                     {{ $pdf_url := printf "%s/%s" (strings.TrimSuffix "/" $base) $pdf_path }}
 
@@ -490,7 +495,7 @@
                     </h2>
 
                     {{ $hasRelated := false }}
-                    {{ range (where .Site.RegularPages "Section" "docs") }}
+                    {{ range (where .Site.RegularPages "Section" $.Section) }}
                         {{ if and (ne .Permalink $.Permalink) (isset .Params "maps") (gt (len .Params.maps) $zaakIndex) (eq (index .Params.maps $zaakIndex) $zaak) }}
                             {{ $hasRelated = true }}
                         {{ end }}
@@ -498,7 +503,7 @@
 
                     {{ if $hasRelated }}
                         <ul>
-                        {{ range (where .Site.RegularPages "Section" "docs") }}
+                        {{ range (where .Site.RegularPages "Section" $.Section) }}
                             {{ if and (ne .Permalink $.Permalink) (isset .Params "maps") (gt (len .Params.maps) $zaakIndex) (eq (index .Params.maps $zaakIndex) $zaak) }}
                                 <li>
                                     {{/*
@@ -590,9 +595,6 @@
             top: 0;
         }
     </style>
-
-    {{/* WCAG 2.4.1: Skip-link als allereerste focusbaar element op de pagina */}}
-    <a href="#main-content" class="skip-link">Ga naar hoofdinhoud</a>
 
     <script>
         const START_MESSAGE = "Stel hier met AI een vraag over bovenstaand document.";
