@@ -1,9 +1,30 @@
 ---
-title: "2023-11-07 Woo-verzoek aanvragen plannen en vergunningen voor windmolens en zonneparken nabij Meppen"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-11-07 Woo-verzoek aanvragen plannen en vergunningen voor windmolens en zonneparken nabij Meppen.pdf"
-s3_etag: "32860c43c0af19a621f1e4c5ddf8567f"
-date: 2026-07-28
+title: >-
+  2023-11-07 Woo-verzoek aanvragen plannen en vergunningen voor windmolens en
+  zonneparken nabij Meppen
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-11-07 Woo-verzoek aanvragen plannen en
+  vergunningen voor windmolens en zonneparken nabij Meppen.pdf
+s3_etag: 32860c43c0af19a621f1e4c5ddf8567f
+date: 2026-07-28T00:00:00.000Z
+summary: >-
+  Op 2023-10-20 diende betrokkene een Woo-verzoek in over aanvragen, plannen en
+  vergunningen voor windmolens en zonneparken in de omgeving van Meppen. Op
+  2023-11-07 wees de gemeente Coevorden het verzoek af omdat na onderzoek geen
+  documenten onder het gemeentebestuur bleken te berusten die onder het verzoek
+  vielen.
+milestones:
+  - date: '2023-10-20'
+    event: Woo-verzoek ingediend
+  - date: '2023-11-07'
+    event: 'Woo-besluit: verzoek afgewezen'
+ai_content_hash: 176114e86f96bdc3
+ai_processed_at: '2026-07-28T13:46:36.175Z'
+ai_status: done
 ---
 
 Postadres:

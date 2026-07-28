@@ -1,9 +1,37 @@
 ---
-title: "2023-10-18 Woo-verzoek Eurostaete grond in Coevorden"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-10-18 Woo-verzoek Eurostaete grond in Coevorden.pdf"
-s3_etag: "5e3eb883c1a56d2a991436e6c7cb3ee5"
-date: 2026-07-28
+title: 2023-10-18 Woo-verzoek Eurostaete grond in Coevorden
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-10-18 Woo-verzoek Eurostaete grond in
+  Coevorden.pdf
+s3_etag: 5e3eb883c1a56d2a991436e6c7cb3ee5
+date: 2026-07-28T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2023-08-21 een Woo-verzoek over het grondstuk
+  Eurostaete en wees dit op 2023-10-18 (gedeeltelijk) toe met openbaarmaking van
+  166 documenten, met lakking van persoonsgegevens en enkele bedragen. In 2016
+  volgden een aansprakelijkstelling/Wob-verzoek, doorzendingen en verdagingen,
+  waarna op 2016-11-21 inhoudelijk op het Wob-verzoek werd beslist en de
+  aansprakelijkstelling werd afgewezen.
+milestones:
+  - date: '2021-04-19'
+    event: Gemeente wees concept-bestemmingsplan Eurostaete/Wonderland af
+  - date: '2022-05-31'
+    event: Gemeente wees bestemmingsplan Eurostaete/Wonderland opnieuw af
+  - date: '2022-06-20'
+    event: Gemeente weigerde toestemming om te bouwen op Europark
+  - date: '2023-08-21'
+    event: Woo-verzoek ingediend
+  - date: '2023-10-18'
+    event: >-
+      Besluit Woo-verzoek: toegewezen en documenten (gedeeltelijk) openbaar
+      gemaakt
+ai_content_hash: 48c18b9168d4adfa
+ai_processed_at: '2026-07-28T13:49:09.251Z'
+ai_status: done
 ---
 
 Postadres:

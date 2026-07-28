@@ -1,9 +1,29 @@
 ---
-title: "2023-04-24 Woo-verzoek communicatie tussen NVWA en gemeente Coevorden adres te Sleen"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-04-24 Woo-verzoek communicatie tussen NVWA en gemeente Coevorden adres te Sleen.pdf"
-s3_etag: "1c2616fbb69b743a9e368f7b119f3d26"
-date: 2026-07-28
+title: >-
+  2023-04-24 Woo-verzoek communicatie tussen NVWA en gemeente Coevorden adres te
+  Sleen
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-04-24 Woo-verzoek communicatie tussen
+  NVWA en gemeente Coevorden adres te Sleen.pdf
+s3_etag: 1c2616fbb69b743a9e368f7b119f3d26
+date: 2026-07-28T00:00:00.000Z
+summary: >-
+  Op 2023-03-24 is een Woo-verzoek ingediend over communicatie tussen de NVWA en
+  de gemeente Coevorden over een groepsaccommodatie en waterglijbaan. Op
+  2023-04-24 is dit verzoek toegewezen en zijn de gevonden documenten openbaar
+  gemaakt met weglakking van persoonsgegevens.
+milestones:
+  - date: '2023-03-24'
+    event: Woo-verzoek ingediend
+  - date: '2023-04-24'
+    event: 'Besluit: verzoek toegewezen'
+ai_content_hash: ba0a63ee21230fb0
+ai_processed_at: '2026-07-28T13:52:05.376Z'
+ai_status: done
 ---
 
 Gemeente

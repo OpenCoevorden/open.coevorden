@@ -1,9 +1,36 @@
 ---
-title: "2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude Rabobank"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude Rabobank.pdf"
-s3_etag: "f4521a11a1c2769bdf8f0343d69f260c"
-date: 2026-07-28
+title: >-
+  2023-04-04 Woo-verzoek communicatie rondom crisisnoodopvang gebouw oude
+  Rabobank
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-04-04 Woo-verzoek communicatie rondom
+  crisisnoodopvang gebouw oude Rabobank.pdf
+s3_etag: f4521a11a1c2769bdf8f0343d69f260c
+date: 2026-07-28T00:00:00.000Z
+summary: >-
+  De Woo-aanvraag is op 2023-01-20 ingediend en op 2023-03-20 is daarop besloten
+  de gevraagde informatie grotendeels openbaar te maken, met weglakking van
+  persoonsgegevens. Eerder in de onderliggende stukken is de behandeling
+  tijdelijk opgeschort en is de bruikleenovereenkomst voor crisisnoodopvang op
+  2022-10-06 ingegaan.
+milestones:
+  - date: '2022-10-06'
+    event: bruikleenovereenkomst crisisnoodopvang Kasteel 2 ging in
+  - date: '2022-10-17'
+    event: bruikleenovereenkomst door beide partijen getekend
+  - date: '2023-01-20'
+    event: Woo-verzoek ingediend
+  - date: '2023-03-03'
+    event: opschorting beoordeling wegens zienswijze derde-belanghebbende
+  - date: '2023-03-20'
+    event: 'besluit op Woo-verzoek: deels openbaar met weglakking persoonsgegevens'
+ai_content_hash: 9025fd5167ec3e0a
+ai_processed_at: '2026-07-28T13:52:36.986Z'
+ai_status: done
 ---
 
 Postadres:

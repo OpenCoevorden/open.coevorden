@@ -1,9 +1,27 @@
 ---
-title: "2023-07-19 Woo-verzoek beleidsregels elektronisch berichtenverkeer"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-07-19 Woo-verzoek beleidsregels elektronisch berichtenverkeer.pdf"
-s3_etag: "1cb8c4c14a6393d95a16e84e69f09126"
-date: 2026-07-28
+title: 2023-07-19 Woo-verzoek beleidsregels elektronisch berichtenverkeer
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-07-19 Woo-verzoek beleidsregels
+  elektronisch berichtenverkeer.pdf
+s3_etag: 1cb8c4c14a6393d95a16e84e69f09126
+date: 2026-07-28T00:00:00.000Z
+summary: >-
+  Op 2023-07-03 is een Woo-verzoek ingediend over documenten rond de
+  Beleidsregels elektronisch berichtenverkeer gemeente Coevorden 2014. Op
+  2023-07-19 is het verzoek toegewezen en zijn de aangetroffen documenten
+  openbaar gemaakt, met uitzondering van persoonsgegevens.
+milestones:
+  - date: '2023-07-03'
+    event: Woo-verzoek ingediend
+  - date: '2023-07-19'
+    event: 'Besluit: verzoek toegewezen en documenten deels openbaar gemaakt'
+ai_content_hash: 51718e7ead7155d2
+ai_processed_at: '2026-07-28T13:50:55.423Z'
+ai_status: done
 ---
 
 Gemeente

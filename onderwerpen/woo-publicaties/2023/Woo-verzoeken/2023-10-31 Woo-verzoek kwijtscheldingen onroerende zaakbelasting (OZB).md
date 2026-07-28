@@ -1,9 +1,29 @@
 ---
-title: "2023-10-31 Woo-verzoek kwijtscheldingen onroerende zaakbelasting (OZB)"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-10-31 Woo-verzoek kwijtscheldingen onroerende zaakbelasting (OZB).pdf"
-s3_etag: "eb426c081638324af9526d3eb22b9d1c"
-date: 2026-07-28
+title: 2023-10-31 Woo-verzoek kwijtscheldingen onroerende zaakbelasting (OZB)
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-10-31 Woo-verzoek kwijtscheldingen
+  onroerende zaakbelasting (OZB).pdf
+s3_etag: eb426c081638324af9526d3eb22b9d1c
+date: 2026-07-28T00:00:00.000Z
+summary: >-
+  Op 2023-09-29 is een Woo-verzoek ingediend over aantallen kwijtscheldingen van
+  OZB voor 2021-2023. Op 2023-10-31 is dit verzoek afgewezen omdat de gemeente
+  Coevorden geen kwijtschelding OZB kent en de gevraagde overzichten niet
+  beschikbaar zijn.
+milestones:
+  - date: '2023-09-29'
+    event: Woo-verzoek ingediend
+  - date: '2023-10-02'
+    event: verzoek ontvangen
+  - date: '2023-10-31'
+    event: Woo-verzoek afgewezen
+ai_content_hash: 3880da9ff70108ab
+ai_processed_at: '2026-07-28T13:46:41.205Z'
+ai_status: done
 ---
 
 From: info@coevorden.nl

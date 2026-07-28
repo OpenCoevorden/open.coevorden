@@ -1,9 +1,33 @@
 ---
-title: "2023-10-26 Woo-verzoek terrasvergunningen gemeente Coevorden vanaf 2016"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-10-26 Woo-verzoek terrasvergunningen gemeente Coevorden vanaf 2016.pdf"
-s3_etag: "9f75ec0ce46771db7c2df91324274958"
-date: 2026-07-28
+title: 2023-10-26 Woo-verzoek terrasvergunningen gemeente Coevorden vanaf 2016
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-10-26 Woo-verzoek terrasvergunningen
+  gemeente Coevorden vanaf 2016.pdf
+s3_etag: 9f75ec0ce46771db7c2df91324274958
+date: 2026-07-28T00:00:00.000Z
+summary: >-
+  Op 2023-09-30 is een Woo-verzoek ingediend om alle door de gemeente Coevorden
+  verleende terrasvergunningen sinds 2016 te ontvangen. Op 2023-10-26 is dit
+  verzoek toegewezen en zijn de gevraagde documenten met weglakking van
+  persoonsgegevens verstrekt.
+milestones:
+  - date: '2020-05-20'
+    event: Ontheffing terras Friesestraat 2 verleend
+  - date: '2020-06-05'
+    event: Correctiebesluit op ontheffing terras Friesestraat 2
+  - date: '2022-09-20'
+    event: Ontheffing terras Friesestraat 122 verleend
+  - date: '2023-09-30'
+    event: Woo-verzoek ingediend
+  - date: '2023-10-26'
+    event: 'Woo-besluit: verzoek toegewezen en documenten verstrekt'
+ai_content_hash: 1b0f93907ad4a6fd
+ai_processed_at: '2026-07-28T13:46:49.583Z'
+ai_status: done
 ---
 
 Gemeente

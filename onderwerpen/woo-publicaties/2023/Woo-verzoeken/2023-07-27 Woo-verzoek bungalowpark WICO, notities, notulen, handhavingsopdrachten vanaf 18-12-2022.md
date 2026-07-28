@@ -1,9 +1,65 @@
 ---
-title: "2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen, handhavingsopdrachten vanaf 18-12-2022"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen, handhavingsopdrachten vanaf 18-12-2022.pdf"
-s3_etag: "ecd3ea39e3b2036122bf158eb25dc59d"
-date: 2026-07-28
+title: >-
+  2023-07-27 Woo-verzoek bungalowpark WICO, notities, notulen,
+  handhavingsopdrachten vanaf 18-12-2022
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/2023-07-27 Woo-verzoek bungalowpark WICO,
+  notities, notulen, handhavingsopdrachten vanaf 18-12-2022.pdf
+s3_etag: ecd3ea39e3b2036122bf158eb25dc59d
+date: 2026-07-28T00:00:00.000Z
+summary: >-
+  De Woo-aanvraag over bungalowpark Wico/Vitale Vakantieparken is ingediend op
+  2023-04-15 en op 2023-07-27 beslist, met gedeeltelijke openbaarmaking en
+  uitgestelde openbaarmaking voor één document. De behandeltermijn is
+  tussentijds verlengd en opgeschort vanwege een zienswijzeronde.
+milestones:
+  - date: '2023-03-08'
+    event: >-
+      Brief aan eigenaren/bewoners park Wico: terug naar recreatie en
+      beëindiging permanente bewoning aangekondigd
+  - date: '2023-03-20'
+    event: Verzoek om stukken en toelichting over de plannen voor park Wico
+  - date: '2023-03-20'
+    event: >-
+      Gemeente licht toe dat het vastgestelde beleid recreatieve functie behoudt
+      en huidige bestemming niet wijzigt
+  - date: '2023-03-22'
+    event: Gesprek over park Wico gevoerd
+  - date: '2023-03-24'
+    event: Verzoek om gesprek over brief en plannen park Wico
+  - date: '2023-04-05'
+    event: >-
+      Gemeente bevestigt dat park Wico teruggaat naar recreatie en permanente
+      bewoning wordt beëindigd
+  - date: '2023-04-13'
+    event: 'Reactie op toelichting: verzoek om formulering over handhaving te herzien'
+  - date: '2023-04-15'
+    event: Woo-verzoek ingediend
+  - date: '2023-04-20'
+    event: >-
+      Samenvatting gesprek: besluit terug naar recreatie staat vast en
+      permanente bewoning wordt beëindigd
+  - date: '2023-05-09'
+    event: Behandeltermijn met twee weken verlengd
+  - date: '2023-05-25'
+    event: Behandeltermijn opgeschort wegens zienswijzeronde
+  - date: '2023-07-05'
+    event: >-
+      Tweede opschorting/vertraging gemeld in verband met extra inventarisatie
+      en zienswijze
+  - date: '2023-07-27'
+    event: >-
+      Besluit op Woo-verzoek genomen; deels openbaarmaking en uitgestelde
+      openbaarmaking
+  - date: '2023-08-11'
+    event: Uiterste datum voor belanghebbenden om openbaarmaking tegen te houden
+ai_content_hash: 57b0ac7b3b8df475
+ai_processed_at: '2026-07-28T13:50:37.558Z'
+ai_status: done
 ---
 
 Postadres:
