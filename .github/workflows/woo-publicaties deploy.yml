@@ -150,10 +150,15 @@ jobs:
 
       - name: Index with Pagefind
         run: |
-          # Index in de jaarmap schrijven, zodat de resultaat-URL's de volle
-          # prefix (…/woo-publicaties/2023/…) bevatten en index.html de bundle
-          # op /woo-publicaties/2023/_pagefind/ vindt.
-          npx pagefind@latest --site public --output-path "public/$SYNC_FOLDER/_pagefind"
+          # BELANGRIJK: --site op de JAARMAP, niet op public/.
+          # Pagefind stelt de result-URL samen als: runtime-basis + opgeslagen URL.
+          # De runtime-basis leidt Pagefind af uit de bundel-locatie
+          # (/woo-publicaties/2023/_pagefind/ -> basis = /woo-publicaties/2023/).
+          # Indexeren we op public/, dan zit die prefix óók al in de opgeslagen URL
+          # en krijg je 'm dubbel (…/2023/woo-publicaties/2023/…). Door op de jaarmap
+          # te indexeren zijn de opgeslagen URL's basis-relatief (/woo-verzoeken/…),
+          # en vult de runtime-basis de prefix precies één keer aan.
+          npx pagefind@latest --site "public/$SYNC_FOLDER" --output-subdir _pagefind
 
       - name: Deploy to S3
         env:
