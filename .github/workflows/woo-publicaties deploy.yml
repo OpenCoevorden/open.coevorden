@@ -1,3 +1,38 @@
+# =============================================================================
+# woo-publicaties_deploy.yml — GitHub Actions: S3 → Hugo → Pagefind → S3 deploy
+# =============================================================================
+#
+# WAT DOET DEZE WORKFLOW?
+#   1) Spiegelt de PDF's uit de bron-bucket naar markdown (met tekst + frontmatter).
+#   2) Bouwt de Hugo-site.
+#   3) Indexeert met Pagefind.
+#   4) Synct het resultaat naar de site-bucket (scoped op SYNC_FOLDER).
+#   Draait bij push op main, elke nacht (cron) en handmatig (workflow_dispatch).
+#
+# EXTERNE ACTIONS / TOOLS (updaten = versie/pin hieronder in de steps aanpassen)
+#   actions/checkout@v4                  → repo uitchecken.
+#   stefanzweifel/git-auto-commit-action@v5 → de gesyncte markdown terugcommitten.
+#   peaceiris/actions-hugo@v2            → Hugo installeren (versie gepind: 0.128.0,
+#                                          extended). Updaten: hugo-version in de step.
+#   poppler-utils (pdftotext)           → PDF→tekst; via apt-get in "Install dependencies".
+#   AWS CLI                             → voorgeïnstalleerd op de runner (s3api/s3 sync).
+#   npx pagefind@latest                 → zoekindex bouwen. Updaten: pin een versie
+#                                          i.p.v. @latest voor reproduceerbaarheid.
+#
+# SECRETS (Repo → Settings → Secrets and variables → Actions)
+#   AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY            → LEEST bron-bucket.
+#   AWS_ACCESS_KEY_ID_SITE / AWS_SECRET_ACCESS_KEY_SITE  → SCHRIJFT site-bucket.
+#   Updaten: roteer in Secrets. Bucketnamen staan hardcoded in de betreffende steps
+#   (publicaties-coevorden = bron, publicaties-coevorden-site = site).
+#
+# CONFIGURATIE (env, hieronder op workflow-niveau)
+#   SYNC_FOLDER        → "<onderwerp>/<jaar>". Moet EXACT als prefix in de bron-
+#                        bucket bestaan (casing!). Updaten: wijzig de waarde.
+#   AWS_DEFAULT_REGION → regio van beide buckets (eu-north-1). Updaten bij verhuizing.
+#   CDN_BASE_URL       → CloudFront-root voor de Hugo baseURL (géén pad-prefix).
+#                        Updaten: zet het CloudFront-domein uit cloudfront.json.
+# =============================================================================
+
 name: Woo publicaties synchroniseren
 on:
   push:
