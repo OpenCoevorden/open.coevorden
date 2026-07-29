@@ -1,0 +1,785 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <!--
+    =========================================================================
+    index.html — Overzichts-/zoekpagina van "Publicaties Coevorden"
+    =========================================================================
+
+    WAT DOET DIT BESTAND?
+      Startpagina met per-onderwerp een Pagefind-zoekindex plus een AI-zoekknop
+      (ingebedde externe assistent). De onderwerpen en hun zoekindexen worden
+      volledig data-driven opgebouwd uit de SUBJECTS-array onderin het <script>.
+
+    -------------------------------------------------------------------------
+    EXTERNE LIBRARIES / DEPENDENCIES (updaten = de URL/verwijzing hieronder)
+    -------------------------------------------------------------------------
+      Bootstrap Icons 1.11.1 (CDN)  → iconen. Zie de <link> direct hieronder.
+                                      Updaten: wijzig het versienummer in de URL.
+      Pagefind (runtime geladen)    → de zoekmachine. JS/CSS worden op het juiste
+                                      moment ingeladen vanaf de bundel-locatie
+                                      (zie assetBundlePath() / resolveBundles()).
+                                      Updaten: Pagefind-versie wordt bepaald door
+                                      de deploy-workflow (npx pagefind@...).
+      AI-zoekassistent (iframe)     → externe dienst customgpt-agents.com.
+                                      Updaten: pas de iframe-src verderop in de
+                                      markup aan (zoek op "customgpt-agents").
+
+    -------------------------------------------------------------------------
+    CONFIGURATIE — waar pas je wat aan?
+    -------------------------------------------------------------------------
+      Kleuren/WCAG-contrast   → CSS-variabelen in :root (in <style> hieronder).
+      Onderwerpen + zoekindex → de SUBJECTS-array (onderin <script>). Eén
+                                onderwerp toevoegen = één object toevoegen.
+                                Per onderwerp: id (MOET matchen met de map-prefix
+                                in de bucket, incl. casing), label, icon,
+                                optioneel builds[] (losse deploys die samengevoegd
+                                worden, bv. jaren), buildFilter (facetnaam voor die
+                                builds), en filters[] (welke Pagefind-filters).
+      Vertalingen/labels      → het TRANSLATIONS-object (onderin <script>).
+      AI-iframe-adres         → de iframe-src in de markup (customgpt-agents.com).
+    =========================================================================
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- WCAG 2.4.2: paginatitel beschrijft de inhoud -->
+    <title>Publicaties Coevorden – Officiële documenten doorzoeken</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        /* =============================================
+           WCAG KLEURCONTRAST
+           --accent: #96b522 op wit = 3.5:1 → te laag voor tekst (min 4.5:1)
+           Opgehoogd naar #5a7a00 (>4.5:1)
+           --primary: #663366 op wit = 5.9:1 → voldoet, maar verdiept voor extra marge
+        ============================================= */
+        :root {
+            --primary: #4a2060;
+            --accent:  #5a7a00;
+            --bg: #f4f7f6;
+            --text: #1a1a1a;       /* WCAG: verhoogd van #333 */
+            --text-muted: #444;    /* WCAG: verhoogd van #666 */
+
+            /* Pagefind variabelen */
+            --pagefind-ui-primary: var(--primary);
+            --pagefind-ui-text: var(--text);
+            --pagefind-ui-background: #ffffff;
+            --pagefind-ui-border: #c0c0c0; /* WCAG 1.4.11: grens-contrast verhoogd */
+            --pagefind-ui-tag: #f0f0f0;
+            --pagefind-ui-font: inherit;
+        }
+
+        /* =============================================
+           WCAG 2.3.3: animaties respecteren gebruikersvoorkeur
+        ============================================= */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                transition: none !important;
+                animation: none !important;
+            }
+        }
+
+        /* =============================================
+           WCAG 2.4.7: zichtbare focusstijl voor alle interactieve elementen
+        ============================================= */
+        :focus-visible {
+            outline: 3px solid var(--accent);
+            outline-offset: 3px;
+        }
+
+        /* =============================================
+           Hulpklassen
+        ============================================= */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* WCAG 2.4.1: skip-link wordt zichtbaar bij focus */
+        .skip-link {
+            position: absolute;
+            top: -999px;
+            left: 0;
+            background: var(--primary);
+            color: white;
+            padding: 12px 20px;
+            z-index: 999;
+            border-radius: 0 0 8px 0;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .skip-link:focus { top: 0; }
+
+        .hidden { display: none !important; }
+
+        /* =============================================
+           Basis layout
+        ============================================= */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            margin: 0;
+            color: var(--text);
+        }
+
+        /* Hero */
+        .hero-header {
+            background: var(--primary);
+            color: white;
+            padding: 3rem 1rem 5rem;
+            text-align: center;
+        }
+
+        /* WCAG 1.3.1: h1 is enige h1 op de pagina */
+        .hero-header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        /* WCAG 1.4.3: opacity 0.8 haalt ~4.5:1 op paarse bg → verhoogd naar 0.9 */
+        .hero-header p {
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        /* Main container */
+        .container {
+            max-width: 1100px;
+            margin: -3rem auto 2rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            padding: 2rem;
+        }
+
+        /* =============================================
+           Onderwerp-pills & Zoek modus
+        ============================================= */
+        .selector-container {
+            text-align: center;
+        }
+
+        .selector-container p {
+            font-weight: 600;
+            margin: 0 0 15px;
+            font-size: 1rem;
+            color: var(--text);
+        }
+
+        .subject-pills, .search-mode-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .search-mode-buttons {
+            margin-top: 10px;
+        }
+
+        .subject-pill, .search-mode-button {
+            padding: 10px 25px;
+            min-height: 44px;
+            border: 2px solid var(--primary);
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            background: white;
+            color: var(--primary);
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .subject-pill:hover, .search-mode-button:hover {
+            background: #ede8f0;
+        }
+
+        .subject-pill[aria-pressed="true"], .subject-pill.active, .search-mode-button.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        /* =============================================
+           Zoekgebied
+        ============================================= */
+        .subject-search { min-height: 200px; }
+
+        .placeholder-text {
+            color: var(--text-muted);
+            font-style: italic;
+            padding: 60px 1rem;
+            text-align: center;
+            border: 2px dashed #bbb;
+            border-radius: 8px;
+        }
+
+        /* =============================================
+           Pagefind: UI elementen
+        ============================================= */
+        .pagefind-ui__search-input {
+            border-radius: 8px !important;
+            border: 2px solid #bbb !important;
+            padding: 15px 55px !important;
+            font-size: 1.1rem !important;
+            color: var(--text) !important;
+        }
+
+        .pagefind-ui__search-input:focus {
+            border-color: var(--primary) !important;
+            outline: none !important;
+            box-shadow: 0 0 0 3px rgba(74, 32, 96, 0.25) !important;
+        }
+
+        .pagefind-ui__result {
+            list-style: none !important;
+            padding: 20px 0 !important;
+            border-bottom: 1px solid #ddd !important;
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 8px !important;
+        }
+
+        .pagefind-ui__result:last-child { border-bottom: none !important; }
+
+        .pagefind-ui__result-link {
+            color: var(--primary) !important;
+            font-weight: 700 !important;
+            font-size: 1.2rem !important;
+            text-decoration: underline !important;
+        }
+
+        .pagefind-ui__result-link:hover { color: var(--accent) !important; }
+
+        .pagefind-ui__result-excerpt {
+            color: #333 !important;
+            line-height: 1.6 !important;
+            font-size: 0.95rem !important;
+        }
+
+        mark {
+            background-color: var(--accent) !important;
+            color: #ffffff !important;
+            font-weight: 600;
+            padding: 0 2px;
+        }
+
+        .pagefind-ui__button {
+            background: white !important;
+            border: 2px solid var(--primary) !important;
+            color: var(--primary) !important;
+            border-radius: 25px !important;
+            font-weight: 600 !important;
+            font-size: 1rem !important;
+            padding: 12px 30px !important;
+            min-height: 44px !important;
+            margin-top: 20px !important;
+            cursor: pointer !important;
+        }
+
+        .pagefind-ui__button:hover {
+            background: var(--primary) !important;
+            color: white !important;
+        }
+
+        /* Pagefind filters */
+        .pagefind-ui__drawer { gap: 40px !important; }
+        .pagefind-ui__filter-group { border: none !important; padding: 0 !important; }
+
+        .pagefind-ui__filter-name, .pagefind-ui__filter-group-title {
+            font-weight: 700 !important;
+            text-transform: uppercase !important;
+            font-size: 0.8rem !important;
+            letter-spacing: 1px !important;
+            margin-bottom: 15px !important;
+            color: var(--primary) !important;
+            display: block !important;
+        }
+
+        .pagefind-ui__filter-group ul {
+            display: flex !important;
+            flex-wrap: wrap !important;
+            gap: 8px !important;
+            padding: 0 !important;
+            list-style: none !important;
+            margin-bottom: 20px !important;
+        }
+
+        .pagefind-ui__filter-checkbox {
+            position: absolute !important;
+            opacity: 0 !important;
+            width: 1px !important;
+            height: 1px !important;
+        }
+
+        .pagefind-ui__filter-label {
+            display: inline-flex !important;
+            align-items: center !important;
+            padding: 6px 16px !important;
+            min-height: 36px !important;
+            background-color: white !important;
+            border: 1px solid var(--primary) !important;
+            border-radius: 20px !important;
+            font-size: 0.85rem !important;
+            font-weight: 500 !important;
+            color: var(--primary) !important;
+            cursor: pointer !important;
+        }
+
+        .pagefind-ui__filter-label:hover { background-color: #ede8f0 !important; }
+
+        .pagefind-ui__filter-value:has(input:checked) .pagefind-ui__filter-label {
+            background-color: var(--primary) !important;
+            color: white !important;
+            border-width: 2px !important;
+            box-shadow: 0 2px 5px rgba(74, 32, 96, 0.3) !important;
+        }
+
+        .pagefind-ui__filter-checkbox:focus-visible + .pagefind-ui__filter-label {
+            outline: 3px solid var(--accent) !important;
+            outline-offset: 2px !important;
+        }
+
+        /* Tags */
+        .pagefind-ui__result-tags {
+            display: flex !important;
+            flex-wrap: wrap !important;
+            gap: 6px !important;
+            margin-top: 10px !important;
+            padding: 0 !important;
+            list-style: none !important;
+        }
+
+        .pagefind-ui__result-tag {
+            background-color: #f0f0f0 !important;
+            color: #333 !important;
+            font-size: 0.75rem !important;
+            padding: 3px 10px !important;
+            border-radius: 4px !important;
+            font-weight: 600 !important;
+            text-transform: uppercase !important;
+        }
+
+        /* AI iframe */
+        #ai-search-container iframe {
+            width: 100%;
+            height: 600px;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        /* Responsiviteit */
+        @media (max-width: 400px) {
+            .container { padding: 1rem; }
+            .subject-pills, .search-mode-buttons { flex-direction: column; align-items: center; }
+            .subject-pill, .search-mode-button { width: 100%; max-width: 280px; }
+        }
+
+        .search-options {
+            margin-bottom: 0.5rem;
+            margin-top: 1rem;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="#main-content" class="skip-link">Ga naar hoofdinhoud</a>
+
+    <header class="hero-header" role="banner">
+        <h1>
+            <i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>
+            Publicaties Coevorden
+        </h1>
+        <p>Doorzoek de officiële publicaties van Coevorden</p>
+    </header>
+
+    <main id="main-content">
+        <div class="container">
+
+            <!-- Onderwerpkeuze + AI-knop (worden door JS gevuld uit SUBJECTS) -->
+            <section class="selector-container" aria-labelledby="keuze-label">
+                <p id="keuze-label">Kies een onderwerp:</p>
+                <div class="subject-pills" role="group" aria-labelledby="keuze-label" id="subject-pills">
+                    <!-- knoppen worden hier ingevoegd -->
+                </div>
+            </section>
+
+            <!-- Sectie: Pagefind Zoeken -->
+            <section id="search-section" aria-label="Zoekresultaten">
+
+                <!-- Zoekmodus (verborgen tot een index geladen is) -->
+                <div class="search-options">
+                    <div id="search-mode-buttons" class="search-mode-buttons hidden">
+                        <button type="button" class="search-mode-button active" id="normal-search">Losse woorden</button>
+                        <button type="button" class="search-mode-button" id="exact-search">Exact zoeken</button>
+                    </div>
+                </div>
+
+                <!-- Eén zoekcontainer per onderwerp (door JS ingevoegd) -->
+                <div id="subject-containers">
+                    <!-- <div id="search-<id>" class="subject-search"></div> -->
+                </div>
+            </section>
+
+            <!-- Sectie: AI Zoeken -->
+            <section
+                id="ai-search-container"
+                class="hidden"
+                tabindex="-1"
+                aria-label="AI-zoekassistent"
+                aria-hidden="true">
+
+                <p class="sr-only">Het volgende gebied bevat een ingebedde AI-zoekassistent van een externe dienst.</p>
+                <iframe
+                    src="https://coevfruvxa.customgpt-agents.com"
+                    title="AI-zoekassistent voor publicaties van Coevorden"
+                    loading="lazy"
+                    allowtransparency="true">
+                    <p>
+                        Uw browser ondersteunt geen iframes.
+                        <a href="https://coevfruvxa.customgpt-agents.com">Open de AI-zoekassistent in een nieuw venster.</a>
+                    </p>
+                </iframe>
+            </section>
+
+        </div>
+    </main>
+
+    <script>
+        /* ═══════════════════════════════════════════════════════════
+           CONFIGURATIE — één object per onderwerp.
+           Een onderwerp toevoegen = één regel hieronder.
+
+           'builds' is OPTIONEEL — de losse deploys die onder dit onderwerp
+           tot één zoekindex worden samengevoegd (bijv. de jaren van woo):
+             • MET builds[]  → deploys op /<id>/<build>/_pagefind/,
+                               samengevoegd tot één index (builds gecombineerd).
+             • ZONDER builds → één enkele deploy op /<id>/_pagefind/.
+
+           'buildFilter' (OPTIONEEL) is de naam van het facet dat de build-waarden
+           vullen, zodat je binnen het onderwerp op die dimensie kunt filteren.
+           Voor woo zijn de builds jaren → buildFilter: "Jaar". Laat je 'm weg,
+           dan worden de builds samengevoegd zonder er een facet aan te hangen.
+
+           'filters' bepaalt welke Pagefind-filters getoond worden. Neem het
+           buildFilter-facet hierin op als je erop wilt kunnen filteren.
+
+           LET OP: 'id' moet exact overeenkomen met de map-prefix in de bucket
+           (zie SYNC_FOLDER in de deploy-workflow), inclusief casing.
+           ═══════════════════════════════════════════════════════════ */
+        const SUBJECTS = [
+            {
+                id: "woo-publicaties",
+                label: "Woo-publicaties",
+                icon: "bi-file-earmark-text",
+                builds: ["2026", "2025", "2024", "2023"],  // losse deploys → gecombineerd
+                buildFilter: "Jaar",                        // builds = jaren → als facet - single.html moet bevatten: data-pagefind-filter="Jaar"
+                filters: ["Jaar", "Categorie", "Zaak"], // deze filters moet single.html bevatten.
+            },
+            {
+                id: "vergunningen",
+                label: "Vergunningen",
+                icon: "bi-building-check",
+                // geen 'builds' → één enkele deploy, geen deel-laag
+                filters: ["Categorie", "Zaak"],
+            },
+        ];
+
+        // Gedeelde vertalingen voor elke Pagefind-instance.
+        const TRANSLATIONS = {
+            placeholder:   "Doorzoek dossiers op tekst",
+            searching:     "Zoeken…",
+            zero_results:  "Geen resultaten gevonden voor [SEARCH_TERM].",
+            many_results:  "[COUNT] resultaten gevonden voor [SEARCH_TERM].",
+            one_result:    "1 resultaat gevonden voor [SEARCH_TERM].",
+            load_more:     "Toon meer resultaten",
+            search_label:  "Zoek in de publicaties",
+            filters_label: "Filter op",
+        };
+
+        let pagefindReady = false;       // is pagefind-ui.js geladen?
+        let currentSubjectId = null;     // welk onderwerp staat nu open?
+        const started = new Set();       // welke onderwerpen zijn al geïnitialiseerd?
+
+        /* ── Bundelpaden afleiden ──────────────────────────────────
+           Vertaalt een onderwerp naar één of meer Pagefind-bundels.
+           Heeft een build een buildFilter, dan krijgt elke bundle een
+           mergeFilter mee zodat dat facet per build de juiste waarde draagt. */
+        function resolveBundles(subject) {
+            if (Array.isArray(subject.builds) && subject.builds.length > 0) {
+                return subject.builds.map((build, i) => {
+                    const bundle = {
+                        bundlePath: `/${subject.id}/${build}/_pagefind/`,
+                        primary: i === 0,
+                    };
+                    if (subject.buildFilter) {
+                        bundle.mergeFilter = { [subject.buildFilter]: build };
+                    }
+                    return bundle;
+                });
+            }
+            // Eén enkele deploy: geen deel-laag, geen mergeFilter.
+            return [{ bundlePath: `/${subject.id}/_pagefind/`, primary: true }];
+        }
+
+        // De JS/CSS van Pagefind is in elke bundle identiek → we laden hem
+        // één keer, vanuit de primaire bundle van het eerste onderwerp.
+        function assetBundlePath() {
+            const bundles = resolveBundles(SUBJECTS[0]);
+            return bundles.find(b => b.primary).bundlePath;
+        }
+
+        /* ── UI opbouwen uit SUBJECTS ─────────────────────────────── */
+        function buildUI() {
+            const pills = document.getElementById("subject-pills");
+            const containers = document.getElementById("subject-containers");
+
+            SUBJECTS.forEach((s, i) => {
+                const btn = document.createElement("button");
+                btn.type = "button";
+                btn.className = "subject-pill";
+                btn.id = `pill-${s.id}`;
+                btn.setAttribute("aria-pressed", "false");
+                btn.innerHTML = `<i class="bi ${s.icon || "bi-folder"}" aria-hidden="true"></i> ${s.label}`;
+                btn.addEventListener("click", () => selectSubject(s.id));
+                pills.appendChild(btn);
+
+                const box = document.createElement("div");
+                box.className = "subject-search hidden";
+                box.id = `search-${s.id}`;
+                box.setAttribute("aria-live", "polite");
+                box.setAttribute("aria-atomic", "false");
+                // Placeholder tot Pagefind geladen is (voor het eerste onderwerp zichtbaar).
+                box.innerHTML = '<p class="placeholder-text" role="status">Zoekfunctie wordt geladen…</p>';
+                containers.appendChild(box);
+            });
+
+            // AI-knop achteraan, in dezelfde groep.
+            const aiBtn = document.createElement("button");
+            aiBtn.type = "button";
+            aiBtn.className = "subject-pill";
+            aiBtn.id = "pill-ai";
+            aiBtn.setAttribute("aria-pressed", "false");
+            aiBtn.innerHTML = `<i class="bi bi-robot" aria-hidden="true"></i> Zoeken met AI`;
+            aiBtn.addEventListener("click", selectAI);
+            pills.appendChild(aiBtn);
+        }
+
+        /* ── Pills: actieve status ─────────────────────────────────── */
+        function setActivePill(pillId) {
+            document.querySelectorAll(".subject-pill").forEach(btn => {
+                btn.setAttribute("aria-pressed", "false");
+                btn.classList.remove("active");
+            });
+            const el = document.getElementById(pillId);
+            el.setAttribute("aria-pressed", "true");
+            el.classList.add("active");
+        }
+
+        /* ── Lazy init van één Pagefind-instance per onderwerp ─────── */
+        function ensureInit(subject) {
+            if (!pagefindReady || started.has(subject.id)) return;
+
+            const bundles = resolveBundles(subject);
+            const primary = bundles.find(b => b.primary);
+            const rest = bundles.filter(b => !b.primary);
+
+            const container = document.getElementById(`search-${subject.id}`);
+            container.innerHTML = ""; // placeholder weghalen
+
+            const cfg = {
+                element: `#search-${subject.id}`,
+                bundlePath: primary.bundlePath,
+                showSubResults: false,
+                showImages: false,
+                showEmptyFilters: false,
+                excerptLength: 30,
+                showFilters: subject.filters || ["Jaar", "Categorie", "Zaak"],
+                translations: TRANSLATIONS,
+            };
+            if (primary.mergeFilter) cfg.mergeFilter = primary.mergeFilter;
+            if (rest.length) {
+                cfg.mergeIndex = rest.map(b => {
+                    const m = { bundlePath: b.bundlePath };
+                    if (b.mergeFilter) m.mergeFilter = b.mergeFilter;
+                    return m;
+                });
+            }
+
+            new PagefindUI(cfg);
+            started.add(subject.id);
+        }
+
+        /* ── Onderwerp openen ──────────────────────────────────────── */
+        function selectSubject(id) {
+            const subject = SUBJECTS.find(s => s.id === id);
+            if (!subject) return;
+
+            setActivePill(`pill-${id}`);
+            currentSubjectId = id;
+
+            // Zoeksectie tonen, AI verbergen.
+            const searchSection = document.getElementById("search-section");
+            searchSection.classList.remove("hidden");
+            searchSection.removeAttribute("aria-hidden");
+            hideAI();
+
+            // Alleen de container van dit onderwerp tonen.
+            document.querySelectorAll(".subject-search").forEach(c => {
+                c.classList.toggle("hidden", c.id !== `search-${id}`);
+            });
+
+            ensureInit(subject);
+
+            // Zoekmodus tonen en de knoppen synchroniseren met de ECHTE inhoud
+            // van de input van dít onderwerp. Elke instance heeft zijn eigen
+            // input, dus of 'los' of 'exact' actief is, hangt af van wat er nu
+            // in dat veld staat — niet van een globale vlag.
+            if (pagefindReady) {
+                document.getElementById("search-mode-buttons").classList.remove("hidden");
+                afterInput(id, (input) => {
+                    setModeButtons(modeFromInput(input));
+                    input.focus();
+                });
+            }
+        }
+
+        /* ── AI openen ─────────────────────────────────────────────── */
+        function selectAI() {
+            setActivePill("pill-ai");
+            currentSubjectId = null;
+
+            const searchSection = document.getElementById("search-section");
+            searchSection.classList.add("hidden");
+            searchSection.setAttribute("aria-hidden", "true");
+            document.getElementById("search-mode-buttons").classList.add("hidden");
+
+            const ai = document.getElementById("ai-search-container");
+            ai.classList.remove("hidden");
+            ai.removeAttribute("aria-hidden");
+            ai.focus();
+        }
+
+        function hideAI() {
+            const ai = document.getElementById("ai-search-container");
+            ai.classList.add("hidden");
+            ai.setAttribute("aria-hidden", "true");
+        }
+
+        /* ── Zoekmodus: los / exact ────────────────────────────────
+           De modus is GEEN globale vlag. Elke Pagefind-instance heeft zijn
+           eigen input; we leiden 'los' of 'exact' af uit de inhoud daarvan
+           (staat de tekst tussen aanhalingstekens → exact). Zo kloppen de
+           knoppen altijd — bij het wisselen van onderwerp, én als de
+           gebruiker de quotes zelf typt of wist. */
+        function activeInput() {
+            if (!currentSubjectId) return null;
+            return document.querySelector(`#search-${currentSubjectId} .pagefind-ui__search-input`);
+        }
+
+        // Wacht kort tot Pagefind de input van dit onderwerp heeft aangemaakt
+        // (die verschijnt asynchroon na het initialiseren van de instance).
+        function afterInput(id, cb, tries = 20) {
+            const input = document.querySelector(`#search-${id} .pagefind-ui__search-input`);
+            if (input) { cb(input); return; }
+            if (tries > 0) setTimeout(() => afterInput(id, cb, tries - 1), 50);
+        }
+
+        function modeFromInput(input) {
+            const v = ((input && input.value) || "").trim();
+            return v.length >= 2 && v.startsWith('"') && v.endsWith('"') ? "exact" : "normal";
+        }
+
+        function setModeButtons(mode) {
+            document.getElementById("exact-search").classList.toggle("active", mode === "exact");
+            document.getElementById("normal-search").classList.toggle("active", mode === "normal");
+        }
+
+        function setupSearchModeButtons() {
+            const exactBtn = document.getElementById("exact-search");
+            const normalBtn = document.getElementById("normal-search");
+
+            exactBtn.addEventListener("click", () => {
+                const input = activeInput();
+                if (!input) return;
+                const tekst = input.value.replace(/^"|"$/g, "").trim();
+                // Ook een leeg veld omhaken → "" met de cursor ertussen, zodat
+                // wat je vervolgens typt binnen de aanhalingstekens belandt.
+                input.value = `"${tekst}"`;
+                input.focus();
+                input.setSelectionRange(1, input.value.length - 1);
+                input.dispatchEvent(new Event("input", { bubbles: true }));
+                setModeButtons("exact");
+            });
+
+            normalBtn.addEventListener("click", () => {
+                const input = activeInput();
+                if (!input) return;
+                input.value = input.value.replace(/^"|"$/g, "");
+                input.focus();
+                input.setSelectionRange(input.value.length, input.value.length);
+                input.dispatchEvent(new Event("input", { bubbles: true }));
+                setModeButtons("normal");
+            });
+
+            // Eén gedelegeerde luisteraar houdt de knoppen synchroon met wat er
+            // ECHT in de actieve input staat — ongeacht of dat via de knoppen of
+            // via typen kwam. Dit is de enige bron van waarheid voor de modus.
+            document.getElementById("subject-containers").addEventListener("input", (e) => {
+                const t = e.target;
+                if (!t.classList || !t.classList.contains("pagefind-ui__search-input")) return;
+                if (!currentSubjectId) return;
+                const container = document.getElementById(`search-${currentSubjectId}`);
+                if (container && container.contains(t)) setModeButtons(modeFromInput(t));
+            });
+        }
+
+        /* ── Pagefind eenmalig laden, dan eerste onderwerp openen ──── */
+        function loadPagefind() {
+            const base = assetBundlePath();
+
+            const css = document.createElement("link");
+            css.rel = "stylesheet";
+            css.href = `${base}pagefind-ui.css`;
+            document.head.appendChild(css);
+
+            const script = document.createElement("script");
+            script.src = `${base}pagefind-ui.js`;
+
+            script.onload = () => {
+                pagefindReady = true;
+                // Open het onderwerp dat de gebruiker (of de default) heeft gekozen.
+                selectSubject(currentSubjectId || SUBJECTS[0].id);
+            };
+
+            script.onerror = () => {
+                document.querySelectorAll(".subject-search").forEach(c => {
+                    c.innerHTML =
+                        '<p role="alert" class="placeholder-text" style="border-color:#a32d2d; color:#a32d2d;">' +
+                        'De zoekfunctie kon niet worden geladen. Controleer uw internetverbinding en probeer het opnieuw.</p>';
+                });
+            };
+
+            document.body.appendChild(script);
+        }
+
+        /* ── Start ─────────────────────────────────────────────────── */
+        buildUI();
+        setupSearchModeButtons();
+        currentSubjectId = SUBJECTS[0].id;   // default-onderwerp
+        setActivePill(`pill-${currentSubjectId}`);
+        document.getElementById(`search-${currentSubjectId}`).classList.remove("hidden");
+        loadPagefind();
+    </script>
+</body>
+</html>
