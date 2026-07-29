@@ -1,25 +1,76 @@
-import fs from "fs";
-import crypto from "crypto";
-import matter from "gray-matter";
-import OpenAI from "openai";
-import { globSync } from "glob";
-import pLimit from "p-limit";
+// =============================================================================
+// woo-publicaties-verrijken.js — AI-verrijking van de Woo-markdownbestanden
+// =============================================================================
+//
+// WAT DOET DIT SCRIPT?
+//   Loopt door de markdownbestanden onder onderwerpen/<DOC_PATH>/ (aangemaakt
+//   door de sync-workflow) en laat OpenAI per dossier een korte samenvatting +
+//   een chronologische tijdlijn (milestones) genereren. Die worden als extra
+//   frontmatter (summary, milestones, ai_*) teruggeschreven, zodat single.html
+//   ze kan tonen. Wordt aangeroepen door woo-publicaties_verrijken.yml.
+//
+//   Idempotent: een bestand wordt overgeslagen zolang de inhoud (hash) niet
+//   wijzigt én de vorige run "done" was. Draai gerust opnieuw; "partial"/mislukte
+//   bestanden worden automatisch herpakt.
+//
+// -----------------------------------------------------------------------------
+// EXTERNE LIBRARIES / DEPENDENCIES (installeren via de workflow met:
+//   npm install gray-matter openai glob fs-extra p-limit)
+// -----------------------------------------------------------------------------
+import fs from "fs";                 // Node-ingebouwd: bestanden lezen/schrijven.
+import crypto from "crypto";         // Node-ingebouwd: SHA-256 hash van de inhoud.
+import matter from "gray-matter";    // npm 'gray-matter': frontmatter parsen/schrijven.
+import OpenAI from "openai";         // npm 'openai': officiële OpenAI-client.
+import { globSync } from "glob";     // npm 'glob': .md-bestanden vinden via patroon.
+import pLimit from "p-limit";        // npm 'p-limit': parallelle taken begrenzen.
+// Let op: 'fs-extra' wordt door de workflow meegeïnstalleerd maar hier niet
+// geïmporteerd; dat is onschadelijk. Updaten van libs: pas de npm install-regel
+// in woo-publicaties_verrijken.yml aan én, indien nodig, deze imports.
 
+// OpenAI-client. Leest de sleutel uit de omgeving (nooit hardcoden).
+// Updaten: zet OPENAI_API_KEY als secret in de workflow.
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-/* ------------------ CONFIG ------------------ */
+/* ------------------ CONFIG ------------------
+   Alle instelbare waarden staan hier. Vrijwel elke waarde is via een environment
+   variable te overschrijven (handig om in de workflow te tunen zonder code te
+   wijzigen); tussen haakjes staat telkens de default. */
 
+// Het OpenAI-model voor samenvatting + milestones.
+// Updaten: zet env AI_MODEL, of wijzig de default hier.
 const MODEL = process.env.AI_MODEL || "gpt-5.4-mini";
+
+// Aantal bestanden dat tegelijk verwerkt wordt (parallellisme).
+// Updaten: zet env CONCURRENCY hoger voor snelheid; hoger = meer kans op rate limits.
 const MAX_CONCURRENT = parseInt(process.env.CONCURRENCY || "1", 10);
+
+// Max tokens per AI-request (veiligheidsmarge voor de milestone-extractie).
+// Updaten: env MAX_TOKENS_PER_REQUEST. Bepaalt ook de chunk-grootte.
 const MAX_TOKENS_PER_REQUEST = parseInt(process.env.MAX_TOKENS_PER_REQUEST || "50000", 10); // Veiligheidsmarge voor milestones
+
+// Harde bovengrens op de tekst die naar de samenvatting-call gaat.
+// Updaten: env MAX_SUMMARY_TOKENS. Voorkomt te grote samenvattings-requests.
 const MAX_SUMMARY_TOKENS = parseInt(process.env.MAX_SUMMARY_TOKENS || "30000", 10); // Harde bovengrens voor de samenvatting
+
+// Max aantal chunks per bestand dat voor milestones wordt verwerkt.
+// Updaten: env MAX_CHUNKS_PER_FILE hoger als lange dossiers milestones missen.
 const MAX_CHUNKS_PER_FILE = parseInt(process.env.MAX_CHUNKS_PER_FILE || "6", 10);
+
+// Pauze (ms) tussen AI-calls om rate limits te ontzien.
+// Updaten: env REQUEST_DELAY_MS. Hoger = trager maar veiliger.
 const REQUEST_DELAY_MS = parseInt(process.env.REQUEST_DELAY_MS || "1500", 10);
-// DOC_PATH is het pad-fragment onder onderwerpen/, bv. "Woo-publicaties/2023".
-// (Voorheen DOC_YEAR, dat alleen een jaartal was.) De workflow zet deze env.
+
+// Pad-fragment onder onderwerpen/ dat verrijkt wordt, bv. "woo-publicaties/2023".
+// MOET dezelfde casing hebben als in de workflows. Updaten: env DOC_PATH
+// (gezet door woo-publicaties_verrijken.yml).
 const DOC_PATH = process.env.DOC_PATH || "Woo-publicaties/2023";
+
+// Testmodus: bij "1" wordt er niets weggeschreven (alleen loggen).
+// Updaten: zet env DRY_RUN=1 om een proefrun te doen.
 const DRY_RUN = process.env.DRY_RUN === "1";
 
+// Instructie aan het model. Bepaalt wat wel/niet als milestone telt.
+// Updaten: pas de regels aan; houd "gebruik ISO-datums" en de scope-afbakening intact.
 const SYSTEM_PROMPT =
   "Je bent een expert in Nederlandse Woo-dossiers. Taak: Extraheer een chronologische tijdlijn en samenvatting. " +
   "Neem alleen kerngebeurtenissen op: indiening aanvraag, besluit, bezwaar/beroep, uitspraak, verlenging, intrekking. " +
