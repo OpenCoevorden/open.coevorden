@@ -1,0 +1,174 @@
+// =============================================================================
+// cloudflare_worker.txt — Cloudflare Worker: AI-antwoorden voor de PDF-chat
+// =============================================================================
+//
+// WAT DOET DIT BESTAND?
+//   Deze Worker is de backend-proxy tussen de browser (single.html chat) en
+//   OpenAI. De browser stuurt {context, messages}; de Worker plakt er een
+//   system-prompt voor, roept OpenAI aan en geeft {answer} terug. De OpenAI-
+//   sleutel blijft zo server-side (nooit in de browser).
+//
+//   Deploy: plak deze inhoud als Cloudflare Worker. De browser roept de
+//   Worker-URL aan die in single.html bij AI_WORKER_URL staat.
+//
+// -----------------------------------------------------------------------------
+// EXTERNE AFHANKELIJKHEDEN / GEHEIMEN
+// -----------------------------------------------------------------------------
+//   OpenAI Chat Completions API → externe dienst die het antwoord genereert.
+//                                 Endpoint: OPENAI_ENDPOINT (zie hieronder).
+//   env.OPENAI_API_KEY          → SECRET, ingesteld in het Cloudflare-dashboard
+//                                 (Settings → Variables → Encrypt). NIET in code
+//                                 zetten. Updaten: roteer in het dashboard.
+//
+// -----------------------------------------------------------------------------
+// CONFIGURATIE — alle instelbare waarden staan hier bovenaan als constanten.
+// -----------------------------------------------------------------------------
+
+// URL van de OpenAI Chat Completions API.
+// Updaten: alleen wijzigen bij een andere provider/route (moet Chat-Completions-
+// compatibel zijn, want de request-body hieronder volgt dat schema).
+const OPENAI_ENDPOINT = "https://api.openai.com/v1/chat/completions";
+
+// Het taalmodel dat de antwoorden genereert.
+// Updaten: vervang door een ander OpenAI-model (bijv. "gpt-4o-mini").
+const MODEL = "gpt-5.4-nano";
+
+// Creativiteit van het model (0 = strak/feitelijk, 1 = vrijer).
+// Updaten: laag houden voor feitelijke antwoorden uit documenten.
+const TEMPERATURE = 0.2;
+
+// Harde bovengrens op het aantal tokens in het ANTWOORD van het model.
+// Updaten: verhoog als antwoorden worden afgekapt; kost dan meer.
+const MAX_COMPLETION_TOKENS = 1000;
+
+// Vangnet: maximaal aantal tekens documenttekst dat we naar OpenAI sturen.
+// De browser stuurt meestal al een ingekorte/opgehaalde context; dit kapt hard
+// af mocht er toch iets groots binnenkomen (voorkomt context-length-fouten/kosten).
+// Updaten: hoger = meer context maar duurder en risico op te grote requests.
+const MAX_CONTEXT = 200000;
+
+// System-prompt: de gedragsregels voor het model.
+// Updaten: pas de regels aan; laat de "gebruik ALLEEN de documenttekst"-regel
+// staan om verzonnen antwoorden te voorkomen.
+const SYSTEM_PROMPT = `
+Je bent een AI assistent voor een Nederlandse gemeente.
+
+Regels:
+- Gebruik ALLEEN informatie uit de documenttekst
+- Verzin geen informatie
+- Als iets niet in de tekst staat: zeg dat duidelijk
+- Antwoord in correct Nederlands
+- Wees duidelijk en behulpzaam
+- Gebruik maximaal 50 woorden voor je antwoorden. 
+`;
+
+// CORS-headers: staan cross-origin POST/OPTIONS vanaf elke oorsprong toe, zodat
+// de statische site (ander domein dan de Worker) de Worker mag aanroepen.
+// Updaten: zet "Access-Control-Allow-Origin" op je eigen domein i.p.v. "*" als
+// je de toegang wilt beperken.
+const CORS_HEADERS = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type",
+};
+
+// =============================================================================
+// WORKER — vanaf hier alleen nog logica; niets hieronder hoef je te configureren.
+// =============================================================================
+export default {
+  async fetch(request, env) {
+
+    // Preflight (CORS): browser vraagt vooraf toestemming → leeg antwoord + headers.
+    if (request.method === "OPTIONS") {
+      return new Response(null, { headers: CORS_HEADERS });
+    }
+
+    // Alleen POST is zinvol (we ontvangen een JSON-body met de vraag/context).
+    if (request.method !== "POST") {
+      return new Response("Gebruik POST", { status: 405, headers: CORS_HEADERS });
+    }
+
+    try {
+      // Inkomende JSON uitlezen.
+      const body = await request.json();
+
+      // Documenttekst (context) en de gespreksberichten uit de body halen.
+      const context = body.context || "";
+      let messages = [];
+
+      // Twee ondersteunde invoervormen:
+      //   • body.messages = volledige chatgeschiedenis (voorkeur, single.html gebruikt dit)
+      //   • body.question = losse vraag (fallback voor eenvoudige aanroepen)
+      if (body.messages && Array.isArray(body.messages)) {
+        messages = body.messages;
+      } else if (body.question) {
+        messages = [
+          { role: "user", content: body.question }
+        ];
+      } else {
+        throw new Error("Geen geldige input (messages of question vereist)");
+      }
+
+      // Berichten samenstellen: system-prompt, dan de (afgekapte) documenttekst,
+      // dan de eigenlijke gespreksberichten.
+      const finalMessages = [
+        { role: "system", content: SYSTEM_PROMPT },
+        {
+          role: "user",
+          content: `Document tekst:\n${context.slice(0, MAX_CONTEXT)}`
+        },
+        ...messages
+      ];
+
+      // OpenAI aanroepen met de geconfigureerde parameters.
+      const response = await fetch(OPENAI_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Authorization": `Bearer ${env.OPENAI_API_KEY}`,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          model: MODEL,
+          messages: finalMessages,
+          temperature: TEMPERATURE,
+          max_completion_tokens: MAX_COMPLETION_TOKENS
+        })
+      });
+
+      // Niet-OK van OpenAI → foutmelding met de responstekst doorgeven.
+      if (!response.ok) {
+        const text = await response.text();
+        throw new Error("OpenAI fout: " + text);
+      }
+
+      // Antwoordtekst uit de OpenAI-respons vissen.
+      const data = await response.json();
+      const aiAnswer = data?.choices?.[0]?.message?.content;
+
+      if (!aiAnswer) {
+        throw new Error("Leeg antwoord van AI");
+      }
+
+      // Succes: het antwoord als JSON teruggeven, mét CORS-headers.
+      return new Response(JSON.stringify({ answer: aiAnswer }), {
+        headers: {
+          ...CORS_HEADERS,
+          "Content-Type": "application/json"
+        }
+      });
+
+    } catch (err) {
+      // Elke fout → status 500 met leesbare foutboodschap (en CORS-headers, zodat
+      // de browser de fout kan uitlezen i.p.v. een CORS-blokkade te zien).
+      return new Response(JSON.stringify({
+        error: err.message || "Onbekende fout"
+      }), {
+        status: 500,
+        headers: {
+          "Content-Type": "application/json",
+          ...CORS_HEADERS
+        }
+      });
+    }
+  }
+};
