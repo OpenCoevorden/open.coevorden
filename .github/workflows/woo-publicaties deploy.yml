@@ -195,7 +195,7 @@ jobs:
           # en krijg je 'm dubbel (…/2023/woo-publicaties/2023/…). Door op de jaarmap
           # te indexeren zijn de opgeslagen URL's basis-relatief (/woo-verzoeken/…),
           # en vult de runtime-basis de prefix precies één keer aan.
-          npx pagefind@latest --site "public/$SYNC_FOLDER" --output-subdir _pagefind
+          npx pagefind@1.4.0 --site "public/$SYNC_FOLDER" --output-subdir _pagefind
 
       - name: Deploy to S3
         if: github.event_name != 'pull_request'
