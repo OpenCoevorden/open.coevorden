@@ -43,12 +43,12 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install dependencies
         run: npm install gray-matter openai glob fs-extra p-limit
@@ -68,3 +68,4 @@ jobs:
           git add "onderwerpen/${DOC_PATH}"/**/*.md
           git commit -m "chore: enrich markdown with AI metadata (${DOC_PATH})" || exit 0
           git push
+          
