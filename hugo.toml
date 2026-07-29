@@ -1,20 +1,82 @@
+# =============================================================================
+#  HUGO CONFIGURATIE  —  PDF Zoekmachine / Publicaties Coevorden
+# -----------------------------------------------------------------------------
+#  Dit bestand bevat ALLE site-brede configuratie voor de Hugo-build.
+#  Wijzigt de CloudFront-URL of de S3-locatie? Pas dat hier centraal aan:
+#  single.html en index.html lezen deze waarden uit via `.Site.Params`.
+#
+#  AFHANKELIJKHEDEN / EXTERNE DIENSTEN
+#    • CloudFront-distributie  → levert baseURL / s3_url / indexURL
+#                                (domeinnaam staat in cloudfront.json).
+#    • Geen extern Hugo-thema   → we gebruiken eigen templates.
+# =============================================================================
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  KERN-INSTELLINGEN
+# ─────────────────────────────────────────────────────────────────────────────
+
+# baseURL — de root waarvandaan de site wordt geserveerd (CloudFront-distributie).
+#   Wat: prefix van elke gegenereerde permalink.
+#   Update: wijzigen als de CloudFront-domeinnaam verandert (zie cloudfront.json
+#           → "DomainName"). Moet op een "/" eindigen. NEEM GEEN map-prefix op:
+#           de deploy-workflow zet content genest neer, waardoor Hugo de prefix
+#           zelf al in elke permalink plaatst.
 baseURL = 'https://d3jow2udcm31b0.cloudfront.net/'
+
+# locale — taal/regio voor datum- en getalnotatie.
+#   Update: alleen bij een andere taalregio.
 locale = "nl-nl"
+
+# title — sitetitel (verschijnt o.a. in RSS en metadata).
 title = 'PDF Zoekmachine'
-theme = [] # We gebruiken geen zwaar thema, we maken het zelf simpel.
+
+# theme — bewust LEEG: we gebruiken eigen templates (single.html / index.html).
+#   Update: laat leeg tenzij je echt een Hugo-thema toevoegt.
+theme = []
+
+# uglyURLs — true = elke pagina wordt een los .html-bestand (…/pagina.html)
+#   i.p.v. een map met index.html. Nodig omdat de site als losse statische
+#   bestanden op S3 achter CloudFront staat.
+#   Update: bij deze hosting-opzet vrijwel nooit wijzigen.
 uglyURLs = true
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  PARAMS  —  vrij beschikbaar in templates via `.Site.Params.<naam>`
+# ─────────────────────────────────────────────────────────────────────────────
 [params]
+  # s3_url — basis-URL waarmee single.html de link naar de originele PDF opbouwt.
+  #   Update: gelijk houden aan baseURL (CloudFront-root); wijzigen bij domeinwissel.
   s3_url = "https://d3jow2udcm31b0.cloudfront.net/"
+
+  # indexURL — doel van de "Terug naar overzicht"-knop in single.html.
+  #   Update: wijzigen bij domeinwissel of als de overzichtspagina verhuist.
   indexURL = 'https://d3jow2udcm31b0.cloudfront.net/index.html'
 
-[outputs]
-home = ["HTML", "RSS", "JSON"]
 
+# ─────────────────────────────────────────────────────────────────────────────
+#  OUTPUT-FORMATEN per paginatype
+# ─────────────────────────────────────────────────────────────────────────────
+[outputs]
+  # home — de homepage genereert HTML (pagina), RSS (feed) én JSON.
+  #   Update: alleen wijzigen om een outputformaat toe te voegen/verwijderen.
+  home = ["HTML", "RSS", "JSON"]
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  MINIFY  —  output verkleinen
+# ─────────────────────────────────────────────────────────────────────────────
 [minify]
+  # disableXML — true = XML (RSS/sitemap) NIET minificeren (voorkomt problemen
+  #   met sommige feed-lezers).
   disableXML = true
 
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  SITEMAP
+# ─────────────────────────────────────────────────────────────────────────────
 [sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+  changefreq = "monthly"   # hint voor zoekmachines: hoe vaak content wijzigt
+  priority = 0.5           # relatieve prioriteit van pagina's (0.0–1.0)
+  filename = "sitemap.xml" # bestandsnaam van de gegenereerde sitemap
