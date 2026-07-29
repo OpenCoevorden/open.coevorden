@@ -304,13 +304,19 @@ async function processFile(file, stats) {
 
   const contentHash = hashContent(content);
 
+   console.log(`🔍 ${file}`);
+   console.log(`   ai_status:       ${data.ai_status}`);
+   console.log(`   opgeslagen hash: ${data.ai_content_hash}`);
+   console.log(`   huidige hash:    ${contentHash}`);
+
   // Skip alleen als eerder succesvol verwerkt ÉN de content sindsdien niet
   // is gewijzigd. Dit vervangt de oude OR-check die bestanden met een
   // mislukte helft permanent oversloeg.
-  if (data.ai_status === "done" && data.ai_content_hash === contentHash) {
-    stats.skipped++;
-    return;
-  }
+   if (data.ai_status === "done" && data.ai_content_hash === contentHash) {
+     console.log(`⏭️  Overgeslagen: ${file}`);
+     stats.skipped++;
+     return;
+   }
 
   try {
     const blocks = extractRelevantBlocks(content);
