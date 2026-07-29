@@ -9,8 +9,7 @@
 //   frontmatter (summary, milestones, ai_*) teruggeschreven, zodat single.html
 //   ze kan tonen. Wordt aangeroepen door woo-publicaties_verrijken.yml.
 //
-//   Idempotent: een bestand wordt overgeslagen zolang de inhoud (hash) niet
-//   wijzigt én de vorige run "done" was. Draai gerust opnieuw; "partial"/mislukte
+//   Idempotent: een bestand wordt overgeslagen als ai_status op done staat. Draai gerust opnieuw; "partial"/mislukte
 //   bestanden worden automatisch herpakt.
 //
 // -----------------------------------------------------------------------------
@@ -18,7 +17,6 @@
 //   npm install gray-matter openai glob fs-extra p-limit)
 // -----------------------------------------------------------------------------
 import fs from "fs";                 // Node-ingebouwd: bestanden lezen/schrijven.
-import crypto from "crypto";         // Node-ingebouwd: SHA-256 hash van de inhoud.
 import matter from "gray-matter";    // npm 'gray-matter': frontmatter parsen/schrijven.
 import OpenAI from "openai";         // npm 'openai': officiële OpenAI-client.
 import { globSync } from "glob";     // npm 'glob': .md-bestanden vinden via patroon.
@@ -82,9 +80,6 @@ const SYSTEM_PROMPT =
 const estimateTokens = (text) => Math.ceil(text.length / 4);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-function hashContent(content) {
-  return crypto.createHash("sha256").update(content).digest("hex").slice(0, 16);
-}
 
 // Lenient ISO-datum parser: accepteert ook niet-gepadde vormen zoals "2023-1-5"
 function normalizeDate(dateStr) {
@@ -302,17 +297,13 @@ async function processFile(file, stats) {
     return;
   }
 
-  const contentHash = hashContent(content);
 
    console.log(`🔍 ${file}`);
    console.log(`   ai_status:       ${data.ai_status}`);
-   console.log(`   opgeslagen hash: ${data.ai_content_hash}`);
-   console.log(`   huidige hash:    ${contentHash}`);
 
-  // Skip alleen als eerder succesvol verwerkt ÉN de content sindsdien niet
-  // is gewijzigd. Dit vervangt de oude OR-check die bestanden met een
-  // mislukte helft permanent oversloeg.
-   if (data.ai_status === "done" && data.ai_content_hash === contentHash) {
+// Sla bestanden over die succesvol zijn verrijkt.
+// Bestanden met "partial", "no_content" of zonder ai_status worden opnieuw verwerkt.
+   if (data.ai_status === "done") {
      console.log(`⏭️  Overgeslagen: ${file}`);
      stats.skipped++;
      return;
@@ -324,7 +315,6 @@ async function processFile(file, stats) {
     if (blocks.length === 0) {
       console.warn(`⚠️  Geen relevante content gevonden, overgeslagen: ${file}`);
       data.ai_status = "no_content";
-      data.ai_content_hash = contentHash;
       data.ai_processed_at = new Date().toISOString();
       writeFrontmatter(file, content, data);
       stats.noContent++;
@@ -372,7 +362,6 @@ async function processFile(file, stats) {
 
     data.summary = summary;
     data.milestones = cleaned;
-    data.ai_content_hash = contentHash;
     data.ai_processed_at = new Date().toISOString();
     data.ai_status = summaryOk && milestonesOk ? "done" : "partial";
 
