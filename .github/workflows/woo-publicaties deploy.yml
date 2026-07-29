@@ -209,3 +209,5 @@ jobs:
             --delete \
             --exclude "*" \
             --include "$SYNC_FOLDER/*"
+
+            
