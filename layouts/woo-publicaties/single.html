@@ -1,6 +1,51 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+    {{/*
+    =========================================================================
+    single.html — Hugo-template voor één publicatie (detailpagina + AI-chat)
+    =========================================================================
+
+    WAT DOET DIT BESTAND?
+      Toont één Woo-document: metadata, samenvatting, PDF-download, tijdlijn,
+      gerelateerde zaken, en een AI-chat. De chat haalt de documenttekst uit de
+      verborgen [data-pagefind-body]-div, bouwt lokaal (BM25) een relevante
+      context en stuurt die naar de Cloudflare Worker (AI_WORKER_URL).
+
+    -------------------------------------------------------------------------
+    EXTERNE LIBRARIES / DEPENDENCIES
+    -------------------------------------------------------------------------
+      Bootstrap Icons 1.11.1 (CDN) → iconen. Zie de <link> hieronder; updaten =
+                                     versienummer in de URL wijzigen.
+      Cloudflare Worker            → AI-backend. Adres staat in de JS-config als
+                                     AI_WORKER_URL (in <script> onderaan).
+                                     Updaten: wijzig AI_WORKER_URL.
+
+    -------------------------------------------------------------------------
+    HUGO-CONFIG (server-side, wordt bij de build ingevuld)
+    -------------------------------------------------------------------------
+      $jaarIndex / $categorieIndex / $zaakIndex → welke positie in `maps` welk
+          niveau is. Herorden je de mapstructuur, pas ALLEEN die drie regels aan
+          (zie het CONFIGURATIE-blok in de body). Tellen vanaf 0; -1 = uitgeschakeld.
+      .Site.Params.indexURL  → "Terug"-knop; komt uit hugo.toml [params].
+      .Site.Params.s3_url    → basis voor de PDF-downloadlink; uit hugo.toml.
+      .Params.source/maps/summary/milestones → frontmatter uit de sync/enrich-stap.
+
+    -------------------------------------------------------------------------
+    JS-CONFIG (client-side; staat als constanten bovenaan het <script>)
+    -------------------------------------------------------------------------
+      AI_WORKER_URL       → adres van de Cloudflare Worker die OpenAI aanroept.
+      REQUEST_TIMEOUT_MS  → time-out (ms) voor de Worker-call.
+      START_MESSAGE       → begroeting in de chat.
+      FULL_LIMIT          → past de tekst hieronder? Stuur alles mee.
+      RETRIEVE_BUDGET     → tekenbudget voor opgehaalde stukken bij lange docs.
+      INTRO_CHARS         → begin van het document dat altijd wordt meegestuurd.
+      BM25_K1 / BM25_B    → BM25-parameters (verzadiging / lengtenormalisatie).
+      SYNONYM_GROUPS      → synoniem-/begripsgroepen voor de retrieval.
+      STOPWORDS           → woorden die de retrieval negeert.
+      Kleuren/WCAG        → CSS-variabelen in :root (in <style>).
+    =========================================================================
+    */}}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
@@ -597,6 +642,21 @@
     </style>
 
     <script>
+        /* ═══════════════════════════════════════════════════════════
+           CONFIGURATIE (client-side) — alle instelbare JS-waarden bovenaan.
+           Wijzig alleen de waarden; de logica eronder hoeft niet aangepast.
+           ═══════════════════════════════════════════════════════════ */
+
+        // Adres van de Cloudflare Worker die (server-side) OpenAI aanroept.
+        // Updaten: zet de URL van je eigen Worker (zie cloudflare_worker.txt).
+        const AI_WORKER_URL = 'https://coevorden-pdf-ai.vincentvandijkprive1996.workers.dev/';
+
+        // Time-out (in milliseconden) voor de Worker-call; daarna afgebroken.
+        // Updaten: verhoog als lange antwoorden onterecht afbreken.
+        const REQUEST_TIMEOUT_MS = 20000;
+
+        // Begroeting die als eerste in het chatvenster verschijnt.
+        // Updaten: vrije tekst.
         const START_MESSAGE = "Stel hier met AI een vraag over bovenstaand document.";
 
         /*
@@ -902,9 +962,9 @@
 
             try {
                 const controller = new AbortController();
-                const timeout = setTimeout(() => controller.abort(), 20000);
+                const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
 
-                const response = await fetch('https://coevorden-pdf-ai.vincentvandijkprive1996.workers.dev/', {
+                const response = await fetch(AI_WORKER_URL, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     signal: controller.signal,
