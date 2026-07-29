@@ -198,17 +198,14 @@ jobs:
           npx pagefind@latest --site "public/$SYNC_FOLDER" --output-subdir _pagefind
 
       - name: Deploy to S3
-        if: github.event_name != 'pull_request'
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_SITE }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_SITE }}
-          BUCKET_NAME: publicaties-coevorden-site
+          BUCKET_NAME: ${{ github.event_name == 'pull_request' && 'publicaties-coevorden-testsite' || 'publicaties-coevorden-site' }}
         run: |
           set -euo pipefail
-          # Naar bucket-ROOT syncen, maar --include/--delete strak op de jaarmap
-          # scopen: andere jaren én de losse root-index.html blijven onaangeraakt.
+      
           aws s3 sync ./public "s3://$BUCKET_NAME" \
             --delete \
             --exclude "*" \
             --include "$SYNC_FOLDER/*"
-            
