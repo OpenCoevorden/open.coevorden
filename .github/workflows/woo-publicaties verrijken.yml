@@ -1,3 +1,29 @@
+# =============================================================================
+# woo-publicaties_verrijken.yml — GitHub Actions: AI-verrijking van de markdown
+# =============================================================================
+#
+# WAT DOET DEZE WORKFLOW?
+#   Draait het script scripts/woo-publicaties-verrijken.js dat per Woo-dossier
+#   een samenvatting + tijdlijn door OpenAI laat genereren en als frontmatter
+#   terugcommit. Handmatig te starten (workflow_dispatch).
+#
+# EXTERNE ACTIONS / TOOLS (updaten = versienummer hieronder in de steps aanpassen)
+#   actions/checkout@v4      → repo uitchecken.
+#   actions/setup-node@v4    → Node installeren (node-version hieronder: 20).
+#   npm-pakketten            → gray-matter openai glob fs-extra p-limit
+#                              (geïnstalleerd in de step "Install dependencies";
+#                               updaten: pas die npm install-regel aan).
+#
+# SECRETS (in te stellen onder Repo → Settings → Secrets and variables → Actions)
+#   OPENAI_API_KEY           → sleutel voor OpenAI. Updaten: roteer in Secrets.
+#
+# CONFIGURATIE (env, hieronder onder jobs.<job>.env)
+#   DOC_PATH                 → welke map ("<onderwerp>/<jaar>") verrijkt wordt.
+#                              MOET exact dezelfde casing hebben als SYNC_FOLDER
+#                              in woo-publicaties_deploy.yml. Updaten: wijzig de
+#                              waarde hieronder. NIET "PATH" noemen (systeemvar.).
+# =============================================================================
+
 name: Woo publicaties verrijken
 on:
   workflow_dispatch:
@@ -21,7 +47,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20
 
       - name: Install dependencies
         run: npm install gray-matter openai glob fs-extra p-limit
