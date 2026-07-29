@@ -1,8 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
 
-  "//": "CONFIG voor de Renovate-bot. Zet de Renovate GitHub App aan op de repo; daarna opent Renovate zelf update-PR's én onderhoudt een 'Dependency Dashboard'-issue (jouw altijd-actuele overzicht). Zero onderhoud aan dit bestand nodig, tenzij je een nieuw soort versiestring wilt laten volgen.",
-
   "extends": [
     "config:recommended",
     ":dependencyDashboard",
@@ -11,17 +9,14 @@
 
   "labels": ["dependencies"],
 
-  "//schedule": "Beperk PR-drukte: alleen 's nachts op maandag. Aanpassen naar smaak.",
   "schedule": ["before 6am on monday"],
 
   "packageRules": [
     {
-      "//": "Bundel alle GitHub Actions-updates in één PR.",
       "matchManagers": ["github-actions"],
       "groupName": "GitHub Actions"
     },
     {
-      "//": "Major-updates apart, zodat je bewust kunt beslissen (bv. action v4 -> v5, Hugo/Node major).",
       "matchUpdateTypes": ["major"],
       "addLabels": ["major-update"]
     }
@@ -29,7 +24,6 @@
 
   "customManagers": [
     {
-      "//": "Volgt versie-variabelen in workflows die je annoteert met een '# renovate:'-comment op de regel erboven. Werkt voor HUGO_VERSION, PAGEFIND_VERSION, NODE_VERSION, enz.",
       "customType": "regex",
       "managerFilePatterns": ["/^\\.github/workflows/.+\\.ya?ml$/"],
       "matchStrings": [
@@ -38,7 +32,6 @@
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     },
     {
-      "//": "Volgt front-end libraries die via jsDelivr worden geladen (cdn.jsdelivr.net/npm/<naam>@<versie>) in elk .html-bestand.",
       "customType": "regex",
       "managerFilePatterns": ["/\\.html?$/"],
       "matchStrings": [
