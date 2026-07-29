@@ -60,7 +60,6 @@ jobs:
           DOC_PATH: ${{ env.DOC_PATH }}
 
       - name: Commit changes
-        if: github.event_name != 'pull_request'
         run: |
           git config user.name "ai-bot"
           git config user.email "ai-bot@users.noreply.github.com"
