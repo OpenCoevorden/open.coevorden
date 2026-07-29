@@ -9,8 +9,6 @@
 
   "labels": ["dependencies"],
 
-  "schedule": ["before 6am on monday"],
-
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
