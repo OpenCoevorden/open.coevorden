@@ -66,3 +66,4 @@ jobs:
           git add "onderwerpen/${DOC_PATH}"/**/*.md
           git commit -m "chore: enrich markdown with AI metadata (${DOC_PATH})" || exit 0
           git push
+          
