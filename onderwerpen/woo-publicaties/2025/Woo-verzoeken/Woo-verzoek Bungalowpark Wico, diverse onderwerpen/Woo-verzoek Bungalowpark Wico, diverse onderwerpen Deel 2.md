@@ -1,7 +1,7 @@
 ---
 title: "Woo-verzoek Bungalowpark Wico, diverse onderwerpen Deel 2"
-maps: ["woo-publicaties","2025","Woo-verzoeken","2025-09-03 Woo-verzoek Bungalowpark Wico, diverse onderwerpen"]
-source: "woo-publicaties/2025/Woo-verzoeken/2025-09-03 Woo-verzoek Bungalowpark Wico, diverse onderwerpen/Woo-verzoek Bungalowpark Wico, diverse onderwerpen Deel 2.pdf"
+maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek Bungalowpark Wico, diverse onderwerpen"]
+source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek Bungalowpark Wico, diverse onderwerpen/Woo-verzoek Bungalowpark Wico, diverse onderwerpen Deel 2.pdf"
 s3_etag: "b9ecc2d0d9e24588ec7afc792c1ccc56-5"
 date: 2026-07-30
 ---

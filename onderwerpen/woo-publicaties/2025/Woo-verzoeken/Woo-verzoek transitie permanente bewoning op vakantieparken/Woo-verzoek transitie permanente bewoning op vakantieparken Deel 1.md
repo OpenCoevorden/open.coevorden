@@ -1,7 +1,7 @@
 ---
 title: "Woo-verzoek transitie permanente bewoning op vakantieparken Deel 1"
-maps: ["woo-publicaties","2025","Woo-verzoeken","2025-07-31 Woo-verzoek transitie permanente bewoning op vakantieparken"]
-source: "woo-publicaties/2025/Woo-verzoeken/2025-07-31 Woo-verzoek transitie permanente bewoning op vakantieparken/Woo-verzoek transitie permanente bewoning op vakantieparken Deel 1.pdf"
+maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek transitie permanente bewoning op vakantieparken"]
+source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transitie permanente bewoning op vakantieparken/Woo-verzoek transitie permanente bewoning op vakantieparken Deel 1.pdf"
 s3_etag: "0a8d69778c57e7672e21884a40ba18e2-7"
 date: 2026-07-30
 ---

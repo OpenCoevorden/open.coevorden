@@ -1,7 +1,7 @@
 ---
 title: "Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden Deel 2"
-maps: ["woo-publicaties","2025","Woo-verzoeken","2025-10-24 Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden"]
-source: "woo-publicaties/2025/Woo-verzoeken/2025-10-24 Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden/Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden Deel 2.pdf"
+maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden"]
+source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden/Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden Deel 2.pdf"
 s3_etag: "2ea996003571a14a5b0c083a07e25584-2"
 date: 2026-07-30
 ---
