@@ -1,9 +1,9 @@
 ---
-title: "2026-5-19 Woo-verzoek Fusie OBS de Zwarm, Geesbrug en CBS de Wegwijzer, Geesbrug"
+title: "Woo-verzoek Fusie OBS de Zwarm, Geesbrug en CBS de Wegwijzer, Geesbrug"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-5-19 Woo-verzoek Fusie OBS de Zwarm, Geesbrug en CBS de Wegwijzer, Geesbrug.pdf"
-s3_etag: "567e34d5cb49ba1e0d28cd336e34b9bc"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Fusie OBS de Zwarm, Geesbrug en CBS de Wegwijzer, Geesbrug.pdf"
+s3_etag: "f5926bd01b9d3599f46b98999d2fb2fb-2"
+date: 2026-07-30
 ---
 
 Gemeente

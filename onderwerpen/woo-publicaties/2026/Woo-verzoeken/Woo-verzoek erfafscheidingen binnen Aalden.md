@@ -1,9 +1,9 @@
 ---
-title: "2026-4-13 Woo-verzoek erfafscheidingen binnen Aalden"
+title: "Woo-verzoek erfafscheidingen binnen Aalden"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-4-13 Woo-verzoek erfafscheidingen binnen Aalden.pdf"
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek erfafscheidingen binnen Aalden.pdf"
 s3_etag: "f491b4296adbf927252aeedb772a0566"
-date: 2026-07-27
+date: 2026-07-30
 ---
 
 Gemeente

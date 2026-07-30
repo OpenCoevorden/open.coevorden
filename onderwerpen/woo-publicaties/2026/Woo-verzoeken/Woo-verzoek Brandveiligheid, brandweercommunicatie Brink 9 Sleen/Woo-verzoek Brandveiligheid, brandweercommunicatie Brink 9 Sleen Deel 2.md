@@ -1,9 +1,9 @@
 ---
-title: "2026-4-9 Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen Deel 2"
-maps: ["woo-publicaties","2026","Woo-verzoeken","2026-4-9 Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-4-9 Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen/2026-4-9 Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen Deel 2.pdf"
-s3_etag: "5205144970646ba93bf6471c3b1d04bd"
-date: 2026-07-27
+title: "Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen Deel 2"
+maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen"]
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen/Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen Deel 2.pdf"
+s3_etag: "56ebd5b4d1163bea367c5ff29659ab38-10"
+date: 2026-07-30
 ---
 
 Gemeente

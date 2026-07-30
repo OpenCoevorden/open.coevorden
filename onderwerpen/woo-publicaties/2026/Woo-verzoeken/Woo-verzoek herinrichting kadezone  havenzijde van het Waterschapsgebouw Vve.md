@@ -1,9 +1,9 @@
 ---
-title: "2026-5-21 Woo-verzoek herinrichting kadezone  havenzijde van het Waterschapsgebouw Vve"
+title: "Woo-verzoek herinrichting kadezone  havenzijde van het Waterschapsgebouw Vve"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-5-21 Woo-verzoek herinrichting kadezone  havenzijde van het Waterschapsgebouw Vve.pdf"
-s3_etag: "9b0f5f3fab15de93cee69d5ee5657923"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek herinrichting kadezone  havenzijde van het Waterschapsgebouw Vve.pdf"
+s3_etag: "c9fb9dcdf6c9c7b29dd376e56d0ecea9-2"
+date: 2026-07-30
 ---
 
 Gemeente

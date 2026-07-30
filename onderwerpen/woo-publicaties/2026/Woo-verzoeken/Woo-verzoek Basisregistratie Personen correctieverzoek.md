@@ -1,9 +1,9 @@
 ---
-title: "2026-5-8 Woo-verzoek Basisregistratie Personen correctieverzoek"
+title: "Woo-verzoek Basisregistratie Personen correctieverzoek"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-5-8 Woo-verzoek Basisregistratie Personen correctieverzoek.pdf"
-s3_etag: "73f95d372147f6031c71bb804a4b9f48"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Basisregistratie Personen correctieverzoek.pdf"
+s3_etag: "55095ba521266b9965369fecd7b82135-3"
+date: 2026-07-30
 ---
 
 Gemeente

@@ -1,9 +1,9 @@
 ---
-title: "2026-5-26 Woo-verzoek Waarschuwingsbrieven, gedragsaanwijzingen of huisverboden"
+title: "Woo-verzoek Waarschuwingsbrieven, gedragsaanwijzingen of huisverboden"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-5-26 Woo-verzoek Waarschuwingsbrieven, gedragsaanwijzingen of huisverboden.pdf"
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Waarschuwingsbrieven, gedragsaanwijzingen of huisverboden.pdf"
 s3_etag: "274a469913350f7d2daf275d4fa8899e"
-date: 2026-07-27
+date: 2026-07-30
 ---
 
 Gemeente

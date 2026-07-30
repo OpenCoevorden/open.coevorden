@@ -1,9 +1,9 @@
 ---
-title: "2026-6-4 Woo-verzoek Percelen Sleen, sectie A 5113, 5114, 4978"
+title: "Woo-verzoek Percelen Sleen, sectie A 5113, 5114, 4978"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-6-4 Woo-verzoek Percelen Sleen, sectie A 5113, 5114, 4978.pdf"
-s3_etag: "184789a99b3010febf39eee6aa6ed02d"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Percelen Sleen, sectie A 5113, 5114, 4978.pdf"
+s3_etag: "701465994b019035e4876a39c05bf96b-12"
+date: 2026-07-30
 ---
 
 Gemeente

@@ -1,9 +1,9 @@
 ---
-title: "2026-4-17 Woo-verzoek Vergoeding juridische kosten"
+title: "Woo-verzoek Vergoeding juridische kosten"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-4-17 Woo-verzoek Vergoeding juridische kosten.pdf"
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Vergoeding juridische kosten.pdf"
 s3_etag: "b4f6edfd3a10449401ae62d715ec9d24"
-date: 2026-07-27
+date: 2026-07-30
 ---
 
 Dt Gemeente

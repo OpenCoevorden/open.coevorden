@@ -1,9 +1,9 @@
 ---
-title: "2026-4-17 Woo-verzoek Juridische bijstand aan wethouder Holties"
+title: "Woo-verzoek Juridische bijstand aan wethouder Holties"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-4-17 Woo-verzoek Juridische bijstand aan wethouder Holties.pdf"
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Juridische bijstand aan wethouder Holties.pdf"
 s3_etag: "c2123d94640ad0e74d1c0f100c900016"
-date: 2026-07-27
+date: 2026-07-30
 ---
 
 Gemeente

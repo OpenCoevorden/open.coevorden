@@ -1,33 +1,43 @@
 ---
-title: "2026-5-18 Woo-verzoek Voornemens opleggen last onder dwangsom Woonoverlast"
+title: "Woo-verzoek Besluiten opleggen last onder dwangsom Woonoverlast"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-5-18 Woo-verzoek Voornemens opleggen last onder dwangsom Woonoverlast.pdf"
-s3_etag: "faf9593fb8a0bbe4a4d1cef93c2bda43"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Besluiten opleggen last onder dwangsom Woonoverlast.pdf"
+s3_etag: "dcb59499cc0ea0c14ef125deae0e35d5"
+date: 2026-07-30
 ---
 
 Postadres:
 Postbus 2
-7740 AA Coevorden
-Telefoon 14 0524
-Fax 0524-598555
-info@coevorden.nl
-www.coevorden.nl
 3 Gemeente
 Coevorden
+7740 AA Coevorden
+|
+(geanonimiseerd)
+(geanonimiseerd)
+(geanonimiseerd)
+(geanonimiseerd)
+Telefoon 14 0524
+Fax 0524-598555
+__,
+info@coevorden.nl (geanonimiseerd)
+(geanonimiseerd)
+www.coevorden.nl
 Bezoekadres:
 Kasteel 1
 7741GC Coevorden
 Uw bericht 30 maart 2026
-Afdeling/Team Advies & Financiën
-Kenmerk 21505-2026
-Coevorden Verzenddatum: 18 mei 2026
+Team Advies & Financiën
+Kenmerk 29793-2026
+Bijlagen 3
+Coevorden Verzenddatum: 26 mei 2026
 Per mail:
-MN home.nl
-(geanonimiseerd)
-(geanonimiseerd)
+MM home.nl
 Onderwerp Besluit Woo-verzoek
-Beste WN
+Beste NN
+(geanonimiseerd)
+(geanonimiseerd)
+(geanonimiseerd)
+(geanonimiseerd)
 (geanonimiseerd)
 (geanonimiseerd)
 (geanonimiseerd)
@@ -37,16 +47,15 @@ Wij hebben uw Woo-verzoek op 30 maart 2026 ontvangen. In deze brief leest u ons 
 verzoek om openbaarmaking van informatie.
 Uw verzoek
 Concreet heeft u verzocht om openbaarmaking van de volgende informatie:
-Alle documenten die berusten onder uw bestuursorgaan en die betrekking hebben op voornemens tot het
+alle documenten die berusten onder uw bestuursorgaan en die betrekking hebben op besluiten tot het
 opleggen van een last onder dwangsom in het kader van artikel 151d van de Gemeentewet (Wet aanpak
-woonoverlast), over de periode van 1 januari 2010 tot en met 1 mei 2025. Daaronder vallen tevens alle
-onderliggende en gerelateerde documenten, waaronder maar niet beperkt tot interne en externe
-correspondentie (zoals e-mails), handhavingsdossiers, rapportages, adviezen, concepten en gebruikte
-standaarddocumenten.
+woonoverlast), over de periode van 1 januari 2010 tot en met 1 mei 2025.
+Daaronder vallen tevens alle onderliggende en gerelateerde documenten, waaronder maar niet beperkt
+tot interne en externe correspondentie (zoals e-mails), handhavingsdossiers, rapportages, adviezen,
+concepten en gebruikte standaarddocumenten.
 Procesverloop
 Op 30 maart 2026 heeft u dit Woo-verzoek bij ons ingediend. Hiervan heeft u op 1 april 2026 een
-ontvangstbevestiging ontvangen. Op 16 april 2026 hebben wij de beslistermijn verlengd tot en met 11
-mei 2026. Op 12 mei 2026 ontvingen wij uw ingebrekestelling.
+ontvangstbevestiging ontvangen. Op 12 mei 2026 ontvingen wij uw ingebrekestelling.
 Afwijzingsbesluit
 Wij besluiten uw verzoek af te wijzen. Wij hebben uw verzoek in behandeling genomen en onderzocht of
 aan uw verzoek tot openbaarmaking van de gevraagde documenten kan worden voldaan. Enkele collega’s
@@ -54,6 +63,7 @@ zijn bevraagd en er is gezocht in onze zaaksystemen en relevante Outlookmailboxe
 wij een uitvraag gedaan bij de archivaris. Tijdens de inventarisatie zijn geen documenten aangetroffen,
 met betrekking tot het door u genoemde onderwerp in de gevraagde periode.
 Niet mee eens?
+:
 Vindt u dat het besluit onjuist is, of bent u het er niet mee eens? Schrijf dan een bezwaarschrift aan de
 gemeente. Het bezwaarschrift moet aan een aantal eisen voldoen. Geef aan waarom u het niet eens bent
 met het genomen besluit. Vermeld de datum van uw bezwaarschrift en vergeet niet uw bezwaarschrift te
@@ -63,18 +73,15 @@ maken. Kijk hiervoor op de website: www.coevorden.nl/bezwaarschrift-indienen.
 (geanonimiseerd)
 (geanonimiseerd)
 (geanonimiseerd)
-(geanonimiseerd) (geanonimiseerd)
-(geanonimiseerd)
-(geanonimiseerd)
-(geanonimiseerd)
-(geanonimiseerd)
 (geanonimiseerd)
 Heeft u vragen over deze brief?
 Neem dan contact op via telefoonnummer 14 0524 of per mail: info@coevorden.nl.
-Wilt u bij vervolgcorrespondentie zaaknummer 21508-2026 vermelden. Op die manier kunnen wij u beter
+Wilt u bij vervolgcorrespondentie zaaknummer 29793-2026 vermelden. Op die manier kunnen wij u beter
 en sneller van dienst zijn.
 Met vriendelijke groet,
 namens het college van burgemeester
+(geanonimiseerd)
+(geanonimiseerd)
 (geanonimiseerd)
 (geanonimiseerd)
 (geanonimiseerd)
@@ -83,33 +90,29 @@ namens het college van burgemeester
 (geanonimiseerd)
 (geanonimiseerd) (geanonimiseerd)
 (geanonimiseerd)
-Verzonden: 30-03-2026 11:02
+Verzonden: 30-03-2026 11:04
 Aan: Gemeente Coevorden <info@coevorden.nl>
-Onderwerp: Woo-verzoek voornemens last onder dwangsom (art. 151d Gemeentewet)
-Woo-verzoek voornemens last onder dwangsom (art. 151d Gemeentewet)
+Onderwerp: Woo-verzoek besluiten last onder dwangsom (art. 151d Gemeentewet)
+Betreft: Woo-verzoek besluiten last onder dwangsom (art. 151d Gemeentewet)
 Geachte heer/mevrouw,
-Op grond van de Wet open overheid (Woo) verzoek ik u om
-openbaarmaking van informatie.
-Ik verzoek u om afschriften van alle documenten die berusten onder uw bestuursorgaan en die betrekking
-hebben op voornemens tot het opleggen van een last onder dwangsom in het kader van artikel 151d van
-de Gemeentewet (Wet aanpak woonoverlast), over de periode van 1 januari 2010 tot en met 1 mei 2025.
-Daaronder vallen tevens alle onderliggende en gerelateerde documenten, waaronder maar niet beperkt tot
-interne en externe correspondentie (zoals e-mails), handhavingsdossiers, rapportages, adviezen, concepten
-en gebruikte standaarddocumenten.
-Ik verzoek u een
-volledige zoekslag uit te voeren en de gehanteerde zoektermen en
-systemen inzichtelijk
-te maken.
-Indien documenten (gedeeltelijk) worden geweigerd, verzoek ik u
-per document en
-per passage concreet
-te motiveren op basis van de Woo.
-De gevraagde informatie ontvang ik graag in digitale vorm
-op het volgende e-mail adres:
+Op grond van de Wet open overheid (Woo) verzoek ik u om openbaarmaking van informatie.
+Ik verzoek u om afschriften van alle documenten die berusten onder uw bestuursorgaan en die
+betrekking hebben op besluiten tot het opleggen van een last onder dwangsom in het kader van
+artikel 151d van de Gemeentewet (Wet aanpak woonoverlast), over de periode van 1 januari 2010
+tot en met 1 mei 2025.
+Daaronder vallen tevens alle onderliggende en gerelateerde documenten, waaronder maar niet
+beperkt tot interne en externe correspondentie (zoals e-mails), handhavingsdossiers, rapportages,
+adviezen, concepten en gebruikte standaarddocumenten.
+Ik verzoek u een volledige zoekslag uit te voeren en de gehanteerde zoektermen en systemen
+inzichtelijk te maken.
+Indien documenten (gedeeltelijk) worden geweigerd, verzoek ik u per document en per passage
+concreet te motiveren op basis van de Woo.
+De gevraagde informatie ontvang ik graag in digitale vorm op het volgende e-mail
+adres:
+MM home.nl
+(geanonimiseerd)
+(geanonimiseerd)
 Hoogachtend,
-(geanonimiseerd)
-(geanonimiseerd)
-(geanonimiseerd)
 (geanonimiseerd)
 (geanonimiseerd)
 (geanonimiseerd)

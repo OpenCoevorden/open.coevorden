@@ -1,9 +1,9 @@
 ---
-title: "2026-5-7 Woo-verzoek Waterglijbaan Brink 9 Sleen"
+title: "Woo-verzoek Waterglijbaan Brink 9 Sleen"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-5-7 Woo-verzoek Waterglijbaan Brink 9 Sleen.pdf"
-s3_etag: "4db37671291dacf20a9975ad1cd7b153"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Waterglijbaan Brink 9 Sleen.pdf"
+s3_etag: "d9e9888b5d4071cdf5e6eb8015578079-2"
+date: 2026-07-30
 ---
 
 Gemeente

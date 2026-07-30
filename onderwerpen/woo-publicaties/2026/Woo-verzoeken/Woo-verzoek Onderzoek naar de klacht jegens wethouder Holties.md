@@ -1,9 +1,9 @@
 ---
-title: "2026-5-27 Woo-verzoek Onderzoek naar de klacht jegens wethouder Holties"
+title: "Woo-verzoek Onderzoek naar de klacht jegens wethouder Holties"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-5-27 Woo-verzoek Onderzoek naar de klacht jegens wethouder Holties.pdf"
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Onderzoek naar de klacht jegens wethouder Holties.pdf"
 s3_etag: "06636a7d8a649112109cb90cd3fb1cf3"
-date: 2026-07-27
+date: 2026-07-30
 ---
 
 Postadres:
