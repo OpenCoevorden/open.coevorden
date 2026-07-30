@@ -11,9 +11,9 @@
 */}}
 <script>
     /* ── CENTRALE CONFIG — geïnjecteerd vanuit hugo.toml [params.chat] ────── */
-    const AI_WORKER_URL      = {{ .Site.Params.chat.workerURL | jsonify }};
+    const AI_WORKER_URL      = {{ .Site.Params.chat.workerURL }};
     const REQUEST_TIMEOUT_MS = {{ .Site.Params.chat.requestTimeoutMs | default 20000 }};
-    const START_MESSAGE      = {{ .Site.Params.chat.startMessage | jsonify }};
+    const START_MESSAGE      = {{ .Site.Params.chat.startMessage }};
     const FULL_LIMIT         = {{ .Site.Params.chat.fullLimit      | default 150000 }};  // Past het document hierin? Stuur alles.
     const RETRIEVE_BUDGET    = {{ .Site.Params.chat.retrieveBudget | default 40000 }};   // Te lang? Budget voor opgehaalde stukken.
     const INTRO_CHARS        = {{ .Site.Params.chat.introChars     | default 3000 }};    // Begin van het document sturen we altijd mee.
