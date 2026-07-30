@@ -1,9 +1,9 @@
 ---
-title: "2026-01-14 Woo-verzoek inzet drone boven parken Primo en Secundo"
+title: "Woo-verzoek inzet drone boven parken Primo en Secundo"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-01-14 Woo-verzoek inzet drone boven parken Primo en Secundo.pdf"
-s3_etag: "c3b69ec06d484dda8ba065967a73c054"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek inzet drone boven parken Primo en Secundo.pdf"
+s3_etag: "549161f97459413876bd790b5f4e21e1-3"
+date: 2026-07-30
 ---
 
 Postadres: Gemeente

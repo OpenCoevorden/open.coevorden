@@ -1,9 +1,9 @@
 ---
-title: "2026-02-12 Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 1"
+title: "Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 1"
 maps: ["woo-publicaties","2026","Woo-verzoeken","2026-02-12 Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-02-12 Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden/2026-02-12 Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 1.pdf"
-s3_etag: "a7daaf68a8cc29e17766fc3f001e614c"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/2026-02-12 Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 1.pdf"
+s3_etag: "a7a5e2a3b13630d69ccb49cbb5dccf17-13"
+date: 2026-07-30
 ---
 
 Gemeente

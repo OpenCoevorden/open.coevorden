@@ -1,9 +1,9 @@
 ---
-title: "2026-02-23 Woo-verzoek verzoeken van medewerkers en bestuurders om juridische bijstand"
+title: "Woo-verzoek verzoeken van medewerkers en bestuurders om juridische bijstand"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-02-23 Woo-verzoek verzoeken van medewerkers en bestuurders om juridische bijstand.pdf"
-s3_etag: "49ad046936c82873cf2e33aae2702a1b"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek verzoeken van medewerkers en bestuurders om juridische bijstand.pdf"
+s3_etag: "4ec0f49b144966045ecad01317120935-4"
+date: 2026-07-30
 ---
 
 Gemeente

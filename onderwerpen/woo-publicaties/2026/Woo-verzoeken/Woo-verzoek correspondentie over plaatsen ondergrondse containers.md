@@ -1,9 +1,9 @@
 ---
-title: "2026-02-09 Woo-verzoek correspondentie over plaatsen ondergrondse containers"
+title: "Woo-verzoek correspondentie over plaatsen ondergrondse containers"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-02-09 Woo-verzoek correspondentie over plaatsen ondergrondse containers.pdf"
-s3_etag: "1a20a5c0076023888550b801f68d6b66"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek correspondentie over plaatsen ondergrondse containers.pdf"
+s3_etag: "13a3a13ad14accedf624072d83f0054b-6"
+date: 2026-07-30
 ---
 
 Gemeente

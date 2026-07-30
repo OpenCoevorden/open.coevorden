@@ -1,9 +1,9 @@
 ---
-title: "2026-02-19 Woo-verzoek Bungalowpark Wico en De Markies van Karabas"
+title: "Woo-verzoek Bungalowpark Wico en De Markies van Karabas"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-02-19 Woo-verzoek Bungalowpark Wico en De Markies van Karabas.pdf"
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bungalowpark Wico en De Markies van Karabas.pdf"
 s3_etag: "02abbb1520c21b67640655894617423f"
-date: 2026-07-27
+date: 2026-07-30
 ---
 
 Gemeente

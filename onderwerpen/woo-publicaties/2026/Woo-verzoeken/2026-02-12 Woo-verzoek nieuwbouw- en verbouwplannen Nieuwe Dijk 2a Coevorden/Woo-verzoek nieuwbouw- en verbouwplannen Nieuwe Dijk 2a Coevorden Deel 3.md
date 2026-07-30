@@ -1,9 +1,9 @@
 ---
-title: "2026-02-12 Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 3"
+title: "Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 3"
 maps: ["woo-publicaties","2026","Woo-verzoeken","2026-02-12 Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-02-12 Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden/2026-02-12 Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 3.pdf"
-s3_etag: "7f9dfd656d0b65db878f0f0523a2ab6b"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/2026-02-12 Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 3.pdf"
+s3_etag: "0ee5b2720aeeb0ed70a0fc9a1df1c907-13"
+date: 2026-07-30
 ---
 
 Maatvoering te contrleren Lh.w. door

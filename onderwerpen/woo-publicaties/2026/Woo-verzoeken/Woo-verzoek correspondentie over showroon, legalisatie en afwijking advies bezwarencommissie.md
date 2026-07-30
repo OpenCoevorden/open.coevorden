@@ -1,9 +1,9 @@
 ---
-title: "2026-01-22 Woo-verzoek correspondentie over showroon, legalisatie en afwijking advies bezwarencommissie"
+title: "Woo-verzoek correspondentie over showroon, legalisatie en afwijking advies bezwarencommissie"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-01-22 Woo-verzoek correspondentie over showroon, legalisatie en afwijking advies bezwarencommissie.pdf"
-s3_etag: "5dff7e05af20fbc1e563e01b7c5750a4"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek correspondentie over showroon, legalisatie en afwijking advies bezwarencommissie.pdf"
+s3_etag: "2d98cf5819597bedede7fbe28664e727-8"
+date: 2026-07-30
 ---
 
 nie Gemeente

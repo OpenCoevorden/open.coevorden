@@ -1,9 +1,9 @@
 ---
-title: "2026-01-09 Woo-verzoek vergunning horeca, geluidswering, padel Coevorder Tennisvereniging (CTC)"
+title: "Woo-verzoek vergunning horeca, geluidswering, padel Coevorder Tennisvereniging (CTC)"
 maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/2026-01-09 Woo-verzoek vergunning horeca, geluidswering, padel Coevorder Tennisvereniging (CTC).pdf"
-s3_etag: "87fb08b6204ee8352849b3fab2a41ac1"
-date: 2026-07-27
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek vergunning horeca, geluidswering, padel Coevorder Tennisvereniging (CTC).pdf"
+s3_etag: "1b1a0e9e8f713ce655d4e6ad3e32684c-2"
+date: 2026-07-30
 ---
 
 Gemeente
