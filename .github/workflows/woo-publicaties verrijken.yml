@@ -3,25 +3,29 @@
 # =============================================================================
 #
 # WAT DOET DEZE WORKFLOW?
-#   Draait het script scripts/woo-publicaties-verrijken.js dat per Woo-dossier
-#   een samenvatting + tijdlijn door OpenAI laat genereren en als frontmatter
-#   terugcommit. Handmatig te starten (workflow_dispatch).
+#   Draait scripts/woo-publicaties-verrijken.js: laat OpenAI per Woo-dossier een
+#   samenvatting + tijdlijn genereren en commit die als frontmatter terug.
 #
-# EXTERNE ACTIONS / TOOLS (updaten = versienummer hieronder in de steps aanpassen)
-#   actions/checkout@v4      → repo uitchecken.
-#   actions/setup-node@v4    → Node installeren (node-version hieronder: 20).
-#   npm-pakketten            → gray-matter openai glob fs-extra p-limit
-#                              (geïnstalleerd in de step "Install dependencies";
-#                               updaten: pas die npm install-regel aan).
+# CENTRALE CONFIG — DOC_PATH
+#   DEZELFDE map als de deploy-workflow, gelezen uit ÉÉN repo-variabele
+#   (SYNC_FOLDER) zodat casing/pad nooit uit elkaar lopen:
+#     Repo → Settings → Secrets and variables → Actions → Variables →
+#       Name:  SYNC_FOLDER   Value: woo-publicaties/2023
+#   LET OP: de env hieronder heet DOC_PATH (NIET "PATH" — dat is een
+#   systeemvariabele en breekt node/git/npm op de runner).
 #
-# SECRETS (in te stellen onder Repo → Settings → Secrets and variables → Actions)
-#   OPENAI_API_KEY           → sleutel voor OpenAI. Updaten: roteer in Secrets.
+# EXTERNE ACTIONS / TOOLS
+#   actions/checkout       → repo uitchecken.
+#   actions/setup-node     → Node installeren (versie via '# renovate:'-comment).
+#   npm-pakketten          → gray-matter openai glob fs-extra p-limit.
 #
-# CONFIGURATIE (env, hieronder onder jobs.<job>.env)
-#   DOC_PATH                 → welke map ("<onderwerp>/<jaar>") verrijkt wordt.
-#                              MOET exact dezelfde casing hebben als SYNC_FOLDER
-#                              in woo-publicaties_deploy.yml. Updaten: wijzig de
-#                              waarde hieronder. NIET "PATH" noemen (systeemvar.).
+# SECRETS
+#   OPENAI_API_KEY         → sleutel voor OpenAI.
+#
+# PR-GEDRAG
+#   Op pull_request draait het script in DRY_RUN (geen writes, maar wél echte
+#   OpenAI-calls zouden zonde zijn) — daarom staat DRY_RUN=1 op PR's, zodat er
+#   niets wordt weggeschreven en de tokens niet verspild worden.
 # =============================================================================
 
 name: Woo publicaties verrijken
@@ -34,12 +38,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      # Pad-fragment onder onderwerpen/ dat verrijkt moet worden.
-      # Vorm: "<onderwerp>/<jaar>". Zelfde casing als in deploy.yml
-      # (Woo-publicaties met hoofdletter W), anders vindt de glob niks.
-      # LET OP: NIET "PATH" noemen — dat is een systeemvariabele en breekt
-      # het vinden van node/git/npm op de runner.
-      DOC_PATH: "woo-publicaties/2023"
+      # Zelfde map als deploy.yml, uit de gedeelde repo-variabele.
+      DOC_PATH: ${{ vars.SYNC_FOLDER || 'woo-publicaties/2023' }}
 
     steps:
       - name: Checkout repo
@@ -48,6 +48,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v7
         with:
+          # renovate: datasource=node-version depName=node
           node-version: 24
 
       - name: Install dependencies
@@ -58,6 +59,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DOC_PATH: ${{ env.DOC_PATH }}
+          # Op PR's niets wegschrijven én geen tokens verspillen.
+          DRY_RUN: ${{ github.event_name == 'pull_request' && '1' || '0' }}
 
       - name: Commit changes
         if: github.event_name != 'pull_request'
@@ -68,4 +71,3 @@ jobs:
           git add "onderwerpen/${DOC_PATH}"/**/*.md
           git commit -m "chore: enrich markdown with AI metadata (${DOC_PATH})" || exit 0
           git push
-          

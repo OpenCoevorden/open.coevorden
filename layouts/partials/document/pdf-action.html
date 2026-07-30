@@ -1,0 +1,24 @@
+{{/*
+    document/pdf-action.html — knop naar de originele PDF.
+    Context: de Page zelf (.).
+
+    De exacte S3-key staat in de frontmatter (source), weggeschreven door de
+    sync-workflow — die is leidend. Fallback: leid het pad af uit het bestandspad
+    en vervang alleen de .md-extensie.
+*/}}
+{{ $pdf_path := .Params.source | default (printf "%s.pdf" (strings.TrimSuffix ".md" .File.Path)) }}
+{{ $base := .Site.Params.s3_url | default "" }}
+{{ $pdf_url := printf "%s/%s" (strings.TrimSuffix "/" $base) $pdf_path }}
+
+<div class="pdf-action">
+    {{/* WCAG 2.4.4 + 3.2.2: linktekst + aria-label beschrijven doel en nieuw tabblad. */}}
+    <a href="{{ $pdf_url }}"
+       class="btn-pdf"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Open originele PDF (opent in nieuw tabblad)">
+        <i class="bi bi-file-earmark-pdf" aria-hidden="true"></i>
+        <span>Open originele PDF</span>
+        <span aria-hidden="true" title="Opent in nieuw tabblad">&#8599;</span>
+    </a>
+</div>

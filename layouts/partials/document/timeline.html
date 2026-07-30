@@ -1,0 +1,28 @@
+{{/*
+    document/timeline.html — chronologische tijdlijn uit .Params.milestones
+    (aangeleverd door het verrijkingsscript). Context: de Page zelf (.).
+    Rendert alleen iets als er milestones zijn.
+
+    WCAG 1.3.1: <ol> is semantisch juist voor een geordende tijdlijn; elk item
+    bevat een <time> + tekst en is screenreader-leesbaar zonder extra ARIA.
+*/}}
+{{ if .Params.milestones }}
+<section aria-labelledby="timeline-heading" class="card">
+    <h2 id="timeline-heading" class="section-title">
+        <i class="bi bi-clock-history" aria-hidden="true"></i>
+        Tijdlijn
+    </h2>
+    <ol class="timeline" aria-label="Tijdlijn van gebeurtenissen" reversed>
+        {{ range sort .Params.milestones "date" "desc" }}
+        <li class="timeline-item">
+            {{ if .date }}
+            <time datetime="{{ .date }}">
+                <strong>{{ (time .date).Format "02-01-2006" }}</strong>
+            </time>
+            {{ end }}
+            <p>{{ .event }}</p>
+        </li>
+        {{ end }}
+    </ol>
+</section>
+{{ end }}

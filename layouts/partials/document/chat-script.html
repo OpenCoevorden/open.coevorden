@@ -1,0 +1,323 @@
+{{/*
+    document/chat-script.html — client-side chatlogica (BM25-retrieval + Worker-call).
+
+    De INSTELBARE waarden (Worker-URL, time-out, limieten, BM25-parameters,
+    begroeting) komen CENTRAAL uit hugo.toml [params.chat] en worden hieronder
+    geïnjecteerd. Wil je iets tunen? Wijzig hugo.toml, niet dit bestand.
+
+    De taalkundige constanten (STOPWORDS, SYNONYM_GROUPS) blijven bewust in de
+    code: het zijn domein-woordenlijsten, geen deploy-config, en ze horen bij de
+    stemmer-/retrieval-logica eronder.
+*/}}
+<script>
+    /* ── CENTRALE CONFIG — geïnjecteerd vanuit hugo.toml [params.chat] ────── */
+    const AI_WORKER_URL      = {{ .Site.Params.chat.workerURL | jsonify }};
+    const REQUEST_TIMEOUT_MS = {{ .Site.Params.chat.requestTimeoutMs | default 20000 }};
+    const START_MESSAGE      = {{ .Site.Params.chat.startMessage | jsonify }};
+    const FULL_LIMIT         = {{ .Site.Params.chat.fullLimit      | default 150000 }};  // Past het document hierin? Stuur alles.
+    const RETRIEVE_BUDGET    = {{ .Site.Params.chat.retrieveBudget | default 40000 }};   // Te lang? Budget voor opgehaalde stukken.
+    const INTRO_CHARS        = {{ .Site.Params.chat.introChars     | default 3000 }};    // Begin van het document sturen we altijd mee.
+    const BM25_K1            = {{ .Site.Params.chat.bm25K1         | default 1.5 }};     // Verzadiging van herhaalde termen.
+    const BM25_B             = {{ .Site.Params.chat.bm25B          | default 0.75 }};    // Sterkte van lengte-normalisatie.
+
+    let chatHistory = [];
+    // Onthoudt de vorige vraag zodat vervolgvragen ("en daarna?") met weinig
+    // trefwoorden toch relevante context krijgen.
+    let lastQuestion = "";
+
+    const STOPWORDS = new Set(
+        ("de het een van en in op te dat die aan met voor is zijn was er of ook naar bij als dan " +
+         "zo om uit over dit deze haar hun ik jij wij zij niet wel maar want dus heeft hebben had " +
+         "werd worden wordt geen nog al reeds per tot door tegen onder tussen binnen buiten hierbij " +
+         "daarbij welke wat wie waar wanneer hoe zoals mede tevens alsmede betreffende inzake").split(/\s+/)
+    );
+
+    /* --- Normaliseren --- */
+    function stripDiacritics(w) {
+        return w.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    }
+
+    /* --- Lichte Nederlandse stemmer --- */
+    function undoubleConsonant(w) {
+        return w.replace(/(kk|dd|ff|gg|ll|mm|nn|pp|rr|ss|tt|bb|zz)$/, (m) => m[0]);
+    }
+    function undoubleVowel(w) {
+        if (w.length <= 4) return w;
+        return w.replace(/(aa|ee|oo|uu)(?=[bcdfghjklmnpqrstvwxz]*$)/, (m) => m[0]);
+    }
+    function stem(word) {
+        let w = stripDiacritics(word.toLowerCase());
+        if (w.length <= 3) return w;
+        if (/heden$/.test(w) && w.length > 6) {
+            return undoubleVowel(undoubleConsonant(w.slice(0, -5) + "heid"));
+        }
+        w = w.replace(/(etje|pje|kje|tje|je)$/, "");         // verkleinwoorden
+        if (/en$/.test(w) && w.length > 4) w = w.slice(0, -2); // meervoud -en
+        else if (/s$/.test(w) && w.length > 3) w = w.slice(0, -1); // meervoud -s
+        if (/e$/.test(w) && w.length > 4) w = w.slice(0, -1);  // losse -e (finale stap)
+        w = undoubleConsonant(w);
+        w = undoubleVowel(w);
+        return w;
+    }
+
+    /* --- Synoniem-/begripsgroepen (bidirectioneel) --- */
+    const SYNONYM_GROUPS = [
+        ["vergunning", "toestemming", "ontheffing", "vergund"],
+        ["bezwaar", "beroep"],
+        ["zienswijze", "reactie"],
+        ["afwijzing", "weigering", "afgewezen", "geweigerd"],
+        ["toekenning", "toegekend", "toewijzing", "verleend"],
+        ["besluit", "beslissing", "besloten"],
+        ["verlenging", "uitstel", "verlengd"],
+        ["intrekking", "intrekken", "ingetrokken"],
+        ["boete", "dwangsom"],
+        ["woning", "huis", "pand", "gebouw"],
+        ["schuur", "schuurtje", "bijgebouw"],
+        ["bouwen", "bouw", "nieuwbouw", "verbouwing"],
+        ["aanvraag", "verzoek", "aangevraagd"],
+    ];
+    const SYNONYM_EXPANSION = (() => {
+        const map = new Map();
+        for (const group of SYNONYM_GROUPS) {
+            const stems = [...new Set(group.map(stem))];
+            for (const s of stems) {
+                if (!map.has(s)) map.set(s, new Set());
+                stems.forEach((x) => map.get(s).add(x));
+            }
+        }
+        return map;
+    })();
+
+    /* --- Tokenisatie (stopwoorden eruit, alles gestemd) --- */
+    function tokenize(text) {
+        const raw = text.toLowerCase().match(/[\p{L}\p{N}]{3,}/gu) || [];
+        const out = [];
+        for (const t of raw) {
+            if (STOPWORDS.has(t)) continue;
+            out.push(stem(t));
+        }
+        return out;
+    }
+
+    function queryStems(question) {
+        const base = tokenize(question + " " + lastQuestion);
+        const expanded = new Set(base);
+        for (const s of base) {
+            const syn = SYNONYM_EXPANSION.get(s);
+            if (syn) syn.forEach((x) => expanded.add(x));
+        }
+        return [...expanded];
+    }
+
+    function splitIntoChunks(fullText) {
+        const paras = fullText.split(/\n+/).map(p => p.trim()).filter(Boolean);
+        const chunks = [];
+        let buf = "";
+        for (const p of paras) {
+            if (buf && buf.length + p.length > 1200) {
+                chunks.push(buf);
+                buf = "";
+            }
+            buf += (buf ? "\n" : "") + p;
+        }
+        if (buf) chunks.push(buf);
+        return chunks;
+    }
+
+    /* --- BM25-ranking over de chunks --- */
+    function bm25Score(chunks, qStems) {
+        const docs = chunks.map((text) => {
+            const toks = tokenize(text);
+            const tf = new Map();
+            for (const t of toks) tf.set(t, (tf.get(t) || 0) + 1);
+            return { len: toks.length, tf };
+        });
+        const N = docs.length || 1;
+        const avgdl = (docs.reduce((s, d) => s + d.len, 0) / N) || 1;
+
+        const idf = new Map();
+        for (const q of qStems) {
+            let n = 0;
+            for (const d of docs) if (d.tf.has(q)) n++;
+            idf.set(q, Math.log(1 + (N - n + 0.5) / (n + 0.5)));
+        }
+
+        return docs.map((d, idx) => {
+            let score = 0;
+            for (const q of qStems) {
+                const f = d.tf.get(q) || 0;
+                if (f === 0) continue;
+                const denom = f + BM25_K1 * (1 - BM25_B + (BM25_B * d.len) / avgdl);
+                score += idf.get(q) * ((f * (BM25_K1 + 1)) / denom);
+            }
+            return { idx, score };
+        });
+    }
+
+    function buildContext(fullText, question) {
+        // Kort genoeg: stuur het hele document mee.
+        if (fullText.length <= FULL_LIMIT) return fullText;
+
+        // 1. Splits in stukjes in documentvolgorde (chronologie blijft behouden).
+        const chunks = splitIntoChunks(fullText);
+
+        // 2. Zoekwoorden uit huidige + vorige vraag, gestemd en synoniem-uitgebreid.
+        const qStems = queryStems(question);
+
+        // 3. Scoor met BM25.
+        const scored = bm25Score(chunks, qStems)
+            .map((s) => ({ ...s, text: chunks[s.idx] }));
+
+        // 4. Pak de best scorende stukjes tot het budget vol is.
+        const budget = RETRIEVE_BUDGET - INTRO_CHARS;
+        const picked = [];
+        let used = 0;
+        for (const c of [...scored].sort((a, b) => b.score - a.score)) {
+            if (c.score <= 0 || used + c.text.length > budget) continue;
+            picked.push(c);
+            used += c.text.length;
+        }
+
+        // 5. Terug in documentvolgorde (chronologie in de context behouden).
+        picked.sort((a, b) => a.idx - b.idx);
+
+        // 6. Begin van het document altijd meesturen; bij nul treffers valt de AI hierop terug.
+        const intro = fullText.slice(0, INTRO_CHARS);
+        if (picked.length === 0) return intro;
+
+        return intro + "\n\n[...]\n\n" + picked.map(c => c.text).join("\n\n[...]\n\n");
+    }
+
+    function initChat() {
+        addMessage("assistant", START_MESSAGE);
+    }
+
+    function addMessage(role, text) {
+        const chatWindow = document.getElementById('chat-window');
+
+        const msg = document.createElement('div');
+        msg.classList.add('msg', role === "user" ? "user" : "ai");
+        msg.innerText = text;
+
+        if (role === "assistant") {
+            msg.setAttribute('role', 'status');
+        }
+
+        chatWindow.appendChild(msg);
+        chatWindow.scrollTop = chatWindow.scrollHeight;
+
+        // WCAG 2.4.7: focus naar nieuw AI-bericht (niet bij elk gebruikersbericht).
+        if (role === "assistant") {
+            msg.setAttribute('tabindex', '-1');
+            setTimeout(() => msg.focus(), 100);
+        }
+    }
+
+    async function sendMessage() {
+        const input = document.getElementById('ai-question');
+        const btn = document.getElementById('ai-send-btn');
+
+        const question = input.value.trim();
+        if (!question) {
+            // WCAG 3.3.1: foutmelding bij lege invoer.
+            input.setAttribute('aria-invalid', 'true');
+            input.setAttribute('aria-describedby', 'ai-hint ai-error');
+
+            const existingError = document.getElementById('ai-error');
+            if (!existingError) {
+                const errorMsg = document.createElement('p');
+                errorMsg.id = 'ai-error';
+                errorMsg.style.cssText = 'color:#a32d2d; font-size:0.85rem; margin: 4px 0 0 16px;';
+                errorMsg.setAttribute('role', 'alert');
+                errorMsg.textContent = 'Voer een vraag in voordat u verzendt.';
+                document.getElementById('input-bar').insertAdjacentElement('afterend', errorMsg);
+            }
+            input.focus();
+            return;
+        }
+
+        input.removeAttribute('aria-invalid');
+        const existingError = document.getElementById('ai-error');
+        if (existingError) existingError.remove();
+
+        addMessage("user", question);
+        chatHistory.push({ role: "user", content: question });
+
+        input.value = "";
+        btn.disabled = true;
+        btn.setAttribute('aria-label', 'Bezig met verwerken...');
+        btn.innerText = "Bezig...";
+        document.getElementById('chat-window').setAttribute('aria-busy', 'true');
+
+        const contentElement = document.querySelector('[data-pagefind-body]');
+        // textContent i.p.v. innerText: bronelement heeft display:none.
+        const pageContent = contentElement ? contentElement.textContent : "";
+
+        const context = buildContext(pageContent, question);
+        // Pas ná het bouwen bijwerken, zodat de huidige vraag de "vorige" wordt.
+        lastQuestion = question;
+
+        const typing = document.createElement('div');
+        typing.classList.add('msg', 'ai');
+        typing.setAttribute('aria-hidden', 'true');
+        typing.innerText = "AI is aan het typen...";
+        document.getElementById('chat-window').appendChild(typing);
+
+        try {
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+
+            const response = await fetch(AI_WORKER_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                signal: controller.signal,
+                body: JSON.stringify({
+                    context: context,
+                    messages: chatHistory
+                })
+            });
+
+            clearTimeout(timeout);
+
+            const data = await response.json();
+            typing.remove();
+
+            if (!data?.answer) throw new Error("Ongeldig antwoord ontvangen. Probeer het opnieuw.");
+
+            addMessage("assistant", data.answer);
+            chatHistory.push({ role: "assistant", content: data.answer });
+
+        } catch (err) {
+            typing.remove();
+            const errorDiv = document.createElement('div');
+            errorDiv.classList.add('msg', 'ai');
+            errorDiv.setAttribute('role', 'alert');
+            errorDiv.textContent = "Er is een fout opgetreden: " + err.message;
+            document.getElementById('chat-window').appendChild(errorDiv);
+            document.getElementById('chat-window').scrollTop = document.getElementById('chat-window').scrollHeight;
+
+        } finally {
+            btn.disabled = false;
+            btn.setAttribute('aria-label', 'Verstuur vraag aan AI');
+            btn.innerText = "Verstuur";
+            document.getElementById('chat-window').removeAttribute('aria-busy');
+            input.focus(); // WCAG 2.4.3
+        }
+    }
+
+    /* Enter-toets: type="button" op de knop voorkomt dubbele submit */
+    document.getElementById('ai-question').addEventListener("keypress", e => {
+        if (e.key === "Enter") sendMessage();
+    });
+
+    /* Terug-knop: history.back() als bezoekers van dezelfde site komen */
+    document.getElementById('back-button').addEventListener('click', function(e) {
+        const referrer = document.referrer;
+        if (referrer && referrer.includes(window.location.hostname)) {
+            e.preventDefault();
+            window.history.back();
+        }
+    });
+
+    initChat();
+</script>

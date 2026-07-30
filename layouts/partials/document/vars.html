@@ -1,0 +1,58 @@
+{{/*
+    document/vars.html — leidt de niveaus van DEZE pagina af uit de CENTRALE
+    structuur-config in hugo.toml. Retourneert een dict die single.html aan de
+    partials doorgeeft.
+
+    Config (hugo.toml) — per onderwerp een GEORDENDE lijst van niveaus. De
+    VOLGORDE in de lijst = de padpositie (positie 0 is altijd het onderwerp
+    zelf, dus de eerste niveau-regel hoort bij het eerste submapniveau):
+
+      [[params.structuur.<sectie>]]
+        key      = "..."          # interne naam (uniek binnen de sectie)
+        label    = "..."          # zichtbaar label + Pagefind-filternaam
+        icon     = "bi-..."       # Bootstrap-icoon (optioneel; default bi-folder)
+        group    = true           # (optioneel) dit niveau groepeert "gerelateerde documenten"
+        optional = true           # (optioneel) mag ontbreken bij sommige documenten
+
+      [[params.structuur.default]]  # fallback voor niet-genoemde secties
+
+    Een nieuw onderwerp toevoegen = een nieuw [[params.structuur.<sectie>]]-blok.
+    Herorden de niveaus = herorden de regels. Geen indexnummers meer.
+
+    LET OP: het label wordt óók de Pagefind-filternaam. Neem diezelfde labels
+    op in de `filters` van dat onderwerp in index.html.
+*/}}
+{{ $maps := .Params.maps | default (slice) }}
+{{ $structuur := .Site.Params.structuur | default dict }}
+
+{{/* Config voor deze sectie; anders de default; anders leeg. */}}
+{{ $levelDefs := index $structuur .Section }}
+{{ if not $levelDefs }}{{ $levelDefs = index $structuur "default" }}{{ end }}
+{{ $levelDefs = $levelDefs | default (slice) }}
+
+{{ $levels := slice }}
+{{ $visible := slice }}
+{{ $group := dict }}
+{{ range $i, $ld := $levelDefs }}
+    {{ $pos := add $i 1 }}   {{/* maps[0] = onderwerp; niveaus starten op 1 */}}
+    {{ $value := "" }}
+    {{ if gt (len $maps) $pos }}{{ $value = index $maps $pos }}{{ end }}
+    {{ $lvl := dict
+        "key"      (index $ld "key")
+        "label"    (index $ld "label")
+        "icon"     (or (index $ld "icon") "bi-folder")
+        "value"    $value
+        "group"    (eq (index $ld "group") true)
+        "optional" (eq (index $ld "optional") true)
+        "pos"      $pos
+    }}
+    {{ $levels = $levels | append $lvl }}
+    {{ if $value }}{{ $visible = $visible | append $lvl }}{{ end }}
+    {{ if $lvl.group }}{{ $group = $lvl }}{{ end }}
+{{ end }}
+
+{{ return (dict
+    "levels"  $levels
+    "visible" $visible
+    "group"   $group
+) }}

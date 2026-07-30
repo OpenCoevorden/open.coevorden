@@ -1,0 +1,44 @@
+{{/*
+    document/chat.html — de AI-chat-markup (het gedrag zit in chat-script.html).
+    Context: niet nodig (statische markup).
+
+    WCAG 1.3.1: section met aria-labelledby koppelt de h2 aan de regio.
+    WCAG 4.1.3: role="log" + aria-live="polite" kondigt nieuwe berichten aan.
+*/}}
+<section aria-labelledby="ai-chat-heading">
+    <h2 id="ai-chat-heading" class="section-title">
+        <i class="bi bi-robot" aria-hidden="true"></i>
+        Vraag het de AI
+    </h2>
+
+    <div id="ai-chat">
+        <div id="chat-window"
+             role="log"
+             aria-live="polite"
+             aria-atomic="false"
+             aria-label="Chatgesprek met AI"
+             aria-relevant="additions">
+            {{/* Berichten worden door JS ingevoegd */}}
+        </div>
+
+        <div id="input-bar">
+            {{/* WCAG 1.3.1 + 3.3.2: expliciet <label> via for/id (visueel verborgen). */}}
+            <label for="ai-question" class="sr-only">Stel een vraag over het document</label>
+            <input
+                id="ai-question"
+                type="text"
+                placeholder="Stel een vraag..."
+                aria-describedby="ai-hint"
+                autocomplete="off"
+            />
+            <button
+                id="ai-send-btn"
+                type="button"
+                onclick="sendMessage()"
+                aria-label="Verstuur vraag aan AI">
+                Verstuur
+            </button>
+        </div>
+        <p id="ai-hint" class="sr-only">Typ uw vraag en druk op Enter of de Verstuur-knop.</p>
+    </div>
+</section>
