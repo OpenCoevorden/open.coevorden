@@ -201,3 +201,6 @@ jobs:
             --delete \
             --exclude "*" \
             --include "$SYNC_FOLDER/*"
+
+      - name: Deploy sitemap for this build
+        run: aws s3 cp ./public/sitemap.xml "s3://$BUCKET_NAME/$SYNC_FOLDER/sitemap.xml"
