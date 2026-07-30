@@ -106,16 +106,11 @@ uglyURLs = true
   label = "Jaar"
   icon = "bi-calendar3"
 
-# riool-tekeningen / <kavelnummer> / <jaar>
+# riool-tekeningen / plaats
 [[params.structuur.riool-tekeningen]]
-  key = "kavelnummer"
-  label = "Kavelnummer"
+  key = "plaats"
+  label = "plaats"
   icon = "bi-map"
-  group = true
-[[params.structuur.riool-tekeningen]]
-  key = "jaar"
-  label = "Jaar"
-  icon = "bi-calendar3"
 
 # Fallback voor onderwerpen zonder eigen blok hierboven.
 [[params.structuur.default]]

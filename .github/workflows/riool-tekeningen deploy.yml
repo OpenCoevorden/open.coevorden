@@ -36,7 +36,7 @@
 #   CDN_BASE_URL       → CloudFront-root voor de Hugo baseURL (géén pad-prefix).
 # =============================================================================
 
-name: Woo publicaties synchroniseren
+name: riool-tekeningen deploy
 on:
   push:
     branches: [main]
@@ -50,7 +50,7 @@ env:
   # Vorm: "<onderwerp>/<jaar>". Moet EXACT (incl. casing) als prefix
   # in de bron-bucket bestaan. Beheerd via de repo-variabele SYNC_FOLDER;
   # fallback als die ontbreekt.
-  SYNC_FOLDER: ${{ vars.SYNC_FOLDER || 'woo-publicaties/2026' }}
+  SYNC_FOLDER: ${{ vars.SYNC_FOLDER || 'riool-tekeningen' }}
 
   # Beide buckets staan in eu-north-1.
   AWS_DEFAULT_REGION: eu-north-1
