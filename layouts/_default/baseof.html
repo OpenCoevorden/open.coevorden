@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "nl" }}">
+<head>
+    {{/*
+    =========================================================================
+    baseof.html — gedeelde HTML-romp voor ELKE detailpagina
+    =========================================================================
+    Zowel woo-publicaties/* als vergunningen/* (en elke toekomstige sectie)
+    vallen op _default/single.html, die op zijn beurt deze baseof gebruikt.
+    Voorheen bestonden er twee vrijwel identieke single.html-bestanden; die
+    zijn nu vervangen door één single.html + herbruikbare partials.
+
+    Aanpassen:
+      • <head>, styles, iconen       → partials/head.html + partials/styles.html
+      • paginastructuur (blokken)    → _default/single.html
+      • losse onderdelen             → partials/document/*.html
+      • client-side chatlogica       → partials/document/chat-script.html
+    Instelbare waarden staan CENTRAAL in hugo.toml ([params]); de partials
+    lezen die uit via .Site.Params — nooit meer hardcoden in de templates.
+    =========================================================================
+    */}}
+    {{ partial "head.html" . }}
+</head>
+<body>
+
+    {{/* WCAG 2.4.1: skip-link als allereerste focusbare element */}}
+    <a href="#main-content" class="skip-link">Ga naar hoofdinhoud</a>
+
+    {{ block "main" . }}{{ end }}
+
+    {{ block "scripts" . }}{{ end }}
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+{{/*
+    document/meta.html — metadata (alle geconfigureerde niveaus) + samenvatting.
+    Context: dict { page: Page, vars: (partial document/vars) }.
+    Loopt generiek over de niveaus van deze sectie; toont alleen niveaus die een
+    waarde hebben (optionele/ontbrekende niveaus worden overgeslagen).
+*/}}
+{{ $page := .page }}
+{{ $v := .vars }}
+
+<div class="meta-info" role="list" aria-label="Documentinformatie">
+    {{ range $i, $lvl := $v.visible }}
+    {{ if $i }}<span role="listitem" aria-hidden="true">|</span>{{ end }}
+    <span role="listitem">
+        <i class="bi {{ $lvl.icon }}" aria-hidden="true"></i>
+        <span class="sr-only">{{ $lvl.label }}: </span>{{ $lvl.value }}
+    </span>
+    {{ end }}
+</div>
+
+{{ with $page.Params.summary }}
+<aside class="summary-box" aria-label="Samenvatting">
+    <p><strong>In het kort:</strong> {{ . }}</p>
+</aside>
+{{ end }}

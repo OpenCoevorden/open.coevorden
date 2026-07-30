@@ -1,0 +1,15 @@
+{{/*
+    document/header.html — paginakop met terug-knop en de enige <h1>.
+    Context: de Page zelf (.).
+*/}}
+<header class="doc-header" role="banner">
+    <nav class="header-nav" aria-label="Paginanavigatie">
+        {{/* WCAG 2.4.4 + 2.5.5: beschrijvende linktekst, 44px-doel (CSS). */}}
+        <a href="{{ .Site.Params.indexURL }}" class="btn-back" id="back-button">
+            <i class="bi bi-arrow-left" aria-hidden="true"></i>
+            <span>Terug naar overzicht</span>
+        </a>
+    </nav>
+    {{/* WCAG 1.3.1: enige h1 op de pagina */}}
+    <h1>{{ .Title }}</h1>
+</header>

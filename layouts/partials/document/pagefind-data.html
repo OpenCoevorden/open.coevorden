@@ -1,0 +1,15 @@
+{{/*
+    document/pagefind-data.html — verborgen blok dat Pagefind indexeert en dat de
+    chat als bron gebruikt. Emit één Pagefind-filter per zichtbaar niveau; de
+    filternaam = het niveau-label (neem dezelfde labels op in index.html filters).
+    Context: dict { page: Page, vars: (partial document/vars) }.
+*/}}
+{{ $page := .page }}
+{{ $v := .vars }}
+<div style="display:none;" data-pagefind-body aria-hidden="true">
+    <h1 data-pagefind-meta="title">{{ $page.Title }}</h1>
+    {{ range $v.visible }}
+    <span data-pagefind-filter="{{ .label }}" data-pagefind-meta="{{ .label }}">{{ .value }}</span>
+    {{ end }}
+    {{ $page.Content }}
+</div>

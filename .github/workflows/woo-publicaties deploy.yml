@@ -9,28 +9,31 @@
 #   4) Synct het resultaat naar de site-bucket (scoped op SYNC_FOLDER).
 #   Draait bij push op main, elke nacht (cron) en handmatig (workflow_dispatch).
 #
-# EXTERNE ACTIONS / TOOLS (updaten = versie/pin hieronder in de steps aanpassen)
-#   actions/checkout@v4                  → repo uitchecken.
-#   stefanzweifel/git-auto-commit-action@v5 → de gesyncte markdown terugcommitten.
-#   peaceiris/actions-hugo@v2            → Hugo installeren (versie gepind: 0.128.0,
-#                                          extended). Updaten: hugo-version in de step.
-#   poppler-utils (pdftotext)           → PDF→tekst; via apt-get in "Install dependencies".
-#   AWS CLI                             → voorgeïnstalleerd op de runner (s3api/s3 sync).
-#   npx pagefind@latest                 → zoekindex bouwen. Updaten: pin een versie
-#                                          i.p.v. @latest voor reproduceerbaarheid.
+# CENTRALE CONFIG — SYNC_FOLDER
+#   De te synchroniseren map staat NIET meer hardcoded, maar in één repo-variabele
+#   die door beide workflows (deploy + verrijken) wordt gelezen:
+#     Repo → Settings → Secrets and variables → Actions → Variables →
+#       Name:  SYNC_FOLDER
+#       Value: woo-publicaties/2023
+#   Zo kan casing/pad nooit meer uit elkaar lopen tussen de workflows. De `||`-
+#   fallback hieronder is het vangnet als de variabele (nog) niet bestaat.
 #
-# SECRETS (Repo → Settings → Secrets and variables → Actions)
+# EXTERNE ACTIONS / TOOLS
+#   actions/checkout                         → repo uitchecken.
+#   stefanzweifel/git-auto-commit-action     → gesyncte markdown terugcommitten.
+#   peaceiris/actions-hugo                    → Hugo installeren (versie via
+#                                              '# renovate:'-comment gepind).
+#   poppler-utils (pdftotext)                → PDF→tekst; via apt-get.
+#   AWS CLI                                  → voorgeïnstalleerd (s3api/s3 sync).
+#   npx pagefind@<versie>                    → zoekindex bouwen (gepind + Renovate).
+#
+# SECRETS (Repo → Settings → Secrets and variables → Actions → Secrets)
 #   AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY            → LEEST bron-bucket.
 #   AWS_ACCESS_KEY_ID_SITE / AWS_SECRET_ACCESS_KEY_SITE  → SCHRIJFT site-bucket.
-#   Updaten: roteer in Secrets. Bucketnamen staan hardcoded in de betreffende steps
-#   (publicaties-coevorden = bron, publicaties-coevorden-site = site).
 #
-# CONFIGURATIE (env, hieronder op workflow-niveau)
-#   SYNC_FOLDER        → "<onderwerp>/<jaar>". Moet EXACT als prefix in de bron-
-#                        bucket bestaan (casing!). Updaten: wijzig de waarde.
-#   AWS_DEFAULT_REGION → regio van beide buckets (eu-north-1). Updaten bij verhuizing.
+# OVERIGE CONFIG (env, hieronder op workflow-niveau)
+#   AWS_DEFAULT_REGION → regio van beide buckets (eu-north-1).
 #   CDN_BASE_URL       → CloudFront-root voor de Hugo baseURL (géén pad-prefix).
-#                        Updaten: zet het CloudFront-domein uit cloudfront.json.
 # =============================================================================
 
 name: Woo publicaties synchroniseren
@@ -43,17 +46,16 @@ on:
   workflow_dispatch:
 
 env:
-  # ── PAS HIER HET ONDERWERP + JAAR AAN ──────────────────────────
+  # ── CENTRALE MAP-CONFIG ────────────────────────────────────────
   # Vorm: "<onderwerp>/<jaar>". Moet EXACT (incl. casing) als prefix
-  # bestaan in de bron-bucket; de site-bucket wordt hiervan de spiegel.
-  SYNC_FOLDER: "woo-publicaties/2026"
+  # in de bron-bucket bestaan. Beheerd via de repo-variabele SYNC_FOLDER;
+  # fallback als die ontbreekt.
+  SYNC_FOLDER: ${{ vars.SYNC_FOLDER || 'woo-publicaties/2023' }}
 
-  # Beide buckets staan in eu-north-1 (zie origin-domeinen in CloudFront).
+  # Beide buckets staan in eu-north-1.
   AWS_DEFAULT_REGION: eu-north-1
 
-  # De site wordt via CloudFront geserveerd, niet via de rauwe (privé/OAC) S3-URL.
-  # baseURL blijft de CloudFront-ROOT: door de geneste content zet Hugo de
-  # prefix zelf al in elke permalink.
+  # CloudFront-ROOT als Hugo baseURL (Hugo zet de prefix zelf per permalink).
   CDN_BASE_URL: "https://d3jow2udcm31b0.cloudfront.net"
 
 jobs:
@@ -79,9 +81,6 @@ jobs:
           mkdir -p "onderwerpen/$SYNC_FOLDER"
 
           echo "📥 S3 listing voor: $SYNC_FOLDER"
-          # De AWS CLI pagineert list-objects-v2 zelf; geen handmatige token-loop
-          # nodig. We projecteren key+etag direct als tab-gescheiden tekst.
-          # 'None' = lege listing (JMESPath op een lege bucket) -> eruit filteren.
           aws s3api list-objects-v2 \
             --bucket "$BUCKET_NAME" \
             --prefix "$SYNC_FOLDER/" \
@@ -117,8 +116,6 @@ jobs:
             md_path="onderwerpen/${pdf_key%.pdf}.md"
 
             if [ -f "$md_path" ]; then
-              # Ongewijzigde ETag -> overslaan. Gewijzigd -> frontmatter vers
-              # wegschrijven (zonder ai_status), zodat de enrich-stap 'm herpakt.
               stored=$(grep -m1 '^s3_etag:' "$md_path" 2>/dev/null \
                 | sed 's/^s3_etag:[[:space:]]*//; s/^"//; s/"$//' || true)
               [ "$stored" = "$s3_etag" ] && return
@@ -171,31 +168,26 @@ jobs:
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.128.0'   # pin voor reproduceerbare builds
+          # renovate: datasource=github-releases depName=gohugoio/hugo
+          hugo-version: '0.128.0'
           extended: true
 
       - name: Build Hugo site
         run: |
           set -euo pipefail
-          # Content GENEST neerzetten (content/woo-publicaties/2023/…), zodat:
-          #   • .File.Path de prefix behoudt -> de PDF-fallback in single.html klopt
-          #   • Hugo de prefix zelf in elke permalink zet
-          # baseURL blijft daarom de CloudFront-root (géén prefix erin).
+          # Content GENEST neerzetten zodat .File.Path de prefix behoudt en Hugo
+          # de prefix zelf in elke permalink zet. baseURL blijft de CloudFront-root.
           rm -rf content && mkdir -p "content/$SYNC_FOLDER"
           cp -r "onderwerpen/$SYNC_FOLDER/." "content/$SYNC_FOLDER/"
           hugo --minify --baseURL "$CDN_BASE_URL/"
 
       - name: Index with Pagefind
         run: |
-          # BELANGRIJK: --site op de JAARMAP, niet op public/.
-          # Pagefind stelt de result-URL samen als: runtime-basis + opgeslagen URL.
-          # De runtime-basis leidt Pagefind af uit de bundel-locatie
-          # (/woo-publicaties/2023/_pagefind/ -> basis = /woo-publicaties/2023/).
-          # Indexeren we op public/, dan zit die prefix óók al in de opgeslagen URL
-          # en krijg je 'm dubbel (…/2023/woo-publicaties/2023/…). Door op de jaarmap
-          # te indexeren zijn de opgeslagen URL's basis-relatief (/woo-verzoeken/…),
-          # en vult de runtime-basis de prefix precies één keer aan.
-          npx pagefind@latest --site "public/$SYNC_FOLDER" --output-subdir _pagefind
+          # --site op de JAARMAP (niet public/) zodat de opgeslagen URL's
+          # basis-relatief zijn en de runtime-basis de prefix precies één keer aanvult.
+          # Versie gepind (i.p.v. @latest) voor reproduceerbare builds; Renovate
+          # bumpt hem via de custom manager in renovate.json.
+          npx pagefind@1.5.2 --site "public/$SYNC_FOLDER" --output-subdir _pagefind
 
       - name: Deploy to S3
         env:
@@ -204,10 +196,8 @@ jobs:
           BUCKET_NAME: ${{ github.event_name == 'pull_request' && 'publicaties-coevorden-testsite' || 'publicaties-coevorden-site' }}
         run: |
           set -euo pipefail
-      
+
           aws s3 sync ./public "s3://$BUCKET_NAME" \
             --delete \
             --exclude "*" \
             --include "$SYNC_FOLDER/*"
-
-            

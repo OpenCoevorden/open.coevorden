@@ -1,14 +1,18 @@
 # =============================================================================
 #  HUGO CONFIGURATIE  —  PDF Zoekmachine / Publicaties Coevorden
 # -----------------------------------------------------------------------------
-#  Dit bestand bevat ALLE site-brede configuratie voor de Hugo-build.
-#  Wijzigt de CloudFront-URL of de S3-locatie? Pas dat hier centraal aan:
-#  single.html en index.html lezen deze waarden uit via `.Site.Params`.
+#  ALLE site-brede én template-instelbare waarden staan hier centraal.
+#  single.html en de partials lezen deze via `.Site.Params` — niets meer
+#  hardcoden in de templates.
+#
+#  LET OP: index.html wordt NIET door Hugo gebouwd (aparte deploy via
+#  index.yml) en heeft daarom een eigen kopie van o.a. de kleuren. Houd die
+#  in sync met [params.theme] hieronder.
 #
 #  AFHANKELIJKHEDEN / EXTERNE DIENSTEN
-#    • CloudFront-distributie  → levert baseURL / s3_url / indexURL
-#                                (domeinnaam staat in cloudfront.json).
-#    • Geen extern Hugo-thema   → we gebruiken eigen templates.
+#    • CloudFront-distributie → levert baseURL / s3_url / indexURL.
+#    • Cloudflare Worker      → AI-backend (params.chat.workerURL).
+#    • Geen extern Hugo-thema  → eigen templates (baseof + partials).
 # =============================================================================
 
 
@@ -16,67 +20,158 @@
 #  KERN-INSTELLINGEN
 # ─────────────────────────────────────────────────────────────────────────────
 
-# baseURL — de root waarvandaan de site wordt geserveerd (CloudFront-distributie).
-#   Wat: prefix van elke gegenereerde permalink.
-#   Update: wijzigen als de CloudFront-domeinnaam verandert (zie cloudfront.json
-#           → "DomainName"). Moet op een "/" eindigen. NEEM GEEN map-prefix op:
-#           de deploy-workflow zet content genest neer, waardoor Hugo de prefix
-#           zelf al in elke permalink plaatst.
+# baseURL — CloudFront-root. Moet op "/" eindigen. GEEN map-prefix opnemen:
+#   content staat genest, dus Hugo zet de prefix zelf in elke permalink.
 baseURL = 'https://d3jow2udcm31b0.cloudfront.net/'
 
-# locale — taal/regio voor datum- en getalnotatie.
-#   Update: alleen bij een andere taalregio.
+# locale — taal/regio voor datum-/getalnotatie.
 locale = "nl-nl"
 
-# title — sitetitel (verschijnt o.a. in RSS en metadata).
+# languageCode — gebruikt in <html lang="…"> (baseof.html).
+languageCode = "nl"
+
+# title — sitetitel (RSS/metadata).
 title = 'PDF Zoekmachine'
 
-# theme — bewust LEEG: we gebruiken eigen templates (single.html / index.html).
-#   Update: laat leeg tenzij je echt een Hugo-thema toevoegt.
+# theme — LEEG: eigen templates.
 theme = []
 
-# uglyURLs — true = elke pagina wordt een los .html-bestand (…/pagina.html)
-#   i.p.v. een map met index.html. Nodig omdat de site als losse statische
-#   bestanden op S3 achter CloudFront staat.
-#   Update: bij deze hosting-opzet vrijwel nooit wijzigen.
+# uglyURLs — losse .html-bestanden i.p.v. mappen met index.html (nodig voor S3).
 uglyURLs = true
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  PARAMS  —  vrij beschikbaar in templates via `.Site.Params.<naam>`
+#  PARAMS  —  beschikbaar in templates via `.Site.Params.<naam>`
 # ─────────────────────────────────────────────────────────────────────────────
 [params]
-  # s3_url — basis-URL waarmee single.html de link naar de originele PDF opbouwt.
-  #   Update: gelijk houden aan baseURL (CloudFront-root); wijzigen bij domeinwissel.
+  # s3_url — basis waarmee single.html de PDF-downloadlink opbouwt.
+  #   Gelijk houden aan baseURL (CloudFront-root).
   s3_url = "https://d3jow2udcm31b0.cloudfront.net/"
 
-  # indexURL — doel van de "Terug naar overzicht"-knop in single.html.
-  #   Update: wijzigen bij domeinwissel of als de overzichtspagina verhuist.
+  # indexURL — doel van de "Terug naar overzicht"-knop.
   indexURL = 'https://d3jow2udcm31b0.cloudfront.net/index.html'
 
 
+# ── THEMA / KLEUREN ──────────────────────────────────────────────────────────
+#   Geïnjecteerd als CSS-variabelen in partials/styles.html.
+#   WCAG: primary/accent gekozen op ≥4.5:1 contrast met wit.
+[params.theme]
+  primary = "#4a2060"
+  accent  = "#5a7a00"
+  bg      = "#f4f7f6"
+
+
+# ── MAP-STRUCTUUR PER ONDERWERP ──────────────────────────────────────────────
+#   Per onderwerp (= de bovenste contentmap / .Section) een GEORDENDE lijst van
+#   niveaus. De VOLGORDE van de regels = de padvolgorde onder het onderwerp.
+#   Positie 0 in het pad is altijd het onderwerp zelf; de eerste [[...]]-regel
+#   hoort dus bij het EERSTE submapniveau daaronder.
+#
+#   Velden per niveau:
+#     key      — interne naam (uniek binnen het onderwerp)
+#     label    — zichtbaar label ÉN de Pagefind-filternaam
+#                (neem exact dezelfde labels op in `filters` in index.html)
+#     icon     — Bootstrap-icoon (optioneel; default "bi-folder")
+#     group    — (optioneel) markeer het niveau waarop "gerelateerde documenten"
+#                gegroepeerd worden (voor woo = zaak). Max. één per onderwerp.
+#     optional — (optioneel) mag ontbreken bij sommige documenten
+#
+#   Een nieuw onderwerp toevoegen = een nieuw [[params.structuur.<naam>]]-blok.
+#   De niveaus herorden = de regels herorden. Geen indexnummers meer.
+
+# woo-publicaties / <jaar> / <categorie> / <zaak?>   (structuur ongewijzigd)
+[[params.structuur.woo-publicaties]]
+  key = "jaar"
+  label = "Jaar"
+  icon = "bi-calendar3"
+[[params.structuur.woo-publicaties]]
+  key = "categorie"
+  label = "Categorie"
+  icon = "bi-tag"
+[[params.structuur.woo-publicaties]]
+  key = "zaak"
+  label = "Zaak"
+  icon = "bi-folder"
+  group = true
+  optional = true
+
+# vergunningen / <categorie> / <jaar>
+[[params.structuur.vergunningen]]
+  key = "categorie"
+  label = "Categorie"
+  icon = "bi-tag"
+  group = true
+[[params.structuur.vergunningen]]
+  key = "jaar"
+  label = "Jaar"
+  icon = "bi-calendar3"
+
+# riool-tekeningen / <kavelnummer> / <jaar>
+[[params.structuur.riool-tekeningen]]
+  key = "kavelnummer"
+  label = "Kavelnummer"
+  icon = "bi-map"
+  group = true
+[[params.structuur.riool-tekeningen]]
+  key = "jaar"
+  label = "Jaar"
+  icon = "bi-calendar3"
+
+# Fallback voor onderwerpen zonder eigen blok hierboven.
+[[params.structuur.default]]
+  key = "jaar"
+  label = "Jaar"
+  icon = "bi-calendar3"
+[[params.structuur.default]]
+  key = "categorie"
+  label = "Categorie"
+  icon = "bi-tag"
+[[params.structuur.default]]
+  key = "zaak"
+  label = "Zaak"
+  icon = "bi-folder"
+  group = true
+  optional = true
+
+
+# ── AI-CHAT (client-side, single.html) ───────────────────────────────────────
+#   Geïnjecteerd in partials/document/chat-script.html.
+[params.chat]
+  # Adres van de Cloudflare Worker die (server-side) OpenAI aanroept.
+  workerURL        = "https://coevorden-pdf-ai.vincentvandijkprive1996.workers.dev/"
+  # Time-out (ms) voor de Worker-call; daarna afgebroken.
+  requestTimeoutMs = 20000
+  # Begroeting die als eerste in de chat verschijnt.
+  startMessage     = "Stel hier met AI een vraag over bovenstaand document."
+  # Past de documenttekst hieronder (tekens)? Dan volledig meesturen.
+  fullLimit        = 150000
+  # Te lang? Tekenbudget voor de opgehaalde (BM25-)stukken.
+  retrieveBudget   = 40000
+  # Begin van het document dat altijd wordt meegestuurd (tekens).
+  introChars       = 3000
+  # BM25-parameters: verzadiging van herhaling / lengte-normalisatie.
+  bm25K1           = 1.5
+  bm25B            = 0.75
+
+
 # ─────────────────────────────────────────────────────────────────────────────
-#  OUTPUT-FORMATEN per paginatype
+#  OUTPUT-FORMATEN
 # ─────────────────────────────────────────────────────────────────────────────
 [outputs]
-  # home — de homepage genereert HTML (pagina), RSS (feed) én JSON.
-  #   Update: alleen wijzigen om een outputformaat toe te voegen/verwijderen.
   home = ["HTML", "RSS", "JSON"]
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  MINIFY  —  output verkleinen
+#  MINIFY
 # ─────────────────────────────────────────────────────────────────────────────
 [minify]
-  # disableXML — true = XML (RSS/sitemap) NIET minificeren (voorkomt problemen
-  #   met sommige feed-lezers).
-  disableXML = true
+  disableXML = true   # RSS/sitemap niet minificeren
 
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  SITEMAP
 # ─────────────────────────────────────────────────────────────────────────────
 [sitemap]
-  changefreq = "monthly"   # hint voor zoekmachines: hoe vaak content wijzigt
-  priority = 0.5           # relatieve prioriteit van pagina's (0.0–1.0)
-  filename = "sitemap.xml" # bestandsnaam van de gegenereerde sitemap
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"

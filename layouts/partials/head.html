@@ -1,0 +1,18 @@
+{{/*
+    head.html — <head>-inhoud voor detailpagina's.
+
+    De Bootstrap-Icons <link> staat hier BEWUST inline (niet in hugo.toml):
+    Renovate's HTML-manager (zie renovate.json) herkent het versienummer in
+    'cdn.jsdelivr.net/npm/<pkg>@<versie>' alleen in .html-bestanden. Verplaats
+    je 'm naar een param, dan bumpt Renovate hem niet meer. Laat de versie dus
+    hier staan.
+
+    WCAG 2.4.2: <title> beschrijft de pagina.
+    WCAG 3.1.1: lang="nl" staat op <html> (baseof.html).
+*/}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Title }}</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
+
+{{ partial "styles.html" . }}

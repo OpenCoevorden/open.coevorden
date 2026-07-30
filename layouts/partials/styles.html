@@ -1,0 +1,331 @@
+{{/*
+    styles.html — alle CSS voor de detailpagina (één centrale plek).
+    De themakleuren komen uit hugo.toml [params.theme] en worden hier als
+    CSS-variabelen geïnjecteerd, zodat je ze op één plek beheert.
+
+    LET OP: index.html wordt NIET door Hugo gebouwd (aparte deploy via
+    index.yml) en heeft daarom een eigen kopie van deze kleuren. Wijzig je
+    de kleuren hier, pas ze dan ook in index.html aan.
+*/}}
+<style>
+    :root {
+        --primary: {{ .Site.Params.theme.primary | default "#4a2060" }};   /* WCAG AA-contrast */
+        --accent:  {{ .Site.Params.theme.accent  | default "#5a7a00" }};   /* WCAG AA-contrast */
+        --bg:      {{ .Site.Params.theme.bg       | default "#f4f7f6" }};
+        --white:   #ffffff;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.6;
+        color: #1a1a1a;
+        margin: 0;
+        padding: 0;
+        background-color: var(--bg);
+    }
+
+    /* WCAG 2.5.8: zichtbare focus op alle interactieve elementen */
+    :focus-visible {
+        outline: 3px solid var(--accent);
+        outline-offset: 3px;
+    }
+
+    /* WCAG 2.3.3: animaties uit voor wie dat prefereert */
+    @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+            transition: none !important;
+            animation: none !important;
+        }
+    }
+
+    .doc-header {
+        background: var(--primary);
+        color: white;
+        padding: 2.5rem 2.5rem;
+        text-align: center;
+    }
+
+    .doc-header h1 {
+        margin: 0 auto;
+        font-size: 1.75rem;
+        max-width: 900px;
+    }
+
+    .main-content {
+        max-width: 900px;
+        margin: -2rem auto 3rem auto;
+        padding: 0 15px;
+        z-index: 10;
+        position: relative;
+    }
+
+    .card {
+        background: var(--white);
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .meta-info {
+        font-size: 0.9rem;
+        color: #444;
+        margin-bottom: 20px;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap; /* WCAG 1.4.10 */
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 15px;
+    }
+
+    .summary-box {
+        background: #f7f9f0;
+        border-left: 4px solid var(--accent);
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+        border-radius: 0;
+        font-style: italic;
+    }
+
+    .pdf-action {
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .btn-pdf {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: var(--accent);
+        color: white;
+        padding: 12px 30px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .btn-pdf:hover {
+        background: var(--primary);
+        text-decoration: underline;
+    }
+
+    /* === AI CHAT === */
+    #ai-chat {
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid #c8c8c8;
+        background: #f9fafb;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #chat-window {
+        flex: 1;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        min-height: 80px;
+    }
+
+    .msg {
+        max-width: 85%;
+        padding: 12px 16px;
+        border-radius: 18px;
+        font-size: 0.95rem;
+    }
+
+    .user {
+        align-self: flex-end;
+        background: var(--primary);
+        color: white;
+        border-bottom-right-radius: 4px;
+    }
+
+    .ai {
+        align-self: flex-start;
+        background: white;
+        border: 1px solid #d0d0d0;
+        color: #1a1a1a;
+        border-bottom-left-radius: 4px;
+    }
+
+    #input-bar {
+        display: flex;
+        padding: 1rem;
+        background: white;
+        border-top: 1px solid #ddd;
+        gap: 10px;
+    }
+
+    #ai-question {
+        flex: 1;
+        padding: 10px 15px;
+        border: 1px solid #999; /* WCAG 1.4.11 */
+        border-radius: 25px;
+        outline: none;
+        width: 100%;
+        font-size: 1rem;
+        color: #1a1a1a;
+        background: #fff;
+    }
+
+    #ai-question:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px rgba(90, 122, 0, 0.25);
+        outline: none;
+    }
+
+    #ai-send-btn {
+        background: var(--accent);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    #ai-send-btn:hover { background: var(--primary); }
+
+    #ai-send-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    /* === STRUCTUUR === */
+    .section-title {
+        font-size: 1.2rem;
+        border-bottom: 2px solid var(--primary);
+        display: inline-block;
+        margin-bottom: 1.5rem;
+        padding-bottom: 5px;
+        color: #1a1a1a;
+    }
+
+    .gerelateerde-zaken ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .gerelateerde-zaken li {
+        padding: 10px;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    .gerelateerde-zaken a {
+        color: var(--primary);
+        text-decoration: underline; /* WCAG 1.4.1 */
+        font-weight: 500;
+    }
+
+    .gerelateerde-zaken a:hover { color: var(--accent); }
+
+    .timeline {
+        border-left: 3px solid var(--primary);
+        padding-left: 20px;
+    }
+
+    .timeline-item {
+        margin-bottom: 20px;
+        position: relative;
+        list-style: none;
+    }
+
+    .timeline-item p { margin-top: 0px; }
+
+    .timeline-item::before {
+        content: "";
+        position: absolute;
+        left: -27px;
+        top: 5px;
+        width: 12px;
+        height: 12px;
+        background: var(--accent);
+        border-radius: 50%;
+    }
+
+    /* === TERUG-KNOP === */
+    .header-nav {
+        max-width: 1100px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .btn-back {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: white;
+        text-decoration: underline; /* WCAG 1.4.1 */
+        font-weight: 500;
+        font-size: 0.9rem;
+        padding: 8px 16px;
+        border: 1px solid rgba(255,255,255,0.6);
+        border-radius: 20px;
+        background: rgba(255,255,255,0.1);
+        min-height: 44px; /* WCAG 2.5.5 */
+    }
+
+    .btn-back:hover {
+        background: rgba(255,255,255,0.2);
+        border-color: white;
+    }
+
+    @media (min-width: 1300px) {
+        .doc-header { position: relative; }
+        .header-nav {
+            position: absolute;
+            left: 2rem;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+        }
+    }
+
+    @media (max-width: 1299px) {
+        .header-nav {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+    }
+
+    /* WCAG 1.4.10: reflow tot 320px */
+    @media (max-width: 400px) {
+        .card { padding: 1rem; }
+        .meta-info { flex-direction: column; align-items: center; gap: 6px; }
+        #input-bar { flex-wrap: wrap; }
+        #ai-send-btn { width: 100%; }
+    }
+
+    /* === Screen-reader helpers === */
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+
+    /* WCAG 2.4.1: skip-link zichtbaar bij focus */
+    .skip-link {
+        position: absolute;
+        top: -999px;
+        left: 0;
+        background: var(--primary);
+        color: white;
+        padding: 12px 20px;
+        z-index: 999;
+        border-radius: 0 0 8px 0;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .skip-link:focus { top: 0; }
+</style>
