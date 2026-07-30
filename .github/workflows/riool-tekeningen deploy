@@ -1,0 +1,203 @@
+# =============================================================================
+# woo-publicaties_deploy.yml — GitHub Actions: S3 → Hugo → Pagefind → S3 deploy
+# =============================================================================
+#
+# WAT DOET DEZE WORKFLOW?
+#   1) Spiegelt de PDF's uit de bron-bucket naar markdown (met tekst + frontmatter).
+#   2) Bouwt de Hugo-site.
+#   3) Indexeert met Pagefind.
+#   4) Synct het resultaat naar de site-bucket (scoped op SYNC_FOLDER).
+#   Draait bij push op main, elke nacht (cron) en handmatig (workflow_dispatch).
+#
+# CENTRALE CONFIG — SYNC_FOLDER
+#   De te synchroniseren map staat NIET meer hardcoded, maar in één repo-variabele
+#   die door beide workflows (deploy + verrijken) wordt gelezen:
+#     Repo → Settings → Secrets and variables → Actions → Variables →
+#       Name:  SYNC_FOLDER
+#       Value: woo-publicaties/2023
+#   Zo kan casing/pad nooit meer uit elkaar lopen tussen de workflows. De `||`-
+#   fallback hieronder is het vangnet als de variabele (nog) niet bestaat.
+#
+# EXTERNE ACTIONS / TOOLS
+#   actions/checkout                         → repo uitchecken.
+#   stefanzweifel/git-auto-commit-action     → gesyncte markdown terugcommitten.
+#   peaceiris/actions-hugo                    → Hugo installeren (versie via
+#                                              '# renovate:'-comment gepind).
+#   poppler-utils (pdftotext)                → PDF→tekst; via apt-get.
+#   AWS CLI                                  → voorgeïnstalleerd (s3api/s3 sync).
+#   npx pagefind@<versie>                    → zoekindex bouwen (gepind + Renovate).
+#
+# SECRETS (Repo → Settings → Secrets and variables → Actions → Secrets)
+#   AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY            → LEEST bron-bucket.
+#   AWS_ACCESS_KEY_ID_SITE / AWS_SECRET_ACCESS_KEY_SITE  → SCHRIJFT site-bucket.
+#
+# OVERIGE CONFIG (env, hieronder op workflow-niveau)
+#   AWS_DEFAULT_REGION → regio van beide buckets (eu-north-1).
+#   CDN_BASE_URL       → CloudFront-root voor de Hugo baseURL (géén pad-prefix).
+# =============================================================================
+
+name: riool-tekeningen deploy
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+env:
+  # ── CENTRALE MAP-CONFIG ────────────────────────────────────────
+  # Vorm: "<onderwerp>/<jaar>". Moet EXACT (incl. casing) als prefix
+  # in de bron-bucket bestaan. Beheerd via de repo-variabele SYNC_FOLDER;
+  # fallback als die ontbreekt.
+  SYNC_FOLDER: ${{ vars.SYNC_FOLDER || 'riool-tekeningen/sleen' }}
+
+  # Beide buckets staan in eu-north-1.
+  AWS_DEFAULT_REGION: eu-north-1
+
+  # CloudFront-ROOT als Hugo baseURL (Hugo zet de prefix zelf per permalink).
+  CDN_BASE_URL: "https://d3jow2udcm31b0.cloudfront.net"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Sync S3 → Markdown (scoped to folder)
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          BUCKET_NAME: publicaties-coevorden
+        run: |
+          set -euo pipefail
+          mkdir -p "onderwerpen/$SYNC_FOLDER"
+
+          echo "📥 S3 listing voor: $SYNC_FOLDER"
+          aws s3api list-objects-v2 \
+            --bucket "$BUCKET_NAME" \
+            --prefix "$SYNC_FOLDER/" \
+            --query "Contents[?ends_with(Key, '.pdf')].[Key, ETag]" \
+            --output text > s3_raw.txt
+          grep -v '^None' s3_raw.txt | tr -d '"' | sort -u > s3_map.txt || true
+
+          # ── VEILIGHEIDSREM ──────────────────────────────────────────
+          # Zonder PDF's zou Hugo een lege site bouwen en 'aws s3 sync --delete'
+          # daarna de live-prefix leegvegen. Bij 0 treffers: hard stoppen.
+          if [ ! -s s3_map.txt ]; then
+            echo "❌ Geen PDF's onder '$SYNC_FOLDER/'. Klopt de prefix/casing?"
+            echo "   Afgebroken vóór build/deploy om dataverlies te voorkomen."
+            exit 1
+          fi
+
+          cut -f1 s3_map.txt | sort -u > s3_list.txt
+          echo "📊 PDF count: $(wc -l < s3_list.txt)"
+
+          echo "🧹 Opruimen verdwenen bestanden in onderwerpen/$SYNC_FOLDER"
+          find "onderwerpen/$SYNC_FOLDER" -name "*.md" -print0 | while IFS= read -r -d '' md_path; do
+            expected_pdf="${md_path#onderwerpen/}"
+            expected_pdf="${expected_pdf%.md}.pdf"
+            if ! grep -Fxq "$expected_pdf" s3_list.txt; then
+              echo "❌ Verwijderen: $md_path (niet meer in S3)"
+              rm "$md_path"
+            fi
+          done
+
+          echo "➕ Verwerken PDF's..."
+          process_file () {
+            pdf_key="$1"; s3_etag="$2"
+            md_path="onderwerpen/${pdf_key%.pdf}.md"
+
+            if [ -f "$md_path" ]; then
+              stored=$(grep -m1 '^s3_etag:' "$md_path" 2>/dev/null \
+                | sed 's/^s3_etag:[[:space:]]*//; s/^"//; s/"$//' || true)
+              [ "$stored" = "$s3_etag" ] && return
+              echo "♻️  Gewijzigd: $pdf_key"
+            else
+              echo "🆕 Nieuw: $pdf_key"
+            fi
+
+            mkdir -p "$(dirname "$md_path")"
+            tmpfile=$(mktemp --suffix=.pdf)
+            if aws s3 cp "s3://$BUCKET_NAME/$pdf_key" "$tmpfile" --quiet; then
+              clean_title=$(basename "${pdf_key%.pdf}" | tr '"' "'")
+
+              # maps[] = alle paddelen behalve de bestandsnaam (jaar/categorie/…).
+              IFS='/' read -ra parts <<< "${pdf_key%.pdf}"
+              taxo=()
+              for ((i=0; i<${#parts[@]}-1; i++)); do taxo+=("\"${parts[$i]}\""); done
+              taxonomy_list=$(IFS=,; echo "${taxo[*]}")
+
+              {
+                printf -- "---\n"
+                printf 'title: "%s"\n' "$clean_title"
+                printf "maps: [%s]\n" "$taxonomy_list"
+                printf 'source: "%s"\n' "$pdf_key"
+                printf 's3_etag: "%s"\n' "$s3_etag"
+                printf "date: %s\n" "$(date +%Y-%m-%d)"
+                printf -- "---\n\n"
+              } > "$md_path"
+
+              pdftotext -raw "$tmpfile" - | tr -d '\000' >> "$md_path"
+            fi
+            rm -f "$tmpfile"
+          }
+
+          # Parallel, max 4 tegelijk.
+          while IFS=$'\t' read -r pdf_key s3_etag; do
+            [ -z "$pdf_key" ] && continue
+            process_file "$pdf_key" "$s3_etag" &
+            while [ "$(jobs -r | wc -l)" -ge 4 ]; do wait -n; done
+          done < s3_map.txt
+          wait
+
+      - name: Commit changes
+        if: github.event_name != 'pull_request'
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Sync: S3 folder ${{ env.SYNC_FOLDER }} naar Hugo"
+          file_pattern: "onderwerpen/${{ env.SYNC_FOLDER }}/**"
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          # renovate: datasource=github-releases depName=gohugoio/hugo
+          hugo-version: '0.164.0'
+          extended: true
+
+      - name: Build Hugo site
+        run: |
+          set -euo pipefail
+          # Content GENEST neerzetten zodat .File.Path de prefix behoudt en Hugo
+          # de prefix zelf in elke permalink zet. baseURL blijft de CloudFront-root.
+          rm -rf content && mkdir -p "content/$SYNC_FOLDER"
+          cp -r "onderwerpen/$SYNC_FOLDER/." "content/$SYNC_FOLDER/"
+          hugo --minify --baseURL "$CDN_BASE_URL/"
+
+      - name: Index with Pagefind
+        run: |
+          # --site op de JAARMAP (niet public/) zodat de opgeslagen URL's
+          # basis-relatief zijn en de runtime-basis de prefix precies één keer aanvult.
+          # Versie gepind (i.p.v. @latest) voor reproduceerbare builds; Renovate
+          # bumpt hem via de custom manager in renovate.json.
+          npx pagefind@1.5.2 --site "public/$SYNC_FOLDER" --output-subdir _pagefind
+
+      - name: Deploy to S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_SITE }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_SITE }}
+          BUCKET_NAME: ${{ github.event_name == 'pull_request' && 'publicaties-coevorden-testsite' || 'publicaties-coevorden-site' }}
+        run: |
+          set -euo pipefail
+
+          aws s3 sync ./public "s3://$BUCKET_NAME" \
+            --delete \
+            --exclude "*" \
+            --include "$SYNC_FOLDER/*"
