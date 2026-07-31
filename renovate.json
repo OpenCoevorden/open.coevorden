@@ -17,32 +17,26 @@
     {
       "matchUpdateTypes": ["major"],
       "addLabels": ["major-update"]
+    },
+    {
+      "description": "Hugo is 0.x: elke minor kan templates breken. Los houden van de Actions-groep zodat de testsite-deploy op de PR gericht te controleren is.",
+      "matchDepNames": ["gohugoio/hugo"],
+      "addLabels": ["needs-testsite-check"]
     }
   ],
 
   "customManagers": [
     {
-      "description": "Versies achter een '# renovate:'-comment in workflow-YAML (bv. hugo-version, node-version).",
+      "description": "Pikt '# renovate: datasource=X depName=Y [versioning=Z]' op, gevolgd door een 'sleutel: waarde'-regel in een workflow.",
       "customType": "regex",
       "managerFilePatterns": ["/^\\.github/workflows/.+\\.ya?ml$/"],
       "matchStrings": [
-        "#\\s*renovate:\\s*datasource=(?<datasource>\\S+)\\s+depName=(?<depName>\\S+)(?:\\s+versioning=(?<versioning>\\S+))?\\s+[\\w-]+:\\s*[\"']?(?<currentValue>[^\"'\\s#]+)"
+        "#\\s*renovate:\\s*datasource=(?<datasource>\\S+)\\s+depName=(?<depName>\\S+)(?:\\s+versioning=(?<versioning>\\S+))?\\s+[\\w.-]+:\\s*[\"']?(?<currentValue>[^\"'\\s#]+)"
       ],
-      "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
+      "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
+      "extractVersionTemplate": "^v?(?<version>.+)$"
     },
     {
-      "description": "Gepinde Pagefind-versie: 'npx pagefind@<versie>' in de deploy-workflow.",
-      "customType": "regex",
-      "managerFilePatterns": ["/^\\.github/workflows/.+\\.ya?ml$/"],
-      "matchStrings": [
-        "pagefind@(?<currentValue>[0-9][^\\s\"']*)"
-      ],
-      "datasourceTemplate": "npm",
-      "depNameTemplate": "pagefind",
-      "versioningTemplate": "semver"
-    },
-    {
-      "description": "CDN-libraries in HTML/partials, bv. cdn.jsdelivr.net/npm/<pkg>@<versie>.",
       "customType": "regex",
       "managerFilePatterns": ["/\\.html?$/"],
       "matchStrings": [
