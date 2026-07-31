@@ -58,6 +58,13 @@ env:
   # CloudFront-ROOT als Hugo baseURL (Hugo zet de prefix zelf per permalink).
   CDN_BASE_URL: "https://d3jow2udcm31b0.cloudfront.net"
 
+    # ── PAGEFIND ───────────────────────────────────────────────────
+  # Gepind i.p.v. @latest: een stille Pagefind-bump kan het zoekgedrag
+  # veranderen (1.5 is bijv. metadata standaard gaan meenemen in de zoekindex).
+  # De renovate-comment hieronder laat Renovate hier een PR voor openen.
+  # renovate: datasource=npm depName=pagefind
+  PAGEFIND_VERSION: "1.5.2"
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -187,7 +194,7 @@ jobs:
           # basis-relatief zijn en de runtime-basis de prefix precies één keer aanvult.
           # Versie gepind (i.p.v. @latest) voor reproduceerbare builds; Renovate
           # bumpt hem via de custom manager in renovate.json.
-          npx pagefind@1.5.2 --site "public/$SYNC_FOLDER" --output-subdir _pagefind
+          npx "pagefind@$PAGEFIND_VERSION" --site "public/$SYNC_FOLDER" --output-subdir _pagefind
 
       - name: Deploy to S3
         env:
