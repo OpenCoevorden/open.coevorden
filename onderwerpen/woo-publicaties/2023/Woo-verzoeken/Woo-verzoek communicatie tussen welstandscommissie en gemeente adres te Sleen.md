@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek communicatie tussen welstandscommissie en gemeente adres te Sleen"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/Woo-verzoek communicatie tussen welstandscommissie en gemeente adres te Sleen.pdf"
-s3_etag: "27c29c509f6abf6717079704564c33de"
-date: 2026-07-30
+title: Woo-verzoek communicatie tussen welstandscommissie en gemeente adres te Sleen
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/Woo-verzoek communicatie tussen
+  welstandscommissie en gemeente adres te Sleen.pdf
+s3_etag: 27c29c509f6abf6717079704564c33de
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2023-08-22 diende betrokkene een Woo-verzoek in voor alle communicatie met
+  de welstandscommissie over zaak Z2023-019139. De gemeente Coevorden besloot op
+  2023-08-23 het verzoek toe te wijzen en maakte de gevraagde documenten
+  openbaar, met uitzondering van persoonsgegevens.
+milestones:
+  - date: '2023-08-22'
+    event: Woo-verzoek ingediend
+  - date: '2023-08-23'
+    event: >-
+      Woo-besluit: verzoek toegewezen, documenten openbaar gemaakt met
+      uitzonderingen
+ai_processed_at: '2026-08-17T11:26:21.986Z'
+ai_status: done
 ---
 
 Gemeente

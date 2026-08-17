@@ -1,9 +1,26 @@
 ---
-title: "Woo-verzoek communicatie over bezoek gemeentelijke handhaving"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/Woo-verzoek communicatie over bezoek gemeentelijke handhaving.pdf"
-s3_etag: "061f44a44f76a61239c0d52f5aa33a03"
-date: 2026-07-30
+title: Woo-verzoek communicatie over bezoek gemeentelijke handhaving
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/Woo-verzoek communicatie over bezoek
+  gemeentelijke handhaving.pdf
+s3_etag: 061f44a44f76a61239c0d52f5aa33a03
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2023-07-24 diende verzoeker een Woo-verzoek in bij de gemeente Coevorden
+  over correspondentie rond het handhavingsbezoek van 2023-07-22. Op 2023-08-03
+  wees de gemeente het verzoek af omdat zij geen documenten beschikbaar had om
+  te verstrekken.
+milestones:
+  - date: '2023-07-24'
+    event: Woo-verzoek ingediend
+  - date: '2023-08-03'
+    event: Woo-verzoek afgewezen
+ai_processed_at: '2026-08-17T11:26:56.566Z'
+ai_status: done
 ---
 
 Postadres:

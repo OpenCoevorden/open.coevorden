@@ -1,9 +1,26 @@
 ---
-title: "Woo-verzoek verkiezingsuitslag dorpsbudget Schoonoord 2022"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/Woo-verzoek verkiezingsuitslag dorpsbudget Schoonoord 2022.pdf"
-s3_etag: "ad56f7c918f8e735f96a54e87920fea8"
-date: 2026-07-30
+title: Woo-verzoek verkiezingsuitslag dorpsbudget Schoonoord 2022
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/Woo-verzoek verkiezingsuitslag dorpsbudget
+  Schoonoord 2022.pdf
+s3_etag: ad56f7c918f8e735f96a54e87920fea8
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2023-08-23 is een Woo-verzoek ingediend over de verkiezing voor het
+  dorpsbudget van Schoonoord in 2022. Op 2023-09-05 heeft de gemeente
+  inhoudelijk geantwoord dat zij geen lokale werkgroep heeft ingesteld en de
+  gevraagde informatie niet kan verstrekken.
+milestones:
+  - date: '2023-08-23'
+    event: Woo-verzoek ingediend
+  - date: '2023-09-05'
+    event: 'Inhoudelijke afwijzing: gemeente kan gevraagde informatie niet verstrekken'
+ai_processed_at: '2026-08-17T11:24:45.075Z'
+ai_status: done
 ---
 
 1

@@ -1,9 +1,54 @@
 ---
-title: "Woo-verzoek bungalowpark WICO, notities, notulen, handhavingsopdrachten vanaf 18-12-2022"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/Woo-verzoek bungalowpark WICO, notities, notulen, handhavingsopdrachten vanaf 18-12-2022.pdf"
-s3_etag: "304a3cca35a0f1804649b395bd7f382b-3"
-date: 2026-07-30
+title: >-
+  Woo-verzoek bungalowpark WICO, notities, notulen, handhavingsopdrachten vanaf
+  18-12-2022
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/Woo-verzoek bungalowpark WICO, notities,
+  notulen, handhavingsopdrachten vanaf 18-12-2022.pdf
+s3_etag: 304a3cca35a0f1804649b395bd7f382b-3
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over bungalowpark Wico/Vitale Vakantieparken is ingediend op
+  2023-04-15 en op 2023-07-27 beslist, met gedeeltelijke openbaarmaking en
+  uitgestelde openbaarmaking voor één document. De behandeltermijn is eerst
+  verlengd en daarna opgeschort vanwege een zienswijzeronde.
+milestones:
+  - date: '2023-03-08'
+    event: Brief gemeente over park Wico verzonden
+  - date: '2023-03-20'
+    event: Aanvraag om stukken/vragen over Wico en permanente bewoning
+  - date: '2023-03-20'
+    event: Gemeente vraagt RO/juridisch advies over dienstwoning en legalisatie
+  - date: '2023-03-22'
+    event: Gesprek over park Wico
+  - date: '2023-03-27'
+    event: Parkbezoeken/gesprekken op Wico
+  - date: '2023-03-31'
+    event: >-
+      Samenvatting gespreksverslag: permanente bewoning beëindigen en
+      toekomstplan richting recreatie
+  - date: '2023-04-05'
+    event: >-
+      Gemeente verstrekt uitleg dat huidige bestemming niet wijzigt en
+      recreatiebeleid leidend is
+  - date: '2023-04-13'
+    event: Verzoek om handhavingsdreiging te verduidelijken
+  - date: '2023-04-17'
+    event: Woo-verzoek ingediend
+  - date: '2023-05-03'
+    event: Gepland persoonlijk gesprek op park Wico
+  - date: '2023-05-09'
+    event: Behandeltermijn met twee weken verlengd
+  - date: '2023-05-25'
+    event: Behandeltermijn opgeschort wegens zienswijzeronde
+  - date: '2023-07-27'
+    event: Besluit op Woo-verzoek genomen
+ai_processed_at: '2026-08-17T11:27:25.712Z'
+ai_status: done
 ---
 
 Postadres:

@@ -1,9 +1,25 @@
 ---
-title: "Woo-verzoek contacten ambtenaar"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/Woo-verzoek contacten ambtenaar.pdf"
-s3_etag: "68bc34b34440a852c08fe1f892247437"
-date: 2026-07-30
+title: Woo-verzoek contacten ambtenaar
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: woo-publicaties/2023/Woo-verzoeken/Woo-verzoek contacten ambtenaar.pdf
+s3_etag: 68bc34b34440a852c08fe1f892247437
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2023-06-18 diende verzoeker een Woo-verzoek in voor een geluidsopname van
+  een telefoongesprek en voor documenten die zijn gebruikt voor de brief van
+  2023-06-15. Op 2023-07-10 besloot de gemeente het verzoek gedeeltelijk af te
+  wijzen en gedeeltelijk toe te wijzen: geen opname beschikbaar, wel
+  verstrekking van e-mailwisselingen met weglakking van persoonsgegevens.
+milestones:
+  - date: '2023-06-18'
+    event: Woo-verzoek ingediend
+  - date: '2023-07-10'
+    event: 'Besluit op Woo-verzoek: gedeeltelijke afwijzing en toewijzing'
+ai_processed_at: '2026-08-17T11:26:18.000Z'
+ai_status: done
 ---
 
 A

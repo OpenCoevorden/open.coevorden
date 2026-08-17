@@ -1,9 +1,26 @@
 ---
-title: "Woo-verzoek notulen besloten bijeenkomst raad 6 oktober 2020"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/Woo-verzoek notulen besloten bijeenkomst raad 6 oktober 2020.pdf"
-s3_etag: "90cd3b319a26d119fe2b33f5ece8d8a2"
-date: 2026-07-30
+title: Woo-verzoek notulen besloten bijeenkomst raad 6 oktober 2020
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/Woo-verzoek notulen besloten bijeenkomst
+  raad 6 oktober 2020.pdf
+s3_etag: 90cd3b319a26d119fe2b33f5ece8d8a2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2023-12-19 een Woo-verzoek om openbaarmaking
+  van de notulen van een besloten bijeenkomst uit 2020. Op 2023-12-22 besloot de
+  gemeente het conceptverslag openbaar te maken en stelde vast dat er geen
+  vastgesteld verslag bestond.
+milestones:
+  - date: '2023-12-19'
+    event: Woo-verzoek ingediend voor notulen besloten bijeenkomst 2020-10-06
+  - date: '2023-12-22'
+    event: 'Besluit: conceptverslag van de besloten bijeenkomst openbaar gemaakt'
+ai_processed_at: '2026-08-17T11:25:12.146Z'
+ai_status: done
 ---
 
 Postadres:

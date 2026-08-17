@@ -1,9 +1,35 @@
 ---
-title: "Woo-verzoek weigeren omgevingsvergunning padelbanen Coevorder Tennisclub te Coevorden"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/Woo-verzoek weigeren omgevingsvergunning padelbanen Coevorder Tennisclub te Coevorden.pdf"
-s3_etag: "29047de5679f63da205761a158cb7316-4"
-date: 2026-07-30
+title: >-
+  Woo-verzoek weigeren omgevingsvergunning padelbanen Coevorder Tennisclub te
+  Coevorden
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/Woo-verzoek weigeren omgevingsvergunning
+  padelbanen Coevorder Tennisclub te Coevorden.pdf
+s3_etag: 29047de5679f63da205761a158cb7316-4
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De aanvraag voor 2 padelbanen aan de Nordhornerstraat 23 te Coevorden is op
+  2022-02-28 ingediend en later op 2023-09-26 geweigerd, met verlenging van de
+  beslistermijn. Op 2023-11-09 is op het Woo-verzoek beslist: gedeeltelijke
+  toewijzing voor de motivering van de afwijzing en geen besluit voor het
+  niet-bestaande onderzoek naar alternatieve locaties.
+milestones:
+  - date: '2022-02-28'
+    event: aanvraag omgevingsvergunning voor 2 padelbanen ingediend
+  - date: '2023-09-26'
+    event: omgevingsvergunning voor padelbanen geweigerd
+  - date: '2023-09-26'
+    event: beslistermijn verlengd
+  - date: '2023-10-09'
+    event: Woo-verzoek ingediend
+  - date: '2023-11-09'
+    event: 'beslissing op Woo-verzoek: gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-17T11:24:40.455Z'
+ai_status: done
 ---
 
 Gemeente

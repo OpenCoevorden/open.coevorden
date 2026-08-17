@@ -1,9 +1,32 @@
 ---
-title: "Woo-verzoek Zuivelfabriek Vlieghuis Europaweg 42 Coevorden"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/Woo-verzoek Zuivelfabriek Vlieghuis Europaweg 42 Coevorden.pdf"
-s3_etag: "331ef9e267a4013baa041b3ea2757d1c"
-date: 2026-07-30
+title: Woo-verzoek Zuivelfabriek Vlieghuis Europaweg 42 Coevorden
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/Woo-verzoek Zuivelfabriek Vlieghuis
+  Europaweg 42 Coevorden.pdf
+s3_etag: 331ef9e267a4013baa041b3ea2757d1c
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2023-04-27 is een Woo-verzoek ingediend over documenten rond KH Dairy
+  Sourcing BV (A-ware) in Coevorden. Op 2023-06-27 is daarop beslist:
+  gedeeltelijke openbaarmaking met uitgestelde verstrekking, waarna de stukken
+  op 2023-07-13 zijn verzonden.
+milestones:
+  - date: '2023-04-27'
+    event: Woo-verzoek ingediend
+  - date: '2023-05-16'
+    event: Opschorting/verlenging beslistermijn
+  - date: '2023-06-01'
+    event: Verdere verlenging beslistermijn
+  - date: '2023-06-27'
+    event: 'Besluit op Woo-verzoek: gedeeltelijke openbaarmaking'
+  - date: '2023-07-13'
+    event: Stukken na uitgestelde openbaarmaking verstrekt
+ai_processed_at: '2026-08-17T11:28:08.399Z'
+ai_status: done
 ---
 
 Postadres:

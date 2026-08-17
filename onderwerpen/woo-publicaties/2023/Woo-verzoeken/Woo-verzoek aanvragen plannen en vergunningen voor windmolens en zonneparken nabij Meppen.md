@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek aanvragen plannen en vergunningen voor windmolens en zonneparken nabij Meppen"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/Woo-verzoek aanvragen plannen en vergunningen voor windmolens en zonneparken nabij Meppen.pdf"
-s3_etag: "32860c43c0af19a621f1e4c5ddf8567f"
-date: 2026-07-30
+title: >-
+  Woo-verzoek aanvragen plannen en vergunningen voor windmolens en zonneparken
+  nabij Meppen
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2023/Woo-verzoeken/Woo-verzoek aanvragen plannen en
+  vergunningen voor windmolens en zonneparken nabij Meppen.pdf
+s3_etag: 32860c43c0af19a621f1e4c5ddf8567f
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2023-10-20 is een Woo-verzoek ingediend over aanvragen, plannen en
+  vergunningen voor windmolens en zonneparken in de omgeving van Meppen. Op
+  2023-11-07 heeft de gemeente dit verzoek afgewezen omdat na onderzoek geen
+  documenten zijn aangetroffen die onder het verzoek vallen.
+milestones:
+  - date: '2023-10-20'
+    event: Woo-verzoek ingediend
+  - date: '2023-11-07'
+    event: Woo-verzoek afgewezen
+ai_processed_at: '2026-08-17T11:27:50.818Z'
+ai_status: done
 ---
 
 Postadres:

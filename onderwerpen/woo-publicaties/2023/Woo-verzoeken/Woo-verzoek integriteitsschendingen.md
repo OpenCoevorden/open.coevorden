@@ -1,9 +1,31 @@
 ---
-title: "Woo-verzoek integriteitsschendingen"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/Woo-verzoek integriteitsschendingen.pdf"
-s3_etag: "a489bb7bc1de8b576ac56d00f033343b"
-date: 2026-07-30
+title: Woo-verzoek integriteitsschendingen
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: woo-publicaties/2023/Woo-verzoeken/Woo-verzoek integriteitsschendingen.pdf
+s3_etag: a489bb7bc1de8b576ac56d00f033343b
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  RTL Nieuws diende op 2023-06-02 een Woo-verzoek in over
+  integriteitsschendingen in de periode 2020-01-01 t/m 2022-12-31. De gemeente
+  Coevorden besliste op 2023-06-28 gedeeltelijk toe te wijzen en weigerde één
+  document gedeeltelijk; daarnaast blijkt uit de stukken dat in 2021 een klacht
+  gegrond is verklaard en dat een medewerker in 2021 ontslag nam.
+milestones:
+  - date: '2021-09-14'
+    event: klacht ingediend
+  - date: '2021-09-15'
+    event: klacht ontvangen
+  - date: '2021-10-13'
+    event: ontslag op eigen verzoek / arbeidsovereenkomst beëindigd
+  - date: '2023-06-02'
+    event: Woo-verzoek ingediend
+  - date: '2023-06-28'
+    event: gedeeltelijk besluit op Woo-verzoek
+ai_processed_at: '2026-08-17T11:25:25.043Z'
+ai_status: done
 ---
 
 Postadres:

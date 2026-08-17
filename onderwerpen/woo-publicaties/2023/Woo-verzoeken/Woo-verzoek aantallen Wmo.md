@@ -1,9 +1,23 @@
 ---
-title: "Woo-verzoek aantallen Wmo"
-maps: ["woo-publicaties","2023","Woo-verzoeken"]
-source: "woo-publicaties/2023/Woo-verzoeken/Woo-verzoek aantallen Wmo.pdf"
-s3_etag: "ebaeed8b4a26395fba1785d321011f18"
-date: 2026-07-30
+title: Woo-verzoek aantallen Wmo
+maps:
+  - woo-publicaties
+  - '2023'
+  - Woo-verzoeken
+source: woo-publicaties/2023/Woo-verzoeken/Woo-verzoek aantallen Wmo.pdf
+s3_etag: ebaeed8b4a26395fba1785d321011f18
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2023-02-04 is een Woo-verzoek ingediend over het aantal Wmo-aanvragen in
+  2020, 2021 en 2022. Op 2023-02-22 heeft de gemeente het verzoek toegewezen en
+  documenten met geanonimiseerde gegevens openbaar gemaakt.
+milestones:
+  - date: '2023-02-04'
+    event: Woo-verzoek ingediend
+  - date: '2023-02-22'
+    event: 'Besluit: Woo-verzoek toegewezen'
+ai_processed_at: '2026-08-17T11:28:04.044Z'
+ai_status: done
 ---
 
 Gemeente
