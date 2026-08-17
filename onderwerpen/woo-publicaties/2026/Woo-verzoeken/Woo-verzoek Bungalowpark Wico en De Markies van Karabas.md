@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek Bungalowpark Wico en De Markies van Karabas"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bungalowpark Wico en De Markies van Karabas.pdf"
-s3_etag: "02abbb1520c21b67640655894617423f"
-date: 2026-07-30
+title: Woo-verzoek Bungalowpark Wico en De Markies van Karabas
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bungalowpark Wico en De Markies
+  van Karabas.pdf
+s3_etag: 02abbb1520c21b67640655894617423f
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2026-01-22 is een Woo-verzoek ingediend over documenten en communicatie
+  rond Bungalowpark Wico en De Markies van Karabas voor de periode 2025-01-01
+  tot en met 2026-01-28. De gemeente Coevorden heeft dit verzoek op 2026-02-16
+  afgewezen omdat na inventarisatie geen documenten zijn aangetroffen die niet
+  al openbaar waren.
+milestones:
+  - date: '2026-01-22'
+    event: Woo-verzoek ingediend
+  - date: '2026-01-28'
+    event: Woo-verzoek ontvangen door gemeente
+  - date: '2026-02-16'
+    event: 'Besluit: Woo-verzoek afgewezen'
+ai_processed_at: '2026-08-17T11:40:19.063Z'
+ai_status: done
 ---
 
 Gemeente

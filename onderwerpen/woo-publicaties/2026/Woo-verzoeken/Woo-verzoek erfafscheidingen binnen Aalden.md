@@ -1,9 +1,33 @@
 ---
-title: "Woo-verzoek erfafscheidingen binnen Aalden"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek erfafscheidingen binnen Aalden.pdf"
-s3_etag: "f491b4296adbf927252aeedb772a0566"
-date: 2026-07-30
+title: Woo-verzoek erfafscheidingen binnen Aalden
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek erfafscheidingen binnen
+  Aalden.pdf
+s3_etag: f491b4296adbf927252aeedb772a0566
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2026-03-27 is een Woo-verzoek ingediend over erfafscheidingen in Aalden; de
+  gemeente heeft dit verzoek op 2026-04-13 gedeeltelijk toegewezen. Daarnaast is
+  op 2023-12-05 een omgevingsvergunning verleend voor het verbouwen van een
+  woning en het plaatsen van een erfafscheiding aan Paardelandsdrift 22 te
+  Aalden.
+milestones:
+  - date: '2023-10-26'
+    event: >-
+      aanvraag omgevingsvergunning voor woningverbouwing en erfafscheiding
+      ingediend
+  - date: '2023-12-05'
+    event: omgevingsvergunning verleend
+  - date: '2026-03-27'
+    event: Woo-verzoek ingediend
+  - date: '2026-04-13'
+    event: Woo-besluit gedeeltelijk toegewezen
+ai_processed_at: '2026-08-17T11:38:20.004Z'
+ai_status: done
 ---
 
 Gemeente

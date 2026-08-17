@@ -1,9 +1,57 @@
 ---
-title: "Woo-verzoek correspondentie over showroon, legalisatie en afwijking advies bezwarencommissie"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek correspondentie over showroon, legalisatie en afwijking advies bezwarencommissie.pdf"
-s3_etag: "2d98cf5819597bedede7fbe28664e727-8"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie over showroon, legalisatie en afwijking advies
+  bezwarencommissie
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek correspondentie over showroon,
+  legalisatie en afwijking advies bezwarencommissie.pdf
+s3_etag: 2d98cf5819597bedede7fbe28664e727-8
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden wees op 2024-10-09 een conceptverzoek voor een showroom
+  aan huis af en legde op 2025-07-03 een last onder dwangsom op wegens strijd
+  met het omgevingsplan. Na bezwaar volgde op 2025-10-30 een besluit op bezwaar
+  waarbij het handhavingsbesluit in stand bleef, met aanvullende motivering en
+  verlenging van de begunstigingstermijn.
+milestones:
+  - date: '2024-01-01'
+    event: conceptverzoek ingediend
+  - date: '2024-01-01'
+    event: college weigert medewerking aan conceptverzoek
+  - date: '2024-05-17'
+    event: conceptverzoek ingediend voor showroom aan huis
+  - date: '2024-10-09'
+    event: conceptverzoek afgewezen
+  - date: '2024-10-18'
+    event: 'collegebesluit: geen medewerking aan conceptverzoek'
+  - date: '2025-01-29'
+    event: controle uitgevoerd; showroom geconstateerd
+  - date: '2025-06-03'
+    event: voornemen last onder dwangsom verzonden
+  - date: '2025-07-03'
+    event: last onder dwangsom opgelegd
+  - date: '2025-07-18'
+    event: aanvraag omgevingsvergunning ingediend
+  - date: '2025-08-12'
+    event: bezwaar ingediend tegen last onder dwangsom
+  - date: '2025-10-23'
+    event: >-
+      commissie adviseert besluit niet in stand te laten zonder nadere
+      motivering
+  - date: '2025-10-30'
+    event: 'besluit op bezwaar: last onder dwangsom in stand gelaten'
+  - date: '2025-11-17'
+    event: omgevingsvergunning geweigerd
+  - date: '2025-11-25'
+    event: omgevingsvergunning geweigerd
+  - date: '2026-01-22'
+    event: Woo-besluit genomen
+ai_processed_at: '2026-08-17T11:38:30.044Z'
+ai_status: done
 ---
 
 nie Gemeente

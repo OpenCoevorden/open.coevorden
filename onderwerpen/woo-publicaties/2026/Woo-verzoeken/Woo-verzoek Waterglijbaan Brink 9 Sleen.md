@@ -1,9 +1,26 @@
 ---
-title: "Woo-verzoek Waterglijbaan Brink 9 Sleen"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Waterglijbaan Brink 9 Sleen.pdf"
-s3_etag: "d9e9888b5d4071cdf5e6eb8015578079-2"
-date: 2026-07-30
+title: Woo-verzoek Waterglijbaan Brink 9 Sleen
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Waterglijbaan Brink 9 Sleen.pdf
+s3_etag: d9e9888b5d4071cdf5e6eb8015578079-2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2026-03-20 is een Woo-verzoek ingediend over het dossier waterglijbaan
+  Brink 9 te Sleen. Op 2026-05-07 heeft de gemeente het verzoek toegewezen en
+  besloten de documenten openbaar te maken, met uitzondering van
+  persoonsgegevens.
+milestones:
+  - date: '2026-03-20'
+    event: Woo-verzoek ingediend
+  - date: '2026-04-17'
+    event: Beslistermijn met twee weken verlengd
+  - date: '2026-05-07'
+    event: Woo-verzoek toegewezen
+ai_processed_at: '2026-08-17T11:38:59.449Z'
+ai_status: done
 ---
 
 Gemeente

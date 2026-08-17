@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek Onderzoek naar de klacht jegens wethouder Holties"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Onderzoek naar de klacht jegens wethouder Holties.pdf"
-s3_etag: "06636a7d8a649112109cb90cd3fb1cf3"
-date: 2026-07-30
+title: Woo-verzoek Onderzoek naar de klacht jegens wethouder Holties
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Onderzoek naar de klacht jegens
+  wethouder Holties.pdf
+s3_etag: 06636a7d8a649112109cb90cd3fb1cf3
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2026-04-09 is een Woo-verzoek ingediend over gespreksverslagen en andere
+  schriftelijke vastleggingen rond een onderzoek naar een klacht. De gemeente
+  Coevorden heeft dit verzoek op 2026-05-27 afgewezen omdat er geen documenten
+  zijn aangetroffen en de gevraagde stukken niet onder het college berusten.
+milestones:
+  - date: '2026-04-09'
+    event: Woo-verzoek ingediend
+  - date: '2026-04-09'
+    event: bezwaar tegen afwijzing ingediend
+  - date: '2026-05-27'
+    event: 'besluit: Woo-verzoek afgewezen'
+ai_processed_at: '2026-08-17T11:39:55.361Z'
+ai_status: done
 ---
 
 Postadres:

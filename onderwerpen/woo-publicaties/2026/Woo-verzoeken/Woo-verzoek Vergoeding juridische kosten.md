@@ -1,9 +1,26 @@
 ---
-title: "Woo-verzoek Vergoeding juridische kosten"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Vergoeding juridische kosten.pdf"
-s3_etag: "b4f6edfd3a10449401ae62d715ec9d24"
-date: 2026-07-30
+title: Woo-verzoek Vergoeding juridische kosten
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Vergoeding juridische
+  kosten.pdf
+s3_etag: b4f6edfd3a10449401ae62d715ec9d24
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2026-03-10 een Woo-verzoek over documenten
+  inzake vergoeding van juridische kosten en besloot dit op 2026-04-17
+  gedeeltelijk toe te wijzen. Daarbij zijn documenten deels openbaar gemaakt met
+  weglakking van persoonsgegevens en concurrentiegevoelige gegevens.
+milestones:
+  - date: '2026-03-10'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2026-04-17'
+    event: Gedeeltelijk besluit op Woo-verzoek genomen
+ai_processed_at: '2026-08-17T11:39:15.840Z'
+ai_status: done
 ---
 
 Dt Gemeente

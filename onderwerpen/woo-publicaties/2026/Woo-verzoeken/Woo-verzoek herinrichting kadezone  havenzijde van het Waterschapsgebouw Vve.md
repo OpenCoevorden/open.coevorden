@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek herinrichting kadezone  havenzijde van het Waterschapsgebouw Vve"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek herinrichting kadezone  havenzijde van het Waterschapsgebouw Vve.pdf"
-s3_etag: "c9fb9dcdf6c9c7b29dd376e56d0ecea9-2"
-date: 2026-07-30
+title: Woo-verzoek herinrichting kadezone  havenzijde van het Waterschapsgebouw Vve
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek herinrichting kadezone 
+  havenzijde van het Waterschapsgebouw Vve.pdf
+s3_etag: c9fb9dcdf6c9c7b29dd376e56d0ecea9-2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2026-04-28 een Woo-verzoek over documenten
+  rond instemming/toezeggingen voor de aanleg of herinrichting van de kadezone
+  bij Kasteel 4. Op 2026-05-21 besloot de gemeente het verzoek gedeeltelijk toe
+  te wijzen en documenten deels openbaar te maken, met weglakking van
+  persoonsgegevens.
+milestones:
+  - date: '2026-04-28'
+    event: Woo-verzoek ingediend
+  - date: '2026-05-21'
+    event: Gedeeltelijk Woo-besluit genomen
+  - date: '2026-05-21'
+    event: Bezwaar mogelijk binnen 6 weken
+ai_processed_at: '2026-08-17T11:38:15.447Z'
+ai_status: done
 ---
 
 Gemeente

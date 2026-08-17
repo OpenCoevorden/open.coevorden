@@ -1,9 +1,39 @@
 ---
-title: "Woo-verzoek Fusie OBS de Zwarm, Geesbrug en CBS de Wegwijzer, Geesbrug"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Fusie OBS de Zwarm, Geesbrug en CBS de Wegwijzer, Geesbrug.pdf"
-s3_etag: "f5926bd01b9d3599f46b98999d2fb2fb-2"
-date: 2026-07-30
+title: 'Woo-verzoek Fusie OBS de Zwarm, Geesbrug en CBS de Wegwijzer, Geesbrug'
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Fusie OBS de Zwarm, Geesbrug en
+  CBS de Wegwijzer, Geesbrug.pdf
+s3_etag: f5926bd01b9d3599f46b98999d2fb2fb-2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  In 2025 startte het fusieonderzoek naar een samenwerkingsschool tussen OBS De
+  Zwarm en CBS De Wegwijzer in Geesbrug, met als beoogde fusiedatum 2026-08-01.
+  De gemeente Coevorden verlengde de beslistermijn en nam op 2026-05-09 een
+  gedeeltelijk toewijzend Woo-besluit, waarbij persoonsgegevens werden
+  weggelakt.
+milestones:
+  - date: '2025-09-01'
+    event: intentieverklaring fusie scholen Geesbrug
+  - date: '2025-10-14'
+    event: intentieverklaring en fusieonderzoek aan gemeente gemeld
+  - date: '2026-01-05'
+    event: collegevoorstel opheffing OBS De Zwarm opgesteld
+  - date: '2026-04-02'
+    event: Woo-verzoek ingediend
+  - date: '2026-04-30'
+    event: beslistermijn verlengd met 14 dagen
+  - date: '2026-05-08'
+    event: termijn gepauzeerd wegens zienswijze externen
+  - date: '2026-05-09'
+    event: 'besluit op Woo-verzoek: gedeeltelijk toegewezen'
+  - date: '2026-05-13'
+    event: belanghebbenden om zienswijze gevraagd
+ai_processed_at: '2026-08-17T11:40:14.903Z'
+ai_status: done
 ---
 
 Gemeente

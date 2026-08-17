@@ -1,9 +1,41 @@
 ---
-title: "Woo-verzoek Waarschuwingsbrieven, gedragsaanwijzingen of huisverboden"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Waarschuwingsbrieven, gedragsaanwijzingen of huisverboden.pdf"
-s3_etag: "274a469913350f7d2daf275d4fa8899e"
-date: 2026-07-30
+title: 'Woo-verzoek Waarschuwingsbrieven, gedragsaanwijzingen of huisverboden'
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Waarschuwingsbrieven,
+  gedragsaanwijzingen of huisverboden.pdf
+s3_etag: 274a469913350f7d2daf275d4fa8899e
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  In 2026 diende verzoeker een Woo-verzoek in over waarschuwingsbrieven,
+  gedragsaanwijzingen en huisverboden rond woonoverlast. De gemeente verlengde
+  de beslistermijn en besloot uiteindelijk gedeeltelijk toe te wijzen door drie
+  bestuurlijke waarschuwingsbrieven (gedeeltelijk) openbaar te maken; geen
+  gedragsaanwijzingen of huisverboden werden aangetroffen.
+milestones:
+  - date: '2022-10-12'
+    event: Gemeente stuurt brief over overlast en vraagt geen meldingen meer te doen.
+  - date: '2022-11-22'
+    event: Beleidsregel Wet aanpak woonoverlast gemeente Coevorden vastgesteld.
+  - date: '2023-07-20'
+    event: Gemeente stuurt waarschuwingsbrief woonoverlast.
+  - date: '2023-07-20'
+    event: Gemeente stuurt tweede waarschuwingsbrief woonoverlast.
+  - date: '2025-04-03'
+    event: Gemeente nodigt betrokkene uit voor gesprek over overlast.
+  - date: '2025-06-18'
+    event: Gemeente stuurt laatste waarschuwing om woonoverlast te stoppen.
+  - date: '2026-03-30'
+    event: Woo-verzoek ingediend.
+  - date: '2026-04-16'
+    event: Beslistermijn Woo-verzoek verlengd.
+  - date: '2026-05-26'
+    event: 'Besluit op Woo-verzoek: gedeeltelijke toewijzing.'
+ai_processed_at: '2026-08-17T11:39:07.692Z'
+ai_status: done
 ---
 
 Gemeente

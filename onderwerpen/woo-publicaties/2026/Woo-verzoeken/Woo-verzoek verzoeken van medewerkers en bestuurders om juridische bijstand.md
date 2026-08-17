@@ -1,9 +1,69 @@
 ---
-title: "Woo-verzoek verzoeken van medewerkers en bestuurders om juridische bijstand"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek verzoeken van medewerkers en bestuurders om juridische bijstand.pdf"
-s3_etag: "4ec0f49b144966045ecad01317120935-4"
-date: 2026-07-30
+title: Woo-verzoek verzoeken van medewerkers en bestuurders om juridische bijstand
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek verzoeken van medewerkers en
+  bestuurders om juridische bijstand.pdf
+s3_etag: 4ec0f49b144966045ecad01317120935-4
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2025-12-02 een Woo-verzoek over juridische
+  bijstand, integriteitsonderzoeken en verzekeringsdekking en besloot op
+  2026-02-23 gedeeltelijk openbaar te maken. In de inventarisatie werden wel
+  documenten over Capra en Nysingh aangetroffen en deels openbaar gemaakt, maar
+  geen verzoeken van medewerkers/bestuurders om vergoeding van juridische
+  bijstand, geen formele besluiten daarover en geen correspondentie met
+  verzekeraars.
+milestones:
+  - date: '2025-02-03'
+    event: Nysingh-declaratie in dossier gemeente Coevorden / medewerker
+  - date: '2025-02-28'
+    event: Nysingh-declaratie in dossier gemeente Coevorden / medewerker
+  - date: '2025-03-28'
+    event: Nysingh-declaratie in dossier gemeente Coevorden / medewerker
+  - date: '2025-04-29'
+    event: Nysingh-declaratie in dossier gemeente Coevorden / medewerker
+  - date: '2025-05-19'
+    event: Capra-opdrachtbrief voor extern integriteitsonderzoek
+  - date: '2025-05-23'
+    event: Akkoord per e-mail met opdrachtbrief en offerte Capra
+  - date: '2025-06-04'
+    event: Capra-factuur voor onderzoek integriteit
+  - date: '2025-07-02'
+    event: Capra-factuur voor feitenonderzoek klacht
+  - date: '2025-07-17'
+    event: Nysingh-declaraties in dossiers gemeente Coevorden / medewerker(s)
+  - date: '2025-08-04'
+    event: Capra-factuur voor feitenonderzoek klacht
+  - date: '2025-09-03'
+    event: Capra-factuur voor feitenonderzoek klacht
+  - date: '2025-10-06'
+    event: Capra-factuur voor feitenonderzoek klacht
+  - date: '2025-10-31'
+    event: Nysingh-declaratie in dossier gemeente Coevorden / medewerker
+  - date: '2025-11-03'
+    event: Capra-factuur voor feitenonderzoek klacht
+  - date: '2025-11-12'
+    event: Nysingh-declaratie in dossier gemeente Coevorden / medewerker
+  - date: '2025-11-24'
+    event: Nysingh-declaratie in dossier gemeente Coevorden / medewerker
+  - date: '2025-12-02'
+    event: Indiening Woo-verzoek
+  - date: '2025-12-23'
+    event: Verlenging beslistermijn Woo-verzoek
+  - date: '2026-01-21'
+    event: Ingebrekestelling ontvangen
+  - date: '2026-02-09'
+    event: Zienswijzeprocedure gestart; beslistermijn opgeschort
+  - date: '2026-02-17'
+    event: Bericht dat dossier aan advocaat wordt overgedragen
+  - date: '2026-02-23'
+    event: 'Besluit op Woo-verzoek: gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-17T11:37:59.854Z'
+ai_status: done
 ---
 
 Gemeente

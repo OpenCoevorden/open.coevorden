@@ -1,9 +1,40 @@
 ---
-title: "Woo-verzoek correspondentie over plaatsen ondergrondse containers"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek correspondentie over plaatsen ondergrondse containers.pdf"
-s3_etag: "13a3a13ad14accedf624072d83f0054b-6"
-date: 2026-07-30
+title: Woo-verzoek correspondentie over plaatsen ondergrondse containers
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek correspondentie over plaatsen
+  ondergrondse containers.pdf
+s3_etag: 13a3a13ad14accedf624072d83f0054b-6
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De Woo-aanvraag is op 2025-12-02 ontvangen en op 2026-02-05 is daarop een
+  gedeeltelijk toewijzend besluit genomen. In de procedure is op 2026-01-14 een
+  zienswijzeverzoek aan belanghebbenden gedaan; bezwaar kon binnen zes weken na
+  verzending van het besluit worden ingediend.
+milestones:
+  - date: '2024-08-20'
+    event: Reactie/evaluatie op transformatieproces verzonden
+  - date: '2024-11-05'
+    event: Gemeente reageert op evaluatie en bevestigt vaststelling streefbeeld
+  - date: '2024-11-25'
+    event: Reactiebrief college van B&W Coevorden op toegezonden evaluatiemateriaal
+  - date: '2025-12-02'
+    event: Woo-verzoek ontvangen
+  - date: '2025-12-02'
+    event: Verzoek om specificatie
+  - date: '2025-12-06'
+    event: Specificatie ontvangen
+  - date: '2026-01-14'
+    event: Belanghebbenden om zienswijze gevraagd
+  - date: '2026-02-05'
+    event: 'Besluit: gedeeltelijk toegewezen'
+  - date: '2026-02-09'
+    event: Verzenddatum besluit
+ai_processed_at: '2026-08-17T11:38:51.169Z'
+ai_status: done
 ---
 
 Gemeente

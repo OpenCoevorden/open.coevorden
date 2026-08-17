@@ -1,9 +1,37 @@
 ---
-title: "Woo-verzoek Juridische bijstand aan wethouder Holties"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Juridische bijstand aan wethouder Holties.pdf"
-s3_etag: "c2123d94640ad0e74d1c0f100c900016"
-date: 2026-07-30
+title: Woo-verzoek Juridische bijstand aan wethouder Holties
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Juridische bijstand aan
+  wethouder Holties.pdf
+s3_etag: c2123d94640ad0e74d1c0f100c900016
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2026-03-13 een Woo-verzoek over juridische
+  bijstand aan wethouder Holties en verlengde diezelfde dag de beslistermijn met
+  twee weken. Op 2026-04-17 besloot de gemeente het verzoek gedeeltelijk toe te
+  wijzen en documenten deels openbaar te maken met weglakking van
+  persoonsgegevens en concurrentiegevoelige gegevens.
+milestones:
+  - date: '2025-10-13'
+    event: Opdrachtbevestiging juridische bijstand aan Holties
+  - date: '2025-11-17'
+    event: Eerste declaratie voor oktober 2025
+  - date: '2025-12-10'
+    event: Tweede declaratie voor november 2025
+  - date: '2026-01-13'
+    event: Derde declaratie voor december 2025
+  - date: '2026-02-16'
+    event: Vierde declaratie voor januari 2026
+  - date: '2026-03-13'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2026-04-17'
+    event: 'Besluit: Woo-verzoek gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-17T11:40:00.292Z'
+ai_status: done
 ---
 
 Gemeente

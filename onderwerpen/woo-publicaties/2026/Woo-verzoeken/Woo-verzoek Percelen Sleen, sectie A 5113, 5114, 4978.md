@@ -1,9 +1,73 @@
 ---
-title: "Woo-verzoek Percelen Sleen, sectie A 5113, 5114, 4978"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Percelen Sleen, sectie A 5113, 5114, 4978.pdf"
-s3_etag: "701465994b019035e4876a39c05bf96b-12"
-date: 2026-07-30
+title: 'Woo-verzoek Percelen Sleen, sectie A 5113, 5114, 4978'
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Percelen Sleen, sectie A 5113,
+  5114, 4978.pdf
+s3_etag: 701465994b019035e4876a39c05bf96b-12
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2026-04-23 een Woo-verzoek over documenten
+  rond de percelen in Sleen en verlengde de beslistermijn op 2026-05-21 met twee
+  weken. Op 2026-06-01 is gedeeltelijk beslist: documenten worden openbaar
+  gemaakt met weglakking van persoonsgegevens, en bezwaar is mogelijk binnen zes
+  weken na verzending op 2026-06-04.
+milestones:
+  - date: '2021-08-12'
+    event: vergunningnummer voor recreatiewoningen vastgesteld
+  - date: '2022-08-23'
+    event: Woo-verzoek ingediend over bouwdossiers De Tip
+  - date: '2023-06-01'
+    event: informatie verstrekt over De Tip / recreatiebestemming
+  - date: '2023-08-18'
+    event: gemeente licht stand van zaken transformatie naar woonbestemming toe
+  - date: '2023-09-25'
+    event: gemeente geeft toelichting op verloop transformatie
+  - date: '2023-10-05'
+    event: gemeente bevestigt dat transformatie nog niet definitief is
+  - date: '2024-04-29'
+    event: input voor TAM-omgevingsplan De Tip verstrekt
+  - date: '2024-06-12'
+    event: gemeente reageert op schets nieuwbouw 5 vrijstaande woningen
+  - date: '2024-08-19'
+    event: gemeente meldt dat transformatie nog niet zeker is
+  - date: '2024-08-30'
+    event: gemeente meldt dat oude vergunning bestaat en nog niets is besloten
+  - date: '2025-01-14'
+    event: aanpak en kostenopzet aanpassing TAM-omgevingsplan besproken
+  - date: '2025-04-28'
+    event: opmerkingen op aanpassing TAM-omgevingsplan gedeeld
+  - date: '2025-07-11'
+    event: gemeente bespreekt opname van 4 woningen in TAM-plan
+  - date: '2025-07-17'
+    event: >-
+      initiatief voor nieuwbouwkavel wordt ingetrokken; percelen blijven buiten
+      plan
+  - date: '2025-07-24'
+    event: gemeente wijst op maximaal 4 reguliere woningen in transitie-traject
+  - date: '2025-09-15'
+    event: gemeente bevestigt dat bestaande vergunningen ongewijzigd blijven
+  - date: '2025-10-01'
+    event: ontwerp TAM-omgevingsplan De Tip ter inzage gelegd
+  - date: '2026-04-07'
+    event: raadscommissie bespreekt TAM-omgevingsplan De Tip
+  - date: '2026-04-12'
+    event: signaal aan raad over uitsluiting perceel ingediend
+  - date: '2026-04-21'
+    event: raad besluit over vaststelling TAM-omgevingsplan De Tip
+  - date: '2026-04-22'
+    event: aanvullend Woo-verzoek ingediend over motivering uitsluiting perceel 5113
+  - date: '2026-04-23'
+    event: Woo-verzoek ontvangen
+  - date: '2026-05-21'
+    event: beslistermijn Woo-verzoek verlengd met twee weken
+  - date: '2026-06-01'
+    event: 'Woo-besluit: gedeeltelijke toewijzing'
+ai_processed_at: '2026-08-17T11:39:51.518Z'
+ai_status: done
 ---
 
 Gemeente

@@ -1,9 +1,43 @@
 ---
-title: "Woo-verzoek inzet drone boven parken Primo en Secundo"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek inzet drone boven parken Primo en Secundo.pdf"
-s3_etag: "549161f97459413876bd790b5f4e21e1-3"
-date: 2026-07-30
+title: Woo-verzoek inzet drone boven parken Primo en Secundo
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek inzet drone boven parken Primo
+  en Secundo.pdf
+s3_etag: 549161f97459413876bd790b5f4e21e1-3
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden besloot op 2026-01-14 op een Woo-verzoek over
+  drone-inzet boven Primo en Secundo om de aangetroffen documenten deels
+  openbaar te maken. In 2025 volgden de aanvraag, opdrachtverlening voor de
+  dronevlucht en meerdere reacties/bezwaarschriften van betrokkenen over de
+  rechtmatigheid van de inzet.
+milestones:
+  - date: '2025-10-02'
+    event: Opdrachtbevestiging dronevlucht Primo & Secundo aan Droneview
+  - date: '2025-11-05'
+    event: Informatiebrief over voorgenomen dronevlucht boven Primo en Secundo
+  - date: '2025-11-17'
+    event: >-
+      Reactie gemeente op bezwaar/zienswijze: geen besluit nodig voor
+      drone-inzet
+  - date: '2025-11-18'
+    event: Ingebrekestelling door betrokkene over voorgenomen dronevlucht
+  - date: '2025-11-19'
+    event: Bezwaar tegen drone-opnames en verzoek om verwijdering beelden
+  - date: '2025-11-21'
+    event: Aanvullende reactie op brieven van 5 en 17 november over drone-opnames
+  - date: '2025-11-24'
+    event: Reactie gemeente op schrijven over drone-inzet en handhaving
+  - date: '2025-11-25'
+    event: Indiening Woo-verzoek over drone-inzet boven Primo en Secundo
+  - date: '2026-01-14'
+    event: 'Besluit op Woo-verzoek: documenten deels openbaar gemaakt'
+ai_processed_at: '2026-08-17T11:38:11.019Z'
+ai_status: done
 ---
 
 Postadres: Gemeente

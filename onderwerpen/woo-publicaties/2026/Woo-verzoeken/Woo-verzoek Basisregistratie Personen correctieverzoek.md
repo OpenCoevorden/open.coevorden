@@ -1,9 +1,33 @@
 ---
-title: "Woo-verzoek Basisregistratie Personen correctieverzoek"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Basisregistratie Personen correctieverzoek.pdf"
-s3_etag: "55095ba521266b9965369fecd7b82135-3"
-date: 2026-07-30
+title: Woo-verzoek Basisregistratie Personen correctieverzoek
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Basisregistratie Personen
+  correctieverzoek.pdf
+s3_etag: 55095ba521266b9965369fecd7b82135-3
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2026-03-16 is een Woo-verzoek ingediend over het BRP-correctiedossier en
+  aanverwant beleid. De gemeente verlengde en schorste de beslistermijn en nam
+  op 2026-05-08 een gedeeltelijk toewijzend Woo-besluit.
+milestones:
+  - date: '2026-01-07'
+    event: >-
+      Verzoek tot ambtshalve uitschrijving BRP en correctie vertrekdatum
+      ingediend.
+  - date: '2026-02-03'
+    event: >-
+      Besluit: uitschrijving uit de BRP per ontvangstdatum verwerkt; correctie
+      naar 2018 geweigerd.
+  - date: '2026-03-16'
+    event: Woo-verzoek ingediend.
+  - date: '2026-05-08'
+    event: 'Woo-besluit: verzoek gedeeltelijk toegewezen.'
+ai_processed_at: '2026-08-17T11:40:28.076Z'
+ai_status: done
 ---
 
 Gemeente
