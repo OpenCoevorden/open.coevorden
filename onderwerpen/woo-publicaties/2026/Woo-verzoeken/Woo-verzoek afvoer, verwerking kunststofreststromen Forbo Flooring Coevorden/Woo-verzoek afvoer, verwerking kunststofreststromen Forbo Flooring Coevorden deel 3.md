@@ -1,9 +1,25 @@
 ---
-title: "Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden deel 3"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden/Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden deel 3.pdf"
-s3_etag: "8cd20090fb1b3431f2162d3c51bf468a"
-date: 2026-07-29
+title: >-
+  Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden
+  deel 3
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek afvoer, verwerking
+  kunststofreststromen Forbo Flooring Coevorden/Woo-verzoek afvoer, verwerking
+  kunststofreststromen Forbo Flooring Coevorden deel 3.pdf
+s3_etag: 8cd20090fb1b3431f2162d3c51bf468a
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  De tekst bevat geen Woo-procedure of besluitvorming, maar uitsluitend een
+  begrippenlijst en normverwijzingen. Er zijn daarom geen kerngebeurtenissen
+  voor een tijdlijn te extraheren.
+milestones: []
+ai_processed_at: '2026-08-18T06:48:02.011Z'
+ai_status: done
 ---
 
 CUR Rapport 2001-3

@@ -1,9 +1,77 @@
 ---
-title: "Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 8.pdf"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 8.pdf.pdf"
-s3_etag: "adf3beb3e9c65849570b66af9a7e9979-7"
-date: 2026-07-29
+title: >-
+  Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord
+  Deel 8.pdf
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - >-
+    Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in
+    Schoonoord.pdf
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en
+  herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop
+  en herontwikkeling van woningen in Schoonoord Deel 8.pdf.pdf
+s3_etag: adf3beb3e9c65849570b66af9a7e9979-7
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  De integrale ontwikkeling van Schoonoord startte in 2023 met verkenningen en
+  bewonersbijeenkomsten over wonen, MFC en herontwikkeling van Noord en Zuid. In
+  2025 volgden raadsbehandeling en inventarisatie van woonwensen; de verdere
+  planvorming werd tijdelijk stilgezet en daarna weer opgepakt richting een
+  programma van uitgangspunten en stedenbouwkundig plan.
+milestones:
+  - date: '2022-07-01'
+    event: intentieovereenkomst voor de gebiedsontwikkeling
+  - date: '2023-09-12'
+    event: publicatie nieuwsbrief MFC Schoonoord (test)
+  - date: '2023-11-08'
+    event: inloopbijeenkomst Verkenning Schoonoord-Noord
+  - date: '2023-11-24'
+    event: nieuwsbrief Wonen en leven in Schoonoord nr. 2
+  - date: '2023-12-12'
+    event: gemeenteraad besluit over aanvullend budget MFC Schoonoord
+  - date: '2023-12-19'
+    event: 'deelsessie over kansenkaart, MFC en integrale ontwikkeling'
+  - date: '2024-06-13'
+    event: inloopbijeenkomst Verkenning Schoonoord-Zuid
+  - date: '2025-03-07'
+    event: ontwerp omgevingsplan MFC Schoonoord ter inzage
+  - date: '2025-03-25'
+    event: >-
+      gemeenteraad neemt motie aan over totaalplan, terugkeergarantie en
+      inventarisatie
+  - date: '2025-05-08'
+    event: schriftelijke raadsvragen over plan Schoonoord
+  - date: '2025-06-04'
+    event: informatieavond voor raadsleden over inventarisatie Woonservice
+  - date: '2025-11-03'
+    event: inloopavond over schetsen nieuwbouwplannen Schoonoord
+  - date: '2025-11-03'
+    event: >-
+      inloopavond voor reacties op globale schetsen voor Schoonoord-Noord,
+      Schoonoord-Zuid en de oude sportvelden
+  - date: '2026-02-10'
+    event: >-
+      themasessie gemeenteraad over aangepaste schetsontwerpen en vervolg
+      participatie
+  - date: '2026-03-01'
+    event: >-
+      inloopbijeenkomst herstructurering Schoonoord met feedback op
+      schetsontwerpen
+  - date: '2026-06-01'
+    event: verwachte besluitvorming over het stedenbouwkundig plan
+  - date: '2026-07-01'
+    event: verwacht definitief ontwerp en bestek voor het MFC
+  - date: '2026-12-31'
+    event: verwachte aanbesteding rond jaarwisseling 2026/2027
+  - date: '2027-03-01'
+    event: verwachte start bouw MFC
+  - date: '2028-09-01'
+    event: verwachte oplevering MFC
+ai_processed_at: '2026-08-18T06:51:28.905Z'
+ai_status: done
 ---
 
 Van: <Mecoevorden.nl>

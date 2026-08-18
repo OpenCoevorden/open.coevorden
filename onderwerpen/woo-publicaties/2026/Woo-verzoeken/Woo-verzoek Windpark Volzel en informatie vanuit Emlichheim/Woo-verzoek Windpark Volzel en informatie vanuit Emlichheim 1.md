@@ -1,9 +1,34 @@
 ---
-title: "Woo-verzoek Windpark Volzel en informatie vanuit Emlichheim 1"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Windpark Volzel en informatie vanuit Emlichheim"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Windpark Volzel en informatie vanuit Emlichheim/Woo-verzoek Windpark Volzel en informatie vanuit Emlichheim 1.pdf"
-s3_etag: "9fe0e7795d7429fc5b7c0f69d0d82028-2"
-date: 2026-07-30
+title: Woo-verzoek Windpark Volzel en informatie vanuit Emlichheim 1
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Windpark Volzel en informatie vanuit Emlichheim
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Windpark Volzel en informatie
+  vanuit Emlichheim/Woo-verzoek Windpark Volzel en informatie vanuit Emlichheim
+  1.pdf
+s3_etag: 9fe0e7795d7429fc5b7c0f69d0d82028-2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2024-11-28 een formele kennisgeving over de
+  101e FNP-wijziging voor windpark Volzel van de Samtgemeinde Emlichheim. Op
+  2026-02-24 diende een Woo-verzoek in over deze kennisgeving; op 2026-03-03
+  volgde een gedeeltelijke toewijzing met openbaarmaking van enkele documenten
+  en afwijzing voor zover stukken niet berustten bij de gemeente of niet
+  beschikbaar waren.
+milestones:
+  - date: '2024-11-28'
+    event: Kennisgeving ontvangen over windpark Volzel
+  - date: '2026-01-19'
+    event: Brief over formele notificatie en grensoverschrijdende effecten
+  - date: '2026-02-24'
+    event: Woo-verzoek ingediend
+  - date: '2026-03-03'
+    event: 'Besluit op Woo-verzoek: gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-18T06:50:14.318Z'
+ai_status: done
 ---
 
 Gemeente

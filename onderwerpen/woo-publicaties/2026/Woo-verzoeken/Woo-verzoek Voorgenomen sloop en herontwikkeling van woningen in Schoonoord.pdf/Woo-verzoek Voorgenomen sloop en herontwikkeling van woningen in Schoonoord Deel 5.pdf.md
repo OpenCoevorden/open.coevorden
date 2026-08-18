@@ -1,9 +1,57 @@
 ---
-title: "Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 5.pdf"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 5.pdf.pdf"
-s3_etag: "bf63b6843e739cdec8e33a1ed0d30dce-7"
-date: 2026-07-29
+title: >-
+  Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord
+  Deel 5.pdf
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - >-
+    Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in
+    Schoonoord.pdf
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en
+  herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop
+  en herontwikkeling van woningen in Schoonoord Deel 5.pdf.pdf
+s3_etag: bf63b6843e739cdec8e33a1ed0d30dce-7
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  Het document beschrijft een haalbaarheidsonderzoek voor een MFC/krachtpand in
+  Schoonoord, met financiële scenario’s voor nieuwbouw of renovatie van de
+  sporthal. De conclusie is dat realisatie ruimtelijk en qua draagvlak haalbaar
+  is, maar alleen met structurele gemeentelijke dekking en aanvullende
+  subsidies.
+milestones:
+  - date: '2022-04-25'
+    event: aanvraag offerte integrale aanpak Schoonoord
+  - date: '2022-05-16'
+    event: voorstel integrale aanpak Schoonoord verzonden
+  - date: '2022-09-15'
+    event: Uitvraag integrale aanpak Schoonoord opgesteld
+  - date: '2022-10-17'
+    event: Presentatie/rapportage haalbaarheidsonderzoek Schoonoord afgerond
+  - date: '2022-10-19'
+    event: definitief rapport haalbaarheidsonderzoek MFC Schoonoord verzonden
+  - date: '2023-03-01'
+    event: Proces- en tijdlijnfase voor Schoonoord uitgewerkt
+  - date: '2023-10-05'
+    event: bouwkundige inspectie CBS De Slagkrooie gedeeld
+  - date: '2024-07-01'
+    event: Stedenbouwkundig plan Schoonoord Zuid herijkt
+  - date: '2024-07-01'
+    event: stedenbouwkundig plan Schoonoord Zuid uitgewerkt na workshops
+  - date: '2024-07-18'
+    event: Projectgroepworkshops verwerkt in herstructureringsuitgangspunten
+  - date: '2025-02-19'
+    event: voorstel woonprogramma en locaties sociale huur Schoonoord opgesteld
+  - date: '2026-01-27'
+    event: aangepast schetsontwerp Schoonoord besproken in projectteam
+  - date: '2026-02-05'
+    event: >-
+      gewijzigd concept-stedenbouwkundig plan Schoonoord ter voorbereiding
+      besproken
+ai_processed_at: '2026-08-18T06:52:42.454Z'
+ai_status: done
 ---
 
 82 Uitgangspunten exploitatie

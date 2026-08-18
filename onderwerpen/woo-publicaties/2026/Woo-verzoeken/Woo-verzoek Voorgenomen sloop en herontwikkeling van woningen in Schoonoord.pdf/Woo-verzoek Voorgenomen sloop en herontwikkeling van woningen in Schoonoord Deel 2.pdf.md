@@ -1,9 +1,67 @@
 ---
-title: "Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 2.pdf"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 2.pdf.pdf"
-s3_etag: "4ac95c477235bac37a2db0bdb5f3ef6a-7"
-date: 2026-07-29
+title: >-
+  Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord
+  Deel 2.pdf
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - >-
+    Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in
+    Schoonoord.pdf
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en
+  herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop
+  en herontwikkeling van woningen in Schoonoord Deel 2.pdf.pdf
+s3_etag: 4ac95c477235bac37a2db0bdb5f3ef6a-7
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  De integrale aanpak voor Schoonoord werd vanaf 2021 voorbereid en in 2024-2025
+  uitgewerkt tot een concreet stedenbouwkundig plan voor herstructurering, met
+  afspraken over wonen, openbare ruimte en samenwerking met Woonservice en
+  Dorpsbelang. In 2025-2026 verschoof de focus naar besluitvorming, participatie
+  en uitvoering, inclusief fasering van sloop-nieuwbouw en grondruil.
+milestones:
+  - date: '2021-12-07'
+    event: Gemeenteraad stelt Woonvisie 2021+ vast; integrale aanpak Schoonoord nodig
+  - date: '2022-01-01'
+    event: Raad besluit tot haalbaarheidsonderzoek MFA Schoonoord
+  - date: '2022-02-10'
+    event: Intentieovereenkomst voor integraal ontwikkelplan Schoonoord gesloten
+  - date: '2022-07-14'
+    event: Intentieovereenkomst integraal ontwikkelplan Schoonoord ondertekend
+  - date: '2024-03-12'
+    event: Kansenkaart Schoonoord gepresenteerd
+  - date: '2024-03-26'
+    event: Gemeenteraad stelt Kansenkaart Schoonoord vast
+  - date: '2024-05-01'
+    event: College stelt projectopdracht herstructurering Schoonoord-Noord vast
+  - date: '2025-02-26'
+    event: Woonservice kondigt sloopaanzeggingen voor Schoonoord-Zuid aan
+  - date: '2025-03-10'
+    event: Collegevoorstel over vragen rond Schoonoord wordt voorbereid
+  - date: '2025-03-25'
+    event: Gemeenteraad neemt motie 25-01 aan over totaalplan en terugkeergarantie
+  - date: '2025-05-08'
+    event: Schriftelijke vragen over Schoonoord worden voorbereid
+  - date: '2025-05-28'
+    event: >-
+      Gemeente en Woonservice spreken aangepaste samenwerking af; stoppen met
+      stuur- en projectgroepen
+  - date: '2025-06-12'
+    event: Woonservice stuurt brief over visie en planning voor Schoonoord
+  - date: '2025-11-03'
+    event: Inloopbijeenkomst met bewoners over aangepast schetsontwerp
+  - date: '2026-02-03'
+    event: >-
+      Raadsinformatiebrief over terugblik, motie 25-01 en vervolgtraject
+      verzonden
+  - date: '2026-02-03'
+    event: Collegebrief over herstructurering Schoonoord wordt aangepast voor raad
+  - date: '2026-02-10'
+    event: Themasessie/informatiebijeenkomst over Schoonoord gepland
+ai_processed_at: '2026-08-18T06:54:55.763Z'
+ai_status: done
 ---
 
 Herstructurering Schoonoord – Spagaat in samenwerking met

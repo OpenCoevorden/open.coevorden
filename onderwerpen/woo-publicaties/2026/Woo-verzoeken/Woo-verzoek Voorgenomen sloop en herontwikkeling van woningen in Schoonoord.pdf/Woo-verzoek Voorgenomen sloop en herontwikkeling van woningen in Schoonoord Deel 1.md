@@ -1,9 +1,91 @@
 ---
-title: "Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 1"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 1.pdf"
-s3_etag: "78c9c09ee211962786a3be9e54827bdf-7"
-date: 2026-07-29
+title: >-
+  Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord
+  Deel 1
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - >-
+    Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in
+    Schoonoord.pdf
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en
+  herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop
+  en herontwikkeling van woningen in Schoonoord Deel 1.pdf
+s3_etag: 78c9c09ee211962786a3be9e54827bdf-7
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2026-01-26 een Woo-verzoek over documenten
+  rond de herstructurering van Schoonoord. Op 2026-05-21 besloot de gemeente het
+  verzoek gedeeltelijk toe te wijzen en documenten deels openbaar te maken, met
+  weglakking van persoonsgegevens en weigering van één document wegens
+  concurrentiegevoelige informatie.
+milestones:
+  - date: '2024-02-20'
+    event: College stemt in met Kansenkaart Schoonoord
+  - date: '2024-03-26'
+    event: Raad stelt Kansenkaart Schoonoord vast
+  - date: '2025-03-25'
+    event: Raad neemt motie 25-01 aan over herstructurering Schoonoord
+  - date: '2025-05-08'
+    event: CDA stelt schriftelijke vragen over plan Schoonoord
+  - date: '2025-05-27'
+    event: >-
+      College besluit op beantwoording schriftelijke vragen CDA over plan
+      Schoonoord
+  - date: '2025-05-27'
+    event: College besluit op beantwoording schriftelijke vragen CDA plan Schoonoord
+  - date: '2025-06-20'
+    event: College besluit op beantwoording motie 25-01 en raadsbrief aan raad
+  - date: '2025-06-25'
+    event: Raadsbrief over motie 25-01 wordt vastgesteld/verzonden
+  - date: '2025-06-25'
+    event: College stemt in met beantwoording motie 25-01 en raadsinformatiebrief
+  - date: '2025-07-15'
+    event: Inloopbijeenkomst met bewoners over schetsontwerp Schoonoord
+  - date: '2025-07-15'
+    event: Inloopbijeenkomst over concept stedenbouwkundige schetsplannen
+  - date: '2025-09-01'
+    event: Programma van uitgangspunten verwacht
+  - date: '2025-10-01'
+    event: Tweede toetsing/uitwerking concepten en stedenbouwkundig ontwerp verwacht
+  - date: '2025-10-14'
+    event: Raadsbrief stand van zaken herstructurering Schoonoord
+  - date: '2025-10-28'
+    event: College besluit op beantwoording vragen PAC & VVD over informatieplicht
+  - date: '2025-11-03'
+    event: Tweede inloopbijeenkomst over schetsplannen met bewoners
+  - date: '2025-12-01'
+    event: Bespreking afgerond stedenbouwkundig plan in gemeenteraad verwacht
+  - date: '2026-01-20'
+    event: Raadsbrief over motie 25-01 wordt alsnog verzonden
+  - date: '2026-01-24'
+    event: Woo-verzoek ingediend
+  - date: '2026-01-26'
+    event: Woo-verzoek ontvangen
+  - date: '2026-01-31'
+    event: Uiterste termijn voor besluitvorming stedenbouwkundig plan genoemd
+  - date: '2026-02-02'
+    event: >-
+      Participatieverslag inloop Schoonoord aangeleverd voor
+      raadsinformatiebrief
+  - date: '2026-02-10'
+    event: Themasessie voor gemeenteraad over herstructureringsplannen
+  - date: '2026-02-13'
+    event: Concept memo Zetveld voor college voorbereid
+  - date: '2026-03-09'
+    event: >-
+      Bespreking aangepaste schetsontwerpen met bewoners Schoonoord Zuid en
+      sloopwoningen
+  - date: '2026-03-10'
+    event: >-
+      Bespreking aangepaste schetsontwerpen met bewoners Schoonoord Noord en
+      sloopwoningen
+  - date: '2026-05-21'
+    event: 'Besluit op Woo-verzoek: gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-18T06:56:14.684Z'
+ai_status: done
 ---
 
 Gemeente

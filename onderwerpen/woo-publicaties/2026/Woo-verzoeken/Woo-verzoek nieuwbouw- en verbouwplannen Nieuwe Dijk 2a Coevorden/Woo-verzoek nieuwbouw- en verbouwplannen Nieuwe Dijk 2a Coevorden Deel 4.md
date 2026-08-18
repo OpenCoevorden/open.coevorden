@@ -1,9 +1,38 @@
 ---
-title: "Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 4"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 4.pdf"
-s3_etag: "f7785f3fa2a3d727b6c104c87e4c0645-6"
-date: 2026-07-30
+title: Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 4
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek nieuwbouw- en verbouwplannen
+  Nieuwe Dijk 2a Coevorden/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk
+  2a Coevorden Deel 4.pdf
+s3_etag: f7785f3fa2a3d727b6c104c87e4c0645-6
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 16 december 2024 is een aanvraag omgevingsvergunning ingediend voor de bouw
+  van 69 opslagunits aan de Nieuwe Dijk 2a te Coevorden. De aanvraag kreeg op 17
+  februari 2025 aanvullende eisen en werd op 5 november 2025 buiten behandeling
+  gesteld omdat de gevraagde aanvullende gegevens niet tijdig waren aangeleverd.
+milestones:
+  - date: '2024-12-16'
+    event: aanvraag omgevingsvergunning ingediend voor 69 opslagunits
+  - date: '2025-01-02'
+    event: aanvraag aangevuld
+  - date: '2025-01-16'
+    event: 'welstandsadvies: strijd met redelijke eisen van welstand'
+  - date: '2025-01-22'
+    event: welstandsadvies verzonden met verzoek aangepaste aanvraag in te dienen
+  - date: '2025-02-17'
+    event: verzoek om aanvullende gegevens en nadeelcompensatie verzonden
+  - date: '2025-03-20'
+    event: beslistermijn verlengd met 6 maanden
+  - date: '2025-11-05'
+    event: aanvraag buiten behandeling gesteld
+ai_processed_at: '2026-08-18T06:46:16.075Z'
+ai_status: done
 ---
 
 Gemeente

@@ -1,9 +1,53 @@
 ---
-title: "Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen Deel 2"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen/Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen Deel 2.pdf"
-s3_etag: "9d514c1e875aa30cb016188ba9e327a3-7"
-date: 2026-07-30
+title: >-
+  Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen Deel
+  2
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Onderzoek geluid
+  groepsaccommodatie 't Hunebed Brink 9 Sleen/Woo-verzoek Onderzoek geluid
+  groepsaccommodatie 't Hunebed Brink 9 Sleen Deel 2.pdf
+s3_etag: 9d514c1e875aa30cb016188ba9e327a3-7
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  In 2024 is een akoestisch onderzoek uitgevoerd voor de groepsaccommodatie ’t
+  Hunebed in Coevorden in het kader van een TAM/omgevingsplanwijziging. Het
+  onderzoek concludeert dat aanpassingen nodig zijn in de planregels en dat met
+  name terrasgebruik en nachtelijke rijbewegingen moeten worden beperkt of
+  afgeschermd.
+milestones:
+  - date: '2024-10-16'
+    event: conceptregels en -kaart voor TAM-plan verzonden
+  - date: '2024-10-29'
+    event: akoestisch onderzoek gevraagd voor ontwerp-TAM ter inzage
+  - date: '2024-11-01'
+    event: 'uitgangspunt aangepast: woning 9a als wonen, niet groepsaccommodatie'
+  - date: '2024-11-05'
+    event: concept akoestisch onderzoek verzonden
+  - date: '2024-11-05'
+    event: plankaart/regeling aangepast op basis van akoestisch onderzoek
+  - date: '2024-11-06'
+    event: 'akoestisch onderzoek herberekend met terrasgebruik tot 01:00 uur'
+  - date: '2024-11-21'
+    event: Ontwerp TAM-Omgevingsplan ter inzage gelegd
+  - date: '2025-01-17'
+    event: Einde termijn aanvullende gronden zienswijzen
+  - date: '2025-03-05'
+    event: Gemeente vraagt advies over zienswijzen geluid
+  - date: '2025-03-06'
+    event: Akoestisch advies over zienswijzen ontvangen
+  - date: '2025-03-25'
+    event: Gemeente vraagt vervolginput over zienswijzen akoestiek
+  - date: '2025-03-26'
+    event: Eerste reactie op zienswijzen akoestiek ontvangen
+  - date: '2025-06-01'
+    event: Zienswijzennota met voorgestelde planwijzigingen opgesteld
+ai_processed_at: '2026-08-18T06:56:57.183Z'
+ai_status: done
 ---
 
 Mm 06 MR

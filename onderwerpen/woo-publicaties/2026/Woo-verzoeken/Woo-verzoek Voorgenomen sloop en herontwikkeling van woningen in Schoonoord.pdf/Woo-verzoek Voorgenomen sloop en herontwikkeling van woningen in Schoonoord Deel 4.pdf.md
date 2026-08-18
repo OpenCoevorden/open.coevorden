@@ -1,9 +1,94 @@
 ---
-title: "Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 4.pdf"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 4.pdf.pdf"
-s3_etag: "7f381230e5d4494c1576f159c4e31268-7"
-date: 2026-07-29
+title: >-
+  Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord
+  Deel 4.pdf
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - >-
+    Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in
+    Schoonoord.pdf
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en
+  herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop
+  en herontwikkeling van woningen in Schoonoord Deel 4.pdf.pdf
+s3_etag: 7f381230e5d4494c1576f159c4e31268-7
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  Het dossier gaat over de integrale ontwikkeling van Schoonoord, met vanaf 2023
+  projectvorming rond MFC, wonen en gebiedsontwikkeling. In 2025 ontstond onrust
+  over de sloopplannen van Woonservice, waarna gemeente en Woonservice een
+  gezamenlijke communicatielijn en vervolgbijeenkomsten afstemden.
+milestones:
+  - date: '2021-06-17'
+    event: aanvraag/voorverkenning woningbouwontwikkeling Schoonoord
+  - date: '2022-05-16'
+    event: >-
+      Voorstel voor begeleiden en opstellen integrale aanpak Schoonoord
+      opgesteld
+  - date: '2022-10-17'
+    event: Haalbaarheidsonderzoek MFC Schoonoord gedateerd
+  - date: '2022-11-29'
+    event: bespreking toekomstagenda Schoonoord
+  - date: '2023-01-23'
+    event: concept projectopdracht integrale ontwikkeling Schoonoord
+  - date: '2023-03-15'
+    event: projectplan Schoonoord opgesteld
+  - date: '2023-05-31'
+    event: opdrachtgeverschap Schoonoord overgedragen
+  - date: '2023-09-01'
+    event: Indicatieve ingebruikname MFC verwacht (volgens planning in rapport)
+  - date: '2023-11-15'
+    event: ondersteuning projectgroep Schoonoord-Noord overgenomen
+  - date: '2024-03-26'
+    event: kansenkaart Schoonoord vastgesteld
+  - date: '2024-06-13'
+    event: bijeenkomst Schoonoord-Zuid gehouden
+  - date: '2024-11-08'
+    event: bijeenkomst Schoonoord-Noord gehouden
+  - date: '2025-02-12'
+    event: >-
+      reactie op wooninitiatief: wachten op totaalplan en stedenbouwkundige
+      opzet
+  - date: '2025-02-24'
+    event: communicatie over onrust en terugkeergarantie besproken
+  - date: '2025-02-24'
+    event: afstemming over bouwlocaties en verdeling koop/huur Schoonoord
+  - date: '2025-03-06'
+    event: voorbereiding inloop Schoonoord-Zuid met bewonersreacties op sloopplannen
+  - date: '2025-03-11'
+    event: bewoners dienen reacties in via feedbackformulier Schoonoord
+  - date: '2025-03-12'
+    event: bewoner dient zienswijze/Reactie op sloop huizen Schoonoord in
+  - date: '2025-03-22'
+    event: bewoners reageren opnieuw op schetsen en sloopplannen
+  - date: '2025-06-12'
+    event: brief Woonservice over visie en planning Schoonoord verzonden
+  - date: '2025-11-17'
+    event: >-
+      gemeente vraagt Woonservice om recente stand woonwenssituatie huurders
+      Schoonoord
+  - date: '2026-02-03'
+    event: >-
+      college-/raadsstukken en participatiedocumenten Schoonoord worden
+      voorbereid en aangepast
+  - date: '2026-02-05'
+    event: >-
+      brieven en participatie-opbrengst over Schoonoord worden
+      verzonden/gepubliceerd
+  - date: '2026-03-09'
+    event: inloopbijeenkomsten Schoonoord-Zuid en Schoonoord-Noord
+  - date: '2026-03-10'
+    event: bewoners reageren via feedbackformulier op nieuwe schetsen
+  - date: '2026-03-18'
+    event: huisbezoeken en reservering voorkeursplekken nieuwe woningen starten
+  - date: '2026-03-23'
+    event: >-
+      gemeente stemt met Woonservice af over deadlines, bewonersreacties en
+      sloopcommunicatie
+ai_processed_at: '2026-08-18T06:53:34.113Z'
+ai_status: done
 ---
 
 DATUM

@@ -1,9 +1,48 @@
 ---
-title: "Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 3"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 3.pdf"
-s3_etag: "0ee5b2720aeeb0ed70a0fc9a1df1c907-13"
-date: 2026-07-30
+title: Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 3
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek nieuwbouw- en verbouwplannen
+  Nieuwe Dijk 2a Coevorden/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk
+  2a Coevorden Deel 3.pdf
+s3_etag: 0ee5b2720aeeb0ed70a0fc9a1df1c907-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De aanvraag voor het bouwen van 69 opslagunits op Nieuwe Dijk 2A te Coevorden
+  is op 2024-12-16 ontvangen. Na een welstandsadvies en verzoek om aanpassing is
+  de aanvraag op 2025-11-05 buiten behandeling gesteld omdat geen aanvullende
+  gegevens waren ingediend.
+milestones:
+  - date: '2023-09-14'
+    event: Omgevingstafel over conceptplan bedrijfsunits
+  - date: '2024-12-16'
+    event: Aanvraag omgevingsvergunning ingediend
+  - date: '2024-12-16'
+    event: aanvraag omgevingsvergunning ingediend voor nieuwbouw 69 opslagunits
+  - date: '2025-01-22'
+    event: 'Welstandsadvies: plan niet akkoord, aanpassing gevraagd'
+  - date: '2025-01-31'
+    event: 'RO-advies: aanvullende stukken en onderbouwing nodig'
+  - date: '2025-01-31'
+    event: 'welstandsadvies: plan niet in strijd met redelijke eisen van welstand'
+  - date: '2025-02-03'
+    event: aanvrager geïnformeerd over benodigde aanvullingen voor beoordeling
+  - date: '2025-02-17'
+    event: Verzoek om aanvullende gegevens verzonden
+  - date: '2025-03-03'
+    event: advies veiligheidsregio uitgebracht over externe veiligheid/groepsrisico
+  - date: '2025-11-05'
+    event: 'Besluit: aanvraag buiten behandeling gesteld'
+  - date: '2025-11-05'
+    event: 'besluit: aanvraag buiten behandeling gelaten'
+  - date: '2025-11-26'
+    event: nieuwe aanvraag ingediend voor herontwikkeling Nieuwe Dijk 2a
+ai_processed_at: '2026-08-18T06:46:23.902Z'
+ai_status: done
 ---
 
 Maatvoering te contrleren Lh.w. door

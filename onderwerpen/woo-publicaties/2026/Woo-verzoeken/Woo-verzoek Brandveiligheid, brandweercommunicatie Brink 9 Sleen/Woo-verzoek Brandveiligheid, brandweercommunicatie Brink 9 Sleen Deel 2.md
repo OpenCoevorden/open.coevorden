@@ -1,9 +1,37 @@
 ---
-title: "Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen Deel 2"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen/Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen Deel 2.pdf"
-s3_etag: "56ebd5b4d1163bea367c5ff29659ab38-10"
-date: 2026-07-30
+title: 'Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen Deel 2'
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brandveiligheid,
+  brandweercommunicatie Brink 9 Sleen/Woo-verzoek Brandveiligheid,
+  brandweercommunicatie Brink 9 Sleen Deel 2.pdf
+s3_etag: 56ebd5b4d1163bea367c5ff29659ab38-10
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De kern van het dossier is de aanvraag voor verbouwing en brandveilig gebruik
+  van Brink 9 te Sleen, gevolgd door verlening van de omgevingsvergunning in
+  2011. Daarna volgden in 2013 handhavingsacties wegens afwijkingen van de
+  vergunning, die na aanpassing van de deuren zijn beëindigd; in 2021 is opnieuw
+  een aanvraag/melding voor brandveilig gebruik ingediend.
+milestones:
+  - date: '2021-07-08'
+    event: aanvraag bouwkundige wijzigingen ingediend
+  - date: '2021-08-12'
+    event: aanvraag/melding brandveilig gebruik ingediend
+  - date: '2021-11-01'
+    event: beoogde ingebruikname
+  - date: '2023-01-09'
+    event: bedrijfsbezoek brandveiligheid
+  - date: '2023-03-20'
+    event: informatieverzoek ingediend
+  - date: '2023-03-28'
+    event: reactie op informatieverzoek verzonden
+ai_processed_at: '2026-08-18T06:58:17.060Z'
+ai_status: done
 ---
 
 Gemeente

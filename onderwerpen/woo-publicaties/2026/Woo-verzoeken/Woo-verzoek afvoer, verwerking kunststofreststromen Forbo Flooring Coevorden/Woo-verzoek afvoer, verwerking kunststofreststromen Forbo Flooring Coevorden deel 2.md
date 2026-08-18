@@ -1,9 +1,92 @@
 ---
-title: "Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden deel 2"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden/Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden deel 2.pdf"
-s3_etag: "230c9dfac8a4d657f99feba3249feb5a-7"
-date: 2026-07-29
+title: >-
+  Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden
+  deel 2
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek afvoer, verwerking
+  kunststofreststromen Forbo Flooring Coevorden/Woo-verzoek afvoer, verwerking
+  kunststofreststromen Forbo Flooring Coevorden deel 2.pdf
+s3_etag: 230c9dfac8a4d657f99feba3249feb5a-7
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  Vanaf 2024 ontstond correspondentie over de afvalstatus en mogelijke
+  verwerking van Forbo-snijresten, met een verzoek om aanvullende XRF-metingen
+  en beoordeling van ZZS. In 2025 volgde een discussie over de afvoer van
+  Forbo-afvalstromen, waarbij de toezichthouder aangaf dat de gemeente Coevorden
+  bevoegd gezag is en inhoudelijke details over afvoer en eindbestemming niet
+  kon geven.
+milestones:
+  - date: '2023-03-31'
+    event: aanvraag om omgevingsvergunning ingediend
+  - date: '2023-05-10'
+    event: aanvraag aangevuld na verzoek om ontbrekende gegevens
+  - date: '2023-06-26'
+    event: aanvraag aangevuld na verzoek om ontbrekende gegevens
+  - date: '2023-07-11'
+    event: aanvraag aangepast voor opname bouwactiviteit
+  - date: '2023-09-20'
+    event: aanvraag opnieuw aangevuld na beoordeling stukken
+  - date: '2023-10-12'
+    event: Aanvraagdocument geuronderzoek (TAUW-notitie) opgesteld
+  - date: '2024-03-22'
+    event: RIVM-advies over DOTP uitgebracht
+  - date: '2024-03-25'
+    event: ontwerpbesluit ter inzage gelegd
+  - date: '2024-07-30'
+    event: vraag over Forbo-afvalstromen doorgestuurd naar RUD Drenthe
+  - date: '2024-08-20'
+    event: RUD meldt dat Forbo-stroom bekend is en dat Forbo ermee is gestopt
+  - date: '2024-08-26'
+    event: overleg RUD/ILT over einde-afvalstatus en verzoek om XRF/PRE-toets
+  - date: '2024-09-12'
+    event: Arbo-metingen Infinityhal uitgevoerd
+  - date: '2024-09-30'
+    event: afstemming over Forbo-stroom en stortlocatie Stainkoeln
+  - date: '2024-10-01'
+    event: >-
+      melding dat Forbo in het verleden deels naar vinylrecycling ging en nu
+      deels stort
+  - date: '2024-10-24'
+    event: aanvraag laatst aangevuld
+  - date: '2024-11-15'
+    event: overleg gepland over resultaten XRF-metingen
+  - date: '2025-01-19'
+    event: aanvraag laatst aangevuld
+  - date: '2025-03-03'
+    event: besluit over einde-afvalstatus externe snijrestanten
+  - date: '2025-03-25'
+    event: ontwerpbesluit ter inzage; geen zienswijzen
+  - date: '2025-06-10'
+    event: >-
+      verzoek om duidelijkheid over Forbo-afvalstromen ingediend bij
+      gemeente/provincie
+  - date: '2025-06-17'
+    event: intern overleg over afhandeling en bevoegd gezag Forbo-zaak
+  - date: '2025-07-11'
+    event: >-
+      toezichthouder reageert: afvoer/ontvangst niet inhoudelijk bekend,
+      toezicht loopt
+  - date: '2025-07-11'
+    event: verzoek om opheldering aan GS Drenthe over plastisol/PVC-reststromen
+  - date: '2025-08-06'
+    event: conceptreactie provincie en OD Drenthe afgestemd
+  - date: '2025-08-12'
+    event: 'juridische duiding: bedrijfs- en fabricagegegevens niet verstrekken'
+  - date: '2025-08-26'
+    event: >-
+      OD Drenthe antwoordt dat een deel recyclebaar is, een deel niet, en
+      verwijst voor EVOA naar ILT
+  - date: '2025-08-27'
+    event: >-
+      zaak wordt afgesloten voor verdere reactie; vervolgvragen direct aan
+      ILT/EVOA
+ai_processed_at: '2026-08-18T06:48:50.328Z'
+ai_status: done
 ---
 
 Wij zijn vinylreeycling.com een onderneming die zich bezig houd met PVC recycling.

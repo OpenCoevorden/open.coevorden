@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 1"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 1.pdf"
-s3_etag: "a7a5e2a3b13630d69ccb49cbb5dccf17-13"
-date: 2026-07-30
+title: Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 1
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek nieuwbouw- en verbouwplannen
+  Nieuwe Dijk 2a Coevorden/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk
+  2a Coevorden Deel 1.pdf
+s3_etag: a7a5e2a3b13630d69ccb49cbb5dccf17-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De Woo-aanvraag is op 2025-11-13 ontvangen en op 2026-02-12 gedeeltelijk
+  toegewezen. De beslistermijn is eenmaal verlengd; daarna zijn de documenten
+  met uitzondering van persoonsgegevens openbaar gemaakt.
+milestones:
+  - date: '2025-11-13'
+    event: Woo-verzoek ontvangen
+  - date: '2025-11-25'
+    event: Beslistermijn verlengd met 2 weken
+  - date: '2026-02-12'
+    event: Gedeeltelijke toewijzing Woo-verzoek
+ai_processed_at: '2026-08-18T06:47:59.047Z'
+ai_status: done
 ---
 
 Gemeente

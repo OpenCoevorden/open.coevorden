@@ -1,9 +1,81 @@
 ---
-title: "Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen Deel 1"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen/Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen Deel 1.pdf"
-s3_etag: "85670b8157c34e77ab929971cce66ff7-13"
-date: 2026-07-30
+title: >-
+  Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen Deel
+  1
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Onderzoek geluid groepsaccommodatie 't Hunebed Brink 9 Sleen
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Onderzoek geluid
+  groepsaccommodatie 't Hunebed Brink 9 Sleen/Woo-verzoek Onderzoek geluid
+  groepsaccommodatie 't Hunebed Brink 9 Sleen Deel 1.pdf
+s3_etag: 85670b8157c34e77ab929971cce66ff7-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  In 2024 is gewerkt aan een TAM-omgevingsplan voor de groepsaccommodatie, mede
+  op basis van akoestisch onderzoek en afstemming over parkeren en
+  gebruiksregels. Op 2026-02-19 is een Woo-verzoek ingediend en op 2026-04-09 is
+  daarop beslist: het verzoek is toegewezen, met openbaarmaking van documenten
+  met weglakking van persoonsgegevens.
+milestones:
+  - date: '2024-06-11'
+    event: brief over vervolgstappen locatiepaspoort en planwijziging
+  - date: '2024-08-27'
+    event: start akoestisch onderzoek voor groepsaccommodatie
+  - date: '2024-08-27'
+    event: Start akoestisch onderzoek voor het TAM-plan
+  - date: '2024-09-11'
+    event: gesprek/afstemming voor akoestisch onderzoek
+  - date: '2024-10-02'
+    event: Afstemming over parkeer- en geluidsonderzoek
+  - date: '2024-10-16'
+    event: concept regels en plankaart TAM-plan gedeeld
+  - date: '2024-10-16'
+    event: concept TAM-plan en regels/verbeelding verzonden
+  - date: '2024-10-29'
+    event: aankondiging ontwerp TAM-terinzagelegging op 2024-11-21
+  - date: '2024-11-05'
+    event: concept akoestisch onderzoek aangeleverd
+  - date: '2024-11-05'
+    event: concept akoestisch onderzoek en plankaart/regels uitgewisseld
+  - date: '2024-11-06'
+    event: aangepast terras-akoestisch onderzoek ontvangen
+  - date: '2024-11-07'
+    event: aangepaste complete versie terras-akoestisch onderzoek ontvangen
+  - date: '2024-11-08'
+    event: aangepast TAM-plan opgeleverd
+  - date: '2024-11-08'
+    event: TAM-plan met akoestische bijlage opgeleverd
+  - date: '2024-11-21'
+    event: ontwerp TAM-omgevingsplan ter inzage gelegd
+  - date: '2024-12-23'
+    event: Zienswijze tegen ontwerpbesluit ingediend
+  - date: '2024-12-30'
+    event: Pro forma zienswijze ingediend
+  - date: '2025-01-02'
+    event: Pro forma zienswijze ingediend
+  - date: '2025-01-03'
+    event: zienswijzen ingediend tegen ontwerpplan
+  - date: '2025-01-03'
+    event: Zienswijze tegen ontwerpplan ingediend
+  - date: '2025-01-06'
+    event: Zienswijze ingediend
+  - date: '2025-01-13'
+    event: Zienswijze ingediend
+  - date: '2025-01-15'
+    event: definitieve zienswijze ingediend
+  - date: '2025-01-16'
+    event: Aanvulling op pro forma zienswijze ingediend
+  - date: '2025-03-05'
+    event: zienswijzennota met beantwoording opgesteld
+  - date: '2026-02-19'
+    event: Woo-verzoek ingediend
+  - date: '2026-04-09'
+    event: 'besluit op Woo-verzoek: toegewezen met weglakking persoonsgegevens'
+ai_processed_at: '2026-08-18T06:57:52.516Z'
+ai_status: done
 ---
 
 Postadres:

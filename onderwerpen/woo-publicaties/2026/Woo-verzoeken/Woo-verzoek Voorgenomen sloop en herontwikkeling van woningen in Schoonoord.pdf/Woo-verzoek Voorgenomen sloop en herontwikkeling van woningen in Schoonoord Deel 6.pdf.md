@@ -1,9 +1,45 @@
 ---
-title: "Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 6.pdf"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 6.pdf.pdf"
-s3_etag: "be661abfbd291b91636d8821ebf526b5-7"
-date: 2026-07-29
+title: >-
+  Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord
+  Deel 6.pdf
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - >-
+    Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in
+    Schoonoord.pdf
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en
+  herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop
+  en herontwikkeling van woningen in Schoonoord Deel 6.pdf.pdf
+s3_etag: be661abfbd291b91636d8821ebf526b5-7
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  De integrale ontwikkeling van Schoonoord startte met een intentieovereenkomst
+  en kansenkaart, waarna in 2023-2026 de herstructureringsplannen voor Noord en
+  Zuid zijn uitgewerkt via schetsontwerpen en participatie. In 2025-2026 volgden
+  verdere afstemming, inloopmomenten en bijstellingen richting een
+  voorlopig/definitief stedenbouwkundig plan.
+milestones:
+  - date: '2021-12-07'
+    event: Raad stelt Woonvisie met integrale aanpak Schoonoord vast
+  - date: '2022-06-01'
+    event: College stelt intentieovereenkomst met Woonservice en dorpsbelang vast
+  - date: '2024-03-01'
+    event: Gemeenteraad stelt kansenkaart vast
+  - date: '2025-10-16'
+    event: Inloopmoment in dorpshuis over schetsontwerp
+  - date: '2026-01-27'
+    event: Aangepast schetsontwerp besproken in projectgroep
+  - date: '2026-02-01'
+    event: Definitief voorstel gepresenteerd aan dorp en gemeenteraad
+  - date: '2026-03-01'
+    event: Stuurgroep bespreekt definitief voorstel en haalt mandaat op
+  - date: '2026-07-01'
+    event: Besluitvorming stedenbouwkundig plan door college/gemeenteraad
+ai_processed_at: '2026-08-18T06:52:04.087Z'
+ai_status: done
 ---
 
 VERBEELDING

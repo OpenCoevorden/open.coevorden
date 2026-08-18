@@ -1,9 +1,30 @@
 ---
-title: "Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen Deel 1"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen/Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen Deel 1.pdf"
-s3_etag: "2456738caa298fa4e56a9a64c51e843a-13"
-date: 2026-07-30
+title: 'Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen Deel 1'
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek Brandveiligheid, brandweercommunicatie Brink 9 Sleen'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brandveiligheid,
+  brandweercommunicatie Brink 9 Sleen/Woo-verzoek Brandveiligheid,
+  brandweercommunicatie Brink 9 Sleen Deel 1.pdf
+s3_etag: 2456738caa298fa4e56a9a64c51e843a-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek is op 2026-02-20 ingediend en op 2026-04-09 is daarop
+  besloten: het verzoek is geheel toegewezen, met openbaarmaking van documenten
+  met weglakking van persoonsgegevens. In de voorgeschiedenis spelen vooral
+  brandveiligheids- en vergunningstrajecten rond Brink 9 te Sleen, met een
+  vergunning in 2006, een interne wijziging in 2009, een omgevingsvergunning in
+  2011 en een brandveiligheidscontrole/handhaving in 2013.
+milestones:
+  - date: '2026-02-20'
+    event: Woo-verzoek ingediend
+  - date: '2026-04-09'
+    event: 'Woo-besluit: verzoek toegewezen met uitzonderingen'
+ai_processed_at: '2026-08-18T06:58:37.294Z'
+ai_status: done
 ---
 
 Postadres:

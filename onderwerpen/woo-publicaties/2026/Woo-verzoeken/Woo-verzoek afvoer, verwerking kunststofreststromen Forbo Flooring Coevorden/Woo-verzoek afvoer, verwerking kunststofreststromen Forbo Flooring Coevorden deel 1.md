@@ -1,9 +1,81 @@
 ---
-title: "Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden deel 1"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden/Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden deel 1.pdf"
-s3_etag: "2f86ae5abc3583a571107a7c048d4d22-7"
-date: 2026-07-29
+title: >-
+  Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden
+  deel 1
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek afvoer, verwerking kunststofreststromen Forbo Flooring Coevorden'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek afvoer, verwerking
+  kunststofreststromen Forbo Flooring Coevorden/Woo-verzoek afvoer, verwerking
+  kunststofreststromen Forbo Flooring Coevorden deel 1.pdf
+s3_etag: 2f86ae5abc3583a571107a7c048d4d22-7
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2025-09-11 een Woo-verzoek over documenten en
+  correspondentie rond de afvoer en verwerking van kunststofreststromen van
+  Forbo Flooring te Coevorden. Op 2026-01-29 volgde een gedeeltelijke toewijzing
+  van het verzoek, met openbaarmaking van een deel van de documenten en
+  weigering van delen op grond van Woo-uitzonderingen.
+milestones:
+  - date: '2024-06-24'
+    event: >-
+      Controle bij Forbo-Novilon en rapport van bevindingen over
+      kunststofafval/snijresten
+  - date: '2024-07-24'
+    event: aanvraag/voorleg concept rechtsoordeel einde-afvalstatus snijresten
+  - date: '2024-07-26'
+    event: Rapport van bevindingen over Forbo-snijafval verzonden
+  - date: '2024-08-26'
+    event: >-
+      Overleg met ILT over einde-afvalstatus en verzoek om aanvullend
+      XRF-onderzoek
+  - date: '2024-08-26'
+    event: overleg RUD Drenthe en ILT over einde-afvalstatus en ZZS-onderzoek
+  - date: '2024-08-30'
+    event: Aan Forbo verzonden verzoek om XRF-meting voor ZZS in snijresten
+  - date: '2024-08-30'
+    event: >-
+      verzoek aan Forbo om binnen 2 weken acties en binnen 1 maand XRF/PRE-tool
+      resultaten te overleggen
+  - date: '2024-09-10'
+    event: Interne afstemming dat Forbo met het XRF-verzoek aan de slag gaat
+  - date: '2024-09-19'
+    event: >-
+      Forbo meldt XRF-meting te laten uitvoeren en resultaten in PRE-1000 tool
+      te zetten
+  - date: '2024-09-30'
+    event: >-
+      Vervolgcorrespondentie over bestemming van 1500 ton PVC-afval en
+      LAP3-beleid
+  - date: '2024-11-11'
+    event: bespreking XRF-conclusie en verzoek om nadere toelichting
+  - date: '2025-05-27'
+    event: Woo-verzoek ingediend bij provincie Drenthe
+  - date: '2025-06-10'
+    event: >-
+      melding/vragen over Forbo-afvalstromen doorgestuurd naar gemeente
+      Coevorden
+  - date: '2025-07-11'
+    event: >-
+      inhoudelijke reactie van toezichthouder op vragen over
+      plastisol/PVC-reststromen
+  - date: '2025-08-26'
+    event: 'nadere beantwoording: deelstromen recyclebaar/deel niet, EVOA bij ILT'
+  - date: '2025-08-28'
+    event: afspraak gepland voor gezamenlijk bezoek Forbo met ILT
+  - date: '2025-09-10'
+    event: Woo-verzoek doorgestuurd naar gemeente Coevorden
+  - date: '2025-09-11'
+    event: Woo-verzoek ontvangen door gemeente Coevorden
+  - date: '2025-12-17'
+    event: 'Besluit: gedeeltelijke toewijzing Woo-verzoek'
+  - date: '2026-01-29'
+    event: Besluit verzonden
+ai_processed_at: '2026-08-18T06:49:55.439Z'
+ai_status: done
 ---
 
 Gemeente

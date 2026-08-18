@@ -1,9 +1,51 @@
 ---
-title: "Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 10.pdf"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 10.pdf.pdf"
-s3_etag: "b831f3dd8a2713cb31f04bbdbe9c538e-3"
-date: 2026-07-29
+title: >-
+  Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord
+  Deel 10.pdf
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - >-
+    Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in
+    Schoonoord.pdf
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en
+  herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop
+  en herontwikkeling van woningen in Schoonoord Deel 10.pdf.pdf
+s3_etag: b831f3dd8a2713cb31f04bbdbe9c538e-3
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  De tekst beschrijft vooral de ontwikkeling van prestatieafspraken en
+  samenwerkingsafspraken in Coevorden vanaf 2020, met nadruk op duurzaamheid,
+  wonen-zorg en leefbaarheid. Kernmomenten zijn de vaststelling van de
+  meerjarige prestatieafspraken in 2022, de intentieovereenkomst voor Schoonoord
+  in 2022 en de jaarschijven 2024 en 2025.
+milestones:
+  - date: '2020-03-01'
+    event: Start warmtevisie na sprintsessies
+  - date: '2020-12-31'
+    event: Gemiddelde energie-index Coevorden vastgesteld
+  - date: '2021-04-01'
+    event: RRE toegekend en uitvoering verlengd tot 2021-12-31
+  - date: '2021-12-01'
+    event: Woonvisie 2021+ vastgesteld
+  - date: '2022-07-12'
+    event: Collegebesluit voor intentieovereenkomst Schoonoord
+  - date: '2022-07-14'
+    event: Intentieovereenkomst integraal ontwikkelplan Schoonoord ondertekend
+  - date: '2022-12-05'
+    event: Meerjarige prestatieafspraken Coevorden 2023+ ondertekend
+  - date: '2023-01-01'
+    event: Woonzorgvisie BOCE vastgesteld
+  - date: '2023-12-01'
+    event: Jaarschijf 2024 vastgesteld
+  - date: '2024-11-13'
+    event: Jaarschijf 2025 vastgesteld
+  - date: '2025-02-01'
+    event: Jaarschijf 2025 ondertekend
+ai_processed_at: '2026-08-18T06:55:24.486Z'
+ai_status: done
 ---
 
 In het geval dat de subsidie niet is toegekend , dan gaat de

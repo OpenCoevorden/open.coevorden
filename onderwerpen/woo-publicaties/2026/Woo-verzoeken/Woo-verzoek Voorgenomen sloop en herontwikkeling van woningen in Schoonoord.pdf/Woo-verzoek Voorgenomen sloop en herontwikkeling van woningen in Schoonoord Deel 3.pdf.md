@@ -1,9 +1,146 @@
 ---
-title: "Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 3.pdf"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 3.pdf.pdf"
-s3_etag: "f7f75ea48a8709e69598823db51c5e46-7"
-date: 2026-07-29
+title: >-
+  Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord
+  Deel 3.pdf
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - >-
+    Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in
+    Schoonoord.pdf
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en
+  herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop
+  en herontwikkeling van woningen in Schoonoord Deel 3.pdf.pdf
+s3_etag: f7f75ea48a8709e69598823db51c5e46-7
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  Vanaf 2023 is het traject voor de integrale ontwikkeling van Schoonoord
+  opgestart, met uitwerking van een dorpsagenda, kansenkaart en
+  stedenbouwkundige plannen voor Noord en Zuid. In 2025 is de herstructurering
+  verder geconcretiseerd met keuzes voor de voorkeursrichting, voorbereiding van
+  inloopbijeenkomsten en verdere uitwerking van fasering, woningtypen en
+  communicatie.
+milestones:
+  - date: '2020-08-25'
+    event: Dorpsagenda Schoonoord voorbereid; bestuurlijk commitment gevraagd
+  - date: '2020-10-15'
+    event: >-
+      Bestuurlijk overleg: start gebiedsgerichte aanpak Schoonoord en verkenning
+      integrale samenwerking.
+  - date: '2021-12-09'
+    event: >-
+      Gemeente en Woonservice stemmen af over integrale aanpak Schoonoord en
+      gezamenlijke visie.
+  - date: '2022-03-03'
+    event: >-
+      Besluit om voor Schoonoord een integrale aanpak uit te werken met externe
+      adviseur.
+  - date: '2023-02-16'
+    event: >-
+      Collegebesluit over locatie en fasering van onderwijs/huisvesting in
+      Schoonoord; integrale planontwikkeling aangekondigd.
+  - date: '2023-09-07'
+    event: Start projectgroep integrale ontwikkeling Schoonoord
+  - date: '2023-10-30'
+    event: >-
+      Stuurgroep: kansenkaart vastgesteld/voorbereid en eerste
+      bewonersbijeenkomst voor Schoonoord-Noord aangekondigd.
+  - date: '2023-11-08'
+    event: Bewonersbijeenkomst Schoonoord-Noord over verkenning en woonwensen.
+  - date: '2024-01-16'
+    event: Stedenbouwkundig plan Schoonoord Noord besproken
+  - date: '2024-03-07'
+    event: >-
+      Stuurgroep: kansenkaart naar commissie en voortgang MFC en
+      stedenbouwkundig plan Noord besproken.
+  - date: '2024-05-02'
+    event: >-
+      Start uitwerking stedenbouwkundig plan Schoonoord-Zuid met interne
+      workshop.
+  - date: '2024-06-03'
+    event: Stedenbouwkundig plan Schoonoord Zuid besproken
+  - date: '2024-06-13'
+    event: >-
+      Inloopavond Schoonoord-Zuid voor ophalen van reacties op schetsen en
+      woonwensen.
+  - date: '2024-07-18'
+    event: >-
+      Projectgroep Zuid: programma van eisen aangescherpt en scenario’s
+      aangekondigd.
+  - date: '2024-09-23'
+    event: Schetsen Schoonoord Zuid besproken en aangepast
+  - date: '2024-09-23'
+    event: 'Projectgroep Zuid: scenario’s besproken en vervolgafspraken gemaakt.'
+  - date: '2024-11-29'
+    event: >-
+      Bestuurlijk overleg: sloop/verduurzaming, individuele bewonersinformatie
+      en gezamenlijke inloop aangekondigd.
+  - date: '2025-01-07'
+    event: 'Intern overleg herstructurering: koers en communicatie besproken'
+  - date: '2025-01-24'
+    event: >-
+      Actie- en besluitenlijst: samenwerking, informatiebijeenkomst en
+      planvorming vastgelegd
+  - date: '2025-01-28'
+    event: >-
+      Opdracht gegeven voor uitwerking stedenbouwkundig plan Zuid en
+      informatiebijeenkomst
+  - date: '2025-02-25'
+    event: >-
+      Projectgroep: uitwerking Noord/Zuid, parkeren, groen en schoolgebouwen
+      besproken
+  - date: '2025-03-11'
+    event: >-
+      Stuurgroep: voortgang, communicatie en inloopbijeenkomsten in april
+      besproken
+  - date: '2025-03-13'
+    event: 'Voorbereiding inloop Schoonoord over opzet, uitnodiging en doelgroep.'
+  - date: '2025-04-24'
+    event: >-
+      Aanvullende acties voor riolering, materiaalgebruik en huurdersgegevens
+      vastgesteld
+  - date: '2025-05-07'
+    event: Overleg gepland over gesprek met betrokkenen
+  - date: '2025-05-16'
+    event: Gesprek ingepland met betrokkenen
+  - date: '2025-06-12'
+    event: >-
+      Woonservice informeert college over visie en planning; sloopaanzeggingen
+      en herplaatsing bewoners toegelicht.
+  - date: '2025-06-20'
+    event: 'Bijeenkomst aangekondigd, vermoedelijk op 2025-07-15'
+  - date: '2025-06-24'
+    event: >-
+      Projectgroep: stand van zaken samenwerking Woonservice en
+      inloopbijeenkomst 15 juli besproken
+  - date: '2025-07-01'
+    event: Bijeenkomst van 2025-07-15 geannuleerd/uitgesteld
+  - date: '2025-09-18'
+    event: Bijeenkomst voorlopig gepland op 2025-10-16
+  - date: '2025-09-28'
+    event: Bijeenkomst bevestigd voor 2025-11-03
+  - date: '2025-10-15'
+    event: Keukentafelgesprek ingepland voor 2025-10-22
+  - date: '2025-10-23'
+    event: Afgestemd dat raadsleden het eerste uur van het gesprek mogen meeluisteren
+  - date: '2025-11-03'
+    event: Inloopavond nieuwbouw en herinrichting Schoonoord gehouden
+  - date: '2025-11-03'
+    event: Bijeenkomst in dorpshuis over schetsen en nieuwbouwplannen
+  - date: '2025-11-22'
+    event: Deadline voor het indienen van reacties op de schetsen
+  - date: '2025-11-25'
+    event: >-
+      Reacties inloopavond besproken; vervolg richting aangepaste schetsen
+      voorbereid
+  - date: '2026-01-22'
+    event: >-
+      Stuurgroep: route naar inloopbijeenkomst maart en beantwoording motie
+      besproken
+ai_processed_at: '2026-08-18T06:54:25.677Z'
+ai_status: done
 ---
 
 S t o rt s t

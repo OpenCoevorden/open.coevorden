@@ -1,9 +1,100 @@
 ---
-title: "Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 9.pdf"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 9.pdf.pdf"
-s3_etag: "24fc453f8303699b648030be3a78a772-7"
-date: 2026-07-29
+title: >-
+  Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord
+  Deel 9.pdf
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - >-
+    Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in
+    Schoonoord.pdf
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en
+  herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop
+  en herontwikkeling van woningen in Schoonoord Deel 9.pdf.pdf
+s3_etag: 24fc453f8303699b648030be3a78a772-7
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  De kern van het dossier is de herstructurering van Schoonoord, waarbij de
+  gemeente, Woonservice en Dorpsbelangen vanaf 2024 werken aan een kansenkaart
+  en daarna aan een stedenbouwkundig plan. In 2025 leidde een definitieve
+  sloopaanzegging tot onrust, waarna de gemeente de regie aanscherpte, de
+  einddatum uit de sloopaanzeggingen liet halen en een terugkeergarantie en
+  vervolgparticipatie organiseerde.
+milestones:
+  - date: '2020-04-01'
+    event: Thuiskompas/woonruimteverdeelsysteem live en uitvoering gestart
+  - date: '2020-10-01'
+    event: Gesprekken over sloop-nieuwbouw en herstructurering in Coevorden en dorpen
+  - date: '2020-12-31'
+    event: Woningmarktonderzoek BOCE afgerond
+  - date: '2021-04-01'
+    event: >-
+      Voorzieningenwijzer en woonlastencalculator geïntegreerd in processen en
+      verdere implementatie voorbereid
+  - date: '2021-04-01'
+    event: Nieuwe woonvisie in voorbereiding; prestatieafspraken worden herijkt
+  - date: '2021-04-01'
+    event: Thuiskompas verder uitgerold; urgentiebeleid en monitoring via dashboard
+  - date: '2022-01-01'
+    event: Prestatieafspraken en woonvisie worden doorvertaald naar nieuwe afspraken
+  - date: '2022-01-01'
+    event: >-
+      Start of voortzetting van grote renovatie- en verduurzamingsprojecten in
+      Tuindorp en Dalen
+  - date: '2023-10-25'
+    event: uitnodiging inloopbijeenkomst Schoonoord verzonden
+  - date: '2023-11-08'
+    event: inloopbijeenkomst Schoonoord-Noord
+  - date: '2023-11-08'
+    event: inloopbijeenkomst Schoonoord gepland
+  - date: '2023-12-19'
+    event: themasessie Wonen gemeenteraad gepland
+  - date: '2024-03-26'
+    event: raad stelt Kansenkaart Schoonoord vast
+  - date: '2024-05-28'
+    event: projectgroep Schoonoord Zuid gepland
+  - date: '2024-06-13'
+    event: inloopbijeenkomst Schoonoord-Zuid
+  - date: '2024-06-13'
+    event: dorpsavond Schoonoord gepland
+  - date: '2025-02-17'
+    event: raadsvragen over sociale huur/sloop/nieuwbouw Schoonoord
+  - date: '2025-02-22'
+    event: raadsvragen over plan Schoonoord-Noord
+  - date: '2025-03-09'
+    event: inloopavond Schoonoord-Zuid en gesprekken met huurders
+  - date: '2025-03-10'
+    event: inloopavond Schoonoord-Noord en gesprekken met huurders
+  - date: '2025-03-11'
+    event: voorbereiding inloop Schoonoord
+  - date: '2025-03-12'
+    event: presentatiemateriaal inloopbijeenkomsten Schoonoord voorbereid
+  - date: '2025-03-25'
+    event: motie 25-01 aangenomen over totaalplan en terugkeergarantie
+  - date: '2025-05-08'
+    event: raadsvragen over plan Schoonoord
+  - date: '2025-05-14'
+    event: beantwoording raadsvragen plan Schoonoord
+  - date: '2025-06-25'
+    event: college beantwoordt motie 25-01 en past samenwerking aan
+  - date: '2025-07-09'
+    event: raadsvragen over huurgrens woningen Schoonoord
+  - date: '2025-07-15'
+    event: inloopavond over nieuwe schetsen Schoonoord
+  - date: '2025-11-03'
+    event: inloopavond over aangepaste schetsen Schoonoord
+  - date: '2025-11-03'
+    event: inloopbijeenkomst Schoonoord gepland
+  - date: '2026-02-03'
+    event: college blikt terug en geeft vooruitblik op vervolg Schoonoord
+  - date: '2026-03-09'
+    event: gesprekken met bewoners en inloopavond Schoonoord-Zuid
+  - date: '2026-03-10'
+    event: gesprekken met bewoners en inloopavond Schoonoord-Noord
+ai_processed_at: '2026-08-18T06:51:00.251Z'
+ai_status: done
 ---
 
 (2)

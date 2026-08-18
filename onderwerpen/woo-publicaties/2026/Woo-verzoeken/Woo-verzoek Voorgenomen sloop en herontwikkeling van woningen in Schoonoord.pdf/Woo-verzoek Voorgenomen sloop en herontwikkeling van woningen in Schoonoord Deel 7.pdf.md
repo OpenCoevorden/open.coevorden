@@ -1,9 +1,45 @@
 ---
-title: "Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 7.pdf"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord Deel 7.pdf.pdf"
-s3_etag: "0525b531f63335c33f36506836118222-7"
-date: 2026-07-29
+title: >-
+  Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in Schoonoord
+  Deel 7.pdf
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - >-
+    Woo-verzoek Voorgenomen sloop en herontwikkeling van woningen in
+    Schoonoord.pdf
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Voorgenomen sloop en
+  herontwikkeling van woningen in Schoonoord.pdf/Woo-verzoek Voorgenomen sloop
+  en herontwikkeling van woningen in Schoonoord Deel 7.pdf.pdf
+s3_etag: 0525b531f63335c33f36506836118222-7
+date: 2026-07-29T00:00:00.000Z
+summary: >-
+  De kern van het dossier is de herstructurering van Schoonoord, met een
+  participatie- en besluitvormingstraject rond schetsontwerpen,
+  terugkeergarantie en uitstel van huuropzeggingen. In 2025 is de planning
+  aangepast en is de besluitvorming doorgeschoven naar 2026, met een dorpsbrede
+  inloopavond en verdere uitwerking van het stedenbouwkundig plan.
+milestones:
+  - date: '2024-03-26'
+    event: Kansenkaart Schoonoord vastgesteld
+  - date: '2025-03-25'
+    event: Motie herstructurering Schoonoord aangenomen
+  - date: '2025-06-20'
+    event: Collegebrief over aanpak herstructurering en participatie
+  - date: '2025-07-15'
+    event: Inloopbijeenkomst over schetsontwerpen gepland/gehouden
+  - date: '2025-10-14'
+    event: Huuropzeggingen uitgesteld tot na vaststelling stedenbouwkundig plan
+  - date: '2025-11-03'
+    event: Dorpsbrede inloopavond over conceptschetsen
+  - date: '2026-03-01'
+    event: Aangepaste schetsplannen in college en stuurgroep
+  - date: '2026-06-01'
+    event: Besluitvorming stedenbouwkundig plan in college en gemeenteraad
+ai_processed_at: '2026-08-18T06:51:46.825Z'
+ai_status: done
 ---
 
 KANSENKAART

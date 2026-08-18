@@ -1,9 +1,56 @@
 ---
-title: "Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 2"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 2.pdf"
-s3_etag: "c20322308367f6b90eb233c82cfcf570-13"
-date: 2026-07-30
+title: Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden Deel 2
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk 2a Coevorden
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek nieuwbouw- en verbouwplannen
+  Nieuwe Dijk 2a Coevorden/Woo-verzoek nieuwbouw- en verbouwplannen Nieuwe Dijk
+  2a Coevorden Deel 2.pdf
+s3_etag: c20322308367f6b90eb233c82cfcf570-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Dit document is een externe-veiligheidsrapportage (QRA) voor de realisatie van
+  bedrijfsunits voor opslag. Het beschrijft dat het plaatsgebonden risico geen
+  belemmering vormt en dat het groepsrisico in de toekomstige situatie zeer
+  licht toeneemt maar onder de oriëntatiewaarde blijft.
+milestones:
+  - date: '2023-09-14'
+    event: 'Omgevingstafel: positief principeadvies met aandachtspunten'
+  - date: '2024-01-31'
+    event: 'Collegebesluit: principe medewerking aan bedrijfsunits'
+  - date: '2024-12-16'
+    event: aanvraag omgevingsvergunning ingediend voor 69 opslagunits
+  - date: '2024-12-16'
+    event: Aanvraag omgevingsvergunning ingediend
+  - date: '2025-01-31'
+    event: 'Welstandsadvies: plan ter beoordeling voorgelegd'
+  - date: '2025-02-06'
+    event: 'VRD-advies: omgevingsplanactiviteit verlenen'
+  - date: '2025-02-14'
+    event: 'Bodemadvies ODD: nader onderzoek nodig'
+  - date: '2025-02-17'
+    event: verzoek aanvullende gegevens en opschorting beslistermijn
+  - date: '2025-02-17'
+    event: brief nadeelcompensatie verzonden
+  - date: '2025-02-25'
+    event: aanvullend schriftelijk advies gevraagd over groepsrisico
+  - date: '2025-02-26'
+    event: 'ODD-advies: milieumelding per activiteit/locatie afhankelijk van gebruik'
+  - date: '2025-03-03'
+    event: 'Advies: participatie, parkeren, AERIUS en externe veiligheid aanvullen'
+  - date: '2025-03-10'
+    event: 'Aanvullingsverzoek: nadeelcompensatie, BEA, erfinrichtingsplan en AERIUS'
+  - date: '2025-05-26'
+    event: 'ODD-advies: geen aparte melding per unit nodig, afhankelijk van gebruik'
+  - date: '2025-07-09'
+    event: verzoek om aanvulling en stand van zaken
+  - date: '2025-10-30'
+    event: nieuwe stukken ontvangen; plan aangepast naar 70 units
+ai_processed_at: '2026-08-18T06:47:01.299Z'
+ai_status: done
 ---
 
 1.1
