@@ -1,9 +1,35 @@
 ---
-title: "Woo-verzoek Handhavingsverzoek van verzoeker"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Handhavingsverzoek van verzoeker.pdf"
-s3_etag: "818a2134b19991df818c216d0603c8e3-2"
-date: 2026-08-18
+title: Woo-verzoek Handhavingsverzoek van verzoeker
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Handhavingsverzoek van
+  verzoeker.pdf
+s3_etag: 818a2134b19991df818c216d0603c8e3-2
+date: 2026-08-18T00:00:00.000Z
+summary: >-
+  Op 2025-09-08 diende verzoeker een handhavingsverzoek in over een schutting
+  aan Baander 18 te Aalden. De gemeente verlengde de beslistermijn, nam op
+  2026-01-19 een besluit op het handhavingsverzoek en wees dit toe; op
+  2026-05-04 volgde een Woo-verzoek dat op 2026-05-21 gedeeltelijk werd
+  toegewezen.
+milestones:
+  - date: '2025-09-08'
+    event: indiening handhavingsverzoek
+  - date: '2025-10-30'
+    event: verlenging beslistermijn handhavingsverzoek
+  - date: '2025-11-04'
+    event: voornemen last onder dwangsom
+  - date: '2026-01-19'
+    event: 'besluit op handhavingsverzoek: toegewezen'
+  - date: '2026-05-04'
+    event: indiening Woo-verzoek
+  - date: '2026-05-21'
+    event: 'besluit op Woo-verzoek: gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-18T09:55:59.399Z'
+ai_status: done
 ---
 
 dt Gemeente
