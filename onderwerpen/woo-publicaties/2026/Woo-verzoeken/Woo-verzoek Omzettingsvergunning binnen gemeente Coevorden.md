@@ -1,9 +1,26 @@
 ---
-title: "Woo-verzoek Omzettingsvergunning binnen gemeente Coevorden"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Omzettingsvergunning binnen gemeente Coevorden.pdf"
-s3_etag: "fd90c4636d2c6ea4e513da13a290a0e6"
-date: 2026-08-18
+title: Woo-verzoek Omzettingsvergunning binnen gemeente Coevorden
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Omzettingsvergunning binnen
+  gemeente Coevorden.pdf
+s3_etag: fd90c4636d2c6ea4e513da13a290a0e6
+date: 2026-08-18T00:00:00.000Z
+summary: >-
+  Op 2026-05-17 is een Woo-verzoek ingediend om een overzicht van
+  adressen/postcodes met een geregistreerde omzettingsvergunning voor
+  kamerverhuur. Op 2026-06-11 heeft de gemeente dit verzoek afgewezen omdat geen
+  documenten of bestaand overzicht aanwezig waren.
+milestones:
+  - date: '2026-05-17'
+    event: Woo-verzoek ingediend
+  - date: '2026-06-11'
+    event: Woo-verzoek afgewezen
+ai_processed_at: '2026-08-18T06:24:45.998Z'
+ai_status: done
 ---
 
 Postadres:

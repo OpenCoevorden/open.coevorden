@@ -1,9 +1,40 @@
 ---
-title: "Woo-verzoek Straten in Aalden"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Straten in Aalden.pdf"
-s3_etag: "63043e97115d189b723931634ff5ad20-2"
-date: 2026-08-18
+title: Woo-verzoek Straten in Aalden
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Straten in Aalden.pdf
+s3_etag: 63043e97115d189b723931634ff5ad20-2
+date: 2026-08-18T00:00:00.000Z
+summary: >-
+  De tekst bevat meerdere Woo- en omgevingsvergunningsdossiers van de gemeente
+  Coevorden. Kerngebeurtenissen zijn aanvragen, besluiten en één verlenging van
+  de beslistermijn; procedurele correspondentie en inhoudelijke details zijn
+  verder weggelaten.
+milestones:
+  - date: '2021-02-10'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor verbouw/uitbreiding woning
+      Rutgerswal 5
+  - date: '2021-05-18'
+    event: 'Besluit: omgevingsvergunning verleend Rutgerswal 5'
+  - date: '2021-07-16'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor uitbreiding woning en
+      schuur/overkapping Paasbergstraat 7
+  - date: '2021-08-04'
+    event: 'Besluit: aanvraag Paasbergstraat 7 vergunningvrij'
+  - date: '2021-12-17'
+    event: Aanvraag omgevingsvergunning ingediend voor overkapping Dilakker 2
+  - date: '2022-02-03'
+    event: 'Besluit: omgevingsvergunning verleend Dilakker 2'
+  - date: '2026-04-28'
+    event: Woo-verzoek ontvangen
+  - date: '2026-06-10'
+    event: 'Besluit Woo-verzoek: gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-18T06:24:38.618Z'
+ai_status: done
 ---
 
 Gemeente

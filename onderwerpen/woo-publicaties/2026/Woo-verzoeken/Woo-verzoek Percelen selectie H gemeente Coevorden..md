@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek Percelen selectie H gemeente Coevorden."
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Percelen selectie H gemeente Coevorden..pdf"
-s3_etag: "fb16a6ff342e4712189ddd16da1721c7"
-date: 2026-08-18
+title: Woo-verzoek Percelen selectie H gemeente Coevorden.
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Percelen selectie H gemeente
+  Coevorden..pdf
+s3_etag: fb16a6ff342e4712189ddd16da1721c7
+date: 2026-08-18T00:00:00.000Z
+summary: >-
+  Op 2026-05-02 is een Woo-verzoek ingediend over informatie rond agrarisch
+  gebruik en lelieteelt op percelen nabij Europaweg 12 te Coevorden. De gemeente
+  verlengde de beslistermijn en wees het verzoek vervolgens af, met de
+  mededeling dat geen gemeentelijke documenten of gegevens over
+  vergunninghouder/teler zijn aangetroffen.
+milestones:
+  - date: '2026-05-01'
+    event: verlenging beslistermijn tot 2026-06-15
+  - date: '2026-05-02'
+    event: indiening Woo-verzoek
+  - date: '2026-06-10'
+    event: 'besluit: Woo-verzoek afgewezen'
+ai_processed_at: '2026-08-18T06:24:42.346Z'
+ai_status: done
 ---
 
 Gemeente

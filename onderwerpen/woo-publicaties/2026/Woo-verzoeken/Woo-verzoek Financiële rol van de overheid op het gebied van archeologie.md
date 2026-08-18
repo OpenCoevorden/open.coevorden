@@ -1,9 +1,37 @@
 ---
-title: "Woo-verzoek Financiële rol van de overheid op het gebied van archeologie"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Financiële rol van de overheid op het gebied van archeologie.pdf"
-s3_etag: "bb2c250177e5eb3f149af419721cc069-2"
-date: 2026-08-18
+title: Woo-verzoek Financiële rol van de overheid op het gebied van archeologie
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Financiële rol van de overheid
+  op het gebied van archeologie.pdf
+s3_etag: bb2c250177e5eb3f149af419721cc069-2
+date: 2026-08-18T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden diende in 2026 een Woo-verzoek in over stukken rond
+  archeologie en financiële bijdragen voor percelen in Coevorden. Op 2026-06-17
+  is daarop gedeeltelijk beslist, met openbaarmaking onder weglakking van
+  persoonsgegevens; de procedure kende een specificatieverzoek, verlenging en
+  opschorting wegens zienswijzen van derden.
+milestones:
+  - date: '2026-04-22'
+    event: Woo-verzoek ingediend
+  - date: '2026-04-23'
+    event: Woo-verzoek ontvangen
+  - date: '2026-05-13'
+    event: Verzoek om specificatie Woo-verzoek
+  - date: '2026-05-15'
+    event: Specificatie Woo-verzoek aangeleverd
+  - date: '2026-05-26'
+    event: Beslistermijn met 2 weken verlengd
+  - date: '2026-06-03'
+    event: Beslistermijn opgeschort wegens zienswijze derden
+  - date: '2026-06-17'
+    event: 'Besluit Woo-verzoek: gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-18T06:24:51.346Z'
+ai_status: done
 ---
 
 Gemeente

@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek Wekelijkse overleggen Groepsaccommodatie Brink 9 Sleen"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Wekelijkse overleggen Groepsaccommodatie Brink 9 Sleen.pdf"
-s3_etag: "690b75a2a2562a7c3e6cf81e030604e0"
-date: 2026-08-18
+title: Woo-verzoek Wekelijkse overleggen Groepsaccommodatie Brink 9 Sleen
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Wekelijkse overleggen
+  Groepsaccommodatie Brink 9 Sleen.pdf
+s3_etag: 690b75a2a2562a7c3e6cf81e030604e0
+date: 2026-08-18T00:00:00.000Z
+summary: >-
+  Op 2026-04-10 diende een Woo-verzoek in over alle informatie rond wekelijkse
+  overleggen over Groepsaccommodatie Brink 9 te Sleen. De gemeente verlengde de
+  beslistermijn en wees het verzoek vervolgens af omdat het om intern beraad en
+  niet-opgenomen overleggen ging.
+milestones:
+  - date: '2026-04-10'
+    event: Woo-verzoek ingediend
+  - date: '2026-04-30'
+    event: Beslistermijn verlengd met 2 weken
+  - date: '2026-06-24'
+    event: 'Besluit: Woo-verzoek afgewezen'
+ai_processed_at: '2026-08-18T06:24:30.427Z'
+ai_status: done
 ---
 
 Gemeente
