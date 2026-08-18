@@ -205,12 +205,6 @@
 
         chatWindow.appendChild(msg);
         chatWindow.scrollTop = chatWindow.scrollHeight;
-
-        // WCAG 2.4.7: focus naar nieuw AI-bericht (niet bij elk gebruikersbericht).
-        if (role === "assistant") {
-            msg.setAttribute('tabindex', '-1');
-            setTimeout(() => msg.focus(), 100);
-        }
     }
 
     async function sendMessage() {
