@@ -270,7 +270,7 @@ jobs:
           # custom manager in renovate.json (comment + sleutel op de regel erna);
           # extractVersionTemplate daar strookt de 'v' van de release-tag eraf.
           # renovate: datasource=github-releases depName=gohugoio/hugo
-          hugo-version: '0.128.0'
+          hugo-version: '0.165.0'
           extended: true
 
       - name: Build Hugo site
