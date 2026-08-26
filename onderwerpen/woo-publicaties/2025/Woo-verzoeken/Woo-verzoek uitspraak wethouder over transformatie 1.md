@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek uitspraak wethouder over transformatie 1"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek uitspraak wethouder over transformatie 1.pdf"
-s3_etag: "16265a9b98408f0329dc8002d0ea5493"
-date: 2026-07-30
+title: Woo-verzoek uitspraak wethouder over transformatie 1
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek uitspraak wethouder over
+  transformatie 1.pdf
+s3_etag: 16265a9b98408f0329dc8002d0ea5493
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-09-22 is een Woo-verzoek ingediend over documenten en communicatie
+  rond de uitspraak dat de provincie geen transformatie van bungalowpark Wico
+  toestaat. De gemeente verlengde de beslistermijn en wees het verzoek op
+  2024-10-30 af omdat geen relevante documenten waren aangetroffen.
+milestones:
+  - date: '2024-09-22'
+    event: Indiening Woo-verzoek over bungalowpark Wico
+  - date: '2024-10-17'
+    event: Beslistermijn met twee weken verlengd
+  - date: '2024-10-30'
+    event: Woo-verzoek afgewezen; geen documenten aangetroffen
+ai_processed_at: '2026-08-26T13:12:53.875Z'
+ai_status: done
 ---
 
 Postadres:

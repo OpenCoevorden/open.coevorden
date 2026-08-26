@@ -1,9 +1,31 @@
 ---
-title: "Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden deel 2"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden/Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden deel 2.pdf"
-s3_etag: "2b696d996cabf77af11216eb8247e94b-12"
-date: 2026-07-30
+title: Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden deel 2
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek bodemverontreiniging en asbest
+  Nieuwe Dijk 2a Coevorden/Woo-verzoek bodemverontreiniging en asbest Nieuwe
+  Dijk 2a Coevorden deel 2.pdf
+s3_etag: 2b696d996cabf77af11216eb8247e94b-12
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De actualisatie van het bodemonderzoek concludeert dat meerdere gevallen van
+  ernstige bodem- en grondwaterverontreiniging op Nieuwe Dijk 2a te Coevorden
+  nog aanwezig zijn, zonder significante verspreiding. Aanvullend onderzoek is
+  aanbevolen naar onder meer asbest in puin, de gedempte watergang en de
+  grondwaterverontreiniging.
+milestones:
+  - date: '2023-06-21'
+    event: QuickScan-aanvraag ingediend voor nieuwbouw van bedrijfsunits
+  - date: '2024-12-16'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor sloop en nieuwbouw van 69
+      opslagunits
+ai_processed_at: '2026-08-26T13:40:31.818Z'
+ai_status: done
 ---
 
 actualisatie bodemonderzoek

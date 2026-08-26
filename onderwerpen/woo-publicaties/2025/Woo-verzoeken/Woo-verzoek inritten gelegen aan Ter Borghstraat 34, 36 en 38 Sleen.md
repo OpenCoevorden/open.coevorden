@@ -1,9 +1,30 @@
 ---
-title: "Woo-verzoek inritten gelegen aan Ter Borghstraat 34, 36 en 38 Sleen"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek inritten gelegen aan Ter Borghstraat 34, 36 en 38 Sleen.pdf"
-s3_etag: "d3e3f289889ea5b249ed0254f538b9a0-4"
-date: 2026-07-30
+title: 'Woo-verzoek inritten gelegen aan Ter Borghstraat 34, 36 en 38 Sleen'
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek inritten gelegen aan Ter
+  Borghstraat 34, 36 en 38 Sleen.pdf
+s3_etag: d3e3f289889ea5b249ed0254f538b9a0-4
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De Woo-aanvraag van 2025-04-01 zag op documenten over inritten aan de Ter
+  Borghstraat in Sleen. Coevorden wees het verzoek op 2025-05-12 gedeeltelijk
+  toe, waarbij documenten deels openbaar werden gemaakt en verzoekonderdelen
+  zonder aangetroffen documenten werden afgewezen.
+milestones:
+  - date: '2025-04-01'
+    event: Woo-verzoek ingediend
+  - date: '2025-04-02'
+    event: Woo-verzoek ontvangen
+  - date: '2025-04-16'
+    event: Beslistermijn verlengd
+  - date: '2025-05-12'
+    event: 'Woo-besluit: gedeeltelijke toewijzing en gedeeltelijke afwijzing'
+ai_processed_at: '2026-08-26T13:19:54.433Z'
+ai_status: done
 ---
 
 Postadres:

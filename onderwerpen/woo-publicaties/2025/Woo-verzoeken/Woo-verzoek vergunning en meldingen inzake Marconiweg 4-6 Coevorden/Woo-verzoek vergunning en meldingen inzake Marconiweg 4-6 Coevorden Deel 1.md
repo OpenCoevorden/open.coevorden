@@ -1,9 +1,63 @@
 ---
-title: "Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden Deel 1"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden/Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden Deel 1.pdf"
-s3_etag: "ece97179099e8d0c53aae181ba50fb5a-13"
-date: 2026-07-30
+title: Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden Deel 1
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek vergunning en meldingen inzake
+  Marconiweg 4-6 Coevorden/Woo-verzoek vergunning en meldingen inzake Marconiweg
+  4-6 Coevorden Deel 1.pdf
+s3_etag: ece97179099e8d0c53aae181ba50fb5a-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek van 2025-08-29 over vergunningaanvragen, meldingen en
+  vergunningen voor Marconiweg 4-6 is op 2025-10-24 toegewezen, met weglakking
+  van persoonsgegevens. In de onderliggende stukken staan onder meer een
+  verleende omgevingsvergunning uit 2018, een buiten behandeling gestelde
+  aanvraag uit 2019 en bezwaar tegen een last onder dwangsom uit 2023.
+milestones:
+  - date: '2017-11-06'
+    event: Aanvraag omgevingsvergunning voor vestiging houtdrogerij ontvangen.
+  - date: '2018-02-23'
+    event: Omgevingsvergunning voor de houtdrogerij verleend.
+  - date: '2018-05-23'
+    event: Gemeente Coevorden legt maatwerkvoorschriften voor geluid op.
+  - date: '2019-08-09'
+    event: Aanvraag omgevingsvergunning voor een overkapping ingediend.
+  - date: '2019-10-21'
+    event: >-
+      Aanvraag voor de overkapping buiten behandeling gesteld wegens ontbrekende
+      gegevens.
+  - date: '2020-10-15'
+    event: >-
+      Melding Activiteitenbesluit voor wijziging van de stookinstallatie
+      ontvangen.
+  - date: '2021-10-19'
+    event: >-
+      Melding Activiteitenbesluit onvolledig verklaard; aanvullende gegevens
+      verlangd en handhaving aangekondigd.
+  - date: '2022-03-22'
+    event: RUD Drenthe reageert op de melding van gewijzigde bedrijfsactiviteiten.
+  - date: '2022-04-06'
+    event: HDF Recycling dient een inhoudelijke akoestische reactie in.
+  - date: '2023-06-27'
+    event: >-
+      Last onder dwangsom opgelegd wegens overschrijding van de norm voor
+      totaalstof.
+  - date: '2023-08-08'
+    event: Bezwaar ingediend tegen de last onder dwangsom.
+  - date: '2025-08-29'
+    event: >-
+      Woo-verzoek ingediend over vergunningaanvragen, meldingen en vergunningen
+      voor Marconiweg 4-6.
+  - date: '2025-10-24'
+    event: >-
+      Woo-besluit genomen: verzoek toegewezen, met weglakking van
+      persoonsgegevens.
+ai_processed_at: '2026-08-26T13:31:33.912Z'
+ai_status: done
 ---
 
 Postadres:

@@ -1,9 +1,23 @@
 ---
-title: "Woo-verzoek transitie permanente bewoning op vakantieparken Deel 3"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek transitie permanente bewoning op vakantieparken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transitie permanente bewoning op vakantieparken/Woo-verzoek transitie permanente bewoning op vakantieparken Deel 3.pdf"
-s3_etag: "2a1ac9e25696f2a6df0b7656777a2031-9"
-date: 2026-07-30
+title: Woo-verzoek transitie permanente bewoning op vakantieparken Deel 3
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - Woo-verzoek transitie permanente bewoning op vakantieparken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transitie permanente bewoning
+  op vakantieparken/Woo-verzoek transitie permanente bewoning op vakantieparken
+  Deel 3.pdf
+s3_etag: 2a1ac9e25696f2a6df0b7656777a2031-9
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  In de tekst zijn geen concrete Woo-aanvraag, Woo-besluit, bezwaar-, beroep- of
+  uitspraakdata opgenomen. Wel staat vermeld dat het definitieve streefbeeld
+  voor De Tip op 2024-10-22 door het college is vastgesteld.
+milestones: []
+ai_processed_at: '2026-08-26T13:32:16.596Z'
+ai_status: done
 ---
 
 Aanvraagformulier

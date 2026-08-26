@@ -1,9 +1,62 @@
 ---
-title: "Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel 2"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek transformatie Bungalowpark De Tip en De Kiel"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transformatie Bungalowpark De Tip en De Kiel/Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel 2.pdf"
-s3_etag: "4d0c1140bf90f6692edb60f5becc9015-10"
-date: 2026-07-30
+title: Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel 2
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - Woo-verzoek transformatie Bungalowpark De Tip en De Kiel
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transformatie Bungalowpark De
+  Tip en De Kiel/Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel
+  2.pdf
+s3_etag: 4d0c1140bf90f6692edb60f5becc9015-10
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De tekst bevat geen Woo-aanvraag, Woo-besluit, bezwaar-, beroep- of
+  uitspraakgegevens. Wel is het bestaande bestemmingsplan op 2015-02-03
+  vastgesteld en is het definitieve streefbeeld voor de transformatie van De Tip
+  op 2024-10-22 door het college vastgesteld.
+milestones:
+  - date: '2020-10-20'
+    event: Gemeenteraad stemt in met transformatie van De Tip naar wonen.
+  - date: '2023-01-18'
+    event: >-
+      Deskundigenrapport over waardeverandering door functiewijziging
+      vastgesteld.
+  - date: '2023-02-16'
+    event: Addendum op het deskundigenrapport ondertekend.
+  - date: '2024-04-12'
+    event: Gekozen voor een TAM-omgevingsplan in plaats van een BOPA.
+  - date: '2024-04-23'
+    event: Aangepaste offerte voor het TAM-omgevingsplan uitgebracht.
+  - date: '2024-05-23'
+    event: Gemeente verstrekt opdracht voor het opstellen van het TAM-omgevingsplan.
+  - date: '2024-05-28'
+    event: Watertoets aangevraagd en ingediend
+  - date: '2024-06-12'
+    event: >-
+      Concept-TAM-omgevingsplan met motivering, regels en verbeelding
+      opgeleverd.
+  - date: '2024-07-12'
+    event: Concept-streefbeeld aan de eigenaren gepresenteerd.
+  - date: '2024-09-04'
+    event: Opmerkingen op het concept-TAM-omgevingsplan en het streefbeeld ingediend.
+  - date: '2024-10-01'
+    event: Provincie adviseert het plan vóór verdere procedure aan te passen.
+  - date: '2024-10-22'
+    event: Definitieve streefbeeld door het college vastgesteld.
+  - date: '2024-12-19'
+    event: >-
+      Aanvullende inhoudelijke reacties op het ontwerp-TAM-omgevingsplan
+      ingediend.
+  - date: '2025-01-08'
+    event: Concept-anterieure overeenkomst voor de transformatie opgesteld.
+  - date: '2025-01-14'
+    event: Concept-anterieure overeenkomst en ontwerp-TAM in de werkgroep besproken.
+  - date: '2025-01-21'
+    event: Gemeente wijst een gemengde functie wonen/recreatie af.
+ai_processed_at: '2026-08-26T13:37:57.603Z'
+ai_status: done
 ---
 
 september Fip

@@ -1,9 +1,75 @@
 ---
-title: "Woo-verzoek transitie permanente bewoning op vakantieparken Deel 1"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek transitie permanente bewoning op vakantieparken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transitie permanente bewoning op vakantieparken/Woo-verzoek transitie permanente bewoning op vakantieparken Deel 1.pdf"
-s3_etag: "0a8d69778c57e7672e21884a40ba18e2-7"
-date: 2026-07-30
+title: Woo-verzoek transitie permanente bewoning op vakantieparken Deel 1
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - Woo-verzoek transitie permanente bewoning op vakantieparken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transitie permanente bewoning
+  op vakantieparken/Woo-verzoek transitie permanente bewoning op vakantieparken
+  Deel 1.pdf
+s3_etag: 0a8d69778c57e7672e21884a40ba18e2-7
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over alle informatie betreffende de transitie naar permanente
+  bewoning op vakantieparken in Coevorden is toegewezen. De documenten worden
+  volledig of gedeeltelijk openbaar gemaakt, met weglakking van persoonsgegevens
+  en verwijzing naar reeds openbare stukken.
+milestones:
+  - date: '2023-01-18'
+    event: >-
+      Deskundigenrapport opgesteld over waardeverandering bij omzetting van
+      recreatie naar wonen op De Tip.
+  - date: '2023-02-16'
+    event: Addendum op het waarderingsrapport vastgesteld.
+  - date: '2023-03-02'
+    event: Concept-anterieure overeenkomst voor transformatie van De Tip opgesteld.
+  - date: '2023-06-06'
+    event: >-
+      Provincie bevestigt dat Wico teruggaat naar de recreatiebestemming;
+      transformatie naar wonen wordt niet voorzien.
+  - date: '2024-02-13'
+    event: >-
+      Transformatieproces De Tip opnieuw ingericht en geïntensiveerd met een
+      vaste samenwerking tussen gemeente en werkgroep.
+  - date: '2024-05-24'
+    event: Concept-streefbeeld voor transformatie van De Tip naar wonen opgesteld.
+  - date: '2024-05-28'
+    event: Aanvraag watertoets ingediend; geen-belapprocedure vastgesteld.
+  - date: '2024-07-12'
+    event: Concept-streefbeeld aan eigenaren gepresenteerd.
+  - date: '2024-10-22'
+    event: >-
+      College stelt het streefbeeld voor transformatie van De Tip vast en
+      besluit het vervolg richting transformatieplan en TAM-omgevingsplan voort
+      te zetten.
+  - date: '2024-10-22'
+    event: >-
+      Eerdere concept-anterieure overeenkomst wordt als te prematuur
+      teruggetrokken; een herziene overeenkomst wordt aangekondigd.
+  - date: '2024-10-22'
+    event: College stelt het streefbeeld voor transformatiepark De Tip vast.
+  - date: '2024-10-22'
+    event: College stelde het definitieve streefbeeld voor De Tip vast.
+  - date: '2024-11-11'
+    event: >-
+      Uitkomst van het wettelijk vooroverleg over het TAM-omgevingsplan
+      vastgelegd.
+  - date: '2025-02-26'
+    event: >-
+      Herzien concept van de anterieure overeenkomst voor De Tip wordt gedeeld
+      voor beoordeling.
+  - date: '2025-07-14'
+    event: >-
+      Woo-verzoek ingediend over transitie naar permanente bewoning op
+      vakantieparken.
+  - date: '2025-07-29'
+    event: >-
+      Woo-besluit genomen: verzoek toegewezen; documenten volledig of
+      gedeeltelijk openbaar.
+ai_processed_at: '2026-08-26T13:34:45.882Z'
+ai_status: done
 ---
 
 Postadres:

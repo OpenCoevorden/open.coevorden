@@ -1,9 +1,37 @@
 ---
-title: "Woo-verzoek Bungalowpark Wico, diverse onderwerpen Deel 2"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek Bungalowpark Wico, diverse onderwerpen"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek Bungalowpark Wico, diverse onderwerpen/Woo-verzoek Bungalowpark Wico, diverse onderwerpen Deel 2.pdf"
-s3_etag: "b9ecc2d0d9e24588ec7afc792c1ccc56-5"
-date: 2026-07-30
+title: 'Woo-verzoek Bungalowpark Wico, diverse onderwerpen Deel 2'
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - 'Woo-verzoek Bungalowpark Wico, diverse onderwerpen'
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek Bungalowpark Wico, diverse
+  onderwerpen/Woo-verzoek Bungalowpark Wico, diverse onderwerpen Deel 2.pdf
+s3_etag: b9ecc2d0d9e24588ec7afc792c1ccc56-5
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-05-30 werd een Woo-verzoek ingediend over het onderzoek naar
+  vakantieparken; de gemeente vermeldde dit verzoek in juli 2024 als beantwoord.
+  Op 2025-02-10 werden identieke Woo-verzoeken opnieuw ontvangen, waarna de
+  gemeente de geplande informatiebijeenkomst opschortte en intrekking verlangde.
+milestones:
+  - date: '2024-04-18'
+    event: Woo-verzoek uit 2023 beantwoord.
+  - date: '2024-05-30'
+    event: >-
+      Nieuw Woo-verzoek ingediend over de periode 2024-01-01 tot en met
+      2024-05-31.
+  - date: '2025-02-10'
+    event: >-
+      Twee Woo-verzoeken ingediend over transformatietrajecten De Tip en
+      Ermerzand.
+  - date: '2025-02-12'
+    event: >-
+      Gemeente meldt dat de eerder ingediende Woo-verzoeken in overleg zijn
+      ingetrokken.
+ai_processed_at: '2026-08-26T13:41:45.530Z'
+ai_status: done
 ---
 
 Gemeente Coevorden

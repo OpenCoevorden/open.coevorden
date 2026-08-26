@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek beantwoording persvragen Brink 9, Sleen"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek beantwoording persvragen Brink 9, Sleen.pdf"
-s3_etag: "d8af35cca46b98647019de15325e9ac0"
-date: 2026-07-30
+title: 'Woo-verzoek beantwoording persvragen Brink 9, Sleen'
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek beantwoording persvragen Brink
+  9, Sleen.pdf
+s3_etag: d8af35cca46b98647019de15325e9ac0
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2025-01-28 is een Woo-verzoek ingediend over beantwoording van persvragen
+  aan RTV Drenthe over dossier Brink 9 te Sleen. Het verzoek is bij besluit van
+  2025-03-14 volledig toegewezen, waarbij persoonsgegevens zijn weggelakt.
+milestones:
+  - date: '2025-01-28'
+    event: >-
+      Indiening Woo-verzoek om openbaarmaking van beantwoording van persvragen
+      aan RTV Drenthe.
+  - date: '2025-03-14'
+    event: >-
+      Besluit: Woo-verzoek volledig toegewezen; document openbaar gemaakt met
+      weglakking van persoonsgegevens.
+ai_processed_at: '2026-08-26T13:22:51.911Z'
+ai_status: done
 ---
 
 Gemeente

@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek woonwagenbeleid"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek woonwagenbeleid.pdf"
-s3_etag: "964f231563e7de07c49e9077a37704d3"
-date: 2026-07-30
+title: Woo-verzoek woonwagenbeleid
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: woo-publicaties/2025/Woo-verzoeken/Woo-verzoek woonwagenbeleid.pdf
+s3_etag: 964f231563e7de07c49e9077a37704d3
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De Landelijke woonwagenvereniging De Rolleman diende op 2025-03-28 een
+  Woo-verzoek in over documenten inzake externe adviesbureaus en het
+  woonwagenbeleid. Coevorden wees het verzoek op 2025-06-11 af, omdat geen
+  relevante overeenkomsten, contracten, instructies of beleidsrichtlijnen zijn
+  aangetroffen; enkele documenten waren al openbaar.
+milestones:
+  - date: '2025-03-28'
+    event: >-
+      Woo-verzoek ingediend over overeenkomsten, adviezen, rapportages en
+      instructies inzake externe adviesbureaus en het woonwagenbeleid.
+  - date: '2025-06-11'
+    event: >-
+      Besluit: Woo-verzoek afgewezen; de gemeente heeft geen gevraagde
+      overeenkomsten, instructies of beleidsrichtlijnen aangetroffen.
+ai_processed_at: '2026-08-26T13:11:01.946Z'
+ai_status: done
 ---
 
 Gemeente

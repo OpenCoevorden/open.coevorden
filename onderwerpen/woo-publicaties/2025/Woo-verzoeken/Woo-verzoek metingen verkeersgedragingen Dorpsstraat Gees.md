@@ -1,9 +1,30 @@
 ---
-title: "Woo-verzoek metingen verkeersgedragingen Dorpsstraat Gees"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek metingen verkeersgedragingen Dorpsstraat Gees.pdf"
-s3_etag: "4a9f015e08cf8046c3b0227529838bda"
-date: 2026-07-30
+title: Woo-verzoek metingen verkeersgedragingen Dorpsstraat Gees
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek metingen verkeersgedragingen
+  Dorpsstraat Gees.pdf
+s3_etag: 4a9f015e08cf8046c3b0227529838bda
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De Woo-aanvraag van 2025-09-07 over snelheidsmetingen in de Dorpsstraat te
+  Gees is op 2025-09-16 gedeeltelijk toegewezen. De aangetroffen documenten
+  worden openbaar gemaakt met weglakking van persoonsgegevens; voor een gevraagd
+  rapport zijn geen documenten aangetroffen.
+milestones:
+  - date: '2025-09-07'
+    event: >-
+      Woo-verzoek ingediend over verkeers- en snelheidsmetingen in de
+      Dorpsstraat te Gees.
+  - date: '2025-09-16'
+    event: >-
+      Woo-besluit: verzoek gedeeltelijk toegewezen; documenten openbaar met
+      weglakking van persoonsgegevens en geen rapport beschikbaar.
+ai_processed_at: '2026-08-26T13:18:08.361Z'
+ai_status: done
 ---
 
 Mm: Gemeente

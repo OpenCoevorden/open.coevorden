@@ -1,9 +1,27 @@
 ---
-title: "Woo-verzoek correspondentie over sanering(splicht) Europaweg 8 Coevorden"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek correspondentie over sanering(splicht) Europaweg 8 Coevorden.pdf"
-s3_etag: "623a2cf586df5e8eedf17d55233df9be-3"
-date: 2026-07-30
+title: Woo-verzoek correspondentie over sanering(splicht) Europaweg 8 Coevorden
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek correspondentie over
+  sanering(splicht) Europaweg 8 Coevorden.pdf
+s3_etag: 623a2cf586df5e8eedf17d55233df9be-3
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over correspondentie en interne stukken inzake de sanering van
+  asbest- en bodemverontreiniging op Europaweg 8 te Coevorden is op 2025-02-22
+  ontvangen. De gemeente heeft het verzoek op 2025-03-12 gedeeltelijk
+  toegewezen; persoonsgegevens en persoonlijke beleidsopvattingen zijn
+  weggelakt.
+milestones:
+  - date: '2025-02-22'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2025-03-12'
+    event: 'Besluit: Woo-verzoek gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-26T13:20:49.595Z'
+ai_status: done
 ---
 
 Gemeente

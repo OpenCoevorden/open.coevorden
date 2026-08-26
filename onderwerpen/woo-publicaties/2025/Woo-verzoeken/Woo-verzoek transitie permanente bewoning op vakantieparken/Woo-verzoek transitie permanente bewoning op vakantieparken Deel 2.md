@@ -1,9 +1,23 @@
 ---
-title: "Woo-verzoek transitie permanente bewoning op vakantieparken Deel 2"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek transitie permanente bewoning op vakantieparken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transitie permanente bewoning op vakantieparken/Woo-verzoek transitie permanente bewoning op vakantieparken Deel 2.pdf"
-s3_etag: "db45085bc43235d8a11cd7e0b447ee1e-13"
-date: 2026-07-30
+title: Woo-verzoek transitie permanente bewoning op vakantieparken Deel 2
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - Woo-verzoek transitie permanente bewoning op vakantieparken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transitie permanente bewoning
+  op vakantieparken/Woo-verzoek transitie permanente bewoning op vakantieparken
+  Deel 2.pdf
+s3_etag: db45085bc43235d8a11cd7e0b447ee1e-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  In de stukken staat geen Woo-aanvraag, Woo-besluit, bezwaar-,
+  beroepsprocedure, uitspraak, verlenging of intrekking. Wel is op 2024-10-22
+  het streefbeeld voor de transformatie van recreatiepark De Tip vastgesteld.
+milestones: []
+ai_processed_at: '2026-08-26T13:32:56.627Z'
+ai_status: done
 ---
 
 1 Monsterneming

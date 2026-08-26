@@ -1,9 +1,38 @@
 ---
-title: "Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel Deel 1"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel/Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel Deel 1.pdf"
-s3_etag: "cedd76c93e3238fec9dd77e2c2fc22d1-13"
-date: 2026-07-30
+title: 'Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel Deel 1'
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - 'Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel'
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek vertegenwoordiging
+  bestemmingswijziging De Tip, De Kiel/Woo-verzoek vertegenwoordiging
+  bestemmingswijziging De Tip, De Kiel Deel 1.pdf
+s3_etag: cedd76c93e3238fec9dd77e2c2fc22d1-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2025-09-28 is een Woo-verzoek ingediend over de vertegenwoordiging van
+  eigenaren en het transformatieproces op De Tip in De Kiel. De gemeente
+  Coevorden wees het verzoek op 2025-12-02 toe, met gedeeltelijke openbaarmaking
+  en weglakking van persoonsgegevens.
+milestones:
+  - date: '2015-02-03'
+    event: >-
+      Bestemmingsplan De Kiel-De Tip vastgesteld; overwegend
+      recreatiebestemming.
+  - date: '2025-06-25'
+    event: Plan voor kwaliteitsimpuls De Tip Groener! definitief vastgesteld.
+  - date: '2025-09-28'
+    event: >-
+      Woo-verzoek ingediend over de werkgroep, tussenbesluiten en financiële
+      stukken van de transformatie De Tip.
+  - date: '2025-12-02'
+    event: >-
+      Besluit: Woo-verzoek toegewezen; documenten deels openbaar gemaakt met
+      persoonsgegevens weggelakt.
+ai_processed_at: '2026-08-26T13:28:28.611Z'
+ai_status: done
 ---
 
 Postadres: Gemeente

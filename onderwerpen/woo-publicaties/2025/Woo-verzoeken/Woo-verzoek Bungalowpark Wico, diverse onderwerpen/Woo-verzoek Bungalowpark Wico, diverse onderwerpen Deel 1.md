@@ -1,9 +1,69 @@
 ---
-title: "Woo-verzoek Bungalowpark Wico, diverse onderwerpen Deel 1"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek Bungalowpark Wico, diverse onderwerpen"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek Bungalowpark Wico, diverse onderwerpen/Woo-verzoek Bungalowpark Wico, diverse onderwerpen Deel 1.pdf"
-s3_etag: "18635ec02e72d89d96c68d0eba921cf3-13"
-date: 2026-07-30
+title: 'Woo-verzoek Bungalowpark Wico, diverse onderwerpen Deel 1'
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - 'Woo-verzoek Bungalowpark Wico, diverse onderwerpen'
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek Bungalowpark Wico, diverse
+  onderwerpen/Woo-verzoek Bungalowpark Wico, diverse onderwerpen Deel 1.pdf
+s3_etag: 18635ec02e72d89d96c68d0eba921cf3-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over bungalowpark Wico is op 2025-09-03 gedeeltelijk
+  toegewezen. Aangetroffen documenten worden openbaar gemaakt met weglakking van
+  persoonsgegevens; voor vergunningen, meldingen, handhavingsbesluiten en het
+  omgevingsplan zijn geen documenten aangetroffen en bestuurlijke stukken waren
+  al openbaar.
+milestones:
+  - date: '2020-10-20'
+    event: Gemeenteraad stelt het programma Vitale Vakantieparken Coevorden vast.
+  - date: '2023-09-01'
+    event: >-
+      Rechtbank gelast openbaarmaking van de geheime bijlage over Vitale
+      Vakantieparken Coevorden.
+  - date: '2023-12-01'
+    event: Gemeente maakt de geheime bijlage openbaar.
+  - date: '2024-01-16'
+    event: >-
+      Toekomstonderzoek WICO gepresenteerd aan de gemeenteraad; gemeente kondigt
+      opschorting van handhaving aan.
+  - date: '2024-04-25'
+    event: >-
+      Gemeente bevestigt dat handhaving wordt opgeschort tot afronding van het
+      onderzoek, behalve de standaardafhandeling van nieuwe BRP-inschrijvingen.
+  - date: '2024-05-28'
+    event: Bureau Ruimte & Vrije Tijd voert een vitaliteitsscan en parkbezoek uit.
+  - date: '2024-08-01'
+    event: >-
+      Vitaliteitsscan concludeert dat WICO recreatief niet vitaal is en
+      nauwelijks recreatief toekomstperspectief heeft.
+  - date: '2024-09-24'
+    event: >-
+      Opschorting van handhaving wordt verlengd zolang gemeente en werkgroep in
+      gesprek zijn; nieuwe bewoners worden uitgezonderd.
+  - date: '2024-12-19'
+    event: >-
+      Minister roept gemeenten op handhaving tegen bestaande permanente bewoning
+      van recreatiewoningen voorlopig te pauzeren en kondigt een landelijke
+      instructieregel aan.
+  - date: '2025-03-27'
+    event: >-
+      Klacht ingediend bij de Autoriteit Persoonsgegevens over het delen van
+      persoonsgegevens door gemeente Coevorden met de werkgroep.
+  - date: '2025-06-18'
+    event: >-
+      AP besluit de klacht niet verder te onderzoeken en legt geen maatregel op;
+      gemeente ontvangt wel een waarschuwing over AVG-naleving.
+  - date: '2025-08-24'
+    event: Woo-verzoek over bungalowpark Wico ingediend.
+  - date: '2025-09-03'
+    event: >-
+      Woo-besluit: verzoek gedeeltelijk toegewezen; documenten deels openbaar,
+      persoonsgegevens weggelakt.
+ai_processed_at: '2026-08-26T13:42:37.023Z'
+ai_status: done
 ---
 
 Postadres: Gemeente

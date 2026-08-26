@@ -1,9 +1,27 @@
 ---
-title: "Woo-verzoek scheurvorming Arsenaal te Coevorden"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek scheurvorming Arsenaal te Coevorden.pdf"
-s3_etag: "f794ec6e548817497cef11f2384478d0-10"
-date: 2026-07-30
+title: Woo-verzoek scheurvorming Arsenaal te Coevorden
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek scheurvorming Arsenaal te
+  Coevorden.pdf
+s3_etag: f794ec6e548817497cef11f2384478d0-10
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek van 2025-05-13 over documenten inzake scheurvorming van Het
+  Arsenaal is toegewezen, waarbij documenten deels openbaar worden gemaakt.
+  Persoonsgegevens en concurrentiegevoelige bedrijfsgegevens zijn weggelakt.
+milestones:
+  - date: '2025-05-13'
+    event: Woo-verzoek ingediend over documentatie inzake scheurvorming Het Arsenaal
+  - date: '2025-05-17'
+    event: Beslistermijn met twee weken verlengd
+  - date: '2025-06-16'
+    event: 'Woo-besluit: verzoek toegewezen; documenten deels openbaar gemaakt'
+ai_processed_at: '2026-08-26T13:15:26.825Z'
+ai_status: done
 ---
 
 Postadres:

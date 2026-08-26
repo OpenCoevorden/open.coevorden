@@ -1,9 +1,30 @@
 ---
-title: "Woo-verzoek Toenakkers Meppen en Quick Scan"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek Toenakkers Meppen en Quick Scan.pdf"
-s3_etag: "25f9077d204096da81e08a79bed0c9b2-5"
-date: 2026-07-30
+title: Woo-verzoek Toenakkers Meppen en Quick Scan
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek Toenakkers Meppen en Quick
+  Scan.pdf
+s3_etag: 25f9077d204096da81e08a79bed0c9b2-5
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2025-02-10 is een Woo-verzoek ingediend over documenten rond de bestemming
+  en vitaliteitskwalificatie van Toenakkers in Meppen. Op 2025-03-17 is het
+  verzoek gedeeltelijk toegewezen: documenten worden openbaar gemaakt met
+  weglakking van persoonsgegevens, maar voor interne communicatie over
+  betrokkenheid van woningeigenaren zijn geen documenten aangetroffen.
+milestones:
+  - date: '2025-02-10'
+    event: Woo-verzoek ingediend over Toenakkers
+  - date: '2025-03-17'
+    event: >-
+      Woo-besluit: verzoek deels toegewezen; documenten deels openbaar,
+      persoonsgegevens gelakt en voor interne communicatie geen documenten
+      aangetroffen
+ai_processed_at: '2026-08-26T13:25:04.278Z'
+ai_status: done
 ---
 
 Postadres:

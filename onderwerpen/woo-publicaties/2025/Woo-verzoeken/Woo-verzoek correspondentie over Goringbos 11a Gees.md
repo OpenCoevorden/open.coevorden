@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek correspondentie over Goringbos 11a Gees"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek correspondentie over Goringbos 11a Gees.pdf"
-s3_etag: "d8a3f88170991f53fc2bc1487d1e3790-2"
-date: 2026-07-30
+title: Woo-verzoek correspondentie over Goringbos 11a Gees
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek correspondentie over Goringbos
+  11a Gees.pdf
+s3_etag: d8a3f88170991f53fc2bc1487d1e3790-2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over correspondentie inzake Goringbos 11a te Gees is op
+  2025-06-12 ontvangen en bij besluit van 2025-07-16 geheel toegewezen. Acht
+  documenten zijn openbaar gemaakt, met weglakking van persoonsgegevens en
+  persoonlijke beleidsopvattingen.
+milestones:
+  - date: '2025-06-12'
+    event: Woo-verzoek ontvangen over correspondentie inzake Goringbos 11a te Gees.
+  - date: '2025-07-16'
+    event: >-
+      Besluit: verzoek toegewezen; acht documenten openbaar gemaakt met beperkte
+      weglakking.
+ai_processed_at: '2026-08-26T13:21:16.349Z'
+ai_status: done
 ---
 
 Gemeente

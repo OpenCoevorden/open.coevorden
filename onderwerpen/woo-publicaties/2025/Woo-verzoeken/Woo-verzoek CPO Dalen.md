@@ -1,9 +1,24 @@
 ---
-title: "Woo-verzoek CPO Dalen"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek CPO Dalen.pdf"
-s3_etag: "64206bfc31d55bdaeb44e6f2d892b210-8"
-date: 2026-07-30
+title: Woo-verzoek CPO Dalen
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: woo-publicaties/2025/Woo-verzoeken/Woo-verzoek CPO Dalen.pdf
+s3_etag: 64206bfc31d55bdaeb44e6f2d892b210-8
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek is op 2024-12-16 ingediend en op 2025-01-27 volledig
+  toegewezen; vier documenten zijn openbaar gemaakt met weglakking van
+  persoonsgegevens. De documenten tonen onder meer een intentieverklaring voor
+  CPO Dalen Starters en eerdere transacties met percelen in Molenakkers II.
+milestones:
+  - date: '2024-12-16'
+    event: Woo-verzoek ingediend
+  - date: '2025-01-27'
+    event: 'Besluit: verzoek geheel toegewezen; persoonsgegevens weggelakt'
+ai_processed_at: '2026-08-26T13:25:46.962Z'
+ai_status: done
 ---
 
 Gemeente

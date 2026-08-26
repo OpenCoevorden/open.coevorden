@@ -1,9 +1,27 @@
 ---
-title: "Woo-verzoek meetdata overstorten rioolwater 1"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek meetdata overstorten rioolwater 1.pdf"
-s3_etag: "66e1aaad873d91491a04d85d1fa04cf9"
-date: 2026-07-30
+title: Woo-verzoek meetdata overstorten rioolwater 1
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek meetdata overstorten rioolwater
+  1.pdf
+s3_etag: 66e1aaad873d91491a04d85d1fa04cf9
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2025-05-20 diende verzoeker een Woo-verzoek in over meetgegevens van
+  rioolwateroverstorten over 2020-2024. De gemeente Coevorden wees het verzoek
+  op 2025-06-26 af omdat geen documenten waren aangetroffen.
+milestones:
+  - date: '2025-05-20'
+    event: Indiening Woo-verzoek
+  - date: '2025-06-26'
+    event: >-
+      Besluit: Woo-verzoek afgewezen wegens ontbreken van aangetroffen
+      documenten
+ai_processed_at: '2026-08-26T13:18:32.180Z'
+ai_status: done
 ---
 
 Gemeente

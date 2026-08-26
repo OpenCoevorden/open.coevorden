@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden deel 1"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden/Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden deel 1.pdf"
-s3_etag: "d7534fd5b9d98ca86f7252b9355bcc96-13"
-date: 2026-07-30
+title: Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden deel 1
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - Woo-verzoek bodemverontreiniging en asbest Nieuwe Dijk 2a Coevorden
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek bodemverontreiniging en asbest
+  Nieuwe Dijk 2a Coevorden/Woo-verzoek bodemverontreiniging en asbest Nieuwe
+  Dijk 2a Coevorden deel 1.pdf
+s3_etag: d7534fd5b9d98ca86f7252b9355bcc96-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Treanelka B.V. diende op 2025-10-20 een Woo-verzoek in over
+  bodemverontreiniging en asbest aan de Nieuwe Dijk 2a te Coevorden. De gemeente
+  wees het verzoek op 2025-12-15 gedeeltelijk toe en maakte documenten openbaar
+  met weglakking van persoonsgegevens en persoonlijke beleidsopvattingen.
+milestones:
+  - date: '2025-10-20'
+    event: Woo-verzoek ingediend over bodemverontreiniging en asbest
+  - date: '2025-12-15'
+    event: 'Besluit: Woo-verzoek gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-26T13:41:04.783Z'
+ai_status: done
 ---
 
 Gemeente

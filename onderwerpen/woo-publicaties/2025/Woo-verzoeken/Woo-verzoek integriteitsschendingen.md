@@ -1,9 +1,26 @@
 ---
-title: "Woo-verzoek integriteitsschendingen"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek integriteitsschendingen.pdf"
-s3_etag: "90000b41a697728dd923fd5b896cd34a-8"
-date: 2026-07-30
+title: Woo-verzoek integriteitsschendingen
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: woo-publicaties/2025/Woo-verzoeken/Woo-verzoek integriteitsschendingen.pdf
+s3_etag: 90000b41a697728dd923fd5b896cd34a-8
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2025-04-25 een Woo-verzoek over
+  integriteitsschendingen in de periode 2023-01-01 tot en met 2025-04-25. Op
+  2025-06-26 is het verzoek gedeeltelijk toegewezen, waarbij documenten deels
+  openbaar zijn gemaakt en informatie deels is geweigerd of gelakt.
+milestones:
+  - date: '2025-04-25'
+    event: Woo-verzoek ingediend over integriteitsschendingen en sociale veiligheid.
+  - date: '2025-06-26'
+    event: >-
+      Besluit: Woo-verzoek gedeeltelijk toegewezen; documenten deels openbaar
+      gemaakt en deels geweigerd.
+ai_processed_at: '2026-08-26T13:19:18.185Z'
+ai_status: done
 ---
 
 Gemeente

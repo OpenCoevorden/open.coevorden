@@ -1,9 +1,38 @@
 ---
-title: "Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel 1"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek transformatie Bungalowpark De Tip en De Kiel"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transformatie Bungalowpark De Tip en De Kiel/Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel 1.pdf"
-s3_etag: "75676d491f447ad72bab650243b4df9d-8"
-date: 2026-07-30
+title: Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel 1
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - Woo-verzoek transformatie Bungalowpark De Tip en De Kiel
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transformatie Bungalowpark De
+  Tip en De Kiel/Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel
+  1.pdf
+s3_etag: 75676d491f447ad72bab650243b4df9d-8
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden heeft het Woo-verzoek over de transformatie van
+  bungalowpark De Tip gedeeltelijk toegewezen. De documenten worden openbaar
+  gemaakt met weglakking van persoonsgegevens en weigering van twee documenten
+  wegens vertrouwelijk verstrekte bedrijfsgegevens.
+milestones:
+  - date: '2022-02-15'
+    event: >-
+      Gemeenteraad stelt de Deelstructuurvisie Transformatie recreatiewoningen
+      vast.
+  - date: '2024-05-28'
+    event: 'Watertoets aangevraagd; uitkomst: geen waterschapsbelang'
+  - date: '2025-02-10'
+    event: Woo-verzoek ingediend over de transformatie van Bungalowpark De Tip.
+  - date: '2025-03-05'
+    event: Beslistermijn met twee weken verlengd wegens de omvang van het verzoek.
+  - date: '2025-04-16'
+    event: >-
+      Woo-besluit: verzoek gedeeltelijk toegewezen; documenten deels openbaar
+      gemaakt en twee documenten geweigerd.
+ai_processed_at: '2026-08-26T13:39:37.177Z'
+ai_status: done
 ---
 
 Postadres: Gemeente

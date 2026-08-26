@@ -1,9 +1,46 @@
 ---
-title: "Woo-verzoek padelbanen tennisvereniging CTC Coevorden"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek padelbanen tennisvereniging CTC Coevorden.pdf"
-s3_etag: "571fa3e737954da9ac166f9bc432d094-11"
-date: 2026-07-30
+title: Woo-verzoek padelbanen tennisvereniging CTC Coevorden
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek padelbanen tennisvereniging CTC
+  Coevorden.pdf
+s3_etag: 571fa3e737954da9ac166f9bc432d094-11
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2025-10-19 is een Woo-verzoek ingediend over documenten betreffende de
+  vergunning voor twee padelbanen in Coevorden. De gemeente wees het verzoek op
+  2025-11-24 toe, met openbaarmaking van documenten waarbij persoonsgegevens
+  zijn weggelakt.
+milestones:
+  - date: '2022-02-28'
+    event: Aanvraag omgevingsvergunning voor twee padelbanen ingediend.
+  - date: '2023-09-26'
+    event: Omgevingsvergunning geweigerd wegens strijd met het bestemmingsplan.
+  - date: '2023-10-25'
+    event: Bezwaar tegen de weigering ingediend.
+  - date: '2024-04-25'
+    event: >-
+      Bezwaar ongegrond verklaard; weigering en afwijzing proceskostenvergoeding
+      gehandhaafd.
+  - date: '2025-08-08'
+    event: >-
+      Rechtbank verklaart beroep gegrond, vernietigt de beslissing op bezwaar en
+      draagt vergunningverlening op.
+  - date: '2025-09-22'
+    event: >-
+      Nieuwe beslissing op bezwaar: weigering herroepen en omgevingsvergunning
+      alsnog verleend; beslistermijn was verlengd.
+  - date: '2025-10-19'
+    event: Woo-verzoek ingediend over de vergunning voor twee padelbanen van CTC.
+  - date: '2025-11-24'
+    event: >-
+      Besluit: Woo-verzoek toegewezen; documenten openbaar gemaakt met
+      weglakking van persoonsgegevens.
+ai_processed_at: '2026-08-26T13:16:51.523Z'
+ai_status: done
 ---
 
 Postadres:

@@ -1,9 +1,33 @@
 ---
-title: "Woo-verzoek onroerend goed transacties met nutsbedrijven"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek onroerend goed transacties met nutsbedrijven.pdf"
-s3_etag: "f11fffe0c8a7ca5084a5c8a1a85d5444-4"
-date: 2026-07-30
+title: Woo-verzoek onroerend goed transacties met nutsbedrijven
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek onroerend goed transacties met
+  nutsbedrijven.pdf
+s3_etag: f11fffe0c8a7ca5084a5c8a1a85d5444-4
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Treanelka BV diende op 2025-06-12 een Woo-verzoek in over vastgoedtransacties
+  met nutsbedrijven in de periode 2020-01-01 tot en met 2025-06-11. De gemeente
+  Coevorden wees het verzoek op 2025-07-28 gedeeltelijk toe; documenten worden
+  deels openbaar gemaakt, terwijl voor huurovereenkomsten geen documenten zijn
+  aangetroffen.
+milestones:
+  - date: '2025-06-12'
+    event: Indiening Woo-verzoek over vastgoedtransacties met nutsbedrijven.
+  - date: '2025-07-01'
+    event: Beslistermijn met twee weken verlengd wegens de omvang van het verzoek.
+  - date: '2025-07-14'
+    event: Beslistermijn opgeschort wegens zienswijzen van derden.
+  - date: '2025-07-28'
+    event: >-
+      Woo-besluit: verzoek gedeeltelijk toegewezen; documenten deels openbaar,
+      huurovereenkomsten afgewezen wegens ontbreken van documenten.
+ai_processed_at: '2026-08-26T13:17:24.317Z'
+ai_status: done
 ---
 
 Postadres:

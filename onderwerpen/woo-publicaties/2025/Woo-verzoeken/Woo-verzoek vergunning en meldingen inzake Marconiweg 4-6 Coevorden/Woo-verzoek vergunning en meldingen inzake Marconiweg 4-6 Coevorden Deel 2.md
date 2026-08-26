@@ -1,9 +1,55 @@
 ---
-title: "Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden Deel 2"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden/Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden Deel 2.pdf"
-s3_etag: "2ea996003571a14a5b0c083a07e25584-2"
-date: 2026-07-30
+title: Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden Deel 2
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - Woo-verzoek vergunning en meldingen inzake Marconiweg 4-6 Coevorden
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek vergunning en meldingen inzake
+  Marconiweg 4-6 Coevorden/Woo-verzoek vergunning en meldingen inzake Marconiweg
+  4-6 Coevorden Deel 2.pdf
+s3_etag: 2ea996003571a14a5b0c083a07e25584-2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De Woo-aanvraag van 2025-08-29 over vergunningen, meldingen en verstrekte
+  vergunningen voor Marconiweg 4-6 is op 2025-10-24 toegewezen, met weglakking
+  van persoonsgegevens. In de onderliggende stukken staan onder meer een
+  verleende omgevingsvergunning uit 2018, een buiten behandeling gestelde
+  aanvraag uit 2019 en bezwaar tegen een last onder dwangsom uit 2023.
+milestones:
+  - date: '2017-11-06'
+    event: Aanvraag omgevingsvergunning voor vestiging houtdrogerij ingediend.
+  - date: '2018-02-23'
+    event: Omgevingsvergunning voor de houtdrogerij verleend.
+  - date: '2018-05-23'
+    event: Gemeente Coevorden legt maatwerkvoorschriften voor geluid op.
+  - date: '2019-08-09'
+    event: Aanvraag omgevingsvergunning voor overkapping ingediend.
+  - date: '2019-10-21'
+    event: Aanvraag omgevingsvergunning buiten behandeling gesteld.
+  - date: '2020-10-15'
+    event: >-
+      Melding Activiteitenbesluit voor wijziging van de stookinstallatie
+      ingediend.
+  - date: '2022-03-22'
+    event: >-
+      RUD Drenthe reageert op de gemelde wijziging van activiteiten en
+      betwijfelt de akoestische onderbouwing.
+  - date: '2023-06-27'
+    event: Last onder dwangsom wegens overschrijding van de stofemissienorm opgelegd.
+  - date: '2023-08-08'
+    event: Bezwaar tegen de last onder dwangsom ingediend.
+  - date: '2025-08-29'
+    event: >-
+      Woo-verzoek over vergunningaanvragen, meldingen en vergunningen voor
+      Marconiweg 4-6 ingediend.
+  - date: '2025-10-24'
+    event: >-
+      Woo-verzoek toegewezen; documenten openbaar gemaakt met weglakking van
+      persoonsgegevens.
+ai_processed_at: '2026-08-26T13:29:58.635Z'
+ai_status: done
 ---
 
 Postadres:

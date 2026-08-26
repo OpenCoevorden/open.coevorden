@@ -1,9 +1,38 @@
 ---
-title: "Woo-verzoek procedures tegen WOZ-waarde Wilhelminasingel 171 Coevorden"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek procedures tegen WOZ-waarde Wilhelminasingel 171 Coevorden.pdf"
-s3_etag: "e12a3907785bc64298884966f111770e"
-date: 2026-07-30
+title: Woo-verzoek procedures tegen WOZ-waarde Wilhelminasingel 171 Coevorden
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek procedures tegen WOZ-waarde
+  Wilhelminasingel 171 Coevorden.pdf
+s3_etag: e12a3907785bc64298884966f111770e
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De WOZ- en belastingaanslag 2023 voor Wilhelminasingel 171 werd aangevochten,
+  maar het bezwaar werd niet-ontvankelijk verklaard. Na beroep werd op
+  2025-01-10 een compromis bereikt; het Woo-verzoek hierover is op 2025-03-28
+  gedeeltelijk toegewezen.
+milestones:
+  - date: '2023-01-31'
+    event: Aanslag gemeentelijke belastingen en WOZ-beschikking 2023 opgelegd.
+  - date: '2023-03-03'
+    event: Bezwaar ingediend tegen de aanslag en WOZ-waarde.
+  - date: '2023-04-24'
+    event: Bezwaar niet-ontvankelijk verklaard wegens ontbrekende motivering.
+  - date: '2025-01-10'
+    event: Beroep behandeld; tijdens de zitting is een compromis bereikt.
+  - date: '2025-01-20'
+    event: Betaalopdracht verstrekt voor proceskosten en griffierecht.
+  - date: '2025-02-12'
+    event: Woo-verzoek ingediend en ontvangen.
+  - date: '2025-03-28'
+    event: >-
+      Woo-verzoek gedeeltelijk toegewezen; documenten openbaar gemaakt met
+      weglakking van persoonsgegevens.
+ai_processed_at: '2026-08-26T13:16:03.654Z'
+ai_status: done
 ---
 
 Gemeente

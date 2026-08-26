@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek communicatie met o.a. Naast de deur BV, Zorghuis Namaste en Dagbesteding de Bosrand"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek communicatie met o.a. Naast de deur BV, Zorghuis Namaste en Dagbesteding de Bosrand.pdf"
-s3_etag: "36ca5c65b2c3c81784b0ef9ce37bee93-2"
-date: 2026-07-30
+title: >-
+  Woo-verzoek communicatie met o.a. Naast de deur BV, Zorghuis Namaste en
+  Dagbesteding de Bosrand
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek communicatie met o.a. Naast de
+  deur BV, Zorghuis Namaste en Dagbesteding de Bosrand.pdf
+s3_etag: 36ca5c65b2c3c81784b0ef9ce37bee93-2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek van 2025-02-24 over communicatie rond Naast de Deur B.V.,
+  Zorghuis Namaste en Dagbesteding De Bosrand is op 2025-04-02 gedeeltelijk
+  toegewezen. De openbaar gemaakte 23 documenten zijn geanonimiseerd wegens
+  bescherming van persoonsgegevens.
+milestones:
+  - date: '2025-02-24'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2025-04-02'
+    event: 'Besluit: verzoek gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-26T13:21:47.766Z'
+ai_status: done
 ---
 
 Gemeente

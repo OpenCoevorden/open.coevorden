@@ -1,9 +1,40 @@
 ---
-title: "Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel Deel 2"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel/Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel Deel 2.pdf"
-s3_etag: "2808042d2a960e019b129f6f69f6b71b-7"
-date: 2026-07-30
+title: 'Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel Deel 2'
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - 'Woo-verzoek vertegenwoordiging bestemmingswijziging De Tip, De Kiel'
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek vertegenwoordiging
+  bestemmingswijziging De Tip, De Kiel/Woo-verzoek vertegenwoordiging
+  bestemmingswijziging De Tip, De Kiel Deel 2.pdf
+s3_etag: 2808042d2a960e019b129f6f69f6b71b-7
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De tekst bevat geen informatie over een Woo-aanvraag, Woo-besluit, bezwaar,
+  beroep, uitspraak, verlenging of intrekking.
+milestones:
+  - date: '2015-02-03'
+    event: >-
+      Bestemmingsplan De Kiel, De Tip onherroepelijk vastgesteld met overwegend
+      recreatiebestemming.
+  - date: '2021-09-14'
+    event: >-
+      Gemeenteraad stelt het kader voor kostenverhaal en verevening bij
+      transformatie van vakantieparken vast.
+  - date: '2022-03-01'
+    event: >-
+      Gemeenteraad stelt de deelstructuurvisie transformatie recreatiewoningen
+      vast.
+  - date: '2024-10-01'
+    event: College stelt het streefbeeld voor transformatiepark De Tip vast.
+  - date: '2025-09-23'
+    event: >-
+      College meldt sluiting van de anterieure overeenkomsten en besluit het
+      ontwerp-TAM-omgevingsplan ter inzage te leggen.
+ai_processed_at: '2026-08-26T13:27:25.527Z'
+ai_status: done
 ---
 
 Voor een taxateur geldt dat deze de marktwaarde moet vaststellen op de

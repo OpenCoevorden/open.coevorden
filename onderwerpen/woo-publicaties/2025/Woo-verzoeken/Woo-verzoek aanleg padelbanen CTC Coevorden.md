@@ -1,9 +1,45 @@
 ---
-title: "Woo-verzoek aanleg padelbanen CTC Coevorden"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek aanleg padelbanen CTC Coevorden.pdf"
-s3_etag: "482725c5a4a01e8aae1cb273b2b2d0ba-3"
-date: 2026-07-30
+title: Woo-verzoek aanleg padelbanen CTC Coevorden
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek aanleg padelbanen CTC
+  Coevorden.pdf
+s3_etag: 482725c5a4a01e8aae1cb273b2b2d0ba-3
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over de aanleg van twee padelbanen is op 2025-07-29
+  gedeeltelijk toegewezen; zes rechtbankdocumenten zijn openbaar gemaakt met
+  weglakking van persoonsgegevens. De onderliggende vergunningprocedure bestaat
+  uit een weigering, bezwaar en beroep; ten tijde van het Woo-besluit was nog
+  geen uitspraak gedaan.
+milestones:
+  - date: '2022-02-28'
+    event: Aanvraag omgevingsvergunning voor twee padelbanen ingediend.
+  - date: '2022-04-25'
+    event: Beslistermijn omgevingsvergunning met zes weken verlengd.
+  - date: '2023-09-29'
+    event: Omgevingsvergunning voor de padelbanen geweigerd.
+  - date: '2023-10-26'
+    event: Pro-formabezwaar tegen de weigering ingediend.
+  - date: '2024-01-15'
+    event: Eerste Woo-verzoek over de lopende vergunningprocedure ingediend.
+  - date: '2024-03-13'
+    event: Besluit op het eerste Woo-verzoek; documentatie openbaar gemaakt.
+  - date: '2024-04-25'
+    event: 'Besluit op bezwaar: bezwaar ongegrond verklaard en weigering gehandhaafd.'
+  - date: '2024-06-01'
+    event: Pro-formaberoep tegen het besluit op bezwaar ingesteld.
+  - date: '2025-07-09'
+    event: Tweede Woo-verzoek over alle interne en externe stukken ingediend.
+  - date: '2025-07-29'
+    event: >-
+      Woo-besluit: verzoek gedeeltelijk toegewezen; zes rechtbankdocumenten
+      openbaar gemaakt met weglakking van persoonsgegevens.
+ai_processed_at: '2026-08-26T13:24:33.841Z'
+ai_status: done
 ---
 
 Gemeente

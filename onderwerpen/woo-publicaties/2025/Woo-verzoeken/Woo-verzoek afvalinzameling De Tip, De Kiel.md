@@ -1,9 +1,26 @@
 ---
-title: "Woo-verzoek afvalinzameling De Tip, De Kiel"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek afvalinzameling De Tip, De Kiel.pdf"
-s3_etag: "40ebca6508e7e02b040a8415bf2d2def-10"
-date: 2026-07-30
+title: 'Woo-verzoek afvalinzameling De Tip, De Kiel'
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek afvalinzameling De Tip, De
+  Kiel.pdf
+s3_etag: 40ebca6508e7e02b040a8415bf2d2def-10
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2025-08-23 is een Woo-verzoek ingediend over documenten inzake de
+  afvalinzameling aan De Tip in De Kiel. De gemeente Coevorden heeft het verzoek
+  op 2025-09-25 toegewezen, waarbij de documenten deels openbaar worden gemaakt
+  met weglakking van persoonsgegevens.
+milestones:
+  - date: '2025-08-23'
+    event: Woo-verzoek ingediend over afvalinzameling aan De Tip
+  - date: '2025-09-25'
+    event: 'Woo-besluit: verzoek toegewezen; documenten deels openbaar gemaakt'
+ai_processed_at: '2026-08-26T13:23:28.979Z'
+ai_status: done
 ---
 
 Telefoon 14 0524

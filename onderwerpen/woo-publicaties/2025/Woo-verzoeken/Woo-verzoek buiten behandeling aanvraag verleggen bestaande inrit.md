@@ -1,9 +1,45 @@
 ---
-title: "Woo-verzoek buiten behandeling aanvraag verleggen bestaande inrit"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek buiten behandeling aanvraag verleggen bestaande inrit.pdf"
-s3_etag: "ffd39a690eba28c4d28909893f9e01d8"
-date: 2026-07-30
+title: Woo-verzoek buiten behandeling aanvraag verleggen bestaande inrit
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek buiten behandeling aanvraag
+  verleggen bestaande inrit.pdf
+s3_etag: ffd39a690eba28c4d28909893f9e01d8
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De aanvraag voor een omgevingsvergunning voor het verleggen van een bestaande
+  inrit bij Brink 9a te Sleen werd op 2024-09-12 buiten behandeling gesteld
+  wegens het niet aanleveren van aanvullende gegevens. Het daaropvolgende
+  Woo-verzoek van 2024-11-29 is op 2025-01-28 gedeeltelijk toegewezen; daarnaast
+  werd in 2020 een omgevingsvergunning voor een inrit aan Brink 11 verleend.
+milestones:
+  - date: '2020-07-25'
+    event: Aanvraag omgevingsvergunning voor aanleg inrit aan Brink 11 ingediend.
+  - date: '2020-10-29'
+    event: Omgevingsvergunning voor de inrit aan Brink 11 verleend.
+  - date: '2023-12-30'
+    event: >-
+      Aanvraag omgevingsvergunning voor het verleggen van een bestaande inrit
+      aan Brink 9a ingediend.
+  - date: '2024-03-18'
+    event: Beslistermijn met zes weken verlengd.
+  - date: '2024-09-12'
+    event: >-
+      Aanvraag omgevingsvergunning wegens ontbrekende aanvullende gegevens
+      buiten behandeling gesteld.
+  - date: '2024-11-29'
+    event: >-
+      Woo-verzoek over de legesaanslag, besluitvorming en omliggende inritten
+      ingediend.
+  - date: '2025-01-28'
+    event: >-
+      Woo-verzoek gedeeltelijk toegewezen; twee geanonimiseerde documenten
+      openbaar gemaakt.
+ai_processed_at: '2026-08-26T13:22:25.568Z'
+ai_status: done
 ---
 
 Gemeente

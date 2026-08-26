@@ -1,9 +1,26 @@
 ---
-title: "Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel 3"
-maps: ["woo-publicaties","2025","Woo-verzoeken","Woo-verzoek transformatie Bungalowpark De Tip en De Kiel"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transformatie Bungalowpark De Tip en De Kiel/Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel 3.pdf"
-s3_etag: "dc55ab3d19567f9e823a151e628a5a59-8"
-date: 2026-07-30
+title: Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel 3
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+  - Woo-verzoek transformatie Bungalowpark De Tip en De Kiel
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transformatie Bungalowpark De
+  Tip en De Kiel/Woo-verzoek transformatie Bungalowpark De Tip en De Kiel deel
+  3.pdf
+s3_etag: dc55ab3d19567f9e823a151e628a5a59-8
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  In de tekst zijn geen Woo-aanvraag, besluit, bezwaar, beroep, uitspraak,
+  verlenging of intrekking vermeld.
+milestones:
+  - date: '2021-09-14'
+    event: >-
+      Gemeenteraad besluit over verevening bij transformatie van vakantiepark
+      naar woonpark.
+ai_processed_at: '2026-08-26T13:35:59.033Z'
+ai_status: done
 ---
 
 Gemeente Coevorden

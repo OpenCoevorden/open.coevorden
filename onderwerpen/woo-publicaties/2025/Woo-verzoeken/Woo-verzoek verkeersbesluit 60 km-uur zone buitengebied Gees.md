@@ -1,9 +1,36 @@
 ---
-title: "Woo-verzoek verkeersbesluit 60 km-uur zone buitengebied Gees"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek verkeersbesluit 60 km-uur zone buitengebied Gees.pdf"
-s3_etag: "ad370022c2d7bcd92bd6700931905e0a-2"
-date: 2026-07-30
+title: Woo-verzoek verkeersbesluit 60 km-uur zone buitengebied Gees
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek verkeersbesluit 60 km-uur zone
+  buitengebied Gees.pdf
+s3_etag: ad370022c2d7bcd92bd6700931905e0a-2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek van 2025-10-26 betrof documenten over de intrekking van het
+  verkeersbesluit voor de 60 km/u-zone in het buitengebied van Gees. Coevorden
+  wees het verzoek op 2025-11-20 toe en maakte de documenten deels openbaar, met
+  weglakking van persoonsgegevens.
+milestones:
+  - date: '2025-07-01'
+    event: Verkeersbesluit tot instelling van de 60 km/u-zone genomen.
+  - date: '2025-08-27'
+    event: Bezwaar tegen het verkeersbesluit ingediend.
+  - date: '2025-10-14'
+    event: Verkeersbesluit tot instelling van de 60 km/u-zone ingetrokken.
+  - date: '2025-10-22'
+    event: Intrekkingsbesluit gepubliceerd.
+  - date: '2025-10-26'
+    event: Woo-verzoek ingediend over de intrekking van het verkeersbesluit.
+  - date: '2025-11-04'
+    event: Woo-beslistermijn met twee weken opgeschort wegens zienswijzen van derden.
+  - date: '2025-11-20'
+    event: 'Woo-besluit: verzoek toegewezen; documenten deels openbaar gemaakt.'
+ai_processed_at: '2026-08-26T13:12:35.108Z'
+ai_status: done
 ---
 
 Postadres:

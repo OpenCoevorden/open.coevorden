@@ -1,9 +1,71 @@
 ---
-title: "Woo-verzoek transformatie Bungalowpark Ermerzand in Erm 1"
-maps: ["woo-publicaties","2025","Woo-verzoeken"]
-source: "woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transformatie Bungalowpark Ermerzand in Erm 1.pdf"
-s3_etag: "0a4a05d0f271f1e19602d52a74513824-6"
-date: 2026-07-30
+title: Woo-verzoek transformatie Bungalowpark Ermerzand in Erm 1
+maps:
+  - woo-publicaties
+  - '2025'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2025/Woo-verzoeken/Woo-verzoek transformatie Bungalowpark
+  Ermerzand in Erm 1.pdf
+s3_etag: 0a4a05d0f271f1e19602d52a74513824-6
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over de transformatie van Bungalowpark Ermerzand is
+  gedeeltelijk toegewezen. Documenten zijn deels openbaar gemaakt met weglakking
+  van persoonsgegevens en andere uitzonderingsgronden; voor onderdelen 1, 3 en 7
+  zijn geen documenten aangetroffen en conceptdocumenten zijn mede wegens
+  bezwaar van een derde geweigerd.
+milestones:
+  - date: '2020-01-09'
+    event: Quickscan naar de kansrijkheid van transformatie besproken.
+  - date: '2020-03-04'
+    event: Quickscan gepubliceerd; transformatie naar wonen als kansrijk aangemerkt.
+  - date: '2024-03-01'
+    event: >-
+      Q&A vastgesteld: onderzoek naar transformatie loopt; definitief besluit is
+      nog niet genomen.
+  - date: '2024-08-28'
+    event: >-
+      Informatieverzoek over verwachte datum van definitieve woonbestemming;
+      gemeente geeft aan geen individuele beschikkingen te verlenen en tijdelijk
+      niet te handhaven.
+  - date: '2024-09-04'
+    event: >-
+      Vraag aan gemeente over wanneer Ermerzand definitief een woonbestemming
+      krijgt.
+  - date: '2024-09-28'
+    event: >-
+      Werksessie gehouden over het toekomstige woonpark en bouwstenen voor het
+      streefbeeld.
+  - date: '2024-11-09'
+    event: >-
+      Uitkomsten van de werksessie gepresenteerd; indicatieve peiling over
+      instemming met statutenwijziging en permanente bewoning aangekondigd.
+  - date: '2024-11-18'
+    event: >-
+      Gemeente bevestigt dat transformatie onzeker is, een overgrote meerderheid
+      vereist is en rond medio 2025 meer duidelijkheid wordt verwacht; bij
+      uitblijven volgt handhaving.
+  - date: '2025-01-24'
+    event: >-
+      Overleg over aangepast streefbeeld, juridische besluitvorming en opties
+      voor eigendom en beheer van de wegen.
+  - date: '2025-02-07'
+    event: >-
+      Streefbeeld versie 3 verspreid; gemeentelijk draagvlak en een volgende
+      eigenarenbijeenkomst worden voorbereid.
+  - date: '2025-02-10'
+    event: >-
+      Woo-verzoek ingediend over documenten inzake de transformatie van
+      Bungalowpark Ermerzand.
+  - date: '2025-03-05'
+    event: Beslistermijn met twee weken verlengd wegens de omvang van het verzoek.
+  - date: '2025-03-26'
+    event: >-
+      Besluit: Woo-verzoek gedeeltelijk toegewezen; documenten deels openbaar
+      gemaakt en deels geweigerd.
+ai_processed_at: '2026-08-26T13:14:46.505Z'
+ai_status: done
 ---
 
 Postadres: Gem eente
