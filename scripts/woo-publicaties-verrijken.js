@@ -61,7 +61,7 @@ const MAX_CONCURRENT = parseInt(process.env.CONCURRENCY || "1", 10);
 // bijbehorende gebeurtenis. Let op: estimateTokens is een grove schatting
 // (tekens/4), dus hou marge tot het echte venster.
 // Updaten: env MAX_TOKENS_PER_REQUEST.
-const MAX_TOKENS_PER_REQUEST = parseInt(process.env.MAX_TOKENS_PER_REQUEST || "200000", 10);
+const MAX_TOKENS_PER_REQUEST = parseInt(process.env.MAX_TOKENS_PER_REQUEST || "60000", 10);
 
 // Harde bovengrens op de tekst die naar de samenvatting-call gaat.
 // Updaten: env MAX_SUMMARY_TOKENS. Voorkomt te grote samenvattings-requests.
