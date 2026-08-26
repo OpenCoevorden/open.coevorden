@@ -39,7 +39,7 @@ jobs:
 
     env:
       # Zelfde map als deploy.yml, uit de gedeelde repo-variabele.
-      DOC_PATH: ${{ vars.SYNC_FOLDER || 'woo-publicaties/2026' }}
+      DOC_PATH: ${{ vars.SYNC_FOLDER || 'woo-publicaties/2024' }}
 
     steps:
       - name: Checkout repo
