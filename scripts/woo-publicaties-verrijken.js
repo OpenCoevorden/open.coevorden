@@ -73,7 +73,7 @@ const SYSTEM_PROMPT =
   "Je bent een expert in Nederlandse Woo-dossiers. Taak: Extraheer een chronologische tijdlijn en samenvatting. " +
   "Neem alleen kerngebeurtenissen op: indiening aanvraag, besluit, bezwaar/beroep, uitspraak, verlenging, intrekking. " +
   "Laat proceduregebeurtenissen zoals ontvangstbevestigingen, interne herinneringen en correspondentie zonder inhoudelijke wijziging weg. " +
-  "Gebruik ISO datums (YYYY-MM-DD). Negeer vóór 2020.";
+  "Gebruik ISO datums (YYYY-MM-DD). Negeer vóór 2010.";
 
 /* ------------------ UTIL ------------------ */
 
@@ -158,7 +158,7 @@ function extractRelevantBlocks(text) {
     .map((p) => p.trim())
     .filter((p) => p.length > 0)
     .filter((p) => {
-      const hasSignal = IMPORTANT_RX.test(p) || DATE_RX.test(p) || p.length > 80;
+      const hasSignal = IMPORTANT_RX.test(p) || DATE_RX.test(p) || p.length > 400;
       const isPureBoilerplate =
         BOILERPLATE_RX.some((rx) => rx.test(p)) && !DATE_RX.test(p) && !IMPORTANT_RX.test(p);
       return hasSignal && !isPureBoilerplate;
@@ -209,7 +209,7 @@ function extractSummaryBlocksSmart(text) {
       const lower = p.toLowerCase();
       if (/besluit|beslissing|toegekend|afgewezen|verlengd|gegrond|ongegrond/.test(lower)) score += 5;
       if (/aanvraag|verzoek|reactie|zienswijze|document|onderzoek|rapport/.test(lower)) score += 3;
-      if (/college|burgemeester|gemeente|bestuurlijk|afdeling/.test(lower)) score += 2;
+    /*  if (/college|burgemeester|gemeente|bestuurlijk|afdeling/.test(lower)) score += 2; */
       if (p.length > 200) score += 1;
       return { text: p.trim(), score };
     })
@@ -274,7 +274,7 @@ function cleanMilestones(milestones) {
       event: typeof m.event === "string" ? m.event.trim() : String(m.event ?? "").trim(),
     }))
     .filter((m) => m.date && m.event.length > 0)
-    .filter((m) => parseInt(m.date.slice(0, 4), 10) >= 2020)
+    .filter((m) => parseInt(m.date.slice(0, 4), 10) >= 2010)
     .filter((m) => {
       const id = `${m.date}-${m.event.toLowerCase()}`;
       if (seen.has(id)) return false;
