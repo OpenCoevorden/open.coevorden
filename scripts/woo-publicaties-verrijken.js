@@ -74,7 +74,7 @@ const MAX_CHUNKS_PER_FILE = parseInt(process.env.MAX_CHUNKS_PER_FILE || "6", 10)
 
 // Pauze (ms) tussen AI-calls om rate limits te ontzien.
 // Updaten: env REQUEST_DELAY_MS. Hoger = trager maar veiliger.
-const REQUEST_DELAY_MS = parseInt(process.env.REQUEST_DELAY_MS || "1500", 10);
+const REQUEST_DELAY_MS = parseInt(process.env.REQUEST_DELAY_MS || "8000", 10);
 
 // Ondergrens voor milestone-jaartallen. Staat op ÉÉN plek: hij wordt zowel in
 // de system-prompt geïnterpoleerd als in cleanMilestones() afgedwongen, zodat
