@@ -12,68 +12,96 @@ s3_etag: cf449ae403072a9e13eaaa16918a778b-6
 date: 2026-07-30T00:00:00.000Z
 summary: >-
   Op 2024-07-03 is een Woo-verzoek ingediend over documenten en correspondentie
-  inzake de transitie naar permanente bewoning op Bungalowpark Ermerzand. De
-  gemeente Coevorden heeft het verzoek op 2024-09-03 toegewezen, met
-  gedeeltelijke openbaarmaking vanwege onder meer persoonsgegevens en
+  over de transitie naar permanente bewoning op Bungalowpark Ermerzand. De
+  gemeente Coevorden heeft het verzoek op 2024-09-03 toegewezen en de documenten
+  deels openbaar gemaakt, met uitzonderingen voor onder meer persoonsgegevens en
   concurrentiegevoelige bedrijfsgegevens.
 milestones:
+  - date: '2017-11-21'
+    event: >-
+      College informeert de raad over de voorgenomen verkoop van de ondergrond
+      van Ermerzand aan de Coöperatieve Vereniging Ermerzand.
   - date: '2017-12-04'
     event: >-
-      Gemeente Coevorden draagt de eigendom van de parkgrond, belast met
-      erfpacht, over aan de CvE Ermerzand.
+      Gemeente draagt de met erfpacht belaste eigendom van het park over aan de
+      CVE.
+  - date: '2020-01-09'
+    event: Startoverleg over de quick scan naar transformatie van Ermerzand.
+  - date: '2020-10-27'
+    event: >-
+      Technische beleidsvoorbereiding voor transformatie van recreatiewoningen
+      naar reguliere woningen wordt vastgelegd.
   - date: '2021-03-05'
     event: >-
-      Definitieve quickscan concludeert dat transformatie van Ermerzand naar een
-      woonbestemming kansrijk is.
+      Quick scan definitief: transformatie naar een woonbuurt wordt kansrijk
+      geacht.
+  - date: '2021-03-16'
+    event: >-
+      Checklist vastgesteld voor toetsing van recreatiewoningen aan het
+      Bouwbesluitniveau voor bestaande woonfuncties.
   - date: '2021-04-26'
     event: >-
-      CVE en gemeente informeren eigenaren over de voorgenomen transformatie en
-      vragen mandaat voor het vervolgonderzoek.
-  - date: '2021-05-21'
-    event: >-
-      De uitkomst van de eigenarenraadpleging wordt besproken; een meerderheid
-      steunt vertegenwoordiging, onderzoek naar permanent wonen en budget voor
-      de transitie.
+      CVE en gemeente informeren eigenaren over de mogelijke transformatie van
+      Ermerzand naar een woonpark en vragen om steun en mandaat.
   - date: '2021-09-14'
     event: >-
-      De gemeenteraad behandelt het kader voor kostenverhaal en verevening bij
-      transformatie, waaronder een bijdrage van 20% van de getaxeerde
-      waardestijging.
-  - date: '2022-02-17'
+      Raadsvoorstel over kostenverhaal en een vereveningsbijdrage van 20% van de
+      getaxeerde waardestijging.
+  - date: '2021-09-25'
     event: >-
-      Besproken wordt dat de ALV het besluit over transformatie neemt; taxatie
-      en verdere onderzoeken worden naar de volgende fase verschoven.
-  - date: '2022-03-10'
-    event: >-
-      De enquête onder eigenaren wordt grotendeels afgerond; partijen werken toe
-      naar een principebesluit en een afsprakenbrief voor de volgende fase.
-  - date: '2022-09-01'
-    event: >-
-      Gemeente en park leggen in een afsprakenbrief vast de transformatie naar
-      permanente bewoning gezamenlijk te onderzoeken.
+      Gemeente en park starten gezamenlijk de verkenning van transformatie; er
+      is nog geen definitief transformatiebesluit.
+  - date: '2021-09-25'
+    event: Gemeente bevestigt een vereveningskader van 20% bij bestemmingswijziging.
   - date: '2023-01-01'
     event: >-
-      Het recht van erfpacht loopt af; de juridische structuur wordt omgezet
-      naar volle eigendom van de bungalowappartementsrechten.
-  - date: '2023-01-01'
+      Park en gemeente leggen de intentie en procesafspraken vast voor
+      transformatie naar wonen.
+  - date: '2023-05-31'
     event: >-
-      Gemeente en park bekrachtigen opnieuw afspraken over het vervolg van het
-      transformatieproces richting een woonbestemming.
+      Toekomstscenario’s voor de gemeenschappelijke voorzieningen bij een
+      woonfunctie opgesteld.
+  - date: '2023-06-09'
+    event: >-
+      Park en gemeente leggen de opdracht voor taxatie van de waardeverandering
+      van de grond en voor Bouwbesluittoetsing verder vast.
   - date: '2023-08-18'
     event: >-
-      De gemeente licht toe dat alle bungalows aan het Bouwbesluit worden
-      getoetst als voorwaarde voor omzetting naar reguliere woningen.
+      Toelichting op de bouwkundige toetsing van iedere bungalow voor omzetting
+      naar een reguliere woning.
+  - date: '2023-09-08'
+    event: >-
+      Gemeente geeft mede namens het park opdracht voor de taxatie; handhaving
+      op strijdige bouwsituaties wordt voortgezet.
+  - date: '2023-11-10'
+    event: >-
+      Gemeente en transitiecommissie stemmen in met de onderbouwde taxatie;
+      definitieve afronding en bekendmaking aan eigenaren wordt aangekondigd.
   - date: '2024-04-12'
+    event: Bevestigd dat de transformatie naar een woonbestemming doorgaat.
+  - date: '2024-07-03'
     event: >-
-      Bekendgemaakt wordt dat de transformatie doorgaat; vrijwel alle woningen
-      krijgen een woonbestemming en perceels- en persoonsgebonden
-      woonbeschikkingen verdwijnen.
-  - date: '2024-04-16'
+      Woo-verzoek ingediend over de transitie naar permanente bewoning op
+      Ermerzand.
+  - date: '2024-07-05'
     event: >-
-      Dezelfde transformatiebeslissing en de gevolgen voor verschillende
-      categorieën eigenaren worden nader toegelicht.
-ai_processed_at: '2026-08-26T11:09:51.958Z'
-ai_status: partial
+      Gemeente en park spreken af eerst gezamenlijk een toekomstbeeld voor
+      Ermerzand op te stellen voordat verdere keuzes over transformatie en
+      bestemmingswijziging worden gemaakt.
+  - date: '2024-07-15'
+    event: >-
+      Gemeente bevestigt dat voor Ermerzand 131 de eerdere regeling voor
+      permanente bewoning van toepassing is.
+  - date: '2024-07-22'
+    event: Beslistermijn met twee weken verlengd wegens de omvang van het verzoek.
+  - date: '2024-08-13'
+    event: Beslistermijn opnieuw opgeschort vanwege zienswijzen van derden.
+  - date: '2024-09-03'
+    event: >-
+      Woo-besluit: verzoek toegewezen; documenten geheel of gedeeltelijk
+      openbaar gemaakt.
+ai_processed_at: '2026-08-26T11:38:26.998Z'
+ai_status: done
 ---
 
 Postadres:

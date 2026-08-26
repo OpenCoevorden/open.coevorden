@@ -12,23 +12,66 @@ source: >-
 s3_etag: 6012ef9d8f815a540cf672a2e1fde221-11
 date: 2026-07-30T00:00:00.000Z
 summary: >-
-  Powerfield diende aanvragen in voor een energieopslagsysteem, een kabeltracé
-  en een Wnb-ontheffing. De omgevingsvergunning en Wnb-ontheffing werden
-  vervolgens verleend; in de tekst zijn geen bezwaar-, beroeps-, verlengings- of
-  intrekkingsbesluiten aangetroffen.
+  Powerfield diende aanvragen in voor een energieopslagsysteem en een
+  kabeltracé. Voor het kabeltracé werd een omgevingsvergunning verstrekt en voor
+  de aanleg werd een Wnb-ontheffing verleend, geldig tot en met oktober 2024.
 milestones:
+  - date: '2021-09-15'
+    event: Verzoek om vooroverleg voor energieopslagsysteem ingediend.
+  - date: '2022-02-21'
+    event: Nieuw verzoek om vooroverleg voor energieopslagsysteem ingediend.
+  - date: '2022-06-15'
+    event: Aanvraag voor elektriciteitsopslagsysteem ingediend.
   - date: '2022-06-15'
     event: >-
-      Melding Activiteitenbesluit ingediend voor plaatsing van een EOS aan de
-      Nieuwe Dijk 2A te Coevorden.
+      Omgevingsvergunning aangevraagd voor plaatsing van een
+      elektriciteitsopslagsysteem.
+  - date: '2022-06-15'
+    event: >-
+      Aanvraag omgevingsvergunning EOS ingediend (7053965); melding
+      Activiteitenbesluit ontvangen (Z2022-009375).
+  - date: '2022-08-26'
+    event: >-
+      Melding Activiteitenbesluit onvolledig verklaard; aanvullende gegevens
+      gevraagd.
+  - date: '2022-10-04'
+    event: Aanvraag voor elektriciteitsopslagsysteem ingetrokken.
+  - date: '2022-10-31'
+    event: Eerdere vergunningaanvraag/melding ingetrokken en afgesloten.
   - date: '2022-11-24'
-    event: Aanvraag omgevingsvergunning ingediend voor aanleg van een kabeltracé.
+    event: Nieuwe aanvraag omgevingsvergunning voor aanleg kabeltracé ingediend.
+  - date: '2022-11-24'
+    event: Aanvraag omgevingsvergunning voor aanleg kabeltracé ingediend.
+  - date: '2022-11-30'
+    event: Aanvraag omgevingsvergunning ontvangen
+  - date: '2022-12-21'
+    event: >-
+      Woo-verzoek ingediend over stukken betreffende Nieuwe Dijk 2A en
+      Powerfield
   - date: '2023-01-16'
-    event: Beslistermijn omgevingsvergunning met zes weken verlengd.
+    event: Beslistermijn met zes weken verlengd.
+  - date: '2023-01-16'
+    event: Beslistermijn voor de omgevingsvergunning verlengd.
+  - date: '2023-01-16'
+    event: >-
+      Beslistermijn verlengd voor afzonderlijke omgevingsvergunning kabeltracé
+      Hollandscheveld-Coevorden (Z2022-016907).
+  - date: '2023-02-20'
+    event: >-
+      Positief instemmingsadvies afgegeven voor de omgevingsvergunning van het
+      kabeltracé.
   - date: '2023-02-23'
-    event: Omgevingsvergunning voor aanleg van het kabeltracé verleend.
-ai_processed_at: '2026-08-26T11:02:14.391Z'
-ai_status: partial
+    event: Omgevingsvergunning voor aanleg kabeltracé verleend.
+  - date: '2023-02-24'
+    event: Besluit en bijlagen over de omgevingsvergunning verstrekt
+  - date: '2023-02-24'
+    event: Omgevingsvergunning voor het kabeltracé verleend en verzonden.
+  - date: '2023-02-24'
+    event: Omgevingsvergunning verleend.
+  - date: '2023-02-24'
+    event: Omgevingsvergunning verleend
+ai_processed_at: '2026-08-26T11:34:42.447Z'
+ai_status: done
 ---
 
 $'(/$$5 9$67*2('217:,..(/,1* %9

@@ -14,15 +14,61 @@ source: >-
 s3_etag: e85958ccd1d50d0e4dc4151a0fdcd372-9
 date: 2026-07-30T00:00:00.000Z
 summary: >-
-  De gemeente Coevorden stelde vanaf 2010 beleidsregels vast voor permanente
-  bewoning van recreatieverblijven en ontving op 2018-04-16 een
-  handhavingsverzoek over een recreatiewoning aan de Slenerweg in Schoonoord. In
-  2020-2023 werd het programma Vitale Vakantieparken verder voorbereid en een
-  verlenging voorgesteld; in de aangeleverde tekst staat geen definitief besluit
-  op het handhavingsverzoek.
-milestones: []
-ai_processed_at: '2026-08-26T11:14:34.549Z'
-ai_status: partial
+  De gemeente Coevorden stelde in 2010 beleidsregels vast voor handhaving van
+  permanente bewoning van recreatieverblijven en wijzigde deze in 2011. Op
+  2018-04-16 werd een handhavingsverzoek ingediend over permanente bewoning aan
+  de Slenerweg in Schoonoord; in de tekst is geen definitief besluit, bezwaar,
+  beroep of uitspraak vermeld.
+milestones:
+  - date: '2010-08-01'
+    event: Beleidsregels permanente bewoning recreatieverblijven vastgesteld.
+  - date: '2015-02-01'
+    event: >-
+      Motie aangenomen voor herziening van het beleid en tijdelijke opschorting
+      van handhaving.
+  - date: '2016-03-01'
+    event: Einde van de in 2015 aangekondigde opschorting van handhaving.
+  - date: '2018-04-16'
+    event: >-
+      Handhavingsverzoek ingediend over permanente bewoning aan de Slenerweg te
+      Schoonoord.
+  - date: '2020-10-01'
+    event: Projectopdracht Ermermeer formeel besloten.
+  - date: '2020-10-20'
+    event: >-
+      Gemeenteraad besluit uitvoering te geven aan het programmacontract voor
+      Vitale Vakantieparken.
+  - date: '2021-03-02'
+    event: Definitieve projectopdracht toezicht en handhaving vastgesteld.
+  - date: '2022-05-02'
+    event: >-
+      In voortgangsrapportage vermeld dat twee WOB-verzoeken zijn ontvangen over
+      handhaving en controles op recreatiepark Primo.
+  - date: '2023-04-15'
+    event: Eerste Woo-verzoek ingediend over het dossier bungalowpark Wico.
+  - date: '2023-05-09'
+    event: Beslistermijn van het eerste Woo-verzoek met twee weken verlengd.
+  - date: '2023-05-25'
+    event: Beslistermijn opgeschort wegens zienswijzen van belanghebbenden.
+  - date: '2023-07-04'
+    event: Ingebrekestelling wegens niet tijdig beslissen op het eerste Woo-verzoek.
+  - date: '2023-07-05'
+    event: >-
+      Gemeente kondigt verdere behandeling aan en stelt besluitvorming uiterlijk
+      2023-07-27 in het vooruitzicht.
+  - date: '2023-07-09'
+    event: 'Tweede, omvangrijk Woo-verzoek ingediend over het volledige Wico-dossier.'
+  - date: '2023-07-17'
+    event: >-
+      Tweede Woo-verzoek beperkt tot informatie vanaf 2015; beslistermijn
+      verlengd wegens omvang.
+  - date: '2023-07-27'
+    event: >-
+      Besluit op het eerste Woo-verzoek: documenten gedeeltelijk openbaar
+      gemaakt, met anonimisering en uitgestelde openbaarmaking van
+      gespreksnotities.
+ai_processed_at: '2026-08-26T11:41:59.894Z'
+ai_status: done
 ---
 
 Voorlegger PFO

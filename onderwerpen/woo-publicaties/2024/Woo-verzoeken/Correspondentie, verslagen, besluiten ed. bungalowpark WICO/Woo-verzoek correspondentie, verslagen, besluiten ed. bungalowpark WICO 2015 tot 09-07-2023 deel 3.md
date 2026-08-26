@@ -14,59 +14,80 @@ source: >-
 s3_etag: c59ad4ecd8ad845bda5c35a193efca17-13
 date: 2026-07-30T00:00:00.000Z
 summary: >-
-  De tekst betreft een kwaliteits- en afwegingskader voor gemeenten over de
-  mogelijke transformatie van niet-vitale vakantieparken en het al dan niet
-  toestaan van tijdelijke of definitieve bewoning. Er zijn geen relevante
-  Woo-proceduregebeurtenissen of besluiten na 2010 beschreven.
+  Het document is een kwaliteits- en afwegingskader voor gemeenten die de
+  toekomst van niet-vitale vakantieparken beoordelen, waaronder de mogelijkheid
+  van tijdelijke of definitieve bewoning. Het beschrijft een integrale afweging
+  vanuit economie, ruimtelijke ordening, sociaal-maatschappelijke aspecten en
+  veiligheid, maar bevat geen concrete Woo-procedurele gebeurtenissen.
 milestones:
-  - date: '2010-08-17'
-    event: Beleidsregels permanente bewoning recreatieverblijven vastgesteld.
-  - date: '2011-10-01'
+  - date: '2010-10-07'
     event: >-
-      Gefaseerde handhaving tegen permanente bewoning op Ermerstrand, Primo en
-      Secundo gestart.
-  - date: '2012-09-01'
-    event: >-
-      Gemeenteraad stelt uitgangspunten vast voor behoud van recreatieve
-      bestemmingen en uitsluiting van nieuwe permanente bewoning.
+      Beleidsregels voor gefaseerde handhaving tegen permanente bewoning
+      vastgesteld.
   - date: '2014-03-10'
     event: >-
-      College stemt in met ontwerpbestemmingsplan voor onder meer Wico en legt
-      dit ter inzage.
+      College stemt in met ontwerpbestemmingsplannen, waaronder WICO, en
+      terinzagelegging.
   - date: '2014-09-29'
     event: >-
-      College stelt de raad voor het bestemmingsplan Schoonoord, Wico gewijzigd
-      vast te stellen.
-  - date: '2015-02-01'
-    event: >-
-      Motie aangenomen om handhaving van permanente bewoning tijdelijk op te
-      schorten in afwachting van onderzoek naar transformatie.
+      College stelt de raad voor de bestemmingsplannen, waaronder WICO,
+      gewijzigd vast te stellen.
+  - date: '2017-12-07'
+    event: Convenant Aanpak Vitale Vakantieparken Drenthe ondertekend.
   - date: '2019-01-01'
+    event: WICO wordt opgenomen in het programma Vitale Vakantieparken Coevorden.
+  - date: '2019-02-28'
     event: >-
-      Programma Vitale Vakantieparken Coevorden gestart; Wico wordt daarin
-      opgenomen.
-  - date: '2020-10-01'
+      Bezwaarschriftencommissie brengt advies uit over bezwaar tegen afwijzing
+      Wob-verzoek.
+  - date: '2019-02-28'
     event: >-
-      Programmacontract en uitvoeringsplan VVPC definitief vastgesteld; Wico
-      aangewezen voor terugkeer naar recreatie of mogelijke transformatie.
-  - date: '2021-03-02'
-    event: >-
-      Definitieve projectopdracht toezicht en handhaving voor de vakantieparken
-      vastgesteld.
+      Advies bezwaarschriftencommissie over bezwaar tegen afwijzing van een
+      Wob-verzoek.
+  - date: '2019-03-06'
+    event: Beslissing op bezwaar tegen de afwijzing van het Wob-verzoek.
   - date: '2022-05-01'
-    event: >-
-      Handhavend opgetreden tegen illegale bewoning op Wico na inschrijving van
-      een huurder.
+    event: Handhavend opgetreden tegen illegale bewoning op WICO.
   - date: '2022-05-31'
-    event: Woo-verzoek over Wico ingediend.
+    event: Wico dient een Woo-verzoek in over het dossier van bungalowpark Wico.
+  - date: '2022-05-31'
+    event: Woo-verzoek over WICO ingediend.
+  - date: '2023-03-16'
+    event: >-
+      Verzoek om openbaarmaking van het factsheet/rapport over park Wico uit
+      2017.
+  - date: '2023-03-24'
+    event: Factsheet/rapport over park Wico uit 2017 verstrekt.
+  - date: '2023-04-15'
+    event: Wico dient opnieuw een Woo-verzoek in.
   - date: '2023-05-23'
     event: >-
-      College stemt in met een informerende raadsbrief over het project Wico en
-      de voorgenomen quickscan.
+      College stemt in met een informerende raadsbrief over het project WICO en
+      de aangekondigde quickscan.
+  - date: '2023-07-09'
+    event: Woo-verzoek ontvangen over het volledige Wico-dossier.
+  - date: '2023-07-09'
+    event: Woo-verzoek over vakantiepark Wico ingediend en ontvangen
+  - date: '2023-07-18'
+    event: >-
+      Reikwijdte van het Woo-verzoek aangepast van 2010 tot heden naar
+      informatie vanaf 2015.
+  - date: '2023-07-20'
+    event: >-
+      Woo-besluit en openbaar gemaakte documenten over bungalowpark Wico
+      verstrekt.
+  - date: '2023-07-20'
+    event: >-
+      Verzoek ingediend om een zwartgelakte passage in de openbaar gemaakte
+      stukken alsnog leesbaar te maken.
   - date: '2023-09-01'
-    event: Handhaving op Wico verder gestart.
-ai_processed_at: '2026-08-26T11:15:59.002Z'
-ai_status: partial
+    event: Start van de handhaving op WICO.
+  - date: '2023-12-19'
+    event: >-
+      Starttraject besproken om WICO terug te brengen naar recreatie en
+      permanente bewoning te beëindigen.
+ai_processed_at: '2026-08-26T11:43:46.911Z'
+ai_status: done
 ---
 
 3

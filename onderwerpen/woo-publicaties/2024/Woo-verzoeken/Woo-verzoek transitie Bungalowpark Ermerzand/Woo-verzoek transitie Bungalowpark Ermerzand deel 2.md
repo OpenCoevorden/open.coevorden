@@ -12,42 +12,133 @@ s3_etag: eec0865fd591de539066e446afeca45c-6
 date: 2026-07-30T00:00:00.000Z
 summary: >-
   De gemeenteraad van Coevorden besloot op 2015-02-03 onderzoek te doen naar
-  transformatie van Ermerzand van recreatiepark naar woonpark. In de beschikbare
-  stukken is geen definitief besluit tot transformatie, intrekking of wijziging
-  van het bestemmingsplan aangetroffen.
+  transformatie van Ermerzand van recreatiepark naar woonpark. In de stukken is
+  geen Woo-aanvraag, Woo-besluit, bezwaar, beroep, uitspraak, verlenging of
+  intrekking aangetroffen.
 milestones:
-  - date: '2022-12-16'
+  - date: '2014-01-01'
     event: >-
-      Gemeente en park legden afspraken vast over het gezamenlijke
-      transformatieonderzoek.
+      Eigenaren verzoeken de gemeente om permanente bewoning op Ermerzand
+      mogelijk te maken.
+  - date: '2015-01-01'
+    event: >-
+      Gemeenteraad verzoekt via een motie een pilot voor transformatie naar
+      wonen uit te werken.
+  - date: '2015-02-03'
+    event: >-
+      Gemeenteraad besluit te onderzoeken of Ermerzand kan worden
+      getransformeerd van recreatiepark naar woonpark.
+  - date: '2019-01-01'
+    event: >-
+      Het transformatieproces krijgt vorm binnen het programma Vitale
+      Vakantieparken Drenthe.
+  - date: '2020-01-01'
+    event: Quick scan uitgevoerd; transformatie wordt kansrijk geacht.
+  - date: '2021-02-24'
+    event: >-
+      Gemeente besluit tijdens het transformatieonderzoek geen nieuwe
+      woonbeschikkingen te verlenen en niet actief te handhaven.
+  - date: '2021-03-01'
+    event: >-
+      Quick scan definitief afgerond; onderzoek naar transformatie wordt
+      voortgezet.
+  - date: '2021-03-22'
+    event: >-
+      Gemeente en parkbestuur informeren eigenaren over het
+      transformatieonderzoek en vragen draagvlak en mandaat voor
+      vervolgonderzoek.
+  - date: '2021-09-13'
+    event: >-
+      Gemeente bevestigt dat fase 1 bijna is afgerond en dat nog geen
+      definitieve keuze voor transformatie is gemaakt.
+  - date: '2021-10-09'
+    event: >-
+      ALV stelt transitiecommissie en werkgroep in voor onderzoek naar
+      woonbestemming.
+  - date: '2022-01-28'
+    event: >-
+      Gemeente bevestigt dat het transformatieonderzoek gezamenlijk wordt
+      voortgezet; een definitieve transformatie vereist later draagvlak van
+      eigenaren en een bestemmingsplanwijziging.
+  - date: '2022-03-31'
+    event: Kosteninschatting voor het transformatieproces opgesteld.
+  - date: '2022-09-30'
+    event: >-
+      Park en gemeente stellen tijdens een sessie de huidige en gewenste
+      ruimtelijke kwaliteit vast.
+  - date: '2023-01-16'
+    event: >-
+      Gemeente en vertegenwoordigers van eigenaren tekenen een
+      intentieovereenkomst voor vervolgonderzoek naar transformatie naar wonen.
+  - date: '2023-01-24'
+    event: >-
+      College bekrachtigt uitgangspunten en afspraken voor het verdere
+      transformatieproces.
   - date: '2023-01-31'
     event: >-
-      Offerte aangevraagd voor toetsing van 196 bungalows aan het Bouwbesluit
-      2012.
-  - date: '2023-03-05'
-    event: Offerte uitgebracht voor de Bouwbesluittoets van alle bungalows.
+      Gemeente en park leggen afspraken vast om de wenselijkheid en haalbaarheid
+      van transformatie gezamenlijk te onderzoeken.
+  - date: '2023-01-31'
+    event: Onderzoek naar de woningen aan het Bouwbesluit 2012 wordt voorbereid.
+  - date: '2023-08-18'
+    event: >-
+      Transitiecommissie licht het verplichte onderzoek naar naleving van het
+      Bouwbesluit per bungalow toe.
   - date: '2023-08-21'
     event: >-
-      Offerteaanvraag opgesteld voor taxatie van de waardeverandering bij
-      transformatie.
+      Offerteaanvraag opgesteld voor een taxatie van de waardeverandering bij
+      omzetting van recreatie naar wonen.
   - date: '2023-09-04'
+    event: Offerte uitgebracht voor de taxatie op parkniveau.
+  - date: '2023-09-28'
     event: >-
-      Offerte uitgebracht voor taxatie op parkniveau door Zwanenburg
-      Makelaardij.
-  - date: '2023-12-09'
-    event: Taxatie en transitie besproken tijdens een themabijeenkomst.
-  - date: '2023-12-14'
+      Gemeente bevestigt dat de bestemming nog recreatie is en dat nog geen
+      besluit over omzetting naar wonen is genomen.
+  - date: '2023-10-05'
     event: >-
-      Factuur uitgebracht voor het deskundigenrapport, aanvullingen en
-      presentatie van de taxatie.
+      Taxateur neemt het park op en hanteert deze datum als waardepeildatum voor
+      de mogelijke wijziging van recreatie naar wonen.
+  - date: '2023-10-28'
+    event: >-
+      Q&A bevestigt dat vervolgonderzoek loopt; besluitvorming door eigenaren
+      wordt medio 2024 verwacht.
+  - date: '2023-11-01'
+    event: >-
+      Gemeente meldt dat transformatie nog niet definitief is en dat de formele
+      bestemmingsplanprocedure daarna moet starten.
+  - date: '2023-11-10'
+    event: >-
+      Deskundigenrapport wordt uitgebracht met een geraamde waardestijging van
+      €37.000 voor recreatie naar wonen en €23.000 voor recreatie met
+      permanente-bewoningsaanduiding naar wonen.
+  - date: '2023-12-05'
+    event: >-
+      Gemeente meldt dat het onderzoek nog loopt en dat een besluit medio 2024
+      wordt verwacht.
+  - date: '2024-02-29'
+    event: >-
+      Eigenaar dient een verzoek in voor een individuele toestemming voor
+      permanente bewoning.
+  - date: '2024-03-07'
+    event: >-
+      Gemeente wijst erop dat een individuele aanvraag niet automatisch wordt
+      toegekend en dat voor Ermerzand geen beschikking wordt verwacht.
   - date: '2024-03-20'
     event: >-
-      Voortgangsmemo concludeerde dat het proces nog geen streefbeeld had
-      opgeleverd en stelde uitwerking van drie hoofdlijnen voor.
-  - date: '2025-10-05'
-    event: Offerte uitgebracht voor een stedenbouwkundige analyse van Ermerzand.
-ai_processed_at: '2026-08-26T11:08:26.536Z'
-ai_status: partial
+      Voortgangsnotitie constateert dat het streefbeeld nog niet is afgerond en
+      dat het transformatieproces stagneert op hoofdlijnen.
+  - date: '2024-04-03'
+    event: >-
+      Voorstel opgesteld om eerst fundamentele keuzes over woningen, collectieve
+      ruimte en voorzieningen te maken voordat het transformatieplan wordt
+      afgerond.
+  - date: '2024-06-27'
+    event: >-
+      Inloopbijeenkomst over de stand van het transformatieonderzoek;
+      streefbeeld, transformatieplan en bestemmingswijziging zijn nog in
+      voorbereiding.
+ai_processed_at: '2026-08-26T11:36:31.949Z'
+ai_status: done
 ---
 
 concept versie 9-4-2021 CVE

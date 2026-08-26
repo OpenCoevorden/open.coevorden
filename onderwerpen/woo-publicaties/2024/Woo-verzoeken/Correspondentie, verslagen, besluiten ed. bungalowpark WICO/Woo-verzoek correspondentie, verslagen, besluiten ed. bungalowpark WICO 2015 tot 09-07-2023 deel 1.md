@@ -14,29 +14,173 @@ source: >-
 s3_etag: fb8ca6166375b76314470f9442e3cd6a-13
 date: 2026-07-30T00:00:00.000Z
 summary: >-
-  Op 2023-07-09 is een Woo-verzoek ingediend over het volledige WICO-dossier. De
-  gemeente beperkte de periode met instemming van de verzoeker tot 2015-2023,
-  verlengde de beslistermijn en wees het verzoek op 2024-02-29 gedeeltelijk toe,
-  met openbaarmaking van documenten met weglakkingen.
+  Op 2023-07-09 is een Woo-verzoek ingediend over het volledige WICO-dossier; de
+  periode is daarna met instemming beperkt tot 2015 tot en met 2023-07-09. De
+  beslistermijn is verlengd en op 2024-02-29 is het verzoek gedeeltelijk
+  toegewezen, waarbij documenten deels openbaar zijn gemaakt.
 milestones:
+  - date: '2013-02-18'
+    event: >-
+      Aanvraag persoonsgebonden gedoogbeschikking voor permanente bewoning
+      ingediend.
+  - date: '2013-02-26'
+    event: >-
+      Tweede aanvraag persoonsgebonden gedoogbeschikking voor permanente
+      bewoning ingediend.
+  - date: '2013-02-26'
+    event: >-
+      Aanvraag persoonsgebonden gedoogbeschikking voor recreatieverblijf aan de
+      Slenerweg 83.
+  - date: '2013-04-25'
+    event: Persoonsgebonden gedoogbeschikkingen verleend voor permanente bewoning.
+  - date: '2013-04-25'
+    event: Persoonsgebonden gedoogbeschikking verleend voor permanente bewoning.
+  - date: '2018-04-16'
+    event: Handhavingsverzoek wegens permanente bewoning ingediend.
+  - date: '2018-04-16'
+    event: >-
+      Verzoek om handhaving tegen permanente bewoning op bungalowpark Wico
+      ingediend.
+  - date: '2018-07-16'
+    event: >-
+      Voornemen last onder dwangsom tot beëindiging permanente bewoning
+      verzonden.
+  - date: '2018-07-16'
+    event: Vooraankondiging last onder dwangsom wegens permanente bewoning verzonden.
+  - date: '2018-08-13'
+    event: Zienswijze tegen de voorgenomen handhaving ingediend.
+  - date: '2018-10-30'
+    event: Wob-verzoek over beleid en locaties met permanente bewoning ingediend.
   - date: '2018-10-30'
     event: Wob-verzoek ingediend over informatie over permanente bewoning.
   - date: '2018-11-20'
-    event: Wob-verzoek afgewezen wegens ontbreken van de gevraagde documenten.
+    event: Wob-verzoek afgewezen.
+  - date: '2018-11-20'
+    event: >-
+      Wob-verzoek afgewezen omdat de gemeente de gevraagde documenten niet
+      bezit.
   - date: '2019-01-03'
-    event: Bezwaar tegen de afwijzing ingediend.
-  - date: '2019-03-06'
+    event: Bezwaar tegen de afwijzing van het Wob-verzoek ingediend.
+  - date: '2019-01-03'
+    event: Bezwaar ingediend tegen de afwijzing.
+  - date: '2019-01-24'
+    event: Besluitvorming over handhaving voorlopig aangehouden.
+  - date: '2019-02-28'
+    event: >-
+      Bezwaarschriftencommissie adviseert het bezwaar niet-ontvankelijk te
+      verklaren.
+  - date: '2019-03-07'
+    event: Bezwaar tegen de Wob-afwijzing niet-ontvankelijk verklaard.
+  - date: '2019-03-07'
     event: 'Beslissing op bezwaar: bezwaar niet-ontvankelijk verklaard.'
+  - date: '2020-06-30'
+    event: Gemeenteraad besluit geheimhouding te leggen op het uitvoeringsplan.
+  - date: '2020-09-22'
+    event: >-
+      Gemeenteraad stemt in met programma- en uitvoeringsplan Vitale
+      Vakantieparken.
+  - date: '2022-05-24'
+    event: >-
+      Voornemens tot oplegging van lasten onder dwangsom wegens permanente
+      bewoning verzonden.
+  - date: '2022-05-31'
+    event: Woo-verzoek over bungalowpark Wico ingediend.
+  - date: '2022-06-02'
+    event: Zienswijze tegen de voornemens tot lasten onder dwangsom ingediend.
+  - date: '2022-10-17'
+    event: >-
+      Besluit tot bouwstop met last onder dwangsom wegens bouwen zonder
+      omgevingsvergunning.
+  - date: '2023-03-08'
+    event: >-
+      Gemeente kondigt behoud van recreatiebestemming en beëindiging van
+      permanente bewoning aan.
+  - date: '2023-03-08'
+    event: >-
+      Gemeente informeert eigenaren en bewoners dat Wico de recreatiebestemming
+      behoudt en permanente bewoning wordt beëindigd.
+  - date: '2023-03-08'
+    event: >-
+      Gemeente kondigt aan dat Wico recreatiebestemming behoudt en permanente
+      bewoning wordt beëindigd.
+  - date: '2023-04-21'
+    event: >-
+      Bewoonster maakt bezwaar tegen het standpunt dat haar permanente bewoning
+      niet langer is toegestaan en beroept zich op overdracht van een
+      gedoogbeschikking.
+  - date: '2023-05-02'
+    event: >-
+      Gemeente beslist dat de persoonsgebonden gedoogbeschikking niet
+      overdraagbaar is en permanente bewoning daarom niet is toegestaan.
   - date: '2023-05-09'
     event: >-
       Woo-verzoek ingediend om openbaarmaking van de geheime bijlage bij het
-      uitvoeringsplan Vitale Vakantieparken.
+      uitvoeringsplan.
+  - date: '2023-05-09'
+    event: Woo-verzoek ingediend om een vertrouwelijk stuk openbaar te maken.
+  - date: '2023-05-10'
+    event: >-
+      Gemeente verstrekt het gevraagde RIEC-rapport; de gemeentelijke rapportage
+      over Wico wordt niet volledig verstrekt.
+  - date: '2023-05-11'
+    event: >-
+      Uitnodiging voor informatiebijeenkomsten over handhaving en het
+      toekomstplan verzonden.
+  - date: '2023-06-16'
+    event: >-
+      Verzoek om toezending van stukken over besluitvorming en heroverweging
+      inzake Wico ingediend.
   - date: '2023-06-20'
     event: >-
-      Beslistermijn met twee weken verlengd; behandeling vereist voorlegging aan
+      Beslistermijn met twee weken verlengd; behandeling wordt aan de
+      gemeenteraad voorgelegd wegens geheimhouding.
+  - date: '2023-06-20'
+    event: >-
+      Gemeente meldt dat behandeling meer tijd vergt vanwege besluitvorming door
       college en gemeenteraad.
-ai_processed_at: '2026-08-26T11:17:55.568Z'
-ai_status: partial
+  - date: '2023-07-02'
+    event: Verzoek om de gemeentelijke RIEC-onderzoeksuitkomsten over Wico.
+  - date: '2023-07-07'
+    event: >-
+      Gemeente stelt handhaving op permanente bewoning voorlopig uit in
+      afwachting van onderzoek naar recreatieve kansen.
+  - date: '2023-07-07'
+    event: >-
+      Gemeente zegt toe de handhaving voorlopig uit te stellen, met uitzondering
+      van nieuwe inschrijvingen op het park.
+  - date: '2023-07-09'
+    event: Woo-verzoek ingediend voor het gehele WICO-dossier
+  - date: '2023-07-17'
+    event: >-
+      Verzoek beperkt tot de periode vanaf 2015; beslistermijn met circa vijf
+      maanden verlengd
+  - date: '2023-07-23'
+    event: >-
+      Verzoekers stellen de gemeente in gebreke wegens het uitblijven van een
+      Woo-besluit.
+  - date: '2023-07-24'
+    event: >-
+      Gemeente kondigt aan het onderwerp te agenderen voor de raadsvergadering
+      van 2023-09-26.
+  - date: '2023-08-08'
+    event: >-
+      Gemeente verstrekt een passage uit de gemeentelijke RIEC-rapportage over
+      Wico.
+  - date: '2023-08-14'
+    event: >-
+      Vitaliteitsscan wordt tijdelijk stilgelegd; de geplande schouw wordt
+      geannuleerd wegens ontbrekende toestemming van de grondeigenaar.
+  - date: '2023-08-24'
+    event: >-
+      Bureau Ruimte & Vrije Tijd meldt dat de verkennende gesprekken en het
+      onderzoek voorlopig niet doorgaan omdat de opdrachtgever het onderzoek op
+      pauze heeft gezet.
+  - date: '2024-02-29'
+    event: >-
+      Woo-besluit: verzoek gedeeltelijk toegewezen met openbaarmaking onder
+      weglakking
+ai_processed_at: '2026-08-26T11:45:32.338Z'
+ai_status: done
 ---
 
 Postadres:

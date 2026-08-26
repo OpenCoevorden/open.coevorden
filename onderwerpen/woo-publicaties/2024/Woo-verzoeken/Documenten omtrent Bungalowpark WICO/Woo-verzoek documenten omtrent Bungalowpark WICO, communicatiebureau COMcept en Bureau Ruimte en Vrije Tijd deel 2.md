@@ -14,13 +14,38 @@ source: >-
 s3_etag: 8cb9b7a18f80f2584e161f4a42dddd65-7
 date: 2026-07-30T00:00:00.000Z
 summary: >-
-  In het dossier zijn twee Woo-verzoeken vermeld: een verzoek van de
-  parkeigenaar op 2022-05-31 en een nieuw verzoek dat op 2022-12-22 binnenkwam.
-  Een inhoudelijk besluit, bezwaar, beroep, uitspraak, verlenging of intrekking
-  is niet opgenomen.
-milestones: []
-ai_processed_at: '2026-08-26T11:13:01.231Z'
-ai_status: partial
+  Op 2022-12-22 is een Woo-verzoek over park Wico ingediend. In de tekst staat
+  geen Woo-besluit, bezwaar, beroep, uitspraak, verlenging of intrekking
+  vermeld.
+milestones:
+  - date: '2020-09-22'
+    event: Gemeenteraad stemt in met het programma Vitale Vakantieparken.
+  - date: '2022-05-31'
+    event: Woo-verzoek ingediend
+  - date: '2022-12-22'
+    event: Nieuw Woo-verzoek ontvangen
+  - date: '2023-05-09'
+    event: >-
+      Wethouder zegt een nieuw onderzoek naar de recreatieve waarde en toekomst
+      van Wico toe.
+  - date: '2023-05-23'
+    event: >-
+      College kondigt een QuickScan naar recreatieve mogelijkheden aan, onder
+      voorbehoud van akkoord van de grondeigenaar.
+  - date: '2023-07-17'
+    event: >-
+      Gemeente kondigt via nieuwsbrief het onderzoek naar recreatieve kansen en
+      mogelijkheden voor Wico aan.
+  - date: '2023-07-21'
+    event: >-
+      Werkgroep dient inhoudelijk bezwaar in tegen de onderzoeksopzet en de
+      eenzijdige focus op recreatie.
+  - date: '2023-08-30'
+    event: >-
+      Gemeente zet de vitaliteitsscan voorlopig on hold in afwachting van
+      overleg met de grondeigenaar.
+ai_processed_at: '2026-08-26T11:40:57.222Z'
+ai_status: done
 ---
 
 1
