@@ -1,9 +1,41 @@
 ---
-title: "Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015 tot 09-07-2023 deel 2"
-maps: ["woo-publicaties","2024","Woo-verzoeken","Correspondentie, verslagen, besluiten ed. bungalowpark WICO"]
-source: "woo-publicaties/2024/Woo-verzoeken/Correspondentie, verslagen, besluiten ed. bungalowpark WICO/Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015 tot 09-07-2023 deel 2.pdf"
-s3_etag: "26d4d383025ef20aa7b2cfadbcfa7e4c-13"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015
+  tot 09-07-2023 deel 2
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+  - 'Correspondentie, verslagen, besluiten ed. bungalowpark WICO'
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Correspondentie, verslagen, besluiten ed.
+  bungalowpark WICO/Woo-verzoek correspondentie, verslagen, besluiten ed.
+  bungalowpark WICO 2015 tot 09-07-2023 deel 2.pdf
+s3_etag: 26d4d383025ef20aa7b2cfadbcfa7e4c-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  In maart en april 2023 vroegen bewoners om schriftelijke beantwoording en
+  documenten over de permanente bewoning en gedoogbeschikking op bungalowpark
+  Wico. De gemeente antwoordde dat permanente bewoning niet is toegestaan en dat
+  de persoonsgebonden gedoogbeschikking niet overdraagbaar was; van formeel
+  bezwaar, beroep, verlenging of intrekking blijkt niet.
+milestones:
+  - date: '2022-05-31'
+    event: Woo-verzoek over bungalowpark Wico ingediend.
+  - date: '2022-07-13'
+    event: Aanvullend Woo-verzoek over bungalowpark Wico ingediend.
+  - date: '2022-12-29'
+    event: Nieuw Woo-verzoek over bungalowpark Wico ingediend.
+  - date: '2023-04-15'
+    event: >-
+      Woo-verzoek over communicatie, besluitvorming en documenten inzake Wico
+      ingediend.
+  - date: '2023-08-15'
+    event: >-
+      Woo-verzoek over beleid, besluitvorming, handhaving en stukken inzake Wico
+      ingediend.
+ai_processed_at: '2026-08-26T11:16:22.573Z'
+ai_status: done
 ---
 
 1

@@ -1,9 +1,25 @@
 ---
-title: "Woo-verzoek uitvoering Jeugdwet"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek uitvoering Jeugdwet.pdf"
-s3_etag: "927ffcbaf39a3618ecca78d676917636-10"
-date: 2026-07-30
+title: Woo-verzoek uitvoering Jeugdwet
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: woo-publicaties/2024/Woo-verzoeken/Woo-verzoek uitvoering Jeugdwet.pdf
+s3_etag: 927ffcbaf39a3618ecca78d676917636-10
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2024-11-14 een Woo-verzoek over documenten
+  inzake de uitvoering van de Jeugdwet. Op 2024-12-09 is het verzoek
+  gedeeltelijk toegewezen: negen documenten worden openbaar gemaakt, met
+  weglakking van persoonsgegevens; overige informatie was al openbaar
+  beschikbaar.
+milestones:
+  - date: '2024-11-14'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2024-12-09'
+    event: 'Besluit: Woo-verzoek gedeeltelijk toegewezen'
+ai_processed_at: '2026-08-26T10:55:40.547Z'
+ai_status: done
 ---
 
 Gemeente

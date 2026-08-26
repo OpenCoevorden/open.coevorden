@@ -1,9 +1,30 @@
 ---
-title: "Woo-verzoek totstandkoming ontwerp bestemmingsplan Europaweg 8, Coevorden"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek totstandkoming ontwerp bestemmingsplan Europaweg 8, Coevorden.pdf"
-s3_etag: "2a37d3b0332c3d9cb1a19cbeadae4ca2-3"
-date: 2026-07-30
+title: 'Woo-verzoek totstandkoming ontwerp bestemmingsplan Europaweg 8, Coevorden'
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek totstandkoming ontwerp
+  bestemmingsplan Europaweg 8, Coevorden.pdf
+s3_etag: 2a37d3b0332c3d9cb1a19cbeadae4ca2-3
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-01-11 is een Woo-verzoek ingediend over contacten die hebben geleid
+  tot het ontwerpbestemmingsplan Europaweg 8 in Coevorden. Het verzoek is op
+  2024-02-13 gedeeltelijk toegewezen; documenten worden openbaar gemaakt met
+  weglakking van persoonsgegevens.
+milestones:
+  - date: '2024-01-11'
+    event: >-
+      Woo-verzoek ingediend over contacten rond ontwerpbestemmingsplan Europaweg
+      8
+  - date: '2024-02-13'
+    event: >-
+      Besluit: verzoek gedeeltelijk toegewezen; documenten openbaar met
+      persoonsgegevens weggelakt
+ai_processed_at: '2026-08-26T10:55:56.930Z'
+ai_status: done
 ---
 
 Gemeente

@@ -1,9 +1,53 @@
 ---
-title: "Woo-verzoek transitie Bungalowpark Ermerzand deel 2"
-maps: ["woo-publicaties","2024","Woo-verzoeken","Woo-verzoek transitie Bungalowpark Ermerzand"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek transitie Bungalowpark Ermerzand/Woo-verzoek transitie Bungalowpark Ermerzand deel 2.pdf"
-s3_etag: "eec0865fd591de539066e446afeca45c-6"
-date: 2026-07-30
+title: Woo-verzoek transitie Bungalowpark Ermerzand deel 2
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+  - Woo-verzoek transitie Bungalowpark Ermerzand
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek transitie Bungalowpark
+  Ermerzand/Woo-verzoek transitie Bungalowpark Ermerzand deel 2.pdf
+s3_etag: eec0865fd591de539066e446afeca45c-6
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeenteraad van Coevorden besloot op 2015-02-03 onderzoek te doen naar
+  transformatie van Ermerzand van recreatiepark naar woonpark. In de beschikbare
+  stukken is geen definitief besluit tot transformatie, intrekking of wijziging
+  van het bestemmingsplan aangetroffen.
+milestones:
+  - date: '2022-12-16'
+    event: >-
+      Gemeente en park legden afspraken vast over het gezamenlijke
+      transformatieonderzoek.
+  - date: '2023-01-31'
+    event: >-
+      Offerte aangevraagd voor toetsing van 196 bungalows aan het Bouwbesluit
+      2012.
+  - date: '2023-03-05'
+    event: Offerte uitgebracht voor de Bouwbesluittoets van alle bungalows.
+  - date: '2023-08-21'
+    event: >-
+      Offerteaanvraag opgesteld voor taxatie van de waardeverandering bij
+      transformatie.
+  - date: '2023-09-04'
+    event: >-
+      Offerte uitgebracht voor taxatie op parkniveau door Zwanenburg
+      Makelaardij.
+  - date: '2023-12-09'
+    event: Taxatie en transitie besproken tijdens een themabijeenkomst.
+  - date: '2023-12-14'
+    event: >-
+      Factuur uitgebracht voor het deskundigenrapport, aanvullingen en
+      presentatie van de taxatie.
+  - date: '2024-03-20'
+    event: >-
+      Voortgangsmemo concludeerde dat het proces nog geen streefbeeld had
+      opgeleverd en stelde uitwerking van drie hoofdlijnen voor.
+  - date: '2025-10-05'
+    event: Offerte uitgebracht voor een stedenbouwkundige analyse van Ermerzand.
+ai_processed_at: '2026-08-26T11:08:26.536Z'
+ai_status: partial
 ---
 
 concept versie 9-4-2021 CVE

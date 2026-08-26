@@ -1,9 +1,36 @@
 ---
-title: "Woo-verzoek concessies, afspraken en contracten inzake lichtmastreclame en rotondereclame gemeente Coevorden"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek concessies, afspraken en contracten inzake lichtmastreclame en rotondereclame gemeente Coevorden.pdf"
-s3_etag: "af43a05611fd5920a5e6370d222420b5"
-date: 2026-07-30
+title: >-
+  Woo-verzoek concessies, afspraken en contracten inzake lichtmastreclame en
+  rotondereclame gemeente Coevorden
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek concessies, afspraken en
+  contracten inzake lichtmastreclame en rotondereclame gemeente Coevorden.pdf
+s3_etag: af43a05611fd5920a5e6370d222420b5
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Reclanet diende op 2023-11-15 een Woo-verzoek in over concessies en contracten
+  voor lichtmast- en rotondereclame. Coevorden beantwoordde het verzoek op
+  2024-02-05, verstrekte contractinformatie en meldde geen ruimte te zien voor
+  extra reclame-uitingen.
+milestones:
+  - date: '2017-05-01'
+    event: Overeenkomst met Exterion Media voor twaalf Europanels verlengd tot 2027.
+  - date: '2017-05-15'
+    event: Addendum II inzake de verlenging van de Europanelovereenkomst ondertekend.
+  - date: '2023-11-15'
+    event: >-
+      Woo-verzoek ingediend over concessies, afspraken en contracten voor
+      lichtmast- en rotondereclame.
+  - date: '2024-02-05'
+    event: >-
+      Gemeente verstrekt informatie en contractoverzicht; Woo-verzoek
+      afgesloten.
+ai_processed_at: '2026-08-26T11:04:18.470Z'
+ai_status: done
 ---
 
 1

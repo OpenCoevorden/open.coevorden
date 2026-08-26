@@ -1,9 +1,35 @@
 ---
-title: "Woo-verzoek correspondentie en gespreksverslagen mbt intrekken van de aanvraag om een inrit aan de Margrietlaan"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie en gespreksverslagen mbt intrekken van de aanvraag om een inrit aan de Margrietlaan.pdf"
-s3_etag: "59782bc70de5d609ecafa5f835679be5"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie en gespreksverslagen mbt intrekken van de aanvraag
+  om een inrit aan de Margrietlaan
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie en
+  gespreksverslagen mbt intrekken van de aanvraag om een inrit aan de
+  Margrietlaan.pdf
+s3_etag: 59782bc70de5d609ecafa5f835679be5
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De aanvrager trok op 2024-04-04 het onderdeel voor de aanleg van een nieuwe
+  inrit aan de Margrietlaan in. Op 2024-07-22 werd hierover een Woo-verzoek
+  ingediend, dat op 2024-09-03 gedeeltelijk werd toegewezen met weglakking van
+  persoonsgegevens.
+milestones:
+  - date: '2024-04-04'
+    event: Aanvraag voor aanleg nieuwe inrit ingetrokken.
+  - date: '2024-07-22'
+    event: >-
+      Woo-verzoek ingediend om correspondentie en gespreksverslagen over de
+      intrekking te ontvangen.
+  - date: '2024-09-03'
+    event: >-
+      Woo-besluit: verzoek toegewezen; vier documenten openbaar gemaakt met
+      weglakking van persoonsgegevens.
+ai_processed_at: '2026-08-26T11:03:45.220Z'
+ai_status: done
 ---
 
 Gemeente

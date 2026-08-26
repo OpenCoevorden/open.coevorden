@@ -1,9 +1,30 @@
 ---
-title: "Woo-verzoek Kosten Vitale Vakantieparken Coevorden"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek Kosten Vitale Vakantieparken Coevorden.pdf"
-s3_etag: "b30fdb2e37276b6059624716df4ce6d6"
-date: 2026-07-30
+title: Woo-verzoek Kosten Vitale Vakantieparken Coevorden
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek Kosten Vitale Vakantieparken
+  Coevorden.pdf
+s3_etag: b30fdb2e37276b6059624716df4ce6d6
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek van 27 mei 2024 over Vitale Vakantieparken Coevorden is op 10
+  juli 2024 gedeeltelijk toegewezen. Documenten zijn deels openbaar gemaakt met
+  weglakking van persoonsgegevens; voor het gevraagde onderzoek zijn geen
+  documenten aangetroffen en dit onderdeel is afgewezen.
+milestones:
+  - date: '2024-05-27'
+    event: Woo-verzoek ingediend
+  - date: '2024-06-26'
+    event: Beslistermijn met twee weken verlengd wegens omvang van het verzoek
+  - date: '2024-07-10'
+    event: >-
+      Besluit: verzoek gedeeltelijk toegewezen en gedeeltelijk afgewezen;
+      documenten deels openbaar gemaakt
+ai_processed_at: '2026-08-26T11:05:46.974Z'
+ai_status: done
 ---
 
 Postadres:

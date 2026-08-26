@@ -1,9 +1,37 @@
 ---
-title: "Woo-verzoek correspondentie huisvesting arbeidsmigranten Wilhelminasingel"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie huisvesting arbeidsmigranten Wilhelminasingel.pdf"
-s3_etag: "504a78cbc3f8a7a69aadc296df93a027"
-date: 2026-07-30
+title: Woo-verzoek correspondentie huisvesting arbeidsmigranten Wilhelminasingel
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie huisvesting
+  arbeidsmigranten Wilhelminasingel.pdf
+s3_etag: 504a78cbc3f8a7a69aadc296df93a027
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-06-19 is een Woo-verzoek ingediend over documenten inzake de
+  huisvesting van arbeidsmigranten aan de Wilhelminasingel in Coevorden. Na
+  verlenging en opschorting van de beslistermijn is op 2024-08-19 besloten vijf
+  e-maildocumenten gedeeltelijk openbaar te maken, met weglakking van
+  persoonsgegevens.
+milestones:
+  - date: '2024-06-19'
+    event: >-
+      Indiening Woo-verzoek over de Wilhelminasingel en huisvesting van
+      arbeidsmigranten.
+  - date: '2024-07-17'
+    event: Beslistermijn met twee weken verlengd.
+  - date: '2024-07-18'
+    event: >-
+      Beslistermijn met vier weken opgeschort wegens het vragen van een
+      zienswijze aan een belanghebbende.
+  - date: '2024-08-19'
+    event: >-
+      Besluit: vijf documenten gedeeltelijk openbaar gemaakt; persoonsgegevens
+      geweigerd.
+ai_processed_at: '2026-08-26T11:02:24.264Z'
+ai_status: done
 ---
 
 Postadres:

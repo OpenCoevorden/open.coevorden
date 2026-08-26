@@ -1,9 +1,32 @@
 ---
-title: "Woo-verzoek correspondentie verduurzamen van 20 twee-onder-een-kap woningen aan Langbos"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie verduurzamen van 20 twee-onder-een-kap woningen aan Langbos.pdf"
-s3_etag: "0543a39681af6b94a189d67bbd972ca7"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie verduurzamen van 20 twee-onder-een-kap woningen
+  aan Langbos
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie verduurzamen
+  van 20 twee-onder-een-kap woningen aan Langbos.pdf
+s3_etag: 0543a39681af6b94a189d67bbd972ca7
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-04-29 is een Woo-verzoek ingediend over de omgevingsvergunning en
+  bouwunits in Oosterhesselen. Het verzoek is op 2024-06-11 gedeeltelijk
+  toegewezen en gedeeltelijk afgewezen; documenten worden openbaar gemaakt met
+  weglakking van persoonsgegevens.
+milestones:
+  - date: '2024-04-29'
+    event: >-
+      Woo-verzoek ingediend over de omgevingsvergunning en bouwunits in
+      Oosterhesselen
+  - date: '2024-06-11'
+    event: >-
+      Besluit: verzoek gedeeltelijk toegewezen en gedeeltelijk afgewezen;
+      persoonsgegevens weggelakt
+ai_processed_at: '2026-08-26T11:00:04.264Z'
+ai_status: done
 ---
 
 Gemeente

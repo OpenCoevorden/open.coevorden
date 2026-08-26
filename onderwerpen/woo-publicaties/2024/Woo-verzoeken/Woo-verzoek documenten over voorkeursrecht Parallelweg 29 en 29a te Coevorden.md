@@ -1,9 +1,40 @@
 ---
-title: "Woo-verzoek documenten over voorkeursrecht Parallelweg 29 en 29a te Coevorden"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek documenten over voorkeursrecht Parallelweg 29 en 29a te Coevorden.pdf"
-s3_etag: "535355fca84ee78fe5921fe7156f6784-2"
-date: 2026-07-30
+title: Woo-verzoek documenten over voorkeursrecht Parallelweg 29 en 29a te Coevorden
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek documenten over voorkeursrecht
+  Parallelweg 29 en 29a te Coevorden.pdf
+s3_etag: 535355fca84ee78fe5921fe7156f6784-2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2023-11-29 en 2023-11-30 zijn Woo-verzoeken ingediend over documenten en
+  correspondentie inzake het voorkeursrecht op Parallelweg 29 en 29a in
+  Coevorden. De gemeente heeft de verzoeken op 2024-01-10 toegewezen en de
+  documenten openbaar gemaakt, met weglakking van persoonsgegevens.
+milestones:
+  - date: '2020-10-26'
+    event: College vestigt voorlopig voorkeursrecht op percelen in Holwert-Midden.
+  - date: '2020-12-08'
+    event: Gemeenteraad bestendigt het voorkeursrecht op grond van de Wvg.
+  - date: '2020-12-11'
+    event: >-
+      Raadsbesluit treedt in werking; voorkeursrecht wordt voor drie jaar
+      verlengd.
+  - date: '2021-04-19'
+    event: Eigenaren bieden percelen D5010 en D5011 aan de gemeente te koop aan.
+  - date: '2021-05-25'
+    event: College besluit in beginsel tot aankoop van percelen D5010 en D5011.
+  - date: '2023-11-29'
+    event: Woo-verzoek ingediend over Parallelweg 29 en 29a.
+  - date: '2024-01-10'
+    event: >-
+      Woo-verzoek toegewezen; documenten openbaar gemaakt met persoonsgegevens
+      weggelakt.
+ai_processed_at: '2026-08-26T10:58:07.534Z'
+ai_status: done
 ---
 
 Gemeente

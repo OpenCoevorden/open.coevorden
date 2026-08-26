@@ -1,9 +1,34 @@
 ---
-title: "Woo-verzoek correspondentie met Powerfield Wormer over Nieuwe Dijk 2a Coevorden"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie met Powerfield Wormer over Nieuwe Dijk 2a Coevorden.pdf"
-s3_etag: "6012ef9d8f815a540cf672a2e1fde221-11"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie met Powerfield Wormer over Nieuwe Dijk 2a
+  Coevorden
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie met Powerfield
+  Wormer over Nieuwe Dijk 2a Coevorden.pdf
+s3_etag: 6012ef9d8f815a540cf672a2e1fde221-11
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Powerfield diende aanvragen in voor een energieopslagsysteem, een kabeltracé
+  en een Wnb-ontheffing. De omgevingsvergunning en Wnb-ontheffing werden
+  vervolgens verleend; in de tekst zijn geen bezwaar-, beroeps-, verlengings- of
+  intrekkingsbesluiten aangetroffen.
+milestones:
+  - date: '2022-06-15'
+    event: >-
+      Melding Activiteitenbesluit ingediend voor plaatsing van een EOS aan de
+      Nieuwe Dijk 2A te Coevorden.
+  - date: '2022-11-24'
+    event: Aanvraag omgevingsvergunning ingediend voor aanleg van een kabeltracé.
+  - date: '2023-01-16'
+    event: Beslistermijn omgevingsvergunning met zes weken verlengd.
+  - date: '2023-02-23'
+    event: Omgevingsvergunning voor aanleg van het kabeltracé verleend.
+ai_processed_at: '2026-08-26T11:02:14.391Z'
+ai_status: partial
 ---
 
 $'(/$$5 9$67*2('217:,..(/,1* %9

@@ -1,9 +1,30 @@
 ---
-title: "Woo-verzoek documentatie bungalowpark Wico Schoonoord 01-2024 tot 06-2024"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek documentatie bungalowpark Wico Schoonoord 01-2024 tot 06-2024.pdf"
-s3_etag: "97dea49d9bedb1c5d2fdc6f608243c3b-12"
-date: 2026-07-30
+title: Woo-verzoek documentatie bungalowpark Wico Schoonoord 01-2024 tot 06-2024
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek documentatie bungalowpark Wico
+  Schoonoord 01-2024 tot 06-2024.pdf
+s3_etag: 97dea49d9bedb1c5d2fdc6f608243c3b-12
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek van 2024-05-30 over bungalowpark Wico en Vitale Vakantieparken
+  is op 2024-07-09 gedeeltelijk toegewezen. Documenten worden deels openbaar
+  gemaakt, met weglakking van persoonsgegevens en persoonlijke
+  beleidsopvattingen; voor een deel zijn geen documenten aangetroffen.
+milestones:
+  - date: '2024-05-30'
+    event: Woo-verzoek ingediend over bungalowpark Wico en Vitale Vakantieparken.
+  - date: '2024-06-25'
+    event: Beslistermijn met twee weken verlengd wegens de omvang van het verzoek.
+  - date: '2024-07-09'
+    event: >-
+      Besluit: verzoek gedeeltelijk toegewezen; documenten deels openbaar
+      gemaakt en deels geweigerd.
+ai_processed_at: '2026-08-26T10:58:58.596Z'
+ai_status: done
 ---
 
 Postadres:

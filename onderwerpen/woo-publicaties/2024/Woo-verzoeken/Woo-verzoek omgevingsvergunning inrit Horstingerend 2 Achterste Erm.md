@@ -1,9 +1,33 @@
 ---
-title: "Woo-verzoek omgevingsvergunning inrit Horstingerend 2 Achterste Erm"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek omgevingsvergunning inrit Horstingerend 2 Achterste Erm.pdf"
-s3_etag: "16bbf3d6ad834ed049b30f2138b5cc17-5"
-date: 2026-07-30
+title: Woo-verzoek omgevingsvergunning inrit Horstingerend 2 Achterste Erm
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek omgevingsvergunning inrit
+  Horstingerend 2 Achterste Erm.pdf
+s3_etag: 16bbf3d6ad834ed049b30f2138b5cc17-5
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-08-08 is een Woo-verzoek ingediend over de aanleg en handhaving van
+  een inrit aan Horstingerend 2. De gemeente legde de werkzaamheden op
+  2024-07-09 stil met een last onder dwangsom, waarna bezwaar werd gemaakt; op
+  2024-08-28 besloot de gemeente de aangetroffen documenten gedeeltelijk
+  openbaar te maken.
+milestones:
+  - date: '2024-07-09'
+    event: Omgevingsvergunning voor de inrit aangevraagd.
+  - date: '2024-07-09'
+    event: Werkzaamheden stilgelegd met een last onder dwangsom van €5.000.
+  - date: '2024-07-25'
+    event: Bezwaar tegen het handhavingsbesluit ingediend.
+  - date: '2024-08-08'
+    event: Woo-verzoek ingediend over de inrit en handhaving.
+  - date: '2024-08-28'
+    event: 'Woo-besluit: vijftien documenten gedeeltelijk openbaar gemaakt.'
+ai_processed_at: '2026-08-26T10:56:34.690Z'
+ai_status: done
 ---
 
 Uw gegevens

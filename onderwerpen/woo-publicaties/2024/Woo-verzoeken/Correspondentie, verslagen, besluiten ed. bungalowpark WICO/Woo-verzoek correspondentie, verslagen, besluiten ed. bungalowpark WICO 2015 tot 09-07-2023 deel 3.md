@@ -1,9 +1,72 @@
 ---
-title: "Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015 tot 09-07-2023 deel 3"
-maps: ["woo-publicaties","2024","Woo-verzoeken","Correspondentie, verslagen, besluiten ed. bungalowpark WICO"]
-source: "woo-publicaties/2024/Woo-verzoeken/Correspondentie, verslagen, besluiten ed. bungalowpark WICO/Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015 tot 09-07-2023 deel 3.pdf"
-s3_etag: "c59ad4ecd8ad845bda5c35a193efca17-13"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015
+  tot 09-07-2023 deel 3
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+  - 'Correspondentie, verslagen, besluiten ed. bungalowpark WICO'
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Correspondentie, verslagen, besluiten ed.
+  bungalowpark WICO/Woo-verzoek correspondentie, verslagen, besluiten ed.
+  bungalowpark WICO 2015 tot 09-07-2023 deel 3.pdf
+s3_etag: c59ad4ecd8ad845bda5c35a193efca17-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De tekst betreft een kwaliteits- en afwegingskader voor gemeenten over de
+  mogelijke transformatie van niet-vitale vakantieparken en het al dan niet
+  toestaan van tijdelijke of definitieve bewoning. Er zijn geen relevante
+  Woo-proceduregebeurtenissen of besluiten na 2010 beschreven.
+milestones:
+  - date: '2010-08-17'
+    event: Beleidsregels permanente bewoning recreatieverblijven vastgesteld.
+  - date: '2011-10-01'
+    event: >-
+      Gefaseerde handhaving tegen permanente bewoning op Ermerstrand, Primo en
+      Secundo gestart.
+  - date: '2012-09-01'
+    event: >-
+      Gemeenteraad stelt uitgangspunten vast voor behoud van recreatieve
+      bestemmingen en uitsluiting van nieuwe permanente bewoning.
+  - date: '2014-03-10'
+    event: >-
+      College stemt in met ontwerpbestemmingsplan voor onder meer Wico en legt
+      dit ter inzage.
+  - date: '2014-09-29'
+    event: >-
+      College stelt de raad voor het bestemmingsplan Schoonoord, Wico gewijzigd
+      vast te stellen.
+  - date: '2015-02-01'
+    event: >-
+      Motie aangenomen om handhaving van permanente bewoning tijdelijk op te
+      schorten in afwachting van onderzoek naar transformatie.
+  - date: '2019-01-01'
+    event: >-
+      Programma Vitale Vakantieparken Coevorden gestart; Wico wordt daarin
+      opgenomen.
+  - date: '2020-10-01'
+    event: >-
+      Programmacontract en uitvoeringsplan VVPC definitief vastgesteld; Wico
+      aangewezen voor terugkeer naar recreatie of mogelijke transformatie.
+  - date: '2021-03-02'
+    event: >-
+      Definitieve projectopdracht toezicht en handhaving voor de vakantieparken
+      vastgesteld.
+  - date: '2022-05-01'
+    event: >-
+      Handhavend opgetreden tegen illegale bewoning op Wico na inschrijving van
+      een huurder.
+  - date: '2022-05-31'
+    event: Woo-verzoek over Wico ingediend.
+  - date: '2023-05-23'
+    event: >-
+      College stemt in met een informerende raadsbrief over het project Wico en
+      de voorgenomen quickscan.
+  - date: '2023-09-01'
+    event: Handhaving op Wico verder gestart.
+ai_processed_at: '2026-08-26T11:15:59.002Z'
+ai_status: partial
 ---
 
 3

@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek correspondentie tussen gemeente Coevorden en Makelaardij Venhorst over Wilhelminasingel 171, Coevorden"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie tussen gemeente Coevorden en Makelaardij Venhorst over Wilhelminasingel 171, Coevorden.pdf"
-s3_etag: "71d729202df2f58232e98f774fbec82b"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie tussen gemeente Coevorden en Makelaardij Venhorst
+  over Wilhelminasingel 171, Coevorden
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie tussen gemeente
+  Coevorden en Makelaardij Venhorst over Wilhelminasingel 171, Coevorden.pdf
+s3_etag: 71d729202df2f58232e98f774fbec82b
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Adelaar Vastgoedontwikkeling BV diende een Woo-verzoek in over documenten
+  betreffende Wilhelminasingel 171 te Coevorden en Makelaardij Venhorst in de
+  periode 2010-01-01 tot en met 2023-12-09. De gemeente Coevorden wees het
+  verzoek af omdat geen relevante documenten werden aangetroffen.
+milestones:
+  - date: '2023-12-09'
+    event: Indiening Woo-verzoek
+  - date: '2024-01-08'
+    event: 'Besluit: Woo-verzoek afgewezen'
+ai_processed_at: '2026-08-26T11:00:12.424Z'
+ai_status: done
 ---
 
 Gemeente

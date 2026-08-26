@@ -1,9 +1,37 @@
 ---
-title: "Woo-verzoek documenten omtrent Bungalowpark WICO, communicatiebureau COMcept en Bureau Ruimte en Vrije Tijd deel 1"
-maps: ["woo-publicaties","2024","Woo-verzoeken","Documenten omtrent Bungalowpark WICO"]
-source: "woo-publicaties/2024/Woo-verzoeken/Documenten omtrent Bungalowpark WICO/Woo-verzoek documenten omtrent Bungalowpark WICO, communicatiebureau COMcept en Bureau Ruimte en Vrije Tijd deel 1.pdf"
-s3_etag: "38a143b59906e8e8b207947dabcc24fa-9"
-date: 2026-07-30
+title: >-
+  Woo-verzoek documenten omtrent Bungalowpark WICO, communicatiebureau COMcept
+  en Bureau Ruimte en Vrije Tijd deel 1
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+  - Documenten omtrent Bungalowpark WICO
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Documenten omtrent Bungalowpark
+  WICO/Woo-verzoek documenten omtrent Bungalowpark WICO, communicatiebureau
+  COMcept en Bureau Ruimte en Vrije Tijd deel 1.pdf
+s3_etag: 38a143b59906e8e8b207947dabcc24fa-9
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2023-08-25 is een Woo-verzoek ingediend over documenten rond Vitale
+  Vakantieparken Coevorden, COMcept, Bureau Ruimte & Vrije Tijd en bungalowpark
+  Wico. De gemeente verlengde de beslistermijn, maar nam op 2024-02-21 een
+  besluit waarbij het verzoek gedeeltelijk werd toegewezen en gedeeltelijk
+  afgewezen.
+milestones:
+  - date: '2023-08-25'
+    event: Woo-verzoek ingediend over Vitale Vakantieparken Coevorden
+  - date: '2023-09-19'
+    event: Beslistermijn verlengd tot 2023-11-01
+  - date: '2023-11-02'
+    event: Eerste ingebrekestelling ingediend
+  - date: '2024-02-14'
+    event: Tweede ingebrekestelling ingediend
+  - date: '2024-02-21'
+    event: 'Woo-besluit: gedeeltelijk toegewezen en gedeeltelijk afgewezen'
+ai_processed_at: '2026-08-26T11:13:15.241Z'
+ai_status: done
 ---
 
 Gemeente

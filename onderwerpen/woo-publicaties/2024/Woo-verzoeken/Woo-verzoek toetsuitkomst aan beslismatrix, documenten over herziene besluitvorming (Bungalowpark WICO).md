@@ -1,9 +1,36 @@
 ---
-title: "Woo-verzoek toetsuitkomst aan beslismatrix, documenten over herziene besluitvorming (Bungalowpark WICO)"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek toetsuitkomst aan beslismatrix, documenten over herziene besluitvorming (Bungalowpark WICO).pdf"
-s3_etag: "df98d545a5c3d1ca61f5f43365674d53"
-date: 2026-07-30
+title: >-
+  Woo-verzoek toetsuitkomst aan beslismatrix, documenten over herziene
+  besluitvorming (Bungalowpark WICO)
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek toetsuitkomst aan beslismatrix,
+  documenten over herziene besluitvorming (Bungalowpark WICO).pdf
+s3_etag: df98d545a5c3d1ca61f5f43365674d53
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-01-23 is een Woo-verzoek ingediend over documenten inzake de
+  beslismatrix en herziene besluitvorming binnen het programma Vitale
+  Vakantieparken Coevorden. Op 2024-02-14 is het verzoek gedeeltelijk
+  toegewezen: aangetroffen documenten worden deels openbaar gemaakt met
+  weglakking van persoonsgegevens, terwijl documenten over herziene
+  besluitvorming van college en raad niet zijn aangetroffen en daarom zijn
+  afgewezen.
+milestones:
+  - date: '2024-01-23'
+    event: >-
+      Woo-verzoek ingediend over de beslismatrix en herziene besluitvorming rond
+      Vitale Vakantieparken.
+  - date: '2024-02-14'
+    event: >-
+      Woo-besluit: verzoek gedeeltelijk toegewezen; documenten deels openbaar
+      gemaakt met weglakking van persoonsgegevens, terwijl niet-aangetroffen
+      documenten over herziene college- en raadsbesluitvorming zijn afgewezen.
+ai_processed_at: '2026-08-26T10:56:09.479Z'
+ai_status: done
 ---
 
 Gemeente

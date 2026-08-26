@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek correspondentie met en over Bartels Consultancy B.V. over Nieuwe Dijk 2a, Coevorden"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie met en over Bartels Consultancy B.V. over Nieuwe Dijk 2a, Coevorden.pdf"
-s3_etag: "11b8f34ead9cdb6afc06efbbb420605b"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie met en over Bartels Consultancy B.V. over Nieuwe
+  Dijk 2a, Coevorden
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie met en over
+  Bartels Consultancy B.V. over Nieuwe Dijk 2a, Coevorden.pdf
+s3_etag: 11b8f34ead9cdb6afc06efbbb420605b
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Adelaar Vastgoedontwikkeling B.V. diende op 2023-12-09 een Woo-verzoek in over
+  correspondentie rond Nieuwe Dijk 2a en Bartels Consultancy B.V. De gemeente
+  Coevorden wees het verzoek op 2024-01-09 af omdat geen informatie was
+  gevonden.
+milestones:
+  - date: '2023-12-09'
+    event: Indiening Woo-verzoek
+  - date: '2024-01-09'
+    event: Woo-verzoek afgewezen wegens ontbreken van relevante informatie
+ai_processed_at: '2026-08-26T11:00:29.299Z'
+ai_status: done
 ---
 
 ♦ Gemeente

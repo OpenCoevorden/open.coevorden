@@ -1,9 +1,38 @@
 ---
-title: "Woo-verzoek correspondentie herontwikkeling Nieuwe Dijk 2a Coevorden"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie herontwikkeling Nieuwe Dijk 2a Coevorden.pdf"
-s3_etag: "43c3df88cd40c5136e07d84c74591b15-6"
-date: 2026-07-30
+title: Woo-verzoek correspondentie herontwikkeling Nieuwe Dijk 2a Coevorden
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie herontwikkeling
+  Nieuwe Dijk 2a Coevorden.pdf
+s3_etag: 43c3df88cd40c5136e07d84c74591b15-6
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2023-06-21 werd een conceptaanvraag/quickscan ingediend voor de bouw van
+  bedrijfsunits aan de Nieuwe Dijk 2a. Het college verleende op 2024-02-13
+  principemedewerking; het Woo-verzoek van 2024-10-07 werd op 2024-10-31
+  grotendeels toegewezen, met uitzondering van persoonsgegevens.
+milestones:
+  - date: '2023-06-21'
+    event: >-
+      Conceptaanvraag/quickscan ingediend voor nieuwbouw van bedrijfsunits aan
+      Nieuwe Dijk 2a.
+  - date: '2024-02-13'
+    event: >-
+      College neemt een positief principebesluit om medewerking te verlenen aan
+      de nieuwbouw.
+  - date: '2024-10-07'
+    event: >-
+      Woo-verzoek ingediend om stukken over de herontwikkeling van Nieuwe Dijk
+      2a openbaar te maken.
+  - date: '2024-10-31'
+    event: >-
+      Woo-besluit: 19 documenten openbaar gemaakt, met weglakking van
+      persoonsgegevens.
+ai_processed_at: '2026-08-26T11:02:44.275Z'
+ai_status: done
 ---
 
 Bostadhes:

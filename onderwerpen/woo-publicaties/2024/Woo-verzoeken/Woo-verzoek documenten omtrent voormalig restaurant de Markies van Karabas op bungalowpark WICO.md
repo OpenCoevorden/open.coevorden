@@ -1,9 +1,33 @@
 ---
-title: "Woo-verzoek documenten omtrent voormalig restaurant de Markies van Karabas op bungalowpark WICO"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek documenten omtrent voormalig restaurant de Markies van Karabas op bungalowpark WICO.pdf"
-s3_etag: "4769a806d64311aa9e257882a00d5723-2"
-date: 2026-07-30
+title: >-
+  Woo-verzoek documenten omtrent voormalig restaurant de Markies van Karabas op
+  bungalowpark WICO
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek documenten omtrent voormalig
+  restaurant de Markies van Karabas op bungalowpark WICO.pdf
+s3_etag: 4769a806d64311aa9e257882a00d5723-2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over documenten rond voormalig restaurant De Markies van
+  Karabas is op 2023-12-14 ingediend en gedeeltelijk toegewezen. De gemeente
+  verlengde de beslistermijn en nam op 2024-01-25 een besluit waarbij documenten
+  deels openbaar werden gemaakt, met weglakking van persoonsgegevens en
+  concurrentiegevoelige bedrijfsgegevens.
+milestones:
+  - date: '2023-12-14'
+    event: Woo-verzoek ingediend over De Markies van Karabas
+  - date: '2024-01-09'
+    event: Beslistermijn met twee weken verlengd
+  - date: '2024-01-25'
+    event: >-
+      Woo-besluit: verzoek gedeeltelijk toegewezen; documenten deels openbaar
+      gemaakt
+ai_processed_at: '2026-08-26T10:58:19.181Z'
+ai_status: done
 ---
 
 Postadres:

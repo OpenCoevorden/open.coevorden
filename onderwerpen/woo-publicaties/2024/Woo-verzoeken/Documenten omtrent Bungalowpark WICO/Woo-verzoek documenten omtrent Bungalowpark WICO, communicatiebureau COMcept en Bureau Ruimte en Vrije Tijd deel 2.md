@@ -1,9 +1,26 @@
 ---
-title: "Woo-verzoek documenten omtrent Bungalowpark WICO, communicatiebureau COMcept en Bureau Ruimte en Vrije Tijd deel 2"
-maps: ["woo-publicaties","2024","Woo-verzoeken","Documenten omtrent Bungalowpark WICO"]
-source: "woo-publicaties/2024/Woo-verzoeken/Documenten omtrent Bungalowpark WICO/Woo-verzoek documenten omtrent Bungalowpark WICO, communicatiebureau COMcept en Bureau Ruimte en Vrije Tijd deel 2.pdf"
-s3_etag: "8cb9b7a18f80f2584e161f4a42dddd65-7"
-date: 2026-07-30
+title: >-
+  Woo-verzoek documenten omtrent Bungalowpark WICO, communicatiebureau COMcept
+  en Bureau Ruimte en Vrije Tijd deel 2
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+  - Documenten omtrent Bungalowpark WICO
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Documenten omtrent Bungalowpark
+  WICO/Woo-verzoek documenten omtrent Bungalowpark WICO, communicatiebureau
+  COMcept en Bureau Ruimte en Vrije Tijd deel 2.pdf
+s3_etag: 8cb9b7a18f80f2584e161f4a42dddd65-7
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  In het dossier zijn twee Woo-verzoeken vermeld: een verzoek van de
+  parkeigenaar op 2022-05-31 en een nieuw verzoek dat op 2022-12-22 binnenkwam.
+  Een inhoudelijk besluit, bezwaar, beroep, uitspraak, verlenging of intrekking
+  is niet opgenomen.
+milestones: []
+ai_processed_at: '2026-08-26T11:13:01.231Z'
+ai_status: partial
 ---
 
 1

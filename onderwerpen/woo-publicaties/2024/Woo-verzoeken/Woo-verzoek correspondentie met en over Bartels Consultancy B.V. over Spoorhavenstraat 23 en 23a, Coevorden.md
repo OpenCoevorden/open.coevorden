@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek correspondentie met en over Bartels Consultancy B.V. over Spoorhavenstraat 23 en 23a, Coevorden"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie met en over Bartels Consultancy B.V. over Spoorhavenstraat 23 en 23a, Coevorden.pdf"
-s3_etag: "848938081ffb2c8ba594d099c07c00a8"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie met en over Bartels Consultancy B.V. over
+  Spoorhavenstraat 23 en 23a, Coevorden
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie met en over
+  Bartels Consultancy B.V. over Spoorhavenstraat 23 en 23a, Coevorden.pdf
+s3_etag: 848938081ffb2c8ba594d099c07c00a8
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Adelaar Vastgoedontwikkeling BV diende op 2023-12-09 een Woo-verzoek in over
+  correspondentie rond Spoorhavenstraat 23 en 23a te Coevorden met of over
+  Bartels Consultancy BV in de periode 2017-01-01 tot en met 2023-12-09. De
+  gemeente wees het verzoek op 2024-01-09 af omdat geen relevante informatie
+  werd aangetroffen.
+milestones:
+  - date: '2023-12-09'
+    event: Indiening Woo-verzoek
+  - date: '2024-01-09'
+    event: Woo-verzoek afgewezen wegens ontbreken van informatie
+ai_processed_at: '2026-08-26T11:00:21.040Z'
+ai_status: done
 ---
 
 Gemeente

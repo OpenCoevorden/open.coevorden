@@ -1,9 +1,67 @@
 ---
-title: "Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken 11-2023 tot 3-2024 deel 2"
-maps: ["woo-publicaties","2024","Woo-verzoeken","Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken/Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken 11-2023 tot 3-2024 deel 2.pdf"
-s3_etag: "777b4c6a232b3cd313201abbde9fb940-11"
-date: 2026-07-30
+title: >-
+  Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken 11-2023 tot
+  3-2024 deel 2
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+  - Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek inzameling huishoudelijke
+  afvalstoffen recreatieparken/Woo-verzoek inzameling huishoudelijke
+  afvalstoffen recreatieparken 11-2023 tot 3-2024 deel 2.pdf
+s3_etag: 777b4c6a232b3cd313201abbde9fb940-11
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De Afvalstoffenverordening Coevorden 2024 is op 2023-11-07 vastgesteld en
+  treedt op 2024-01-01 in werking. Naar aanleiding van ingediende zienswijzen is
+  de verordening aangepast, onder meer voor de afvalinzameling bij
+  recreatiewoningen en bungalowpark Zuiderveld.
+milestones:
+  - date: '2023-08-29'
+    event: >-
+      College stelt beleid voor afvalinzameling op recreatieparken vast en
+      besluit tot een aparte categorie recreatiewoningen in de
+      afvalstoffenheffing.
+  - date: '2023-10-17'
+    event: >-
+      Gemeenteraad stemt in met de plannen voor afvalinzameling op
+      recreatieparken.
+  - date: '2023-11-06'
+    event: >-
+      Woo-verzoek ingediend om alle informatie over het beleid voor
+      afvalinzameling op recreatieparken vanaf 2020.
+  - date: '2023-11-07'
+    event: >-
+      College besluit de ontwerp-Afvalstoffenverordening gemeente Coevorden 2024
+      ter inzage te leggen.
+  - date: '2023-11-21'
+    event: College besluit ook het ontwerp-uitvoeringsbesluit ter inzage te leggen.
+  - date: '2023-11-29'
+    event: Inspraakperiode voor het ontwerp-uitvoeringsbesluit start.
+  - date: '2023-12-04'
+    event: Zienswijze ingediend tegen de ontwerp-afvalstoffenverordening.
+  - date: '2023-12-19'
+    event: >-
+      Gecorrigeerde zienswijze ingediend; de eerdere zienswijze was ten onrechte
+      als zienswijze tegen het uitvoeringsbesluit aangeduid.
+  - date: '2024-01-02'
+    event: >-
+      Gemeente registreert drie zienswijzen tegen de
+      ontwerp-afvalstoffenverordening.
+  - date: '2024-01-08'
+    event: >-
+      Gemeente besluit de uitvoering bij Zuiderveld tijdelijk te bevriezen in
+      afwachting van nader onderzoek en overleg.
+  - date: '2024-01-23'
+    event: College behandelt de afvalstoffenverordening 2024 en de zienswijzennota.
+  - date: '2024-02-13'
+    event: >-
+      Een aanvullende, te laat ingediende zienswijze wordt alsnog aan de orde
+      gesteld.
+ai_processed_at: '2026-08-26T11:11:27.495Z'
+ai_status: partial
 ---
 
 Artikel 10 Vermindering extra container voor medisch afval

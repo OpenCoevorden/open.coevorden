@@ -1,9 +1,26 @@
 ---
-title: "Woo-verzoek centralisatie milieustraten Wachtum"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek centralisatie milieustraten Wachtum.pdf"
-s3_etag: "0bbb5c74a29211ea9d1536b76e837f2c-5"
-date: 2026-07-30
+title: Woo-verzoek centralisatie milieustraten Wachtum
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek centralisatie milieustraten
+  Wachtum.pdf
+s3_etag: 0bbb5c74a29211ea9d1536b76e837f2c-5
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over het haalbaarheidsonderzoek naar centralisatie van de
+  milieustraten in Coevorden is op 2024-09-12 ontvangen. Op 2024-12-02 is het
+  verzoek toegewezen, waarbij persoonsgegevens en informatie buiten de
+  reikwijdte zijn weggelakt.
+milestones:
+  - date: '2024-09-12'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2024-12-02'
+    event: 'Besluit: verzoek toegewezen; vijf documenten openbaar met uitzonderingen'
+ai_processed_at: '2026-08-26T11:04:28.782Z'
+ai_status: done
 ---
 
 Gemeente

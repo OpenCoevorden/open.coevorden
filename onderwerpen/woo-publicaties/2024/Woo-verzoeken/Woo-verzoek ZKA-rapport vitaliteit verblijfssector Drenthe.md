@@ -1,9 +1,31 @@
 ---
-title: "Woo-verzoek ZKA-rapport vitaliteit verblijfssector Drenthe"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek ZKA-rapport vitaliteit verblijfssector Drenthe.pdf"
-s3_etag: "19dcc1933aac0962f03dabed51d21846-6"
-date: 2026-07-30
+title: Woo-verzoek ZKA-rapport vitaliteit verblijfssector Drenthe
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek ZKA-rapport vitaliteit
+  verblijfssector Drenthe.pdf
+s3_etag: 19dcc1933aac0962f03dabed51d21846-6
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-08-16 is een Woo-verzoek ingediend over het ZKA-rapport over de
+  vitaliteit van de verblijfssector in Drenthe en bijlagen bij een raadsvoorstel
+  uit 2020. Op 2024-09-03 besloot de gemeente het verzoek gedeeltelijk toe te
+  wijzen voor het ZKA-rapport en gedeeltelijk af te wijzen omdat de overige
+  documenten al openbaar waren.
+milestones:
+  - date: '2024-08-16'
+    event: >-
+      Woo-verzoek ingediend voor het ZKA-rapport en bijlagen bij raadsvoorstel
+      RV#1628.
+  - date: '2024-09-03'
+    event: >-
+      Woo-besluit: gedeeltelijke toewijzing; het ZKA-rapport wordt openbaar
+      gemaakt en de overige documenten zijn al openbaar.
+ai_processed_at: '2026-08-26T11:05:14.374Z'
+ai_status: done
 ---
 
 Postadres:

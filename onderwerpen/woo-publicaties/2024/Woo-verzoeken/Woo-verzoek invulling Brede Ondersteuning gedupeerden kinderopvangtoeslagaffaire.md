@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek invulling Brede Ondersteuning gedupeerden kinderopvangtoeslagaffaire"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek invulling Brede Ondersteuning gedupeerden kinderopvangtoeslagaffaire.pdf"
-s3_etag: "48e330bec2bcb534cc3adbae6cb4f85a"
-date: 2026-07-30
+title: >-
+  Woo-verzoek invulling Brede Ondersteuning gedupeerden
+  kinderopvangtoeslagaffaire
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek invulling Brede Ondersteuning
+  gedupeerden kinderopvangtoeslagaffaire.pdf
+s3_etag: 48e330bec2bcb534cc3adbae6cb4f85a
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-04-25 diende verzoeker een Woo-verzoek in over het gebruik van
+  derdenorganisaties en externe werknemers bij de brede ondersteuning van
+  toeslagenaffairegedupeerden. De gemeente Coevorden wees het verzoek op
+  2024-05-14 af, omdat zij geen externe medewerkers inhuurt en geen organisaties
+  heeft gemandateerd.
+milestones:
+  - date: '2024-04-25'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2024-05-14'
+    event: Woo-verzoek afgewezen
+ai_processed_at: '2026-08-26T10:56:51.452Z'
+ai_status: done
 ---
 
 Gemeente

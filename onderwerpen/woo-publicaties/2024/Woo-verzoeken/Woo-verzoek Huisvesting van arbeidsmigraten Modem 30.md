@@ -1,9 +1,47 @@
 ---
-title: "Woo-verzoek Huisvesting van arbeidsmigraten Modem 30"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek Huisvesting van arbeidsmigraten Modem 30.pdf"
-s3_etag: "04c68109be0ced50d34faca9881791a7-6"
-date: 2026-07-30
+title: Woo-verzoek Huisvesting van arbeidsmigraten Modem 30
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek Huisvesting van arbeidsmigraten
+  Modem 30.pdf
+s3_etag: 04c68109be0ced50d34faca9881791a7-6
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-02-08 werd een conceptaanvraag ingediend voor tijdelijke huisvesting
+  van arbeidsmigranten aan Modem 30; een bezwaar hiertegen werd niet in
+  behandeling genomen omdat geen besluit was genomen. Het Woo-verzoek van maart
+  2024 is op 2024-04-30 gedeeltelijk toegewezen, waarbij documenten openbaar
+  zijn gemaakt met weglakking van persoonsgegevens.
+milestones:
+  - date: '2024-02-08'
+    event: >-
+      Conceptverzoek ingediend voor tijdelijke huisvesting van arbeidsmigranten
+      voor tien jaar.
+  - date: '2024-02-23'
+    event: >-
+      Bezwaar ingediend tegen de abusievelijk als vergunningaanvraag
+      gepubliceerde ontvangst.
+  - date: '2024-02-27'
+    event: >-
+      Bezwaar niet in behandeling genomen omdat het slechts een conceptverzoek
+      zonder besluit betrof.
+  - date: '2024-03-11'
+    event: >-
+      Collegeadvies: geen medewerking verlenen aan huisvesting van
+      arbeidsmigranten.
+  - date: '2024-03-19'
+    event: >-
+      Woo-verzoek ontvangen over stukken over Modem 30 en
+      arbeidsmigrantenhuisvesting.
+  - date: '2024-04-30'
+    event: >-
+      Woo-besluit: verzoek gedeeltelijk toegewezen; documenten openbaar gemaakt
+      met weglakking van persoonsgegevens.
+ai_processed_at: '2026-08-26T11:06:20.298Z'
+ai_status: done
 ---
 
 Gemeente

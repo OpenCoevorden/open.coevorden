@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek haalbaarheidsonderzoek milieustraten"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek haalbaarheidsonderzoek milieustraten.pdf"
-s3_etag: "4a53a50b87fc1845b70587f170c075ec-5"
-date: 2026-07-30
+title: Woo-verzoek haalbaarheidsonderzoek milieustraten
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek haalbaarheidsonderzoek
+  milieustraten.pdf
+s3_etag: 4a53a50b87fc1845b70587f170c075ec-5
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over het haalbaarheidsonderzoek naar centralisatie van de
+  milieustraten is op 2024-09-12 ontvangen en op 2024-12-02 geheel toegewezen.
+  Vijf documenten zijn openbaar gemaakt, met weglakking van persoonsgegevens en
+  informatie buiten de reikwijdte van het verzoek.
+milestones:
+  - date: '2024-09-12'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2024-12-02'
+    event: >-
+      Besluit: verzoek toegewezen met weglakking van persoonsgegevens en
+      informatie buiten reikwijdte
+ai_processed_at: '2026-08-26T10:57:34.210Z'
+ai_status: done
 ---
 
 Gemeente

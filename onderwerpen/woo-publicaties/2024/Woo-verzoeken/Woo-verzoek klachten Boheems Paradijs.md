@@ -1,9 +1,27 @@
 ---
-title: "Woo-verzoek klachten Boheems Paradijs"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek klachten Boheems Paradijs.pdf"
-s3_etag: "74baaec45132a898537638ff6993b6d6"
-date: 2026-07-30
+title: Woo-verzoek klachten Boheems Paradijs
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: woo-publicaties/2024/Woo-verzoeken/Woo-verzoek klachten Boheems Paradijs.pdf
+s3_etag: 74baaec45132a898537638ff6993b6d6
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-06-13 is een Woo-verzoek ontvangen om inzage in klachten over het
+  Boheems Paradijs. Het verzoek is op 2024-07-09 afgewezen, omdat het enige
+  aangetroffen document na anonimisering onleesbaar werd.
+milestones:
+  - date: '2024-06-13'
+    event: >-
+      Woo-verzoek ontvangen om klachten over het Boheems Paradijs openbaar te
+      maken.
+  - date: '2024-07-09'
+    event: >-
+      Woo-verzoek afgewezen; het enige aangetroffen document werd na
+      anonimisering onleesbaar.
+ai_processed_at: '2026-08-26T10:56:43.373Z'
+ai_status: done
 ---
 
 Gemeente

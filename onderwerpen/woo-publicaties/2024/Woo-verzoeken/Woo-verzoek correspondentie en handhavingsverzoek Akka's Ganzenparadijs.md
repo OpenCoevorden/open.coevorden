@@ -1,9 +1,51 @@
 ---
-title: "Woo-verzoek correspondentie en handhavingsverzoek Akka's Ganzenparadijs"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie en handhavingsverzoek Akka's Ganzenparadijs.pdf"
-s3_etag: "d5b786796e35fdc1570e2f5703986d9f-4"
-date: 2026-07-30
+title: Woo-verzoek correspondentie en handhavingsverzoek Akka's Ganzenparadijs
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie en
+  handhavingsverzoek Akka's Ganzenparadijs.pdf
+s3_etag: d5b786796e35fdc1570e2f5703986d9f-4
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek van 2024-04-22 over het handhavingsverzoek van 2023-09-15 en
+  de bijbehorende correspondentie is op 2024-06-03 volledig toegewezen, met
+  weglakking van persoonsgegevens. Het handhavingsverzoek leidde na
+  termijnverlenging en een ingebrekestelling tot beroep wegens niet tijdig
+  beslissen; een uitspraak daarover is niet opgenomen.
+milestones:
+  - date: '2019-10-10'
+    event: Vooroverlegaanvraag omgevingsvergunning ontvangen
+  - date: '2020-08-13'
+    event: Aanvraag omgevingsvergunning voor tijdelijke dierenopvang ingediend
+  - date: '2021-02-26'
+    event: Omgevingsvergunning van rechtswege verleend
+  - date: '2021-03-31'
+    event: Omgevingsvergunning voor tijdelijk afwijkend gebruik verleend
+  - date: '2021-09-28'
+    event: 'Besluit op bezwaar: vergunningbesluit van 2021 herroepen'
+  - date: '2021-09-28'
+    event: Aanvullende voorschriften aan vergunning van rechtswege verbonden
+  - date: '2023-09-11'
+    event: >-
+      Rechtbankzitting: besluiten van 2021 en 2023 ingetrokken; beroepen
+      ingetrokken
+  - date: '2023-09-15'
+    event: Verzoek tot handhavend optreden ingediend
+  - date: '2023-11-09'
+    event: Beslistermijn handhavingsverzoek met 15 weken verlengd tot 2024-02-23
+  - date: '2024-03-15'
+    event: Beroep wegens niet tijdig beslissen ingesteld
+  - date: '2024-04-22'
+    event: Woo-verzoek ontvangen
+  - date: '2024-06-03'
+    event: >-
+      Woo-besluit: verzoek toegewezen; 12 documenten openbaar met weglakking van
+      persoonsgegevens
+ai_processed_at: '2026-08-26T11:03:14.787Z'
+ai_status: done
 ---
 
 An

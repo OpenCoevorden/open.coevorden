@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek gemeentelijke noodverordeningen"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek gemeentelijke noodverordeningen.pdf"
-s3_etag: "120774ed32aecafdec25cf081423d3e2"
-date: 2026-07-30
+title: Woo-verzoek gemeentelijke noodverordeningen
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek gemeentelijke
+  noodverordeningen.pdf
+s3_etag: 120774ed32aecafdec25cf081423d3e2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-12-17 is een Woo-verzoek ingediend over noodverordeningen in Coevorden
+  en de Veiligheidsregio Drenthe over 2018-2024. Het verzoek is op 2024-12-23
+  afgewezen omdat de gevraagde documenten al openbaar waren; de gemeente
+  verstrekte daarbij beperkte feitelijke informatie.
+milestones:
+  - date: '2024-12-17'
+    event: Woo-verzoek ingediend over noodverordeningen en handhaving in 2018-2024.
+  - date: '2024-12-23'
+    event: >-
+      Besluit: Woo-verzoek afgewezen omdat de gevraagde documenten al openbaar
+      waren.
+ai_processed_at: '2026-08-26T10:57:50.609Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

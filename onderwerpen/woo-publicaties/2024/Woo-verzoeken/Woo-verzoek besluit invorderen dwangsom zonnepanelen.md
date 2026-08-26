@@ -1,9 +1,31 @@
 ---
-title: "Woo-verzoek besluit invorderen dwangsom zonnepanelen"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek besluit invorderen dwangsom zonnepanelen.pdf"
-s3_etag: "b19ff7a4f36fdca5e7961332bcfad3d4"
-date: 2026-07-30
+title: Woo-verzoek besluit invorderen dwangsom zonnepanelen
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek besluit invorderen dwangsom
+  zonnepanelen.pdf
+s3_etag: b19ff7a4f36fdca5e7961332bcfad3d4
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over het besluit tot invordering van een dwangsom van € 2.000
+  is op 2024-10-09 ingediend en op 2024-11-08 gedeeltelijk toegewezen.
+  Documenten zijn openbaar gemaakt met weglakking van persoonsgegevens; overige
+  gevraagde documenten zijn niet aangetroffen of maken deel uit van het
+  procesdossier.
+milestones:
+  - date: '2024-10-09'
+    event: >-
+      Indiening Woo-verzoek over besluit tot invordering van een dwangsom van €
+      2.000
+  - date: '2024-11-08'
+    event: >-
+      Besluit: Woo-verzoek gedeeltelijk toegewezen; openbaarmaking met
+      weglakking van persoonsgegevens
+ai_processed_at: '2026-08-26T11:04:51.798Z'
+ai_status: done
 ---
 
 nie Gemeente

@@ -1,9 +1,27 @@
 ---
-title: "Woo-verzoek CPO Dalen"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek CPO Dalen.pdf"
-s3_etag: "399ddcadc509f937e128bebe64efc4c5-3"
-date: 2026-07-30
+title: Woo-verzoek CPO Dalen
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: woo-publicaties/2024/Woo-verzoeken/Woo-verzoek CPO Dalen.pdf
+s3_etag: 399ddcadc509f937e128bebe64efc4c5-3
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek is op 2024-10-02 ingediend bij de gemeente Coevorden. Op
+  2024-10-29 is besloten het verzoek toe te wijzen; persoonsgegevens zijn uit de
+  openbaar gemaakte documenten weggelakt.
+milestones:
+  - date: '2024-01-16'
+    event: Intentieverklaring voor CPO Dalen Starters vastgesteld.
+  - date: '2024-10-02'
+    event: Woo-verzoek ingediend en ontvangen door gemeente Coevorden.
+  - date: '2024-10-29'
+    event: >-
+      Woo-besluit: verzoek volledig toegewezen; vier documenten openbaar gemaakt
+      met weglakking van persoonsgegevens.
+ai_processed_at: '2026-08-26T11:06:48.564Z'
+ai_status: done
 ---
 
 Gemeente

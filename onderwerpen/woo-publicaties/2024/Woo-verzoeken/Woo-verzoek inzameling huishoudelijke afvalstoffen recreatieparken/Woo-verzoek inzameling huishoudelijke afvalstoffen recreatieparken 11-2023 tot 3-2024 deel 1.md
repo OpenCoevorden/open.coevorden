@@ -1,9 +1,33 @@
 ---
-title: "Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken 11-2023 tot 3-2024 deel 1"
-maps: ["woo-publicaties","2024","Woo-verzoeken","Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken/Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken 11-2023 tot 3-2024 deel 1.pdf"
-s3_etag: "21cbe75404caa8c757dab3eef4eac1a2-12"
-date: 2026-07-30
+title: >-
+  Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken 11-2023 tot
+  3-2024 deel 1
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+  - Woo-verzoek inzameling huishoudelijke afvalstoffen recreatieparken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek inzameling huishoudelijke
+  afvalstoffen recreatieparken/Woo-verzoek inzameling huishoudelijke
+  afvalstoffen recreatieparken 11-2023 tot 3-2024 deel 1.pdf
+s3_etag: 21cbe75404caa8c757dab3eef4eac1a2-12
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-03-04 is een Woo-verzoek ingediend over informatie over de inzameling
+  van huishoudelijke afvalstoffen bij recreatieparken in Coevorden. De gemeente
+  heeft het verzoek op 2024-04-15 gedeeltelijk toegewezen; documenten zijn
+  openbaar gemaakt met weglakking van persoonsgegevens, persoonlijke
+  beleidsopvattingen en concurrentiegevoelige bedrijfsgegevens.
+milestones:
+  - date: '2024-03-04'
+    event: Woo-verzoek ingediend over afvalinzameling bij recreatieparken.
+  - date: '2024-04-15'
+    event: >-
+      Besluit: Woo-verzoek gedeeltelijk toegewezen; documenten deels openbaar
+      gemaakt met weglakkingen.
+ai_processed_at: '2026-08-26T11:11:40.737Z'
+ai_status: done
 ---
 
 Postadres:

@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek de zienswijzen en beleidskaders aangaande het vergunnen van een eventuele dampverwerkingsinstallatie"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek de zienswijzen en beleidskaders aangaande het vergunnen van een eventuele dampverwerkingsinstallatie.pdf"
-s3_etag: "30312807faafe124fd19a922ca8bc182"
-date: 2026-07-30
+title: >-
+  Woo-verzoek de zienswijzen en beleidskaders aangaande het vergunnen van een
+  eventuele dampverwerkingsinstallatie
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek de zienswijzen en beleidskaders
+  aangaande het vergunnen van een eventuele dampverwerkingsinstallatie.pdf
+s3_etag: 30312807faafe124fd19a922ca8bc182
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2024-04-16 een Woo-verzoek over zienswijzen
+  en beleidskaders voor het vergunnen van een dampverwerkingsinstallatie en het
+  aan de lucht ontgassen van een schip. Op 2024-08-15 is het verzoek afgewezen
+  omdat geen documenten zijn aangetroffen.
+milestones:
+  - date: '2024-04-16'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2024-08-15'
+    event: 'Besluit: Woo-verzoek afgewezen wegens ontbreken van documenten'
+ai_processed_at: '2026-08-26T10:59:44.989Z'
+ai_status: done
 ---
 
 Gemeente

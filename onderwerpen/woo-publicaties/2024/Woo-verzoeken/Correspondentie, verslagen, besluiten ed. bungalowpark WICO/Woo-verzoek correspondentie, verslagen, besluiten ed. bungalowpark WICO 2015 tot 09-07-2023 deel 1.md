@@ -1,9 +1,42 @@
 ---
-title: "Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015 tot 09-07-2023 deel 1"
-maps: ["woo-publicaties","2024","Woo-verzoeken","Correspondentie, verslagen, besluiten ed. bungalowpark WICO"]
-source: "woo-publicaties/2024/Woo-verzoeken/Correspondentie, verslagen, besluiten ed. bungalowpark WICO/Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015 tot 09-07-2023 deel 1.pdf"
-s3_etag: "fb8ca6166375b76314470f9442e3cd6a-13"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015
+  tot 09-07-2023 deel 1
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+  - 'Correspondentie, verslagen, besluiten ed. bungalowpark WICO'
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Correspondentie, verslagen, besluiten ed.
+  bungalowpark WICO/Woo-verzoek correspondentie, verslagen, besluiten ed.
+  bungalowpark WICO 2015 tot 09-07-2023 deel 1.pdf
+s3_etag: fb8ca6166375b76314470f9442e3cd6a-13
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2023-07-09 is een Woo-verzoek ingediend over het volledige WICO-dossier. De
+  gemeente beperkte de periode met instemming van de verzoeker tot 2015-2023,
+  verlengde de beslistermijn en wees het verzoek op 2024-02-29 gedeeltelijk toe,
+  met openbaarmaking van documenten met weglakkingen.
+milestones:
+  - date: '2018-10-30'
+    event: Wob-verzoek ingediend over informatie over permanente bewoning.
+  - date: '2018-11-20'
+    event: Wob-verzoek afgewezen wegens ontbreken van de gevraagde documenten.
+  - date: '2019-01-03'
+    event: Bezwaar tegen de afwijzing ingediend.
+  - date: '2019-03-06'
+    event: 'Beslissing op bezwaar: bezwaar niet-ontvankelijk verklaard.'
+  - date: '2023-05-09'
+    event: >-
+      Woo-verzoek ingediend om openbaarmaking van de geheime bijlage bij het
+      uitvoeringsplan Vitale Vakantieparken.
+  - date: '2023-06-20'
+    event: >-
+      Beslistermijn met twee weken verlengd; behandeling vereist voorlegging aan
+      college en gemeenteraad.
+ai_processed_at: '2026-08-26T11:17:55.568Z'
+ai_status: partial
 ---
 
 Postadres:

@@ -1,9 +1,27 @@
 ---
-title: "Woo-verzoek gespreksverslagen voormalig restaurant"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek gespreksverslagen voormalig restaurant.pdf"
-s3_etag: "d6a1c1f0e2b0f41499ca1c349d611626"
-date: 2026-07-30
+title: Woo-verzoek gespreksverslagen voormalig restaurant
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek gespreksverslagen voormalig
+  restaurant.pdf
+s3_etag: d6a1c1f0e2b0f41499ca1c349d611626
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-05-31 is een Woo-verzoek ingediend over documenten betreffende een
+  voormalig restaurant in Schoonoord. De gemeente verlengde de beslistermijn en
+  wees het verzoek op 2024-07-10 af omdat geen documenten zijn aangetroffen.
+milestones:
+  - date: '2024-05-31'
+    event: Woo-verzoek ingediend
+  - date: '2024-06-26'
+    event: Beslistermijn met twee weken verlengd
+  - date: '2024-07-10'
+    event: Woo-verzoek afgewezen wegens ontbreken van aangetroffen documenten
+ai_processed_at: '2026-08-26T10:57:42.592Z'
+ai_status: done
 ---
 
 Gemeente

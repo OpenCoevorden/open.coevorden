@@ -1,9 +1,31 @@
 ---
-title: "Woo-verzoek beleid inzameling huishoudelijke afvalstoffen op recreatieparken gemeente Coevorden"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek beleid inzameling huishoudelijke afvalstoffen op recreatieparken gemeente Coevorden.pdf"
-s3_etag: "daef4d5c7ef9b4e16a57f95f776fad2f-6"
-date: 2026-07-30
+title: >-
+  Woo-verzoek beleid inzameling huishoudelijke afvalstoffen op recreatieparken
+  gemeente Coevorden
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek beleid inzameling
+  huishoudelijke afvalstoffen op recreatieparken gemeente Coevorden.pdf
+s3_etag: daef4d5c7ef9b4e16a57f95f776fad2f-6
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2023-11-08 een Woo-verzoek over het beleid
+  voor afvalinzameling op recreatieparken. Op 2024-01-11 is het verzoek
+  gedeeltelijk toegewezen; documenten worden openbaar gemaakt met weglakking van
+  persoonsgegevens, persoonlijke beleidsopvattingen en concurrentiegevoelige
+  bedrijfsgegevens.
+milestones:
+  - date: '2023-11-08'
+    event: Woo-verzoek ingediend over afvalinzamelingsbeleid op recreatieparken
+  - date: '2024-01-11'
+    event: >-
+      Besluit: Woo-verzoek gedeeltelijk toegewezen en documenten deels openbaar
+      gemaakt
+ai_processed_at: '2026-08-26T11:05:04.547Z'
+ai_status: done
 ---
 
 Gemeente

@@ -1,9 +1,30 @@
 ---
-title: "Woo-verzoek informering fractievoorzitters Brink 9, Sleen"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek informering fractievoorzitters Brink 9, Sleen.pdf"
-s3_etag: "e42e73ac7dadb59199ae04b0a025f590"
-date: 2026-07-30
+title: 'Woo-verzoek informering fractievoorzitters Brink 9, Sleen'
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek informering fractievoorzitters
+  Brink 9, Sleen.pdf
+s3_etag: e42e73ac7dadb59199ae04b0a025f590
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-01-02 diende verzoeker een Woo-verzoek in over communicatie met
+  fractievoorzitters over de situatie rond Brink 9 in Sleen. Het verzoek werd op
+  2024-12-16 toegewezen, waarbij WhatsApp-verkeer openbaar werd gemaakt met
+  weglakking van persoonsgegevens.
+milestones:
+  - date: '2024-01-02'
+    event: >-
+      Indiening Woo-verzoek over communicatie met fractievoorzitters inzake
+      Brink 9 in Sleen.
+  - date: '2024-12-16'
+    event: >-
+      Woo-besluit: verzoek toegewezen; WhatsApp-verkeer openbaar gemaakt met
+      weglakking van persoonsgegevens.
+ai_processed_at: '2026-08-26T10:57:25.492Z'
+ai_status: done
 ---
 
 Gemeente

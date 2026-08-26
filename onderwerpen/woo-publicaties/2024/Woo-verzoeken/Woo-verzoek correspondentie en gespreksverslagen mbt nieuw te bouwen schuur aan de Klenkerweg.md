@@ -1,9 +1,45 @@
 ---
-title: "Woo-verzoek correspondentie en gespreksverslagen mbt nieuw te bouwen schuur aan de Klenkerweg"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie en gespreksverslagen mbt nieuw te bouwen schuur aan de Klenkerweg.pdf"
-s3_etag: "2a7d0fb3ae63e293a36cd3976320fe8c-3"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie en gespreksverslagen mbt nieuw te bouwen schuur
+  aan de Klenkerweg
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie en
+  gespreksverslagen mbt nieuw te bouwen schuur aan de Klenkerweg.pdf
+s3_etag: 2a7d0fb3ae63e293a36cd3976320fe8c-3
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De omgevingsvergunningaanvraag voor uitbreiding en nieuwbouw werd op
+  2023-12-19 ingediend; de aanvraag voor een extra uitrit werd op 2024-04-04
+  ingetrokken. Het Woo-verzoek van 2024-07-23 werd na verlenging op 2024-09-03
+  toegewezen, met openbaarmaking van documenten na weglakking van
+  persoonsgegevens.
+milestones:
+  - date: '2023-12-19'
+    event: >-
+      Omgevingsvergunning aangevraagd voor uitbreiding van bebouwing en aanleg
+      van een extra uitrit.
+  - date: '2024-04-04'
+    event: >-
+      Aanvraag voor de extra uitrit ingetrokken; de aanvraag bleef beperkt tot
+      uitbreiding en nieuwbouw van schuren.
+  - date: '2024-07-23'
+    event: >-
+      Woo-verzoek ingediend om openbaarmaking van correspondentie en
+      gespreksverslagen over de nieuw te bouwen schuur.
+  - date: '2024-08-12'
+    event: >-
+      Beslistermijn van het Woo-verzoek verlengd wegens zienswijzen van
+      belanghebbenden.
+  - date: '2024-09-03'
+    event: >-
+      Woo-besluit: verzoek toegewezen; documenten openbaar gemaakt met
+      weglakking van persoonsgegevens.
+ai_processed_at: '2026-08-26T11:03:32.325Z'
+ai_status: done
 ---
 
 Gemeente

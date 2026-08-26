@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015 tot 09-07-2023 deel 4"
-maps: ["woo-publicaties","2024","Woo-verzoeken","Correspondentie, verslagen, besluiten ed. bungalowpark WICO"]
-source: "woo-publicaties/2024/Woo-verzoeken/Correspondentie, verslagen, besluiten ed. bungalowpark WICO/Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015 tot 09-07-2023 deel 4.pdf"
-s3_etag: "e85958ccd1d50d0e4dc4151a0fdcd372-9"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie, verslagen, besluiten ed. bungalowpark WICO 2015
+  tot 09-07-2023 deel 4
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+  - 'Correspondentie, verslagen, besluiten ed. bungalowpark WICO'
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Correspondentie, verslagen, besluiten ed.
+  bungalowpark WICO/Woo-verzoek correspondentie, verslagen, besluiten ed.
+  bungalowpark WICO 2015 tot 09-07-2023 deel 4.pdf
+s3_etag: e85958ccd1d50d0e4dc4151a0fdcd372-9
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stelde vanaf 2010 beleidsregels vast voor permanente
+  bewoning van recreatieverblijven en ontving op 2018-04-16 een
+  handhavingsverzoek over een recreatiewoning aan de Slenerweg in Schoonoord. In
+  2020-2023 werd het programma Vitale Vakantieparken verder voorbereid en een
+  verlenging voorgesteld; in de aangeleverde tekst staat geen definitief besluit
+  op het handhavingsverzoek.
+milestones: []
+ai_processed_at: '2026-08-26T11:14:34.549Z'
+ai_status: partial
 ---
 
 Voorlegger PFO

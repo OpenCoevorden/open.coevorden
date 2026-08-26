@@ -1,9 +1,35 @@
 ---
-title: "Woo-verzoek correspondentie met Vazet te Zwolle over Wilhelminasingel 171, Coevorden"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie met Vazet te Zwolle over Wilhelminasingel 171, Coevorden.pdf"
-s3_etag: "fb315f630666deddbfc2eff58b44afee-2"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie met Vazet te Zwolle over Wilhelminasingel 171,
+  Coevorden
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie met Vazet te
+  Zwolle over Wilhelminasingel 171, Coevorden.pdf
+s3_etag: fb315f630666deddbfc2eff58b44afee-2
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Adelaar Vastgoedontwikkeling B.V. diende een Woo-verzoek in over documenten
+  betreffende Wilhelminasingel 171 en correspondentie met en over Vazet. De
+  gemeente Coevorden wees het verzoek gedeeltelijk toe op 2024-01-30 en
+  verstrekte de documenten op 2024-02-14, met weglakking van persoonsgegevens en
+  persoonlijke beleidsopvattingen.
+milestones:
+  - date: '2023-12-09'
+    event: Woo-verzoek ingediend over stukken rond Wilhelminasingel 171 en Vazet.
+  - date: '2024-01-30'
+    event: >-
+      Besluit: Woo-verzoek gedeeltelijk toegewezen; persoonsgegevens en
+      persoonlijke beleidsopvattingen weggelakt.
+  - date: '2024-02-14'
+    event: >-
+      Openbaar gemaakte documenten verstrekt na afloop van de uitgestelde
+      verstrekkingstermijn.
+ai_processed_at: '2026-08-26T11:00:39.739Z'
+ai_status: done
 ---
 
 Gemeente

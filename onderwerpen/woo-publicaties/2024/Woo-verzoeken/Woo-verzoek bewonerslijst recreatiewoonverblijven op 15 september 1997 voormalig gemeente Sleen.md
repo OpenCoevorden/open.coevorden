@@ -1,9 +1,33 @@
 ---
-title: "Woo-verzoek bewonerslijst recreatiewoonverblijven op 15 september 1997 voormalig gemeente Sleen"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek bewonerslijst recreatiewoonverblijven op 15 september 1997 voormalig gemeente Sleen.pdf"
-s3_etag: "e3a06001c2794a59010ac669cda48307"
-date: 2026-07-30
+title: >-
+  Woo-verzoek bewonerslijst recreatiewoonverblijven op 15 september 1997
+  voormalig gemeente Sleen
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek bewonerslijst
+  recreatiewoonverblijven op 15 september 1997 voormalig gemeente Sleen.pdf
+s3_etag: e3a06001c2794a59010ac669cda48307
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2024-02-10 is een Woo-verzoek ingediend over communicatie tussen de
+  gemeente Sleen en bewoners van recreatiewoonverblijven die op 1997-09-15
+  ingeschreven stonden. Op 2024-03-06 is het verzoek gedeeltelijk toegewezen en
+  gedeeltelijk afgewezen; de aangetroffen documenten zijn openbaar gemaakt met
+  weglakking van persoonsgegevens.
+milestones:
+  - date: '2024-02-10'
+    event: >-
+      Indiening Woo-verzoek over communicatie en bewonerslijst van
+      recreatiewoonverblijven in Sleen.
+  - date: '2024-03-06'
+    event: >-
+      Besluit: verzoek gedeeltelijk toegewezen en gedeeltelijk afgewezen;
+      documenten openbaar gemaakt met weglakking van persoonsgegevens.
+ai_processed_at: '2026-08-26T11:04:40.074Z'
+ai_status: done
 ---
 
 m Gemeente

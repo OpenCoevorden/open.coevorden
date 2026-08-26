@@ -1,9 +1,32 @@
 ---
-title: "Woo-verzoek correspondentie, notulen ed. tussen gemeente Coevorden en provincie Drenthe WICO 1"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie, notulen ed. tussen gemeente Coevorden en provincie Drenthe WICO 1.pdf"
-s3_etag: "a04c6390bcb77c933fe873902b7dee23"
-date: 2026-07-30
+title: >-
+  Woo-verzoek correspondentie, notulen ed. tussen gemeente Coevorden en
+  provincie Drenthe WICO 1
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek correspondentie, notulen ed.
+  tussen gemeente Coevorden en provincie Drenthe WICO 1.pdf
+s3_etag: a04c6390bcb77c933fe873902b7dee23
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2024-09-25 een Woo-verzoek over documenten
+  inzake de bestemming van bungalowpark WICO. Na verlenging van de beslistermijn
+  wees de gemeente het verzoek op 2024-10-30 af, omdat geen documenten waren
+  aangetroffen.
+milestones:
+  - date: '2024-09-25'
+    event: >-
+      Woo-verzoek ingediend over documenten betreffende de bestemming van
+      bungalowpark WICO.
+  - date: '2024-10-17'
+    event: Beslistermijn met twee weken verlengd.
+  - date: '2024-10-30'
+    event: Woo-verzoek afgewezen omdat geen documenten zijn aangetroffen.
+ai_processed_at: '2026-08-26T10:59:52.424Z'
+ai_status: done
 ---
 
 Postadres:

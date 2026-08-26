@@ -1,9 +1,45 @@
 ---
-title: "Woo-verzoek interne communicatie rondom weigeren omgevingsvergunning padelbanen Coevorder Tennisclub"
-maps: ["woo-publicaties","2024","Woo-verzoeken"]
-source: "woo-publicaties/2024/Woo-verzoeken/Woo-verzoek interne communicatie rondom weigeren omgevingsvergunning padelbanen Coevorder Tennisclub.pdf"
-s3_etag: "58766b639aba92e64ad171f1ce4bb536-3"
-date: 2026-07-30
+title: >-
+  Woo-verzoek interne communicatie rondom weigeren omgevingsvergunning
+  padelbanen Coevorder Tennisclub
+maps:
+  - woo-publicaties
+  - '2024'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2024/Woo-verzoeken/Woo-verzoek interne communicatie rondom
+  weigeren omgevingsvergunning padelbanen Coevorder Tennisclub.pdf
+s3_etag: 58766b639aba92e64ad171f1ce4bb536-3
+date: 2026-07-30T00:00:00.000Z
+summary: >-
+  Op 2022-02-28 werd een omgevingsvergunning aangevraagd voor twee padelbanen
+  aan de Nordhornerstraat 23. De vergunning werd op 2023-03-16 verleend; het
+  Woo-verzoek van 2024 ziet volgens de tekst op interne communicatie rond een
+  later genoemde weigering op 2023-09-26 en werd op 2024-03-13 grotendeels
+  toegewezen.
+milestones:
+  - date: '2022-02-28'
+    event: Aanvraag omgevingsvergunning voor twee padelbanen ingediend.
+  - date: '2023-02-28'
+    event: Beslistermijn verlengd tot 2023-03-31.
+  - date: '2023-03-23'
+    event: Beslistermijn verlengd tot 2023-04-28.
+  - date: '2023-04-07'
+    event: Beslistermijn opnieuw opgeschort na overleg met omwonenden.
+  - date: '2023-05-23'
+    event: Beslistermijn verlengd tot 2023-09-30.
+  - date: '2023-09-19'
+    event: Omgevingsvergunning voor de padelbanen geweigerd.
+  - date: '2024-01-15'
+    event: >-
+      Woo-verzoek ingediend over interne communicatie rond de geweigerde
+      vergunning.
+  - date: '2024-03-13'
+    event: >-
+      Woo-verzoek toegewezen; 57 documenten openbaar gemaakt met weglakking van
+      persoonsgegevens.
+ai_processed_at: '2026-08-26T10:57:15.447Z'
+ai_status: done
 ---
 
 Gemeente
