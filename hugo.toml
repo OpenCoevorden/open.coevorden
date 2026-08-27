@@ -58,7 +58,7 @@ uglyURLs = true
 [params.theme]
   primary = "#4a2060"
   accent  = "#5a7a00"
-  bg      = "#f4f7f6"
+  bg      = "#5a7a00"
 
 
 # ── MAP-STRUCTUUR PER ONDERWERP ──────────────────────────────────────────────
