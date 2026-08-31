@@ -10,6 +10,7 @@
     <h1 data-pagefind-meta="title">{{ $page.Title }}</h1>
     {{ range $v.visible }}
     <span data-pagefind-filter="{{ .label }}" data-pagefind-meta="{{ .label }}">{{ .value }}</span>
+    <span data-pagefind-sort="date[data-date]" data-date="{{ $page.Date.Format "2006-01-02" }}"></span>
     {{ end }}
     {{ $page.Content }}
 </div>
