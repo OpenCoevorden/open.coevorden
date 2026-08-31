@@ -204,6 +204,7 @@ jobs:
         run: |
           set -euo pipefail
           cp ./public/sitemap.xml "./public/$SYNC_FOLDER/sitemap.xml"
+          cp ./public/index.json "./public/$SYNC_FOLDER/recent.json"
           aws s3 sync ./public "s3://$BUCKET_NAME" \
             --delete \
             --exclude "*" \

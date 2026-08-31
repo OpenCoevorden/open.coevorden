@@ -1,0 +1,14 @@
+{{/*
+    index.json.json — lijstje "recent toegevoegd" voor index.html.
+    Elke deploy bouwt één SYNC_FOLDER, dus dit bestand bevat vanzelf alleen
+    de documenten van dat onderwerp/jaar. Wordt door de deploy-workflow
+    gekopieerd naar public/<SYNC_FOLDER>/recent.json.
+*/}}
+{{- $out := slice -}}
+{{- range first 10 (sort .Site.RegularPages "Date" "desc") -}}
+  {{- $out = $out | append (dict
+      "title" .Title
+      "url"   .RelPermalink
+      "date"  (.Date.Format "2006-01-02")) -}}
+{{- end -}}
+{{- $out | jsonify -}}
