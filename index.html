@@ -423,7 +423,6 @@
             color: #000000;
         }
         .recent-block ul { list-style: none; padding: 0; }
-        .recent-block li { padding: 10px 0; border-bottom: 1px solid #ddd; }
         .recent-block li:last-child { border-bottom: none; }
         .recent-block a {
             color: var(--primary);
@@ -431,6 +430,18 @@
             text-decoration: underline;
         }
         .recent-block a:hover { color: var(--accent); }
+
+        .recent-block li {
+            display: flex;
+            gap: 1em;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+}
+        .recent-block time {
+            flex: 0 0 6.5em;          /* vaste kolom, krimpt niet mee */
+            color: var(--text-muted);
+            font-variant-numeric: tabular-nums;
+}
         
     </style>
 </head>
@@ -674,6 +685,12 @@
         const esc = s => String(s).replace(/[&<>"]/g,
             c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
+         // "2026-08-31" → "31-08-2026". Onbekende vorm laten we ongemoeid.
+        const fmtDate = s => {
+            const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(s || ""));
+            return m ? `${m[3]}-${m[2]}-${m[1]}` : "";
+        };
+
         async function showRecent(subject) {
             const box = document.getElementById(`recent-${subject.id}`);
             if (!box || recentStarted.has(subject.id)) return;
@@ -691,7 +708,10 @@
 
                 box.innerHTML =
                     "<h2>Recent toegevoegd</h2><ul>" +
-                    items.map(d => `<li><a href="${esc(d.url)}">${esc(d.title)}</a></li>`).join("") +
+                     items.map(d =>
+                        `<li><time datetime="${esc(d.date)}">${fmtDate(d.date)}</time> ` +
+                        `<a href="${esc(d.url)}">${esc(d.title)}</a></li>`
+                    ).join("") +
                     "</ul>";
             } catch (e) {
                     box.innerHTML = "";
