@@ -57,8 +57,8 @@ uglyURLs = true
 #   WCAG: primary/accent gekozen op ≥4.5:1 contrast met wit.
 [params.theme]
   primary = "#4a2060"
-  accent  = "#5a7a00"
-  bg      = "#5a7a00"
+  accent  = "#669900"
+  bg      = "#669900"
 
 
 # ── MAP-STRUCTUUR PER ONDERWERP ──────────────────────────────────────────────
