@@ -8,7 +8,7 @@ source: >-
   woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Basisregistratie Personen
   correctieverzoek.pdf
 s3_etag: 55095ba521266b9965369fecd7b82135-3
-date: 2026-07-30T00:00:00.000Z
+date: 2026-08-30T00:00:00.000Z
 summary: >-
   Op 2026-03-16 is een Woo-verzoek ingediend over het BRP-correctiedossier en
   aanverwant beleid. De gemeente verlengde en schorste de beslistermijn en nam
