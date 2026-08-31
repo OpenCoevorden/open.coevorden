@@ -1,0 +1,43 @@
+{{/*
+    footer.html — sitebrede voettekst, staat op elke detailpagina via baseof.html.
+    Context: de Page zelf (.).
+
+    De teksten/links komen CENTRAAL uit hugo.toml [params.footer]; de defaults
+    hieronder zijn het vangnet als dat blok (nog) ontbreekt.
+
+    LET OP: index.html wordt NIET door Hugo gebouwd (aparte deploy via index.yml)
+    en heeft daarom een eigen kopie van deze footer. Wijzig je hier iets, pas het
+    daar dan ook aan.
+
+    WCAG 1.3.1 + 4.1.2: <footer role="contentinfo"> markeert de regio.
+    WCAG 2.4.4 + 3.2.2: linktekst + aria-label melden doel én nieuw tabblad.
+*/}}
+{{ $f         := .Site.Params.footer | default dict }}
+{{ $org       := $f.organisatie | default "Gemeente Coevorden" }}
+{{ $auteur    := $f.auteur      | default "Vincent van Dijk" }}
+{{ $auteurURL := $f.auteurURL   | default "https://www.linkedin.com/in/vincent-van-dijk-6a6431113/" }}
+
+<footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+        <p class="footer-org">
+            <i class="bi bi-building" aria-hidden="true"></i>
+            &copy; {{ now.Year }} {{ $org }}
+        </p>
+
+        <nav class="footer-nav" aria-label="Voettekstnavigatie">
+            <a href="{{ .Site.Params.indexURL }}">Terug naar overzicht</a>
+        </nav>
+
+        <p class="footer-credit">
+            Ontworpen en gebouwd door
+            <a href="{{ $auteurURL }}"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="{{ $auteur }} op LinkedIn (opent in nieuw tabblad)">
+                <i class="bi bi-linkedin" aria-hidden="true"></i>
+                {{ $auteur }}
+                <span aria-hidden="true" title="Opent in nieuw tabblad">&#8599;</span>
+            </a>
+        </p>
+    </div>
+</footer>
