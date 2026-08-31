@@ -582,6 +582,13 @@
                 // Placeholder tot Pagefind geladen is (voor het eerste onderwerp zichtbaar).
                 box.innerHTML = '<p class="placeholder-text" role="status">Zoekfunctie wordt geladen…</p>';
                 containers.appendChild(box);
+
+                // Eigen container náást de zoek-container: Pagefind beheert
+                // #search-<id> zelf, daar moeten we niets in hangen.
+                const rec = document.createElement("div");
+                rec.className = "recent-block hidden";
+                rec.id = `recent-${s.id}`;
+                containers.appendChild(rec);
             });
 
             // AI-knop achteraan, in dezelfde groep.
@@ -640,6 +647,42 @@
             started.add(subject.id);
         }
 
+
+                /* ── Meest recente documenten ─────────────────────────────
+           Leest public/<onderwerp>/recent.json, dat Hugo bij elke deploy
+           schrijft (layouts/index.json.json). Bewust GEEN Pagefind: een
+           lege search() met sort dwingt de volledige index-metadata te
+           laden — megabytes voor acht titels. */
+        const RECENT_COUNT = 8;
+        const recentStarted = new Set();
+
+        const esc = s => String(s).replace(/[&<>"]/g,
+            c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+        async function showRecent(subject) {
+            const box = document.getElementById(`recent-${subject.id}`);
+            if (!box || recentStarted.has(subject.id)) return;
+            recentStarted.add(subject.id);
+
+            // /woo-publicaties/2026/_pagefind/ → /woo-publicaties/2026/
+            const base = resolveBundles(subject)
+                .find(b => b.primary).bundlePath.replace(/_pagefind\/$/, "");
+
+            try {
+                const res = await fetch(`${base}recent.json`);
+                if (!res.ok) throw new Error(res.status);
+                const items = (await res.json()).slice(0, RECENT_COUNT);
+                if (!items.length) throw new Error("leeg");
+
+                box.innerHTML =
+                    "<h2>Recent toegevoegd</h2><ul>" +
+                    items.map(d => `<li><a href="${esc(d.url)}">${esc(d.title)}</a></li>`).join("") +
+                    "</ul>";
+            } catch (e) {
+                box.classList.add("hidden");   // geen lijst is beter dan een foutmelding
+            }
+        }
+
         /* ── Onderwerp openen ──────────────────────────────────────── */
         function selectSubject(id) {
             const subject = SUBJECTS.find(s => s.id === id);
@@ -654,12 +697,17 @@
             searchSection.removeAttribute("aria-hidden");
             hideAI();
 
-            // Alleen de container van dit onderwerp tonen.
+
+            // Alleen de containers van dit onderwerp tonen.
             document.querySelectorAll(".subject-search").forEach(c => {
                 c.classList.toggle("hidden", c.id !== `search-${id}`);
             });
+            document.querySelectorAll(".recent-block").forEach(c => {
+                c.classList.toggle("hidden", c.id !== `recent-${id}`);
+            });
 
             ensureInit(subject);
+            showRecent(subject);
 
             // Zoekmodus tonen en de knoppen synchroniseren met de ECHTE inhoud
             // van de input van dít onderwerp. Elke instance heeft zijn eigen
@@ -761,6 +809,10 @@
                 if (!currentSubjectId) return;
                 const container = document.getElementById(`search-${currentSubjectId}`);
                 if (container && container.contains(t)) setModeButtons(modeFromInput(t));
+                 // Zodra er getypt wordt, maakt het recent-lijstje plaats
+                // voor de zoekresultaten.
+                const rec = document.getElementById(`recent-${currentSubjectId}`);
+                if (rec) rec.classList.toggle("hidden", t.value.trim().length > 0);
             });
         }
 
