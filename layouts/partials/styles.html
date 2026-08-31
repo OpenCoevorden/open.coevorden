@@ -328,5 +328,50 @@
         text-decoration: none;
     }
 
+        /* === FOOTER === */
+    /* Achtergrond --primary i.p.v. --bg: wit op #669900 haalt maar ~3.4:1,
+       wit op #4a2060 ruim 12:1 (WCAG 1.4.3). */
+    .site-footer {
+        background: #f4f7f6;
+        color: #000000;
+        padding: 2rem 1.5rem;
+    }
+
+    .footer-inner {
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;          /* WCAG 1.4.10 */
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px 30px;
+        font-size: 0.9rem;
+    }
+
+    .site-footer p { margin: 0; }
+
+    .site-footer a {
+        color: #000000;
+        text-decoration: underline;   /* WCAG 1.4.1 */
+        font-weight: 600;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 0;
+        min-height: 24px;
+    }
+
+    .site-footer a:hover { text-decoration: none; }
+
+    /* Groene focusring is te zwak op paars → wit (WCAG 1.4.11) */
+    .site-footer :focus-visible {
+        outline: 3px solid var(--white);
+        outline-offset: 3px;
+    }
+
+    @media (max-width: 700px) {
+        .footer-inner { flex-direction: column; text-align: center; }
+    }
+
     .skip-link:focus { top: 0; }
 </style>
