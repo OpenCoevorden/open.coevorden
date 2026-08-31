@@ -305,13 +305,13 @@
     });
 
     /* Terug-knop: history.back() als bezoekers van dezelfde site komen */
-    document.getElementById('back-button').addEventListener('click', function(e) {
-        const referrer = document.referrer;
-        if (referrer && referrer.includes(window.location.hostname)) {
-            e.preventDefault();
-            window.history.back();
-        }
-    });
+    document.getElementById('back-button').addEventListener('click', function (e) {
+    const referrer = document.referrer;
+    const sameSite = referrer && referrer.includes(window.location.hostname);
+    if (!sameSite || window.history.length <= 1) return;  // link normaal volgen
+    e.preventDefault();
+    window.history.back();
+});
 
     initChat();
 </script>
