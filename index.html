@@ -640,6 +640,41 @@
             started.add(subject.id);
         }
 
+
+
+        /* ── Meest recente documenten (lege Pagefind-zoekopdracht + sort) ──── */
+            const RECENT_COUNT = 8;
+            const recentStarted = new Set();
+            
+            async function showRecent(subject) {
+                if (recentStarted.has(subject.id)) return;
+                recentStarted.add(subject.id);
+            
+                const box = document.createElement("div");
+                box.id = `recent-${subject.id}`;
+                box.className = "recent-block";
+                box.innerHTML = '<p class="placeholder-text" role="status">Recente publicaties laden…</p>';
+                document.getElementById(`search-${subject.id}`).appendChild(box);
+            
+                try {
+                    const bundles = resolveBundles(subject);
+                    const pf = await import(`${bundles.find(b => b.primary).bundlePath}pagefind.js`);
+                    for (const b of bundles.filter(b => !b.primary)) await pf.mergeIndex(b.bundlePath);
+            
+                    const res = await pf.search(null, { sort: { date: "desc" } });
+                    const items = await Promise.all(res.results.slice(0, RECENT_COUNT).map(r => r.data()));
+            
+                    box.innerHTML =
+                        "<h2>Recent toegevoegd</h2><ul>" +
+                        items.map(d => `<li><a href="${d.url}">${d.meta.title || d.url}</a></li>`).join("") +
+                        "</ul>";
+                } catch (e) {
+                    box.remove();   // geen lijst is beter dan een foutmelding
+                }
+            }
+
+        
+
         /* ── Onderwerp openen ──────────────────────────────────────── */
         function selectSubject(id) {
             const subject = SUBJECTS.find(s => s.id === id);
@@ -660,6 +695,8 @@
             });
 
             ensureInit(subject);
+
+            showRecent(subject);
 
             // Zoekmodus tonen en de knoppen synchroniseren met de ECHTE inhoud
             // van de input van dít onderwerp. Elke instance heeft zijn eigen
@@ -761,6 +798,8 @@
                 if (!currentSubjectId) return;
                 const container = document.getElementById(`search-${currentSubjectId}`);
                 if (container && container.contains(t)) setModeButtons(modeFromInput(t));
+                const rec = document.getElementById(`recent-${currentSubjectId}`);
+                if (rec) rec.classList.toggle("hidden", t.value.trim().length > 0);
             });
         }
 
