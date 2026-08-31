@@ -51,6 +51,21 @@
         max-width: 900px;
     }
 
+            @media (min-width: 1300px) {
+                .header img {
+                    position: absolute;
+                    left: 0;
+                    top: 30px;
+                    left: 10px;
+                }
+        }
+
+                @media (max-width: 1300px) {
+                .header img {
+                    display: none;
+                }
+        }
+
     .main-content {
         max-width: 900px;
         margin: -2rem auto 3rem auto;
@@ -263,25 +278,12 @@
         font-weight: 500;
         font-size: 0.9rem;
         padding: 8px 16px;
-        border: 1px solid var(--primary);
-        border-radius: 20px;
         background: rgba(255,255,255,0.1);
         min-height: 44px; /* WCAG 2.5.5 */
     }
 
     .btn-back:hover {
-        border-color: var(--accent);
-    }
-
-    @media (min-width: 1300px) {
-        .doc-header { position: relative; }
-        .header-nav {
-            position: absolute;
-            left: 2rem;
-            top: 50%;
-            transform: translateY(-50%);
-            margin: 0;
-        }
+        color: var(--accent);
     }
 
     @media (max-width: 1299px) {
