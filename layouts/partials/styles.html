@@ -258,20 +258,19 @@
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        color: white;
+        color: black;
         text-decoration: underline; /* WCAG 1.4.1 */
         font-weight: 500;
         font-size: 0.9rem;
         padding: 8px 16px;
-        border: 1px solid rgba(255,255,255,0.6);
+        border: 1px solid var(--primary);
         border-radius: 20px;
         background: rgba(255,255,255,0.1);
         min-height: 44px; /* WCAG 2.5.5 */
     }
 
     .btn-back:hover {
-        background: rgba(255,255,255,0.2);
-        border-color: white;
+        background: --accent;
     }
 
     @media (min-width: 1300px) {
