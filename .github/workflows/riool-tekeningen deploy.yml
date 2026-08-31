@@ -303,7 +303,7 @@ jobs:
           BUCKET_NAME: ${{ github.event_name == 'pull_request' && 'publicaties-coevorden-testsite' || 'publicaties-coevorden-site' }}
         run: |
           set -euo pipefail
-
+          cp ./public/index.json "./public/$SYNC_FOLDER/recent.json"
           aws s3 sync ./public "s3://$BUCKET_NAME" \
             --delete \
             --exclude "*" \
