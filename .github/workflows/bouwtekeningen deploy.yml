@@ -4,8 +4,8 @@
 #
 # WAT DOET DEZE WORKFLOW?
 #   1) Spiegelt de PDF's uit de bron-bucket naar markdown (met tekst + frontmatter).
-#      Heeft een PDF geen (bruikbare) tekstlaag, dan wordt de pagina gerasterd en
-#      in meerdere leesrichtingen ge-OCR'd.
+#      Heeft een PDF geen (bruikbare) tekstlaag, dan gaat hij door
+#      scripts/ocr-tekening.py: rasteren + OCR in meerdere leesrichtingen.
 #   2) Bouwt de Hugo-site.
 #   3) Indexeert met Pagefind.
 #   4) Synct het resultaat naar de site-bucket (scoped op SYNC_FOLDER).
@@ -14,30 +14,39 @@
 # -----------------------------------------------------------------------------
 # WAAROM DE OCR-STAP IS HERSCHREVEN (t.o.v. de ocrmypdf-versie)
 # -----------------------------------------------------------------------------
-#   Bouwtekeningen zijn geen gewone documenten. Twee dingen gingen mis:
+#   Gemeten op de testtekening (Lageplan Gleisbogen Coevorden, Lindschulte /
+#   Bentheimer Eisenbahn AG, 1 pagina, 5376x11711 px scan zonder tekstlaag):
 #
-#   1) ocrmypdf --skip-text sloeg juist de pagina's over die OCR nodig hadden.
-#      Een CAD-export heeft vaak een titelblok als ECHTE tekst (TTF) terwijl de
-#      annotaties in de tekening met SHX-fonts zijn geplot en dus vectoren zijn.
-#      De pagina "heeft tekst" → --skip-text slaat 'm over → de OCR-stap kostte
-#      runner-tijd en leverde exact dezelfde magere output op.
+#   • ocrmypdf --skip-text sloeg juist de pagina's over die OCR nodig hadden.
+#     Zodra een pagina ergens tekst heeft, slaat --skip-text 'm over. Bij een
+#     CAD-export met een titelblok als echte tekst kost de OCR-stap dan runner-
+#     tijd zonder iets toe te voegen.
 #
-#   2) Eén OCR-pass leest maar één richting. Maatvoering, doorsnede-labels en
-#      zij-annotaties staan 90° gedraaid; die kwamen er als niets of als onzin
-#      uit. --rotate-pages helpt niet: dat draait de HELE pagina naar de
-#      dominante richting en verplaatst het probleem alleen.
+#   • Eén leesrichting mist per definitie de helft. De veldannotaties staan
+#     horizontaal, het titelblok 90° gedraaid. Pas in de 90°-pass komen
+#     "Gleisbogen Coevorden", "Maßstab: 1:500", "Proj. Nr. VP 567",
+#     "Ausführungsplanung" en "Dateiname: _Lageplan - kpa.dwg" tevoorschijn.
 #
-#   Omdat we de OCR-PDF toch weggooien (we willen alleen de tekst), slaan we
-#   ocrmypdf helemaal over: zelf rasteren met pdftoppm, de pagina met qpdf in
-#   een paar richtingen draaien en tesseract er per richting overheen halen.
-#   Dat is direct te tunen via de env-variabelen hieronder.
+#   • Meer richtingen kan NIET zomaar: een pass in de verkeerde richting geeft
+#     geen leegte maar overtuigende onzin ("Nordhorn" ondersteboven wordt
+#     "uJOUpJoN"), met een hoge OCR-confidence. Daarom weegt het script elke
+#     richting tegen een woordenboek en verwerpt de slechte in hun geheel.
+#     Gemeten aandeel herkende regels: 0,85 (0°), 0,69 (90°), 0,05 (180°),
+#     0,07 (270°) — de poort op 0,25 scheidt dat schoon.
 #
-#   DIAGNOSE bij twijfel — draai dit lokaal op een probleemtekening:
-#     pdffonts  tekening.pdf          # fonts? → er IS een tekstlaag
-#     pdftotext -raw   tekening.pdf - # wat haalt poppler eruit?
-#     pdftotext -layout tekening.pdf -
-#   Levert pdftotext wél nette tekst op, dan is het geen OCR-probleem maar een
-#   extractie-probleem; zie PDFTOTEXT_MODE hieronder.
+#   • Taalmodel: -l nld+eng maakte van "Straßenabläufe" nog "StraBenablaufe".
+#     Dit is Duits grensmateriaal; 'deu' erbij scheelt zichtbaar.
+#
+#   Netto op de testtekening: van ~15 KB grotendeels ruis naar ~3,8 KB met het
+#   complete titelblok erin. Dat scheelt niet alleen zoekkwaliteit maar ook
+#   chat-context: de BM25-retrieval in chat-script.html rankt op deze tekst.
+#
+#   DIAGNOSE bij een tegenvallend document — draai dit lokaal:
+#     pdffonts  tekening.pdf          # geen fonts = scan, OCR is de enige route
+#     pdftotext -raw tekening.pdf -   # wél fonts? dan is het een extractieprobleem
+#     OCR_ROTATIONS="0 90 180 270" python3 scripts/ocr-tekening.py tekening.pdf
+#   Die laatste regel logt per richting hoeveel regels en welke woordherkenning
+#   eruit kwam; daarmee zie je meteen of de drempels kloppen.
 #
 # -----------------------------------------------------------------------------
 # EXTERNE ACTIONS / TOOLS (updaten = versie/pin hieronder in de steps aanpassen)
@@ -47,8 +56,9 @@
 #   peaceiris/actions-hugo@v3               → Hugo installeren (versie gepind).
 #   poppler-utils (pdftotext, pdfinfo,      → PDF→tekst, paginatelling, rasteren.
 #                  pdftoppm, pdffonts)
-#   qpdf                                    → pagina's roteren vóór het rasteren.
-#   tesseract-ocr + tesseract-ocr-nld       → de OCR zelf (nld+eng).
+#   tesseract-ocr + nld/deu/eng             → de OCR zelf.
+#   python3-pil                             → roteren van de gerasterde pagina.
+#   wngerman / wdutch / wamerican           → woordenlijsten voor de kwaliteitspoort.
 #   AWS CLI                                 → voorgeïnstalleerd op de runner.
 #   npx pagefind                            → zoekindex bouwen (gepind via env).
 #
@@ -61,19 +71,17 @@
 #   AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY            → LEEST bron-bucket.
 #   AWS_ACCESS_KEY_ID_SITE / AWS_SECRET_ACCESS_KEY_SITE  → SCHRIJFT site-bucket.
 #
-# LET OP — KOSTEN/DUUR VAN OCR
-#   De ETag-check in process_file zorgt dat elk PDF maar één keer wordt verwerkt;
-#   het resultaat wordt als markdown teruggecommit. OCR draait dus eenmalig per
-#   document, niet elke nacht opnieuw. Reken bij grootformaat tekeningen (A1/A0)
-#   op enkele minuten per bestand voor de eerste run.
+# LET OP — DUUR VAN OCR
+#   Gemeten: ~35 s per leesrichting voor één A0-scan, plus rastertijd. Met de
+#   default twee richtingen komt dat op ruim een minuut per tekening. De ETag-
+#   check zorgt dat dit eenmalig is; de eerste run na deze wijziging duurt lang.
 #
 # BESTAANDE BESTANDEN — HERPAKKEN NA DEZE WIJZIGING
 #   Al gesyncte .md-bestanden hebben een matchende ETag en worden overgeslagen,
-#   ook als ze (bijna) leeg zijn. Verwijder de magere bestanden om ze alsnog
-#   door de nieuwe OCR-route te halen:
-#     find onderwerpen/bouwtekeningen -name '*.md' -exec sh -c \
-#       'c=$(sed "1,/^---$/d;1,/^---$/d" "$1" | tr -d "[:space:]" | wc -c); \
-#        [ "$c" -lt 300 ] && rm "$1"' _ {} \;
+#   ook als hun inhoud onbruikbaar is. Verwijder ze om ze door de nieuwe route
+#   te halen (alles onder bouwtekeningen, want de oude OCR-output is niet aan
+#   de lengte te herkennen — die was juist lang én onbruikbaar):
+#     find onderwerpen/bouwtekeningen -name '*.md' -delete
 # =============================================================================
 
 name: Bouwtekeningen deploy
@@ -86,9 +94,9 @@ on:
   workflow_dispatch:
 
 env:
-  # ── PAS HIER HET ONDERWERP (+ eventueel JAAR) AAN ──────────────
-  # Vorm: "<onderwerp>" of "<onderwerp>/<jaar>". Moet EXACT (incl. casing) als
-  # prefix bestaan in de bron-bucket; de site-bucket wordt hiervan de spiegel.
+  # ── PAS HIER HET ONDERWERP AAN ─────────────────────────────────
+  # Moet EXACT (incl. casing) als prefix bestaan in de bron-bucket;
+  # de site-bucket wordt hiervan de spiegel.
   SYNC_FOLDER: "bouwtekeningen"
 
   # Beide buckets staan in eu-north-1 (zie origin-domeinen in CloudFront).
@@ -100,47 +108,54 @@ env:
   CDN_BASE_URL: "https://d3jow2udcm31b0.cloudfront.net"
 
   # ── TEKSTEXTRACTIE ─────────────────────────────────────────────
-  # Modus voor pdftotext op de bestaande tekstlaag:
-  #   raw    → tekst in de volgorde waarin hij in het PDF staat (was de default)
+  # Modus voor pdftotext op een bestaande tekstlaag:
+  #   raw    → tekst in de volgorde waarin hij in het PDF staat
   #   layout → behoudt de ruimtelijke kolom-/blokindeling
-  #   ""     → poppler's eigen leesvolgorde-heuristiek
-  # Bij CAD-exports waar woorden uit elkaar vallen ("B O U W") is het de moeite
-  # om 'layout' te proberen; dat houdt bij elkaar geplaatste glyphs vaker samen.
+  # Bij CAD-exports waar woorden uit elkaar vallen ("B O U W") is 'layout' het
+  # proberen waard: dat houdt bij elkaar geplaatste glyphs vaker samen.
   PDFTOTEXT_MODE: "raw"
 
-  # ── OCR ────────────────────────────────────────────────────────
-  # Minder dan zoveel tekens tekst per pagina → we beschouwen het als een scan
-  # of een vector-geplotte tekening en halen er OCR overheen. Voor bouwtekeningen
-  # bewust hoger dan de 100 van de woo-workflow: een tekening met alleen een
-  # titelblok als echte tekst haalt die 100 makkelijk en zou anders nooit
-  # ge-OCR'd worden, terwijl juist de annotaties ontbreken.
+  # ── OCR (doorgegeven aan scripts/ocr-tekening.py) ──────────────
+  # Minder dan zoveel tekens per pagina → OCR. Bewust hoger dan de 100 van de
+  # woo-workflow: een tekening waarvan alleen het titelblok echte tekst is haalt
+  # die 100 makkelijk, terwijl juist alle annotaties dan ontbreken.
   MIN_CHARS_PER_PAGE: "600"
 
-  # Leesrichtingen waarin ge-OCR'd wordt (graden, spatie-gescheiden).
-  # Elke richting = één extra render- en OCR-ronde, dus dit is de belangrijkste
-  # knop voor de doorlooptijd. "0 90 270" dekt horizontale tekst plus beide
-  # verticale leesrichtingen; voeg 180 toe als er ondersteboven tekst voorkomt,
-  # of zet "0 90" als de tekst altijd maar één kant op gedraaid staat.
-  OCR_ROTATIONS: "0 90 270"
+  # Leesrichtingen (graden, tegen de klok in). "0 90" volgt de tekenconventie:
+  # veldtekst horizontaal, titelblok 90° gedraaid. Een overbodige richting kost
+  # dankzij de woordenboek-poort alleen tijd, geen kwaliteit — zet dus gerust
+  # "0 90 180 270" als je twijfelt over een batch.
+  OCR_ROTATIONS: "0 90"
 
-  # Lengte van de langste zijde (pixels) waarop de pagina wordt gerasterd.
-  # Bewust GEEN vaste dpi: 400 dpi op A0 geeft ~13000x18800 px, dat loopt vast.
-  # 7000 px op A1 komt neer op ~300 dpi — genoeg voor kleine annotaties, en
-  # onafhankelijk van het papierformaat. Verhoog als kleine tekst gemist wordt.
-  OCR_LONG_EDGE: "7000"
+  # Taalmodellen. 'deu' erbij is geen luxe bij Duits/grensmateriaal.
+  OCR_LANGS: "deu+nld+eng"
 
-  # Harde tijdslimiet (seconden) per losse render- of OCR-aanroep. Vangt de
-  # pathologische tekening af die anders runner-tijd blijft opeten.
-  OCR_TIMEOUT_SEC: "600"
+  # Page segmentation mode. 3 (automatisch) bleek beter dan 11 ("sparse text"):
+  # 11 vindt meer fragmenten, maar vrijwel alleen ruis uit de arceringen.
+  OCR_PSM: "3"
 
-  # Maximaal aantal pagina's dat per document ge-OCR'd wordt. Bouwtekeningen zijn
-  # meestal 1–5 pagina's; deze rem voorkomt dat één dik bundeldocument de hele
-  # run gijzelt.
+  # Woorden onder deze OCR-betrouwbaarheid (0-100) vallen af.
+  OCR_MIN_CONF: "60"
+
+  # Ondergrens voor het aandeel regels met een herkend woordenboekwoord.
+  # Daaronder wordt de hele leesrichting verworpen. Zie de meting bovenaan.
+  OCR_MIN_DICT_RATIO: "0.25"
+
+  # Rasterresolutie. Hoger dan de scan zelf heeft geen zin — controleer met
+  # 'pdfimages -list' wat de bron is (de testtekening is 300 dpi).
+  OCR_DPI: "300"
+
+  # Rem op dikke bundels: hooguit zoveel pagina's per document OCR'en.
   OCR_MAX_PAGES: "10"
 
+  # Vangnet tegen geheugenproblemen: grotere pagina's worden eerst verkleind.
+  OCR_MAX_PIXELS: "180000000"
+
+  # Harde tijdslimiet (seconden) per raster- of OCR-aanroep.
+  OCR_TIMEOUT_SEC: "600"
+
   # Aantal PDF's dat tegelijk verwerkt wordt. Lager dan de 4 van de woo-workflow:
-  # tesseract is CPU-gebonden en de runner heeft er maar een paar. Vier zware
-  # OCR-processen naast elkaar maakt het geheel niet sneller, wel geheugenkrapper.
+  # tesseract is CPU-gebonden en de runner heeft maar een paar cores.
   PARALLEL_JOBS: "2"
 
   # ── PAGEFIND ───────────────────────────────────────────────────
@@ -162,17 +177,24 @@ jobs:
 
       - name: Install dependencies
         run: |
+          set -euo pipefail
           sudo apt-get update
-          # poppler-utils      → pdftotext, pdfinfo, pdftoppm, pdffonts
-          # qpdf               → pagina's roteren vóór het rasteren
-          # tesseract-ocr      → OCR-engine (+ eng taalmodel)
-          # tesseract-ocr-nld  → Nederlands taalmodel
-          sudo apt-get install -y poppler-utils qpdf tesseract-ocr tesseract-ocr-nld
-          # Versies loggen: de apt-packages zijn niet gepind, dus bij een
-          # plotselinge kwaliteitsverandering wil je in de logs kunnen terugzien
-          # welke tesseract er draaide.
+          # poppler-utils   → pdftotext, pdfinfo, pdftoppm, pdffonts
+          # tesseract-ocr   → OCR-engine; -nld/-deu zijn de taalmodellen
+          # python3-pil     → roteren van de gerasterde pagina
+          # w*              → woordenlijsten voor de kwaliteitspoort in het script
+          sudo apt-get install -y \
+            poppler-utils \
+            tesseract-ocr tesseract-ocr-nld tesseract-ocr-deu \
+            python3-pil \
+            wngerman wdutch wamerican
+
+          # Versies loggen: deze packages zijn niet gepind, dus bij een
+          # plotselinge kwaliteitsverandering wil je in de logs kunnen
+          # terugzien welke tesseract er draaide.
           tesseract --version | head -1
-          pdftoppm -v 2>&1 | head -1
+          tesseract --list-langs
+          ls -1 /usr/share/dict/
 
       - name: Sync S3 → Markdown (scoped to folder)
         env:
@@ -215,57 +237,6 @@ jobs:
               rm "$md_path"
             fi
           done
-
-          # ── OCR-HELPER ──────────────────────────────────────────────
-          # Rastert het PDF en haalt tesseract er in elke geconfigureerde
-          # leesrichting overheen. Schrijft het resultaat naar $2.
-          # Faalt nooit hard: de aanroeper valt terug op de bestaande tekstlaag.
-          ocr_pdf () {
-            src="$1"; out="$2"; work="$3"
-            : > "$out"
-
-            for deg in $OCR_ROTATIONS; do
-              rot="$work.rot$deg.pdf"
-
-              if [ "$deg" = "0" ]; then
-                cp "$src" "$rot"
-              else
-                # qpdf roteert de pagina's in het PDF zelf; pdftoppm rastert
-                # daarna vanzelf in de gedraaide oriëntatie. Goedkoper en
-                # betrouwbaarder dan het PNG achteraf willen draaien (waar we
-                # ImageMagick voor zouden moeten installeren).
-                qpdf --rotate="+$deg" -- "$src" "$rot" 2>/dev/null || continue
-              fi
-
-              # -gray: kleur voegt niets toe bij lijntekeningen en verviervoudigt
-              #        het geheugengebruik.
-              # -scale-to: schaalt de LANGSTE zijde; papierformaat-onafhankelijk.
-              # -l: harde rem op het aantal pagina's.
-              timeout "$OCR_TIMEOUT_SEC" pdftoppm \
-                -png -gray \
-                -scale-to "$OCR_LONG_EDGE" \
-                -l "$OCR_MAX_PAGES" \
-                "$rot" "$work.p$deg" 2>/dev/null || continue
-
-              for png in "$work.p$deg"-*.png; do
-                [ -e "$png" ] || continue
-                # --psm 11 ("sparse text") i.p.v. de default, die uitgaat van een
-                # doorlopende bladzijde tekst. Op een tekening staan losse labels
-                # verspreid over het vel; met de default mist tesseract die.
-                timeout "$OCR_TIMEOUT_SEC" tesseract "$png" - \
-                  -l nld+eng \
-                  --psm 11 \
-                  -c preserve_interword_spaces=1 \
-                  2>/dev/null >> "$out" || true
-              done
-
-              # Direct opruimen: bij A0 en meerdere richtingen lopen deze PNG's
-              # anders makkelijk in de gigabytes op de runner.
-              rm -f "$work.p$deg"-*.png "$rot"
-            done
-
-            [ -s "$out" ]
-          }
 
           echo "➕ Verwerken PDF's..."
           process_file () {
@@ -311,31 +282,26 @@ jobs:
               chars=${chars:-0}
               ocr_used=false
 
-              # ── 2) Te weinig tekst → rasteren en meerdere richtingen OCR'en ─
+              # ── 2) Te weinig tekst → OCR in meerdere leesrichtingen ───
               if [ "$chars" -lt $(( pages * MIN_CHARS_PER_PAGE )) ]; then
                 echo "🔍 OCR nodig: $pdf_key ($chars tekens / $pages pagina's)"
                 ocr_raw="$tmpfile.ocr.txt"
 
-                if ocr_pdf "$tmpfile" "$ocr_raw" "$tmpfile"; then
-                  # Meerdere passes = veel overlap plus ruis uit de richtingen
-                  # waarin een stuk tekst NIET stond. Opschonen:
-                  #   • witruimte normaliseren
-                  #   • regels korter dan 3 tekens weg (losse strepen, punten,
-                  #     arceringsresten die tesseract als letter ziet)
-                  #   • duplicaten weg, met behoud van volgorde
-                  # De bestaande tekstlaag zetten we ervóór: het titelblok blijft
-                  # zo bovenaan staan en is meestal de betrouwbaarste tekst.
-                  {
-                    cat "$txt"
-                    printf '\n'
-                    awk '{ gsub(/[[:space:]]+/, " "); sub(/^ /, ""); sub(/ $/, "") }
-                         length($0) >= 3 && !seen[$0]++' "$ocr_raw"
-                  } > "$txt.merged"
-                  mv "$txt.merged" "$txt"
-                  ocr_used=true
-                  echo "✅ OCR klaar: $pdf_key ($(tr -d '[:space:]' < "$txt" | wc -c) tekens)"
+                # Het script logt per richting hoeveel regels en welke
+                # woordherkenning eruit kwam; dat staat in de step-logs.
+                if python3 scripts/ocr-tekening.py "$tmpfile" > "$ocr_raw"; then
+                  if [ -s "$ocr_raw" ]; then
+                    # Bestaande tekstlaag eerst (titelblok staat er meestal in
+                    # en is de betrouwbaarste bron), OCR-resultaat eronder.
+                    { cat "$txt"; printf '\n'; cat "$ocr_raw"; } > "$txt.merged"
+                    mv "$txt.merged" "$txt"
+                    ocr_used=true
+                    echo "✅ OCR klaar: $pdf_key ($(tr -d '[:space:]' < "$txt" | wc -c) tekens)"
+                  else
+                    echo "⚠️  OCR leverde niets bruikbaars op: $pdf_key"
+                  fi
                 else
-                  echo "⚠️  OCR leverde niets op: $pdf_key — verder met bestaande tekst"
+                  echo "⚠️  OCR mislukt/timeout: $pdf_key — verder met bestaande tekst"
                 fi
               fi
 
@@ -352,8 +318,7 @@ jobs:
 
               tr -d '\000' < "$txt" >> "$md_path"
             fi
-            # Ruimt zowel het PDF als alle afgeleiden ($tmpfile.txt, .ocr.txt,
-            # eventuele achtergebleven .rotN.pdf/.pN-*.png) op.
+            # Ruimt het PDF en alle afgeleiden ($tmpfile.txt, .ocr.txt) op.
             rm -f "$tmpfile" "$tmpfile".*
           }
 
