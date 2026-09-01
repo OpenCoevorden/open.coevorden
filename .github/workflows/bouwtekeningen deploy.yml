@@ -1,64 +1,77 @@
 # =============================================================================
-# woo-publicaties_deploy.yml — GitHub Actions: S3 → Hugo → Pagefind → S3 deploy
+# bouwtekeningen deploy.yml — GitHub Actions: S3 → Hugo → Pagefind → S3 deploy
 # =============================================================================
 #
 # WAT DOET DEZE WORKFLOW?
 #   1) Spiegelt de PDF's uit de bron-bucket naar markdown (met tekst + frontmatter).
-#      Heeft een PDF geen (bruikbare) tekstlaag, dan wordt er OCR overheen gehaald.
+#      Heeft een PDF geen (bruikbare) tekstlaag, dan wordt de pagina gerasterd en
+#      in meerdere leesrichtingen ge-OCR'd.
 #   2) Bouwt de Hugo-site.
 #   3) Indexeert met Pagefind.
 #   4) Synct het resultaat naar de site-bucket (scoped op SYNC_FOLDER).
 #   Draait bij push op main, elke nacht (cron) en handmatig (workflow_dispatch).
 #
-# EXTERNE ACTIONS / TOOLS (updaten = versie/pin hieronder in de steps aanpassen)
-#   actions/checkout@v4                  → repo uitchecken.
-#   stefanzweifel/git-auto-commit-action@v5 → de gesyncte markdown terugcommitten.
-#   peaceiris/actions-hugo@v2            → Hugo installeren (versie gepind: 0.128.0,
-#                                          extended). Updaten: hugo-version in de step.
-#   poppler-utils (pdftotext, pdfinfo)  → PDF→tekst + paginatelling; via apt-get
-#                                          in "Install dependencies".
-#   ocrmypdf + tesseract-ocr-nld        → OCR-fallback voor gescande PDF's; via
-#                                          apt-get in "Install dependencies".
-#                                          ocrmypdf trekt tesseract, ghostscript
-#                                          en qpdf zelf mee.
-#   AWS CLI                             → voorgeïnstalleerd op de runner (s3api/s3 sync).
-#   npx pagefind                        → zoekindex bouwen. Versie staat gepind in
-#                                          env (PAGEFIND_VERSION), beheerd door Renovate.
+# -----------------------------------------------------------------------------
+# WAAROM DE OCR-STAP IS HERSCHREVEN (t.o.v. de ocrmypdf-versie)
+# -----------------------------------------------------------------------------
+#   Bouwtekeningen zijn geen gewone documenten. Twee dingen gingen mis:
 #
-#   LET OP — de apt-packages hierboven zijn NIET door Renovate te beheren; er
-#   bestaat geen manager voor 'apt-get install'-regels. Hun versie komt van de
-#   Ubuntu-release achter 'ubuntu-latest'. Dat is hier gewenst (distro-versies
-#   zijn stabiel), maar het betekent wel dat een GitHub-brede bump van
-#   ubuntu-latest je tesseract-/ocrmypdf-versie stilletjes meeneemt. Wil je die
-#   verandering zelf in de hand houden, pin dan 'runs-on: ubuntu-24.04'.
+#   1) ocrmypdf --skip-text sloeg juist de pagina's over die OCR nodig hadden.
+#      Een CAD-export heeft vaak een titelblok als ECHTE tekst (TTF) terwijl de
+#      annotaties in de tekening met SHX-fonts zijn geplot en dus vectoren zijn.
+#      De pagina "heeft tekst" → --skip-text slaat 'm over → de OCR-stap kostte
+#      runner-tijd en leverde exact dezelfde magere output op.
+#
+#   2) Eén OCR-pass leest maar één richting. Maatvoering, doorsnede-labels en
+#      zij-annotaties staan 90° gedraaid; die kwamen er als niets of als onzin
+#      uit. --rotate-pages helpt niet: dat draait de HELE pagina naar de
+#      dominante richting en verplaatst het probleem alleen.
+#
+#   Omdat we de OCR-PDF toch weggooien (we willen alleen de tekst), slaan we
+#   ocrmypdf helemaal over: zelf rasteren met pdftoppm, de pagina met qpdf in
+#   een paar richtingen draaien en tesseract er per richting overheen halen.
+#   Dat is direct te tunen via de env-variabelen hieronder.
+#
+#   DIAGNOSE bij twijfel — draai dit lokaal op een probleemtekening:
+#     pdffonts  tekening.pdf          # fonts? → er IS een tekstlaag
+#     pdftotext -raw   tekening.pdf - # wat haalt poppler eruit?
+#     pdftotext -layout tekening.pdf -
+#   Levert pdftotext wél nette tekst op, dan is het geen OCR-probleem maar een
+#   extractie-probleem; zie PDFTOTEXT_MODE hieronder.
+#
+# -----------------------------------------------------------------------------
+# EXTERNE ACTIONS / TOOLS (updaten = versie/pin hieronder in de steps aanpassen)
+# -----------------------------------------------------------------------------
+#   actions/checkout@v7                     → repo uitchecken.
+#   stefanzweifel/git-auto-commit-action@v7 → de gesyncte markdown terugcommitten.
+#   peaceiris/actions-hugo@v3               → Hugo installeren (versie gepind).
+#   poppler-utils (pdftotext, pdfinfo,      → PDF→tekst, paginatelling, rasteren.
+#                  pdftoppm, pdffonts)
+#   qpdf                                    → pagina's roteren vóór het rasteren.
+#   tesseract-ocr + tesseract-ocr-nld       → de OCR zelf (nld+eng).
+#   AWS CLI                                 → voorgeïnstalleerd op de runner.
+#   npx pagefind                            → zoekindex bouwen (gepind via env).
+#
+#   LET OP — de apt-packages zijn NIET door Renovate te beheren; er bestaat geen
+#   manager voor 'apt-get install'-regels. Hun versie komt van de Ubuntu-release
+#   achter 'ubuntu-latest'. Wil je die verandering zelf in de hand houden, pin
+#   dan 'runs-on: ubuntu-24.04'.
 #
 # SECRETS (Repo → Settings → Secrets and variables → Actions)
 #   AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY            → LEEST bron-bucket.
 #   AWS_ACCESS_KEY_ID_SITE / AWS_SECRET_ACCESS_KEY_SITE  → SCHRIJFT site-bucket.
-#   Updaten: roteer in Secrets. Bucketnamen staan hardcoded in de betreffende steps
-#   (publicaties-coevorden = bron, publicaties-coevorden-site = site).
-#
-# CONFIGURATIE (env, hieronder op workflow-niveau)
-#   SYNC_FOLDER        → "<onderwerp>/<jaar>". Moet EXACT als prefix in de bron-
-#                        bucket bestaan (casing!). Updaten: wijzig de waarde.
-#   AWS_DEFAULT_REGION → regio van beide buckets (eu-north-1). Updaten bij verhuizing.
-#   CDN_BASE_URL       → CloudFront-root voor de Hugo baseURL (géén pad-prefix).
-#                        Updaten: zet het CloudFront-domein uit cloudfront.json.
-#   MIN_CHARS_PER_PAGE → drempel waaronder een PDF als "scan" geldt en OCR krijgt.
-#   OCR_TIMEOUT_SEC    → harde tijdslimiet per PDF voor de OCR-stap.
 #
 # LET OP — KOSTEN/DUUR VAN OCR
 #   De ETag-check in process_file zorgt dat elk PDF maar één keer wordt verwerkt;
 #   het resultaat wordt als markdown teruggecommit. OCR draait dus eenmalig per
-#   document, niet elke nacht opnieuw. De EERSTE run na deze wijziging kan wél
-#   lang duren (alle bestaande scans worden dan alsnog niet herpakt — zie
-#   "Bestaande bestanden" onderaan dit blok).
+#   document, niet elke nacht opnieuw. Reken bij grootformaat tekeningen (A1/A0)
+#   op enkele minuten per bestand voor de eerste run.
 #
-# BESTAANDE BESTANDEN
-#   Al gesyncte .md-bestanden hebben een matchende ETag en worden overgeslagen —
-#   ook als ze (bijna) leeg zijn omdat het een scan was. Wil je die alsnog laten
-#   OCR-en, verwijder dan hun s3_etag-regel of de .md-bestanden zelf, bijv.:
-#     find onderwerpen -name '*.md' -exec sh -c \
+# BESTAANDE BESTANDEN — HERPAKKEN NA DEZE WIJZIGING
+#   Al gesyncte .md-bestanden hebben een matchende ETag en worden overgeslagen,
+#   ook als ze (bijna) leeg zijn. Verwijder de magere bestanden om ze alsnog
+#   door de nieuwe OCR-route te halen:
+#     find onderwerpen/bouwtekeningen -name '*.md' -exec sh -c \
 #       'c=$(sed "1,/^---$/d;1,/^---$/d" "$1" | tr -d "[:space:]" | wc -c); \
 #        [ "$c" -lt 300 ] && rm "$1"' _ {} \;
 # =============================================================================
@@ -73,9 +86,9 @@ on:
   workflow_dispatch:
 
 env:
-  # ── PAS HIER HET ONDERWERP + JAAR AAN ──────────────────────────
-  # Vorm: "<onderwerp>/<jaar>". Moet EXACT (incl. casing) als prefix
-  # bestaan in de bron-bucket; de site-bucket wordt hiervan de spiegel.
+  # ── PAS HIER HET ONDERWERP (+ eventueel JAAR) AAN ──────────────
+  # Vorm: "<onderwerp>" of "<onderwerp>/<jaar>". Moet EXACT (incl. casing) als
+  # prefix bestaan in de bron-bucket; de site-bucket wordt hiervan de spiegel.
   SYNC_FOLDER: "bouwtekeningen"
 
   # Beide buckets staan in eu-north-1 (zie origin-domeinen in CloudFront).
@@ -86,15 +99,49 @@ env:
   # prefix zelf al in elke permalink.
   CDN_BASE_URL: "https://d3jow2udcm31b0.cloudfront.net"
 
+  # ── TEKSTEXTRACTIE ─────────────────────────────────────────────
+  # Modus voor pdftotext op de bestaande tekstlaag:
+  #   raw    → tekst in de volgorde waarin hij in het PDF staat (was de default)
+  #   layout → behoudt de ruimtelijke kolom-/blokindeling
+  #   ""     → poppler's eigen leesvolgorde-heuristiek
+  # Bij CAD-exports waar woorden uit elkaar vallen ("B O U W") is het de moeite
+  # om 'layout' te proberen; dat houdt bij elkaar geplaatste glyphs vaker samen.
+  PDFTOTEXT_MODE: "raw"
+
   # ── OCR ────────────────────────────────────────────────────────
   # Minder dan zoveel tekens tekst per pagina → we beschouwen het als een scan
-  # en halen er OCR overheen. 100 is conservatief; verhoog als scans gemist
-  # worden, verlaag als OCR onnodig vaak draait op documenten met weinig tekst.
-  MIN_CHARS_PER_PAGE: "100"
+  # of een vector-geplotte tekening en halen er OCR overheen. Voor bouwtekeningen
+  # bewust hoger dan de 100 van de woo-workflow: een tekening met alleen een
+  # titelblok als echte tekst haalt die 100 makkelijk en zou anders nooit
+  # ge-OCR'd worden, terwijl juist de annotaties ontbreken.
+  MIN_CHARS_PER_PAGE: "600"
 
-  # Harde tijdslimiet (seconden) per PDF voor de OCR-stap. Vangt de klassieke
-  # pathologische scan af die anders een uur aan runner-tijd opeet.
-  OCR_TIMEOUT_SEC: "900"
+  # Leesrichtingen waarin ge-OCR'd wordt (graden, spatie-gescheiden).
+  # Elke richting = één extra render- en OCR-ronde, dus dit is de belangrijkste
+  # knop voor de doorlooptijd. "0 90 270" dekt horizontale tekst plus beide
+  # verticale leesrichtingen; voeg 180 toe als er ondersteboven tekst voorkomt,
+  # of zet "0 90" als de tekst altijd maar één kant op gedraaid staat.
+  OCR_ROTATIONS: "0 90 270"
+
+  # Lengte van de langste zijde (pixels) waarop de pagina wordt gerasterd.
+  # Bewust GEEN vaste dpi: 400 dpi op A0 geeft ~13000x18800 px, dat loopt vast.
+  # 7000 px op A1 komt neer op ~300 dpi — genoeg voor kleine annotaties, en
+  # onafhankelijk van het papierformaat. Verhoog als kleine tekst gemist wordt.
+  OCR_LONG_EDGE: "7000"
+
+  # Harde tijdslimiet (seconden) per losse render- of OCR-aanroep. Vangt de
+  # pathologische tekening af die anders runner-tijd blijft opeten.
+  OCR_TIMEOUT_SEC: "600"
+
+  # Maximaal aantal pagina's dat per document ge-OCR'd wordt. Bouwtekeningen zijn
+  # meestal 1–5 pagina's; deze rem voorkomt dat één dik bundeldocument de hele
+  # run gijzelt.
+  OCR_MAX_PAGES: "10"
+
+  # Aantal PDF's dat tegelijk verwerkt wordt. Lager dan de 4 van de woo-workflow:
+  # tesseract is CPU-gebonden en de runner heeft er maar een paar. Vier zware
+  # OCR-processen naast elkaar maakt het geheel niet sneller, wel geheugenkrapper.
+  PARALLEL_JOBS: "2"
 
   # ── PAGEFIND ───────────────────────────────────────────────────
   # Gepind i.p.v. @latest: een stille Pagefind-bump kan het zoekgedrag
@@ -116,10 +163,16 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          # poppler-utils      → pdftotext + pdfinfo
-          # ocrmypdf           → OCR-wrapper (deskew, rotatie, pagina-detectie)
-          # tesseract-ocr-nld  → Nederlands taalmodel (eng zit standaard bij tesseract)
-          sudo apt-get install -y poppler-utils ocrmypdf tesseract-ocr-nld
+          # poppler-utils      → pdftotext, pdfinfo, pdftoppm, pdffonts
+          # qpdf               → pagina's roteren vóór het rasteren
+          # tesseract-ocr      → OCR-engine (+ eng taalmodel)
+          # tesseract-ocr-nld  → Nederlands taalmodel
+          sudo apt-get install -y poppler-utils qpdf tesseract-ocr tesseract-ocr-nld
+          # Versies loggen: de apt-packages zijn niet gepind, dus bij een
+          # plotselinge kwaliteitsverandering wil je in de logs kunnen terugzien
+          # welke tesseract er draaide.
+          tesseract --version | head -1
+          pdftoppm -v 2>&1 | head -1
 
       - name: Sync S3 → Markdown (scoped to folder)
         env:
@@ -163,6 +216,57 @@ jobs:
             fi
           done
 
+          # ── OCR-HELPER ──────────────────────────────────────────────
+          # Rastert het PDF en haalt tesseract er in elke geconfigureerde
+          # leesrichting overheen. Schrijft het resultaat naar $2.
+          # Faalt nooit hard: de aanroeper valt terug op de bestaande tekstlaag.
+          ocr_pdf () {
+            src="$1"; out="$2"; work="$3"
+            : > "$out"
+
+            for deg in $OCR_ROTATIONS; do
+              rot="$work.rot$deg.pdf"
+
+              if [ "$deg" = "0" ]; then
+                cp "$src" "$rot"
+              else
+                # qpdf roteert de pagina's in het PDF zelf; pdftoppm rastert
+                # daarna vanzelf in de gedraaide oriëntatie. Goedkoper en
+                # betrouwbaarder dan het PNG achteraf willen draaien (waar we
+                # ImageMagick voor zouden moeten installeren).
+                qpdf --rotate="+$deg" -- "$src" "$rot" 2>/dev/null || continue
+              fi
+
+              # -gray: kleur voegt niets toe bij lijntekeningen en verviervoudigt
+              #        het geheugengebruik.
+              # -scale-to: schaalt de LANGSTE zijde; papierformaat-onafhankelijk.
+              # -l: harde rem op het aantal pagina's.
+              timeout "$OCR_TIMEOUT_SEC" pdftoppm \
+                -png -gray \
+                -scale-to "$OCR_LONG_EDGE" \
+                -l "$OCR_MAX_PAGES" \
+                "$rot" "$work.p$deg" 2>/dev/null || continue
+
+              for png in "$work.p$deg"-*.png; do
+                [ -e "$png" ] || continue
+                # --psm 11 ("sparse text") i.p.v. de default, die uitgaat van een
+                # doorlopende bladzijde tekst. Op een tekening staan losse labels
+                # verspreid over het vel; met de default mist tesseract die.
+                timeout "$OCR_TIMEOUT_SEC" tesseract "$png" - \
+                  -l nld+eng \
+                  --psm 11 \
+                  -c preserve_interword_spaces=1 \
+                  2>/dev/null >> "$out" || true
+              done
+
+              # Direct opruimen: bij A0 en meerdere richtingen lopen deze PNG's
+              # anders makkelijk in de gigabytes op de runner.
+              rm -f "$work.p$deg"-*.png "$rot"
+            done
+
+            [ -s "$out" ]
+          }
+
           echo "➕ Verwerken PDF's..."
           process_file () {
             pdf_key="$1"; s3_etag="$2"
@@ -170,7 +274,7 @@ jobs:
 
             if [ -f "$md_path" ]; then
               # Ongewijzigde ETag -> overslaan. Gewijzigd -> frontmatter vers
-              # wegschrijven (zonder ai_status), zodat de enrich-stap 'm herpakt.
+              # wegschrijven, zodat een eventuele enrich-stap 'm herpakt.
               stored=$(grep -m1 '^s3_etag:' "$md_path" 2>/dev/null \
                 | sed 's/^s3_etag:[[:space:]]*//; s/^"//; s/"$//' || true)
               [ "$stored" = "$s3_etag" ] && return
@@ -184,7 +288,7 @@ jobs:
             if aws s3 cp "s3://$BUCKET_NAME/$pdf_key" "$tmpfile" --quiet; then
               clean_title=$(basename "${pdf_key%.pdf}" | tr '"' "'")
 
-              # maps[] = alle paddelen behalve de bestandsnaam (jaar/categorie/…).
+              # maps[] = alle paddelen behalve de bestandsnaam (plaats/jaar/…).
               IFS='/' read -ra parts <<< "${pdf_key%.pdf}"
               taxo=()
               for ((i=0; i<${#parts[@]}-1; i++)); do taxo+=("\"${parts[$i]}\""); done
@@ -192,7 +296,11 @@ jobs:
 
               # ── 1) Snelle route: bestaande tekstlaag ──────────────────
               txt="$tmpfile.txt"
-              pdftotext -raw "$tmpfile" "$txt" 2>/dev/null || : > "$txt"
+              case "$PDFTOTEXT_MODE" in
+                raw)    pdftotext -raw    "$tmpfile" "$txt" 2>/dev/null || : > "$txt" ;;
+                layout) pdftotext -layout "$tmpfile" "$txt" 2>/dev/null || : > "$txt" ;;
+                *)      pdftotext         "$tmpfile" "$txt" 2>/dev/null || : > "$txt" ;;
+              esac
 
               # || true: een corrupte PDF laat pdfinfo falen, en met
               # 'set -euo pipefail' zou die assignment anders de hele run slopen —
@@ -203,31 +311,31 @@ jobs:
               chars=${chars:-0}
               ocr_used=false
 
-              # ── 2) Te weinig tekst → gescand document, OCR erover ─────
+              # ── 2) Te weinig tekst → rasteren en meerdere richtingen OCR'en ─
               if [ "$chars" -lt $(( pages * MIN_CHARS_PER_PAGE )) ]; then
                 echo "🔍 OCR nodig: $pdf_key ($chars tekens / $pages pagina's)"
-                # --skip-text : pagina's die al tekst hebben overslaan, zodat
-                #               gemengde dossiers (brief + gescande bijlage) werken.
-                # --optimize 0 + --output-type pdf : slaat de ghostscript-stap over.
-                #               Sneller, één faalpunt minder; de OCR-PDF gooien we
-                #               toch weg — we willen alleen de tekst.
-                # --jobs 1    : de loop hieronder draait al 4 bestanden parallel.
-                if timeout "$OCR_TIMEOUT_SEC" ocrmypdf \
-                     --language nld+eng \
-                     --skip-text \
-                     --output-type pdf \
-                     --optimize 0 \
-                     --jobs 1 \
-                     --quiet \
-                     "$tmpfile" "$tmpfile.ocr.pdf" 2>/dev/null
-                then
-                  # Bewust pdftotext op de OCR-PDF i.p.v. --sidecar: bij
-                  # gemengde documenten schrijft de sidecar "[OCR skipped]"
-                  # voor pagina's die al tekst hadden — dan raak je die kwijt.
-                  pdftotext -raw "$tmpfile.ocr.pdf" "$txt" 2>/dev/null || :
+                ocr_raw="$tmpfile.ocr.txt"
+
+                if ocr_pdf "$tmpfile" "$ocr_raw" "$tmpfile"; then
+                  # Meerdere passes = veel overlap plus ruis uit de richtingen
+                  # waarin een stuk tekst NIET stond. Opschonen:
+                  #   • witruimte normaliseren
+                  #   • regels korter dan 3 tekens weg (losse strepen, punten,
+                  #     arceringsresten die tesseract als letter ziet)
+                  #   • duplicaten weg, met behoud van volgorde
+                  # De bestaande tekstlaag zetten we ervóór: het titelblok blijft
+                  # zo bovenaan staan en is meestal de betrouwbaarste tekst.
+                  {
+                    cat "$txt"
+                    printf '\n'
+                    awk '{ gsub(/[[:space:]]+/, " "); sub(/^ /, ""); sub(/ $/, "") }
+                         length($0) >= 3 && !seen[$0]++' "$ocr_raw"
+                  } > "$txt.merged"
+                  mv "$txt.merged" "$txt"
                   ocr_used=true
+                  echo "✅ OCR klaar: $pdf_key ($(tr -d '[:space:]' < "$txt" | wc -c) tekens)"
                 else
-                  echo "⚠️  OCR mislukt/timeout: $pdf_key — verder met bestaande tekst"
+                  echo "⚠️  OCR leverde niets op: $pdf_key — verder met bestaande tekst"
                 fi
               fi
 
@@ -244,15 +352,16 @@ jobs:
 
               tr -d '\000' < "$txt" >> "$md_path"
             fi
-            # Ruimt zowel het PDF als de afgeleiden ($tmpfile.txt, $tmpfile.ocr.pdf) op.
+            # Ruimt zowel het PDF als alle afgeleiden ($tmpfile.txt, .ocr.txt,
+            # eventuele achtergebleven .rotN.pdf/.pN-*.png) op.
             rm -f "$tmpfile" "$tmpfile".*
           }
 
-          # Parallel, max 4 tegelijk.
+          # Parallel, begrensd door PARALLEL_JOBS (OCR is CPU-gebonden).
           while IFS=$'\t' read -r pdf_key s3_etag; do
             [ -z "$pdf_key" ] && continue
             process_file "$pdf_key" "$s3_etag" &
-            while [ "$(jobs -r | wc -l)" -ge 4 ]; do wait -n; done
+            while [ "$(jobs -r | wc -l)" -ge "$PARALLEL_JOBS" ]; do wait -n; done
           done < s3_map.txt
           wait
 
@@ -276,7 +385,7 @@ jobs:
       - name: Build Hugo site
         run: |
           set -euo pipefail
-          # Content GENEST neerzetten (content/woo-publicaties/2023/…), zodat:
+          # Content GENEST neerzetten (content/bouwtekeningen/…), zodat:
           #   • .File.Path de prefix behoudt -> de PDF-fallback in single.html klopt
           #   • Hugo de prefix zelf in elke permalink zet
           # baseURL blijft daarom de CloudFront-root (géén prefix erin).
@@ -286,14 +395,14 @@ jobs:
 
       - name: Index with Pagefind
         run: |
-          # BELANGRIJK: --site op de JAARMAP, niet op public/.
+          # BELANGRIJK: --site op de ONDERWERPMAP, niet op public/.
           # Pagefind stelt de result-URL samen als: runtime-basis + opgeslagen URL.
           # De runtime-basis leidt Pagefind af uit de bundel-locatie
-          # (/woo-publicaties/2023/_pagefind/ -> basis = /woo-publicaties/2023/).
+          # (/bouwtekeningen/_pagefind/ -> basis = /bouwtekeningen/).
           # Indexeren we op public/, dan zit die prefix óók al in de opgeslagen URL
-          # en krijg je 'm dubbel (…/2023/woo-publicaties/2023/…). Door op de jaarmap
-          # te indexeren zijn de opgeslagen URL's basis-relatief (/woo-verzoeken/…),
-          # en vult de runtime-basis de prefix precies één keer aan.
+          # en krijg je 'm dubbel. Door op de onderwerpmap te indexeren zijn de
+          # opgeslagen URL's basis-relatief en vult de runtime-basis de prefix
+          # precies één keer aan.
           npx "pagefind@$PAGEFIND_VERSION" --site "public/$SYNC_FOLDER" --output-subdir _pagefind
 
       - name: Deploy to S3
