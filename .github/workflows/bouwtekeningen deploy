@@ -1,0 +1,384 @@
+# =============================================================================
+# bouwtekeningen deploy.yml — GitHub Actions: S3 → Hugo → Pagefind → S3 deploy
+# =============================================================================
+#
+# WAT DOET DEZE WORKFLOW?
+#   1) Spiegelt de PDF's uit de bron-bucket naar markdown (met tekst + frontmatter).
+#      Heeft een PDF geen (bruikbare) tekstlaag, dan gaat hij door
+#      scripts/ocr-tekening.py: rasteren + OCR in meerdere leesrichtingen.
+#   2) Bouwt de Hugo-site.
+#   3) Indexeert met Pagefind.
+#   4) Synct het resultaat naar de site-bucket (scoped op SYNC_FOLDER).
+#   Draait bij push op main, elke nacht (cron) en handmatig (workflow_dispatch).
+#
+# -----------------------------------------------------------------------------
+# WAAROM DE OCR-STAP IS HERSCHREVEN (t.o.v. de ocrmypdf-versie)
+# -----------------------------------------------------------------------------
+#   Gemeten op de testtekening (Lageplan Gleisbogen Coevorden, Lindschulte /
+#   Bentheimer Eisenbahn AG, 1 pagina, 5376x11711 px scan zonder tekstlaag):
+#
+#   • ocrmypdf --skip-text sloeg juist de pagina's over die OCR nodig hadden.
+#     Zodra een pagina ergens tekst heeft, slaat --skip-text 'm over. Bij een
+#     CAD-export met een titelblok als echte tekst kost de OCR-stap dan runner-
+#     tijd zonder iets toe te voegen.
+#
+#   • Eén leesrichting mist per definitie de helft. De veldannotaties staan
+#     horizontaal, het titelblok 90° gedraaid. Pas in de 90°-pass komen
+#     "Gleisbogen Coevorden", "Maßstab: 1:500", "Proj. Nr. VP 567",
+#     "Ausführungsplanung" en "Dateiname: _Lageplan - kpa.dwg" tevoorschijn.
+#
+#   • Meer richtingen kan NIET zomaar: een pass in de verkeerde richting geeft
+#     geen leegte maar overtuigende onzin ("Nordhorn" ondersteboven wordt
+#     "uJOUpJoN"), met een hoge OCR-confidence. Daarom weegt het script elke
+#     richting tegen een woordenboek en verwerpt de slechte in hun geheel.
+#     Gemeten aandeel herkende regels: 0,85 (0°), 0,69 (90°), 0,05 (180°),
+#     0,07 (270°) — de poort op 0,25 scheidt dat schoon.
+#
+#   • Taalmodel: -l nld+eng maakte van "Straßenabläufe" nog "StraBenablaufe".
+#     Dit is Duits grensmateriaal; 'deu' erbij scheelt zichtbaar.
+#
+#   Netto op de testtekening: van ~15 KB grotendeels ruis naar ~3,8 KB met het
+#   complete titelblok erin. Dat scheelt niet alleen zoekkwaliteit maar ook
+#   chat-context: de BM25-retrieval in chat-script.html rankt op deze tekst.
+#
+#   DIAGNOSE bij een tegenvallend document — draai dit lokaal:
+#     pdffonts  tekening.pdf          # geen fonts = scan, OCR is de enige route
+#     pdftotext -raw tekening.pdf -   # wél fonts? dan is het een extractieprobleem
+#     OCR_ROTATIONS="0 90 180 270" python3 scripts/ocr-tekening.py tekening.pdf
+#   Die laatste regel logt per richting hoeveel regels en welke woordherkenning
+#   eruit kwam; daarmee zie je meteen of de drempels kloppen.
+#
+# -----------------------------------------------------------------------------
+# EXTERNE ACTIONS / TOOLS (updaten = versie/pin hieronder in de steps aanpassen)
+# -----------------------------------------------------------------------------
+#   actions/checkout@v7                     → repo uitchecken.
+#   stefanzweifel/git-auto-commit-action@v7 → de gesyncte markdown terugcommitten.
+#   peaceiris/actions-hugo@v3               → Hugo installeren (versie gepind).
+#   poppler-utils (pdftotext, pdfinfo,      → PDF→tekst, paginatelling, rasteren.
+#                  pdftoppm, pdffonts)
+#   tesseract-ocr + nld/deu/eng             → de OCR zelf.
+#   python3-pil                             → roteren van de gerasterde pagina.
+#   wngerman / wdutch / wamerican           → woordenlijsten voor de kwaliteitspoort.
+#   AWS CLI                                 → voorgeïnstalleerd op de runner.
+#   npx pagefind                            → zoekindex bouwen (gepind via env).
+#
+#   LET OP — de apt-packages zijn NIET door Renovate te beheren; er bestaat geen
+#   manager voor 'apt-get install'-regels. Hun versie komt van de Ubuntu-release
+#   achter 'ubuntu-latest'. Wil je die verandering zelf in de hand houden, pin
+#   dan 'runs-on: ubuntu-24.04'.
+#
+# SECRETS (Repo → Settings → Secrets and variables → Actions)
+#   AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY            → LEEST bron-bucket.
+#   AWS_ACCESS_KEY_ID_SITE / AWS_SECRET_ACCESS_KEY_SITE  → SCHRIJFT site-bucket.
+#
+# LET OP — DUUR VAN OCR
+#   Gemeten: ~35 s per leesrichting voor één A0-scan, plus rastertijd. Met de
+#   default twee richtingen komt dat op ruim een minuut per tekening. De ETag-
+#   check zorgt dat dit eenmalig is; de eerste run na deze wijziging duurt lang.
+#
+# BESTAANDE BESTANDEN — HERPAKKEN NA DEZE WIJZIGING
+#   Al gesyncte .md-bestanden hebben een matchende ETag en worden overgeslagen,
+#   ook als hun inhoud onbruikbaar is. Verwijder ze om ze door de nieuwe route
+#   te halen (alles onder bouwtekeningen, want de oude OCR-output is niet aan
+#   de lengte te herkennen — die was juist lang én onbruikbaar):
+#     find onderwerpen/bouwtekeningen -name '*.md' -delete
+# =============================================================================
+
+name: Bouwtekeningen deploy
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+env:
+  # ── PAS HIER HET ONDERWERP AAN ─────────────────────────────────
+  # Moet EXACT (incl. casing) als prefix bestaan in de bron-bucket;
+  # de site-bucket wordt hiervan de spiegel.
+  SYNC_FOLDER: "bouwtekeningen"
+
+  # Beide buckets staan in eu-north-1 (zie origin-domeinen in CloudFront).
+  AWS_DEFAULT_REGION: eu-north-1
+
+  # De site wordt via CloudFront geserveerd, niet via de rauwe (privé/OAC) S3-URL.
+  # baseURL blijft de CloudFront-ROOT: door de geneste content zet Hugo de
+  # prefix zelf al in elke permalink.
+  CDN_BASE_URL: "https://d3jow2udcm31b0.cloudfront.net"
+
+  # ── TEKSTEXTRACTIE ─────────────────────────────────────────────
+  # Modus voor pdftotext op een bestaande tekstlaag:
+  #   raw    → tekst in de volgorde waarin hij in het PDF staat
+  #   layout → behoudt de ruimtelijke kolom-/blokindeling
+  # Bij CAD-exports waar woorden uit elkaar vallen ("B O U W") is 'layout' het
+  # proberen waard: dat houdt bij elkaar geplaatste glyphs vaker samen.
+  PDFTOTEXT_MODE: "raw"
+
+  # ── OCR (doorgegeven aan scripts/ocr-tekening.py) ──────────────
+  # Minder dan zoveel tekens per pagina → OCR. Bewust hoger dan de 100 van de
+  # woo-workflow: een tekening waarvan alleen het titelblok echte tekst is haalt
+  # die 100 makkelijk, terwijl juist alle annotaties dan ontbreken.
+  MIN_CHARS_PER_PAGE: "600"
+
+  # Leesrichtingen (graden, tegen de klok in). "0 90" volgt de tekenconventie:
+  # veldtekst horizontaal, titelblok 90° gedraaid. Een overbodige richting kost
+  # dankzij de woordenboek-poort alleen tijd, geen kwaliteit — zet dus gerust
+  # "0 90 180 270" als je twijfelt over een batch.
+  OCR_ROTATIONS: "0 90"
+
+  # Taalmodellen. 'deu' erbij is geen luxe bij Duits/grensmateriaal.
+  OCR_LANGS: "deu+nld+eng"
+
+  # Page segmentation mode. 3 (automatisch) bleek beter dan 11 ("sparse text"):
+  # 11 vindt meer fragmenten, maar vrijwel alleen ruis uit de arceringen.
+  OCR_PSM: "3"
+
+  # Woorden onder deze OCR-betrouwbaarheid (0-100) vallen af.
+  OCR_MIN_CONF: "60"
+
+  # Ondergrens voor het aandeel regels met een herkend woordenboekwoord.
+  # Daaronder wordt de hele leesrichting verworpen. Zie de meting bovenaan.
+  OCR_MIN_DICT_RATIO: "0.25"
+
+  # Rasterresolutie. Hoger dan de scan zelf heeft geen zin — controleer met
+  # 'pdfimages -list' wat de bron is (de testtekening is 300 dpi).
+  OCR_DPI: "300"
+
+  # Rem op dikke bundels: hooguit zoveel pagina's per document OCR'en.
+  OCR_MAX_PAGES: "10"
+
+  # Vangnet tegen geheugenproblemen: grotere pagina's worden eerst verkleind.
+  OCR_MAX_PIXELS: "180000000"
+
+  # Harde tijdslimiet (seconden) per raster- of OCR-aanroep.
+  OCR_TIMEOUT_SEC: "600"
+
+  # Aantal PDF's dat tegelijk verwerkt wordt. Lager dan de 4 van de woo-workflow:
+  # tesseract is CPU-gebonden en de runner heeft maar een paar cores.
+  PARALLEL_JOBS: "2"
+
+  # ── PAGEFIND ───────────────────────────────────────────────────
+  # Gepind i.p.v. @latest: een stille Pagefind-bump kan het zoekgedrag
+  # veranderen (1.5 is bijv. metadata standaard gaan meenemen in de zoekindex).
+  # De renovate-comment hieronder laat Renovate hier een PR voor openen.
+  # renovate: datasource=npm depName=pagefind
+  PAGEFIND_VERSION: "1.5.2"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Install dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          # poppler-utils   → pdftotext, pdfinfo, pdftoppm, pdffonts
+          # tesseract-ocr   → OCR-engine; -nld/-deu zijn de taalmodellen
+          # python3-pil     → roteren van de gerasterde pagina
+          # w*              → woordenlijsten voor de kwaliteitspoort in het script
+          sudo apt-get install -y \
+            poppler-utils \
+            tesseract-ocr tesseract-ocr-nld tesseract-ocr-deu \
+            python3-pil \
+            wngerman wdutch wamerican
+
+          # Versies loggen: deze packages zijn niet gepind, dus bij een
+          # plotselinge kwaliteitsverandering wil je in de logs kunnen
+          # terugzien welke tesseract er draaide.
+          tesseract --version | head -1
+          tesseract --list-langs
+          ls -1 /usr/share/dict/
+
+      - name: Sync S3 → Markdown (scoped to folder)
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          BUCKET_NAME: publicaties-coevorden
+        run: |
+          set -euo pipefail
+          mkdir -p "onderwerpen/$SYNC_FOLDER"
+
+          echo "📥 S3 listing voor: $SYNC_FOLDER"
+          # De AWS CLI pagineert list-objects-v2 zelf; geen handmatige token-loop
+          # nodig. We projecteren key+etag direct als tab-gescheiden tekst.
+          # 'None' = lege listing (JMESPath op een lege bucket) -> eruit filteren.
+          aws s3api list-objects-v2 \
+            --bucket "$BUCKET_NAME" \
+            --prefix "$SYNC_FOLDER/" \
+            --query "Contents[?ends_with(Key, '.pdf')].[Key, ETag]" \
+            --output text > s3_raw.txt
+          grep -v '^None' s3_raw.txt | tr -d '"' | sort -u > s3_map.txt || true
+
+          # ── VEILIGHEIDSREM ──────────────────────────────────────────
+          # Zonder PDF's zou Hugo een lege site bouwen en 'aws s3 sync --delete'
+          # daarna de live-prefix leegvegen. Bij 0 treffers: hard stoppen.
+          if [ ! -s s3_map.txt ]; then
+            echo "❌ Geen PDF's onder '$SYNC_FOLDER/'. Klopt de prefix/casing?"
+            echo "   Afgebroken vóór build/deploy om dataverlies te voorkomen."
+            exit 1
+          fi
+
+          cut -f1 s3_map.txt | sort -u > s3_list.txt
+          echo "📊 PDF count: $(wc -l < s3_list.txt)"
+
+          echo "🧹 Opruimen verdwenen bestanden in onderwerpen/$SYNC_FOLDER"
+          find "onderwerpen/$SYNC_FOLDER" -name "*.md" -print0 | while IFS= read -r -d '' md_path; do
+            expected_pdf="${md_path#onderwerpen/}"
+            expected_pdf="${expected_pdf%.md}.pdf"
+            if ! grep -Fxq "$expected_pdf" s3_list.txt; then
+              echo "❌ Verwijderen: $md_path (niet meer in S3)"
+              rm "$md_path"
+            fi
+          done
+
+          echo "➕ Verwerken PDF's..."
+          process_file () {
+            pdf_key="$1"; s3_etag="$2"
+            md_path="onderwerpen/${pdf_key%.pdf}.md"
+
+            if [ -f "$md_path" ]; then
+              # Ongewijzigde ETag -> overslaan. Gewijzigd -> frontmatter vers
+              # wegschrijven, zodat een eventuele enrich-stap 'm herpakt.
+              stored=$(grep -m1 '^s3_etag:' "$md_path" 2>/dev/null \
+                | sed 's/^s3_etag:[[:space:]]*//; s/^"//; s/"$//' || true)
+              [ "$stored" = "$s3_etag" ] && return
+              echo "♻️  Gewijzigd: $pdf_key"
+            else
+              echo "🆕 Nieuw: $pdf_key"
+            fi
+
+            mkdir -p "$(dirname "$md_path")"
+            tmpfile=$(mktemp --suffix=.pdf)
+            if aws s3 cp "s3://$BUCKET_NAME/$pdf_key" "$tmpfile" --quiet; then
+              clean_title=$(basename "${pdf_key%.pdf}" | tr '"' "'")
+
+              # maps[] = alle paddelen behalve de bestandsnaam (plaats/jaar/…).
+              IFS='/' read -ra parts <<< "${pdf_key%.pdf}"
+              taxo=()
+              for ((i=0; i<${#parts[@]}-1; i++)); do taxo+=("\"${parts[$i]}\""); done
+              taxonomy_list=$(IFS=,; echo "${taxo[*]}")
+
+              # ── 1) Snelle route: bestaande tekstlaag ──────────────────
+              txt="$tmpfile.txt"
+              case "$PDFTOTEXT_MODE" in
+                raw)    pdftotext -raw    "$tmpfile" "$txt" 2>/dev/null || : > "$txt" ;;
+                layout) pdftotext -layout "$tmpfile" "$txt" 2>/dev/null || : > "$txt" ;;
+                *)      pdftotext         "$tmpfile" "$txt" 2>/dev/null || : > "$txt" ;;
+              esac
+
+              # || true: een corrupte PDF laat pdfinfo falen, en met
+              # 'set -euo pipefail' zou die assignment anders de hele run slopen —
+              # precies bij het bestand waarvoor OCR juist bedoeld is.
+              pages=$(pdfinfo "$tmpfile" 2>/dev/null | awk '/^Pages:/{print $2}' || true)
+              pages=${pages:-1}
+              chars=$(tr -d '[:space:]' < "$txt" | wc -c || true)
+              chars=${chars:-0}
+              ocr_used=false
+
+              # ── 2) Te weinig tekst → OCR in meerdere leesrichtingen ───
+              if [ "$chars" -lt $(( pages * MIN_CHARS_PER_PAGE )) ]; then
+                echo "🔍 OCR nodig: $pdf_key ($chars tekens / $pages pagina's)"
+                ocr_raw="$tmpfile.ocr.txt"
+
+                # Het script logt per richting hoeveel regels en welke
+                # woordherkenning eruit kwam; dat staat in de step-logs.
+                if python3 scripts/ocr-tekening.py "$tmpfile" > "$ocr_raw"; then
+                  if [ -s "$ocr_raw" ]; then
+                    # Bestaande tekstlaag eerst (titelblok staat er meestal in
+                    # en is de betrouwbaarste bron), OCR-resultaat eronder.
+                    { cat "$txt"; printf '\n'; cat "$ocr_raw"; } > "$txt.merged"
+                    mv "$txt.merged" "$txt"
+                    ocr_used=true
+                    echo "✅ OCR klaar: $pdf_key ($(tr -d '[:space:]' < "$txt" | wc -c) tekens)"
+                  else
+                    echo "⚠️  OCR leverde niets bruikbaars op: $pdf_key"
+                  fi
+                else
+                  echo "⚠️  OCR mislukt/timeout: $pdf_key — verder met bestaande tekst"
+                fi
+              fi
+
+              {
+                printf -- "---\n"
+                printf 'title: "%s"\n' "$clean_title"
+                printf "maps: [%s]\n" "$taxonomy_list"
+                printf 'source: "%s"\n' "$pdf_key"
+                printf 's3_etag: "%s"\n' "$s3_etag"
+                printf "ocr: %s\n" "$ocr_used"
+                printf "date: %s\n" "$(date +%Y-%m-%d)"
+                printf -- "---\n\n"
+              } > "$md_path"
+
+              tr -d '\000' < "$txt" >> "$md_path"
+            fi
+            # Ruimt het PDF en alle afgeleiden ($tmpfile.txt, .ocr.txt) op.
+            rm -f "$tmpfile" "$tmpfile".*
+          }
+
+          # Parallel, begrensd door PARALLEL_JOBS (OCR is CPU-gebonden).
+          while IFS=$'\t' read -r pdf_key s3_etag; do
+            [ -z "$pdf_key" ] && continue
+            process_file "$pdf_key" "$s3_etag" &
+            while [ "$(jobs -r | wc -l)" -ge "$PARALLEL_JOBS" ]; do wait -n; done
+          done < s3_map.txt
+          wait
+
+      - name: Commit changes
+        if: github.event_name != 'pull_request'
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "Sync: S3 folder ${{ env.SYNC_FOLDER }} naar Hugo"
+          file_pattern: "onderwerpen/${{ env.SYNC_FOLDER }}/**"
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          # Pin voor reproduceerbare builds. Renovate pakt deze regel op via de
+          # custom manager in renovate.json (comment + sleutel op de regel erna);
+          # extractVersionTemplate daar strookt de 'v' van de release-tag eraf.
+          # renovate: datasource=github-releases depName=gohugoio/hugo
+          hugo-version: '0.165.0'
+          extended: true
+
+      - name: Build Hugo site
+        run: |
+          set -euo pipefail
+          # Content GENEST neerzetten (content/bouwtekeningen/…), zodat:
+          #   • .File.Path de prefix behoudt -> de PDF-fallback in single.html klopt
+          #   • Hugo de prefix zelf in elke permalink zet
+          # baseURL blijft daarom de CloudFront-root (géén prefix erin).
+          rm -rf content && mkdir -p "content/$SYNC_FOLDER"
+          cp -r "onderwerpen/$SYNC_FOLDER/." "content/$SYNC_FOLDER/"
+          hugo --minify --baseURL "$CDN_BASE_URL/"
+
+      - name: Index with Pagefind
+        run: |
+          # BELANGRIJK: --site op de ONDERWERPMAP, niet op public/.
+          # Pagefind stelt de result-URL samen als: runtime-basis + opgeslagen URL.
+          # De runtime-basis leidt Pagefind af uit de bundel-locatie
+          # (/bouwtekeningen/_pagefind/ -> basis = /bouwtekeningen/).
+          # Indexeren we op public/, dan zit die prefix óók al in de opgeslagen URL
+          # en krijg je 'm dubbel. Door op de onderwerpmap te indexeren zijn de
+          # opgeslagen URL's basis-relatief en vult de runtime-basis de prefix
+          # precies één keer aan.
+          npx "pagefind@$PAGEFIND_VERSION" --site "public/$SYNC_FOLDER" --output-subdir _pagefind
+
+      - name: Deploy to S3
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_SITE }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_SITE }}
+          BUCKET_NAME: ${{ github.event_name == 'pull_request' && 'publicaties-coevorden-testsite' || 'publicaties-coevorden-site' }}
+        run: |
+          set -euo pipefail
+          cp ./public/index.json "./public/$SYNC_FOLDER/recent.json"
+          aws s3 sync ./public "s3://$BUCKET_NAME" \
+            --delete \
+            --exclude "*" \
+            --include "$SYNC_FOLDER/*"
