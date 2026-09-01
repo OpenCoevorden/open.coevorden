@@ -63,7 +63,7 @@
 #        [ "$c" -lt 300 ] && rm "$1"' _ {} \;
 # =============================================================================
 
-name: Riool-tekeningen deploy
+name: Bouwtekeningen deploy
 on:
   push:
     branches: [main]
@@ -76,7 +76,7 @@ env:
   # ── PAS HIER HET ONDERWERP + JAAR AAN ──────────────────────────
   # Vorm: "<onderwerp>/<jaar>". Moet EXACT (incl. casing) als prefix
   # bestaan in de bron-bucket; de site-bucket wordt hiervan de spiegel.
-  SYNC_FOLDER: "riool-tekeningen"
+  SYNC_FOLDER: "bouwtekeningen"
 
   # Beide buckets staan in eu-north-1 (zie origin-domeinen in CloudFront).
   AWS_DEFAULT_REGION: eu-north-1
