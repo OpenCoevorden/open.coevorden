@@ -56,7 +56,7 @@ env:
   AWS_DEFAULT_REGION: eu-north-1
 
   # CloudFront-ROOT als Hugo baseURL (Hugo zet de prefix zelf per permalink).
-  CDN_BASE_URL: "https://d3jow2udcm31b0.cloudfront.net"
+  CDN_BASE_URL: "https://open.coevorden.nl"
 
     # ── PAGEFIND ───────────────────────────────────────────────────
   # Gepind i.p.v. @latest: een stille Pagefind-bump kan het zoekgedrag
