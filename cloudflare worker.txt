@@ -12,6 +12,56 @@
 //   Worker-URL aan die in single.html bij AI_WORKER_URL staat.
 //
 // -----------------------------------------------------------------------------
+// WAT IS ER GEWIJZIGD T.O.V. DE GPT-5.4-NANO-VERSIE?
+// -----------------------------------------------------------------------------
+//   • MODEL: "gpt-5.4-nano" → "gpt-5.6-luna". Luna is de opvolger in dezelfde
+//     (goedkoopste) tier: zelfde inputprijs, iets goedkopere output, ~1M context.
+//     Hetzelfde model dat scripts/woo-publicaties-verrijken.js al gebruikt.
+//
+//   • TEMPERATURE wordt NIET meer standaard meegestuurd. GPT-5-modellen
+//     accepteren in de praktijk alleen temperature 1 en geven op een andere
+//     waarde een 400 terug. De parameter staat hieronder op null (= weglaten),
+//     net als de USE_TEMPERATURE-schakelaar in het verrijkingsscript.
+//
+//   • REASONING_EFFORT is nieuw. Luna is een redeneermodel en denkt standaard
+//     op "medium". Die reasoning-tokens komen uit HETZELFDE budget als
+//     MAX_COMPLETION_TOKENS, dus met een krappe limiet krijg je een leeg of
+//     afgekapt antwoord. Voor "beantwoord deze vraag uit de documenttekst" is
+//     redeneren overbodig → "none". Dat scheelt ook latency, wat telt omdat
+//     hugo.toml [params.chat] de call na 20 s afbreekt.
+//
+//   • Duidelijker foutafhandeling als het antwoord op de tokenlimiet stukloopt
+//     (finish_reason "length"), zodat je in de browser ziet wát er misging.
+//
+// -----------------------------------------------------------------------------
+// TOEGANG BEPERKEN TOT ÉÉN DOMEIN — WAT DIT WEL EN NIET DOET
+// -----------------------------------------------------------------------------
+//   De ALLOWED_ORIGINS-lijst hieronder zorgt dat alleen open.coevorden.nl de
+//   Worker vanuit een browser kan aanroepen. Twee dingen om te weten:
+//
+//   • WEL: een andere WEBSITE kan de Worker niet meer namens haar bezoekers
+//     aanroepen. De browser zet de Origin-header er zelf op en paginascript kan
+//     die niet vervalsen; klopt hij niet, dan krijgt het verzoek een 403 en is
+//     de Allow-Origin-header bovendien verkeerd, waardoor de browser het
+//     antwoord sowieso blokkeert.
+//
+//   • NIET: dit is geen authenticatie. Buiten de browser (curl, een script)
+//     is een Origin-header gewoon zelf te kiezen. Wie de Worker-URL kent kan
+//     hem dus alsnog aanroepen. De URL staat in hugo.toml en dus in de
+//     paginabron — hij is niet geheim.
+//
+//   Wil je ook dát afdekken, dan hoort dat NIET in deze code thuis maar in het
+//   Cloudflare-dashboard, vóór de Worker:
+//     • Rate limiting op de Worker-route (bv. X verzoeken per IP per minuut)
+//       is de goedkoopste rem op misbruik en beschermt vooral je OpenAI-budget.
+//     • WAF-regels om verkeer zonder de juiste Referer/Origin te blokkeren of
+//       te challengen, of een land-/bot-filter.
+//     • Cloudflare Turnstile als je echt zeker wilt weten dat er een mens
+//       achter zit; dat vraagt wel een extra token-controle in deze Worker en
+//       een widget in de chat.
+//     • Een uitgavenlimiet in het OpenAI-dashboard als laatste vangnet.
+//
+// -----------------------------------------------------------------------------
 // EXTERNE AFHANKELIJKHEDEN / GEHEIMEN
 // -----------------------------------------------------------------------------
 //   OpenAI Chat Completions API → externe dienst die het antwoord genereert.
@@ -30,21 +80,37 @@
 const OPENAI_ENDPOINT = "https://api.openai.com/v1/chat/completions";
 
 // Het taalmodel dat de antwoorden genereert.
-// Updaten: vervang door een ander OpenAI-model (bijv. "gpt-4o-mini").
-const MODEL = "gpt-5.4-nano";
+// Updaten: "gpt-5.6-terra" geeft betere antwoorden maar kost ~10x zoveel per
+// inputtoken — en juist deze Worker stuurt tot MAX_CONTEXT tekens mee.
+const MODEL = "gpt-5.6-luna";
 
-// Creativiteit van het model (0 = strak/feitelijk, 1 = vrijer).
-// Updaten: laag houden voor feitelijke antwoorden uit documenten.
-const TEMPERATURE = 0.2;
+// Hoeveel het model nadenkt vóór het antwoordt: "none" | "low" | "medium" |
+// "high" | "xhigh" | "max". Laat op "none" staan: het antwoord moet uit de
+// meegestuurde tekst komen, niet uit redeneerwerk, en elk niveau hoger kost
+// tokens uit MAX_COMPLETION_TOKENS én tijd uit de 20s-timeout van de browser.
+// Zet null om de parameter helemaal weg te laten (model kiest dan zelf).
+const REASONING_EFFORT = "none";
+
+// Creativiteit van het model. null = NIET meesturen (aanbevolen voor GPT-5-
+// modellen: die weigeren doorgaans elke waarde behalve 1 met een 400).
+// Updaten: alleen invullen als je overstapt op een model dat temperature wél
+// ondersteunt; laag houden voor feitelijke antwoorden uit documenten.
+const TEMPERATURE = null;
 
 // Harde bovengrens op het aantal tokens in het ANTWOORD van het model.
+// LET OP: bij redeneermodellen tellen reasoning-tokens hierin mee. Zet je
+// REASONING_EFFORT hoger dan "none", verhoog dan ook deze waarde — anders gaat
+// het hele budget op aan denken en blijft er geen antwoord over.
 // Updaten: verhoog als antwoorden worden afgekapt; kost dan meer.
 const MAX_COMPLETION_TOKENS = 1000;
 
 // Vangnet: maximaal aantal tekens documenttekst dat we naar OpenAI sturen.
 // De browser stuurt meestal al een ingekorte/opgehaalde context; dit kapt hard
 // af mocht er toch iets groots binnenkomen (voorkomt context-length-fouten/kosten).
-// Updaten: hoger = meer context maar duurder en risico op te grote requests.
+// Luna heeft ~1M tokens context, dus technisch kan dit veel hoger — maar hou er
+// rekening mee dat prompts boven 272K inputtokens dubbel tarief kosten, en dat
+// de BM25-retrieval in chat-script.html al op ~40K tekens mikt.
+// Updaten: hoger = meer context maar duurder en trager.
 const MAX_CONTEXT = 200000;
 
 // System-prompt: de gedragsregels voor het model.
@@ -59,18 +125,38 @@ Regels:
 - Als iets niet in de tekst staat: zeg dat duidelijk
 - Antwoord in correct Nederlands
 - Wees duidelijk en behulpzaam
-- Gebruik maximaal 50 woorden voor je antwoorden. 
+- Gebruik maximaal 50 woorden voor je antwoorden.
 `;
 
-// CORS-headers: staan cross-origin POST/OPTIONS vanaf elke oorsprong toe, zodat
-// de statische site (ander domein dan de Worker) de Worker mag aanroepen.
-// Updaten: zet "Access-Control-Allow-Origin" op je eigen domein i.p.v. "*" als
-// je de toegang wilt beperken.
-const CORS_HEADERS = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "POST, OPTIONS",
-  "Access-Control-Allow-Headers": "Content-Type",
-};
+// Welke websites deze Worker mogen aanroepen. Alles wat hier niet in staat
+// krijgt een 403 terug. Let op de vorm: schema + host, GEEN slash op het eind
+// (zo stuurt de browser de Origin-header ook).
+//
+// Updaten: zet het domein van je testomgeving erbij zolang je daarop test, en
+// haal het er daarna weer uit. Een lokale test doe je met bijv.
+//   "http://localhost:1313"   (hugo server)
+const ALLOWED_ORIGINS = [
+  "https://open.coevorden.nl",
+];
+
+// CORS-headers per request. We echoën de ORIGIN uit het verzoek terug (dat mag
+// alleen als die op de allowlist staat) i.p.v. "*", zodat andere sites de
+// Worker niet vanuit de browser kunnen aanroepen.
+//
+// "Vary: Origin" is verplicht zodra het antwoord van de origin afhangt: zonder
+// die header kan een tussenliggende cache (Cloudflare zelf, of een proxy) het
+// antwoord voor het ene domein aan het andere serveren.
+function corsHeaders(origin) {
+  return {
+    // Bij een niet-toegestane origin zetten we bewust het eigen domein neer:
+    // de browser blokkeert het antwoord dan alsnog.
+    "Access-Control-Allow-Origin": ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0],
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Max-Age": "86400",   // preflight 24 uur cachen
+    "Vary": "Origin",
+  };
+}
 
 // =============================================================================
 // WORKER — vanaf hier alleen nog logica; niets hieronder hoef je te configureren.
@@ -78,14 +164,31 @@ const CORS_HEADERS = {
 export default {
   async fetch(request, env) {
 
+    // De Origin-header zet de browser er zelf op; hij is vanuit paginascript
+    // niet te vervalsen. Buiten de browser (curl, script) kan hij wél verzonnen
+    // worden — zie de opmerking over de beperkingen bovenaan dit bestand.
+    const origin = request.headers.get("Origin") || "";
+    const CORS = corsHeaders(origin);
+
     // Preflight (CORS): browser vraagt vooraf toestemming → leeg antwoord + headers.
+    // Ook een niet-toegestane origin krijgt hier gewoon antwoord; de browser
+    // ziet aan de Allow-Origin-header dat hij niet mag en stopt zelf.
     if (request.method === "OPTIONS") {
-      return new Response(null, { headers: CORS_HEADERS });
+      return new Response(null, { headers: CORS });
     }
 
     // Alleen POST is zinvol (we ontvangen een JSON-body met de vraag/context).
     if (request.method !== "POST") {
-      return new Response("Gebruik POST", { status: 405, headers: CORS_HEADERS });
+      return new Response("Gebruik POST", { status: 405, headers: CORS });
+    }
+
+    // Poortwachter: alles buiten de allowlist wordt niet verwerkt, zodat een
+    // andere site geen tokens op jouw rekening kan verstoken.
+    if (!ALLOWED_ORIGINS.includes(origin)) {
+      return new Response(JSON.stringify({ error: "Verzoek niet toegestaan" }), {
+        status: 403,
+        headers: { ...CORS, "Content-Type": "application/json" }
+      });
     }
 
     try {
@@ -121,6 +224,9 @@ export default {
       ];
 
       // OpenAI aanroepen met de geconfigureerde parameters.
+      // Optionele parameters sturen we alleen mee als ze gezet zijn, zodat een
+      // model dat ze niet ondersteunt geen 400 teruggeeft (zelfde patroon als
+      // in scripts/woo-publicaties-verrijken.js).
       const response = await fetch(OPENAI_ENDPOINT, {
         method: "POST",
         headers: {
@@ -130,8 +236,9 @@ export default {
         body: JSON.stringify({
           model: MODEL,
           messages: finalMessages,
-          temperature: TEMPERATURE,
-          max_completion_tokens: MAX_COMPLETION_TOKENS
+          max_completion_tokens: MAX_COMPLETION_TOKENS,
+          ...(REASONING_EFFORT ? { reasoning_effort: REASONING_EFFORT } : {}),
+          ...(TEMPERATURE !== null ? { temperature: TEMPERATURE } : {})
         })
       });
 
@@ -143,16 +250,27 @@ export default {
 
       // Antwoordtekst uit de OpenAI-respons vissen.
       const data = await response.json();
-      const aiAnswer = data?.choices?.[0]?.message?.content;
+      const choice = data?.choices?.[0];
+      const aiAnswer = choice?.message?.content;
 
       if (!aiAnswer) {
+        // Meest waarschijnlijke oorzaak bij een redeneermodel: het tokenbudget
+        // is opgegaan aan reasoning. Dat expliciet benoemen scheelt zoekwerk.
+        if (choice?.finish_reason === "length") {
+          const used = data?.usage?.completion_tokens_details?.reasoning_tokens;
+          throw new Error(
+            "Antwoord afgekapt op de tokenlimiet" +
+            (used ? ` (${used} reasoning-tokens verbruikt)` : "") +
+            " — verhoog MAX_COMPLETION_TOKENS of verlaag REASONING_EFFORT."
+          );
+        }
         throw new Error("Leeg antwoord van AI");
       }
 
       // Succes: het antwoord als JSON teruggeven, mét CORS-headers.
       return new Response(JSON.stringify({ answer: aiAnswer }), {
         headers: {
-          ...CORS_HEADERS,
+          ...CORS,
           "Content-Type": "application/json"
         }
       });
@@ -166,7 +284,7 @@ export default {
         status: 500,
         headers: {
           "Content-Type": "application/json",
-          ...CORS_HEADERS
+          ...CORS
         }
       });
     }
