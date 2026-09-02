@@ -22,7 +22,7 @@
 
 # baseURL — CloudFront-root. Moet op "/" eindigen. GEEN map-prefix opnemen:
 #   content staat genest, dus Hugo zet de prefix zelf in elke permalink.
-baseURL = 'https://d3jow2udcm31b0.cloudfront.net/'
+baseURL = 'https://open.coevorden.nl/'
 
 # locale — taal/regio voor datum-/getalnotatie.
 locale = "nl-nl"
@@ -46,10 +46,10 @@ uglyURLs = true
 [params]
   # s3_url — basis waarmee single.html de PDF-downloadlink opbouwt.
   #   Gelijk houden aan baseURL (CloudFront-root).
-  s3_url = "https://d3jow2udcm31b0.cloudfront.net/"
+  s3_url = "https://open.coevorden.nl/"
 
   # indexURL — doel van de "Terug naar overzicht"-knop.
-  indexURL = 'https://d3jow2udcm31b0.cloudfront.net/index.html'
+  indexURL = 'https://open.coevorden.nl/index.html'
 
 
 # ── THEMA / KLEUREN ──────────────────────────────────────────────────────────
