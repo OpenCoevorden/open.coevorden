@@ -105,7 +105,7 @@ env:
   # De site wordt via CloudFront geserveerd, niet via de rauwe (privé/OAC) S3-URL.
   # baseURL blijft de CloudFront-ROOT: door de geneste content zet Hugo de
   # prefix zelf al in elke permalink.
-  CDN_BASE_URL: "https://d3jow2udcm31b0.cloudfront.net"
+  CDN_BASE_URL: "https://open.coevorden.nl"
 
   # ── TEKSTEXTRACTIE ─────────────────────────────────────────────
   # Modus voor pdftotext op een bestaande tekstlaag:
