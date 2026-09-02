@@ -133,7 +133,7 @@ uglyURLs = true
 #   Geïnjecteerd in partials/document/chat-script.html.
 [params.chat]
   # Adres van de Cloudflare Worker die (server-side) OpenAI aanroept.
-  workerURL        = "opencoevorden.informatiemanagement.workers.dev/"
+  workerURL        = "https://opencoevorden.informatiemanagement.workers.dev/"
   # Time-out (ms) voor de Worker-call; daarna afgebroken.
   requestTimeoutMs = 20000
   # Begroeting die als eerste in de chat verschijnt.
