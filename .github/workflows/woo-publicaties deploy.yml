@@ -38,8 +38,6 @@
 
 name: Woo publicaties synchroniseren
 on:
-  push:
-    branches: [main]
   pull_request:
   schedule:
     - cron: '0 0 * * *'
