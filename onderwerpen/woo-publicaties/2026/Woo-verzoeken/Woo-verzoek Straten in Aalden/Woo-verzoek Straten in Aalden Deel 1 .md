@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek Straten in Aalden Deel 1 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Straten in Aalden"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Straten in Aalden/Woo-verzoek Straten in Aalden Deel 1 .pdf"
-s3_etag: "bc647168c3505216aeef95ec33167831-7"
-date: 2026-09-01
+title: 'Woo-verzoek Straten in Aalden Deel 1 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Straten in Aalden
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Straten in Aalden/Woo-verzoek
+  Straten in Aalden Deel 1 .pdf
+s3_etag: bc647168c3505216aeef95ec33167831-7
+date: 2026-09-01T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2026-06-01 een Woo-verzoek en wees dit
+  gedeeltelijk toe. De aangetroffen documenten worden openbaar gemaakt, met
+  weglakking van persoonsgegevens.
+milestones:
+  - date: '2026-06-01'
+    event: Woo-verzoek ontvangen
+  - date: '2026-07-09'
+    event: 'Besluit: verzoek gedeeltelijk toegewezen'
+  - date: '2026-07-29'
+    event: Beslistermijn met twee weken verlengd
+ai_processed_at: '2026-09-02T11:23:00.548Z'
+ai_status: done
 ---
 
 Gemeente

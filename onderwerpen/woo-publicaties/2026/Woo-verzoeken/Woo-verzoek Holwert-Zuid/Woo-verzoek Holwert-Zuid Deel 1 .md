@@ -1,9 +1,44 @@
 ---
-title: "Woo-verzoek Holwert-Zuid Deel 1 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Holwert-Zuid"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Holwert-Zuid/Woo-verzoek Holwert-Zuid Deel 1 .pdf"
-s3_etag: "6e9f2806678de02ac6477f6092c653d8-7"
-date: 2026-09-01
+title: 'Woo-verzoek Holwert-Zuid Deel 1 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Holwert-Zuid
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Holwert-Zuid/Woo-verzoek
+  Holwert-Zuid Deel 1 .pdf
+s3_etag: 6e9f2806678de02ac6477f6092c653d8-7
+date: 2026-09-01T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden ontving op 2026-04-24 een Woo-verzoek over Holwert-Zuid
+  en het CPC-terrein. Het verzoek is gedeeltelijk toegewezen via deelbesluit 1
+  op 2026-07-02 en deelbesluit 2 op 2026-08-11, waarbij documenten deels
+  openbaar zijn gemaakt en persoonsgegevens en vertrouwelijke bedrijfsgegevens
+  zijn weggelakt.
+milestones:
+  - date: '2010-12-06'
+    event: >-
+      Ontwerpbeschikking vastgesteld over ernstige bodemverontreiniging en
+      spoedige sanering.
+  - date: '2012-10-22'
+    event: >-
+      College stemt in met herontwikkeling Holwert-Zuid en de tweede aanvullende
+      overeenkomst.
+  - date: '2014-04-28'
+    event: Tweede aanvullende koop-/realisatieovereenkomst met Bouwfonds gesloten.
+  - date: '2015-06-30'
+    event: >-
+      Levering en betaling van fase 2a uitgesteld van 2015-07-01 naar
+      2015-11-01.
+  - date: '2026-04-24'
+    event: Woo-verzoek ingediend
+  - date: '2026-07-02'
+    event: 'Deelbesluit 1: verzoek gedeeltelijk toegewezen'
+  - date: '2026-08-11'
+    event: 'Deelbesluit 2: verzoek gedeeltelijk toegewezen'
+ai_processed_at: '2026-09-02T11:26:06.296Z'
+ai_status: done
 ---
 
 ji Gemeente

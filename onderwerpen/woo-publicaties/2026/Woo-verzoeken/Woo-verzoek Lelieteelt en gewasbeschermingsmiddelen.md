@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek Lelieteelt en gewasbeschermingsmiddelen"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Lelieteelt en gewasbeschermingsmiddelen.pdf"
-s3_etag: "b2a312646a9d6ebaf8e03772c967681c"
-date: 2026-09-01
+title: Woo-verzoek Lelieteelt en gewasbeschermingsmiddelen
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Lelieteelt en
+  gewasbeschermingsmiddelen.pdf
+s3_etag: b2a312646a9d6ebaf8e03772c967681c
+date: 2026-09-01T00:00:00.000Z
+summary: >-
+  Op 2026-06-18 is een Woo-verzoek ingediend om spuitgegevens over lelieteelt
+  nabij Europaweg 12 in Coevorden. De gemeente heeft het verzoek op 2026-07-09
+  afgewezen omdat geen documenten zijn aangetroffen.
+milestones:
+  - date: '2026-06-18'
+    event: >-
+      Woo-verzoek ingediend om spuitgegevens en informatie over
+      gewasbeschermingsmiddelen.
+  - date: '2026-07-09'
+    event: >-
+      Besluit: Woo-verzoek afgewezen wegens het ontbreken van aangetroffen
+      documenten.
+ai_processed_at: '2026-09-02T11:21:36.355Z'
+ai_status: done
 ---
 
 NL Gemeente

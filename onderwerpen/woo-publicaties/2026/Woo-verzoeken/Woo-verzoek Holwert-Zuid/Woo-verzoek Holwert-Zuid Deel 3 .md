@@ -1,9 +1,48 @@
 ---
-title: "Woo-verzoek Holwert-Zuid Deel 3 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Holwert-Zuid"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Holwert-Zuid/Woo-verzoek Holwert-Zuid Deel 3 .pdf"
-s3_etag: "7cfd610c1293f563363e3cb06748d952-5"
-date: 2026-09-01
+title: 'Woo-verzoek Holwert-Zuid Deel 3 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Holwert-Zuid
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Holwert-Zuid/Woo-verzoek
+  Holwert-Zuid Deel 3 .pdf
+s3_etag: 7cfd610c1293f563363e3cb06748d952-5
+date: 2026-09-01T00:00:00.000Z
+summary: >-
+  Gedeputeerde Staten van Drenthe stelden in 2011 vast dat sprake was van
+  ernstige bodemverontreiniging waarvoor spoedige sanering noodzakelijk was. Op
+  2012-12-12 stemde de provincie in met de saneringsplannen; op 2013-08-28
+  legden provincie, gemeente en CPC Vastgoed afspraken vast over sanering,
+  financiering en kosteloze eigendomsoverdracht.
+milestones:
+  - date: '2010-02-01'
+    event: Eerste zienswijze ingediend tegen het ontwerpbestemmingsplan.
+  - date: '2010-02-02'
+    event: Twee zienswijzen ingediend tegen het ontwerpbestemmingsplan.
+  - date: '2010-02-03'
+    event: Vier zienswijzen ingediend tegen het ontwerpbestemmingsplan.
+  - date: '2010-02-23'
+    event: Achtste zienswijze ingediend tegen het ontwerpbestemmingsplan.
+  - date: '2011-02-02'
+    event: >-
+      Besluit: ernstige bodemverontreiniging vastgesteld; spoedige sanering
+      noodzakelijk.
+  - date: '2012-10-01'
+    event: >-
+      Zienswijzennota: gewijzigde vaststelling voorgesteld met geactualiseerde
+      onderzoeken.
+  - date: '2012-12-12'
+    event: >-
+      Besluiten: instemming met saneringsplan Holwert-Zuid en saneringsplan
+      Parallelweg 25-27.
+  - date: '2013-08-28'
+    event: >-
+      Overeenkomst ondertekend over sanering, financiering en kosteloze
+      overdracht van het CPC-terrein.
+ai_processed_at: '2026-09-02T11:24:01.296Z'
+ai_status: done
 ---
 
 7/21

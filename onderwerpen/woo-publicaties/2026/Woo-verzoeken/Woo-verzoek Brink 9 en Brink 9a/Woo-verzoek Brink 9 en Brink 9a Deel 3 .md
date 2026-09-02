@@ -1,9 +1,33 @@
 ---
-title: "Woo-verzoek Brink 9 en Brink 9a Deel 3 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Brink 9 en Brink 9a"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brink 9 en Brink 9a/Woo-verzoek Brink 9 en Brink 9a Deel 3 .pdf"
-s3_etag: "c7aedceeb80bf7e27e6ba5ada0a50994-7"
-date: 2026-09-01
+title: 'Woo-verzoek Brink 9 en Brink 9a Deel 3 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Brink 9 en Brink 9a
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brink 9 en Brink 9a/Woo-verzoek
+  Brink 9 en Brink 9a Deel 3 .pdf
+s3_etag: c7aedceeb80bf7e27e6ba5ada0a50994-7
+date: 2026-09-01T00:00:00.000Z
+summary: >-
+  Op 2025-07-17 werd een sloopmelding voor asbestverwijdering en gedeeltelijke
+  sloop aan Brink 9-9A in Sleen ingediend. Op 2026-04-02 werd telefonisch een
+  Woo-verzoek over het voorgenomen bodemonderzoek gedaan; in de tekst staat geen
+  besluit of uitspraak.
+milestones:
+  - date: '2023-12-30'
+    event: Aanvraag omgevingsvergunning fase 1 ingediend (aanvraagnummer 8323491).
+  - date: '2023-12-30'
+    event: Aanvraag omgevingsvergunning fase 2 ingediend (aanvraagnummer 8323547).
+  - date: '2023-12-30'
+    event: Aanvraag omgevingsvergunning fase 3 ingediend (aanvraagnummer 8323571).
+  - date: '2026-04-02'
+    event: >-
+      Telefonisch Woo-verzoek ingediend over het bodemonderzoek aan Brink 9 te
+      Sleen.
+ai_processed_at: '2026-09-02T11:27:19.731Z'
+ai_status: done
 ---
 
 Gemeente Sleen jo

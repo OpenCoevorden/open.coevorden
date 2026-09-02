@@ -1,9 +1,39 @@
 ---
-title: "Woo-verzoek Brink 9 en Brink 9a Deel 2 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Brink 9 en Brink 9a"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brink 9 en Brink 9a/Woo-verzoek Brink 9 en Brink 9a Deel 2 .pdf"
-s3_etag: "98ec4519a5ab052437ed60f121cae4f6-7"
-date: 2026-09-01
+title: 'Woo-verzoek Brink 9 en Brink 9a Deel 2 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Brink 9 en Brink 9a
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brink 9 en Brink 9a/Woo-verzoek
+  Brink 9 en Brink 9a Deel 2 .pdf
+s3_etag: 98ec4519a5ab052437ed60f121cae4f6-7
+date: 2026-09-01T00:00:00.000Z
+summary: >-
+  Op 2026-04-02 is telefonisch een Woo-verzoek ingediend bij de Omgevingsdienst
+  Drenthe over informatie over het voorgenomen bodemonderzoek. Het verzoek lag
+  op 2026-04-02 ter beoordeling bij de Woo-contactpersoon; een besluit, bezwaar
+  of beroep is niet vermeld.
+milestones:
+  - date: '2023-06-27'
+    event: >-
+      Melding Activiteitenbesluit ingediend voor gewijzigde activiteiten,
+      waaronder het plaatsen van een glijbaan.
+  - date: '2023-12-30'
+    event: >-
+      Vier omgevingsvergunningaanvragen ingediend voor bouw, planologisch
+      strijdig gebruik, uitbreiding en parkeerplaatsen.
+  - date: '2024-02-22'
+    event: >-
+      Termijn voor het indienen van aanvullende gegevens met twaalf weken
+      verlengd tot 2024-06-10.
+  - date: '2026-04-02'
+    event: Telefonisch Woo-verzoek ingediend bij de Omgevingsdienst Drenthe.
+  - date: '2026-04-02'
+    event: Woo-verzoek ter beoordeling voorgelegd aan de Woo-contactpersoon.
+ai_processed_at: '2026-09-02T11:28:14.629Z'
+ai_status: done
 ---
 
 met Ik heb hem meerdere

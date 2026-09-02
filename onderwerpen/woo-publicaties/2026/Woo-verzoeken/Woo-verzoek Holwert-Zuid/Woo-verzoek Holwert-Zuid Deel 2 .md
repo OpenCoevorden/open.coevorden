@@ -1,9 +1,52 @@
 ---
-title: "Woo-verzoek Holwert-Zuid Deel 2 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Holwert-Zuid"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Holwert-Zuid/Woo-verzoek Holwert-Zuid Deel 2 .pdf"
-s3_etag: "0d3a5c6571decfdc8b3c377a03c3e037-7"
-date: 2026-09-01
+title: 'Woo-verzoek Holwert-Zuid Deel 2 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Holwert-Zuid
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Holwert-Zuid/Woo-verzoek
+  Holwert-Zuid Deel 2 .pdf
+s3_etag: 0d3a5c6571decfdc8b3c377a03c3e037-7
+date: 2026-09-01T00:00:00.000Z
+summary: >-
+  De provincie Drenthe stelde in 2011 vast dat sprake was van ernstige en
+  spoedeisende bodemverontreiniging op het CPC-terrein. In 2012 volgden een
+  ontwerpbesluit, een zienswijze van Waterschap Velt en Vecht en instemming met
+  het gefaseerde saneringsplan; de starttermijnen voor fase 1 en 2 werden
+  daarbij verschoven naar 2013.
+milestones:
+  - date: '2010-07-26'
+    event: Zienswijze tegen het ontwerpbestemmingsplan ingediend.
+  - date: '2010-07-27'
+    event: Twee zienswijzen tegen het ontwerpbestemmingsplan ingediend.
+  - date: '2010-07-28'
+    event: Twee zienswijzen tegen het ontwerpbestemmingsplan ingediend.
+  - date: '2011-02-02'
+    event: >-
+      Besluit: ernstige bodemverontreiniging vastgesteld en sanering spoedeisend
+      verklaard.
+  - date: '2012-09-28'
+    event: 'Ontwerpbeschikking: instemming met gefaseerd saneringsplan.'
+  - date: '2012-10-03'
+    event: >-
+      Nota van zienswijzen vastgesteld; zienswijzen leiden tot gewijzigde
+      vaststelling.
+  - date: '2012-11-07'
+    event: >-
+      Waterschap dient zienswijze in tegen de ontwerpbeschikking en het
+      saneringsplan.
+  - date: '2012-12-12'
+    event: >-
+      Definitief besluit: instemming met het gefaseerde saneringsplan, onder
+      voorschriften.
+  - date: '2012-12-12'
+    event: >-
+      Provinciale besluiten over ernstige bodemverontreiniging en instemming met
+      saneringsplannen.
+ai_processed_at: '2026-09-02T11:25:10.040Z'
+ai_status: done
 ---
 
 df

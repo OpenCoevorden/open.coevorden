@@ -1,9 +1,27 @@
 ---
-title: "Woo-verzoek Brink 9 en Brink 9a Deel 4 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Brink 9 en Brink 9a"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brink 9 en Brink 9a/Woo-verzoek Brink 9 en Brink 9a Deel 4 .pdf"
-s3_etag: "3a99c6055bee67d25d30422f035efd10"
-date: 2026-09-01
+title: 'Woo-verzoek Brink 9 en Brink 9a Deel 4 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Brink 9 en Brink 9a
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brink 9 en Brink 9a/Woo-verzoek
+  Brink 9 en Brink 9a Deel 4 .pdf
+s3_etag: 3a99c6055bee67d25d30422f035efd10
+date: 2026-09-01T00:00:00.000Z
+summary: >-
+  Op 2023-12-30 zijn aanvragen voor een omgevingsvergunning ingediend bij de
+  gemeente Coevorden voor het aanleggen van een parkeerplaats en het verplaatsen
+  van een uitrit aan Brink 9 en 9a in Sleen. Een besluit, bezwaar, beroep,
+  uitspraak, verlenging of intrekking is niet vermeld.
+milestones:
+  - date: '2023-12-30'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor aanleg parkeerplaats en
+      wijziging van de uitrit
+ai_processed_at: '2026-09-02T11:26:29.038Z'
+ai_status: done
 ---
 
 Bijlagen

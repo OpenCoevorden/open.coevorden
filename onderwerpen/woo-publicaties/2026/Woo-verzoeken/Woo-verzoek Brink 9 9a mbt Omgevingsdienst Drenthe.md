@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek Brink 9 9a mbt Omgevingsdienst Drenthe"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brink 9 9a mbt Omgevingsdienst Drenthe.pdf"
-s3_etag: "31bef0a595657fe51a33b61f5d5b3653-2"
-date: 2026-09-01
+title: Woo-verzoek Brink 9 9a mbt Omgevingsdienst Drenthe
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brink 9 9a mbt Omgevingsdienst
+  Drenthe.pdf
+s3_etag: 31bef0a595657fe51a33b61f5d5b3653-2
+date: 2026-09-01T00:00:00.000Z
+summary: >-
+  Het Woo-verzoek over documenten inzake Brink 9 en 9a is op 2026-03-27
+  ingediend. Op 2026-06-30 heeft de gemeente het verzoek toegewezen, waarbij 14
+  documenten openbaar worden gemaakt met weglakking van persoonsgegevens en
+  concurrentiegevoelige bedrijfsinformatie.
+milestones:
+  - date: '2026-03-27'
+    event: Woo-verzoek ingediend over Brink 9 en 9a
+  - date: '2026-06-30'
+    event: >-
+      Woo-besluit: verzoek toegewezen; 14 documenten openbaar gemaakt met
+      gedeeltelijke weglakkingen
+ai_processed_at: '2026-09-02T11:22:01.592Z'
+ai_status: done
 ---
 
 Postadres: :

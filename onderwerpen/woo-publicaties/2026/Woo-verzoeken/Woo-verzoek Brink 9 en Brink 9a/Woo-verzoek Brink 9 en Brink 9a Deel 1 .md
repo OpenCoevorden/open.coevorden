@@ -1,9 +1,43 @@
 ---
-title: "Woo-verzoek Brink 9 en Brink 9a Deel 1 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Brink 9 en Brink 9a"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brink 9 en Brink 9a/Woo-verzoek Brink 9 en Brink 9a Deel 1 .pdf"
-s3_etag: "8cb973fb8c14d5b60d929e88183b025b-7"
-date: 2026-09-01
+title: 'Woo-verzoek Brink 9 en Brink 9a Deel 1 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Brink 9 en Brink 9a
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Brink 9 en Brink 9a/Woo-verzoek
+  Brink 9 en Brink 9a Deel 1 .pdf
+s3_etag: 8cb973fb8c14d5b60d929e88183b025b-7
+date: 2026-09-01T00:00:00.000Z
+summary: >-
+  In april 2026 zijn twee Woo-verzoeken ingediend over documenten met betrekking
+  tot Brink 9 en Brink 9a te Sleen. Beide verzoeken zijn op 2026-06-30 geheel
+  toegewezen, waarbij persoonsgegevens en concurrentiegevoelige bedrijfsgegevens
+  zijn gelakt.
+milestones:
+  - date: '2023-08-31'
+    event: Aanvraag horeca-exploitatievergunning ingediend
+  - date: '2023-10-20'
+    event: Horeca-exploitatievergunning verleend
+  - date: '2026-04-07'
+    event: >-
+      Woo-verzoek ingediend bij de Omgevingsdienst Drenthe over Brink 9 en 9a te
+      Sleen.
+  - date: '2026-04-08'
+    event: >-
+      Woo-verzoek ingediend bij de gemeente Coevorden over Brink 9 en 9a te
+      Sleen.
+  - date: '2026-06-30'
+    event: >-
+      Woo-besluit: verzoek met kenmerk 27502-2026 volledig toegewezen;
+      documenten deels gelakt.
+  - date: '2026-06-30'
+    event: >-
+      Woo-besluit: verzoek met kenmerk 23565-2026 volledig toegewezen;
+      documenten deels gelakt.
+ai_processed_at: '2026-09-02T11:29:08.375Z'
+ai_status: done
 ---
 
 Postadres: :

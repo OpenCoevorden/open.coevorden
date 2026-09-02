@@ -1,9 +1,19 @@
 ---
-title: "Woo-verzoek Straten in Aalden Deel 2 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Straten in Aalden"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Straten in Aalden/Woo-verzoek Straten in Aalden Deel 2 .pdf"
-s3_etag: "0d634aece8c45c421205f71103011b9d-4"
-date: 2026-09-01
+title: 'Woo-verzoek Straten in Aalden Deel 2 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Straten in Aalden
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Straten in Aalden/Woo-verzoek
+  Straten in Aalden Deel 2 .pdf
+s3_etag: 0d634aece8c45c421205f71103011b9d-4
+date: 2026-09-01T00:00:00.000Z
+summary: De tekst bevat geen kerngebeurtenissen vanaf 2010.
+milestones: []
+ai_processed_at: '2026-09-02T11:22:16.608Z'
+ai_status: done
 ---
 
 Een belangrijk uitgangspunt bij huisvestingsplannen en een
