@@ -39,6 +39,8 @@ on:
 jobs:
   woo-publicaties-verrijken:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     env:
       # Zelfde map als deploy.yml, uit de gedeelde repo-variabele.
