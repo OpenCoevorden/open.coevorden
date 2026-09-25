@@ -82,8 +82,7 @@
          </div>
        Kleuren:
          .band--wit    witte achtergrond
-         .band--groen  groene achtergrond (zwarte tekst: wit op #669900
-                       haalt maar ~3.4:1, zwart ~6:1 → WCAG 1.4.3)
+         .band--groen  groene achtergrond 
          .band--paars  paarse achtergrond (witte tekst, ~12:1)
        De inhoud blijft gecentreerd op max. 1100px. Geen rand.
     ============================================= */
@@ -104,7 +103,7 @@
     .band__inner > :first-child { margin-top: 0; }
 
     .band--wit   { background: var(--white);   color: #1a1a1a; }
-    .band--groen { background: var(--accent);  color: #000000; }
+    .band--groen { background: var(--accent);  color: var(--white); }
     .band--paars { background: var(--primary); color: var(--white); }
 
     /* Teksten nemen de kleur van de band over */
