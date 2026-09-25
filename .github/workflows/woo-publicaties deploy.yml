@@ -48,7 +48,7 @@ env:
   # Vorm: "<onderwerp>/<jaar>". Moet EXACT (incl. casing) als prefix
   # in de bron-bucket bestaan. Beheerd via de repo-variabele SYNC_FOLDER;
   # fallback als die ontbreekt.
-  SYNC_FOLDER: ${{ vars.SYNC_FOLDER || 'woo-publicaties/2023' }}
+  SYNC_FOLDER: ${{ vars.SYNC_FOLDER || 'woo-publicaties/2024' }}
 
   # Beide buckets staan in eu-north-1.
   AWS_DEFAULT_REGION: eu-north-1
