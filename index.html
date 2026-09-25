@@ -29,6 +29,9 @@
     CONFIGURATIE — waar pas je wat aan?
     -------------------------------------------------------------------------
       Kleuren/WCAG-contrast   → CSS-variabelen in :root (in <style> hieronder).
+      Layout main content     → elk blok in <main> is een "band" over de volle
+                                schermbreedte. Kies per band de achtergrond met
+                                één klasse: band--wit, band--groen of band--paars.
       Onderwerpen + zoekindex → de SUBJECTS-array (onderin <script>). Eén
                                 onderwerp toevoegen = één object toevoegen.
                                 Per onderwerp: id (MOET matchen met de map-prefix
@@ -60,7 +63,7 @@
             --bg: #669900;
             --text: #1a1a1a;       /* WCAG: verhoogd van #333 */
             --text-muted: #444;    /* WCAG: verhoogd van #666 */
-            
+
 
             /* Pagefind variabelen */
             --pagefind-ui-primary: var(--primary);
@@ -151,7 +154,7 @@
             opacity: 0.9;
             margin-top: 10px;
         }
-        
+
         @media (min-width: 1300px) {
                 .hero-header img {
                     position: absolute;
@@ -167,17 +170,60 @@
                 }
         }
 
-        /* Main container */
-        .container {
-            max-width: 1100px;
-            margin: -1rem auto 2rem;
-            background: white;
-            padding: 2rem;
-            border: 5px solid var(--accent);
+        /* =============================================
+           Main content: banden over de volle breedte
+           ---------------------------------------------
+           Elk blok in <main> is een band:
+             <div class="band band--paars">
+                 <div class="band__inner"> ...inhoud... </div>
+             </div>
+           Per band kies je de achtergrond met één klasse:
+             .band--wit    witte achtergrond
+             .band--groen  groene achtergrond (zwarte tekst: wit op
+                           #669900 haalt maar ~3.4:1, zwart ~6:1 → WCAG 1.4.3)
+             .band--paars  paarse achtergrond (witte tekst, ~12:1)
+           De achtergrond loopt over de hele schermbreedte; de inhoud
+           blijft gecentreerd op max. 1100px. Geen rand meer.
+        ============================================= */
+        #main-content {
+            background: #ffffff;
         }
 
-        #main-content {
-            padding: 0 15px;
+        .band {
+            width: 100%;
+            padding: 3rem 15px;
+            box-sizing: border-box;
+        }
+
+        .band__inner {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .band--wit   { background: #ffffff;        color: var(--text); }
+        .band--groen { background: var(--accent);  color: #000000; }
+        .band--paars { background: var(--primary); color: #ffffff; }
+
+        /* Teksten nemen de kleur van de band over */
+        .band .selector-container p,
+        .band .recent-block h2,
+        .band .recent-block time,
+        .band .placeholder-text { color: inherit; }
+
+        /* Links op gekleurde banden: kleur van de band, altijd onderstreept */
+        .band--groen .recent-block a,
+        .band--paars .recent-block a { color: inherit; }
+
+        /* Focusring: groen valt weg op groen → zwart; op paars → wit (WCAG 1.4.11) */
+        .band--groen :focus-visible { outline-color: #000000; }
+        .band--paars :focus-visible { outline-color: #ffffff; }
+
+        /* Actieve pill is groen → op een groene band paars maken */
+        .band--groen .subject-pill[aria-pressed="true"],
+        .band--groen .subject-pill.active,
+        .band--groen .search-mode-button.active {
+            background: var(--primary);
+            border-color: var(--primary);
         }
 
         /* =============================================
@@ -247,6 +293,8 @@
 
         /* =============================================
            Pagefind: UI elementen
+           Let op: deze stijlen gaan uit van een witte achtergrond.
+           Zet de zoekresultaten daarom in een band--wit.
         ============================================= */
         .pagefind-ui__search-input {
             border-radius: 8px !important;
@@ -401,7 +449,7 @@
 
         /* Responsiviteit */
         @media (max-width: 400px) {
-            .container { padding: 1rem; }
+            .band { padding: 2rem 15px; }
             .subject-pills, .search-mode-buttons { flex-direction: column; align-items: center; }
             .subject-pill, .search-mode-button { width: 100%; max-width: 280px; }
         }
@@ -436,12 +484,12 @@
             gap: 1em;
             padding: 10px 0;
             border-bottom: 1px solid #ddd;
-}
+        }
         .recent-block time {
             flex: 0 0 6.5em;          /* vaste kolom, krimpt niet mee */
             color: var(--text-muted);
             font-variant-numeric: tabular-nums;
-}
+        }
 
 
         /* =============================================
@@ -482,7 +530,7 @@
         @media (max-width: 700px) {
             .footer-inner { flex-direction: column; text-align: center; }
         }
-        
+
     </style>
 </head>
 
@@ -499,46 +547,60 @@
     </header>
 
     <main id="main-content">
-        <div class="container">
 
-            <!-- Onderwerpkeuze + AI-knop (worden door JS gevuld uit SUBJECTS) -->
-            <section class="selector-container" aria-labelledby="keuze-label">
-                <p id="keuze-label">Kies een onderwerp:</p>
-                <div class="subject-pills" role="group" aria-labelledby="keuze-label" id="subject-pills">
-                    <!-- knoppen worden hier ingevoegd -->
-                </div>
-            </section>
+        <!-- ═══ Band: onderwerpkeuze ═══════════════════════════════
+             Achtergrond wijzigen: band--wit | band--groen | band--paars -->
+        <div class="band band--paars">
+            <div class="band__inner">
 
-            <!-- Sectie: Pagefind Zoeken -->
-            <section id="search-section" aria-label="Zoekresultaten">
-
-                <!-- Zoekmodus (verborgen tot een index geladen is) -->
-                <div class="search-options">
-                    <div id="search-mode-buttons" class="search-mode-buttons hidden">
-                        <button type="button" class="search-mode-button active" id="normal-search">Losse woorden</button>
-                        <button type="button" class="search-mode-button" id="exact-search">Exact zoeken</button>
+                <!-- Onderwerpkeuze + AI-knop (worden door JS gevuld uit SUBJECTS) -->
+                <section class="selector-container" aria-labelledby="keuze-label">
+                    <p id="keuze-label">Kies een onderwerp:</p>
+                    <div class="subject-pills" role="group" aria-labelledby="keuze-label" id="subject-pills">
+                        <!-- knoppen worden hier ingevoegd -->
                     </div>
-                </div>
+                </section>
 
-                <!-- Eén zoekcontainer per onderwerp (door JS ingevoegd) -->
-                <div id="subject-containers">
-                    <!-- <div id="search-<id>" class="subject-search"></div> -->
-                </div>
-            </section>
-
-            <!-- Sectie: AI Zoeken -->
-            <section
-                id="ai-search-container"
-                class="hidden"
-                tabindex="-1"
-                aria-label="AI-zoekassistent"
-                aria-hidden="true">
-
-                <p class="sr-only">Het volgende gebied bevat een ingebedde AI-zoekassistent van een externe dienst.</p><br>
-                <div id="customgpt_chat"></div> <script src="https://cdn.customgpt.ai/js/embed.js" defer div_id="customgpt_chat" p_id="100055" p_key="9848f8032a99b477085a2fa9e0694ba0"></script> 
-            </section>
-
+            </div>
         </div>
+
+        <!-- ═══ Band: zoeken + AI ══════════════════════════════════
+             Houd deze wit: de Pagefind-resultaten zijn op wit ontworpen. -->
+        <div class="band band--wit">
+            <div class="band__inner">
+
+                <!-- Sectie: Pagefind Zoeken -->
+                <section id="search-section" aria-label="Zoekresultaten">
+
+                    <!-- Zoekmodus (verborgen tot een index geladen is) -->
+                    <div class="search-options">
+                        <div id="search-mode-buttons" class="search-mode-buttons hidden">
+                            <button type="button" class="search-mode-button active" id="normal-search">Losse woorden</button>
+                            <button type="button" class="search-mode-button" id="exact-search">Exact zoeken</button>
+                        </div>
+                    </div>
+
+                    <!-- Eén zoekcontainer per onderwerp (door JS ingevoegd) -->
+                    <div id="subject-containers">
+                        <!-- <div id="search-<id>" class="subject-search"></div> -->
+                    </div>
+                </section>
+
+                <!-- Sectie: AI Zoeken -->
+                <section
+                    id="ai-search-container"
+                    class="hidden"
+                    tabindex="-1"
+                    aria-label="AI-zoekassistent"
+                    aria-hidden="true">
+
+                    <p class="sr-only">Het volgende gebied bevat een ingebedde AI-zoekassistent van een externe dienst.</p><br>
+                    <div id="customgpt_chat"></div> <script src="https://cdn.customgpt.ai/js/embed.js" defer div_id="customgpt_chat" p_id="100055" p_key="9848f8032a99b477085a2fa9e0694ba0"></script>
+                </section>
+
+            </div>
+        </div>
+
     </main>
 
         <footer class="site-footer" role="contentinfo">
@@ -601,14 +663,14 @@
                 buildFilter: "Jaar",                        // builds = jaren → als facet - single.html moet bevatten: data-pagefind-filter="Jaar"
                 filters: ["Jaar", "Categorie", "Zaak"], // deze filters moet single.html bevatten.
             },
-          /*   
+          /*
           {
                 id: "bouwtekeningen",
                 label: "Bouwtekeningenn",
                 icon: "bi-building-check",
                 // geen 'builds' → één enkele deploy, geen deel-laag
                 filters: ["plaats"],
-            }, 
+            },
             */
         ];
 
@@ -745,7 +807,7 @@
         }
 
 
-                /* ── Meest recente documenten ─────────────────────────────
+        /* ── Meest recente documenten ─────────────────────────────
            Leest public/<onderwerp>/recent.json, dat Hugo bij elke deploy
            schrijft (layouts/index.json.json). Bewust GEEN Pagefind: een
            lege search() met sort dwingt de volledige index-metadata te
@@ -756,7 +818,7 @@
         const esc = s => String(s).replace(/[&<>"]/g,
             c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-         // "2026-08-31" → "31-08-2026". Onbekende vorm laten we ongemoeid.
+        // "2026-08-31" → "31-08-2026". Onbekende vorm laten we ongemoeid.
         const fmtDate = s => {
             const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(s || ""));
             return m ? `${m[3]}-${m[2]}-${m[1]}` : "";
