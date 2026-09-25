@@ -4,37 +4,43 @@
     riool-tekeningen bv. 'kavelnummer'. Rendert niets als er geen groep-niveau is
     of als dit document daar geen waarde heeft.
     Context: dict { page: Page, vars: (partial document/vars) }.
+
+    Rendert als band over de volle breedte; kleur via
+    hugo.toml [params.layout] gerelateerd (default "groen").
 */}}
 {{ $page := .page }}
 {{ $group := .vars.group }}
+{{ $kleur := $page.Site.Params.layout.gerelateerd | default "groen" }}
 
 {{ if $group.value }}
 {{ $pos := $group.pos }}
-<div class="card gerelateerde-zaken">
-    <nav aria-labelledby="related-heading">
-        <h2 id="related-heading" class="section-title">
-            <i class="bi bi-link-45deg" aria-hidden="true"></i>
-            Documenten met dezelfde {{ $group.label | lower }}
-        </h2>
+<div class="band band--{{ $kleur }} gerelateerde-zaken">
+    <div class="band__inner">
+        <nav aria-labelledby="related-heading">
+            <h2 id="related-heading" class="section-title">
+                <i class="bi bi-link-45deg" aria-hidden="true"></i>
+                Documenten met dezelfde {{ $group.label | lower }}
+            </h2>
 
-        {{ $hasRelated := false }}
-        {{ range (where $page.Site.RegularPages "Section" $page.Section) }}
-            {{ if and (ne .Permalink $page.Permalink) (isset .Params "maps") (gt (len .Params.maps) $pos) (eq (index .Params.maps $pos) $group.value) }}
-                {{ $hasRelated = true }}
-            {{ end }}
-        {{ end }}
-
-        {{ if $hasRelated }}
-            <ul>
+            {{ $hasRelated := false }}
             {{ range (where $page.Site.RegularPages "Section" $page.Section) }}
                 {{ if and (ne .Permalink $page.Permalink) (isset .Params "maps") (gt (len .Params.maps) $pos) (eq (index .Params.maps $pos) $group.value) }}
-                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                    {{ $hasRelated = true }}
                 {{ end }}
             {{ end }}
-            </ul>
-        {{ else }}
-            <p>Geen andere documenten gevonden met dezelfde {{ $group.label | lower }}.</p>
-        {{ end }}
-    </nav>
+
+            {{ if $hasRelated }}
+                <ul>
+                {{ range (where $page.Site.RegularPages "Section" $page.Section) }}
+                    {{ if and (ne .Permalink $page.Permalink) (isset .Params "maps") (gt (len .Params.maps) $pos) (eq (index .Params.maps $pos) $group.value) }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                {{ end }}
+                </ul>
+            {{ else }}
+                <p>Geen andere documenten gevonden met dezelfde {{ $group.label | lower }}.</p>
+            {{ end }}
+        </nav>
+    </div>
 </div>
 {{ end }}

@@ -1,24 +1,30 @@
 {{/*
-    document/meta.html — metadata (alle geconfigureerde niveaus) + samenvatting.
+    document/meta.html — metadata (alle geconfigureerde niveaus) in een eigen
+    band over de volle breedte, direct onder de header.
     Context: dict { page: Page, vars: (partial document/vars) }.
     Loopt generiek over de niveaus van deze sectie; toont alleen niveaus die een
     waarde hebben (optionele/ontbrekende niveaus worden overgeslagen).
+    Rendert niets als er geen enkel niveau een waarde heeft.
+
+    Kleur via hugo.toml [params.layout] meta (default "paars").
+    De samenvatting staat sinds deze wijziging in document/summary.html.
 */}}
 {{ $page := .page }}
 {{ $v := .vars }}
+{{ $kleur := $page.Site.Params.layout.meta | default "paars" }}
 
-<div class="meta-info" role="list" aria-label="Documentinformatie">
-    {{ range $i, $lvl := $v.visible }}
-    {{ if $i }}<span role="listitem" aria-hidden="true">|</span>{{ end }}
-    <span role="listitem">
-        <i class="bi {{ $lvl.icon }}" aria-hidden="true"></i>
-        <span class="sr-only">{{ $lvl.label }}: </span>{{ $lvl.value }}
-    </span>
-    {{ end }}
+{{ with $v.visible }}
+<div class="band band--{{ $kleur }} meta-band">
+    <div class="band__inner">
+        <div class="meta-info" role="list" aria-label="Documentinformatie">
+            {{ range $i, $lvl := . }}
+            {{ if $i }}<span role="listitem" aria-hidden="true">|</span>{{ end }}
+            <span role="listitem">
+                <i class="bi {{ $lvl.icon }}" aria-hidden="true"></i>
+                <span class="sr-only">{{ $lvl.label }}: </span>{{ $lvl.value }}
+            </span>
+            {{ end }}
+        </div>
+    </div>
 </div>
-
-{{ with $page.Params.summary }}
-<aside class="summary-box" aria-label="Samenvatting">
-  <p><strong>AI-gegenereerde samenvatting:</strong> {{ . }}</p>
-</aside>
 {{ end }}

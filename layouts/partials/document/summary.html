@@ -1,0 +1,10 @@
+{{/*
+    document/summary.html — AI-gegenereerde samenvatting (uit .Params.summary).
+    Context: de Page zelf (.). Rendert niets zonder samenvatting.
+    Voorheen onderdeel van document/meta.html.
+*/}}
+{{ with .Params.summary }}
+<aside class="summary-box" aria-label="Samenvatting">
+  <p><strong>AI-gegenereerde samenvatting:</strong> {{ . }}</p>
+</aside>
+{{ end }}
