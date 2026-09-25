@@ -41,6 +41,9 @@
                                 builds), en filters[] (welke Pagefind-filters).
       Vertalingen/labels      → het TRANSLATIONS-object (onderin <script>).
       AI-iframe-adres         → de iframe-src in de markup (customgpt-agents.com).
+      Zoekgedrag              → er wordt ALTIJD exact gezocht (processTerm in
+                                ensureInit()). De term voor de knop "Alle
+                                Woo-dossiers" staat in ALLE_WOO_TERM.
     =========================================================================
     -->
     <meta charset="UTF-8">
@@ -227,7 +230,7 @@
         }
 
         /* =============================================
-           Onderwerp-pills & Zoek modus
+           Onderwerp-pills & Zoekknoppen
         ============================================= */
         .selector-container {
             text-align: center;
@@ -572,11 +575,11 @@
                 <!-- Sectie: Pagefind Zoeken -->
                 <section id="search-section" aria-label="Zoekresultaten">
 
-                    <!-- Zoekmodus (verborgen tot een index geladen is) -->
+                    <!-- Zoekknoppen (verborgen tot een index geladen is) -->
                     <div class="search-options">
                         <div id="search-mode-buttons" class="search-mode-buttons hidden">
-                            <button type="button" class="search-mode-button active" id="normal-search">Losse woorden</button>
-                            <button type="button" class="search-mode-button" id="exact-search">Exact zoeken</button>
+                            <button type="button" class="search-mode-button active" id="btn-zoeken">Zoeken</button>
+                            <button type="button" class="search-mode-button" id="btn-alle-woo">Alle Woo-dossiers</button>
                         </div>
                     </div>
 
@@ -673,6 +676,9 @@
             },
             */
         ];
+
+        // Zoekterm die de knop "Alle Woo-dossiers" invult.
+        const ALLE_WOO_TERM = "woo";
 
         // Gedeelde vertalingen voor elke Pagefind-instance.
         const TRANSLATIONS = {
@@ -792,6 +798,14 @@
                 excerptLength: 30,
                 showFilters: subject.filters || ["Jaar", "Categorie", "Zaak"],
                 translations: TRANSLATIONS,
+                // Altijd exact zoeken: de term gaat onzichtbaar tussen
+                // aanhalingstekens, vlak voordat Pagefind zoekt. De gebruiker
+                // ziet de quotes niet in de zoekbalk. Quotes die iemand zelf
+                // typt, halen we eerst weg (anders krijg je ""term"").
+                processTerm: (term) => {
+                    const t = String(term || "").replace(/"/g, "").trim();
+                    return t ? `"${t}"` : t;
+                },
             };
             if (primary.mergeFilter) cfg.mergeFilter = primary.mergeFilter;
             if (rest.length) {
@@ -877,16 +891,10 @@
             ensureInit(subject);
             showRecent(subject);
 
-            // Zoekmodus tonen en de knoppen synchroniseren met de ECHTE inhoud
-            // van de input van dít onderwerp. Elke instance heeft zijn eigen
-            // input, dus of 'los' of 'exact' actief is, hangt af van wat er nu
-            // in dat veld staat — niet van een globale vlag.
+            // Zoekknoppen tonen en de focus in de zoekbalk van dit onderwerp zetten.
             if (pagefindReady) {
                 document.getElementById("search-mode-buttons").classList.remove("hidden");
-                afterInput(id, (input) => {
-                    setModeButtons(modeFromInput(input));
-                    input.focus();
-                });
+                afterInput(id, (input) => input.focus());
             }
         }
 
@@ -912,12 +920,10 @@
             ai.setAttribute("aria-hidden", "true");
         }
 
-        /* ── Zoekmodus: los / exact ────────────────────────────────
-           De modus is GEEN globale vlag. Elke Pagefind-instance heeft zijn
-           eigen input; we leiden 'los' of 'exact' af uit de inhoud daarvan
-           (staat de tekst tussen aanhalingstekens → exact). Zo kloppen de
-           knoppen altijd — bij het wisselen van onderwerp, én als de
-           gebruiker de quotes zelf typt of wist. */
+        /* ── Zoekknoppen ───────────────────────────────────────────
+           Pagefind zoekt altijd exact (zie processTerm in ensureInit).
+           "Zoeken" start de zoekopdracht met wat er in het veld staat;
+           "Alle Woo-dossiers" vult ALLE_WOO_TERM in en zoekt daarop. */
         function activeInput() {
             if (!currentSubjectId) return null;
             return document.querySelector(`#search-${currentSubjectId} .pagefind-ui__search-input`);
@@ -931,52 +937,25 @@
             if (tries > 0) setTimeout(() => afterInput(id, cb, tries - 1), 50);
         }
 
-        function modeFromInput(input) {
-            const v = ((input && input.value) || "").trim();
-            return v.length >= 2 && v.startsWith('"') && v.endsWith('"') ? "exact" : "normal";
-        }
-
-        function setModeButtons(mode) {
-            document.getElementById("exact-search").classList.toggle("active", mode === "exact");
-            document.getElementById("normal-search").classList.toggle("active", mode === "normal");
+        // Zet een term in de zoekbalk en laat Pagefind zoeken.
+        function zoekMet(input, term) {
+            input.value = term;
+            input.focus();
+            input.setSelectionRange(input.value.length, input.value.length);
+            input.dispatchEvent(new Event("input", { bubbles: true }));
         }
 
         function setupSearchModeButtons() {
-            const exactBtn = document.getElementById("exact-search");
-            const normalBtn = document.getElementById("normal-search");
-
-            exactBtn.addEventListener("click", () => {
+            document.getElementById("btn-zoeken").addEventListener("click", () => {
                 const input = activeInput();
                 if (!input) return;
-                const tekst = input.value.replace(/^"|"$/g, "").trim();
-                // Ook een leeg veld omhaken → "" met de cursor ertussen, zodat
-                // wat je vervolgens typt binnen de aanhalingstekens belandt.
-                input.value = `"${tekst}"`;
-                input.focus();
-                input.setSelectionRange(1, input.value.length - 1);
-                input.dispatchEvent(new Event("input", { bubbles: true }));
-                setModeButtons("exact");
+                zoekMet(input, input.value.trim());
             });
 
-            normalBtn.addEventListener("click", () => {
+            document.getElementById("btn-alle-woo").addEventListener("click", () => {
                 const input = activeInput();
                 if (!input) return;
-                input.value = input.value.replace(/^"|"$/g, "");
-                input.focus();
-                input.setSelectionRange(input.value.length, input.value.length);
-                input.dispatchEvent(new Event("input", { bubbles: true }));
-                setModeButtons("normal");
-            });
-
-            // Eén gedelegeerde luisteraar houdt de knoppen synchroon met wat er
-            // ECHT in de actieve input staat — ongeacht of dat via de knoppen of
-            // via typen kwam. Dit is de enige bron van waarheid voor de modus.
-            document.getElementById("subject-containers").addEventListener("input", (e) => {
-                const t = e.target;
-                if (!t.classList || !t.classList.contains("pagefind-ui__search-input")) return;
-                if (!currentSubjectId) return;
-                const container = document.getElementById(`search-${currentSubjectId}`);
-                if (container && container.contains(t)) setModeButtons(modeFromInput(t));
+                zoekMet(input, ALLE_WOO_TERM);
             });
         }
 
