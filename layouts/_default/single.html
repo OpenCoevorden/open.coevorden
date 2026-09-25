@@ -6,13 +6,18 @@
     eerdere, bijna identieke single.html-bestanden. De opmaak zit in baseof.html
     + partials/*; instelbare waarden in hugo.toml ([params]).
 
-    Structuur van deze pagina (elk onderdeel is een partial):
+    Structuur van deze pagina (elk onderdeel is een band over de volle breedte):
       header  → terug-knop + h1
-      card 1  → meta/samenvatting + PDF-knop + AI-chat
-      card 2  → gerelateerde zaken (alleen bij een zaak-niveau)
-      card 3  → tijdlijn (alleen bij milestones)
+      band 0  → meta-info (jaar/categorie/zaak) in een eigen balk
+      band 1  → samenvatting + PDF-knop + AI-chat
+      band 2  → gerelateerde zaken (alleen bij een zaak-niveau)
+      band 3  → tijdlijn (alleen bij milestones)
       + verborgen Pagefind-indexblok
       + chat-script (in het "scripts"-blok, onderaan de body)
+
+    De kleur van elke band (wit | groen | paars) stel je in via
+    hugo.toml [params.layout]. Band 2 en 3 zetten hun eigen band-wrapper,
+    zodat er geen lege band verschijnt als het onderdeel niets rendert.
     =========================================================================
 */}}
 
@@ -20,20 +25,23 @@
     {{/* Niveaus (jaar/categorie/zaak) één keer berekenen en doorgeven. */}}
     {{ $vars := partial "document/vars.html" . }}
     {{ $ctx := dict "page" . "vars" $vars }}
+    {{ $kleur := .Site.Params.layout.document | default "wit" }}
 
     {{ partial "document/header.html" . }}
 
     <main id="main-content">
-        <div class="main-content">
-            <div class="card">
-                {{ partial "document/meta.html" $ctx }}
+        {{ partial "document/meta.html" $ctx }}
+
+        <div class="band band--{{ $kleur }}">
+            <div class="band__inner">
+                {{ partial "document/summary.html" . }}
                 {{ partial "document/pdf-action.html" . }}
                 {{ partial "document/chat.html" . }}
             </div>
-
-            {{ partial "document/related.html" $ctx }}
-            {{ partial "document/timeline.html" . }}
         </div>
+
+        {{ partial "document/related.html" $ctx }}
+        {{ partial "document/timeline.html" . }}
     </main>
 
     {{ partial "document/pagefind-data.html" $ctx }}
