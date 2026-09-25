@@ -3,9 +3,13 @@
     De themakleuren komen uit hugo.toml [params.theme] en worden hier als
     CSS-variabelen geïnjecteerd, zodat je ze op één plek beheert.
 
+    LAYOUT: de main content bestaat uit "banden" over de volle schermbreedte
+    (zie het blok BANDEN hieronder). Welke band welke kleur krijgt, stel je in
+    via hugo.toml [params.layout].
+
     LET OP: index.html wordt NIET door Hugo gebouwd (aparte deploy via
-    index.yml) en heeft daarom een eigen kopie van deze kleuren. Wijzig je
-    de kleuren hier, pas ze dan ook in index.html aan.
+    index.yml) en heeft daarom een eigen kopie van deze kleuren én van de
+    band-stijlen. Wijzig je die hier, pas ze dan ook in index.html aan.
 */}}
 <style>
     :root {
@@ -69,35 +73,79 @@
                 }
         }
 
-    .main-content {
-        max-width: 1100px;
-        margin: -1rem auto 3rem auto;
-        padding: 0 15px;
-        z-index: 10;
-        position: relative;
+    /* =============================================
+       BANDEN — main content over de volle breedte
+       ---------------------------------------------
+       Elk blok in <main> is een band:
+         <div class="band band--paars">
+             <div class="band__inner"> ...inhoud... </div>
+         </div>
+       Kleuren:
+         .band--wit    witte achtergrond
+         .band--groen  groene achtergrond 
+         .band--paars  paarse achtergrond (witte tekst, ~12:1)
+       De inhoud blijft gecentreerd op max. 1100px. Geen rand.
+    ============================================= */
+    #main-content {
+        background: var(--white);
     }
 
-    .card {
-        background: var(--white);
-        padding: 2rem;
-        margin-bottom: 2rem;
-        border: 5px solid var(--accent);
+    .band {
+        width: 100%;
+        padding: 3rem 15px;
+        box-sizing: border-box;
     }
+
+    .band__inner {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .band__inner > :first-child { margin-top: 0; }
+
+    .band--wit   { background: var(--white);   color: #1a1a1a; }
+    .band--groen { background: var(--accent);  color: var(--white); }
+    .band--paars { background: var(--primary); color: var(--white); }
+
+    /* Teksten nemen de kleur van de band over */
+    .band .section-title { color: inherit; }
+
+    /* Links op gekleurde banden: kleur van de band (onderstreping blijft) */
+    .band--groen.gerelateerde-zaken a,
+    .band--paars.gerelateerde-zaken a,
+    .band--groen.gerelateerde-zaken a:hover,
+    .band--paars.gerelateerde-zaken a:hover { color: inherit; }
+
+    /* Focusring: groen valt weg op groen → zwart; op paars → wit (WCAG 1.4.11) */
+    .band--groen :focus-visible { outline-color: #000000; }
+    .band--paars :focus-visible { outline-color: var(--white); }
+
+    /* Paarse lijnen/knoppen vallen weg op paars → wit */
+    .band--paars .section-title { border-bottom-color: var(--white); }
+    .band--paars .timeline      { border-left-color: var(--white); }
+    .band--paars .btn-pdf       { background: var(--white); color: var(--primary); }
+    .band--paars .btn-pdf:hover { background: #ede8f0; }
+
+    /* Groene elementen vallen weg op groen → paars/zwart */
+    .band--groen .timeline-item::before { background: var(--primary); }
+    .band--groen .btn-pdf:hover         { background: #000000; }
+
+    /* Meta-balk: compacte band met jaar / categorie / zaak.
+       Tekstkleur komt van de band (wit op paars). */
+    .meta-band { padding: 1rem 15px; }
 
     .meta-info {
-        font-size: 0.9rem;
-        color: #444;
-        margin-bottom: 20px;
         display: flex;
         gap: 15px;
         justify-content: center;
         flex-wrap: wrap; /* WCAG 1.4.10 */
-        border-bottom: 1px solid #ddd;
-        padding-bottom: 15px;
+        font-size: 0.95rem;
+        font-weight: 500;
     }
 
+    /* Eigen lichte achtergrond → eigen tekstkleur, ongeacht de band */
     .summary-box {
         background: #f7f9f0;
+        color: #1a1a1a;
         border-left: 4px solid var(--accent);
         padding: 1.5rem;
         margin: 1.5rem 0;
@@ -128,10 +176,12 @@
     }
 
     /* === AI CHAT === */
+    /* Eigen lichte achtergrond → eigen tekstkleur, ongeacht de band */
     #ai-chat {
         overflow: hidden;
         border: 1px solid #c8c8c8;
         background: #f9fafb;
+        color: #1a1a1a;
         display: flex;
         flex-direction: column;
     }
@@ -216,6 +266,7 @@
         font-size: 1.2rem;
         border-bottom: 2px solid var(--primary);
         display: inline-block;
+        margin-top: 0;
         margin-bottom: 1.5rem;
         padding-bottom: 5px;
         color: #1a1a1a;
@@ -224,6 +275,7 @@
     .gerelateerde-zaken ul {
         list-style: none;
         padding: 0;
+        margin: 0;
     }
 
     .gerelateerde-zaken li {
@@ -242,6 +294,7 @@
     .timeline {
         border-left: 3px solid var(--primary);
         padding-left: 20px;
+        margin: 0;
     }
 
     .timeline-item {
@@ -295,7 +348,7 @@
 
     /* WCAG 1.4.10: reflow tot 320px */
     @media (max-width: 400px) {
-        .card { padding: 1rem; }
+        .band { padding: 2rem 15px; }
         .meta-info { flex-direction: column; align-items: center; gap: 6px; }
         #input-bar { flex-wrap: wrap; }
         #ai-send-btn { width: 100%; }
