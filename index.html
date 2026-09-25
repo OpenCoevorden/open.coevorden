@@ -891,10 +891,14 @@
             ensureInit(subject);
             showRecent(subject);
 
-            // Zoekknoppen tonen en de focus in de zoekbalk van dit onderwerp zetten.
+            // Zoekknoppen tonen, hun stand afleiden uit de zoekbalk van dít
+            // onderwerp, en de focus in die zoekbalk zetten.
             if (pagefindReady) {
                 document.getElementById("search-mode-buttons").classList.remove("hidden");
-                afterInput(id, (input) => input.focus());
+                afterInput(id, (input) => {
+                    setSearchButtons(isWooTerm(input));
+                    input.focus();
+                });
             }
         }
 
@@ -922,8 +926,12 @@
 
         /* ── Zoekknoppen ───────────────────────────────────────────
            Pagefind zoekt altijd exact (zie processTerm in ensureInit).
-           "Zoeken" start de zoekopdracht met wat er in het veld staat;
-           "Alle Woo-dossiers" vult ALLE_WOO_TERM in en zoekt daarop. */
+           De twee knoppen werken als schakelaar; er is er altijd één actief:
+             • "Alle Woo-dossiers" → vult ALLE_WOO_TERM in en zoekt daarop.
+             • "Zoeken"            → maakt de zoekbalk leeg.
+           Welke knop actief is, volgt uit wat er ECHT in de zoekbalk staat.
+           Typt iemand zelf iets anders dan 'woo', dan springt de knop
+           vanzelf terug naar "Zoeken". */
         function activeInput() {
             if (!currentSubjectId) return null;
             return document.querySelector(`#search-${currentSubjectId} .pagefind-ui__search-input`);
@@ -945,18 +953,49 @@
             input.dispatchEvent(new Event("input", { bubbles: true }));
         }
 
+        // Staat de woo-term in de zoekbalk? Dan is "Alle Woo-dossiers" actief.
+        function isWooTerm(input) {
+            const v = ((input && input.value) || "").trim().toLowerCase();
+            return v === ALLE_WOO_TERM.toLowerCase();
+        }
+
+        // Zet de aan/uit-stand van beide knoppen (ook voor schermlezers).
+        function setSearchButtons(wooActief) {
+            const zoekBtn = document.getElementById("btn-zoeken");
+            const wooBtn = document.getElementById("btn-alle-woo");
+            zoekBtn.classList.toggle("active", !wooActief);
+            wooBtn.classList.toggle("active", wooActief);
+            zoekBtn.setAttribute("aria-pressed", String(!wooActief));
+            wooBtn.setAttribute("aria-pressed", String(wooActief));
+        }
+
         function setupSearchModeButtons() {
+            // "Zoeken": zoekbalk leegmaken.
             document.getElementById("btn-zoeken").addEventListener("click", () => {
                 const input = activeInput();
                 if (!input) return;
-                zoekMet(input, input.value.trim());
+                zoekMet(input, "");
+                setSearchButtons(false);
             });
 
+            // "Alle Woo-dossiers": woo invullen en zoeken.
             document.getElementById("btn-alle-woo").addEventListener("click", () => {
                 const input = activeInput();
                 if (!input) return;
                 zoekMet(input, ALLE_WOO_TERM);
+                setSearchButtons(true);
             });
+
+            // Houdt de knoppen synchroon met wat de gebruiker zelf typt.
+            document.getElementById("subject-containers").addEventListener("input", (e) => {
+                const t = e.target;
+                if (!t.classList || !t.classList.contains("pagefind-ui__search-input")) return;
+                if (!currentSubjectId) return;
+                const container = document.getElementById(`search-${currentSubjectId}`);
+                if (container && container.contains(t)) setSearchButtons(isWooTerm(t));
+            });
+
+            setSearchButtons(false);
         }
 
         /* ── Pagefind eenmalig laden, dan eerste onderwerp openen ──── */
