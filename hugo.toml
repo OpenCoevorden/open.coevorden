@@ -170,3 +170,14 @@ uglyURLs = true
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
+
+  # ── LAYOUT / BANDEN ──────────────────────────────────────────────────────────
+#   De main content van een detailpagina bestaat uit banden over de volle
+#   schermbreedte. Per band kies je de achtergrond: "wit", "groen" of "paars".
+#   (Stijlen in partials/styles.html; index.html zet de klassen zelf in de HTML.)
+[params.layout]
+  meta        = "paars"   # balk met jaar / categorie / zaak
+  document    = "wit"     # samenvatting, PDF-knop en AI-chat
+  gerelateerd = "groen"   # documenten met dezelfde zaak/categorie
+  tijdlijn    = "paars"   # AI-gegenereerde tijdlijn
+
