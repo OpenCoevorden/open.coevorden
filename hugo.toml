@@ -89,8 +89,8 @@ uglyURLs = true
   label = "Categorie"
   icon = "bi-tag"
 [[params.structuur.woo-publicaties]]
-  key = "zaak"
-  label = "Zaak"
+  key = "dossier"
+  label = "Dossier"
   icon = "bi-folder"
   group = true
   optional = true
