@@ -137,7 +137,7 @@ uglyURLs = true
   # Time-out (ms) voor de Worker-call; daarna afgebroken.
   requestTimeoutMs = 20000
   # Begroeting die als eerste in de chat verschijnt.
-  startMessage     = "Stel hier met AI een vraag over bovenstaand document."
+  startMessage     = "Deze beantwoording gaat alleen over dit specifieke document en niet over het gehele dossier. Wilt u meer informatie over het gehele dossier? Neem dan contact op via woo@coevorden.nl. Stel hieronder uw vraag in de chat."
   # Past de documenttekst hieronder (tekens)? Dan volledig meesturen.
   fullLimit        = 150000
   # Te lang? Tekenbudget voor de opgehaalde (BM25-)stukken.
