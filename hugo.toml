@@ -179,5 +179,5 @@ uglyURLs = true
   meta        = "paars"   # balk met jaar / categorie / zaak
   document    = "wit"     # samenvatting, PDF-knop en AI-chat
   gerelateerd = "groen"   # documenten met dezelfde zaak/categorie
-  tijdlijn    = "paars"   # AI-gegenereerde tijdlijn
+  tijdlijn    = "wit"   # AI-gegenereerde tijdlijn
 
