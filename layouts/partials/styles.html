@@ -107,8 +107,7 @@
     .band--paars { background: var(--primary); color: var(--white); }
 
     /* Teksten nemen de kleur van de band over */
-    .band .section-title,
-    .band .meta-info { color: inherit; }
+    .band .section-title { color: inherit; }
 
     /* Links op gekleurde banden: kleur van de band (onderstreping blijft) */
     .band--groen.gerelateerde-zaken a,
@@ -123,35 +122,24 @@
     /* Paarse lijnen/knoppen vallen weg op paars → wit */
     .band--paars .section-title { border-bottom-color: var(--white); }
     .band--paars .timeline      { border-left-color: var(--white); }
-    .band--paars .meta-info     { border-bottom-color: rgba(255,255,255,0.4); }
     .band--paars .btn-pdf       { background: var(--white); color: var(--primary); }
     .band--paars .btn-pdf:hover { background: #ede8f0; }
 
     /* Groene elementen vallen weg op groen → paars/zwart */
     .band--groen .timeline-item::before { background: var(--primary); }
     .band--groen .btn-pdf:hover         { background: #000000; }
-    .band--groen .meta-info             { border-bottom-color: rgba(0,0,0,0.3); }
 
-    /* Meta-balk: compacte band, zonder scheidingslijn (de band is de scheiding) */
+    /* Meta-balk: compacte band met jaar / categorie / zaak.
+       Tekstkleur komt van de band (wit op paars). */
     .meta-band { padding: 1rem 15px; }
-    .meta-band .meta-info {
-        margin: 0;
-        padding: 0;
-        border-bottom: 0;
-        font-size: 0.95rem;
-        font-weight: 500;
-    }
 
     .meta-info {
-        font-size: 0.9rem;
-        color: #444;
-        margin-bottom: 20px;
         display: flex;
         gap: 15px;
         justify-content: center;
         flex-wrap: wrap; /* WCAG 1.4.10 */
-        border-bottom: 1px solid #ddd;
-        padding-bottom: 15px;
+        font-size: 0.95rem;
+        font-weight: 500;
     }
 
     /* Eigen lichte achtergrond → eigen tekstkleur, ongeacht de band */
