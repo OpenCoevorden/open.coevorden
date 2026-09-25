@@ -56,7 +56,7 @@ uglyURLs = true
 #   Geïnjecteerd als CSS-variabelen in partials/styles.html.
 #   WCAG: primary/accent gekozen op ≥4.5:1 contrast met wit.
 [params.theme]
-  primary = "#4a2060"
+  primary = "#663366"
   accent  = "#669900"
   bg      = "#669900"
 
