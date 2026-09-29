@@ -3,33 +3,33 @@
 // =============================================================================
 //
 // WAT DOET DIT SCRIPT?
-//   Loopt door de markdownbestanden onder onderwerpen/<DOC_PATH>/ (aangemaakt
-//   door de sync-workflow) en laat OpenAI per dossier een korte samenvatting +
-//   een chronologische tijdlijn (milestones) genereren. Die worden als extra
-//   frontmatter (summary, milestones, ai_*) teruggeschreven, zodat single.html
-//   ze kan tonen. Wordt aangeroepen door woo-publicaties_verrijken.yml.
-//
-//   Idempotent: een bestand wordt overgeslagen als ai_status op done staat.
-//   Draai gerust opnieuw; "partial"/mislukte bestanden worden automatisch
-//   herpakt.
+// Loopt door de markdownbestanden onder onderwerpen/<DOC_PATH>/ (aangemaakt
+// door de sync-workflow) en laat OpenAI per dossier een korte samenvatting +
+// een chronologische tijdlijn (milestones) genereren. Die worden als extra
+// frontmatter (summary, milestones, ai_*) teruggeschreven, zodat single.html
+// ze kan tonen. Wordt aangeroepen door woo-publicaties_verrijken.yml.
+
+// Idempotent: een bestand wordt overgeslagen als ai_status op done staat.
+// Draai gerust opnieuw; "partial"/mislukte bestanden worden automatisch
+// herpakt. Met FORCE=1 worden ook "done"-bestanden opnieuw verwerkt.
 //
 // -----------------------------------------------------------------------------
 // EXTERNE LIBRARIES / DEPENDENCIES (installeren via de workflow met:
-//   npm install gray-matter openai glob fs-extra p-limit)
+// npm install gray-matter openai glob fs-extra p-limit)
 // -----------------------------------------------------------------------------
-import fs from "fs";                 // Node-ingebouwd: bestanden lezen/schrijven.
-import matter from "gray-matter";    // npm 'gray-matter': frontmatter parsen/schrijven.
-import OpenAI from "openai";         // npm 'openai': officiële OpenAI-client.
-import { globSync } from "glob";     // npm 'glob': .md-bestanden vinden via patroon.
-import pLimit from "p-limit";        // npm 'p-limit': parallelle taken begrenzen.
+import fs from "fs"; // Node-ingebouwd: bestanden lezen/schrijven.
+import matter from "gray-matter"; // npm 'gray-matter': frontmatter parsen/schrijven.
+import OpenAI from "openai"; // npm 'openai': officiële OpenAI-client.
+import { globSync } from "glob"; // npm 'glob': .md-bestanden vinden via patroon.
+import pLimit from "p-limit"; // npm 'p-limit': parallelle taken begrenzen.
 // Let op: 'fs-extra' wordt door de workflow meegeïnstalleerd maar hier niet
 // geïmporteerd; dat is onschadelijk. Updaten van libs: pas de npm install-regel
 // in woo-publicaties_verrijken.yml aan én, indien nodig, deze imports.
 
 /* ------------------ CONFIG ------------------
-   Alle instelbare waarden staan hier. Vrijwel elke waarde is via een environment
-   variable te overschrijven (handig om in de workflow te tunen zonder code te
-   wijzigen); tussen haakjes staat telkens de default. */
+Alle instelbare waarden staan hier. Vrijwel elke waarde is via een environment
+variable te overschrijven (handig om in de workflow te tunen zonder code te
+wijzigen); tussen haakjes staat telkens de default. */
 
 // Het OpenAI-model voor samenvatting + milestones.
 // GPT-5.6 Luna is de goedkoopste route voor extractie/samenvatting en heeft een
@@ -77,8 +77,9 @@ const MAX_CHUNKS_PER_FILE = parseInt(process.env.MAX_CHUNKS_PER_FILE || "6", 10)
 const REQUEST_DELAY_MS = parseInt(process.env.REQUEST_DELAY_MS || "8000", 10);
 
 // Ondergrens voor milestone-jaartallen. Staat op ÉÉN plek: hij wordt zowel in
-// de system-prompt geïnterpoleerd als in cleanMilestones() afgedwongen, zodat
-// instructie en filter nooit uit elkaar kunnen lopen.
+// de milestone-prompt geïnterpoleerd als in cleanMilestones() afgedwongen,
+// zodat instructie en filter nooit uit elkaar kunnen lopen.
+// Geldt ALLEEN voor milestones, niet voor de samenvatting.
 // Updaten: env MIN_YEAR.
 const MIN_YEAR = parseInt(process.env.MIN_YEAR || "2010", 10);
 
@@ -93,13 +94,33 @@ const DOC_PATH = process.env.DOC_PATH || "woo-publicaties/2023";
 // Updaten: zet env DRY_RUN=1 om een proefrun te doen.
 const DRY_RUN = process.env.DRY_RUN === "1";
 
-// Instructie aan het model. Bepaalt wat wel/niet als milestone telt.
-// Updaten: pas de regels aan; houd "gebruik ISO-datums" en de scope-afbakening intact.
-const SYSTEM_PROMPT =
-  "Je bent een expert in Nederlandse Woo-dossiers. Taak: Extraheer een chronologische tijdlijn en samenvatting. " +
+// Herverwerking forceren: bij "1" worden ook bestanden met ai_status "done"
+// opnieuw verrijkt. Handig na een promptwijziging. LET OP: kost tokens voor
+// ALLE bestanden onder DOC_PATH. Updaten: zet env FORCE=1 voor één run.
+const FORCE = process.env.FORCE === "1";
+
+// Instructie voor de SAMENVATTING. Bewust los van de tijdlijnregels: anders
+// vat het model bij documenten zonder kerngebeurtenissen alleen samen dát er
+// geen gebeurtenissen zijn, in plaats van wat er inhoudelijk in staat.
+// Updaten: pas de omschrijving aan; houd de JSON-vorm { "summary": ... } intact.
+const SUMMARY_PROMPT =
+  "Je bent een expert in Nederlandse Woo-dossiers. " +
+  "Vat in maximaal 2 zinnen samen waar het document inhoudelijk over gaat: " +
+  "het onderwerp, de betrokken partijen en (indien aanwezig) de uitkomst. " +
+  "Doe dit ook als er geen procedurele gebeurtenissen of datums in de tekst staan. " +
+  "Beschrijf de inhoud, niet wat er ontbreekt. " +
+  'Antwoord uitsluitend met JSON: { "summary": "..." }';
+
+// Instructie voor de MILESTONES. Bepaalt wat wel/niet als milestone telt.
+// Updaten: pas de regels aan; houd "gebruik ISO-datums", de scope-afbakening
+// en de JSON-vorm { "milestones": [...] } intact.
+const MILESTONE_PROMPT =
+  "Je bent een expert in Nederlandse Woo-dossiers. Taak: extraheer een chronologische tijdlijn. " +
   "Neem alleen kerngebeurtenissen op: indiening aanvraag, besluit, bezwaar/beroep, uitspraak, verlenging, intrekking. " +
   "Laat proceduregebeurtenissen zoals ontvangstbevestigingen, interne herinneringen en correspondentie zonder inhoudelijke wijziging weg. " +
-  `Gebruik ISO datums (YYYY-MM-DD). Negeer vóór ${MIN_YEAR}.`;
+  `Gebruik ISO datums (YYYY-MM-DD). Negeer vóór ${MIN_YEAR}. ` +
+  "Zijn er geen kerngebeurtenissen, geef dan een lege lijst. " +
+  'Antwoord uitsluitend met JSON: { "milestones": [{ "date": "YYYY-MM-DD", "event": "kort" }] }';
 
 // OpenAI-client. Leest de sleutel uit de omgeving (nooit hardcoden).
 // Updaten: zet OPENAI_API_KEY als secret in de workflow.
@@ -114,7 +135,6 @@ const openai = new OpenAI({
 });
 
 /* ------------------ UTIL ------------------ */
-
 const estimateTokens = (text) => Math.ceil(text.length / 4);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -132,7 +152,7 @@ function normalizeDate(dateStr) {
 
 function writeFrontmatter(file, content, data) {
   if (DRY_RUN) {
-    console.log(`   (dry-run) zou schrijven: ${file}`);
+    console.log(` (dry-run) zou schrijven: ${file}`);
     return;
   }
   // Atomic write: eerst naar tmp-bestand, dan renamen. Voorkomt corrupte
@@ -143,7 +163,6 @@ function writeFrontmatter(file, content, data) {
 }
 
 /* ------------------ RETRY WRAPPER ------------------ */
-
 async function withRetry(fn, label, retries = 5) {
   let lastErr;
   for (let i = 0; i < retries; i++) {
@@ -151,11 +170,9 @@ async function withRetry(fn, label, retries = 5) {
       return await fn();
     } catch (err) {
       lastErr = err;
-
       // 429 = rate limit. Bij service_tier "flex" kan 429 óók "capaciteit
       // tijdelijk niet beschikbaar" betekenen; dezelfde backoff werkt daarvoor.
       const isRateLimit = err?.status === 429 || err?.message?.includes("Rate limit");
-
       // ALLEEN een echte context-overschrijding overslaan — niet elke 400.
       // Een 400 door bijvoorbeeld een niet-ondersteunde parameter zou anders
       // stil worden weggeslikt als "context te groot", waarna het bestand
@@ -164,18 +181,15 @@ async function withRetry(fn, label, retries = 5) {
       const isContext =
         err?.code === "context_length_exceeded" ||
         err?.message?.includes("maximum context length");
-
       if (isRateLimit) {
         console.warn(`⏳ Rate limit / geen capaciteit (${label}). Wachten... (${i + 1}/${retries})`);
         await sleep(2000 * Math.pow(2, i));
         continue;
       }
-
       if (isContext) {
-        console.warn(`⚠️  Context te groot (${label}), blok overgeslagen.`);
+        console.warn(`⚠️ Context te groot (${label}), blok overgeslagen.`);
         return null;
       }
-
       // Alle overige fouten (o.a. 400 op een verkeerde parameter) gooien we
       // door, zodat ze zichtbaar worden en het bestand "partial" wordt.
       throw err;
@@ -185,17 +199,14 @@ async function withRetry(fn, label, retries = 5) {
 }
 
 /* ------------------ CHUNKING & FILTERING ------------------ */
-
 // Alleen ondubbelzinnige boilerplate wordt weggegooid. Als een paragraaf óók
 // een datum of een inhoudelijk keyword bevat, blijft hij staan — we willen
 // nooit een echte gebeurtenis kwijtraken omdat er toevallig een standaardzin
 // naast staat.
 const IMPORTANT_RX =
   /\b(woo|besluit|verzoek|publicatie|termijn|afgehandeld|vastgesteld|toegekend|verlengd|ingetrokken|bezwaar|beroep|uitspraak|zienswijze)\b/i;
-
 const DATE_RX =
   /(\d{4}-\d{2}-\d{2})|(\d{1,2}\s*(?:jan(?:uari)?|feb(?:ruari)?|mrt|maart|apr(?:il)?|mei|jun[i]?|jul[i]?|aug(?:ustus)?|sep(?:tember)?|okt(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s*\d{4})/i;
-
 const BOILERPLATE_RX = [
   /wettelijk kader.{0,20}artikel 5\./i,
   /aan deze brief kunnen geen rechten worden ontleend/i,
@@ -229,10 +240,8 @@ function buildSafeChunks(blocks) {
   const chunks = [];
   let current = [];
   let tokens = 0;
-
   for (const block of blocks) {
     const t = estimateTokens(block);
-
     // Eén blok is extreem groot (bijv. geen alinea-scheidingen in de PDF):
     // geforceerd in kleinere stukken knippen om crashes te voorkomen.
     if (t > MAX_TOKENS_PER_REQUEST) {
@@ -244,7 +253,6 @@ function buildSafeChunks(blocks) {
       }
       continue;
     }
-
     if (tokens + t > MAX_TOKENS_PER_REQUEST) {
       if (current.length) chunks.push(current);
       current = [block];
@@ -288,13 +296,17 @@ function extractSummaryBlocksSmart(text) {
 }
 
 /* ------------------ AI ------------------ */
-
-async function analyzeContent(textBlocks, label = "") {
+// mode: "summary" of "milestones". Bepaalt welke system-prompt wordt gebruikt;
+// de prompt beschrijft ook de verwachte JSON-vorm.
+async function analyzeContent(textBlocks, label = "", mode = "milestones") {
   const isEmpty =
     !textBlocks ||
     (Array.isArray(textBlocks) && textBlocks.length === 0) ||
     (typeof textBlocks === "string" && textBlocks.trim().length === 0);
   if (isEmpty) return null;
+
+  const systemPrompt = mode === "summary" ? SUMMARY_PROMPT : MILESTONE_PROMPT;
+  const text = Array.isArray(textBlocks) ? textBlocks.join("\n\n") : textBlocks;
 
   return withRetry(async () => {
     const response = await openai.chat.completions.create({
@@ -305,32 +317,26 @@ async function analyzeContent(textBlocks, label = "") {
       ...(SERVICE_TIER ? { service_tier: SERVICE_TIER } : {}),
       response_format: { type: "json_object" },
       messages: [
-        { role: "system", content: SYSTEM_PROMPT },
-        {
-          role: "user",
-          content: `Geef STRICT JSON:\n{\n  "summary": "max 2 zinnen",\n  "milestones": [{ "date": "YYYY-MM-DD", "event": "kort" }]\n}\n\nTEKST:\n${
-            Array.isArray(textBlocks) ? textBlocks.join("\n\n") : textBlocks
-          }`,
-        },
+        { role: "system", content: systemPrompt },
+        { role: "user", content: `TEKST:\n${text}` },
       ],
     });
 
     const raw = response.choices?.[0]?.message?.content;
     if (!raw) {
-      console.warn(`⚠️  Lege AI-response (${label})`);
+      console.warn(`⚠️ Lege AI-response (${label})`);
       return null;
     }
     try {
       return JSON.parse(raw);
     } catch (err) {
-      console.warn(`⚠️  Ongeldige JSON van model (${label}): ${err.message}`);
+      console.warn(`⚠️ Ongeldige JSON van model (${label}): ${err.message}`);
       return null;
     }
   }, label);
 }
 
 /* ------------------ CLEANING ------------------ */
-
 function cleanMilestones(milestones) {
   const seen = new Set();
   return milestones
@@ -350,7 +356,6 @@ function cleanMilestones(milestones) {
 }
 
 /* ------------------ FILE PROCESSING ------------------ */
-
 async function processFile(file, stats) {
   let data, content;
   try {
@@ -363,21 +368,20 @@ async function processFile(file, stats) {
   }
 
   console.log(`🔍 ${file}`);
-  console.log(`   ai_status:       ${data.ai_status}`);
+  console.log(` ai_status: ${data.ai_status}`);
 
-  // Sla bestanden over die succesvol zijn verrijkt.
+  // Sla bestanden over die succesvol zijn verrijkt (tenzij FORCE=1).
   // Bestanden met "partial", "no_content" of zonder ai_status worden opnieuw verwerkt.
-  if (data.ai_status === "done") {
-    console.log(`⏭️  Overgeslagen: ${file}`);
+  if (data.ai_status === "done" && !FORCE) {
+    console.log(`⏭️ Overgeslagen: ${file}`);
     stats.skipped++;
     return;
   }
 
   try {
     const blocks = extractRelevantBlocks(content);
-
     if (blocks.length === 0) {
-      console.warn(`⚠️  Geen relevante content gevonden, overgeslagen: ${file}`);
+      console.warn(`⚠️ Geen relevante content gevonden, overgeslagen: ${file}`);
       data.ai_status = "no_content";
       data.ai_processed_at = new Date().toISOString();
       writeFrontmatter(file, content, data);
@@ -385,13 +389,13 @@ async function processFile(file, stats) {
       return;
     }
 
-    // --- SUMMARY ---
+    // --- SUMMARY (eigen prompt, los van de tijdlijn) ---
     let summary = "";
     let summaryOk = false;
     try {
       const summaryInput = extractSummaryBlocksSmart(content);
-      const summaryResult = await analyzeContent(summaryInput, `${file} [summary]`);
-      summary = summaryResult?.summary?.trim() || "";
+      const summaryResult = await analyzeContent(summaryInput, `${file} [summary]`, "summary");
+      summary = typeof summaryResult?.summary === "string" ? summaryResult.summary.trim() : "";
       summaryOk = summary.length > 0;
     } catch (err) {
       console.error(`❌ Summary mislukt voor ${file} | ${err.message}`);
@@ -402,7 +406,7 @@ async function processFile(file, stats) {
     const chunksToProcess = chunks.slice(0, MAX_CHUNKS_PER_FILE);
     if (chunks.length > MAX_CHUNKS_PER_FILE) {
       console.warn(
-        `⚠️  ${file}: ${chunks.length} chunks gevonden, slechts ${MAX_CHUNKS_PER_FILE} verwerkt ` +
+        `⚠️ ${file}: ${chunks.length} chunks gevonden, slechts ${MAX_CHUNKS_PER_FILE} verwerkt ` +
           `(zet MAX_CHUNKS_PER_FILE hoger als dit document waarschijnlijk milestones mist).`
       );
     }
@@ -412,8 +416,12 @@ async function processFile(file, stats) {
     for (const [i, chunk] of chunksToProcess.entries()) {
       await sleep(REQUEST_DELAY_MS);
       try {
-        const result = await analyzeContent(chunk, `${file} [chunk ${i + 1}/${chunksToProcess.length}]`);
-        if (result?.milestones?.length) {
+        const result = await analyzeContent(
+          chunk,
+          `${file} [chunk ${i + 1}/${chunksToProcess.length}]`,
+          "milestones"
+        );
+        if (Array.isArray(result?.milestones) && result.milestones.length) {
           allMilestones.push(...result.milestones);
         }
       } catch (err) {
@@ -445,7 +453,6 @@ async function processFile(file, stats) {
 }
 
 /* ------------------ MAIN ------------------ */
-
 async function main() {
   if (!process.env.OPENAI_API_KEY) {
     console.error("❌ OPENAI_API_KEY ontbreekt. Zet deze environment variable en probeer opnieuw.");
@@ -454,20 +461,21 @@ async function main() {
 
   const files = globSync(`onderwerpen/${DOC_PATH}/**/*.md`);
   if (files.length === 0) {
-    console.warn(`⚠️  Geen .md bestanden gevonden voor onderwerpen/${DOC_PATH}/**/*.md — klopt DOC_PATH ("${DOC_PATH}")?`);
+    console.warn(`⚠️ Geen .md bestanden gevonden voor onderwerpen/${DOC_PATH}/**/*.md — klopt DOC_PATH ("${DOC_PATH}")?`);
     return;
   }
 
   console.log(
-    `📂 ${files.length} bestand(en) gevonden voor ${DOC_PATH}${DRY_RUN ? " (DRY RUN, er wordt niets weggeschreven)" : ""}`
+    `📂 ${files.length} bestand(en) gevonden voor ${DOC_PATH}` +
+      `${DRY_RUN ? " (DRY RUN, er wordt niets weggeschreven)" : ""}` +
+      `${FORCE ? " (FORCE, ook 'done'-bestanden worden herverwerkt)" : ""}`
   );
   console.log(
-    `⚙️  model=${MODEL} tier=${SERVICE_TIER || "standaard"} temperature=${USE_TEMPERATURE ? "0" : "uit"} min_year=${MIN_YEAR}`
+    `⚙️ model=${MODEL} tier=${SERVICE_TIER || "standaard"} temperature=${USE_TEMPERATURE ? "0" : "uit"} min_year=${MIN_YEAR}`
   );
 
   const stats = { done: 0, partial: 0, noContent: 0, skipped: 0, failed: 0 };
   const limit = pLimit(MAX_CONCURRENT);
-
   const results = await Promise.allSettled(files.map((f) => limit(() => processFile(f, stats))));
   results.forEach((r, i) => {
     if (r.status === "rejected") {
@@ -478,12 +486,11 @@ async function main() {
 
   console.log("\n──────── Samenvatting ────────");
   console.log(`✅ Volledig verwerkt : ${stats.done}`);
-  console.log(`🟡 Deels verwerkt    : ${stats.partial}`);
-  console.log(`⚪ Geen content      : ${stats.noContent}`);
-  console.log(`⏭️  Overgeslagen      : ${stats.skipped}`);
-  console.log(`❌ Mislukt           : ${stats.failed}`);
+  console.log(`🟡 Deels verwerkt : ${stats.partial}`);
+  console.log(`⚪ Geen content : ${stats.noContent}`);
+  console.log(`⏭️ Overgeslagen : ${stats.skipped}`);
+  console.log(`❌ Mislukt : ${stats.failed}`);
   console.log("───────────────────────────────");
-
   if (stats.partial > 0 || stats.failed > 0) {
     console.log("Tip: draai het script opnieuw — bestanden met status 'partial' of een leesfout worden automatisch herpakt.");
   }
