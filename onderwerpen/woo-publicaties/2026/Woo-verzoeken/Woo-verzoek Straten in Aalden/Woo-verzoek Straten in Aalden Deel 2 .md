@@ -10,6 +10,18 @@ source: >-
   Straten in Aalden Deel 2 .pdf
 s3_etag: 0d634aece8c45c421205f71103011b9d-4
 date: 2026-09-01T00:00:00.000Z
+summary: >-
+  Het document gaat over gemeentelijke bestemmingsplannen van Coevorden voor
+  woningbouw in Aalden: de herontwikkeling van een voormalige christelijke
+  schoollocatie tot maximaal zes woningen en de bouw van vier woningen aan de
+  Mensinghstraat, met aandacht voor stedenbouwkundige inpassing, groen, milieu,
+  geluid en archeologie. De herziening voor de voormalige schoollocatie is door
+  de gemeenteraad vastgesteld en door Gedeputeerde Staten goedgekeurd; daarnaast
+  zijn in 2006 en 2007 lichte bouwvergunningen verleend voor erfafscheidingen
+  bij woningen in Aalden.
+milestones: []
+ai_processed_at: '2026-09-29T08:34:17.694Z'
+ai_status: done
 ---
 
 Een belangrijk uitgangspunt bij huisvestingsplannen en een
