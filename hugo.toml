@@ -27,9 +27,6 @@ baseURL = 'https://open.coevorden.nl/'
 # locale — taal/regio voor datum-/getalnotatie.
 locale = "nl-nl"
 
-# languageCode — gebruikt in <html lang="…"> (baseof.html).
-languageCode = "nl"
-
 # title — sitetitel (RSS/metadata).
 title = 'PDF Zoekmachine'
 
