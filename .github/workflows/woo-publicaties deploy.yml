@@ -150,7 +150,7 @@ jobs:
                 printf -- "---\n\n"
               } > "$md_path"
 
-              pdftotext -raw "$tmpfile" - | tr -d '\000' >> "$md_path"
+              pdftotext -raw "$tmpfile" - | tr -d '\000' >> "$md_path" || echo "⚠️  Geen tekst uit $pdf_key (pdftotext faalde), ga door"
             fi
             rm -f "$tmpfile"
           }
