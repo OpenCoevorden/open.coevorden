@@ -1,9 +1,30 @@
 ---
-title: "2022 10 04 Memo Stedelijk Museum ter voorbereiding op gesprek 5 oktober (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/2022 10 04 Memo Stedelijk Museum ter voorbereiding op gesprek 5 oktober (Geanonimiseerd).pdf"
-s3_etag: "b28b0cd5d8d71a359c0dfddf75c16240"
-date: 2026-10-19
+title: >-
+  2022 10 04 Memo Stedelijk Museum ter voorbereiding op gesprek 5 oktober
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/2022 10 04 Memo Stedelijk Museum ter voorbereiding op
+  gesprek 5 oktober (Geanonimiseerd).pdf
+s3_etag: b28b0cd5d8d71a359c0dfddf75c16240
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De memo gaat over de subsidieaanvraag van het bestuur van het Stedelijk Museum
+  Coevorden aan de gemeente voor 2023 en een incidentele verhoging voor 2023 en
+  2024, vooral vanwege hogere personeelskosten en noodzakelijke
+  organisatieontwikkeling. Deze aanvraag sluit aan op het verkenningsplan
+  richting 2030, waarin de ambities en knelpunten van het museum worden
+  uitgewerkt; over toekenning van de subsidie wordt geen besluit vermeld.
+milestones:
+  - date: '2022-10-04'
+    event: Subsidieaanvraag voor 2023 ingediend door het Stedelijk Museum Coevorden
+ai_processed_at: '2026-10-20T03:06:40.557Z'
+ai_status: done
 ---
 
 Memo

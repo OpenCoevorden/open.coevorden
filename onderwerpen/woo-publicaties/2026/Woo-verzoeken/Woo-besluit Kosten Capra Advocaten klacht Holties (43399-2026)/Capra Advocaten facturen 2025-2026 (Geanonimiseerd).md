@@ -1,9 +1,24 @@
 ---
-title: "Capra Advocaten facturen 2025-2026 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)/Capra Advocaten facturen 2025-2026 (Geanonimiseerd).pdf"
-s3_etag: "b15877da22b9c3e1c213f992b1e6a090"
-date: 2026-10-19
+title: Capra Advocaten facturen 2025-2026 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht
+  Holties (43399-2026)/Capra Advocaten facturen 2025-2026 (Geanonimiseerd).pdf
+s3_etag: b15877da22b9c3e1c213f992b1e6a090
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document bevat een overzicht van facturen en kostenregistraties van Capra
+  Advocaten Zwolle voor juridische adviezen, uren- en overige diensten in 2025
+  en 2026, ten laste van onder meer Personeel en Directie. Persoonsgegevens en
+  concurrentiegevoelige bedrijfs- en fabricagegegevens zijn op grond van de
+  Woo-artikelen 5.1 lid 2 sub e en f onleesbaar gemaakt.
+milestones: []
+ai_processed_at: '2026-10-20T03:09:39.360Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

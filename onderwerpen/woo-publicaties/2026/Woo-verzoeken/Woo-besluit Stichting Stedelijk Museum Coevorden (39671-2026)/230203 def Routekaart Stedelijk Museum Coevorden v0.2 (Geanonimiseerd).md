@@ -1,9 +1,29 @@
 ---
-title: "230203 def Routekaart Stedelijk Museum Coevorden v0.2 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/230203 def Routekaart Stedelijk Museum Coevorden v0.2 (Geanonimiseerd).pdf"
-s3_etag: "7001e3ce8a3273d5e1ea2312ee98f6b3"
-date: 2026-10-19
+title: 230203 def Routekaart Stedelijk Museum Coevorden v0.2 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/230203 def Routekaart Stedelijk Museum Coevorden v0.2
+  (Geanonimiseerd).pdf
+s3_etag: 7001e3ce8a3273d5e1ea2312ee98f6b3
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De routekaart beschrijft de gezamenlijke ambitie van het Stedelijk Museum
+  Coevorden en de gemeente Coevorden om het museum in Het Arsenaal
+  organisatorisch, inhoudelijk, fysiek en financieel te ontwikkelen, met als
+  doel het Verhaal van Coevorden aantrekkelijker te presenteren en het
+  bezoekersaantal te laten groeien naar 20.000 in 2030. De voorgestelde
+  gefaseerde aanpak omvat onder meer professionalisering, nieuwe programmering,
+  herinrichting en verduurzaming van het Arsenaal, betere klimaatbeheersing en
+  toegankelijkheid, waarbij de gemeente investeert en het museum financieel
+  weerbaarder wordt.
+milestones: []
+ai_processed_at: '2026-10-20T03:06:28.143Z'
+ai_status: done
 ---
 
 ROUTEKAART STEDELIJK

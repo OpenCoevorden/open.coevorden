@@ -1,9 +1,27 @@
 ---
-title: "Woo-besluit percelen 116 en 146 Steenbakkersweg, 7843 RM te Erm (47708-2026)"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit percelen 116 en 146 Steenbakkersweg, 7843 RM te Erm (47708-2026).pdf"
-s3_etag: "48318387a8d1612e9fd51b3229200c54"
-date: 2026-10-19
+title: 'Woo-besluit percelen 116 en 146 Steenbakkersweg, 7843 RM te Erm (47708-2026)'
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit percelen 116 en 146
+  Steenbakkersweg, 7843 RM te Erm (47708-2026).pdf
+s3_etag: 48318387a8d1612e9fd51b3229200c54
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden behandelt een Woo-verzoek om informatie over de status
+  van percelen 116 en 146 aan de Steenbakkersweg bij het Ermerzand en eventuele
+  woonvergunningen met toekenningsdatum. Het verzoek is afgewezen omdat de
+  gemeente geen afzonderlijke documenten heeft aangetroffen; de informatie is
+  volgens de gemeente online beschikbaar via het Omgevingsloket.
+milestones:
+  - date: '2026-08-11'
+    event: Woo-verzoek ontvangen
+  - date: '2026-09-03'
+    event: Woo-verzoek afgewezen
+ai_processed_at: '2026-10-20T02:48:06.686Z'
+ai_status: done
 ---
 
 Gemeente

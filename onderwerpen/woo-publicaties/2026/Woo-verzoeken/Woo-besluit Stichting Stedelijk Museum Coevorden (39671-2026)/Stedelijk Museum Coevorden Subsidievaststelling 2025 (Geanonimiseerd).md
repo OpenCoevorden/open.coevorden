@@ -1,9 +1,31 @@
 ---
-title: "Stedelijk Museum Coevorden Subsidievaststelling 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Subsidievaststelling 2025 (Geanonimiseerd).pdf"
-s3_etag: "0e1b0205ce88fa9beb0559d34da860ac"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Subsidievaststelling 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Subsidievaststelling 2025
+  (Geanonimiseerd).pdf
+s3_etag: 0e1b0205ce88fa9beb0559d34da860ac
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stelt de subsidie voor 2025 aan Stichting Stedelijk
+  Museum Coevorden vast op €362.670. Omdat het museum €5.330 te veel als
+  voorschot ontving, vordert de gemeente dit bedrag terug.
+milestones:
+  - date: '2026-05-27'
+    event: Aanvraag tot vaststelling van de subsidie 2025 ingediend.
+  - date: '2026-06-01'
+    event: >-
+      Uitstel voor indiening van de aanvraag tot subsidievaststelling verleend
+      tot deze datum.
+  - date: '2026-07-08'
+    event: Subsidie 2025 vastgesteld op € 362.670; € 5.330 teruggevorderd.
+ai_processed_at: '2026-10-20T02:55:21.673Z'
+ai_status: done
 ---
 
 bostadres

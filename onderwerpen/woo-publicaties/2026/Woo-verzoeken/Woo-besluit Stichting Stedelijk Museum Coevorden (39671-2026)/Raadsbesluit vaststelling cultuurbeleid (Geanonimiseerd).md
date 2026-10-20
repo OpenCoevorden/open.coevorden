@@ -1,9 +1,25 @@
 ---
-title: "Raadsbesluit vaststelling cultuurbeleid (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Raadsbesluit vaststelling cultuurbeleid (Geanonimiseerd).pdf"
-s3_etag: "77d13dc7d5715d17f1738d5673f72aae"
-date: 2026-10-19
+title: Raadsbesluit vaststelling cultuurbeleid (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Raadsbesluit vaststelling cultuurbeleid
+  (Geanonimiseerd).pdf
+s3_etag: 77d13dc7d5715d17f1738d5673f72aae
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeenteraad van Coevorden heeft het cultuurbeleid vastgesteld en ingestemd
+  met de afhandeling van reacties op het ontwerp. Daarbij stelde de raad
+  structureel €490.000 per jaar en incidenteel €97.000 voor 2024 beschikbaar,
+  gedekt uit de stelpost vrije begrotingsruimte en de algemene reserve, en
+  stelde hij de 17e begrotingswijziging van 2023 vast.
+milestones: []
+ai_processed_at: '2026-10-20T03:00:55.996Z'
+ai_status: done
 ---
 
 Documentnummer: 41559-2023

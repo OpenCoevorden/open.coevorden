@@ -1,9 +1,29 @@
 ---
-title: "Stedelijk Museum Coevorden Subsidieverlening 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Subsidieverlening 2024 (Geanonimiseerd).pdf"
-s3_etag: "5d3a9a8b55e368211a1dc611e0f93d7f"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Subsidieverlening 2024 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Subsidieverlening 2024
+  (Geanonimiseerd).pdf
+s3_etag: 5d3a9a8b55e368211a1dc611e0f93d7f
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden verleent Stichting Stedelijk Museum Coevorden voor het
+  kalenderjaar 2024 een maximale subsidie van €356.800. De subsidie ondersteunt
+  de uitbreiding en professionalisering van de brede cultureel-maatschappelijke
+  functie van het museum, waaronder cultuureducatie, collectiebeheer,
+  samenwerking en uitbreiding in het Arsenaal.
+milestones:
+  - date: '2023-08-30'
+    event: Aanvraag subsidie voor 2024 ingediend
+  - date: '2023-12-11'
+    event: 'Subsidiebesluit: maximaal €356.800 verleend voor boekjaar 2024'
+ai_processed_at: '2026-10-20T02:54:57.888Z'
+ai_status: done
 ---
 
 Gemeente

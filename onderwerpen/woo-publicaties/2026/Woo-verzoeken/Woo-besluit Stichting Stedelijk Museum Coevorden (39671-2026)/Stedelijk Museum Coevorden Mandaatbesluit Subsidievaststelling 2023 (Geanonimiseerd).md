@@ -1,9 +1,31 @@
 ---
-title: "Stedelijk Museum Coevorden Mandaatbesluit Subsidievaststelling 2023 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Mandaatbesluit Subsidievaststelling 2023 (Geanonimiseerd).pdf"
-s3_etag: "90d1d84d4d6376c846088a8be62904ed"
-date: 2026-10-19
+title: >-
+  Stedelijk Museum Coevorden Mandaatbesluit Subsidievaststelling 2023
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Mandaatbesluit
+  Subsidievaststelling 2023 (Geanonimiseerd).pdf
+s3_etag: 90d1d84d4d6376c846088a8be62904ed
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stelt de subsidie aan Stichting Stedelijk Museum
+  Coevorden over 2023 vast op € 238.000, omdat de stichting aan alle voorwaarden
+  heeft voldaan en de gesubsidieerde activiteiten heeft uitgevoerd. Het
+  positieve resultaat van € 873 wordt vanwege de geringe omvang niet
+  teruggevorderd.
+milestones:
+  - date: '2024-05-28'
+    event: >-
+      Subsidie 2023 vastgesteld op €238.000; positief resultaat van €873 niet
+      teruggevorderd
+ai_processed_at: '2026-10-20T02:57:17.971Z'
+ai_status: done
 ---
 
 Kenmerk: 27739-2024

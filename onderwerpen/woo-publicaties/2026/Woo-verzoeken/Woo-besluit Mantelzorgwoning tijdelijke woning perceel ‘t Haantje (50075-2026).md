@@ -1,9 +1,30 @@
 ---
-title: "Woo-besluit Mantelzorgwoning tijdelijke woning perceel ‘t Haantje (50075-2026)"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Mantelzorgwoning tijdelijke woning perceel ‘t Haantje (50075-2026).pdf"
-s3_etag: "f017491a24ba056c7e90d111778b5b8a"
-date: 2026-10-19
+title: Woo-besluit Mantelzorgwoning tijdelijke woning perceel ‘t Haantje (50075-2026)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Mantelzorgwoning tijdelijke
+  woning perceel ‘t Haantje (50075-2026).pdf
+s3_etag: f017491a24ba056c7e90d111778b5b8a
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden behandelt een Woo-verzoek om alle documenten over de
+  mantelzorgwoning/tijdelijke woning op het perceel ’t Haantje en het volledige
+  dossier Z2026-000147 openbaar te maken. Het verzoek is afgewezen omdat na
+  aanvullend onderzoek geen nieuwe documenten zijn gevonden; eerder verstrekte
+  stukken waren al beschikbaar en de bezwaarschriftencommissie verstrekt de
+  dossierstukken.
+milestones:
+  - date: '2026-08-14'
+    event: Eerder besluit genomen waarbij beschikbare documenten zijn verstrekt.
+  - date: '2026-08-25'
+    event: Woo-verzoek ingediend en ontvangen.
+  - date: '2026-09-03'
+    event: Woo-verzoek afgewezen; geen nieuwe documenten aangetroffen.
+ai_processed_at: '2026-10-20T02:48:30.502Z'
+ai_status: done
 ---
 
 Gemeente

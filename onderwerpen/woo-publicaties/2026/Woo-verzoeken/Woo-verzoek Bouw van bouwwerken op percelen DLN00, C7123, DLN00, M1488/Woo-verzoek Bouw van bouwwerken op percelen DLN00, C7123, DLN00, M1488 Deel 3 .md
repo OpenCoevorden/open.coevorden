@@ -1,9 +1,36 @@
 ---
-title: "Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 3 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 3 .pdf"
-s3_etag: "df20accfee48fb162bc8ce80d2188f0c-7"
-date: 2026-10-19
+title: 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 3 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen
+  DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00,
+  C7123, DLN00, M1488 Deel 3 .pdf
+s3_etag: df20accfee48fb162bc8ce80d2188f0c-7
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document gaat over CPO Daler Starters, de gemeente Coevorden en betrokken
+  adviseurs en nuts- en overheidsinstanties bij de ontwikkeling van
+  starterswoningen op de locaties Thyakkerstraat/Burgemeester Fonteinstraat en
+  Kieftenweg/Westerwijk in Dalen, inclusief statuten, plannen, grondverkoop,
+  infrastructuur en de ruimtelijke procedure. De onderzoeken en adviezen wijzen
+  erop dat de ontwikkeling milieutechnisch haalbaar is, waarbij voor
+  Thyakkerstraat geen archeologisch vervolgonderzoek nodig is en voor Kieftenweg
+  vrijgave alleen geldt bij werkzaamheden onder 500 m²; daarnaast zijn
+  voorwaarden gesteld voor geluid, bodem, waterhuishouding, parkeren en
+  grondexploitatie.
+milestones:
+  - date: '2025-04-07'
+    event: Aanmelding voor toewijzing van twee gemeentelijke kavels in Dalen
+  - date: '2025-08-15'
+    event: >-
+      Indiening onderbouwing voor wijziging van het omgevingsplan voor 15
+      woningen aan de Thyakkerstraat
+ai_processed_at: '2026-10-20T02:51:20.322Z'
+ai_status: done
 ---
 
 11

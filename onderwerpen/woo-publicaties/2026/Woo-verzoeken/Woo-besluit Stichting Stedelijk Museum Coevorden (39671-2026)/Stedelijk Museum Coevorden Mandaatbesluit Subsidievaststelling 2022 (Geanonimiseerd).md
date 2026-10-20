@@ -1,9 +1,30 @@
 ---
-title: "Stedelijk Museum Coevorden Mandaatbesluit Subsidievaststelling 2022 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Mandaatbesluit Subsidievaststelling 2022 (Geanonimiseerd).pdf"
-s3_etag: "fa67cecbe00974ee2aa482a6dd8828c1"
-date: 2026-10-19
+title: >-
+  Stedelijk Museum Coevorden Mandaatbesluit Subsidievaststelling 2022
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Mandaatbesluit
+  Subsidievaststelling 2022 (Geanonimiseerd).pdf
+s3_etag: fa67cecbe00974ee2aa482a6dd8828c1
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stelt de subsidie voor 2022 aan Stichting Stedelijk
+  Museum Coevorden vast op € 225.000, omdat de stichting aan alle voorwaarden
+  heeft voldaan en de activiteiten heeft uitgevoerd. Het positieve resultaat van
+  € 947 wordt vanwege het geringe bedrag niet teruggevorderd.
+milestones:
+  - date: '2023-07-10'
+    event: >-
+      Subsidie 2022 voor Stichting Stedelijk Museum Coevorden vastgesteld op
+      €225.000; het positieve resultaat van €947 wordt niet teruggevorderd.
+ai_processed_at: '2026-10-20T02:57:29.769Z'
+ai_status: done
 ---
 
 Kenmerk: 26802-2023

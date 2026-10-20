@@ -1,9 +1,27 @@
 ---
-title: "Memo Masterplan Stedelijk Museum Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Memo Masterplan Stedelijk Museum Coevorden (Geanonimiseerd).pdf"
-s3_etag: "7c18f80ccce59482656e8f250965e3ab"
-date: 2026-10-19
+title: Memo Masterplan Stedelijk Museum Coevorden (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Memo Masterplan Stedelijk Museum Coevorden
+  (Geanonimiseerd).pdf
+s3_etag: 7c18f80ccce59482656e8f250965e3ab
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stelt voor om in 2026 incidenteel €50.000 tot €100.000
+  beschikbaar te stellen voor een masterplan voor de verbouwing en uitbreiding
+  van het Stedelijk Museum Coevorden in het Arsenaal. Het masterplan moet onder
+  meer de bouwkundige en restauratieve opgave, verduurzaming, museale visie en
+  inrichting, financiële consequenties en financieringsmogelijkheden in kaart
+  brengen; realisatie van de uitbreiding wordt naar verwachting vanaf 2028
+  voorzien.
+milestones: []
+ai_processed_at: '2026-10-20T03:02:47.037Z'
+ai_status: done
 ---
 
 Memo

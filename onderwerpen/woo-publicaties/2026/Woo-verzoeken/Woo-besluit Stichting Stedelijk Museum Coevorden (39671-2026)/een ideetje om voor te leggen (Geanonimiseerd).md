@@ -1,9 +1,24 @@
 ---
-title: "een ideetje om voor te leggen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/een ideetje om voor te leggen (Geanonimiseerd).pdf"
-s3_etag: "e1149fae90b20f5aafac8153e5e68ce6"
-date: 2026-10-19
+title: een ideetje om voor te leggen (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/een ideetje om voor te leggen (Geanonimiseerd).pdf
+s3_etag: e1149fae90b20f5aafac8153e5e68ce6
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Een afzender stelt Bea Meppelink-de Jager voor om de kennis van B, voorzitter
+  van het Stedelijk Museum en geboren Coevordenaar, over het vestingverleden van
+  Coevorden vast te leggen in een interview of andere vorm. Het idee wordt
+  gedeeld en zal later verder worden besproken; de afzender vraagt Bea of zij
+  dit verder wil verkennen.
+milestones: []
+ai_processed_at: '2026-10-20T02:52:54.480Z'
+ai_status: done
 ---
 
 Verzonden: 07-12-2022 13:35

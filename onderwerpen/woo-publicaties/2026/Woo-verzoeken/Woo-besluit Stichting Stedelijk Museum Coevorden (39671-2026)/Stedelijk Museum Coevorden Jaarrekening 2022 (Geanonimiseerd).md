@@ -1,9 +1,26 @@
 ---
-title: "Stedelijk Museum Coevorden Jaarrekening 2022 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarrekening 2022 (Geanonimiseerd).pdf"
-s3_etag: "d176e452fdd0dd6d91019ff139695611"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Jaarrekening 2022 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarrekening 2022
+  (Geanonimiseerd).pdf
+s3_etag: d176e452fdd0dd6d91019ff139695611
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document betreft de jaarrekening 2022 van Stichting Stedelijk Museum
+  Coevorden, opgesteld door Countus accountants + adviseurs, met financiële
+  informatie over de museumactiviteiten, baten, lasten, bezittingen, schulden en
+  verplichtingen. De stichting behaalde in 2022 een positief resultaat van €947,
+  had per 31 december 2022 een balanstotaal van €100.125 en de jaarrekening is
+  voorzien van een samenstellingsverklaring, geen controleverklaring.
+milestones: []
+ai_processed_at: '2026-10-20T02:58:51.346Z'
+ai_status: done
 ---
 
 RAPPORT

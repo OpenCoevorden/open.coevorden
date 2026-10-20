@@ -1,9 +1,26 @@
 ---
-title: "Stedelijk Museum Coevorden Brief behorende bij jaarrekening en jaarverslag 2023 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Brief behorende bij jaarrekening en jaarverslag 2023 (Geanonimiseerd).pdf"
-s3_etag: "122f7832b698958e33c853141d974d9f"
-date: 2026-10-19
+title: >-
+  Stedelijk Museum Coevorden Brief behorende bij jaarrekening en jaarverslag
+  2023 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Brief behorende bij
+  jaarrekening en jaarverslag 2023 (Geanonimiseerd).pdf
+s3_etag: 122f7832b698958e33c853141d974d9f
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document licht toe dat bepaalde informatie onleesbaar is gemaakt op grond
+  van de Wet open overheid, omdat openbaarmaking daarvan niet opweegt tegen de
+  eerbiediging van de persoonlijke levenssfeer van betrokkenen (artikel 5.1,
+  tweede lid, onder e).
+milestones: []
+ai_processed_at: '2026-10-20T02:59:02.980Z'
+ai_status: done
 ---
 
 Toelichting grondslagen

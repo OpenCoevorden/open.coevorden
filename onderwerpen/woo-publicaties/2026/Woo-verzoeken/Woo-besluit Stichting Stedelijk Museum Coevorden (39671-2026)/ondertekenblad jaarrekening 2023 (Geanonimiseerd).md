@@ -1,9 +1,24 @@
 ---
-title: "ondertekenblad jaarrekening 2023 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/ondertekenblad jaarrekening 2023 (Geanonimiseerd).pdf"
-s3_etag: "4f9aa37c31050d0d6690ff6625f8949b"
-date: 2026-10-19
+title: ondertekenblad jaarrekening 2023 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/ondertekenblad jaarrekening 2023 (Geanonimiseerd).pdf
+s3_etag: 4f9aa37c31050d0d6690ff6625f8949b
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De jaarrekening 2022 van Stichting Stedelijk Museum Coevorden geeft inzicht in
+  de algemene lasten van €9.271, de bank- en provisiekosten van €609 en de
+  ondertekening door het bestuur; een samenstellingsverklaring is afgegeven.
+  Persoonsgegevens zijn op grond van artikel 5.1, lid 2, onder e, van de Woo
+  weggelakt ter bescherming van de persoonlijke levenssfeer.
+milestones: []
+ai_processed_at: '2026-10-20T02:52:26.886Z'
+ai_status: done
 ---
 
 Stichting Stedelijk Museum Coevorden te Coevorden Jaarrekening 2022

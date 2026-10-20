@@ -1,9 +1,29 @@
 ---
-title: "Begrotingswijziging Cultuurbeleid (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Begrotingswijziging Cultuurbeleid (Geanonimiseerd).pdf"
-s3_etag: "b020395ef684d9b4d326d640ca542d56"
-date: 2026-10-19
+title: Begrotingswijziging Cultuurbeleid (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Begrotingswijziging Cultuurbeleid (Geanonimiseerd).pdf
+s3_etag: b020395ef684d9b4d326d640ca542d56
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document bevat een financieel overzicht van inkomsten, uitgaven en
+  bedragen voor verschillende activiteiten of projecten over meerdere jaren,
+  waarbij een overheidsinstantie en een betrokken organisatie of wederpartij
+  worden genoemd. De stukken leggen vooral de financiële berekeningen en
+  administratieve verwerking vast; een afzonderlijke inhoudelijke uitkomst is
+  niet duidelijk herkenbaar.
+milestones:
+  - date: '2010-09-27'
+    event: Wob-aanvraag ingediend
+  - date: '2013-09-27'
+    event: Uitspraak gedaan
+ai_processed_at: '2026-10-20T03:06:03.884Z'
+ai_status: done
 ---
 
 q

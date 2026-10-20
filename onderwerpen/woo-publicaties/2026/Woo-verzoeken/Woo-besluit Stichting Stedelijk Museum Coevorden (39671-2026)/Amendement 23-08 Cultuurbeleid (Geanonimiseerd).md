@@ -1,9 +1,23 @@
 ---
-title: "Amendement 23-08 Cultuurbeleid (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Amendement 23-08 Cultuurbeleid (Geanonimiseerd).pdf"
-s3_etag: "f88ef6ac436de71b5b0b07eb3a2c766a"
-date: 2026-10-19
+title: Amendement 23-08 Cultuurbeleid (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Amendement 23-08 Cultuurbeleid (Geanonimiseerd).pdf
+s3_etag: f88ef6ac436de71b5b0b07eb3a2c766a
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het amendement van BBC2014, PvdA en CDA wijzigt het ontwerpcultuurbeleid van
+  de gemeente Coevorden door beslispunt 3 te schrappen en voorkeursscenario 1
+  als beleidsvoornemen vast te stellen en ter inzage te leggen. Het amendement
+  is aangenomen met 21 stemmen voor en 0 tegen.
+milestones: []
+ai_processed_at: '2026-10-20T03:06:15.965Z'
+ai_status: done
 ---
 
 Gemeente

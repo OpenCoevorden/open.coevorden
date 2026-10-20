@@ -1,9 +1,28 @@
 ---
-title: "Verslag bestuurlijk overleg 14 juli 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Verslag bestuurlijk overleg 14 juli 2025 (Geanonimiseerd).pdf"
-s3_etag: "246286a23c540858cbc5a0203ee457d9"
-date: 2026-10-19
+title: Verslag bestuurlijk overleg 14 juli 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Verslag bestuurlijk overleg 14 juli 2025
+  (Geanonimiseerd).pdf
+s3_etag: 246286a23c540858cbc5a0203ee457d9
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het verslag gaat over het bestuurlijk overleg tussen de gemeente Coevorden en
+  Stichting Stedelijk Museum Coevorden over de uitbreiding van het museum in het
+  Arsenaal, de huisvestingsproblemen en scheurvorming, de planning en
+  financiering van een Masterplan en de tentoonstelling ‘Verketend beeld’ over
+  het slavernijverleden van Coevorden. Besloten is dat het museum offertes voor
+  het Masterplan kan aanvragen en dat gemeente en museum gezamenlijk blijven
+  optrekken, terwijl de definitieve voortgang mede afhangt van een oplossing
+  voor de huisvesting van de bibliotheek.
+milestones: []
+ai_processed_at: '2026-10-20T02:53:31.233Z'
+ai_status: done
 ---
 
 STEDELIJK

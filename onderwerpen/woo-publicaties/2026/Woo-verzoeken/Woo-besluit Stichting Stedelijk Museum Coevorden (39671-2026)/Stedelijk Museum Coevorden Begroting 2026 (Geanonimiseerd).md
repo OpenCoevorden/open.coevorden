@@ -1,9 +1,25 @@
 ---
-title: "Stedelijk Museum Coevorden Begroting 2026 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Begroting 2026 (Geanonimiseerd).pdf"
-s3_etag: "94f6cb330a8eb71f10be0bf08f628ebf"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Begroting 2026 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Begroting 2026
+  (Geanonimiseerd).pdf
+s3_etag: 94f6cb330a8eb71f10be0bf08f628ebf
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De begroting 2026 van Stichting Stedelijk Museum Coevorden geeft een overzicht
+  van de verwachte opbrengsten, subsidies, kosten en investeringen voor het
+  museum en de herinrichting van het Arsenaal en de organisatieontwikkeling. Het
+  document is opgesteld door de penningmeester; persoonsgegevens zijn op grond
+  van de Woo afgeschermd ter bescherming van de persoonlijke levenssfeer.
+milestones: []
+ai_processed_at: '2026-10-20T02:59:26.963Z'
+ai_status: done
 ---
 
 BEGROTING 2026 STICHTING STEDELIJK MUSEUM COEVORDEN

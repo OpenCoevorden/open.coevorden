@@ -1,9 +1,25 @@
 ---
-title: "Woo-verzoek Perceel 't Haantje 51 Deel 2 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Perceel 't Haantje 51"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Perceel 't Haantje 51/Woo-verzoek Perceel 't Haantje 51 Deel 2 .pdf"
-s3_etag: "29a6739d15200571546c3dcdcc3ba319"
-date: 2026-10-19
+title: 'Woo-verzoek Perceel ''t Haantje 51 Deel 2 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Perceel 't Haantje 51
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Perceel 't Haantje
+  51/Woo-verzoek Perceel 't Haantje 51 Deel 2 .pdf
+s3_etag: 29a6739d15200571546c3dcdcc3ba319
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document betreft constructieberekeningen voor een houten spant en
+  gordingen en een gewijzigde situatieschets voor de realisatie van een schuur,
+  opgesteld door Uitterdijk Hout- & Staalbouw voor een geanonimiseerde
+  opdrachtgever en ingediend bij de gemeente Coevorden. De constructieve
+  toetsingen voldoen aan de gestelde eisen en de gewijzigde situatieschets is
+  ter behandeling ingediend voor een nieuwe bouwaanvraag.
+milestones: []
+ai_processed_at: '2026-10-20T02:48:43.441Z'
+ai_status: done
 ---
 
 Hou

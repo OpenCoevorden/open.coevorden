@@ -1,9 +1,31 @@
 ---
-title: "Stedelijk Museum Coevorden Mandaatbesluit Subsidievaststelling 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Mandaatbesluit Subsidievaststelling 2024 (Geanonimiseerd).pdf"
-s3_etag: "2b5728c8b4fa33bb7c3856f1acbfd857"
-date: 2026-10-19
+title: >-
+  Stedelijk Museum Coevorden Mandaatbesluit Subsidievaststelling 2024
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Mandaatbesluit
+  Subsidievaststelling 2024 (Geanonimiseerd).pdf
+s3_etag: 2b5728c8b4fa33bb7c3856f1acbfd857
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document gaat over de vaststelling van de gemeentelijke subsidie 2024 aan
+  Stichting Stedelijk Museum Coevorden, waarbij de stichting volgens de
+  ingediende jaarstukken aan de voorwaarden heeft voldaan. De subsidie wordt
+  vastgesteld op €356.800 en het positieve resultaat van €855 wordt vanwege de
+  geringe omvang niet teruggevorderd.
+milestones:
+  - date: '2025-06-26'
+    event: >-
+      Subsidie 2024 vastgesteld op €356.800; resultaat van €855 niet
+      teruggevorderd
+ai_processed_at: '2026-10-20T02:57:07.100Z'
+ai_status: done
 ---
 
 Kenmerk: 26920-2025

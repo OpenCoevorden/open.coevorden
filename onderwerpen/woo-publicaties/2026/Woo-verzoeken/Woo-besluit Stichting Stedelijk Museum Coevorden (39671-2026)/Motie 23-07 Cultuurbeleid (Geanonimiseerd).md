@@ -1,9 +1,28 @@
 ---
-title: "Motie 23-07 Cultuurbeleid (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Motie 23-07 Cultuurbeleid (Geanonimiseerd).pdf"
-s3_etag: "5e0c9c75ff5ae1a3440dcc1bbd51b8f5"
-date: 2026-10-19
+title: Motie 23-07 Cultuurbeleid (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Motie 23-07 Cultuurbeleid (Geanonimiseerd).pdf
+s3_etag: 5e0c9c75ff5ae1a3440dcc1bbd51b8f5
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeenteraad van Coevorden behandelde een amendement dat tijdens de
+  beraadslagingen is omgezet in een motie over het ontwerpcultuurbeleid. De
+  motie, ingediend door BBC2014, CDA en PvdA, vraagt om broedplaatsen en
+  alternatieve theaterlocaties in bestaande gebouwen in de kernen, zoals scholen
+  en dorpshuizen, en vermeldt een stemming met 6 stemmen voor en 9 tegen.
+milestones:
+  - date: '2023-05-23'
+    event: >-
+      Amendement over het ontwerpcultuurbeleid ingediend en met 6 stemmen voor
+      en 9 tegen verworpen.
+ai_processed_at: '2026-10-20T03:01:49.741Z'
+ai_status: done
 ---
 
 `' Gemeente=

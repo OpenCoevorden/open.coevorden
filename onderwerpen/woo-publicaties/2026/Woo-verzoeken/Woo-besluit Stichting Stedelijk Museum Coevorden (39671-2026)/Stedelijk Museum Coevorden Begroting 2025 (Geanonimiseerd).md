@@ -1,9 +1,29 @@
 ---
-title: "Stedelijk Museum Coevorden Begroting 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Begroting 2025 (Geanonimiseerd).pdf"
-s3_etag: "cd4c7bc4940d13d5833fc228db727e1f"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Begroting 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Begroting 2025
+  (Geanonimiseerd).pdf
+s3_etag: cd4c7bc4940d13d5833fc228db727e1f
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Stichting Stedelijk Museum Coevorden vraagt de gemeente Coevorden om voor 2025
+  €384.100 subsidie, inclusief €28.100 voor de schoonmaak van het gehele
+  Arsenaal, en licht daarbij de begroting, organisatieontwikkeling,
+  professionalisering, tentoonstellingen, collectiebeheer, educatie en marketing
+  toe. De aanvraag bevat geen besluit of uitkomst van de gemeente;
+  persoonsgegevens zijn op grond van de Woo afgeschermd ter bescherming van de
+  persoonlijke levenssfeer.
+milestones:
+  - date: '2024-08-25'
+    event: Indiening subsidieaanvraag voor 2025
+ai_processed_at: '2026-10-20T02:59:39.151Z'
+ai_status: done
 ---
 
 STEDELIJK

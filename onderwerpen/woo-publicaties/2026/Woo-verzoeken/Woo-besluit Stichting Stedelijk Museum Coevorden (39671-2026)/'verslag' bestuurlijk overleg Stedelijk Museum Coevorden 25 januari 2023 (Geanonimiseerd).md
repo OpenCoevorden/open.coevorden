@@ -1,9 +1,30 @@
 ---
-title: "'verslag' bestuurlijk overleg Stedelijk Museum Coevorden 25 januari 2023 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/'verslag' bestuurlijk overleg Stedelijk Museum Coevorden 25 januari 2023 (Geanonimiseerd).pdf"
-s3_etag: "0f57183c5cce86a51736cd319c7cf065"
-date: 2026-10-19
+title: >-
+  'verslag' bestuurlijk overleg Stedelijk Museum Coevorden 25 januari 2023
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/'verslag' bestuurlijk overleg Stedelijk Museum
+  Coevorden 25 januari 2023 (Geanonimiseerd).pdf
+s3_etag: 0f57183c5cce86a51736cd319c7cf065
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document bevat een verslag van overleg tussen de gemeente Coevorden en het
+  Stedelijk Museum Coevorden over de toekomstige brede
+  cultureel-maatschappelijke functie van het museum, de extra subsidieaanvraag
+  voor 2023 en 2024, het project rond een nalatenschap, de samenwerking tussen
+  partijen in het Arsenaal en de schoonmaak. De partijen delen de ambitie voor
+  een breder en gemeentelijker museum; het museum levert een nadere
+  subsidieonderbouwing en vraagt ondersteuning voor het nalatenschapsproject,
+  waarna de gemeenteraad zich over de extra middelen moet uitspreken.
+milestones: []
+ai_processed_at: '2026-10-20T03:07:09.388Z'
+ai_status: done
 ---
 
 Verzonden: 27-01-2023 10:47

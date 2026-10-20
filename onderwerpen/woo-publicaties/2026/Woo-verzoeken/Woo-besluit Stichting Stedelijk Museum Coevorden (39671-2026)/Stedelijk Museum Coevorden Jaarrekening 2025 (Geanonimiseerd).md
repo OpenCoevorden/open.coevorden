@@ -1,9 +1,27 @@
 ---
-title: "Stedelijk Museum Coevorden Jaarrekening 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarrekening 2025 (Geanonimiseerd).pdf"
-s3_etag: "661f4facce8362930f87eefa8b2bbaf5"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Jaarrekening 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarrekening 2025
+  (Geanonimiseerd).pdf
+s3_etag: 661f4facce8362930f87eefa8b2bbaf5
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document betreft de samengestelde jaarrekening 2025 van Stichting
+  Stedelijk Museum Coevorden, opgesteld door Countus accountants + adviseurs
+  voor het bestuur, met inzicht in de financiële positie, baten, lasten en
+  kasstromen van de stichting. De stichting behaalde in 2025 een positief
+  resultaat van € 5.330 en had per 31 december 2025 een balanstotaal van €
+  187.337; Countus heeft een samenstellingsverklaring afgegeven en geen
+  controle- of beoordelingswerkzaamheden uitgevoerd.
+milestones: []
+ai_processed_at: '2026-10-20T02:58:29.154Z'
+ai_status: done
 ---
 
 RAPPORT

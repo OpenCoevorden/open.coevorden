@@ -1,9 +1,50 @@
 ---
-title: "Woo-verzoek Kadewand Kasteel 4  Coevorden"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Kadewand Kasteel 4  Coevorden.pdf"
-s3_etag: "5f749cbf63cc1267b278b8bd0ad996d6-4"
-date: 2026-10-19
+title: Woo-verzoek Kadewand Kasteel 4  Coevorden
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Kadewand Kasteel 4 
+  Coevorden.pdf
+s3_etag: 5f749cbf63cc1267b278b8bd0ad996d6-4
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document betreft een Woo-verzoek aan de gemeente Coevorden over de
+  herinrichting van de Markt en Haven, waaronder de verlenging van de kademuur,
+  meerkosten, eigendom en contacten met de VvE; betrokken zijn de gemeente
+  Coevorden, de VvE Kasteel 4, aannemer Sallandse Wegenbouw en waterschap
+  Vechtstromen. De gemeente wijst het verzoek gedeeltelijk toe door project-,
+  vergunning- en financiële documenten openbaar te maken met anonimisering en
+  weglakking van bedrijfsgevoelige informatie, maar stelt dat over het overleg
+  van 28 mei 2025 en de VvE geen documenten zijn aangetroffen; het waterschap
+  verleende de vergunning en verklaarde bezwaar daartegen ongegrond, met
+  toevoeging van een voorschrift over faunapasseerbaarheid.
+milestones:
+  - date: '2025-05-15'
+    event: Aanvraag omgevingsvergunning ingediend bij Waterschap Vechtstromen
+  - date: '2025-06-16'
+    event: Waterschap verleent omgevingsvergunning
+  - date: '2025-07-27'
+    event: Bezwaar tegen waterschapsvergunning ingediend
+  - date: '2025-08-07'
+    event: Aanvraag technische omgevingsvergunning ingediend bij gemeente Coevorden
+  - date: '2025-08-27'
+    event: Gemeente verleent technische omgevingsvergunning
+  - date: '2025-09-01'
+    event: Gemeente verleent omgevingsvergunning voor omgevingsplanactiviteit
+  - date: '2025-12-02'
+    event: >-
+      Bezwaar tegen waterschapsvergunning ongegrond verklaard; vergunning
+      aangevuld
+  - date: '2026-05-21'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2026-06-04'
+    event: Beslistermijn Woo-verzoek met twee weken verlengd
+  - date: '2026-07-14'
+    event: Woo-verzoek gedeeltelijk toegewezen
+ai_processed_at: '2026-10-20T02:47:54.959Z'
+ai_status: done
 ---
 
 Gemeente

@@ -1,9 +1,26 @@
 ---
-title: "Fwd_ Informatie en toelichting van het bestuur (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Fwd_ Informatie en toelichting van het bestuur (Geanonimiseerd).pdf"
-s3_etag: "545bcd034200993c8e4e55596cfa87b1"
-date: 2026-10-19
+title: Fwd_ Informatie en toelichting van het bestuur (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Fwd_ Informatie en toelichting van het bestuur
+  (Geanonimiseerd).pdf
+s3_etag: 545bcd034200993c8e4e55596cfa87b1
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het bestuur van het Stedelijk Museum Coevorden informeert de vrijwilligers
+  over het bezoek van commissaris van de Koning Jetta Klijnsma, de gewijzigde
+  bestuurssamenstelling en de afronding van de sollicitatieprocedure voor een
+  directeur. De interim-directeur is met ingang van 1 januari 2024 benoemd tot
+  directeur en neemt de dagelijkse leiding, uitvoering en communicatie met de
+  vrijwilligers over, zodat het bestuur meer op afstand kan functioneren.
+milestones: []
+ai_processed_at: '2026-10-20T03:02:58.120Z'
+ai_status: done
 ---
 
 Van:

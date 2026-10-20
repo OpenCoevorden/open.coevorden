@@ -1,9 +1,34 @@
 ---
-title: "Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)/Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026).pdf"
-s3_etag: "23b2ae2b3b2bda5b41bbb9002cd98dd7"
-date: 2026-10-19
+title: Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht
+  Holties (43399-2026)/Woo-besluit Kosten Capra Advocaten klacht Holties
+  (43399-2026).pdf
+s3_etag: 23b2ae2b3b2bda5b41bbb9002cd98dd7
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden beslist op een Woo-verzoek van GN MM, ingediend via
+  diens gemachtigde, over documenten betreffende de kosten van Capra Advocaten
+  voor de klachtenprocedure tegen wethouder Holties. Het verzoek wordt
+  gedeeltelijk toegewezen: documenten en factuurtotalen worden openbaar gemaakt,
+  met weglakking van persoonsgegevens, concurrentiegevoelige bedrijfsinformatie
+  en passages buiten de reikwijdte.
+milestones:
+  - date: '2026-07-13'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2026-08-17'
+    event: Beslistermijn verlengd
+  - date: '2026-08-25'
+    event: Beslistermijn opgeschort wegens betrokken belanghebbenden
+  - date: '2026-08-27'
+    event: 'Besluit: Woo-verzoek gedeeltelijk toegewezen'
+ai_processed_at: '2026-10-20T03:07:33.156Z'
+ai_status: done
 ---
 
 Gemeente

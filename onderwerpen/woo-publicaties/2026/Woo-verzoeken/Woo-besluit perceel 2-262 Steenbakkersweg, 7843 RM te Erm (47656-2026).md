@@ -1,9 +1,27 @@
 ---
-title: "Woo-besluit perceel 2-262 Steenbakkersweg, 7843 RM te Erm (47656-2026)"
-maps: ["woo-publicaties","2026","Woo-verzoeken"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit perceel 2-262 Steenbakkersweg, 7843 RM te Erm (47656-2026).pdf"
-s3_etag: "52d7df209b158113a0f5090afb366580"
-date: 2026-10-19
+title: 'Woo-besluit perceel 2-262 Steenbakkersweg, 7843 RM te Erm (47656-2026)'
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit perceel 2-262 Steenbakkersweg,
+  7843 RM te Erm (47656-2026).pdf
+s3_etag: 52d7df209b158113a0f5090afb366580
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden behandelt een Woo-verzoek over de status van perceel
+  2-262 aan de Steenbakkersweg in Erm en de eventuele toekenningsdatum van een
+  woonvergunning. Het verzoek is afgewezen omdat geen documenten zijn
+  aangetroffen; de informatie is volgens de gemeente online raadpleegbaar via
+  het Omgevingswet-portal.
+milestones:
+  - date: '2026-08-11'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2026-09-03'
+    event: Woo-verzoek afgewezen omdat geen documenten zijn aangetroffen
+ai_processed_at: '2026-10-20T02:48:18.454Z'
+ai_status: done
 ---
 
 Gemeente

@@ -1,9 +1,24 @@
 ---
-title: "Motie 23-06 Cultuurbeleid (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Motie 23-06 Cultuurbeleid (Geanonimiseerd).pdf"
-s3_etag: "14fe7ccf24ac52316a817d90bf7ad321"
-date: 2026-10-19
+title: Motie 23-06 Cultuurbeleid (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Motie 23-06 Cultuurbeleid (Geanonimiseerd).pdf
+s3_etag: 14fe7ccf24ac52316a817d90bf7ad321
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeenteraad van Coevorden behandelt het ontwerpcultuurbeleid en stelt voor
+  cultuuronderwijs, waaronder buitenschools muziekonderwijs, op te nemen in de
+  basisinfrastructuur, met een tijdelijke verdeling van het budget van €100.000
+  en een coördinerende rol voor de cultuurcoach. De motie, ingediend door CDA,
+  BBC2014 en PvdA, is aangenomen.
+milestones: []
+ai_processed_at: '2026-10-20T03:02:01.809Z'
+ai_status: done
 ---
 
 43 S

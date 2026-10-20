@@ -1,9 +1,24 @@
 ---
-title: "250910 opdrachtbevestiging (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)/250910 opdrachtbevestiging (Geanonimiseerd).pdf"
-s3_etag: "92dd32c5b16f7251f3cd08b00c803303"
-date: 2026-10-19
+title: 250910 opdrachtbevestiging (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht
+  Holties (43399-2026)/250910 opdrachtbevestiging (Geanonimiseerd).pdf
+s3_etag: 92dd32c5b16f7251f3cd08b00c803303
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Capra Advocaten bevestigt aan de gemeente Coevorden de aanvaarding van een
+  opdracht voor rechtsbijstand en advies in een klachtendossier. De brief
+  beschrijft onder meer het geopende dossier, de tarieven, declaratievoorwaarden
+  en klachtenregeling; over de inhoudelijke uitkomst van de klacht wordt niets
+  vermeld.
+milestones: []
+ai_processed_at: '2026-10-20T03:09:50.075Z'
+ai_status: done
 ---
 
 Capra Advocaten Telefoon 038-423 54 14 NL6IRABOO145376737

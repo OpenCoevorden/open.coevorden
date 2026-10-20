@@ -1,9 +1,27 @@
 ---
-title: "Verslag bestuurlijk overleg 24 oktober 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Verslag bestuurlijk overleg 24 oktober 2024 (Geanonimiseerd).pdf"
-s3_etag: "c95fee19631ce8f241c544a9eadd1044"
-date: 2026-10-19
+title: Verslag bestuurlijk overleg 24 oktober 2024 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Verslag bestuurlijk overleg 24 oktober 2024
+  (Geanonimiseerd).pdf
+s3_etag: c95fee19631ce8f241c544a9eadd1044
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Verslag van het bestuurlijk overleg tussen de gemeente Coevorden en Stichting
+  Stedelijk Museum Coevorden over de huisvesting in het Arsenaal, de verhuizing
+  van de bibliotheek, verduurzaming, professionalisering en het beleidsplan
+  2025-2028. Het beleidsplan werd positief beoordeeld, met afspraken over
+  toezending aan de gemeenteraad, een ijkmoment over de verdere ontwikkeling,
+  versnelling van het huisvestingsproces en ondersteuning bij
+  bestuursuitbreiding en de herinrichting.
+milestones: []
+ai_processed_at: '2026-10-20T02:53:19.446Z'
+ai_status: done
 ---
 
 Verslag bestuurlijk overleg Stichting Stedelijk

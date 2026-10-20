@@ -1,9 +1,27 @@
 ---
-title: "Verslag bestuurlijk overleg 29 januari 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Verslag bestuurlijk overleg 29 januari 2025 (Geanonimiseerd).pdf"
-s3_etag: "06aeba7c41ce44cb75164087d019dc4e"
-date: 2026-10-19
+title: Verslag bestuurlijk overleg 29 januari 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Verslag bestuurlijk overleg 29 januari 2025
+  (Geanonimiseerd).pdf
+s3_etag: 06aeba7c41ce44cb75164087d019dc4e
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het bestuurlijk overleg tussen de gemeente Coevorden en Stichting Stedelijk
+  Museum Coevorden gaat over de scheurvorming en toekomstige huisvesting van het
+  Arsenaal, de gevolgen voor de tentoonstelling ter gelegenheid van 80 jaar
+  vrijheid en plannen voor de museumuitbreiding, waaronder de vondst van een
+  7.000 jaar oude boomstam. Het Arsenaal blijft voorlopig open en het museum
+  geeft de voorkeur aan een tentoonstelling in het eigen gebouw; verdere keuzes
+  worden uitgesteld totdat de onderzoeken naar de verzakking zijn afgerond.
+milestones: []
+ai_processed_at: '2026-10-20T02:53:07.742Z'
+ai_status: done
 ---
 
 Verslag bestuurlijk overleg Stichting Stedelijk

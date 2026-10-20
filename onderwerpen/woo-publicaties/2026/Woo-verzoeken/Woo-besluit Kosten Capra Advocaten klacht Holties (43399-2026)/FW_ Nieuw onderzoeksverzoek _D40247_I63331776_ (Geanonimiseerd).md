@@ -1,9 +1,24 @@
 ---
-title: "FW_ Nieuw onderzoeksverzoek _D40247_I63331776_ (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)/FW_ Nieuw onderzoeksverzoek _D40247_I63331776_ (Geanonimiseerd).pdf"
-s3_etag: "990786a9c4698d6a7834db9473c00fa7"
-date: 2026-10-19
+title: FW_ Nieuw onderzoeksverzoek _D40247_I63331776_ (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht
+  Holties (43399-2026)/FW_ Nieuw onderzoeksverzoek _D40247_I63331776_
+  (Geanonimiseerd).pdf
+s3_etag: 990786a9c4698d6a7834db9473c00fa7
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden vraagt Capra Advocaten om een klacht over uitspraken van
+  een wethouder extern te onderzoeken, zodat de objectiviteit wordt gewaarborgd;
+  de burgemeester behandelt de klacht. Capra Advocaten bevestigt dat het
+  onderzoek kan worden uitgevoerd en stelt telefonisch overleg voor.
+milestones: []
+ai_processed_at: '2026-10-20T03:09:28.054Z'
+ai_status: done
 ---
 
 Van:

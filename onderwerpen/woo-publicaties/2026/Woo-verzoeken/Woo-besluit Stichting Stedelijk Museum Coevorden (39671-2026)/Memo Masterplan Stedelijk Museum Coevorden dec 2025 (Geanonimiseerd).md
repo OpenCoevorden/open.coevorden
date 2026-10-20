@@ -1,9 +1,28 @@
 ---
-title: "Memo Masterplan Stedelijk Museum Coevorden dec 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Memo Masterplan Stedelijk Museum Coevorden dec 2025 (Geanonimiseerd).pdf"
-s3_etag: "de61bf7bc2e680a11cdb3cfe79bdac93"
-date: 2026-10-19
+title: Memo Masterplan Stedelijk Museum Coevorden dec 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Memo Masterplan Stedelijk Museum Coevorden dec 2025
+  (Geanonimiseerd).pdf
+s3_etag: de61bf7bc2e680a11cdb3cfe79bdac93
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het memo van de gemeente Coevorden aan het college van B&W gaat over het laten
+  opstellen van een masterplan voor de verbouwing van het gemeentelijke Arsenaal
+  en de uitbreiding en professionalisering van het Stedelijk Museum Coevorden,
+  in samenhang met de verhuizing van de bibliotheek, verduurzaming, restauratie
+  en toekomstige exploitatie. Het college wordt gevraagd hierover opiniërend een
+  standpunt in te nemen; bij een positief standpunt wordt een college- en
+  raadsvoorstel voorbereid voor een masterplan van naar verwachting €80.000 tot
+  €100.000.
+milestones: []
+ai_processed_at: '2026-10-20T03:02:36.214Z'
+ai_status: done
 ---
 
 Memo

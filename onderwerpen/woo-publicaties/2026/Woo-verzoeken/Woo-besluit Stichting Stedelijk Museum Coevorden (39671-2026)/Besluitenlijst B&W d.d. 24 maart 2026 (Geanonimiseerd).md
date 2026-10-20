@@ -1,9 +1,27 @@
 ---
-title: "Besluitenlijst B&W d.d. 24 maart 2026 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Besluitenlijst B&W d.d. 24 maart 2026 (Geanonimiseerd).pdf"
-s3_etag: "e2d3621ca7bf0c0f1848151fe51b4fc8"
-date: 2026-10-19
+title: Besluitenlijst B&W d.d. 24 maart 2026 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Besluitenlijst B&W d.d. 24 maart 2026
+  (Geanonimiseerd).pdf
+s3_etag: e2d3621ca7bf0c0f1848151fe51b4fc8
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De besluitenlijst beschrijft de vergadering van het college van burgemeester
+  en wethouders van 24 maart 2026, met besluiten over onder meer samenwerking
+  rond volwasseneneducatie, onderwijs en voorschoolse educatie, financiering van
+  een Soorten Management Plan, cultuurbeleid en een woninguitbreiding in Erm. De
+  aangepaste samenwerkingsovereenkomst met gemeenten en onderwijsinstellingen
+  werd aangegaan, de herbestemming van de locatie DNV werd aangehouden en voor
+  de woninguitbreiding werd onder voorwaarden een vergunning verleend.
+milestones: []
+ai_processed_at: '2026-10-20T03:05:03.474Z'
+ai_status: done
 ---
 
 BESLUITENLIJST

@@ -1,9 +1,27 @@
 ---
-title: "Raadsbesluit en -voorstel ontwerpcultuurnota (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Raadsbesluit en -voorstel ontwerpcultuurnota (Geanonimiseerd).pdf"
-s3_etag: "bd959d83b20a0be4102b2b772a4de792"
-date: 2026-10-19
+title: Raadsbesluit en -voorstel ontwerpcultuurnota (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Raadsbesluit en -voorstel ontwerpcultuurnota
+  (Geanonimiseerd).pdf
+s3_etag: bd959d83b20a0be4102b2b772a4de792
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document gaat over het ontwerp-cultuurbeleid van de gemeente Coevorden,
+  opgesteld door het college en gericht op cultuuronderwijs, cultuurparticipatie
+  en een culturele basisinfrastructuur met onder meer Cultuurpodium Coevorden,
+  het Stedelijk Museum Coevorden en de Synagoge Coevorden. De gemeenteraad
+  stemde op 23 mei 2023 in met de cultuurvisie en basisinfrastructuur, koos
+  voorkeursscenario 1 als beleidsvoornemen en besloot het ontwerpbeleid ter
+  inzage te leggen.
+milestones: []
+ai_processed_at: '2026-10-20T03:01:07.816Z'
+ai_status: done
 ---
 
 Documentnummer: 23147-2023

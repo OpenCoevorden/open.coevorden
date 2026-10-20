@@ -1,9 +1,28 @@
 ---
-title: "Monitoring Cultuurbeleid 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Monitoring Cultuurbeleid 2024 (Geanonimiseerd).pdf"
-s3_etag: "9caf33d34d267989a0885dc22af62d15"
-date: 2026-10-19
+title: Monitoring Cultuurbeleid 2024 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Monitoring Cultuurbeleid 2024 (Geanonimiseerd).pdf
+s3_etag: 9caf33d34d267989a0885dc22af62d15
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden rapporteert over de uitvoering van de cultuurnota
+  ‘Cultureel Kansrijk Opgroeien’ in 2024, met aandacht voor cultuuronderwijs,
+  buitenschoolse cultuursubsidies, cultuurcoaches en de versterking van
+  culturele instellingen en initiatieven. De gemeente, onderwijsstichtingen,
+  culturele organisaties, kunstenaarsverenigingen en inwoners werkten samen; er
+  werden onder meer 131 kinderen bereikt via Toegankelijk Cultuuronderwijs, acht
+  dorpsbroedplaatsen ondersteund en 27 activiteiten gefinancierd via de
+  Coevorder Cultuurpot, waarmee een basis voor verdere beleidsuitvoering is
+  gelegd.
+milestones: []
+ai_processed_at: '2026-10-20T03:02:13.276Z'
+ai_status: done
 ---
 
 Cultureel Kansrijk Opgroeien

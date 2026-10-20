@@ -1,9 +1,27 @@
 ---
-title: "Stedelijk Museum Coevorden Jaarrekening en Jaarverslag 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarrekening en Jaarverslag 2024 (Geanonimiseerd).pdf"
-s3_etag: "db45351c5fccf41d20013c187858a0e3-2"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Jaarrekening en Jaarverslag 2024 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarrekening en Jaarverslag
+  2024 (Geanonimiseerd).pdf
+s3_etag: db45351c5fccf41d20013c187858a0e3-2
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Stichting Stedelijk Museum Coevorden dient bij het college van burgemeester en
+  wethouders van de gemeente Coevorden de jaarrekening en het jaarverslag 2024
+  in en verzoekt de subsidie over 2024 vast te stellen op €368.000. Het verslag
+  beschrijft de tentoonstellingen, educatieve en collectieactiviteiten en
+  organisatie, terwijl de jaarrekening – samengesteld door Countus Accountants
+  en Adviseurs – een positief resultaat van €855 en een balans totaal van
+  €183.660 vermeldt.
+milestones: []
+ai_processed_at: '2026-10-20T02:58:17.432Z'
+ai_status: done
 ---
 
 STEDELIJK

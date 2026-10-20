@@ -1,9 +1,28 @@
 ---
-title: "Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 6 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 6 .pdf"
-s3_etag: "92b16ca628d30dfba27e598f5981162f-7"
-date: 2026-10-19
+title: 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 6 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen
+  DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00,
+  C7123, DLN00, M1488 Deel 6 .pdf
+s3_etag: 92b16ca628d30dfba27e598f5981162f-7
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document betreft akoestisch onderzoek naar wegverkeerslawaai en een
+  verkennend milieukundig bodemonderzoek voor geplande woningbouw aan de
+  Thyakkerstraat in Dalen, in opdracht van CPO Dalers Starters en uitgevoerd
+  door BJZ.nu en Sigma Geo- & Milieutechniek B.V. Uit het bodemonderzoek blijkt
+  dat de bodem overwegend geschikt is, maar plaatselijk matig met minerale olie
+  is verontreinigd; nader bodemonderzoek wordt aanbevolen, terwijl het
+  grondwater geen overschrijding van signaleringsparameters vertoont en het
+  asfaltgranulaat niet teerhoudend is.
+milestones: []
+ai_processed_at: '2026-10-20T02:50:03.542Z'
+ai_status: done
 ---
 
 Akoestisch onderzoek geluid door wegen Thyakkerstraat , Dalen

@@ -1,9 +1,25 @@
 ---
-title: "Factuur Capra 32501405 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)/Factuur Capra 32501405 (Geanonimiseerd).pdf"
-s3_etag: "d08fc2978161d9fdd0a369fec2d15316"
-date: 2026-10-19
+title: Factuur Capra 32501405 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht
+  Holties (43399-2026)/Factuur Capra 32501405 (Geanonimiseerd).pdf
+s3_etag: d08fc2978161d9fdd0a369fec2d15316
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document is een urendeclaratie van Capra Advocaten aan de gemeente
+  Coevorden voor juridische werkzaamheden inzake een klacht, waaronder
+  correspondentie, jurisprudentieonderzoek, overleg en het opstellen van een
+  concept, uitgevoerd tot en met 30 september 2025. De declaratie bedraagt €
+  1.718,99 inclusief btw; persoonsgegevens en concurrentiegevoelige
+  bedrijfsgegevens zijn op grond van de Woo geanonimiseerd.
+milestones: []
+ai_processed_at: '2026-10-20T03:09:15.387Z'
+ai_status: done
 ---
 
 Cd ©, ra and

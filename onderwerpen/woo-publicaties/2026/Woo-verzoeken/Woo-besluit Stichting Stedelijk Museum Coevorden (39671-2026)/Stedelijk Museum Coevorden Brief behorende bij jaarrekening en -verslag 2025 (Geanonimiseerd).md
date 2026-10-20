@@ -1,9 +1,36 @@
 ---
-title: "Stedelijk Museum Coevorden Brief behorende bij jaarrekening en -verslag 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Brief behorende bij jaarrekening en -verslag 2025 (Geanonimiseerd).pdf"
-s3_etag: "bbb3eca1fb7d4d0d7365295dabc5de52"
-date: 2026-10-19
+title: >-
+  Stedelijk Museum Coevorden Brief behorende bij jaarrekening en -verslag 2025
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Brief behorende bij
+  jaarrekening en -verslag 2025 (Geanonimiseerd).pdf
+s3_etag: bbb3eca1fb7d4d0d7365295dabc5de52
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het Stedelijk Museum Coevorden verzoekt het college van burgemeester en
+  wethouders van Coevorden de subsidie over 2025 vast te stellen op €368.000 en
+  dient daarvoor het jaarverslag en de jaarrekening 2025 in. De jaarrekening,
+  samengesteld en gecontroleerd door Countus Accountants en Adviseurs, vermeldt
+  een positief saldo van €5.330; beide documenten zijn door het museum
+  vastgesteld en aan de gemeente verstrekt.
+milestones:
+  - date: '2026-03-03'
+    event: >-
+      Verlenging van de indieningstermijn voor de subsidievaststelling 2025 tot
+      2026-06-01
+  - date: '2026-05-27'
+    event: Digitale indiening van de jaarrekening en het jaarverslag 2025
+  - date: '2026-05-31'
+    event: Aanvraag tot vaststelling van de subsidie 2025 op €368.000
+ai_processed_at: '2026-10-20T02:59:16.205Z'
+ai_status: done
 ---
 
 STEDELIJK

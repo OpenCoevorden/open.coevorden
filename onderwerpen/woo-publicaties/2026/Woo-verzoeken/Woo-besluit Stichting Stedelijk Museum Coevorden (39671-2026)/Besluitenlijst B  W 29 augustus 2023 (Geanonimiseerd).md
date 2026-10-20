@@ -1,9 +1,27 @@
 ---
-title: "Besluitenlijst B  W 29 augustus 2023 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Besluitenlijst B  W 29 augustus 2023 (Geanonimiseerd).pdf"
-s3_etag: "4415706afe3f51bb97293efb31a1811f"
-date: 2026-10-19
+title: Besluitenlijst B  W 29 augustus 2023 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Besluitenlijst B  W 29 augustus 2023
+  (Geanonimiseerd).pdf
+s3_etag: 4415706afe3f51bb97293efb31a1811f
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De burgemeester en wethouders van Coevorden besloten onder meer over centrale
+  stemopneming bij de Tweede Kamerverkiezingen, wijzigingen in regelgeving, het
+  veiligheids- en cultuurbeleid, afvalinzameling op recreatieparken, ruimtelijke
+  initiatieven en de halfjaarrapportage 2023. Zij stemden onder voorwaarden in
+  met enkele voorstellen, wezen woningbouw aan de Valsteeg af, hielden de
+  aanvraag voor uitbreiding van een co-vergister aan en legden diverse
+  voorstellen en financiële besluiten voor aan de gemeenteraad.
+milestones: []
+ai_processed_at: '2026-10-20T03:05:14.592Z'
+ai_status: done
 ---
 
 BESLUITENLIJST

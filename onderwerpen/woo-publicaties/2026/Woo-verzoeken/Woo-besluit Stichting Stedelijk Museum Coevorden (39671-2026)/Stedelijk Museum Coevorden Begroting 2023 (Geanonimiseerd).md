@@ -1,9 +1,25 @@
 ---
-title: "Stedelijk Museum Coevorden Begroting 2023 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Begroting 2023 (Geanonimiseerd).pdf"
-s3_etag: "37cb769f37c916e47731e31b4ddc62ba"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Begroting 2023 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Begroting 2023
+  (Geanonimiseerd).pdf
+s3_etag: 37cb769f37c916e47731e31b4ddc62ba
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De begroting 2023 van Stichting Stedelijk Museum Coevorden beschrijft de
+  begrote inkomsten, waaronder entree- en winkelopbrengsten, projectsubsidies en
+  een gemeentelijke subsidie van de Gemeente Coevorden, en de uitgaven voor
+  personeel, tentoonstellingen, huisvesting, marketing en overige kosten. De
+  begroting is gebaseerd op een sluitend financieel resultaat.
+milestones: []
+ai_processed_at: '2026-10-20T03:00:01.085Z'
+ai_status: done
 ---
 
 Stedelijk Museum

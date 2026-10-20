@@ -1,9 +1,25 @@
 ---
-title: "Factuur Capra 32501846 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)/Factuur Capra 32501846 (Geanonimiseerd).pdf"
-s3_etag: "163ff51d502471f1225a1ad7f4621f2d"
-date: 2026-10-19
+title: Factuur Capra 32501846 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht
+  Holties (43399-2026)/Factuur Capra 32501846 (Geanonimiseerd).pdf
+s3_etag: 163ff51d502471f1225a1ad7f4621f2d
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document bevat twee vertrouwelijke declaraties van Capra Advocaten aan de
+  gemeente Coevorden voor juridische werkzaamheden, waaronder dossieronderzoek,
+  overleg, correspondentie en het opstellen van adviezen in een zaak en een
+  klacht. De declaraties van 5 januari en 4 februari 2026 bedragen inclusief btw
+  respectievelijk € 2.891,66 en € 1.372,14; inhoudelijk wordt geen uitkomst van
+  de zaak vermeld.
+milestones: []
+ai_processed_at: '2026-10-20T03:08:40.973Z'
+ai_status: done
 ---
 
 overheid Capra Advocaten Telefoon 038-423 54 14 NL6IRABOO145376737

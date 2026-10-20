@@ -1,9 +1,33 @@
 ---
-title: "Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026).pdf"
-s3_etag: "7088191a56371449f179bb3ee824bab8"
-date: 2026-10-19
+title: Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht
+  Holties (43399-2026)/Woo-besluit Stichting Stedelijk Museum Coevorden
+  (39671-2026).pdf
+s3_etag: 7088191a56371449f179bb3ee824bab8
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden besluit op een Woo-verzoek om documenten over de relatie
+  met Stichting Stedelijk Museum Coevorden in de periode 2022–2026, waaronder
+  subsidies, financiële stukken, bestuurlijke overleggen en correspondentie. Het
+  verzoek wordt gedeeltelijk toegewezen: aangetroffen documenten worden openbaar
+  gemaakt met weglakking van persoonsgegevens, vertrouwelijke
+  bedrijfsinformatie, persoonlijke beleidsopvattingen en strategische
+  informatie; voor enkele gevraagde onderwerpen zijn geen documenten gevonden.
+milestones:
+  - date: '2026-07-02'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2026-07-06'
+    event: Beslistermijn verlengd
+  - date: '2026-08-20'
+    event: 'Besluit: Woo-verzoek gedeeltelijk toegewezen'
+ai_processed_at: '2026-10-20T03:07:21.140Z'
+ai_status: done
 ---
 
 Gemeente

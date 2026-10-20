@@ -1,9 +1,28 @@
 ---
-title: "Raadsinformatiebrief Uitvoering cultuurbeleid zaak 13422-2026 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Raadsinformatiebrief Uitvoering cultuurbeleid zaak 13422-2026 (Geanonimiseerd).pdf"
-s3_etag: "898122c6272800a20d78558766eb47df"
-date: 2026-10-19
+title: Raadsinformatiebrief Uitvoering cultuurbeleid zaak 13422-2026 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Raadsinformatiebrief Uitvoering cultuurbeleid zaak
+  13422-2026 (Geanonimiseerd).pdf
+s3_etag: 898122c6272800a20d78558766eb47df
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het college van burgemeester en wethouders van Coevorden informeert de
+  gemeenteraad over de uitvoering van de cultuurnota ‘Cultureel Kansrijk
+  Opgroeien’ en de ontwikkeling van een culturele basisinfrastructuur, waaronder
+  cultuuronderwijs, cultuurcoaches, Stichting Cultuurpodium Coevorden en
+  Stichting Stedelijk Museum Coevorden. Vanwege beperkte financiële ruimte
+  worden voorstellen voor een culturele broedplaats en de uitbreiding van het
+  Stedelijk Museum in het Arsenaal voorlopig niet aan de raad voorgelegd,
+  terwijl andere onderdelen van het cultuurbeleid worden voortgezet.
+milestones: []
+ai_processed_at: '2026-10-20T03:00:33.136Z'
+ai_status: done
 ---
 
 dt Gemeente

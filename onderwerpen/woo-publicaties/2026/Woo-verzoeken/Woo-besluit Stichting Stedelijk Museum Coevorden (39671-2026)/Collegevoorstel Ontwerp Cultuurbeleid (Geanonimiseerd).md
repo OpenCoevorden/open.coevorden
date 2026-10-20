@@ -1,9 +1,28 @@
 ---
-title: "Collegevoorstel Ontwerp Cultuurbeleid (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Collegevoorstel Ontwerp Cultuurbeleid (Geanonimiseerd).pdf"
-s3_etag: "7ae54df1a6c7b1ebebaf001b6946579a"
-date: 2026-10-19
+title: Collegevoorstel Ontwerp Cultuurbeleid (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Collegevoorstel Ontwerp Cultuurbeleid
+  (Geanonimiseerd).pdf
+s3_etag: 7ae54df1a6c7b1ebebaf001b6946579a
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het college van burgemeester en wethouders van Coevorden behandelt het
+  ontwerp-cultuurbeleid, waarin cultuur vanuit het perspectief van cultureel
+  kansrijk opgroeien van kinderen wordt uitgewerkt in beleidskeuzes en drie
+  financiële scenario’s. Het college stemt in met het ontwerp, benoemt scenario
+  1 als voorkeursscenario en stelt de gemeenteraad voor de visie en het beleid
+  vast te stellen en het ontwerp ter inzage te leggen; daarbij worden onder meer
+  de rollen van Cultuurpodium Coevorden, het Stedelijk Museum Coevorden en de
+  Synagoge Coevorden beschreven.
+milestones: []
+ai_processed_at: '2026-10-20T03:04:23.556Z'
+ai_status: done
 ---
 
 Kenmerk: 23147-2023

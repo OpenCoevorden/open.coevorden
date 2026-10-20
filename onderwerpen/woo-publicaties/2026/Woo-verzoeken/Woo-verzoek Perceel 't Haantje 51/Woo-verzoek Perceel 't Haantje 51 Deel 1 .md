@@ -1,9 +1,39 @@
 ---
-title: "Woo-verzoek Perceel 't Haantje 51 Deel 1 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Perceel 't Haantje 51"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Perceel 't Haantje 51/Woo-verzoek Perceel 't Haantje 51 Deel 1 .pdf"
-s3_etag: "607bdc651484de80939ee7c04b722961-7"
-date: 2026-10-19
+title: 'Woo-verzoek Perceel ''t Haantje 51 Deel 1 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-verzoek Perceel 't Haantje 51
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Perceel 't Haantje
+  51/Woo-verzoek Perceel 't Haantje 51 Deel 1 .pdf
+s3_etag: 607bdc651484de80939ee7c04b722961-7
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden beslist op het Woo-verzoek van MN om vergunningen,
+  bouwstukken, handhavingsdocumenten en overige informatie over het perceel ’t
+  Haantje 51, waarbij onder meer belanghebbenden en dossier Z2026-000147
+  betrokken zijn. Het verzoek wordt gedeeltelijk toegewezen: documenten worden
+  openbaar gemaakt met weglakking van persoonsgegevens, terwijl de stukken van
+  Z2026-000147 niet opnieuw worden verstrekt omdat deze al aan MN zijn gegeven.
+milestones:
+  - date: '2010-02-04'
+    event: >-
+      Bouwvergunning 20090508 verleend voor een stallingsruimte met hooi- en
+      stro-opslag.
+  - date: '2026-06-10'
+    event: Omgevingsvergunning verleend voor ’t Haantje 51.
+  - date: '2026-06-24'
+    event: >-
+      Woo-verzoek ingediend en ontvangen over vergunningen en archiefstukken
+      voor ’t Haantje 51.
+  - date: '2026-08-14'
+    event: >-
+      Woo-besluit: verzoek gedeeltelijk toegewezen; documenten openbaar gemaakt
+      met weglakking van persoonsgegevens.
+ai_processed_at: '2026-10-20T02:49:03.112Z'
+ai_status: done
 ---
 
 Gemeente

@@ -1,9 +1,34 @@
 ---
-title: "Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 1 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 1 .pdf"
-s3_etag: "d9b6d7cc75d7f7a6dc74ab6634237154-7"
-date: 2026-10-19
+title: 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 1 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen
+  DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00,
+  C7123, DLN00, M1488 Deel 1 .pdf
+s3_etag: d9b6d7cc75d7f7a6dc74ab6634237154-7
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden beslist op een Woo-verzoek over informatie over de
+  voorbereiding van woningbouw door CPO Daler Starters op de percelen DLN00
+  C7123 en DLN00 M 1488, waaronder correspondentie, ontwerpen, tekeningen en
+  gemeentelijke reacties. Het verzoek wordt gedeeltelijk toegewezen: documenten
+  worden grotendeels openbaar gemaakt, maar persoonsgegevens,
+  concurrentiegevoelige bedrijfsinformatie, interne beleidsopvattingen en
+  financiële onderhandelingsinformatie worden gelakt; zienswijzen blijven
+  voorlopig niet openbaar en verstrekking wordt uitgesteld.
+milestones:
+  - date: '2026-06-08'
+    event: Woo-verzoek ingediend en ontvangen
+  - date: '2026-06-09'
+    event: Beslistermijn met twee weken verlengd tot en met 2026-07-20
+  - date: '2026-08-14'
+    event: 'Besluit: Woo-verzoek gedeeltelijk toegewezen'
+ai_processed_at: '2026-10-20T02:52:01.936Z'
+ai_status: done
 ---
 
 Gemeente

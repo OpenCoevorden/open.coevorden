@@ -1,9 +1,43 @@
 ---
-title: "Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 2 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 2 .pdf"
-s3_etag: "a23e745e2950a8d9f391f8ae52536ec0-7"
-date: 2026-10-19
+title: 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 2 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen
+  DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00,
+  C7123, DLN00, M1488 Deel 2 .pdf
+s3_etag: a23e745e2950a8d9f391f8ae52536ec0-7
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document bevat onder meer statuten van een vereniging, civieltechnische
+  kostenramingen en een concept-kostenverhaalsovereenkomst tussen de gemeente
+  Coevorden en CPO Daler Starters voor de ontwikkeling aan de Thyakkerstraat in
+  Dalen. De ontwikkeling betreft vijftien betaalbare koopwoningen met
+  bijbehorende infrastructuur, groen- en parkeervoorzieningen; de gemeente is
+  bereid planologische medewerking te verlenen via een TAM-omgevingsplan,
+  waarbij de initiatiefnemer de kosten, risico’s en uitvoering draagt.
+milestones:
+  - date: '2025-03-04'
+    event: >-
+      College wijst de locaties Thyakkerstraat en Kieftenweg aan voor verkoop
+      aan een CPO.
+  - date: '2025-04-13'
+    event: >-
+      CPO Daler Starters meldt zich aan als gegadigde voor aankoop van de
+      gronden.
+  - date: '2025-04-29'
+    event: >-
+      Gemeente besluit de gronden aan de Thyakkerstraat en Kieftenweg aan CPO
+      Daler Starters te verkopen.
+  - date: '2025-08-15'
+    event: >-
+      Initiatiefnemer verzoekt de gemeente om planologische medewerking voor de
+      realisatie van vijftien woningen.
+ai_processed_at: '2026-10-20T02:51:47.313Z'
+ai_status: done
 ---
 
 10

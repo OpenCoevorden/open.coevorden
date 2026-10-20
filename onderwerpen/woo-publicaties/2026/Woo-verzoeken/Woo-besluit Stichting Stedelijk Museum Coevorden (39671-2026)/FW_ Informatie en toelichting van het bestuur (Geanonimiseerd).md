@@ -1,9 +1,27 @@
 ---
-title: "FW_ Informatie en toelichting van het bestuur (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/FW_ Informatie en toelichting van het bestuur (Geanonimiseerd).pdf"
-s3_etag: "a686f48191c87f777136ded61413c277"
-date: 2026-10-19
+title: FW_ Informatie en toelichting van het bestuur (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/FW_ Informatie en toelichting van het bestuur
+  (Geanonimiseerd).pdf
+s3_etag: a686f48191c87f777136ded61413c277
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document betreft de benoeming van een nieuwe directeur van het Stedelijk
+  Museum Coevorden, de gewijzigde bestuurssamenstelling en de voorgenomen
+  grotere afstand van het bestuur tot de dagelijkse uitvoering. Daarnaast licht
+  het bestuur aan vrijwilligers het beëindigen van een vrijwilligersovereenkomst
+  wegens een vertrouwensbreuk toe; naar aanleiding van de gegeven toelichting
+  wordt geconcludeerd dat de benoemingsprocedure transparant en verdedigbaar was
+  en dat de subsidieverlening voor 2024 kan worden voortgezet.
+milestones: []
+ai_processed_at: '2026-10-20T03:03:09.000Z'
+ai_status: done
 ---
 
 Verzonden: 05-12-2023 12:17

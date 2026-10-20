@@ -1,9 +1,27 @@
 ---
-title: "Stedelijk Museum Coevorden Jaarverslag 2022 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarverslag 2022 (Geanonimiseerd).pdf"
-s3_etag: "a2c5b513cf799a4085c5043524041f88"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Jaarverslag 2022 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarverslag 2022
+  (Geanonimiseerd).pdf
+s3_etag: a2c5b513cf799a4085c5043524041f88
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het jaarverslag 2022 van het Stedelijk Museum Coevorden beschrijft het herstel
+  na de coronapandemie, met tentoonstellingen over onder meer het rampjaar 1672,
+  educatieve en publieksactiviteiten, collectie-uitbreiding, communicatie,
+  bedrijfsvoering en 5.188 bezoekers. Het museum, bestuur, directie, medewerkers
+  en vrijwilligers werkten samen met de gemeente Coevorden en andere partners
+  aan professionalisering en een toekomstverkenning voor uitbreiding van het
+  museum in of buiten het Arsenaal.
+milestones: []
+ai_processed_at: '2026-10-20T02:58:05.900Z'
+ai_status: done
 ---
 
 JAARVERSLAG 2022

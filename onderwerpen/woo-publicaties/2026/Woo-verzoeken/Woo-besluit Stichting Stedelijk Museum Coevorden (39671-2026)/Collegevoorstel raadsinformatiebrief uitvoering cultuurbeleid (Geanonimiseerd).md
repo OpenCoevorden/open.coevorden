@@ -1,9 +1,30 @@
 ---
-title: "Collegevoorstel raadsinformatiebrief uitvoering cultuurbeleid (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Collegevoorstel raadsinformatiebrief uitvoering cultuurbeleid (Geanonimiseerd).pdf"
-s3_etag: "044245c6883c5036d45e46a77f449e80"
-date: 2026-10-19
+title: Collegevoorstel raadsinformatiebrief uitvoering cultuurbeleid (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Collegevoorstel raadsinformatiebrief uitvoering
+  cultuurbeleid (Geanonimiseerd).pdf
+s3_etag: 044245c6883c5036d45e46a77f449e80
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het college van burgemeester en wethouders van Coevorden besluit de
+  gemeenteraad via een raadsinformatiebrief te informeren over de uitvoering van
+  het cultuurbeleid, waaronder de culturele broedplaats en de uitbreiding van
+  het Stedelijk Museum Coevorden. Vanwege het ontbreken van financiële ruimte
+  wordt op beide ambities voorlopig een pas op de plaats gemaakt; de betrokken
+  culturele instellingen zijn hierover geïnformeerd.
+milestones:
+  - date: '2026-02-03'
+    event: >-
+      Besluit om pas op de plaats te maken met de voorbereiding op de
+      uitbreiding van Stedelijk Museum Coevorden
+ai_processed_at: '2026-10-20T03:04:00.519Z'
+ai_status: done
 ---
 
 ML Gemeente

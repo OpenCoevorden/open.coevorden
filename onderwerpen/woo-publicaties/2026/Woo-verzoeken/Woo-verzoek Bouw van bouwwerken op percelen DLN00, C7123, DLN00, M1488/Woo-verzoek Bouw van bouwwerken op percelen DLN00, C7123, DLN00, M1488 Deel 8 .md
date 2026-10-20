@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 8 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 8 .pdf"
-s3_etag: "94c395b7169f66e45298a0b42e4ade3d-3"
-date: 2026-10-19
+title: 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 8 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen
+  DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00,
+  C7123, DLN00, M1488 Deel 8 .pdf
+s3_etag: 94c395b7169f66e45298a0b42e4ade3d-3
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het dossier gaat over de voorgenomen woningbouw door CPO Daler Starters aan de
+  Thyakkerstraat en Kieftenweg in Dalen, waarvoor de gemeente Coevorden,
+  omwonenden, Laagland Archeologie, Het Oversticht en de provincie Drenthe
+  betrokken waren bij grondtoewijzing, participatie, archeologie en ruimtelijke
+  kwaliteit. Archeologisch kan Thyakker worden vrijgegeven en Kieftenweg alleen
+  bij werkzaamheden onder 500 m² (anders zijn proefsleuven nodig), terwijl Het
+  Oversticht het woningbouwplan vanuit welstand onvoldoende ingepast en in
+  strijd met redelijke welstandseisen achtte; de provincie zag geen provinciaal
+  belang dat verdere procedure belemmert.
+milestones: []
+ai_processed_at: '2026-10-20T02:49:17.835Z'
+ai_status: done
 ---
 
 Volgens de Archeologische Beleidskaart van de Gemeente Coevorden bevindt een

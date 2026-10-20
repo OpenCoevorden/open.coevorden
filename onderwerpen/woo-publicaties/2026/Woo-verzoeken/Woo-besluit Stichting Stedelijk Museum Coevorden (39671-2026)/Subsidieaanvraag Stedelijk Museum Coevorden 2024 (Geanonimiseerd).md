@@ -1,9 +1,29 @@
 ---
-title: "Subsidieaanvraag Stedelijk Museum Coevorden 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Subsidieaanvraag Stedelijk Museum Coevorden 2024 (Geanonimiseerd).pdf"
-s3_etag: "91d7beaf239a69582ee93bfa90a98599"
-date: 2026-10-19
+title: Subsidieaanvraag Stedelijk Museum Coevorden 2024 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Subsidieaanvraag Stedelijk Museum Coevorden 2024
+  (Geanonimiseerd).pdf
+s3_etag: 91d7beaf239a69582ee93bfa90a98599
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De Stichting Stedelijk Museum Coevorden vraagt het college van burgemeester en
+  wethouders van Coevorden om voor 2024 een subsidie van € 332.300, exclusief €
+  24.500 voor het gehele Arsenaal, voor de exploitatie, professionalisering en
+  uitvoering van museumactiviteiten. De aanvraag beschrijft onder meer de
+  beoogde personele ontwikkeling, marketing, tentoonstellingen, digitale
+  collectieontsluiting en educatieve samenwerking, maar bevat geen besluit over
+  toekenning.
+milestones:
+  - date: '2023-08-31'
+    event: Indiening subsidieaanvraag voor 2024
+ai_processed_at: '2026-10-20T02:54:09.617Z'
+ai_status: done
 ---
 
 Haven 4

@@ -1,9 +1,29 @@
 ---
-title: "Stedelijk Museum Coevorden Jaarverslag 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarverslag 2025 (Geanonimiseerd).pdf"
-s3_etag: "5a6d37ee072fb49b6810272775cb849d"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Jaarverslag 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarverslag 2025
+  (Geanonimiseerd).pdf
+s3_etag: 5a6d37ee072fb49b6810272775cb849d
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het jaarverslag 2025 van Stichting Stedelijk Museum Coevorden beschrijft de
+  tentoonstellingen, educatieve activiteiten, collectie-uitbreiding en
+  digitalisering, wetenschappelijk onderzoek, maatschappelijke inzet en
+  organisatorische ontwikkelingen van het museum, in samenwerking met onder meer
+  Gemeente Coevorden, culturele partners, universiteiten, vrijwilligers en
+  financiers. Het museum kijkt terug op een succesvol en breed toegankelijk jaar
+  met positieve publieksreacties, een verlengde tentoonstelling over de Poolse
+  bevrijders, vele nieuwe schenkingen en verdere professionalisering, ondanks
+  bouw- en herstelwerkzaamheden die enkele activiteiten verhinderden.
+milestones: []
+ai_processed_at: '2026-10-20T02:57:42.599Z'
+ai_status: done
 ---
 
 JAARVERSLAG

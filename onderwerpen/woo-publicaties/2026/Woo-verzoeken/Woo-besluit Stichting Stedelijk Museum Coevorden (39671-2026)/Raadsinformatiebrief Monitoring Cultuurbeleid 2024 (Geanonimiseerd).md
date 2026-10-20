@@ -1,9 +1,26 @@
 ---
-title: "Raadsinformatiebrief Monitoring Cultuurbeleid 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Raadsinformatiebrief Monitoring Cultuurbeleid 2024 (Geanonimiseerd).pdf"
-s3_etag: "6eb029695011592d56011dd291f9f19f"
-date: 2026-10-19
+title: Raadsinformatiebrief Monitoring Cultuurbeleid 2024 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Raadsinformatiebrief Monitoring Cultuurbeleid 2024
+  (Geanonimiseerd).pdf
+s3_etag: 6eb029695011592d56011dd291f9f19f
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het college van burgemeester en wethouders van Coevorden informeert de
+  gemeenteraad over de monitoring van het cultuurbeleid ‘Cultureel Kansrijk
+  Opgroeien’, met bijzondere aandacht voor cultuuronderwijs en
+  subsidieregelingen voor buitenschools cultuuronderwijs en broedplaatsen in de
+  dorpen. De monitoring betreft het eerste uitvoeringsjaar; een volledige
+  evaluatie van het beleid is voorzien in 2027.
+milestones: []
+ai_processed_at: '2026-10-20T03:00:44.736Z'
+ai_status: done
 ---
 
 Gemeente

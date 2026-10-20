@@ -1,9 +1,25 @@
 ---
-title: "Stedelijk Museum Coevorden Begroting 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Begroting 2024 (Geanonimiseerd).pdf"
-s3_etag: "f3181ece1e81e535cdd3bebf4a202cf0"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Begroting 2024 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Begroting 2024
+  (Geanonimiseerd).pdf
+s3_etag: f3181ece1e81e535cdd3bebf4a202cf0
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De begroting 2024 van Stichting Stedelijk Museum Coevorden beschrijft de
+  verwachte inkomsten, subsidies, tentoonstellings- en exploitatiekosten,
+  personeels- en huisvestingslasten en investeringen in de herinrichting van het
+  Arsenaal en organisatieontwikkeling. De begroting sluit af met een resultaat
+  van €0.
+milestones: []
+ai_processed_at: '2026-10-20T02:59:49.523Z'
+ai_status: done
 ---
 
 BEGROTING 2024 STICHTING STEDELIJK MUSEUM COEVORDEN

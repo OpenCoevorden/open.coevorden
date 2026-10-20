@@ -1,9 +1,29 @@
 ---
-title: "Subsidieaanvraag Stedelijk Museum Coevorden 2026 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Subsidieaanvraag Stedelijk Museum Coevorden 2026 (Geanonimiseerd).pdf"
-s3_etag: "20cc3f60c4112b772ac3e3b0ff0fd1e3"
-date: 2026-10-19
+title: Subsidieaanvraag Stedelijk Museum Coevorden 2026 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Subsidieaanvraag Stedelijk Museum Coevorden 2026
+  (Geanonimiseerd).pdf
+s3_etag: 20cc3f60c4112b772ac3e3b0ff0fd1e3
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het Stedelijk Museum Coevorden vraagt de gemeente Coevorden om een subsidie
+  van €375.750 voor 2026, inclusief €28.100 voor schoonmaakkosten van het
+  volledige Arsenaal, en licht daarbij de begroting, het jaarplan, de
+  bestuurlijke en organisatorische inrichting, professionalisering en
+  samenwerking met culturele partners toe. De aanvraag sluit aan bij afspraken
+  over een toekomstscenario waarin het gehele Arsenaal aan het museum ter
+  beschikking komt en het opstellen van een masterplan in 2026.
+milestones:
+  - date: '2025-08-06'
+    event: Subsidieaanvraag voor 2026 ingediend
+ai_processed_at: '2026-10-20T02:53:43.672Z'
+ai_status: done
 ---
 
 STEDELIJK

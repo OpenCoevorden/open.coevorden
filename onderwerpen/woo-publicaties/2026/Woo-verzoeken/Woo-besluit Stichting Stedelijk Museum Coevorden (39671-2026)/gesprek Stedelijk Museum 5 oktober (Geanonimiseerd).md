@@ -1,9 +1,28 @@
 ---
-title: "gesprek Stedelijk Museum 5 oktober (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/gesprek Stedelijk Museum 5 oktober (Geanonimiseerd).pdf"
-s3_etag: "aedc76e47b3b741529b420d4f27d2180"
-date: 2026-10-19
+title: gesprek Stedelijk Museum 5 oktober (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/gesprek Stedelijk Museum 5 oktober (Geanonimiseerd).pdf
+s3_etag: aedc76e47b3b741529b420d4f27d2180
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document betreft de subsidieaanvraag van Stichting Stedelijk Museum
+  Coevorden bij de gemeente Coevorden voor 2023, waarbij het museum €259.350
+  vraagt en een incidentele verhoging voor 2023 en 2024 om de organisatie te
+  professionaliseren met onder meer een conservator en curator. Het museum wil
+  hiermee voldoen aan erkenningsnormen en groeien; vanaf 2025 verwacht het de
+  extra kosten zelf te kunnen dragen via hogere entreeprijzen, meer bezoekers en
+  eigen inkomsten, maar een gemeentelijk besluit is niet opgenomen.
+milestones:
+  - date: '2022-10-04'
+    event: Subsidieaanvraag voor 2023 ingediend door het Stedelijk Museum Coevorden
+ai_processed_at: '2026-10-20T02:52:42.615Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

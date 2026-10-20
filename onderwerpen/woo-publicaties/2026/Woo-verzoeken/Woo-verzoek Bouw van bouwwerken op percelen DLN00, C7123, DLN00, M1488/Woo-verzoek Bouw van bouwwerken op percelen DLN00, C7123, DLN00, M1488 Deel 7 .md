@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 7 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 7 .pdf"
-s3_etag: "0758d6f44f805cd9ef54b8e1ed23ea8f-7"
-date: 2026-10-19
+title: 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 7 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen
+  DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00,
+  C7123, DLN00, M1488 Deel 7 .pdf
+s3_etag: 0758d6f44f805cd9ef54b8e1ed23ea8f-7
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het concept-TAM-omgevingsplan Hoofdstuk 22r van de gemeente Coevorden maakt de
+  bouw van maximaal vijftien woningen aan de Thyakkerstraat in Dalen door CPO
+  Daler Starters mogelijk en bevat daarvoor regels over wonen, archeologie,
+  bouwen, parkeren en gebruik. Overlegpartners zijn akkoord, de kosten zijn via
+  een overeenkomst geborgd en de uitgevoerde onderzoeken leiden tot de conclusie
+  dat sprake is van een evenwichtige toedeling van functies, zonder
+  stikstofdepositietoename; wel gelden ecologische voorwaarden, zoals zorgvuldig
+  omgaan met beschermde dieren en werken buiten het broedseizoen of vooraf een
+  broedvogelscan uitvoeren.
+milestones: []
+ai_processed_at: '2026-10-20T02:49:40.554Z'
+ai_status: done
 ---
 
 TAM-omgevingsplan Hoofdstuk 22r – Thyakkerstraat , Dalen

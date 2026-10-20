@@ -1,9 +1,27 @@
 ---
-title: "Collegevoorstel raadsinformatiebrief Monitoring Cultuurbeleid 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Collegevoorstel raadsinformatiebrief Monitoring Cultuurbeleid 2024 (Geanonimiseerd).pdf"
-s3_etag: "3a10a1bcb5f61ba56cd3f9ac1e441567"
-date: 2026-10-19
+title: >-
+  Collegevoorstel raadsinformatiebrief Monitoring Cultuurbeleid 2024
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Collegevoorstel raadsinformatiebrief Monitoring
+  Cultuurbeleid 2024 (Geanonimiseerd).pdf
+s3_etag: 3a10a1bcb5f61ba56cd3f9ac1e441567
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het college van burgemeester en wethouders van de gemeente Coevorden adviseert
+  de gemeenteraad te informeren over de uitvoering en monitoring in 2024 van het
+  cultuurbeleid ‘Cultureel Kansrijk Opgroeien’, met bijzondere aandacht voor
+  buitenschools cultuuronderwijs en broedplaatsen in de dorpen. Het voorstel is
+  op 3 februari 2025 opgesteld en heeft geen financiële consequenties.
+milestones: []
+ai_processed_at: '2026-10-20T03:04:11.494Z'
+ai_status: done
 ---
 
 Advies College van

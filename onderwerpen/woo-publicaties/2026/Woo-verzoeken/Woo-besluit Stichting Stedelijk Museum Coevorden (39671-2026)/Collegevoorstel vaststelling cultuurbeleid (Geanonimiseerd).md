@@ -1,9 +1,35 @@
 ---
-title: "Collegevoorstel vaststelling cultuurbeleid (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Collegevoorstel vaststelling cultuurbeleid (Geanonimiseerd).pdf"
-s3_etag: "7e41c69d39e12c772acb611c8e8dd201"
-date: 2026-10-19
+title: Collegevoorstel vaststelling cultuurbeleid (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Collegevoorstel vaststelling cultuurbeleid
+  (Geanonimiseerd).pdf
+s3_etag: 7e41c69d39e12c772acb611c8e8dd201
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document gaat over het definitieve cultuurbeleid van de gemeente
+  Coevorden, opgesteld door het college van burgemeester en wethouders naar
+  aanleiding van reacties van onder meer Openluchtmuseum Ellert & Brammert,
+  Stichting Kunstenaarsdorp Zweeloo en Werkgroep MuZO, en van
+  gemeenteraadsamendementen en -moties over cultuuronderwijs en culturele
+  broedplaatsen. Het college stemde in met de afhandeling van de reacties en het
+  conceptbeleid en stelde voor dit aan de gemeenteraad voor te leggen, met
+  structureel €490.000 en incidenteel €97.000 aan extra middelen en een
+  wijziging van de programmabegroting.
+milestones:
+  - date: '2023-05-23'
+    event: Gemeenteraad stelt het ontwerpcultuurbeleid vast en kiest voor scenario 1.
+  - date: '2023-08-21'
+    event: >-
+      College stemt in met het concept-cultuurbeleid en legt dit ter
+      vaststelling voor aan de gemeenteraad.
+ai_processed_at: '2026-10-20T03:03:24.057Z'
+ai_status: done
 ---
 
 Kenmerk: 41559-2023

@@ -1,9 +1,27 @@
 ---
-title: "Subsidieaanvraag Stedelijk Museum Coevorden 2023 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Subsidieaanvraag Stedelijk Museum Coevorden 2023 (Geanonimiseerd).pdf"
-s3_etag: "6983e5b87b365096f1eb3bc7b8d46f96"
-date: 2026-10-19
+title: Subsidieaanvraag Stedelijk Museum Coevorden 2023 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Subsidieaanvraag Stedelijk Museum Coevorden 2023
+  (Geanonimiseerd).pdf
+s3_etag: 6983e5b87b365096f1eb3bc7b8d46f96
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Stichting Stedelijk Museum Coevorden vraagt de gemeente Coevorden om voor 2023
+  een subsidie van €236.350 exclusief btw voor de exploitatie van het museum en
+  daarnaast €23.000 voor de schoonmaakkosten van het Arsenaal. De aanvraag is
+  namens het stichtingsbestuur ingediend bij het college van burgemeester en
+  wethouders; een besluit of uitkomst is niet opgenomen.
+milestones:
+  - date: '2022-09-14'
+    event: Indiening subsidieaanvraag voor 2023
+ai_processed_at: '2026-10-20T02:54:21.425Z'
+ai_status: done
 ---
 
 Stedelijk Museum Coevorden Stedelijk Museum Coevorden

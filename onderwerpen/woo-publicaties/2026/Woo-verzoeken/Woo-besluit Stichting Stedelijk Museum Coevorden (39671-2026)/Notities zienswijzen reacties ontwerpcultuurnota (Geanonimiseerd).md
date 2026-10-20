@@ -1,9 +1,31 @@
 ---
-title: "Notities zienswijzen reacties ontwerpcultuurnota (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Notities zienswijzen reacties ontwerpcultuurnota (Geanonimiseerd).pdf"
-s3_etag: "a57af7c7f1271548cc1ea57a86f07940"
-date: 2026-10-19
+title: Notities zienswijzen reacties ontwerpcultuurnota (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Notities zienswijzen reacties ontwerpcultuurnota
+  (Geanonimiseerd).pdf
+s3_etag: a57af7c7f1271548cc1ea57a86f07940
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden behandelt drie zienswijzen op de ontwerpcultuurnota van
+  het Openluchtmuseum Ellert & Brammert, Stichting Kunstenaarsdorp Zweeloo en
+  Werkgroep MuZO over samenwerking, een betere spreiding van structurele
+  cultuurgelden en de inrichting van het buitenschoolse cultuur- en
+  muziekonderwijs. De gemeente erkent de inbreng en past het beleid aan: er komt
+  meer aandacht en ondersteuning voor culturele organisaties in de gemeente,
+  cultuuronderwijs wordt onderdeel van de culturele basis en kinderen tot 18
+  jaar krijgen drie jaar toegang tot cultuuronderwijs tegen een lager tarief,
+  met monitoring en evaluatie.
+milestones:
+  - date: '2023-05-23'
+    event: Gemeenteraad stelt het ontwerpcultuurbeleid vast
+ai_processed_at: '2026-10-20T03:01:35.197Z'
+ai_status: done
 ---
 
 Notitie zienswijzen en reacties ontwerpcultuurnota

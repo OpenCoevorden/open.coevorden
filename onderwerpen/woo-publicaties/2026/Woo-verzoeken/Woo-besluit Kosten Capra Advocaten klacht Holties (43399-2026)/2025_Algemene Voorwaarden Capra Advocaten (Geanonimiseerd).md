@@ -1,9 +1,27 @@
 ---
-title: "2025_Algemene Voorwaarden Capra Advocaten (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)/2025_Algemene Voorwaarden Capra Advocaten (Geanonimiseerd).pdf"
-s3_etag: "e21dc9392356053077a4585add1298b8"
-date: 2026-10-19
+title: 2025_Algemene Voorwaarden Capra Advocaten (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Kosten Capra Advocaten klacht Holties (43399-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Kosten Capra Advocaten klacht
+  Holties (43399-2026)/2025_Algemene Voorwaarden Capra Advocaten
+  (Geanonimiseerd).pdf
+s3_etag: e21dc9392356053077a4585add1298b8
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De algemene voorwaarden van Capra Advocaten regelen de toepasselijkheid op
+  opdrachten van opdrachtgevers aan Capra Advocaten en betrokken personen,
+  waaronder bepalingen over opdrachten, aansprakelijkheid, declaraties,
+  voorschotten, rechtskeuze en bevoegde rechter. De voorwaarden zijn op 16 juni
+  2025 gedeponeerd bij de Kamer van Koophandel; een passage over
+  concurrentiegevoelige bedrijfsgegevens is op grond van de Woo onleesbaar
+  gemaakt.
+milestones: []
+ai_processed_at: '2026-10-20T03:10:01.095Z'
+ai_status: done
 ---
 
 Algemene Voorwaarden Capra Advocaten

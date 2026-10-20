@@ -1,9 +1,26 @@
 ---
-title: "Collegevoorstel subsidieaanvragen 2023 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Collegevoorstel subsidieaanvragen 2023 (Geanonimiseerd).pdf"
-s3_etag: "eebcfc0f1e5858c501e8bdaa96874039"
-date: 2026-10-19
+title: Collegevoorstel subsidieaanvragen 2023 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Collegevoorstel subsidieaanvragen 2023
+  (Geanonimiseerd).pdf
+s3_etag: eebcfc0f1e5858c501e8bdaa96874039
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document gaat over de subsidieaanvragen voor 2023 van ZO!34, het Stedelijk
+  Museum Coevorden en Cultuurpodium Coevorden bij de gemeente Coevorden, waarbij
+  alle drie om aanzienlijk meer subsidie vragen. Het college stemt in met een
+  brief aan de gemeenteraad waarin de aanvragen en afwegingen integraal worden
+  voorgelegd; verdere voorstellen over structurele of incidentele verhogingen
+  volgen in het eerste kwartaal van 2023.
+milestones: []
+ai_processed_at: '2026-10-20T03:03:45.339Z'
+ai_status: done
 ---
 
 Kenmerk: 70247-2022

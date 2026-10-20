@@ -1,9 +1,32 @@
 ---
-title: "Besluitenlijst B&W d.d.25 februari 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Besluitenlijst B&W d.d.25 februari 2025 (Geanonimiseerd).pdf"
-s3_etag: "d2053401cbf04b6813543c5e09736605"
-date: 2026-10-19
+title: Besluitenlijst B&W d.d.25 februari 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Besluitenlijst B&W d.d.25 februari 2025
+  (Geanonimiseerd).pdf
+s3_etag: d2053401cbf04b6813543c5e09736605
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  De besluitenlijst van het college van burgemeester en wethouders van Coevorden
+  bevat besluiten over onder meer bezwaarprocedures tegen lasten onder dwangsom
+  bij Marconiweg 4-6, vertegenwoordiging in de EUREGIO, Jeugdbescherming Noord,
+  cultuurbeleid, grondprijzen, een bouwverzoek, leerplichtambtenaren en de
+  gemeentewerf en milieustraten. Het college handhaafde de last onder dwangsom
+  voor stof, herzag die voor geur en geluid, wees het bouwverzoek af, stelde
+  grondprijzen vast, wees vertegenwoordigers aan en stemde in met de verdere
+  voorbereiding van een centrale gemeentewerf en twee milieustraten.
+milestones:
+  - date: '2025-02-25'
+    event: >-
+      Beslissing op bezwaar inzake lasten onder dwangsom voor stofemissie, geur
+      en een niet gemelde geluidbron aan Marconiweg 4-6 in Coevorden
+ai_processed_at: '2026-10-20T03:04:52.215Z'
+ai_status: done
 ---
 
 BESLUITENLIJST

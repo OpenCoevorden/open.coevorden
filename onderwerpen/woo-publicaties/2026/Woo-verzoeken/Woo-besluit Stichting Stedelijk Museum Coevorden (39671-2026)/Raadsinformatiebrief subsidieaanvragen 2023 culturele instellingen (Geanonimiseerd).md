@@ -1,9 +1,31 @@
 ---
-title: "Raadsinformatiebrief subsidieaanvragen 2023 culturele instellingen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Raadsinformatiebrief subsidieaanvragen 2023 culturele instellingen (Geanonimiseerd).pdf"
-s3_etag: "1ef058455a035a954a6f5df050c83e71"
-date: 2026-10-19
+title: >-
+  Raadsinformatiebrief subsidieaanvragen 2023 culturele instellingen
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Raadsinformatiebrief subsidieaanvragen 2023 culturele
+  instellingen (Geanonimiseerd).pdf
+s3_etag: 1ef058455a035a954a6f5df050c83e71
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het college van burgemeester en wethouders van Coevorden informeert de
+  gemeenteraad over de fors verhoogde subsidieaanvraag voor 2023 van
+  streekomroep ZO!34 (€68.000) en vergelijkbare hogere aanvragen van Stichting
+  Cultuurpodium Coevorden, Stichting Stedelijk Museum Coevorden en Stichting
+  Biblionet Drenthe, mede in relatie tot de professionalisering en de nieuwe
+  aanwijzingsperiode van ZO!34. Het college neemt voorlopig de geïndexeerde
+  subsidies van het voorgaande jaar op in de programmabegroting en wil in het
+  eerste kwartaal van 2023 een integraal voorstel doen over structurele of
+  incidentele extra subsidie.
+milestones: []
+ai_processed_at: '2026-10-20T03:00:19.658Z'
+ai_status: done
 ---
 
 Pb Gemeente

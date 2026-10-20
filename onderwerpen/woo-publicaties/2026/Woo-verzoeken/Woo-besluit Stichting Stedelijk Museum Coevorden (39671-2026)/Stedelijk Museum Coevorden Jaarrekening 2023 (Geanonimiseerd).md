@@ -1,9 +1,25 @@
 ---
-title: "Stedelijk Museum Coevorden Jaarrekening 2023 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarrekening 2023 (Geanonimiseerd).pdf"
-s3_etag: "fe6e5123e01a6be72285164cf9e6504a"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Jaarrekening 2023 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarrekening 2023
+  (Geanonimiseerd).pdf
+s3_etag: fe6e5123e01a6be72285164cf9e6504a
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document is het accountantsrapport met de jaarrekening 2023 van Stichting
+  Stedelijk Museum Coevorden, opgesteld door Countus accountants + adviseurs
+  voor het bestuur van de stichting. De stichting behaalde in 2023 een positief
+  resultaat van €873 en had per 31 december 2023 een balanstotaal van €177.792;
+  de accountant heeft een samenstellingsverklaring afgegeven.
+milestones: []
+ai_processed_at: '2026-10-20T02:58:39.935Z'
+ai_status: done
 ---
 
 RAPPORT

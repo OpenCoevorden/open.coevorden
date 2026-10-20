@@ -1,9 +1,28 @@
 ---
-title: "Stedelijk Museum Coevorden Jaarverslag 2023 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarverslag 2023 (Geanonimiseerd).pdf"
-s3_etag: "6bd9c943203c1994d1bfa08e899ebfdf"
-date: 2026-10-19
+title: Stedelijk Museum Coevorden Jaarverslag 2023 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-besluit Stichting Stedelijk Museum Coevorden (39671-2026)
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-besluit Stichting Stedelijk Museum
+  Coevorden (39671-2026)/Stedelijk Museum Coevorden Jaarverslag 2023
+  (Geanonimiseerd).pdf
+s3_etag: 6bd9c943203c1994d1bfa08e899ebfdf
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het jaarverslag 2023 van Stichting Stedelijk Museum Coevorden beschrijft de
+  tentoonstellingen, activiteiten, samenwerkingen, bezoekers, financiële steun,
+  collectieaanwinsten en de professionalisering en uitbreiding van het museum,
+  met betrokkenheid van onder meer de gemeente Coevorden, culturele fondsen,
+  partners, medewerkers en vrijwilligers. Het museum kende een succesvol jaar
+  met 6.906 bezoekers, positieve reacties op de tentoonstellingen en verdere
+  stappen richting toegankelijkheid, professionalisering en
+  langetermijnontwikkeling.
+milestones: []
+ai_processed_at: '2026-10-20T02:57:53.835Z'
+ai_status: done
 ---
 
 Jaarverslag

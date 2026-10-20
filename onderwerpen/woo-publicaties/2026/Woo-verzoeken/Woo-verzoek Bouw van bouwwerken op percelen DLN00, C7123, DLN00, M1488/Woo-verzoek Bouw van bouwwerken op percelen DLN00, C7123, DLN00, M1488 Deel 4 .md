@@ -1,9 +1,34 @@
 ---
-title: "Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 4 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 4 .pdf"
-s3_etag: "0ce4de2669f46f133552babdf4ee9816-7"
-date: 2026-10-19
+title: 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 4 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen
+  DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00,
+  C7123, DLN00, M1488 Deel 4 .pdf
+s3_etag: 0ce4de2669f46f133552babdf4ee9816-7
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorbereiding van woningbouw door CPO Daler Starters
+  in Dalen aan de Thyakkerstraat en Kieftenweg, in samenwerking met de gemeente
+  Coevorden en Bouwkundig Ontwerp- en Adviesburo Heijnen, inclusief ontwerpen,
+  bodem- en ruimtelijke aspecten, verkeer, groen, grondverkoop, beheer en
+  netaansluiting. De gemeente adviseert voor de Thyakkerstraat wijziging van het
+  omgevingsplan met een beeldkwaliteitsplan en voor de Kieftenweg een
+  buitenplanse omgevingsvergunning; daarnaast is grondverkoop aan het CPO
+  voorbereid en zijn diverse planopmerkingen verwerkt.
+milestones:
+  - date: '2025-08-15'
+    event: >-
+      Indiening ontwerp-TAM-omgevingsplan voor woningbouw aan de Thyakkerstraat
+      in Dalen
+  - date: '2025-11-19'
+    event: Indiening volledige set TAM-omgevingsplan bij de gemeente
+ai_processed_at: '2026-10-20T02:50:53.714Z'
+ai_status: done
 ---
 
 BIJLAGE 6

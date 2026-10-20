@@ -1,9 +1,29 @@
 ---
-title: "Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 5 "
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 5 .pdf"
-s3_etag: "16e549b099314bb20846fdb3bfb72810-7"
-date: 2026-10-19
+title: 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488 Deel 5 '
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - 'Woo-verzoek Bouw van bouwwerken op percelen DLN00, C7123, DLN00, M1488'
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-verzoek Bouw van bouwwerken op percelen
+  DLN00, C7123, DLN00, M1488/Woo-verzoek Bouw van bouwwerken op percelen DLN00,
+  C7123, DLN00, M1488 Deel 5 .pdf
+s3_etag: 16e549b099314bb20846fdb3bfb72810-7
+date: 2026-10-19T00:00:00.000Z
+summary: >-
+  Het dossier gaat over het voornemen van CPO Daler Starters om aan de
+  Thyakkerstraat in Dalen vijftien gasloze koopwoningen met parkeer- en
+  groenvoorzieningen te realiseren en daarvoor het omgevingsplan van de gemeente
+  Coevorden via een TAM-omgevingsplan te wijzigen. Uit AERIUS-onderzoek volgt
+  geen toename van stikstofdepositie in Natura 2000-gebieden en de ontwikkeling
+  is wat dit aspect betreft uitvoerbaar; betrokken adviseurs en instanties,
+  waaronder GGD Drenthe, Het Oversticht, Het Drentse Landschap en de
+  Omgevingsdienst Drenthe, geven daarnaast aandachtspunten over geluid,
+  stedenbouw, molenbiotoop, groen, gezondheid en participatie.
+milestones: []
+ai_processed_at: '2026-10-20T02:50:27.182Z'
+ai_status: done
 ---
 
 Bouwkundig Ontwerp-
