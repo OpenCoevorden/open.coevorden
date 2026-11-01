@@ -61,7 +61,7 @@ env:
   # veranderen (1.5 is bijv. metadata standaard gaan meenemen in de zoekindex).
   # De renovate-comment hieronder laat Renovate hier een PR voor openen.
   # renovate: datasource=npm depName=pagefind
-  PAGEFIND_VERSION: "1.5.2"
+  PAGEFIND_VERSION: "1.6.0"
 
 jobs:
   deploy:
