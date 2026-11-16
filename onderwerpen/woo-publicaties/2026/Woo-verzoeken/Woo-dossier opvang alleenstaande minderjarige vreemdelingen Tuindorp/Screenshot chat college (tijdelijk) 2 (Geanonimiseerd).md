@@ -1,9 +1,25 @@
 ---
-title: "Screenshot chat college (tijdelijk) 2 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Screenshot chat college (tijdelijk) 2 (Geanonimiseerd).pdf"
-s3_etag: "d9a06b59821fc50f579a9d7747c32ab9"
-date: 2026-11-16
+title: Screenshot chat college (tijdelijk) 2 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Screenshot chat college (tijdelijk) 2
+  (Geanonimiseerd).pdf
+s3_etag: d9a06b59821fc50f579a9d7747c32ab9
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het tijdelijk college van B&W ontvangt een update uit het GBT over een extra
+  raadsvoorstel en de voorbereiding van een burgemeestersbrief aan de inwoners
+  van Tuindorp, met als doel duidelijkheid, een geschetste route en open
+  communicatie. De brief moet huis-aan-huis worden bezorgd, fractievoorzitters
+  worden bijgepraat en Sandra en Jerry worden als achtervang voor Renze ingezet.
+milestones: []
+ai_processed_at: '2026-11-16T09:21:27.621Z'
+ai_status: done
 ---
 
 “lS @)

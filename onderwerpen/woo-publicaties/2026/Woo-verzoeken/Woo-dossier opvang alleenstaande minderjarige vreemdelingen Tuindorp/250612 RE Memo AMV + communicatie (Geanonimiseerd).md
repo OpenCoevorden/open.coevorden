@@ -1,9 +1,26 @@
 ---
-title: "250612 RE Memo AMV + communicatie (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250612 RE Memo AMV + communicatie (Geanonimiseerd).pdf"
-s3_etag: "eb569fd15d254c65fe63ac3d73b5eb87"
-date: 2026-11-16
+title: 250612 RE Memo AMV + communicatie (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250612 RE Memo AMV + communicatie
+  (Geanonimiseerd).pdf
+s3_etag: eb569fd15d254c65fe63ac3d73b5eb87
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een interne memo en vragen-en-antwoorden over de komst van
+  een groep van vijf minderjarige alleenstaande vrouwelijke statushouders van 15
+  tot 18 jaar naar vijf woningen in de wijk Tuindorp in Coevorden. De gemeente
+  Coevorden communiceert hierover met omwonenden, terwijl Elker de jongeren 24
+  uur per dag begeleidt in opdracht van NIDOS; de eerste bewoners worden in de
+  zomer van 2025 verwacht.
+milestones: []
+ai_processed_at: '2026-11-16T09:39:29.645Z'
+ai_status: done
 ---
 
 u mn

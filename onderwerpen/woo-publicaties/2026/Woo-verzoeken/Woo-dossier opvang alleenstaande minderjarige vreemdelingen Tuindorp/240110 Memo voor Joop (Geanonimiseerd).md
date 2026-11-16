@@ -1,9 +1,33 @@
 ---
-title: "240110 Memo voor Joop (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240110 Memo voor Joop (Geanonimiseerd).pdf"
-s3_etag: "ff6c99ceeda3f34c0e7e06b6664020b3"
-date: 2026-11-16
+title: 240110 Memo voor Joop (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240110 Memo voor Joop (Geanonimiseerd).pdf
+s3_etag: ff6c99ceeda3f34c0e7e06b6664020b3
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorgenomen realisatie van een Kinderwoongroep voor
+  alleenstaande minderjarige vluchtelingen in Coevorden door de gemeente, Nidos,
+  Phusis en Domesta, en over de vraag of de gemeenteraad hierover op grond van
+  de nieuwe Omgevingswet bindend moet adviseren en participatie moet worden
+  georganiseerd. Het voorgestelde besluit is dat het college vanwege de
+  wettelijke opvangtaak, de crisissituatie en de gewenste snelheid afziet van
+  het inwinnen van raadsadvies en tegelijk de samenwerkingsovereenkomst en
+  communicatie met omwonenden en raadsleden voorbereidt.
+milestones:
+  - date: '2023-10-17'
+    event: Gemeenteraad besluit over het adviesrecht onder de Omgevingswet.
+  - date: '2023-12-15'
+    event: Beleidsregel adviesrecht en participatieplicht gepubliceerd.
+  - date: '2024-01-01'
+    event: Beleidsregel treedt in werking.
+ai_processed_at: '2026-11-16T10:16:12.119Z'
+ai_status: done
 ---
 
 J

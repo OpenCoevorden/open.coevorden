@@ -1,9 +1,24 @@
 ---
-title: "250612 chat 8 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250612 chat 8 (Geanonimiseerd).pdf"
-s3_etag: "8c86466f3a6be45de6887edfce3996b8"
-date: 2026-11-16
+title: 250612 chat 8 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250612 chat 8 (Geanonimiseerd).pdf
+s3_etag: 8c86466f3a6be45de6887edfce3996b8
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De chat gaat over de afstemming van een memo en brief over het gereedmaken van
+  woningen voor jongeren, tussen gemeentelijke medewerkers en Domesta, inclusief
+  communicatie en agendering voor het college. Naar aanleiding van Domesta’s
+  opmerkingen is de formulering over de termijn aangepast; een exacte datum voor
+  de komst van de jongeren wordt niet genoemd.
+milestones: []
+ai_processed_at: '2026-11-16T09:38:55.798Z'
+ai_status: done
 ---
 
 2-06-2025, 10:58:21] EN geriecnten en oproepen worden end- (geanonimiseerd) (geanonimiseerd)

@@ -1,9 +1,33 @@
 ---
-title: "240930 chat 2 (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240930 chat 2 (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "84f1421df169547701b21a32373042bd"
-date: 2026-11-16
+title: 240930 chat 2 (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240930 chat 2 (Geanonimiseerd)
+  (gewijzigd).pdf
+s3_etag: 84f1421df169547701b21a32373042bd
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat WhatsApp-correspondentie tussen medewerkers van de gemeente
+  Coevorden en Elker over de huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV), waaronder communicatie met omwonenden, raads- en
+  bezwaarprocedures, veiligheidsmaatregelen en de samenwerking met onder meer
+  Nidos en een woningbouwvereniging. Het raadsvoorstel voor de huisvesting van
+  de kinderwoongroep werd als hamerstuk aangenomen; daarna werden de
+  ingebruikname en communicatie voorbereid, terwijl incidenten zoals ingegooide
+  ramen en brandstichting aanleiding gaven tot overleg over beveiliging,
+  cameratoezicht en zicht op sleutelpersonen in de wijk.
+milestones:
+  - date: '2024-12-20'
+    event: Beslistermijn verlengd
+  - date: '2025-03-25'
+    event: Bezwaarprocedure genoemd
+ai_processed_at: '2026-11-16T10:10:49.361Z'
+ai_status: done
 ---
 
 30-09-2024, 13:57:24 Berichten en oproepen worden (geanonimiseerd)

@@ -1,9 +1,36 @@
 ---
-title: "241101 FW Stukken op Ibabs zetten voor overleg van ma a.s. met Joop (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241101 FW Stukken op Ibabs zetten voor overleg van ma a.s. met Joop (Geanonimiseerd).pdf"
-s3_etag: "b2002d1a75680922b1dba5e237803c72"
-date: 2026-11-16
+title: >-
+  241101 FW Stukken op Ibabs zetten voor overleg van ma a.s. met Joop
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241101 FW Stukken op Ibabs zetten voor
+  overleg van ma a.s. met Joop (Geanonimiseerd).pdf
+s3_etag: b2002d1a75680922b1dba5e237803c72
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het college van burgemeester en wethouders van Coevorden besluit mee te werken
+  aan de realisatie van een kinderwoongroep voor 14 alleenstaande minderjarige
+  vreemdelingen met verblijfsstatus aan de Doctor J.C. Homanstraat 55-63,
+  waarbij Domesta de woningen verhuurt aan Elker en Elker de jongeren namens
+  Nidos 24/7 begeleidt. De gemeenteraad en direct omwonenden worden hierover
+  geïnformeerd; voor ingebruikname zijn een bindend positief raadsadvies en een
+  verleende omgevingsvergunning nodig, waarna huisvesting vanaf maart 2025 wordt
+  beoogd.
+milestones:
+  - date: '2024-11-05'
+    event: >-
+      Collegebesluit tot realisatie van een kinderwoongroep voor alleenstaande
+      minderjarige vreemdelingen en vaststelling van de communicatie hierover.
+  - date: '2024-11-06'
+    event: Geplande indiening van de omgevingsvergunning door Elker.
+ai_processed_at: '2026-11-16T10:07:05.237Z'
+ai_status: done
 ---
 
 u nn

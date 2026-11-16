@@ -1,9 +1,28 @@
 ---
-title: "250623 FW Opties overleg bijpraten AMV - bredere kring van betrokkenen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250623 FW Opties overleg bijpraten AMV - bredere kring van betrokkenen (Geanonimiseerd).pdf"
-s3_etag: "f4df7442b9f2aad483878b31b76af99c"
-date: 2026-11-16
+title: >-
+  250623 FW Opties overleg bijpraten AMV - bredere kring van betrokkenen
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250623 FW Opties overleg bijpraten AMV -
+  bredere kring van betrokkenen (Geanonimiseerd).pdf
+s3_etag: f4df7442b9f2aad483878b31b76af99c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen de gemeente Coevorden en Elker over het organiseren van
+  een overleg om een bredere kring van betrokkenen bij te praten over de
+  huisvesting van alleenstaande minderjarige vreemdelingen (AMV’ers). Besproken
+  worden de deelnemers, de voorkeur voor een fysieke of hybride bijeenkomst en
+  mogelijke data; Elker stelt maandag 21 juli 2025 van 13.00 tot 15.00 uur voor,
+  maar een definitieve bevestiging blijkt niet uit de tekst.
+milestones: []
+ai_processed_at: '2026-11-16T09:36:30.422Z'
+ai_status: done
 ---
 
 Van:

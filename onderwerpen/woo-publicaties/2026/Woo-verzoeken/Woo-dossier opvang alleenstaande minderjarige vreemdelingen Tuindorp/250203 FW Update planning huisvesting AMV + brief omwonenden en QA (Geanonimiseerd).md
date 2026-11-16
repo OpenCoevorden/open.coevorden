@@ -1,9 +1,34 @@
 ---
-title: "250203 FW Update planning huisvesting AMV + brief omwonenden en QA (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250203 FW Update planning huisvesting AMV + brief omwonenden en QA (Geanonimiseerd).pdf"
-s3_etag: "3dcdd04291b57dd700cd81f548dab3f3"
-date: 2026-11-16
+title: >-
+  250203 FW Update planning huisvesting AMV + brief omwonenden en QA
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250203 FW Update planning huisvesting AMV
+  + brief omwonenden en QA (Geanonimiseerd).pdf
+s3_etag: 3dcdd04291b57dd700cd81f548dab3f3
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de planning en communicatie rond de realisatie van een
+  kinderwoongroep voor alleenstaande minderjarige vreemdelingen met een
+  verblijfsstatus in Coevorden, waarbij de gemeente Coevorden samenwerkt met
+  Elker, Nidos en Domesta. Het college heeft ingestemd; op 6 november 2024
+  worden de gemeenteraad en direct omwonenden geïnformeerd, vraagt Elker de
+  omgevingsvergunning aan en wordt een gezamenlijke Q&A beschikbaar gesteld,
+  terwijl de behandeling door de gemeenteraad is verschoven naar januari 2025 en
+  de samenwerkingsovereenkomst later wordt ondertekend.
+milestones:
+  - date: '2024-11-05'
+    event: College akkoord met de realisatie van de kinderwoongroep voor AMV's.
+  - date: '2024-11-06'
+    event: Omgevingsvergunning aangevraagd door Elker.
+ai_processed_at: '2026-11-16T09:55:53.321Z'
+ai_status: done
 ---
 
 vi mn

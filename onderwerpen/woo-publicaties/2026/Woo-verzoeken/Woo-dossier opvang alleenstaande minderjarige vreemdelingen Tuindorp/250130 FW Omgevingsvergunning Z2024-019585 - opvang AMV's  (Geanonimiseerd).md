@@ -1,9 +1,34 @@
 ---
-title: "250130 FW Omgevingsvergunning Z2024-019585 - opvang AMV's  (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250130 FW Omgevingsvergunning Z2024-019585 - opvang AMV's  (Geanonimiseerd).pdf"
-s3_etag: "553a271c3320e54f4aa3a20e4fa99194"
-date: 2026-11-16
+title: 250130 FW Omgevingsvergunning Z2024-019585 - opvang AMV's  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250130 FW Omgevingsvergunning Z2024-019585
+  - opvang AMV's  (Geanonimiseerd).pdf
+s3_etag: 553a271c3320e54f4aa3a20e4fa99194
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de aanvraag van Stichting Elker bij de gemeente
+  Coevorden voor het tijdelijk huisvesten van maximaal 14 alleenstaande
+  minderjarige vreemdelingen in vijf woningen aan de Dr. J.C. Homanstraat 55-63,
+  met 24-uursbegeleiding door Elker en voogdij via NIDOS; Stichting Het Poortje
+  diende daarnaast een melding brandveilig gebruik in. Het college van
+  burgemeester en wethouders verleende op 30 januari 2025 een
+  omgevingsvergunning voor maximaal vijf jaar, nadat de gemeenteraad positief
+  had geadviseerd en geen zienswijzen waren ingediend.
+milestones:
+  - date: '2024-11-06'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor het huisvesten van maximaal 14
+      alleenstaande minderjarige vreemdelingen.
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend voor maximaal vijf jaar.
+ai_processed_at: '2026-11-16T09:57:24.955Z'
+ai_status: done
 ---
 
 Van:

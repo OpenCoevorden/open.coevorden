@@ -1,9 +1,27 @@
 ---
-title: "250422 AMV - afstemming (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250422 AMV - afstemming (Geanonimiseerd).pdf"
-s3_etag: "cf6005b822b68415008f8913aa1972c5"
-date: 2026-11-16
+title: 250422 AMV - afstemming (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250422 AMV - afstemming
+  (Geanonimiseerd).pdf
+s3_etag: cf6005b822b68415008f8913aa1972c5
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mail gaat over de afstemming tussen de gemeente Coevorden, Nidos, Elker,
+  Domesta en andere betrokkenen over de huisvesting van alleenstaande
+  minderjarige vreemdelingen (AMV’s), mogelijk meisjes in plaats van een
+  gemengde groep, tijdens een bezwaarprocedure en de communicatie met de buurt.
+  Besloten wordt het informele buurtgesprek voorlopig niet zelf te voeren en dit
+  door Domesta te laten oppakken; na de meivakantie volgt verdere afstemming
+  over de aanpak.
+milestones: []
+ai_processed_at: '2026-11-16T09:45:32.492Z'
+ai_status: done
 ---
 
 Van: err (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) J

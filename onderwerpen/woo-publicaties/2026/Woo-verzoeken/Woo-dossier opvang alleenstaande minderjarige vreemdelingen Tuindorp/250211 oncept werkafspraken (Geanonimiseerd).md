@@ -1,9 +1,28 @@
 ---
-title: "250211 oncept werkafspraken (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250211 oncept werkafspraken (Geanonimiseerd).pdf"
-s3_etag: "ba1f6f40db1efa189bddcd70e383738c"
-date: 2026-11-16
+title: 250211 oncept werkafspraken (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250211 oncept werkafspraken
+  (Geanonimiseerd).pdf
+s3_etag: ba1f6f40db1efa189bddcd70e383738c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat werkafspraken tussen Nidos, jeugdhulporganisatie Elker en
+  de gemeente Coevorden over de opvang van 14 alleenstaande minderjarige
+  vreemdelingen in een kinderwoongroep, inclusief begeleiding, voogdij,
+  onderwijs, zorg, huisvesting en de overgang naar meerderjarigheid. De partijen
+  spreken onder meer af om rond het 17,5e jaar gezamenlijk de vervolgstappen te
+  bepalen en structureel samen te werken en informatie uit te wisselen;
+  persoonsgegevens zijn deels geanonimiseerd ter bescherming van de persoonlijke
+  levenssfeer.
+milestones: []
+ai_processed_at: '2026-11-16T09:55:06.406Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

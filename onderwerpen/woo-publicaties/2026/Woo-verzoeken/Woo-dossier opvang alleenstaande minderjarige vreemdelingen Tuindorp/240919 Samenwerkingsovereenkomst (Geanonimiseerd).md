@@ -1,9 +1,27 @@
 ---
-title: "240919 Samenwerkingsovereenkomst (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240919 Samenwerkingsovereenkomst (Geanonimiseerd).pdf"
-s3_etag: "e052a964208372638262ffe1a3b57008"
-date: 2026-11-16
+title: 240919 Samenwerkingsovereenkomst (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240919 Samenwerkingsovereenkomst
+  (Geanonimiseerd).pdf
+s3_etag: e052a964208372638262ffe1a3b57008
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mail en bijgevoegde samenwerkingsovereenkomst over de opvang en begeleiding
+  van maximaal twaalf alleenstaande minderjarige vreemdelingen in een
+  kinderwoongroep in Coevorden. De overeenkomst legt de samenwerking en taken
+  vast van de gemeente Coevorden en Nidos, met Elker als uitvoerende
+  opvangorganisatie en Domesta als verhuurder, waaronder begeleiding,
+  omgevingsbeheer, gegevensverwerking, huisvesting, evaluatie en beëindiging; de
+  praktische werkafspraken moeten nog worden opgesteld.
+milestones: []
+ai_processed_at: '2026-11-16T10:11:57.582Z'
+ai_status: done
 ---
 
 J

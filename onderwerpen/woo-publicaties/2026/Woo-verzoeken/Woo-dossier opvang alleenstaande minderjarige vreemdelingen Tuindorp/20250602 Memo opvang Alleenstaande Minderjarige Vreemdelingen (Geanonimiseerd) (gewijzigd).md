@@ -1,9 +1,31 @@
 ---
-title: "20250602 Memo opvang Alleenstaande Minderjarige Vreemdelingen (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/20250602 Memo opvang Alleenstaande Minderjarige Vreemdelingen (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "36ce1f69cee4940b3b603df77ed80d26"
-date: 2026-11-16
+title: >-
+  20250602 Memo opvang Alleenstaande Minderjarige Vreemdelingen (Geanonimiseerd)
+  (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/20250602 Memo opvang Alleenstaande
+  Minderjarige Vreemdelingen (Geanonimiseerd) (gewijzigd).pdf
+s3_etag: 36ce1f69cee4940b3b603df77ed80d26
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden werkt met Domesta, Elker, Nidos en de politie aan de
+  huisvesting van 14 alleenstaande minderjarige meisjes aan de Doctor J.C.
+  Homanstraat, ondanks weerstand en dreigende uitlatingen van buurtbewoners. De
+  bezwaarschriftencommissie concludeerde dat de omgevingsvergunning terecht is
+  verleend en dat de bezwaren ongegrond zijn; daarnaast is een veiligheidsplan
+  opgesteld met onder meer tijdelijke gemeentelijke cameratoezicht en extra
+  inzet van boa’s.
+milestones:
+  - date: '2025-05-21'
+    event: Hoorzitting over bezwaar tegen de omgevingsvergunning
+ai_processed_at: '2026-11-16T10:17:18.332Z'
+ai_status: done
 ---
 
 MEMO

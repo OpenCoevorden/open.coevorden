@@ -1,9 +1,26 @@
 ---
-title: "20250702-Ambtelijk overleg iz Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/20250702-Ambtelijk overleg iz Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "789bc2f4d6ae9c6b309aced714234e94"
-date: 2026-11-16
+title: 20250702-Ambtelijk overleg iz Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/20250702-Ambtelijk overleg iz Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: 789bc2f4d6ae9c6b309aced714234e94
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het ambtelijk overleg van de gemeente over de situatie in Tuindorp gaat over
+  het opruimen van brandresten, de opvang van kwetsbare meisjes, de inzet van
+  gemeentelijke en veiligheidsdiensten en de communicatie met inwoners.
+  Afgesproken is onder meer een aannemer in te schakelen voor de brandresten,
+  een brief met een oproep tot fatsoen op te stellen, een inwonersmailbox te
+  openen en de inzet en werkdruk van de betrokken teams opnieuw te bespreken.
+milestones: []
+ai_processed_at: '2026-11-16T10:17:06.134Z'
+ai_status: done
 ---
 
 Ambtelijk overleg iz Tuindorp

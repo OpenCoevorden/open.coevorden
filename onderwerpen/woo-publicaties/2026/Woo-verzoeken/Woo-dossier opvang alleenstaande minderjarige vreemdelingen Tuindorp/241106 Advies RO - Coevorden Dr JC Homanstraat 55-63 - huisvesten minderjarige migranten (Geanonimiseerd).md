@@ -1,9 +1,31 @@
 ---
-title: "241106 Advies RO - Coevorden Dr JC Homanstraat 55-63 - huisvesten minderjarige migranten (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241106 Advies RO - Coevorden Dr JC Homanstraat 55-63 - huisvesten minderjarige migranten (Geanonimiseerd).pdf"
-s3_etag: "3a9cec8514b28ca3ccab8f4840ac3b04"
-date: 2026-11-16
+title: >-
+  241106 Advies RO - Coevorden Dr JC Homanstraat 55-63 - huisvesten minderjarige
+  migranten (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241106 Advies RO - Coevorden Dr JC
+  Homanstraat 55-63 - huisvesten minderjarige migranten (Geanonimiseerd).pdf
+s3_etag: 3a9cec8514b28ca3ccab8f4840ac3b04
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het advies betreft de aanvraag van Stichting Elker om aan de Doctor J.C.
+  Homanstraat 55-63 in Coevorden maximaal 14 alleenstaande minderjarige
+  vreemdelingen gedurende vijf jaar te huisvesten, waarvoor vanwege strijd met
+  het omgevingsplan een buitenplanse omgevingsplanactiviteit nodig is. De
+  gemeenteraad van Coevorden adviseerde op 28 januari 2025 positief en het
+  advies concludeert dat sprake is van een evenwichtige toedeling van functies
+  aan locaties, zodat de omgevingsvergunning kan worden verleend.
+milestones:
+  - date: '2024-11-06'
+    event: Aanvraag omgevingsvergunning ingediend
+ai_processed_at: '2026-11-16T10:06:42.283Z'
+ai_status: done
 ---
 
 ADVIES RUIMTELIJKE ORDENING AFWIJKEN

@@ -1,9 +1,24 @@
 ---
-title: "Voorlegger PFO AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Voorlegger PFO AMV (Geanonimiseerd).pdf"
-s3_etag: "d995fe62bde89960fc774e502ece0108"
-date: 2026-11-16
+title: Voorlegger PFO AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Voorlegger PFO AMV (Geanonimiseerd).pdf
+s3_etag: d995fe62bde89960fc774e502ece0108
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorgenomen opening van een kinderwoongroep in
+  Coevorden voor 14 alleenstaande minderjarige vreemdelingen, een initiatief van
+  de gemeente samen met Domesta, Elker en Nidos. Het bespreekt knelpunten die
+  weerstand veroorzaken en legt een voorgestelde aanpak ter kennisname en
+  bespreking voor aan het portefeuillehoudersoverleg.
+milestones: []
+ai_processed_at: '2026-11-16T09:19:47.113Z'
+ai_status: done
 ---
 
 Portefeuillehouder/PFO Renze Bergsma, Joop Slomp

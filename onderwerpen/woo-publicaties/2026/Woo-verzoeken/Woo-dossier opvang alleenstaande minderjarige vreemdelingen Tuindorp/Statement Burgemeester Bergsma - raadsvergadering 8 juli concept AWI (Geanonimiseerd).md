@@ -1,9 +1,27 @@
 ---
-title: "Statement Burgemeester Bergsma - raadsvergadering 8 juli concept AWI (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Statement Burgemeester Bergsma - raadsvergadering 8 juli concept AWI (Geanonimiseerd).pdf"
-s3_etag: "d2769d7ec9815d9d4d328ed3de95061a"
-date: 2026-11-16
+title: >-
+  Statement Burgemeester Bergsma - raadsvergadering 8 juli concept AWI
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Statement Burgemeester Bergsma -
+  raadsvergadering 8 juli concept AWI (Geanonimiseerd).pdf
+s3_etag: d2769d7ec9815d9d4d328ed3de95061a
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De burgemeester licht het moeilijke besluit toe om de huisvesting van 14
+  minderjarige meisjes in de wijk Tuindorp niet door te laten gaan, omdat hun
+  veiligheid daar niet kon worden gegarandeerd. Het college komt na het
+  zomerreces met een voorstel over de korte- en langetermijntoekomst van
+  Tuindorp; bedreigingen en intimidatie worden nadrukkelijk veroordeeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:20:31.001Z'
+ai_status: done
 ---
 
 Dames , heren , beste aanwezigen , raadsleden , kijkers thuis en

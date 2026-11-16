@@ -1,9 +1,32 @@
 ---
-title: "250106 RE Aanvraag Z2024-019585 - verlengen behandeltermijn Gemeente Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250106 RE Aanvraag Z2024-019585 - verlengen behandeltermijn Gemeente Coevorden (Geanonimiseerd).pdf"
-s3_etag: "a201081ef86e83933259ce42d0e4df51"
-date: 2026-11-16
+title: >-
+  250106 RE Aanvraag Z2024-019585 - verlengen behandeltermijn Gemeente Coevorden
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250106 RE Aanvraag Z2024-019585 -
+  verlengen behandeltermijn Gemeente Coevorden (Geanonimiseerd).pdf
+s3_etag: a201081ef86e83933259ce42d0e4df51
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat e-mailcorrespondentie tussen de gemeente Coevorden en Elker
+  over aanvraag Z2024-019585 voor de huisvesting van maximaal 14 alleenstaande
+  minderjarige vreemdelingen. De gemeente heeft de beslistermijn met maximaal
+  zes weken verlengd vanwege het adviesrecht van de gemeenteraad; zij verwacht
+  na behandeling in de raad zo spoedig mogelijk te beslissen en stelt dat de
+  planning daardoor niet wijzigt.
+milestones:
+  - date: '2024-11-06'
+    event: Woo-aanvraag ingediend
+  - date: '2024-12-19'
+    event: Besluit tot verlenging van de beslistermijn met maximaal zes weken
+ai_processed_at: '2026-11-16T10:01:24.587Z'
+ai_status: done
 ---
 
 U nn

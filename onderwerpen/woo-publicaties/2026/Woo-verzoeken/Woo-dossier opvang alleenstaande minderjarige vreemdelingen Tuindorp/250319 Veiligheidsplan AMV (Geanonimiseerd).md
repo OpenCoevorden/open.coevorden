@@ -1,9 +1,27 @@
 ---
-title: "250319 Veiligheidsplan AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250319 Veiligheidsplan AMV (Geanonimiseerd).pdf"
-s3_etag: "2ee7904d4da856fca5c7f50117b7edb8"
-date: 2026-11-16
+title: 250319 Veiligheidsplan AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250319 Veiligheidsplan AMV
+  (Geanonimiseerd).pdf
+s3_etag: 2ee7904d4da856fca5c7f50117b7edb8
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft een conceptveiligheidsplan van de gemeente Coevorden voor
+  de geplande opvang van alleenstaande minderjarige vluchtelingen in Tuindorp,
+  opgesteld met aanvullingen van de wijkagent en bedoeld voor bespreking met
+  betrokken overlegdeelnemers. Het plan beschrijft maatregelen vóór de beoogde
+  opening in april, een escalatieladder, rollen en verantwoordelijkheden en een
+  calamiteitenteam, tegen de achtergrond van weerstand in de buurt,
+  informatieavonden, protesthandtekeningen en spandoeken.
+milestones: []
+ai_processed_at: '2026-11-16T09:47:58.204Z'
+ai_status: done
 ---
 
 J

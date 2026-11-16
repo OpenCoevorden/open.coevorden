@@ -1,9 +1,36 @@
 ---
-title: "250707 Tijdlijn huisvesting AMV - voorbereiding voor raadsvergadering (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250707 Tijdlijn huisvesting AMV - voorbereiding voor raadsvergadering (Geanonimiseerd).pdf"
-s3_etag: "cac6ab63349f3a82aafbe6f91aeda95f"
-date: 2026-11-16
+title: >-
+  250707 Tijdlijn huisvesting AMV - voorbereiding voor raadsvergadering
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250707 Tijdlijn huisvesting AMV -
+  voorbereiding voor raadsvergadering (Geanonimiseerd).pdf
+s3_etag: cac6ab63349f3a82aafbe6f91aeda95f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een tijdlijn en toelichting op de voorbereiding van de
+  huisvesting van alleenstaande minderjarige vreemdelingen (AMV’s) door Elker in
+  panden aan de Doctor J.C. Homanstraat in Coevorden, in samenwerking met de
+  gemeente Coevorden en Domesta, en de communicatie met de gemeenteraad en
+  omwonenden. De omgevingsvergunning werd verleend en na bezwaren van 57
+  omwonenden, die vreesden voor de veiligheid en onvoldoende
+  informatievoorziening, in stand gelaten omdat de bezwaren niet-ontvankelijk of
+  ongegrond waren.
+milestones:
+  - date: '2024-11-06'
+    event: Aanvraag omgevingsvergunning ingediend
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend
+  - date: '2025-06-18'
+    event: Beslissing op bezwaar verzonden
+ai_processed_at: '2026-11-16T09:31:02.542Z'
+ai_status: done
 ---
 
 Verzonden: maandag 7 juli 2025 16:17

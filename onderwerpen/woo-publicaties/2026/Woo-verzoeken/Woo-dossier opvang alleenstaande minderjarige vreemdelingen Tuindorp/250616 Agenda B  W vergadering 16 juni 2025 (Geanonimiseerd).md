@@ -1,9 +1,25 @@
 ---
-title: "250616 Agenda B  W vergadering 16 juni 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250616 Agenda B  W vergadering 16 juni 2025 (Geanonimiseerd).pdf"
-s3_etag: "2cdecb8cf33e45a273143e78e4f70c53"
-date: 2026-11-16
+title: 250616 Agenda B  W vergadering 16 juni 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250616 Agenda B  W vergadering 16 juni
+  2025 (Geanonimiseerd).pdf
+s3_etag: 2cdecb8cf33e45a273143e78e4f70c53
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De agenda van de vergadering van het college van burgemeester en wethouders
+  van Coevorden op 16 juni 2025 behandelt onder meer de opvang van minderjarige
+  statushouders aan de Dr. J.C. Homanstraat 55-63 in Coevorden (zaaknummer
+  34319-2025), met R. Bergsma als voorzitter en portefeuillehouder. De uitkomst
+  van de bespreking is niet vermeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:38:33.774Z'
+ai_status: done
 ---
 
 Agenda B & W vergadering 16 juni 2025

@@ -1,9 +1,29 @@
 ---
-title: "250203 FW Huisvesting AMV update + gemaakte afspraken (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250203 FW Huisvesting AMV update + gemaakte afspraken (Geanonimiseerd).pdf"
-s3_etag: "49fe2c6d9309de4684182afb867263bb"
-date: 2026-11-16
+title: 250203 FW Huisvesting AMV update + gemaakte afspraken (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250203 FW Huisvesting AMV update +
+  gemaakte afspraken (Geanonimiseerd).pdf
+s3_etag: 49fe2c6d9309de4684182afb867263bb
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV) in Coevorden en de gemaakte werk- en communicatieafspraken
+  tussen de gemeente Coevorden, Elker, Nidos en andere betrokken organisaties en
+  omwonenden. De gemeenteraad heeft ingestemd met de huisvesting, de
+  omgevingsvergunning is verleend en de bezwaarprocedure loopt; daarnaast worden
+  informatie- en kennismakingsbijeenkomsten georganiseerd over begeleiding,
+  samenwerking en vervolghuisvesting.
+milestones:
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend; bezwaarprocedure gestart
+ai_processed_at: '2026-11-16T09:56:16.674Z'
+ai_status: done
 ---
 
 u nn

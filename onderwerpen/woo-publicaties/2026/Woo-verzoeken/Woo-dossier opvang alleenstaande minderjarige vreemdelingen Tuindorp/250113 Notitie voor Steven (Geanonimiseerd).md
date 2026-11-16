@@ -1,9 +1,31 @@
 ---
-title: "250113 Notitie voor Steven (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250113 Notitie voor Steven (Geanonimiseerd).pdf"
-s3_etag: "00c9b4817acb1d17447a26ef76c7dac3"
-date: 2026-11-16
+title: 250113 Notitie voor Steven (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250113 Notitie voor Steven
+  (Geanonimiseerd).pdf
+s3_etag: 00c9b4817acb1d17447a26ef76c7dac3
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over het gemeentelijke voornemen om samen met Domesta en
+  Nidos 14 alleenstaande minderjarige statushouders van ongeveer 15 tot 18 jaar,
+  met begeleiding van Elker, te huisvesten in vijf aaneengeschakelde woningen in
+  Tuindorp (Coevorden). De jongeren krijgen 24/7 begeleiding gericht op
+  inburgering, integratie en zelfstandigheid; met de huisvesting wil de gemeente
+  bovendien de achterstand in de wettelijke taakstelling voor statushouders
+  verminderen.
+milestones:
+  - date: '2022-12-31'
+    event: >-
+      Het college besloot mee te werken aan de huisvesting van alleenstaande
+      minderjarige vreemdelingen en met Domesta een geschikte locatie te zoeken.
+ai_processed_at: '2026-11-16T10:00:40.425Z'
+ai_status: done
 ---
 
 1. Door een groot gekort aan opvangplekken worden veel jongeren nu

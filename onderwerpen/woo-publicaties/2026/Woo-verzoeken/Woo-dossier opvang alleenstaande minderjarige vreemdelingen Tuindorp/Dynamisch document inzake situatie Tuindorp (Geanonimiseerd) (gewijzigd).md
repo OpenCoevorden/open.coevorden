@@ -1,9 +1,31 @@
 ---
-title: "Dynamisch document inzake situatie Tuindorp (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Dynamisch document inzake situatie Tuindorp (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "77d52fe3376cbdcfe78227c9da1ecb9c"
-date: 2026-11-16
+title: Dynamisch document inzake situatie Tuindorp (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Dynamisch document inzake situatie
+  Tuindorp (Geanonimiseerd) (gewijzigd).pdf
+s3_etag: 77d52fe3376cbdcfe78227c9da1ecb9c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document beschrijft de plannen van de gemeente Coevorden, Domesta, Elker
+  en Nidos om een kinderwoongroep voor 14 alleenstaande minderjarige
+  vreemdelingen te openen aan de Doctor J.C. Homanstraat in Tuindorp, en de
+  daaropvolgende bezwaren, protesten, vernielingen en brandstichtingen door
+  omwonenden en anderen. De bezwaren tegen de omgevingsvergunning zijn ongegrond
+  verklaard; vanwege de escalatie worden besluitvorming en maatregelen
+  voorbereid rond communicatie, beveiliging, noodweer en vuurwerk.
+milestones:
+  - date: '2025-05-21'
+    event: Hoorzitting over bezwaren tegen de omgevingsvergunning
+  - date: '2025-06-05'
+    event: Bezwaren tegen de omgevingsvergunning ongegrond verklaard
+ai_processed_at: '2026-11-16T09:26:37.910Z'
+ai_status: done
 ---
 
 Dynamisch document inzake situatie Tuindorp

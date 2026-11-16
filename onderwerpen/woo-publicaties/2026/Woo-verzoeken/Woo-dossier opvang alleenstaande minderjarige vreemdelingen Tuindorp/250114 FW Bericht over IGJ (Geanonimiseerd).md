@@ -1,9 +1,27 @@
 ---
-title: "250114 FW Bericht over IGJ (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250114 FW Bericht over IGJ (Geanonimiseerd).pdf"
-s3_etag: "a474060242a1d436513570d38dbb0f73"
-date: 2026-11-16
+title: 250114 FW Bericht over IGJ (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250114 FW Bericht over IGJ
+  (Geanonimiseerd).pdf
+s3_etag: a474060242a1d436513570d38dbb0f73
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Elker informeert netwerkpartners dat de Inspectie Gezondheidszorg en Jeugd
+  (IGJ) de JeugdzorgPlus van Elker, evenals die van vijf andere aanbieders,
+  onder verscherpt toezicht heeft gesteld wegens tekortkomingen bij onder meer
+  de toepassing van vrijheidsbeperkende maatregelen en het ontbreken van een
+  afzonderlijke veilige ruimte. Elker benadrukt de ethische dilemma’s en de
+  ingezette transformatie, verwijst naar de kritische reactie van Jeugdzorg
+  Nederland en werkt aan een verbeterplan om de zorg te verbeteren.
+milestones: []
+ai_processed_at: '2026-11-16T10:00:06.381Z'
+ai_status: done
 ---
 
 Van: J

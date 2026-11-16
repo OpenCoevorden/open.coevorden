@@ -1,9 +1,25 @@
 ---
-title: "FW stand van zaken Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/FW stand van zaken Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "ae2b884e17c899e78f13db01f4d8bfc8"
-date: 2026-11-16
+title: FW stand van zaken Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/FW stand van zaken Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: ae2b884e17c899e78f13db01f4d8bfc8
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De politie informeert Renze Bergsma over de stand van zaken rond de
+  ongeregeldheden in Tuindorp en benadrukt dat het onderzoek en de
+  informatie-inventarisatie doorgaan. In afstemming met het Openbaar Ministerie
+  worden mogelijke aanhoudingen, processen-verbaal en vervolging niet
+  uitgesloten.
+milestones: []
+ai_processed_at: '2026-11-16T09:24:54.585Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

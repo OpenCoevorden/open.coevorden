@@ -1,9 +1,30 @@
 ---
-title: "terugkoppeling verloop zitting bezwaarschriften commissie AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/terugkoppeling verloop zitting bezwaarschriften commissie AMV (Geanonimiseerd).pdf"
-s3_etag: "f758868b9c0542bfd4eff353b4b45e9f"
-date: 2026-11-16
+title: terugkoppeling verloop zitting bezwaarschriften commissie AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/terugkoppeling verloop zitting
+  bezwaarschriften commissie AMV (Geanonimiseerd).pdf
+s3_etag: f758868b9c0542bfd4eff353b4b45e9f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mail over de hoorzitting van de bezwaarschriftencommissie inzake de
+  omgevingsvergunning voor een AMV-locatie aan de Homanstraat in Tuindorp.
+  Ongeveer 30-35 bezwaarmakers waren aanwezig; tijdens de zitting werden
+  bedreigingen geuit richting de gemeente, Elker en commissieleden, waarna de
+  commissie dit gedrag afkeurde, een veiligheidsplan werd besproken en de opname
+  van de zitting zou worden opgevraagd voor mogelijk vervolg.
+milestones:
+  - date: '2025-05-21'
+    event: >-
+      Hoorzitting in bezwaar tegen de omgevingsvergunning voor de AMV-locatie
+      aan de Homanstraat in Tuindorp
+ai_processed_at: '2026-11-16T09:19:01.090Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

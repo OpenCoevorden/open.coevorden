@@ -1,9 +1,29 @@
 ---
-title: "240910 chat 1 (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240910 chat 1 (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "155e84bd8417c071ebb93d7a0b7a3989"
-date: 2026-11-16
+title: 240910 chat 1 (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240910 chat 1 (Geanonimiseerd)
+  (gewijzigd).pdf
+s3_etag: 155e84bd8417c071ebb93d7a0b7a3989
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat interne WhatsApp-correspondentie tussen gemeentelijke
+  medewerkers en betrokken organisaties zoals Elker, Nidos en Domesta over de
+  opvang en huisvesting van alleenstaande minderjarige vreemdelingen (AMV) in
+  Coevorden, waaronder locatiekeuze, communicatie met omwonenden, veiligheid en
+  bestuurlijke afstemming. Naar aanleiding van bezwaren en een hoorzitting werd
+  de koers gewijzigd naar een ‘meisjeshuis’, maar de start van de huisvesting
+  bleef afhankelijk van veiligheidsmaatregelen, de bezwaarprocedure en verdere
+  besluitvorming; daarnaast werd melding gemaakt van bedreigingen en
+  vernielingen rond de locatie.
+milestones: []
+ai_processed_at: '2026-11-16T10:12:53.909Z'
+ai_status: done
 ---
 
 [24-05-2019, 12:56:00] Berichten en oproepen worden end-to-end

@@ -1,9 +1,30 @@
 ---
-title: "250313 RE check advies 'Samenwerkingsovereenkomst kinderwoongroep' (zaak 7036-2025) (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250313 RE check advies 'Samenwerkingsovereenkomst kinderwoongroep' (zaak 7036-2025) (Geanonimiseerd).pdf"
-s3_etag: "be6157630ad96141c659fd5d305ba51b"
-date: 2026-11-16
+title: >-
+  250313 RE check advies 'Samenwerkingsovereenkomst kinderwoongroep' (zaak
+  7036-2025) (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250313 RE check advies
+  'Samenwerkingsovereenkomst kinderwoongroep' (zaak 7036-2025)
+  (Geanonimiseerd).pdf
+s3_etag: be6157630ad96141c659fd5d305ba51b
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over de juridische controle van de
+  samenwerkingsovereenkomst voor een kinderwoongroep in Coevorden, tussen
+  medewerkers van de gemeente Coevorden en betrokken interne teams. De
+  overeenkomst is gecontroleerd en afgestemd met Advies en Financiën; daarnaast
+  wordt goedkeuring gevraagd om een verklaring van Nidos over vermeende
+  tekortkomingen in de opvang en begeleiding van alleenstaande minderjarige
+  vreemdelingen aan het collegedossier toe te voegen.
+milestones: []
+ai_processed_at: '2026-11-16T09:48:42.027Z'
+ai_status: done
 ---
 
 vi mn

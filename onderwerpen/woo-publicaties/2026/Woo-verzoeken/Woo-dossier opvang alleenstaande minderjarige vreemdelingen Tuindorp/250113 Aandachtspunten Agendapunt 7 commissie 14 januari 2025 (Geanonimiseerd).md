@@ -1,9 +1,27 @@
 ---
-title: "250113 Aandachtspunten Agendapunt 7 commissie 14 januari 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250113 Aandachtspunten Agendapunt 7 commissie 14 januari 2025 (Geanonimiseerd).pdf"
-s3_etag: "e73c58c66c7b4ad30689986f9d715a73"
-date: 2026-11-16
+title: 250113 Aandachtspunten Agendapunt 7 commissie 14 januari 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250113 Aandachtspunten Agendapunt 7
+  commissie 14 januari 2025 (Geanonimiseerd).pdf
+s3_etag: e73c58c66c7b4ad30689986f9d715a73
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat aandachtspunten en achtergrondinformatie voor de commissie
+  over het gemeentelijke adviesrecht inzake de huisvesting van maximaal 14
+  alleenstaande minderjarige vreemdelingen met verblijfsstatus in vijf woningen
+  in Tuindorp, Coevorden, een initiatief van de gemeente in samenwerking met
+  Nidos, Domesta en begeleidingsorganisatie Elker. De jongeren krijgen 24/7
+  begeleiding en de gemeente beschrijft de voorgenomen communicatie met
+  omwonenden, waaronder informatie- en inloopbijeenkomsten.
+milestones: []
+ai_processed_at: '2026-11-16T10:01:02.083Z'
+ai_status: done
 ---
 
 Verzonden: maandag 13 januari 2025 16:24

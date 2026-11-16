@@ -1,9 +1,26 @@
 ---
-title: "20240131 Factsheet Opvang (1) (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/20240131 Factsheet Opvang (1) (Geanonimiseerd).pdf"
-s3_etag: "0ebe14141478f6c435c86c9e4f4bb3ca"
-date: 2026-11-16
+title: 20240131 Factsheet Opvang (1) (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/20240131 Factsheet Opvang (1)
+  (Geanonimiseerd).pdf
+s3_etag: 0ebe14141478f6c435c86c9e4f4bb3ca
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Dit factsheet van Nidos geeft per Nederlandse gemeente een overzicht van de
+  taakstelling voor opvang bij Nidos tot 1 juli 2024, het aantal gerealiseerde
+  opvangplaatsen sinds 1 januari 2024 en het resterende aantal. Het document
+  laat zien in hoeverre gemeenten hun opvangtaak hebben uitgevoerd, waarbij
+  sommige gemeenten de taakstelling hebben gehaald of overschreden en andere nog
+  plaatsen moeten realiseren.
+milestones: []
+ai_processed_at: '2026-11-16T10:17:40.669Z'
+ai_status: done
 ---
 
 Factsheet opvang bij Nidos

@@ -1,9 +1,31 @@
 ---
-title: "241106 Informatie i.v.m. mogelijke telefoontjes opvang AMV Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241106 Informatie i.v.m. mogelijke telefoontjes opvang AMV Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "9792a5074eee62dff454a6758a0b4e3c"
-date: 2026-11-16
+title: >-
+  241106 Informatie i.v.m. mogelijke telefoontjes opvang AMV Tuindorp
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241106 Informatie i.v.m. mogelijke
+  telefoontjes opvang AMV Tuindorp (Geanonimiseerd).pdf
+s3_etag: 9792a5074eee62dff454a6758a0b4e3c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat informatie voor het Klant Contact Centrum van de gemeente
+  Coevorden over het voornemen om vanaf 2025 veertien alleenstaande minderjarige
+  vreemdelingen (AMV’ers) met een verblijfsvergunning in vijf woningen in
+  Tuindorp te laten wonen, onder 24-uursbegeleiding van Elker en voogdij van
+  NIDOS. De gemeenteraad heeft nog adviesrecht, waardoor het plan nog niet
+  definitief is; omwonenden en de raad zijn hierover geïnformeerd en er komt bij
+  definitieve doorgang een inloopmoment.
+milestones:
+  - date: '2024-11-06'
+    event: Aanvraag omgevingsvergunning door Elker vermeld
+ai_processed_at: '2026-11-16T10:06:20.723Z'
+ai_status: done
 ---
 
 J

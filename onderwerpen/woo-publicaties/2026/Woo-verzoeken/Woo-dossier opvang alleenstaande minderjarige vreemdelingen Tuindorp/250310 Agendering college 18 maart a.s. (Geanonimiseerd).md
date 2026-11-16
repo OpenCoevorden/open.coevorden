@@ -1,9 +1,25 @@
 ---
-title: "250310 Agendering college 18 maart a.s. (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250310 Agendering college 18 maart a.s. (Geanonimiseerd).pdf"
-s3_etag: "204bac5d2661328fb2ad1438edaf135d"
-date: 2026-11-16
+title: 250310 Agendering college 18 maart a.s. (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250310 Agendering college 18 maart a.s.
+  (Geanonimiseerd).pdf
+s3_etag: 204bac5d2661328fb2ad1438edaf135d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mail gaat over het agenderen van de samenwerkingsovereenkomst tussen
+  Nidos en de gemeente Coevorden voor de opvang van alleenstaande minderjarige
+  vluchtelingen, met zaaknummer 7036-2025. Het onderwerp is besproken in het PFO
+  en MP en doorgezet voor accordering in de collegevergadering van 18 maart
+  2025.
+milestones: []
+ai_processed_at: '2026-11-16T09:50:07.476Z'
+ai_status: done
 ---
 
 Verzonden: maandag 10 maart 2025 16:41

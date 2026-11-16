@@ -1,9 +1,25 @@
 ---
-title: "Q&A (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Q&A (Geanonimiseerd).pdf"
-s3_etag: "0d14f7309e0d9e827ca301e55817302b"
-date: 2026-11-16
+title: Q&A (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Q&A (Geanonimiseerd).pdf
+s3_etag: 0d14f7309e0d9e827ca301e55817302b
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden huisvest in vijf woningen vijf jongeren van 15 tot 18
+  jaar die zonder ouders naar Nederland zijn gevlucht en een verblijfsvergunning
+  hebben, met eventueel verlengde opvang tot 21 jaar. Elker begeleidt hen 24 uur
+  per dag in opdracht van NIDOS, zodat zij via onderwijs en ondersteuning
+  zelfstandig kunnen worden; de eerste bewoners worden in maart 2025 verwacht en
+  de locatie wordt voor langere tijd ingezet.
+milestones: []
+ai_processed_at: '2026-11-16T09:23:27.852Z'
+ai_status: done
 ---
 
 Staat de locatie vast?

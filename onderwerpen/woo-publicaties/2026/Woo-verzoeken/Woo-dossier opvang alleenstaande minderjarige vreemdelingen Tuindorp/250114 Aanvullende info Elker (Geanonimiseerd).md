@@ -1,9 +1,28 @@
 ---
-title: "250114 Aanvullende info Elker (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250114 Aanvullende info Elker (Geanonimiseerd).pdf"
-s3_etag: "5a37ce7c77efeb865d74ffc85063d214-2"
-date: 2026-11-16
+title: 250114 Aanvullende info Elker (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250114 Aanvullende info Elker
+  (Geanonimiseerd).pdf
+s3_etag: 5a37ce7c77efeb865d74ffc85063d214-2
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft achtergrondinformatie van Elker jeugdhulp & onderwijs aan
+  vertegenwoordigers van de gemeente Coevorden over berichtgeving rond
+  verscherpt toezicht door de Inspectie Gezondheidszorg en Jeugd (IGJ), waarbij
+  Elker benadrukt dat dit uitsluitend de JeugdzorgPlus betreft en niet de gehele
+  organisatie. Elker beschrijft haar brede jeugdzorg- en onderwijsaanbod, de
+  samenwerking met onder meer Jeugdzorg Nederland en de voortgaande afbouw en
+  transformatie van de JeugdzorgPlus van 144 naar 20 plaatsen, met als doel
+  beëindiging in 2027.
+milestones: []
+ai_processed_at: '2026-11-16T10:00:29.071Z'
+ai_status: done
 ---
 
 Verzonden: dinsdag 14 januari 2025 14:32

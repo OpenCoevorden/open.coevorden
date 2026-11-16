@@ -1,9 +1,25 @@
 ---
-title: "250618 chat 10 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250618 chat 10 (Geanonimiseerd).pdf"
-s3_etag: "0bea58c2ec89ba222bf8449fbb8f0804"
-date: 2026-11-16
+title: 250618 chat 10 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250618 chat 10 (Geanonimiseerd).pdf
+s3_etag: 0bea58c2ec89ba222bf8449fbb8f0804
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een WhatsApp-gesprek tussen geanonimiseerde betrokkenen gaat over het
+  aanpassen van de formulering in een brief en over branden in Tuindorp,
+  waarover de betrokkenen elkaar op de hoogte houden. De brief is uiteindelijk
+  aangepast naar de algemenere formulering ‘de komende periode’; delen van het
+  gesprek zijn weggelakt wegens toezichtbelangen, privacy en persoonlijke
+  beleidsopvattingen.
+milestones: []
+ai_processed_at: '2026-11-16T09:37:15.777Z'
+ai_status: done
 ---
 
 17-04-2025, 11:08:28] Berichten en oproepen worden end-to-

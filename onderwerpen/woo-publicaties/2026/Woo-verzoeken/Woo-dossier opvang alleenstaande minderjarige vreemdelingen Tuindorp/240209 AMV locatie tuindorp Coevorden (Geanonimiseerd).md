@@ -1,9 +1,27 @@
 ---
-title: "240209 AMV locatie tuindorp Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240209 AMV locatie tuindorp Coevorden (Geanonimiseerd).pdf"
-s3_etag: "2240e183a466d89385a4c52004221a81"
-date: 2026-11-16
+title: 240209 AMV locatie tuindorp Coevorden (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240209 AMV locatie tuindorp Coevorden
+  (Geanonimiseerd).pdf
+s3_etag: 2240e183a466d89385a4c52004221a81
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert fractievoorzitters over de mogelijke
+  huisvesting van alleenstaande minderjarige vreemdelingen (AMV) in het pand aan
+  de Dr. J.C. Homanstraat. Domesta wil geen huurovereenkomst sluiten met
+  Stichting Phusis vanwege onvoldoende vertrouwen in de kwaliteit van de zorg,
+  waardoor op korte termijn geen omgevingsvergunningaanvraag wordt verwacht; het
+  college onderzoekt samen met Domesta en Nidos verdere
+  huisvestingsmogelijkheden.
+milestones: []
+ai_processed_at: '2026-11-16T10:13:47.866Z'
+ai_status: done
 ---
 
 Van: “Joop Slomp"

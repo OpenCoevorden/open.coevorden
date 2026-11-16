@@ -1,9 +1,27 @@
 ---
-title: "241105 FW Succes in proces naar een AMV locatie (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241105 FW Succes in proces naar een AMV locatie (Geanonimiseerd).pdf"
-s3_etag: "184bc564bf3ae3b8261cd6891a2773aa"
-date: 2026-11-16
+title: 241105 FW Succes in proces naar een AMV locatie (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241105 FW Succes in proces naar een AMV
+  locatie (Geanonimiseerd).pdf
+s3_etag: 184bc564bf3ae3b8261cd6891a2773aa
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert medewerkers over de voortgang van het
+  voornemen om een opvanglocatie voor 14 alleenstaande minderjarige
+  vreemdelingen (AMV) te realiseren. Elker verzorgt de begeleiding, Domesta
+  verhuurt de locatie aan de Dr. J.C. Homanstraat en Nidos is verantwoordelijk
+  voor de jongeren; omwonenden en de gemeenteraad worden geïnformeerd, waarna
+  Elker een omgevingsvergunning aanvraagt. Bij een positief bindend advies van
+  de raad worden de jongeren naar verwachting vanaf maart 2025 opgevangen.
+milestones: []
+ai_processed_at: '2026-11-16T10:06:52.808Z'
+ai_status: done
 ---
 
 (geanonimiseerd) Van:

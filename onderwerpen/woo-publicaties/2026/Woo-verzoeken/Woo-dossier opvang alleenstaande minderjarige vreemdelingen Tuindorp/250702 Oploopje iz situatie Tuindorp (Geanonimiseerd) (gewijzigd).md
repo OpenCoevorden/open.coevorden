@@ -1,9 +1,27 @@
 ---
-title: "250702 Oploopje iz situatie Tuindorp (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250702 Oploopje iz situatie Tuindorp (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "42b6424192df74e3b5cc5a2ede035d71"
-date: 2026-11-16
+title: 250702 Oploopje iz situatie Tuindorp (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250702 Oploopje iz situatie Tuindorp
+  (Geanonimiseerd) (gewijzigd).pdf
+s3_etag: 42b6424192df74e3b5cc5a2ede035d71
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over brandstichting van een auto met aanhanger en een
+  papiercontainer in Tuindorp, de zorgen over veiligheid en draagvlak in de wijk
+  en de relatie met de opvanglocatie van Elker voor meisjes. De gemeente, Elker,
+  politie en wijkbetrokkenen bespreken maatregelen zoals een burgemeestersbrief,
+  gesprekken met inwoners, mogelijke cameratoezicht, dagelijkse
+  veiligheidsoverleggen en afspraken over de opvanglocatie, de termijn van vijf
+  jaar en een gezamenlijke evaluatie.
+milestones: []
+ai_processed_at: '2026-11-16T09:33:10.286Z'
+ai_status: done
 ---
 
 Oploopje iz situatie Tuindorp

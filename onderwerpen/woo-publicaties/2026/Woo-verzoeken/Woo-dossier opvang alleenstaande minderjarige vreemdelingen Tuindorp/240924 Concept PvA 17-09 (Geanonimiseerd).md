@@ -1,9 +1,35 @@
 ---
-title: "240924 Concept PvA 17-09 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240924 Concept PvA 17-09 (Geanonimiseerd).pdf"
-s3_etag: "60e9eb68f1f1205468713ec225e7a1f1"
-date: 2026-11-16
+title: 240924 Concept PvA 17-09 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240924 Concept PvA 17-09
+  (Geanonimiseerd).pdf
+s3_etag: 60e9eb68f1f1205468713ec225e7a1f1
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document beschrijft het gezamenlijke plan van aanpak van de gemeente
+  Coevorden, Domesta, Nidos en Elker voor de huisvesting en 24/7-begeleiding van
+  14 alleenstaande minderjarige vluchtelingen in vijf woningen aan de JC
+  Homanstraat 55 t/m 63 in Coevorden. Het plan is gericht op een duurzame opvang
+  voor vijf tot zeven jaar en de opening van een kinderwoongroep, met afspraken
+  over samenwerking, vergunningen, bestuurlijke besluitvorming en communicatie
+  met omwonenden en de raad.
+milestones:
+  - date: '2024-10-15'
+    event: Geplande indiening aanvraag omgevingsvergunning
+  - date: '2024-12-11'
+    event: Gepland besluit over toekenning omgevingsvergunning
+  - date: '2025-01-22'
+    event: >-
+      Gepland definitief besluit over omgevingsvergunning en einde
+      bezwaartermijn
+ai_processed_at: '2026-11-16T10:11:35.345Z'
+ai_status: done
 ---
 
 u nn

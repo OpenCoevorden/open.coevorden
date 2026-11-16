@@ -1,9 +1,28 @@
 ---
-title: "241114 RE Voorbereiden college- en raadsvoorstel in het kader van het adviesrecht (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241114 RE Voorbereiden college- en raadsvoorstel in het kader van het adviesrecht (Geanonimiseerd).pdf"
-s3_etag: "cbc7a0d1a5fc8c7dd7e439ac0bc51eed"
-date: 2026-11-16
+title: >-
+  241114 RE Voorbereiden college- en raadsvoorstel in het kader van het
+  adviesrecht (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241114 RE Voorbereiden college- en
+  raadsvoorstel in het kader van het adviesrecht (Geanonimiseerd).pdf
+s3_etag: cbc7a0d1a5fc8c7dd7e439ac0bc51eed
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stemt intern af over het opstellen van een college- en
+  raadsvoorstel inzake het adviesrecht van de gemeenteraad over de huisvesting
+  van alleenstaande minderjarige vreemdelingen. Betrokken gemeentelijke
+  medewerkers spreken af gezamenlijk op te trekken en de benodigde stukken
+  uiterlijk 26 november 2024 gereed te hebben voor agendering in het
+  gezamenlijke portefeuillehoudersoverleg.
+milestones: []
+ai_processed_at: '2026-11-16T10:04:57.742Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

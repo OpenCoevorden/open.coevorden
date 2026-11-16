@@ -1,9 +1,26 @@
 ---
-title: "20240131 Factsheet Opvang (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/20240131 Factsheet Opvang (Geanonimiseerd).pdf"
-s3_etag: "f35ec3144c3c9be8d7d4b531f8f9476b"
-date: 2026-11-16
+title: 20240131 Factsheet Opvang (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/20240131 Factsheet Opvang
+  (Geanonimiseerd).pdf
+s3_etag: f35ec3144c3c9be8d7d4b531f8f9476b
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De factsheet van Nidos geeft een overzicht van de opvang van alleenstaande
+  minderjarige vreemdelingen, waaronder de gemeentelijke taakstelling per
+  provincie, de KSO-capaciteit en wachtlijsten, wachttijden, opvang bij het COA,
+  verlengde opvang en opvanggezinnen. Per 5 februari 2024 waren 1.423 van de
+  3.900 plaatsen gerealiseerd (36%), bedroeg de totale KSO-capaciteit 1.423
+  plaatsen en verbleven 2.952 jongeren in opvanggezinnen.
+milestones: []
+ai_processed_at: '2026-11-16T10:17:29.775Z'
+ai_status: done
 ---
 
 Factsheet opvang bij Nidos

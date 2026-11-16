@@ -1,9 +1,36 @@
 ---
-title: "250509 2025-05-08 verweerschrift (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250509 2025-05-08 verweerschrift (Geanonimiseerd).pdf"
-s3_etag: "35e3b19598f9238e7bb7b2359e4e2c6f"
-date: 2026-11-16
+title: 250509 2025-05-08 verweerschrift (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250509 2025-05-08 verweerschrift
+  (Geanonimiseerd).pdf
+s3_etag: 35e3b19598f9238e7bb7b2359e4e2c6f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat het verweerschrift van het college van burgemeester en
+  wethouders van Coevorden tegen bezwaren van omwonenden over de op 30 januari
+  2025 verleende omgevingsvergunning voor de huisvesting van maximaal 14
+  alleenstaande minderjarige vreemdelingen aan de Dr. J.C. Homanstraat 55-63.
+  Het college bespreekt de ontvankelijkheid en bezwaargronden, waaronder zorgen
+  over veiligheid, alternatieve locaties, informatievoorziening en waardedaling,
+  en verzoekt de bezwaarschriften niet-ontvankelijk dan wel ongegrond te
+  verklaren en de vergunning in stand te laten.
+milestones:
+  - date: '2024-11-06'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor huisvesting van maximaal 14
+      alleenstaande minderjarige vreemdelingen.
+  - date: '2024-12-19'
+    event: Beslistermijn met zes weken verlengd.
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend.
+ai_processed_at: '2026-11-16T09:44:32.626Z'
+ai_status: done
 ---
 
 J

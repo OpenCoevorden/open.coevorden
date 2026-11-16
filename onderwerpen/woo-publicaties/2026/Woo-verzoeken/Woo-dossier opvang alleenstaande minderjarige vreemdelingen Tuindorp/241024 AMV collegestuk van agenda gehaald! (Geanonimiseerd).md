@@ -1,9 +1,26 @@
 ---
-title: "241024 AMV collegestuk van agenda gehaald! (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241024 AMV collegestuk van agenda gehaald! (Geanonimiseerd).pdf"
-s3_etag: "1631d91363eb3eb10e87a356cbf3cc31"
-date: 2026-11-16
+title: 241024 AMV collegestuk van agenda gehaald! (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241024 AMV collegestuk van agenda gehaald!
+  (Geanonimiseerd).pdf
+s3_etag: 1631d91363eb3eb10e87a356cbf3cc31
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een medewerker van de gemeente Coevorden bespreekt intern dat een collegestuk
+  over AMV op de agenda voor de komende dinsdag staat, terwijl er zorgen zijn
+  over het krappe en mogelijk niet-kloppende tijdspad in relatie tot het advies
+  van de Raad. De medewerker vraagt zich af of het stuk nog van de agenda kan
+  worden gehaald, omdat de betrokken collega niet bereikbaar is, en vreest
+  daardoor al een eerste vertraging.
+milestones: []
+ai_processed_at: '2026-11-16T10:08:55.199Z'
+ai_status: done
 ---
 
 J

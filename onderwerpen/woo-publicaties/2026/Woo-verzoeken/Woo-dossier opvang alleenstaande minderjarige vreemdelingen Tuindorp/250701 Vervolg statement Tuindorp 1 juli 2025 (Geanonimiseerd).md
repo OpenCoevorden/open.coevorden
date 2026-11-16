@@ -1,9 +1,27 @@
 ---
-title: "250701 Vervolg statement Tuindorp 1 juli 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250701 Vervolg statement Tuindorp 1 juli 2025 (Geanonimiseerd).pdf"
-s3_etag: "e968b8e16430642e0b21249fd83a8abe"
-date: 2026-11-16
+title: 250701 Vervolg statement Tuindorp 1 juli 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250701 Vervolg statement Tuindorp 1 juli
+  2025 (Geanonimiseerd).pdf
+s3_etag: e968b8e16430642e0b21249fd83a8abe
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een communicatiestrategie van de gemeente Coevorden over de
+  komst van 14 jonge, alleenstaande minderjarige statushouders naar de wijk
+  Tuindorp, gericht op zorgen van bewoners en de betrokkenheid van de
+  burgemeester, gebiedscoördinator en andere partijen. Voorgesteld wordt dat de
+  burgemeester snel de wijk bezoekt, in gesprek blijft met betrokkenen en een
+  schriftelijke of publieke verklaring afgeeft om begrip, respect en een veilige
+  leefomgeving te bevorderen.
+milestones: []
+ai_processed_at: '2026-11-16T09:33:43.871Z'
+ai_status: done
 ---
 
 Verzonden: dinsdag 1 juli 2025 12:55

@@ -1,9 +1,30 @@
 ---
-title: "Besluit Huurovereenkomst J.C.Homanstraat Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Besluit Huurovereenkomst J.C.Homanstraat Coevorden (Geanonimiseerd).pdf"
-s3_etag: "968128c0664fe96d703b1c904c9110e1"
-date: 2026-11-16
+title: Besluit Huurovereenkomst J.C.Homanstraat Coevorden (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Besluit Huurovereenkomst J.C.Homanstraat
+  Coevorden (Geanonimiseerd).pdf
+s3_etag: 968128c0664fe96d703b1c904c9110e1
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Domesta informeert een geanonimiseerde gesprekspartner dat de locatie aan de
+  J.C. Homanstraat in Coevorden geschikt wordt bevonden voor de opvang van
+  alleenstaande minderjarige vreemdelingen (AMV), waarbij Domesta zowel steun
+  voor deze doelgroep als verantwoordelijkheid voor de wijk Tuindorp benadrukt.
+  Domesta kondigt aan dit besluit aan de gemeente bekend te maken.
+milestones:
+  - date: '2024-02-08'
+    event: >-
+      Besluit van Domesta om de locatie aan de J.C. Homanstraat geschikt te
+      achten voor de opvang van alleenstaande minderjarige vreemdelingen (AMV)
+      en dit aan de gemeente kenbaar te maken
+ai_processed_at: '2026-11-16T09:29:52.266Z'
+ai_status: done
 ---
 
 Van: Me domesta.nl> (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

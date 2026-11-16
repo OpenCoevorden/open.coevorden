@@ -1,9 +1,26 @@
 ---
-title: "250214 Concept inloopavond 5 maart (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250214 Concept inloopavond 5 maart (Geanonimiseerd).pdf"
-s3_etag: "e77ae7f6804d88263f0ccffd46598d6f"
-date: 2026-11-16
+title: 250214 Concept inloopavond 5 maart (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250214 Concept inloopavond 5 maart
+  (Geanonimiseerd).pdf
+s3_etag: e77ae7f6804d88263f0ccffd46598d6f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Elker stemt met de gemeente Coevorden, woningcorporatie Domesta en Stichting
+  Nidos een conceptuitnodiging af voor buurtbewoners over de komst van jonge
+  alleenstaande vluchtelingen met verblijfsstatus naar woningen aan de
+  Homanstraat, waar zij met begeleiding van Elker gaan wonen. De uitnodiging
+  betreft een inloopavond op 5 maart 2025 van 19.00 tot 21.00 uur; de locatie
+  wordt nog bepaald en buurtbewoners kunnen zich aanmelden en vragen stellen.
+milestones: []
+ai_processed_at: '2026-11-16T09:54:21.519Z'
+ai_status: done
 ---
 
 u

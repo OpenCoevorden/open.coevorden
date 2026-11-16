@@ -1,9 +1,24 @@
 ---
-title: "FW Voorlegger + Memo (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/FW Voorlegger + Memo (Geanonimiseerd).pdf"
-s3_etag: "3e072e400bf3101932597350a169fa9a"
-date: 2026-11-16
+title: FW Voorlegger + Memo (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/FW Voorlegger + Memo (Geanonimiseerd).pdf
+s3_etag: 3e072e400bf3101932597350a169fa9a
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mails gaan over een conceptmemo en voorlegger over de opvang van
+  alleenstaande minderjarige vreemdelingen (AMV) door de gemeente Coevorden.
+  Betrokken medewerkers stemmen af wie de stukken beoordeelt, wie voor het
+  portefeuillehoudersoverleg (PFO) wordt uitgenodigd en wie het overleg laat
+  inplannen; een definitieve uitkomst is niet vermeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:25:05.167Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

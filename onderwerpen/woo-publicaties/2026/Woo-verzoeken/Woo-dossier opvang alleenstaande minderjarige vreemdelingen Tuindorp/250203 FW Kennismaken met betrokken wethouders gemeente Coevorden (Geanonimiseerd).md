@@ -1,9 +1,28 @@
 ---
-title: "250203 FW Kennismaken met betrokken wethouders gemeente Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250203 FW Kennismaken met betrokken wethouders gemeente Coevorden (Geanonimiseerd).pdf"
-s3_etag: "0a6efb48a1ca84ca736984f50993777b"
-date: 2026-11-16
+title: >-
+  250203 FW Kennismaken met betrokken wethouders gemeente Coevorden
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250203 FW Kennismaken met betrokken
+  wethouders gemeente Coevorden (Geanonimiseerd).pdf
+s3_etag: 0a6efb48a1ca84ca736984f50993777b
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden nodigt vertegenwoordigers van Elker en eventueel een
+  locatiecoördinator uit voor een kennismaking met wethouders Erik Holties en
+  Joop Slomp over hun werkzaamheden en de opvang van jongeren op de beoogde
+  locatie, in het kader van het raadsvoorstel over adviesrecht bij de
+  omgevingsvergunning. De afspraak moet nog worden ingepland, bij voorkeur op
+  een woensdag of donderdag.
+milestones: []
+ai_processed_at: '2026-11-16T09:56:03.949Z'
+ai_status: done
 ---
 
 J

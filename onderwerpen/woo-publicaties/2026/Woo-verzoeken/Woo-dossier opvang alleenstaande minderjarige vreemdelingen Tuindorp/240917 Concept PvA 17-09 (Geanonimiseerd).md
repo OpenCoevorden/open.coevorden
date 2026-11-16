@@ -1,9 +1,26 @@
 ---
-title: "240917 Concept PvA 17-09 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240917 Concept PvA 17-09 (Geanonimiseerd).pdf"
-s3_etag: "0e1e9b7394a3b9f359bb0146dc61c600"
-date: 2026-11-16
+title: 240917 Concept PvA 17-09 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240917 Concept PvA 17-09
+  (Geanonimiseerd).pdf
+s3_etag: 0e1e9b7394a3b9f359bb0146dc61c600
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een plan van aanpak van de gemeente Coevorden, Domesta,
+  Nidos en Elker voor de opening van een kinderwoongroep voor 12 tot 14
+  alleenstaande minderjarige vluchtelingen aan de JC Homanstraat, met 24/7
+  begeleiding en een beoogde opvangduur van vijf tot zeven jaar. Het beschrijft
+  de samenwerking, bestuurlijke besluitvorming, communicatie met omwonenden en
+  raad, en de planning richting opening eind 2024.
+milestones: []
+ai_processed_at: '2026-11-16T10:12:08.649Z'
+ai_status: done
 ---
 
 J

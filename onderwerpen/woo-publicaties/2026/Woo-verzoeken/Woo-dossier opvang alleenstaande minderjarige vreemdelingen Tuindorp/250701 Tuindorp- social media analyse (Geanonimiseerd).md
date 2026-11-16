@@ -1,9 +1,27 @@
 ---
-title: "250701 Tuindorp- social media analyse (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250701 Tuindorp- social media analyse (Geanonimiseerd).pdf"
-s3_etag: "e461fcff7dcf8abd3c7325ae6fd01c25"
-date: 2026-11-16
+title: 250701 Tuindorp- social media analyse (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250701 Tuindorp- social media analyse
+  (Geanonimiseerd).pdf
+s3_etag: e461fcff7dcf8abd3c7325ae6fd01c25
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document beschrijft de maatschappelijke onrust in de wijk Tuindorp in
+  Coevorden over de voorgenomen opvang van veertien alleenstaande minderjarige
+  meisjes met een verblijfsstatus, waaronder protesten, vernielingen en
+  brandstichting. Buurtbewoners, media, de gemeente, burgemeester Renze Bergsma,
+  Cosis en Domesta komen aan bod; de burgemeester noemt de vernielingen
+  onacceptabel en er blijkt grote behoefte aan informatie over de komst van de
+  meisjes, mogelijke gezinshereniging en de verdeling van woningen.
+milestones: []
+ai_processed_at: '2026-11-16T09:33:54.841Z'
+ai_status: done
 ---
 
 Rapport Omgevingsbeeld Tuindorp 1-7-2025 tot 16:00

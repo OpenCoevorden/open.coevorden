@@ -1,9 +1,28 @@
 ---
-title: "2023-12-21 definitief concept samenwerkingsovereenkomst Nidos-gemeente (2) (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/2023-12-21 definitief concept samenwerkingsovereenkomst Nidos-gemeente (2) (Geanonimiseerd).pdf"
-s3_etag: "bf2c4badd80477a4e1a184a547c169f7"
-date: 2026-11-16
+title: >-
+  2023-12-21 definitief concept samenwerkingsovereenkomst Nidos-gemeente (2)
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/2023-12-21 definitief concept
+  samenwerkingsovereenkomst Nidos-gemeente (2) (Geanonimiseerd).pdf
+s3_etag: bf2c4badd80477a4e1a184a547c169f7
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Samenwerkingsovereenkomst tussen de gemeente Coevorden en Stichting Nidos over
+  de opvang, begeleiding en huisvesting van maximaal 12 alleenstaande
+  minderjarige vreemdelingen in een kinderwoongroep, met uitvoering door
+  Stichting Phusis en betrokkenheid van woningcorporatie Domesta. De
+  overeenkomst regelt onder meer taken, omgevingsbeheer, gegevensverwerking,
+  calamiteitenmelding, evaluatie, looptijd en beëindigingsmogelijkheden.
+milestones: []
+ai_processed_at: '2026-11-16T10:18:02.897Z'
+ai_status: done
 ---
 
 Samenwerkingsovereenkomst opvang amv’s gemeente Coevorden

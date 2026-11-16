@@ -1,9 +1,24 @@
 ---
-title: "250520 Fw Hoorzitting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250520 Fw Hoorzitting AMV (Geanonimiseerd).pdf"
-s3_etag: "3cef7bdbd638108ab9f19c94834a7b8a"
-date: 2026-11-16
+title: 250520 Fw Hoorzitting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250520 Fw Hoorzitting AMV
+  (Geanonimiseerd).pdf
+s3_etag: 3cef7bdbd638108ab9f19c94834a7b8a
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne e-mail van de gemeente Coevorden over een hoorzitting inzake
+  alleenstaande minderjarige vreemdelingen (AMV). De politie en boa’s zijn
+  vooraf geïnformeerd en gevraagd alert te zijn op mogelijke onrust tijdens of
+  na de hoorzitting; de afzender verwacht dat alles rustig verloopt.
+milestones: []
+ai_processed_at: '2026-11-16T09:43:30.489Z'
+ai_status: done
 ---
 
 Van:

@@ -1,9 +1,26 @@
 ---
-title: "250605 Afspraken in het kader van de huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250605 Afspraken in het kader van de huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "512f1ac869f429920b42f9eee08ae5db"
-date: 2026-11-16
+title: 250605 Afspraken in het kader van de huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250605 Afspraken in het kader van de
+  huisvesting AMV (Geanonimiseerd).pdf
+s3_etag: 512f1ac869f429920b42f9eee08ae5db
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een ambtelijke e-mail van de gemeente Coevorden bespreekt met onder meer
+  Elker, Nidos, politie en betrokken gemeentelijke medewerkers veiligheids- en
+  communicatieafspraken rond de huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV), waaronder brievenbussen, bereikbaarheid van begeleiding,
+  extra toezicht en mogelijk cameratoezicht en beveiliging. De maatregelen
+  worden nog afgestemd en uitgewerkt in een brief en Q&A voor omwonenden.
+milestones: []
+ai_processed_at: '2026-11-16T09:42:07.924Z'
+ai_status: done
 ---
 
 Verzonden: donderdag 5 juni 2025 11:34

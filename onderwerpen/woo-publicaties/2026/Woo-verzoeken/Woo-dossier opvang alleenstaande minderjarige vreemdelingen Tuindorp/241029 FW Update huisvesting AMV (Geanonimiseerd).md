@@ -1,9 +1,25 @@
 ---
-title: "241029 FW Update huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241029 FW Update huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "b1bf366dbcfffd92bb4c5b850c1cd59f"
-date: 2026-11-16
+title: 241029 FW Update huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241029 FW Update huisvesting AMV
+  (Geanonimiseerd).pdf
+s3_etag: b1bf366dbcfffd92bb4c5b850c1cd59f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen de gemeente Coevorden, Domesta, Elker en Nidos over de
+  planning en voorbereiding van huisvesting voor alleenstaande minderjarige
+  vreemdelingen (AMV’s). De omgevingsvergunning wordt na positieve
+  terugkoppeling van het college op 6 november 2024 ingediend; daarnaast worden
+  communicatie met omwonenden, de gemeenteraad en een Q&A voorbereid.
+milestones: []
+ai_processed_at: '2026-11-16T10:07:58.796Z'
+ai_status: done
 ---
 
 Van: NE ornesta.nl> (geanonimiseerd) (geanonimiseerd)

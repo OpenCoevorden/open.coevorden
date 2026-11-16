@@ -1,9 +1,30 @@
 ---
-title: "250408 Re Huisvesting AMV (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250408 Re Huisvesting AMV (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "1131fa4c2847dd881b58e6bf91deabd0"
-date: 2026-11-16
+title: 250408 Re Huisvesting AMV (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250408 Re Huisvesting AMV (Geanonimiseerd)
+  (gewijzigd).pdf
+s3_etag: 1131fa4c2847dd881b58e6bf91deabd0
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorgenomen huisvesting van alleenstaande
+  minderjarige vreemdelingen (AMV’s) in Tuindorp, waarbij de gemeente Coevorden,
+  buurtbewoners, Domesta, Elker en Nidos betrokken zijn. Buurtbewoners hebben 96
+  handtekeningen ingediend die als bezwaarschrift worden behandeld, maar de
+  gemeente wil ondanks de bezwaren doorgaan en daarnaast informeel met de
+  betrokken buurtbewoners in gesprek gaan.
+milestones:
+  - date: '2025-04-04'
+    event: >-
+      96 handtekeningen met begeleidende brief zijn aangeboden en worden formeel
+      als bezwaarschrift aangemerkt.
+ai_processed_at: '2026-11-16T09:46:28.550Z'
+ai_status: done
 ---
 
 J

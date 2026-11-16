@@ -1,9 +1,24 @@
 ---
-title: "Aantekeningen driehoek (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Aantekeningen driehoek (Geanonimiseerd).pdf"
-s3_etag: "291ddc770f707ce8f106e0fa31d35fbc"
-date: 2026-11-16
+title: Aantekeningen driehoek (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Aantekeningen driehoek
+  (Geanonimiseerd).pdf
+s3_etag: 291ddc770f707ce8f106e0fa31d35fbc
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een medewerker van de gemeente Coevorden stuurt Renze Bergsma aangevulde
+  aantekeningen voor de driehoek, met als bijlage het document ‘Scenario AMV’
+  van 1 juli 2025. De aanvullingen betreffen recente ontwikkelingen in het
+  scenario rond alleenstaande minderjarige vreemdelingen.
+milestones: []
+ai_processed_at: '2026-11-16T09:30:02.958Z'
+ai_status: done
 ---
 
 B (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

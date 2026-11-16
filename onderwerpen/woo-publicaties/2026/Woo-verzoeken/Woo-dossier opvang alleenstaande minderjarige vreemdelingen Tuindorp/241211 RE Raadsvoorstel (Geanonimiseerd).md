@@ -1,9 +1,26 @@
 ---
-title: "241211 RE Raadsvoorstel (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241211 RE Raadsvoorstel (Geanonimiseerd).pdf"
-s3_etag: "56cace5f31d9b8fe597ff6380a0cad33"
-date: 2026-11-16
+title: 241211 RE Raadsvoorstel (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241211 RE Raadsvoorstel
+  (Geanonimiseerd).pdf
+s3_etag: 56cace5f31d9b8fe597ff6380a0cad33
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De medewerkers van de gemeente Coevorden bespreken de positieve ontvangst van
+  een raadsvoorstel door het college en de voorbereiding van wethouders en
+  raadsleden op de behandeling ervan, inclusief de juiste formulering over het
+  al dan niet verlenen van een omgevingsvergunning. Het voorstel kan door naar
+  de gemeenteraad en de stukken moeten vóór 18 december bij de griffie zijn
+  aangeleverd.
+milestones: []
+ai_processed_at: '2026-11-16T10:02:20.131Z'
+ai_status: done
 ---
 
 u mn

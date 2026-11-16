@@ -1,9 +1,24 @@
 ---
-title: "250629 chat 12 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250629 chat 12 (Geanonimiseerd).pdf"
-s3_etag: "09d0a24a62db68244e9f508fe1d72fff"
-date: 2026-11-16
+title: 250629 chat 12 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250629 chat 12 (Geanonimiseerd).pdf
+s3_etag: 09d0a24a62db68244e9f508fe1d72fff
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne WhatsApp-communicatie over een brand in Tuindorp en een bericht tegen
+  de komst van veertien jonge statushouders. Betrokken zijn geanonimiseerde
+  medewerkers en coördinatoren, die onder meer de communicatie en een
+  persstatement afstemmen; delen van de persoonsgegevens en persoonlijke
+  beleidsopvattingen zijn weggelakt op grond van de Woo.
+milestones: []
+ai_processed_at: '2026-11-16T09:35:22.336Z'
+ai_status: done
 ---
 
 22-06-2023, 1024556

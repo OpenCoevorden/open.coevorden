@@ -1,9 +1,33 @@
 ---
-title: "250521 Re terugkoppeling verloop zitting bezwaarschriften commissie AMV (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250521 Re terugkoppeling verloop zitting bezwaarschriften commissie AMV (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "2f63fbeea8d3620035a67d877a70b1eb"
-date: 2026-11-16
+title: >-
+  250521 Re terugkoppeling verloop zitting bezwaarschriften commissie AMV
+  (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250521 Re terugkoppeling verloop zitting
+  bezwaarschriften commissie AMV (Geanonimiseerd) (gewijzigd).pdf
+s3_etag: 2f63fbeea8d3620035a67d877a70b1eb
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over de hoorzitting van de bezwaarschriftencommissie
+  over de verleende omgevingsvergunning voor een AMV-locatie aan de Homanstraat
+  in Tuindorp, waarbij circa 30–35 bezwaarmakers aanwezig waren en opnieuw
+  bezwaren en mondelinge bedreigingen werden geuit. De gemeente Coevorden
+  bespreekt de nazit, het veiligheidsplan en het opvragen van de zittingsopname,
+  met als vervolgvoorstel afstemming tijdens het geplande PFO
+  Vluchtelingenopvang.
+milestones:
+  - date: '2025-05-21'
+    event: >-
+      Hoorzitting in bezwaar over de omgevingsvergunning voor de AMV-locatie aan
+      de Homanstraat in Tuindorp
+ai_processed_at: '2026-11-16T09:43:07.722Z'
+ai_status: done
 ---
 
 Van: “Joop Slomp"

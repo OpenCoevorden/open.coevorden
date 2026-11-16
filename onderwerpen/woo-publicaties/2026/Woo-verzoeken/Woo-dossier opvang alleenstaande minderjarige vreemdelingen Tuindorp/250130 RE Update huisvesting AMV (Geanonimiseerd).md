@@ -1,9 +1,35 @@
 ---
-title: "250130 RE Update huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250130 RE Update huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "c41690527f77e5e63ad12167b1ed491a"
-date: 2026-11-16
+title: 250130 RE Update huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250130 RE Update huisvesting AMV
+  (Geanonimiseerd).pdf
+s3_etag: c41690527f77e5e63ad12167b1ed491a
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft de voorbereiding van de huisvesting van 14 alleenstaande
+  minderjarige vreemdelingen (AMV’s) in Tuindorp door de gemeente Coevorden, in
+  samenwerking met Elker, Nidos, Domesta en lokale betrokkenen zoals school,
+  jongerenwerker en wijkagent. De gemeenteraad heeft de huisvesting als
+  hamerstuk goedgekeurd, waardoor de omgevingsvergunning kan worden verleend;
+  partijen stemmen daarnaast de samenwerkingsovereenkomst,
+  informatiebijeenkomsten en praktische uitvoering af.
+milestones:
+  - date: '2025-01-28'
+    event: >-
+      De gemeenteraad stemt in met de huisvesting van 14 AMV’s in Tuindorp; de
+      omgevingsvergunning kan worden verleend.
+  - date: '2025-01-30'
+    event: >-
+      De bezwaarprocedure voor belanghebbenden tegen de omgevingsvergunning
+      start.
+ai_processed_at: '2026-11-16T09:57:01.729Z'
+ai_status: done
 ---
 
 Van: NE << (geanonimiseerd) (geanonimiseerd)

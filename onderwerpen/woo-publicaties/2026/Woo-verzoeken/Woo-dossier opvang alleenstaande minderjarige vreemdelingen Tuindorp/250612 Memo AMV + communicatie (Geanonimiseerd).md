@@ -1,9 +1,36 @@
 ---
-title: "250612 Memo AMV + communicatie (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250612 Memo AMV + communicatie (Geanonimiseerd).pdf"
-s3_etag: "2195a4ab144367f46b21c23e1d76e96d"
-date: 2026-11-16
+title: 250612 Memo AMV + communicatie (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250612 Memo AMV + communicatie
+  (Geanonimiseerd).pdf
+s3_etag: 2195a4ab144367f46b21c23e1d76e96d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de opvang van maximaal 14 alleenstaande minderjarige
+  vrouwelijke statushouders aan de Dr. J.C. Homanstraat 55-63 in Coevorden,
+  waarbij de gemeente Coevorden, Elker, Nidos en Domesta betrokken zijn. De
+  bezwaarschriften van omwonenden zijn niet-ontvankelijk of ongegrond verklaard,
+  waardoor de omgevingsvergunning in stand blijft; daarnaast beschrijft het
+  document de buurtcommunicatie, begeleiding en veiligheidsmaatregelen.
+milestones:
+  - date: '2025-01-30'
+    event: >-
+      Omgevingsvergunning verleend voor de huisvesting van maximaal 14
+      alleenstaande minderjarige statushouders.
+  - date: '2025-05-21'
+    event: Bezwaarschriften tegen de omgevingsvergunning behandeld.
+  - date: '2025-06-05'
+    event: >-
+      Bezwaarschriftencommissie adviseert de bezwaren niet-ontvankelijk dan wel
+      ongegrond te verklaren; de omgevingsvergunning blijft in stand.
+ai_processed_at: '2026-11-16T09:39:42.596Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

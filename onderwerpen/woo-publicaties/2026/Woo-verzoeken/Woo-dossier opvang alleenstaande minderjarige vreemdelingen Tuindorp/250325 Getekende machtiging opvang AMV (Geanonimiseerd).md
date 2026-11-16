@@ -1,9 +1,29 @@
 ---
-title: "250325 Getekende machtiging opvang AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250325 Getekende machtiging opvang AMV (Geanonimiseerd).pdf"
-s3_etag: "88a3542a4425544cafcc8efe3bb1b839"
-date: 2026-11-16
+title: 250325 Getekende machtiging opvang AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250325 Getekende machtiging opvang AMV
+  (Geanonimiseerd).pdf
+s3_etag: 88a3542a4425544cafcc8efe3bb1b839
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft een machtiging van burgemeester R. Bergsma van de
+  gemeente Coevorden aan wethouder J. Slomp om namens de gemeente de
+  samenwerkingsovereenkomst voor de opvang van alleenstaande minderjarige
+  vreemdelingen (AMV’s) te ondertekenen, naar aanleiding van een collegebesluit
+  van 18 maart 2025.
+milestones:
+  - date: '2025-03-18'
+    event: >-
+      Besluit van burgemeester en wethouders van Coevorden tot ondertekening van
+      de samenwerkingsovereenkomst opvang AMV’s
+ai_processed_at: '2026-11-16T09:47:24.319Z'
+ai_status: done
 ---
 
 Van: J

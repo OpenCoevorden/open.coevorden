@@ -1,9 +1,24 @@
 ---
-title: "Chat wethouder Slomp - ambtenaar 5 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 5 (Geanonimiseerd).pdf"
-s3_etag: "16bb523aff27fce65187c0c6b6c03aec"
-date: 2026-11-16
+title: Chat wethouder Slomp - ambtenaar 5 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 5
+  (Geanonimiseerd).pdf
+s3_etag: 16bb523aff27fce65187c0c6b6c03aec
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft de afstemming over de jongerenwoongroep Tuindorp, waarbij
+  betrokkenen en organisaties Elker en NIDOS zijn genoemd. De woongroep is
+  akkoord bevonden voor het college en verdere afstemming met Elker/NIDOS wordt
+  geregeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:27:53.087Z'
+ai_status: done
 ---
 
 12:33 at > KWO

@@ -1,9 +1,28 @@
 ---
-title: "240105 Aangevulde communicatieplan NIDOS; brieven persbericht webpagina (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240105 Aangevulde communicatieplan NIDOS; brieven persbericht webpagina (Geanonimiseerd).pdf"
-s3_etag: "8cd6bdb5f777bfe81ac5856c325863d5"
-date: 2026-11-16
+title: >-
+  240105 Aangevulde communicatieplan NIDOS; brieven persbericht webpagina
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240105 Aangevulde communicatieplan NIDOS;
+  brieven persbericht webpagina (Geanonimiseerd).pdf
+s3_etag: 8cd6bdb5f777bfe81ac5856c325863d5
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een communicatieplan van de gemeente Coevorden en
+  woningcorporatie Domesta over de huisvesting aan de JC Homanstraat van
+  maximaal 12 minderjarige statushouders, die met NIDOS en Phusis 24/7 worden
+  begeleid, en een gezin van 11 statushouders. De voorgenomen huisvesting wordt
+  vanaf half maart 2024 voorbereid en gecommuniceerd via brieven, een
+  persbericht, een webpagina met Q&A’s en inloopavonden voor omwonenden.
+milestones: []
+ai_processed_at: '2026-11-16T10:16:44.865Z'
+ai_status: done
 ---
 
 J

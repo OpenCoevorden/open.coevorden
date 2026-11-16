@@ -1,9 +1,30 @@
 ---
-title: "250403 RE Dit is een scan van een Ricoh printer. (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250403 RE Dit is een scan van een Ricoh printer. (Geanonimiseerd).pdf"
-s3_etag: "b3bfa239109a3bdffa2dc02f65eccca0"
-date: 2026-11-16
+title: 250403 RE Dit is een scan van een Ricoh printer. (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250403 RE Dit is een scan van een Ricoh
+  printer. (Geanonimiseerd).pdf
+s3_etag: b3bfa239109a3bdffa2dc02f65eccca0
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De correspondentie gaat over de behandeling van circa 95 individuele
+  bezwaarschriften van buurtbewoners tegen de huisvesting van 14 alleenstaande
+  minderjarige vreemdelingen (AMV’s) in Coevorden, waarbij medewerkers van de
+  gemeente Coevorden de ontbrekende gegevens bij de bezwaarmakers opvragen en
+  daarnaast een informeel gesprek met betrokken wijkbewoners willen voeren. Als
+  de gegevens niet tijdig worden aangeleverd, blijft één officiële bezwaarmaker
+  over; een hoorzitting wordt voorlopig op 21 mei 2025 verwacht en huisvesting
+  vóór afloop van de bezwaarperiode heeft niet de voorkeur.
+milestones:
+  - date: '2025-03-21'
+    event: 95 ingediende brieven bevestigd als individuele bezwaarschriften
+ai_processed_at: '2026-11-16T09:46:52.508Z'
+ai_status: done
 ---
 
 u nn

@@ -1,9 +1,26 @@
 ---
-title: "250305 FW Buren AMV (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250305 FW Buren AMV (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "8b630d11298042a41467b6ac973fdab0"
-date: 2026-11-16
+title: 250305 FW Buren AMV (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250305 FW Buren AMV (Geanonimiseerd)
+  (gewijzigd).pdf
+s3_etag: 8b630d11298042a41467b6ac973fdab0
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne e-mailwisseling van de gemeente Coevorden over de komst van een
+  opvanglocatie voor veertien alleenstaande minderjarige vreemdelingen (AMV) in
+  samenwerking met Domesta, Elker en Nidos. De betrokken ambtenaren bereiden een
+  burenavond voor en stemmen antwoorden af op vragen over de
+  informatievoorziening, bezwaarprocedures, begeleiding, veiligheid, personeel,
+  onderwijs en de achtergrond en opvang van de jongeren.
+milestones: []
+ai_processed_at: '2026-11-16T09:51:13.886Z'
+ai_status: done
 ---
 
 u nn

@@ -1,9 +1,28 @@
 ---
-title: "250616 FW Opties overleg bijpraten AMV - bredere kring van betrokkenen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250616 FW Opties overleg bijpraten AMV - bredere kring van betrokkenen (Geanonimiseerd).pdf"
-s3_etag: "73347947ef0679c91a8eadc02707028b"
-date: 2026-11-16
+title: >-
+  250616 FW Opties overleg bijpraten AMV - bredere kring van betrokkenen
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250616 FW Opties overleg bijpraten AMV -
+  bredere kring van betrokkenen (Geanonimiseerd).pdf
+s3_etag: 73347947ef0679c91a8eadc02707028b
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen medewerkers van Elker Jeugdhulp & Onderwijs en de
+  gemeente Coevorden over het plannen van een overleg met een bredere kring van
+  betrokkenen om hen bij te praten over de huisvesting van alleenstaande
+  minderjarige vreemdelingen (AMV’ers). Er worden verschillende data en
+  tijdstippen in juli 2025 voorgesteld; een definitieve afspraak blijkt niet uit
+  de tekst.
+milestones: []
+ai_processed_at: '2026-11-16T09:38:12.425Z'
+ai_status: done
 ---
 
 Van: EN en (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

@@ -1,9 +1,33 @@
 ---
-title: "250707 Verslag lokale driehoeksoverleggen Tuindorp 30 juni tot en met 4 juli (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250707 Verslag lokale driehoeksoverleggen Tuindorp 30 juni tot en met 4 juli (Geanonimiseerd).pdf"
-s3_etag: "a67f7954dc7869d4335e7124aac23448"
-date: 2026-11-16
+title: >-
+  250707 Verslag lokale driehoeksoverleggen Tuindorp 30 juni tot en met 4 juli
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250707 Verslag lokale driehoeksoverleggen
+  Tuindorp 30 juni tot en met 4 juli (Geanonimiseerd).pdf
+s3_etag: a67f7954dc7869d4335e7124aac23448
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het verslag beschrijft de overleggen van de lokale driehoek van Coevorden over
+  de oplopende onrust in de wijk Tuindorp rond het voorgenomen verblijf van 14
+  alleenstaande minderjarige vreemdelingen, met onder meer vernielingen,
+  brandstichtingen, protesten en inzet van gemeente, politie, brandweer, OM en
+  burgemeester. Vanwege de escalatie werd een noodverordening voorbereid en
+  besloot de gemeente uiteindelijk de opvang van de meisjes niet door te laten
+  gaan.
+milestones:
+  - date: '2025-07-04'
+    event: >-
+      Besluit ingetrokken om 14 AMV-meisjes in Tuindorp te huisvesten; de opvang
+      gaat niet door.
+ai_processed_at: '2026-11-16T09:30:49.748Z'
+ai_status: done
 ---
 
 Verslag

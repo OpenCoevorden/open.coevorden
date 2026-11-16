@@ -1,9 +1,32 @@
 ---
-title: "250619 RE Huisvesting jonge statushouders Dr JC Homanstraat 55-63 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250619 RE Huisvesting jonge statushouders Dr JC Homanstraat 55-63 (Geanonimiseerd).pdf"
-s3_etag: "b81c36dbf3848ebfc2d80d48f4642119"
-date: 2026-11-16
+title: >-
+  250619 RE Huisvesting jonge statushouders Dr JC Homanstraat 55-63
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250619 RE Huisvesting jonge statushouders
+  Dr JC Homanstraat 55-63 (Geanonimiseerd).pdf
+s3_etag: b81c36dbf3848ebfc2d80d48f4642119
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert medewerkers en buurtbewoners over de
+  huisvesting van 14 jonge vrouwelijke statushouders aan de Dr. J.C. Homanstraat
+  55-63 in de wijk Tuindorp en de geplande werkzaamheden. Bezwaren tegen de
+  omgevingsvergunning zijn niet-ontvankelijk of ongegrond verklaard, waardoor de
+  vergunning in stand blijft en de huisvesting doorgaat; de betrokken meisjes
+  gaan zich bovendien vanaf hun achttiende bezighouden met inburgering.
+milestones:
+  - date: '2025-06-19'
+    event: >-
+      Beslissing op bezwaar: bezwaren tegen de omgevingsvergunning
+      niet-ontvankelijk of ongegrond verklaard; vergunning blijft in stand.
+ai_processed_at: '2026-11-16T09:36:42.586Z'
+ai_status: done
 ---
 
 u nn

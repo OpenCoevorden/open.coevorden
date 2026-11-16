@@ -1,9 +1,26 @@
 ---
-title: "250304 RE Buren AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250304 RE Buren AMV (Geanonimiseerd).pdf"
-s3_etag: "00844ea3badb435742ecc1737d9aa3b9"
-date: 2026-11-16
+title: 250304 RE Buren AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250304 RE Buren AMV (Geanonimiseerd).pdf
+s3_etag: 00844ea3badb435742ecc1737d9aa3b9
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne e-mails van medewerkers van de gemeente Coevorden en betrokken
+  partners gaan over de voorbereiding van een inloopavond op 5 maart 2025 over
+  de plannen voor de opvang van alleenstaande minderjarige vreemdelingen (AMV)
+  en de communicatie met directe buren. Zij stemmen een gezamenlijke
+  vraag-en-antwoordlijst, de aanwezigheid en rolverdeling van gemeentelijke
+  vertegenwoordigers en andere betrokkenen af, waarbij zij willen openstaan voor
+  feedback maar achter de gevolgde procedures blijven staan.
+milestones: []
+ai_processed_at: '2026-11-16T09:51:35.611Z'
+ai_status: done
 ---
 
 Lj

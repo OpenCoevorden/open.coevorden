@@ -1,9 +1,27 @@
 ---
-title: "250114 chat 3 (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250114 chat 3 (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "a073818ec44fab11465c8a040daced5d"
-date: 2026-11-16
+title: 250114 chat 3 (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250114 chat 3 (Geanonimiseerd)
+  (gewijzigd).pdf
+s3_etag: a073818ec44fab11465c8a040daced5d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat WhatsApp-correspondentie tussen betrokken gemeentelijke
+  medewerkers en organisaties zoals Elker en Cosis over de opvang en begeleiding
+  van alleenstaande minderjarige vreemdelingen (AMV’s), waaronder de
+  geschiktheid van een locatie, personele inzet, veiligheid, participatie en
+  communicatie met omwonenden. De voorgestelde locatie werd politiek als
+  hamerstuk behandeld en er werden informatie- en inloopmomenten voor directe
+  omwonenden en de bredere buurt georganiseerd.
+milestones: []
+ai_processed_at: '2026-11-16T09:59:55.762Z'
+ai_status: done
 ---
 
 4-01-2025, 20254:29

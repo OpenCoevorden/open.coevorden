@@ -1,9 +1,30 @@
 ---
-title: "240103 RE Adviesrecht en participatieplicht i.r.t. huisvesting statushouders AMV locatie. (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240103 RE Adviesrecht en participatieplicht i.r.t. huisvesting statushouders AMV locatie. (Geanonimiseerd).pdf"
-s3_etag: "32f06326c4e679b9cd2bd0521db9e8f6"
-date: 2026-11-16
+title: >-
+  240103 RE Adviesrecht en participatieplicht i.r.t. huisvesting statushouders
+  AMV locatie. (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240103 RE Adviesrecht en
+  participatieplicht i.r.t. huisvesting statushouders AMV locatie.
+  (Geanonimiseerd).pdf
+s3_etag: 32f06326c4e679b9cd2bd0521db9e8f6
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Ambtenaren van de gemeente Coevorden bespreken het adviesrecht van de
+  gemeenteraad en de participatieplicht bij de voorgenomen huisvesting van
+  twaalf alleenstaande minderjarige vluchtelingen (AMV) en een groot gezin
+  statushouders op één locatie. Zij wijzen op de wettelijke taak van de
+  gemeente, de mogelijke maatschappelijke impact en politieke gevoeligheid, en
+  het belang van tijdige communicatie met de raad en de buurt; een definitieve
+  bestuurlijke keuze over de betrokkenheid van de raad moet nog worden gemaakt.
+milestones: []
+ai_processed_at: '2026-11-16T10:16:55.507Z'
+ai_status: done
 ---
 
 Van: 5

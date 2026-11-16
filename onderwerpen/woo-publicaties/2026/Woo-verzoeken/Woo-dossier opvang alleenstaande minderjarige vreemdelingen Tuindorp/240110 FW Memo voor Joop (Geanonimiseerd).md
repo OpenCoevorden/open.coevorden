@@ -1,9 +1,28 @@
 ---
-title: "240110 FW Memo voor Joop (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240110 FW Memo voor Joop (Geanonimiseerd).pdf"
-s3_etag: "d838b1c96c8121c2d0483a375e450684"
-date: 2026-11-16
+title: 240110 FW Memo voor Joop (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240110 FW Memo voor Joop
+  (Geanonimiseerd).pdf
+s3_etag: d838b1c96c8121c2d0483a375e450684
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft een interne memo van de gemeente Coevorden aan wethouder
+  Slomp over de realisatie van een kinderwoongroep voor alleenstaande
+  minderjarige vluchtelingen (AMV), samen met Nidos, Phusis en Domesta, en de
+  vereisten rond de omgevingsvergunning, participatieplicht en het adviesrecht
+  van de gemeenteraad. De memo adviseert om vanwege de wettelijke taak, de
+  urgente opvangsituatie en het risico op vertraging geen bindend advies aan de
+  raad te vragen, dit formeel vast te leggen in een collegebesluit en wel
+  inloopavonden voor omwonenden en raadsleden te organiseren.
+milestones: []
+ai_processed_at: '2026-11-16T10:16:23.212Z'
+ai_status: done
 ---
 
 Van:

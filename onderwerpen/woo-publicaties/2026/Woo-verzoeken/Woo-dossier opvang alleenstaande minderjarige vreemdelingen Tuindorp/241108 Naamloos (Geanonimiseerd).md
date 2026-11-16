@@ -1,9 +1,25 @@
 ---
-title: "241108 Naamloos (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241108 Naamloos (Geanonimiseerd).pdf"
-s3_etag: "191eb50c80d1da569d92446a0bf0d39c"
-date: 2026-11-16
+title: 241108 Naamloos (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241108 Naamloos (Geanonimiseerd).pdf
+s3_etag: 191eb50c80d1da569d92446a0bf0d39c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert omwonenden over het voornemen om vanaf maart
+  2025 veertien alleenstaande jonge statushouders van 15 tot ongeveer 18 jaar te
+  huisvesten in vijf woningen aan de Doctor J.C. Homanstraat, met begeleiding
+  door Elker. Het plan is nog niet definitief, omdat de gemeenteraad er in
+  januari advies over uitbrengt; daarna volgt een inloopmoment voor omwonenden
+  en voert Domesta regulier onderhoud uit.
+milestones: []
+ai_processed_at: '2026-11-16T10:05:32.046Z'
+ai_status: done
 ---
 
 J

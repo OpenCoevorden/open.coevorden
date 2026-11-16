@@ -1,9 +1,28 @@
 ---
-title: "250611 Offerte cameratoezicht (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250611 Offerte cameratoezicht (Geanonimiseerd).pdf"
-s3_etag: "efd229a2bd6b11f2c6775610b9c51233"
-date: 2026-11-16
+title: 250611 Offerte cameratoezicht (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250611 Offerte cameratoezicht
+  (Geanonimiseerd).pdf
+s3_etag: efd229a2bd6b11f2c6775610b9c51233
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden bespreekt tijdelijk cameratoezicht bij Tuindorp op grond
+  van artikel 151c Gemeentewet, waarbij Renze akkoord is en Connection Systems
+  een offerte heeft uitgebracht voor twee camera’s gedurende twee maanden. De
+  formele afstemming met de officier van justitie moet nog plaatsvinden in de
+  lokale driehoek; daarnaast moeten de financiering, juridische randvoorwaarden,
+  bebording en het uitlezen van de beelden worden geregeld.
+milestones:
+  - date: '2025-06-11'
+    event: Besluit om tijdelijk cameratoezicht in te stellen
+ai_processed_at: '2026-11-16T09:40:16.042Z'
+ai_status: done
 ---
 
 Van: J

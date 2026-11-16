@@ -1,9 +1,26 @@
 ---
-title: "250629 Pers statement Renze Bergsma - Tuindorp juni 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250629 Pers statement Renze Bergsma - Tuindorp juni 2025 (Geanonimiseerd).pdf"
-s3_etag: "bfe7dab4a9c4121349931082ef3d23ce"
-date: 2026-11-16
+title: 250629 Pers statement Renze Bergsma - Tuindorp juni 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250629 Pers statement Renze Bergsma -
+  Tuindorp juni 2025 (Geanonimiseerd).pdf
+s3_etag: bfe7dab4a9c4121349931082ef3d23ce
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over brandstichting op een kruispunt in de wijk Tuindorp in
+  Coevorden, waarbij met borden is geprotesteerd tegen de komst van veertien
+  minderjarige vrouwelijke statushouders die door Elker worden begeleid.
+  Burgemeester Renze Bergsma veroordeelt de brandstichting en intimidatie als
+  onacceptabel en bespreekt met gemeentelijke betrokkenen de communicatie,
+  mogelijke aangifte en de veiligheid van de meisjes en medewerkers.
+milestones: []
+ai_processed_at: '2026-11-16T09:35:43.666Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

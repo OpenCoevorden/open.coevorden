@@ -1,9 +1,27 @@
 ---
-title: "241108 Kritische blik informatiemail betrokkenen AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241108 Kritische blik informatiemail betrokkenen AMV (Geanonimiseerd).pdf"
-s3_etag: "03f6eb7da0e53c8eece047c71e55fc87"
-date: 2026-11-16
+title: 241108 Kritische blik informatiemail betrokkenen AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241108 Kritische blik informatiemail
+  betrokkenen AMV (Geanonimiseerd).pdf
+s3_etag: 03f6eb7da0e53c8eece047c71e55fc87
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden bereidt een informatiemail voor betrokkenen over het
+  voornemen om vanaf maart 2025 veertien alleenstaande minderjarige
+  statushouders, begeleid door Elker, te huisvesten in vijf woningen aan de
+  Doctor J.C. Homanstraat in Tuindorp. Direct omwonenden, de gemeenteraad,
+  wijkagent en buurt- en speeltuinvereniging worden geïnformeerd; het plan is
+  nog niet definitief, omdat de gemeenteraad zich er in januari over buigt en
+  een inloopmoment voor omwonenden volgt.
+milestones: []
+ai_processed_at: '2026-11-16T10:05:43.431Z'
+ai_status: done
 ---
 
 u nn

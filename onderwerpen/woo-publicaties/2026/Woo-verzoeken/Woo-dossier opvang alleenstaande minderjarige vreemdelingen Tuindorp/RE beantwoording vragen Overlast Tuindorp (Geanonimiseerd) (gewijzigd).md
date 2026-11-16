@@ -1,9 +1,27 @@
 ---
-title: "RE beantwoording vragen Overlast Tuindorp (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/RE beantwoording vragen Overlast Tuindorp (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "e63db9048c69e4197fe188cf0f3b3beb"
-date: 2026-11-16
+title: RE beantwoording vragen Overlast Tuindorp (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/RE beantwoording vragen Overlast Tuindorp
+  (Geanonimiseerd) (gewijzigd).pdf
+s3_etag: e63db9048c69e4197fe188cf0f3b3beb
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over vragen en zorgen van gemeenteraadsleden Jerry
+  Stoker en Ton Soppe over overlast in Tuindorp, waaronder crossen,
+  vrachtwagenparkeren, geluidsoverlast, buurtappcontact en de uitstraling van de
+  wijk, met reacties van Renze Bergsma namens de gemeente. Afgesproken is onder
+  meer om bij crossen te handhaven, contacten met bewoners en de buurtvereniging
+  te versterken, een gebiedscoördinator in te zetten en het te hoge vreugdevuur
+  bij de volgende jaarwisseling als aandachtspunt mee te nemen.
+milestones: []
+ai_processed_at: '2026-11-16T09:22:33.562Z'
+ai_status: done
 ---
 
 NE === (geanonimiseerd)

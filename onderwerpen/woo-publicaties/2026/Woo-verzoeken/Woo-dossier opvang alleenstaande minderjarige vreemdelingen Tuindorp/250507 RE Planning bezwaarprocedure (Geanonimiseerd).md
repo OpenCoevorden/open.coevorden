@@ -1,9 +1,27 @@
 ---
-title: "250507 RE Planning bezwaarprocedure (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250507 RE Planning bezwaarprocedure (Geanonimiseerd).pdf"
-s3_etag: "7c0178223f52a6229394655b13ae200d"
-date: 2026-11-16
+title: 250507 RE Planning bezwaarprocedure (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250507 RE Planning bezwaarprocedure
+  (Geanonimiseerd).pdf
+s3_etag: 7c0178223f52a6229394655b13ae200d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling tussen medewerkers van de gemeente Coevorden, Elker en
+  Domesta gaat over de bezwaarprocedure tegen de omgevingsvergunning voor de
+  locatie aan de J.C. Homanstraat en de wijziging van huisvesting voor jongens
+  en meisjes naar uitsluitend een meisjeshuis. De hoorzitting staat gepland op
+  21 mei 2025, waarna binnen vier weken een advies wordt verwacht; inwoners
+  worden laagdrempelig geïnformeerd en Domesta geeft hieraan vervolg, maar er is
+  nog geen brief verstuurd.
+milestones: []
+ai_processed_at: '2026-11-16T09:44:44.427Z'
+ai_status: done
 ---
 
 Van: J

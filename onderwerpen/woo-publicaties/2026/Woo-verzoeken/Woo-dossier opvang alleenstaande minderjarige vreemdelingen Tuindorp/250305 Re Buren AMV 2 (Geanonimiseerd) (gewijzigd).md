@@ -1,9 +1,27 @@
 ---
-title: "250305 Re Buren AMV 2 (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250305 Re Buren AMV 2 (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "bf1fbfe810a3f3941aefc364bc8a9a72"
-date: 2026-11-16
+title: 250305 Re Buren AMV 2 (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250305 Re Buren AMV 2 (Geanonimiseerd)
+  (gewijzigd).pdf
+s3_etag: bf1fbfe810a3f3941aefc364bc8a9a72
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen medewerkers van de gemeente Coevorden en betrokken
+  organisaties over de voorbereiding van een inloopavond voor omwonenden over de
+  huisvesting van 14 alleenstaande minderjarige vreemdelingen (AMV's). Besproken
+  worden verwachte buurtvragen over informatievoorziening, inspraak,
+  bezwaarprocedures en werkzaamheden; de bijeenkomst vindt plaats in het
+  BSV-gebouw, met vooraf overleg tussen Elker, Nidos, Domesta, de ISK en de
+  gemeente.
+milestones: []
+ai_processed_at: '2026-11-16T09:50:50.936Z'
+ai_status: done
 ---
 
 u nn

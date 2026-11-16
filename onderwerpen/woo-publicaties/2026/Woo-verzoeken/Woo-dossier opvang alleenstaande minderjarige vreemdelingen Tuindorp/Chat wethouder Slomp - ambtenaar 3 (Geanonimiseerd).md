@@ -1,9 +1,25 @@
 ---
-title: "Chat wethouder Slomp - ambtenaar 3 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 3 (Geanonimiseerd).pdf"
-s3_etag: "660725ef1d45ae233187a9fe9640cabd"
-date: 2026-11-16
+title: Chat wethouder Slomp - ambtenaar 3 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 3
+  (Geanonimiseerd).pdf
+s3_etag: 660725ef1d45ae233187a9fe9640cabd
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een korte terugkoppeling van overleg tussen betrokken
+  professionals rond Tuindorp over toenemende vraag, meer geestelijke nood en
+  afnemende verdraagzaamheid, met het voornemen een petitie aan te bieden. Een
+  betrokkene stemt dit verder af met wijkagenten en deelt de informatie met Kim;
+  de kwestie wordt vervolgd.
+milestones: []
+ai_processed_at: '2026-11-16T09:28:14.443Z'
+ai_status: done
 ---
 
 12:33 at > KWD

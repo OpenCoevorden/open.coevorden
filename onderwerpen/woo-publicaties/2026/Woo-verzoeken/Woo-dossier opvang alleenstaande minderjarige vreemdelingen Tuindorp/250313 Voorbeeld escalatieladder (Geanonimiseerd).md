@@ -1,9 +1,25 @@
 ---
-title: "250313 Voorbeeld escalatieladder (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250313 Voorbeeld escalatieladder (Geanonimiseerd).pdf"
-s3_etag: "87dec229689be80675f4f17a91c5c05f"
-date: 2026-11-16
+title: 250313 Voorbeeld escalatieladder (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250313 Voorbeeld escalatieladder
+  (Geanonimiseerd).pdf
+s3_etag: 87dec229689be80675f4f17a91c5c05f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Nidos deelt met de gemeente Coevorden, de politie en betrokken organisaties
+  zoals Domesta en Elker een voorbeeld van een escalatieladder voor het maken
+  van gezamenlijke veiligheidsafspraken. De escalatieladder beschrijft
+  dreigingsniveaus, ervaren angst en mogelijke maatregelen; voorgesteld wordt
+  gezamenlijk te bepalen of het document wordt ingekort of ongewijzigd gebruikt.
+milestones: []
+ai_processed_at: '2026-11-16T09:48:31.024Z'
+ai_status: done
 ---
 
 Van: EN icon > (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

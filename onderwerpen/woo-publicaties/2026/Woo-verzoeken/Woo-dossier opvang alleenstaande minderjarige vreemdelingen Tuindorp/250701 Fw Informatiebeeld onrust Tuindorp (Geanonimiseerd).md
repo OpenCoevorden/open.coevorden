@@ -1,9 +1,29 @@
 ---
-title: "250701 Fw Informatiebeeld onrust Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250701 Fw Informatiebeeld onrust Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "d6eab70dc3a46ef09a5185e7a9bd2562"
-date: 2026-11-16
+title: 250701 Fw Informatiebeeld onrust Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250701 Fw Informatiebeeld onrust Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: d6eab70dc3a46ef09a5185e7a9bd2562
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een informatiebeeld van de Veiligheidsregio Drenthe over de
+  aanhoudende onrust in de wijk Tuindorp in Coevorden rond de voorgenomen opvang
+  van veertien minderjarige statushouders, met aandacht voor de protesten,
+  brandstichtingen, vernielingen, maatschappelijke context, sociale media,
+  demografie en criminaliteit. De gemeente Coevorden en Veiligheidsregio Drenthe
+  brengen de oorzaken, communicatiebehoefte en mogelijke uitbreiding van het
+  protest in kaart; het beeld duidt op opgebouwde onrust, mede veroorzaakt door
+  zorgen over leefbaarheid, woningnood, veiligheid en gebrekkige
+  informatievoorziening.
+milestones: []
+ai_processed_at: '2026-11-16T09:34:17.427Z'
+ai_status: done
 ---
 
 Van:

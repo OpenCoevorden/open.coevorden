@@ -1,9 +1,29 @@
 ---
-title: "250411 FW AMV Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250411 FW AMV Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "490daa23522c5338073b24245acbe20c"
-date: 2026-11-16
+title: 250411 FW AMV Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250411 FW AMV Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: 490daa23522c5338073b24245acbe20c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mails gaan over de voorgenomen huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV’s) in Tuindorp en de zorgen en bezwaren daartegen, waarbij
+  de gemeente Coevorden, Elker, Nidos en woningcorporatie Domesta betrokken
+  zijn. Er zijn bezwaren ingediend; Elker en Nidos huisvesten tijdens de formele
+  procedure nog geen jongeren, terwijl de gemeente werkt aan een veiligheidsplan
+  en gesprekken wil voeren met betrokken bestuurders, omwonenden en
+  tegenstanders.
+milestones:
+  - date: '2025-04-11'
+    event: Bezwaren ontvangen; formele behandeling aangekondigd.
+ai_processed_at: '2026-11-16T09:45:44.421Z'
+ai_status: done
 ---
 
 J

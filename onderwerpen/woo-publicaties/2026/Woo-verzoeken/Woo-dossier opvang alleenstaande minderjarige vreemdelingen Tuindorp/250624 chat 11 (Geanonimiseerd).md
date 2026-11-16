@@ -1,9 +1,34 @@
 ---
-title: "250624 chat 11 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250624 chat 11 (Geanonimiseerd).pdf"
-s3_etag: "7eeb43d72ad9d27ab0e367615b15f3ec"
-date: 2026-11-16
+title: 250624 chat 11 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250624 chat 11 (Geanonimiseerd).pdf
+s3_etag: 7eeb43d72ad9d27ab0e367615b15f3ec
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een operationele WhatsApp-groep van betrokken partijen, waaronder de gemeente,
+  Elker en Domesta, bespreekt de huisvesting van veertien alleenstaande
+  minderjarige vluchtelingenmeisjes aan de Dr. J.C. Homanstraat in Coevorden,
+  veiligheidsmaatregelen en reacties uit de omgeving en media. De situatie
+  escaleert door vernielde ruiten, brandstichtingen en onrust in Tuindorp,
+  waarop onder meer politie, cameratoezicht, herstelwerkzaamheden en overleg
+  tussen de betrokken organisaties worden ingezet.
+milestones:
+  - date: '2025-06-24'
+    event: >-
+      Besluit tot huisvesting van veertien alleenstaande minderjarige meisjes
+      aan de Dr. J.C. Homanstraat wordt uitgevoerd.
+  - date: '2025-06-24'
+    event: >-
+      Er wordt melding gemaakt van zestig ingediende bezwaarschriften tegen het
+      huisvestingsbesluit.
+ai_processed_at: '2026-11-16T09:36:07.690Z'
+ai_status: done
 ---
 
 24-06-2025, 13:59:38] Huisvesting AMV: Je hebt de groep Huisvesting AMV

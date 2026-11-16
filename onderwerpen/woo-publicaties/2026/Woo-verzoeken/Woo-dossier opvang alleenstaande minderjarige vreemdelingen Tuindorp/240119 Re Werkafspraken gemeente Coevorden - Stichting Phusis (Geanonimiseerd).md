@@ -1,9 +1,27 @@
 ---
-title: "240119 Re Werkafspraken gemeente Coevorden - Stichting Phusis (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240119 Re Werkafspraken gemeente Coevorden - Stichting Phusis (Geanonimiseerd).pdf"
-s3_etag: "dfc9c4acb3e6103203cbd1ca8dad6953"
-date: 2026-11-16
+title: 240119 Re Werkafspraken gemeente Coevorden - Stichting Phusis (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240119 Re Werkafspraken gemeente Coevorden
+  - Stichting Phusis (Geanonimiseerd).pdf
+s3_etag: dfc9c4acb3e6103203cbd1ca8dad6953
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden, Stichting Phusis en Nidos bespreken werkafspraken over
+  de begeleiding van jongeren rond hun achttiende verjaardag, waaronder
+  huisvesting, betrokkenheid van jeugdbeschermers en periodiek
+  samenwerkingsoverleg. Afgesproken wordt dat het formele gesprek doorgaans zes
+  maanden voor de achttiende verjaardag plaatsvindt, terwijl eerder overleg
+  mogelijk is als de keuze van de jongere al duidelijk is; de afspraken worden
+  hierop afgestemd.
+milestones: []
+ai_processed_at: '2026-11-16T10:14:31.336Z'
+ai_status: done
 ---
 
 Van: EN A osn (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

@@ -1,9 +1,24 @@
 ---
-title: "250127 Naamloos (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250127 Naamloos (Geanonimiseerd).pdf"
-s3_etag: "749ecc81bfbda84e30832f01db46a50a"
-date: 2026-11-16
+title: 250127 Naamloos (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250127 Naamloos (Geanonimiseerd).pdf
+s3_etag: 749ecc81bfbda84e30832f01db46a50a
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de juridische positie van de gemeente Coevorden bij de
+  huisvesting en begeleiding van alleenstaande minderjarige vreemdelingen (AMV).
+  Het college is geen partij bij de huurovereenkomst tussen Domesta en Elker;
+  Elker voert in opdracht van Nidos de begeleiding uit, terwijl de gemeente via
+  een samenwerkingsovereenkomst en praktische samenwerking betrokken is.
+milestones: []
+ai_processed_at: '2026-11-16T09:58:29.349Z'
+ai_status: done
 ---
 
 Verzonden: maandag 27 januari 2025 12:01

@@ -1,9 +1,27 @@
 ---
-title: "240114 RE Ideeën borden AMV Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240114 RE Ideeën borden AMV Coevorden (Geanonimiseerd).pdf"
-s3_etag: "940bb092dc73c50423f252e5c9daf2a7"
-date: 2026-11-16
+title: 240114 RE Ideeën borden AMV Coevorden (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240114 RE Ideeën borden AMV Coevorden
+  (Geanonimiseerd).pdf
+s3_etag: 940bb092dc73c50423f252e5c9daf2a7
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen betrokken partijen zoals Domesta en de gemeente
+  Coevorden over de inrichting van informatieborden voor inloopavonden rond de
+  opvang van alleenstaande minderjarige vreemdelingen (AMV) aan de JC
+  Homanstraat. Voorgesteld worden onder meer een welkomstbord,
+  achtergrondinformatie, een tijdlijn, een overzicht van betrokken organisaties,
+  een locatiekaart en contactinformatie; het onderwerp wordt geagendeerd voor
+  verdere bespreking.
+milestones: []
+ai_processed_at: '2026-11-16T10:15:15.399Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

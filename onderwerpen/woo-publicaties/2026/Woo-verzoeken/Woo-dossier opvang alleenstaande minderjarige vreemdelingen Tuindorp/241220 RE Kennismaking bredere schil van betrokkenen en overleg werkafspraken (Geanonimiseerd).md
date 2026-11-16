@@ -1,9 +1,26 @@
 ---
-title: "241220 RE Kennismaking bredere schil van betrokkenen en overleg werkafspraken (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241220 RE Kennismaking bredere schil van betrokkenen en overleg werkafspraken (Geanonimiseerd).pdf"
-s3_etag: "6fded355dcab4fab7b636a8a372748b5"
-date: 2026-11-16
+title: >-
+  241220 RE Kennismaking bredere schil van betrokkenen en overleg werkafspraken
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241220 RE Kennismaking bredere schil van
+  betrokkenen en overleg werkafspraken (Geanonimiseerd).pdf
+s3_etag: 6fded355dcab4fab7b636a8a372748b5
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden en Nidos stemmen af over de planning van een overleg
+  voor praktische werkafspraken en een kennismaking met een bredere groep
+  betrokkenen. Nidos sluit bij beide overleggen aan en laat weten welke collega
+  vanuit de regio Assen deelneemt.
+milestones: []
+ai_processed_at: '2026-11-16T10:01:58.608Z'
+ai_status: done
 ---
 
 Van: NE <ol> (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

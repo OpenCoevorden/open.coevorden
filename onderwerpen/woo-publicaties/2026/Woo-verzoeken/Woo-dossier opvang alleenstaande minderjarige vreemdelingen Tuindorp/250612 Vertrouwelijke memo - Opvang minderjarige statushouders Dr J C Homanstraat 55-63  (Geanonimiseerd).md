@@ -1,9 +1,44 @@
 ---
-title: "250612 Vertrouwelijke memo - Opvang minderjarige statushouders Dr J C Homanstraat 55-63  (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250612 Vertrouwelijke memo - Opvang minderjarige statushouders Dr J C Homanstraat 55-63  (Geanonimiseerd).pdf"
-s3_etag: "ae01fa80e4e435dd67ca07c6eaf5d7bf"
-date: 2026-11-16
+title: >-
+  250612 Vertrouwelijke memo - Opvang minderjarige statushouders Dr J C
+  Homanstraat 55-63  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250612 Vertrouwelijke memo - Opvang
+  minderjarige statushouders Dr J C Homanstraat 55-63  (Geanonimiseerd).pdf
+s3_etag: ae01fa80e4e435dd67ca07c6eaf5d7bf
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De vertrouwelijke memo informeert het college van B&W van Coevorden over de
+  opvang van maximaal 14 alleenstaande minderjarige statushouders aan de Dr.
+  J.C. Homanstraat 55-63, waaronder de bezwaarprocedure, buurtcommunicatie en
+  veiligheidsmaatregelen. De bezwaarschriftencommissie achtte acht bezwaren
+  ontvankelijk maar alle bezwaren ongegrond of niet-ontvankelijk, waardoor de
+  omgevingsvergunning in stand blijft; vanwege dreigende uitlatingen worden
+  onder meer extra boa-inzet, tijdelijke camera’s en een veiligheidsplan
+  ingezet.
+milestones:
+  - date: '2025-01-30'
+    event: >-
+      Omgevingsvergunning verleend voor huisvesting van maximaal 14
+      alleenstaande minderjarige statushouders aan de Dr J C Homanstraat 55-63
+      in Coevorden.
+  - date: '2025-05-21'
+    event: >-
+      Bezwaarschriften van omwonenden behandeld door de
+      bezwaarschriftencommissie.
+  - date: '2025-06-05'
+    event: >-
+      Advies bezwaarschriftencommissie: acht bezwaren ontvankelijk maar
+      ongegrond; overige bezwaren niet-ontvankelijk. Omgevingsvergunning blijft
+      in stand.
+ai_processed_at: '2026-11-16T09:39:08.118Z'
+ai_status: done
 ---
 
 Verzonden: donderdag 12 juni 2025 13:05

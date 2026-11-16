@@ -1,9 +1,25 @@
 ---
-title: "250317 RE Huisvesting AMV's - beoordelen binnengekomen brief (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250317 RE Huisvesting AMV's - beoordelen binnengekomen brief (Geanonimiseerd).pdf"
-s3_etag: "1a97e43707247369a777cb1f77a6f442"
-date: 2026-11-16
+title: 250317 RE Huisvesting AMV's - beoordelen binnengekomen brief (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250317 RE Huisvesting AMV's - beoordelen
+  binnengekomen brief (Geanonimiseerd).pdf
+s3_etag: 1a97e43707247369a777cb1f77a6f442
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne e-mails van de gemeente Coevorden gaan over een door Joop Slomp
+  aangeboden brief met 96 handtekeningen tegen de huisvesting van 14
+  alleenstaande minderjarige vreemdelingen (AMV’s). Medewerkers bespreken of de
+  brief als formeel bezwaarschrift moet worden aangemerkt en wie hierover
+  overleg voert; een inhoudelijke beslissing is nog niet vermeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:48:09.648Z'
+ai_status: done
 ---
 
 Van: DE! (geanonimiseerd)

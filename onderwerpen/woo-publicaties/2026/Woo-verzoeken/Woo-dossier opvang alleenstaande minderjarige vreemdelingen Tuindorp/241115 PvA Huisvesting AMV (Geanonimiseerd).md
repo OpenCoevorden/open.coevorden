@@ -1,9 +1,30 @@
 ---
-title: "241115 PvA Huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241115 PvA Huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "d7f7cd535ce858823144dc83d82d5767"
-date: 2026-11-16
+title: 241115 PvA Huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241115 PvA Huisvesting AMV
+  (Geanonimiseerd).pdf
+s3_etag: d7f7cd535ce858823144dc83d82d5767
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document beschrijft het plan van aanpak van de gemeente Coevorden, Nidos,
+  Elker en Domesta voor de realisatie van een kinderwoongroep voor 14
+  alleenstaande minderjarige vluchtelingen aan de JC Homanstraat, inclusief
+  begeleiding, communicatie met omwonenden, vergunningverlening en samenwerking.
+  De beoogde opening is medio maart 2025, na besluitvorming over de
+  omgevingsvergunning en verdere bestuurlijke afspraken.
+milestones:
+  - date: '2024-11-06'
+    event: Aanvraag omgevingsvergunning ingediend
+  - date: '2025-01-29'
+    event: Gepland besluit over toekenning van de omgevingsvergunning
+ai_processed_at: '2026-11-16T10:04:46.915Z'
+ai_status: done
 ---
 
 J

@@ -1,9 +1,36 @@
 ---
-title: "241119 Adviesrecht raad Dr. J.C. Homanstraat (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241119 Adviesrecht raad Dr. J.C. Homanstraat (Geanonimiseerd).pdf"
-s3_etag: "0bb7685a28f19f981fe28893e823a07d"
-date: 2026-11-16
+title: 241119 Adviesrecht raad Dr. J.C. Homanstraat (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241119 Adviesrecht raad Dr. J.C.
+  Homanstraat (Geanonimiseerd).pdf
+s3_etag: 0bb7685a28f19f981fe28893e823a07d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over het gemeentelijke adviesrecht voor een
+  omgevingsvergunning om maximaal 14 alleenstaande minderjarige vreemdelingen
+  (AMV) gedurende vijf jaar te huisvesten aan de Dr. J.C. Homanstraat 55-63 in
+  Coevorden. Het college van burgemeester en wethouders stelde de gemeenteraad
+  voor positief te adviseren; de raad heeft dit positieve advies in het
+  opgenomen raadsbesluit vastgesteld, waarna het college over de vergunning zou
+  beslissen.
+milestones:
+  - date: '2024-11-06'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor tijdelijke huisvesting van
+      maximaal 14 alleenstaande minderjarige vreemdelingen aan de Dr. J.C.
+      Homanstraat 55-63 te Coevorden.
+  - date: '2025-01-28'
+    event: >-
+      Gemeenteraad brengt positief advies uit over het verlenen van de
+      omgevingsvergunning.
+ai_processed_at: '2026-11-16T10:04:33.317Z'
+ai_status: done
 ---
 
 Verzonden: dinsdag 19 november 2024 12:35

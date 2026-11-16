@@ -1,9 +1,29 @@
 ---
-title: "250123 RE Samenwerkingsovereenkomst gemeente Coevorden en Nidos 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250123 RE Samenwerkingsovereenkomst gemeente Coevorden en Nidos 2024 (Geanonimiseerd).pdf"
-s3_etag: "094da8b8806dbc6adee6e546b4e42390"
-date: 2026-11-16
+title: >-
+  250123 RE Samenwerkingsovereenkomst gemeente Coevorden en Nidos 2024
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250123 RE Samenwerkingsovereenkomst
+  gemeente Coevorden en Nidos 2024 (Geanonimiseerd).pdf
+s3_etag: 094da8b8806dbc6adee6e546b4e42390
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over de samenwerkingsovereenkomst tussen de gemeente
+  Coevorden en Nidos voor de huisvesting van 14 alleenstaande minderjarige
+  vreemdelingen, met Elker als uitvoeringspartij, en over de nog op te stellen
+  praktische werkafspraken. Juridisch wordt geadviseerd deze afspraken vóór
+  ondertekening vast te leggen of de overeenkomst afhankelijk te maken van een
+  opschortende voorwaarde, omdat opname ervan in de considerans niet afdwingbaar
+  is; een definitieve keuze is niet vastgelegd.
+milestones: []
+ai_processed_at: '2026-11-16T09:58:40.607Z'
+ai_status: done
 ---
 
 u nn

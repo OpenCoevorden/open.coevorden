@@ -1,9 +1,24 @@
 ---
-title: "FW Coevorden wil gesprekken over problemen in wijk Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/FW Coevorden wil gesprekken over problemen in wijk Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "8b8ff0bdfc17bf0c330665e1902d0637"
-date: 2026-11-16
+title: FW Coevorden wil gesprekken over problemen in wijk Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/FW Coevorden wil gesprekken over problemen
+  in wijk Tuindorp (Geanonimiseerd).pdf
+s3_etag: 8b8ff0bdfc17bf0c330665e1902d0637
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een afzender deelt intern een NOS-bericht over de wens van de gemeente
+  Coevorden om gesprekken te voeren over problemen in de wijk Tuindorp, in het
+  kader van de communicatie over het proces. De betrokken afzender en ontvangers
+  zijn geanonimiseerd; een verdere uitkomst wordt niet vermeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:26:13.261Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

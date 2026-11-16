@@ -1,9 +1,34 @@
 ---
-title: "250610 chat 7 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250610 chat 7 (Geanonimiseerd).pdf"
-s3_etag: "0e25bfdba9ff6c56fe18a75a1e3b77c5"
-date: 2026-11-16
+title: 250610 chat 7 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250610 chat 7 (Geanonimiseerd).pdf
+s3_etag: 0e25bfdba9ff6c56fe18a75a1e3b77c5
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat ambtelijke en bestuurlijke WhatsApp-afstemming van de
+  gemeente Coevorden, burgemeester Renze Bergsma en betrokken partijen zoals
+  Joop Slomp, Elker, Domesta, politie en OM over de komst van minderjarige
+  asielzoekers naar woningen in Tuindorp, de communicatie met bezwaarmakers en
+  buurtbewoners, cameratoezicht en veiligheidsmaatregelen. Na plaatsing van
+  camera’s en start van de werkzaamheden escaleerde de situatie met
+  vernielingen, brandstichtingen en onrust, waarna extra toezicht, aangiften,
+  bestuurlijke overleggen en een aangescherpte communicatiestrategie werden
+  ingezet; Elker handhaafde de intentie tot huisvesting, mits dit veilig kan.
+milestones:
+  - date: '2025-06-18'
+    event: Beslissing op bezwaar verzonden aan bezwaarmakers
+  - date: '2025-06-19'
+    event: Aanwijsbesluit voor cameratoezicht gepubliceerd
+  - date: '2025-06-24'
+    event: Bezwaar ontvangen tegen het aanwijsbesluit voor cameratoezicht
+ai_processed_at: '2026-11-16T09:40:43.891Z'
+ai_status: done
 ---
 
 0-06-2025, 13:15:49] AMV: Berichten en oproepen worden end-to-end

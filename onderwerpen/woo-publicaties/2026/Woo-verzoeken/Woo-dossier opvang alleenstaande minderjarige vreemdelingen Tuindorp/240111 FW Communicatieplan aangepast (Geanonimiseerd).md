@@ -1,9 +1,27 @@
 ---
-title: "240111 FW Communicatieplan aangepast (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240111 FW Communicatieplan aangepast (Geanonimiseerd).pdf"
-s3_etag: "e3eb7008d73d72195d898800d9394cd3"
-date: 2026-11-16
+title: 240111 FW Communicatieplan aangepast (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240111 FW Communicatieplan aangepast
+  (Geanonimiseerd).pdf
+s3_etag: e3eb7008d73d72195d898800d9394cd3
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat het communicatieplan van de gemeente Coevorden en
+  woningcorporatie Domesta voor de huisvesting vanaf medio maart 2024 van
+  maximaal 12 minderjarige statushouders, begeleid door NIDOS en Phusis, en een
+  gezin van 11 statushouders in zeven woningen aan de JC Homanstraat. Het
+  beschrijft de communicatie met gemeenteraad, omwonenden en andere betrokkenen,
+  waaronder brieven, inloopavonden, een persbericht en een webpagina met
+  veelgestelde vragen.
+milestones: []
+ai_processed_at: '2026-11-16T10:15:58.772Z'
+ai_status: done
 ---
 
 Verzonden: donderdag IL januari 2024 18:07

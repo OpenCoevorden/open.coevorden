@@ -1,9 +1,25 @@
 ---
-title: "250520 Re Hoorzitting morgen in de raadzaal (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250520 Re Hoorzitting morgen in de raadzaal (Geanonimiseerd).pdf"
-s3_etag: "024a23d872744bdd9197013a332f0fa1"
-date: 2026-11-16
+title: 250520 Re Hoorzitting morgen in de raadzaal (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250520 Re Hoorzitting morgen in de
+  raadzaal (Geanonimiseerd).pdf
+s3_etag: 024a23d872744bdd9197013a332f0fa1
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling binnen de gemeente Coevorden over de veiligheidsmaatregelen
+  rond een hoorzitting, waarbij politie, boa’s en mogelijk receptiemedewerkers
+  worden genoemd. Aanleiding was onder meer dat een belanghebbende door een
+  miscommunicatie geen kopie van het bezwaardossier kreeg; na excuses is het
+  dossier alsnog toegestuurd.
+milestones: []
+ai_processed_at: '2026-11-16T09:43:19.501Z'
+ai_status: done
 ---
 
 Van: 5

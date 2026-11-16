@@ -1,9 +1,25 @@
 ---
-title: "250116 RE Contact op naam gezet (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250116 RE Contact op naam gezet (Geanonimiseerd).pdf"
-s3_etag: "b7b1094e2a61bdb374361b73f7a18465"
-date: 2026-11-16
+title: 250116 RE Contact op naam gezet (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250116 RE Contact op naam gezet
+  (Geanonimiseerd).pdf
+s3_etag: b7b1094e2a61bdb374361b73f7a18465
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over een inwoner die boos is over het gebrek aan
+  gemeentelijke communicatie over de opvang van jongeren in zijn straat en om
+  een uitnodiging voor een inloopmoment vraagt. Gemeente Coevorden licht toe dat
+  direct omwonenden al per brief zijn geïnformeerd en dat na definitieve
+  besluitvorming een inloopmoment wordt georganiseerd.
+milestones: []
+ai_processed_at: '2026-11-16T09:59:34.907Z'
+ai_status: done
 ---
 
 Van: 5

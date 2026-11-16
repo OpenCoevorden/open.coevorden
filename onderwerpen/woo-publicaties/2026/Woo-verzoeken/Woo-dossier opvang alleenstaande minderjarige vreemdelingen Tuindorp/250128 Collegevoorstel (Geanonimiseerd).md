@@ -1,9 +1,26 @@
 ---
-title: "250128 Collegevoorstel (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250128 Collegevoorstel (Geanonimiseerd).pdf"
-s3_etag: "607d5826263d52c401d7bb0b09d31080"
-date: 2026-11-16
+title: 250128 Collegevoorstel (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250128 Collegevoorstel
+  (Geanonimiseerd).pdf
+s3_etag: 607d5826263d52c401d7bb0b09d31080
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de samenwerkingsovereenkomst tussen de gemeente
+  Coevorden en Nidos voor de realisatie van een kinderwoongroep voor 14
+  alleenstaande minderjarige vreemdelingen aan de Dr. J. C. Homanstraat, waarbij
+  Nidos de voogdij uitvoert en Elker de dagelijkse begeleiding verzorgt, in
+  samenwerking met Domesta. Het college wordt voorgesteld de overeenkomst vast
+  te stellen en de burgemeester te machtigen wethouder Slomp voor ondertekening.
+milestones: []
+ai_processed_at: '2026-11-16T09:57:57.587Z'
+ai_status: done
 ---
 
 J

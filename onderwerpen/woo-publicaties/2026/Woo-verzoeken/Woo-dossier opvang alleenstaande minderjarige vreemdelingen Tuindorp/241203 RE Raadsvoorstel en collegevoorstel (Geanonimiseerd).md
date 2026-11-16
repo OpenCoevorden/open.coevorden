@@ -1,9 +1,26 @@
 ---
-title: "241203 RE Raadsvoorstel en collegevoorstel (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241203 RE Raadsvoorstel en collegevoorstel (Geanonimiseerd).pdf"
-s3_etag: "f74b25952dbdadcc94cc34ee17b7671f"
-date: 2026-11-16
+title: 241203 RE Raadsvoorstel en collegevoorstel (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241203 RE Raadsvoorstel en collegevoorstel
+  (Geanonimiseerd).pdf
+s3_etag: f74b25952dbdadcc94cc34ee17b7671f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over het gezamenlijk opstellen, beoordelen en
+  aanpassen van een collegevoorstel en raadsvoorstel van de gemeente Coevorden,
+  met betrokkenheid van gemeentelijke medewerkers en het Team Actief voor Werk.
+  De opmerkingen zijn verwerkt; na signalering van een typefout is de laatste
+  versie positief beoordeeld en zou deze worden toegevoegd aan het
+  managementportaal en doorgeleid naar het college en de raad.
+milestones: []
+ai_processed_at: '2026-11-16T10:03:12.605Z'
+ai_status: done
 ---
 
 vi mn

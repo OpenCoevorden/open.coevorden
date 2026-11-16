@@ -1,9 +1,26 @@
 ---
-title: "250701 Tuindorp omgevingsanalyse (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250701 Tuindorp omgevingsanalyse (Geanonimiseerd).pdf"
-s3_etag: "5afe40d4f4f4d302589dd520b3c485ed"
-date: 2026-11-16
+title: 250701 Tuindorp omgevingsanalyse (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250701 Tuindorp omgevingsanalyse
+  (Geanonimiseerd).pdf
+s3_etag: 5afe40d4f4f4d302589dd520b3c485ed
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een interne omgevingsanalyse van sociale en regionale media beschrijft de
+  aanhoudende onrust in de Coevorder wijk Tuindorp over de opvang van veertien
+  alleenstaande minderjarige meisjes met een verblijfsstatus. Inwoners uiten
+  zorgen over veiligheid, woningnood, mogelijke gezinshereniging en gebrekkige
+  gemeentelijke communicatie; er waren protesten, vernielingen en
+  brandstichting, die burgemeester Renze Bergsma onacceptabel noemt.
+milestones: []
+ai_processed_at: '2026-11-16T09:34:05.851Z'
+ai_status: done
 ---
 
 Van: eren

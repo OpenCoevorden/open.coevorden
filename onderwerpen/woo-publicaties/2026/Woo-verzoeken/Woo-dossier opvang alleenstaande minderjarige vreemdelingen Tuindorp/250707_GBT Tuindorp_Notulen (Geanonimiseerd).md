@@ -1,9 +1,27 @@
 ---
-title: "250707_GBT Tuindorp_Notulen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250707_GBT Tuindorp_Notulen (Geanonimiseerd).pdf"
-s3_etag: "8190923a0f1f3bf6db741e6da3316826"
-date: 2026-11-16
+title: 250707_GBT Tuindorp_Notulen (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250707_GBT Tuindorp_Notulen
+  (Geanonimiseerd).pdf
+s3_etag: 8190923a0f1f3bf6db741e6da3316826
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De notulen gaan over het gemeentelijk overleg over het terugdraaien van de
+  plaatsing van meisjes op locatie Tuindorp, de voorbereiding van een besloten
+  raadsbijeenkomst en de communicatie over incidenten, met betrokkenheid van
+  onder meer de gemeente, Elker, Domesta, de commissaris van de Koning en Nidos.
+  Afgesproken is onder meer een tijdlijn en juridische positie uit te werken,
+  financiële gevolgen met Elker en Domesta te bespreken en vervolgoverleg met de
+  commissaris van de Koning en Nidos te voeren.
+milestones: []
+ai_processed_at: '2026-11-16T09:30:36.593Z'
+ai_status: done
 ---
 
 Notulen GBT Tuindorp

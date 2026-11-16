@@ -1,9 +1,25 @@
 ---
-title: "250312 Aansluiten agent teamsoverleg (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250312 Aansluiten agent teamsoverleg (Geanonimiseerd).pdf"
-s3_etag: "7c2ae8cb289f2752377dabff6c5b7d1d"
-date: 2026-11-16
+title: 250312 Aansluiten agent teamsoverleg (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250312 Aansluiten agent teamsoverleg
+  (Geanonimiseerd).pdf
+s3_etag: 7c2ae8cb289f2752377dabff6c5b7d1d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden bespreekt met de politie de aansluiting van een
+  wijkagent bij het teamsoverleg over een lokale casus en de communicatie met
+  inwoners, waaronder de mogelijkheid van extra surveillances door boa’s en
+  politie. De wijkagent zal deelnemen aan het overleg; er was op dat moment nog
+  geen concreet plan van aanpak.
+milestones: []
+ai_processed_at: '2026-11-16T09:49:13.070Z'
+ai_status: done
 ---
 
 J

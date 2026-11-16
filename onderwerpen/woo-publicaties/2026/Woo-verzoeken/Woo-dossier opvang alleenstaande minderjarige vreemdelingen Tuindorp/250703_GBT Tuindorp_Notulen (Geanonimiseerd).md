@@ -1,9 +1,27 @@
 ---
-title: "250703_GBT Tuindorp_Notulen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250703_GBT Tuindorp_Notulen (Geanonimiseerd).pdf"
-s3_etag: "710353f809b36f1d7d6824862166c74e"
-date: 2026-11-16
+title: 250703_GBT Tuindorp_Notulen (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250703_GBT Tuindorp_Notulen
+  (Geanonimiseerd).pdf
+s3_etag: 710353f809b36f1d7d6824862166c74e
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De notulen van het gemeentelijk crisisteam Tuindorp gaan over de opvang van
+  statushouders, het contact met inwoners en bezwaarmakers, de communicatie
+  hierover en mogelijke vervolgs scenario’s, waarbij de burgemeester en
+  ambtelijke betrokkenen de aanpak bespreken. De nacht verliep rustig,
+  gesprekken met inwoners waren positief en er is afgesproken het overleg met
+  bezwaarmakers voort te zetten, scenario’s uit te werken en een bijeenkomst met
+  fractievoorzitters te plannen.
+milestones: []
+ai_processed_at: '2026-11-16T09:32:13.161Z'
+ai_status: done
 ---
 
 Datum

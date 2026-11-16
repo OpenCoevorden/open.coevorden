@@ -1,9 +1,29 @@
 ---
-title: "_chat (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/_chat (Geanonimiseerd).pdf"
-s3_etag: "1196b2f5c70b6c2f31d9d8b692f64012"
-date: 2026-11-16
+title: _chat (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/_chat (Geanonimiseerd).pdf
+s3_etag: 1196b2f5c70b6c2f31d9d8b692f64012
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat chatberichten van onder meer Renze Bergsma en betrokken
+  collega’s over de opvang van vluchtelingen en een vergunning voor
+  alleenstaande minderjarige vreemdelingen (AMV). De bezwaarschriftencommissie
+  adviseert het bestreden besluit in stand te laten; het college zal dit advies
+  als bijlage meesturen met het besluit op bezwaar, terwijl later naar
+  aanleiding van gedeelde foto’s en berichten spoedoverleg wordt aangekondigd.
+milestones:
+  - date: '2025-06-05'
+    event: >-
+      Advies van de bezwaarschriftencommissie ontvangen; handhaving van het
+      bestreden besluit geadviseerd.
+ai_processed_at: '2026-11-16T09:19:36.525Z'
+ai_status: done
 ---
 
 [31=03=-2022, 12254: 01] oodopvang vluchtelingen: Berichten en oproepen

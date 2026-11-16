@@ -1,9 +1,25 @@
 ---
-title: "241209 Huisvesting AMV jongeren (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241209 Huisvesting AMV jongeren (Geanonimiseerd).pdf"
-s3_etag: "d0e7116b7d0febd15090dcaad1f140c2"
-date: 2026-11-16
+title: 241209 Huisvesting AMV jongeren (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241209 Huisvesting AMV jongeren
+  (Geanonimiseerd).pdf
+s3_etag: d0e7116b7d0febd15090dcaad1f140c2
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert Team Actief voor Werk over de voorgenomen
+  huisvesting van alleenstaande minderjarige vreemdelingen (AMV-jongeren) in
+  Coevorden medio maart 2025. Ook wordt een kennismaking aangekondigd met Elker,
+  de organisatie die namens Nidos de dagelijkse begeleiding van de jongeren
+  verzorgt.
+milestones: []
+ai_processed_at: '2026-11-16T10:02:51.335Z'
+ai_status: done
 ---
 
 J

@@ -1,9 +1,26 @@
 ---
-title: "240916 Brief voornemen AMV Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240916 Brief voornemen AMV Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "686e025e515e8bf328028473e8db36a6"
-date: 2026-11-16
+title: 240916 Brief voornemen AMV Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240916 Brief voornemen AMV Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: 686e025e515e8bf328028473e8db36a6
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden bereidt communicatie aan omwonenden voor over het
+  voornemen om in vijf woningen aan de Doctor J.C. Homanstraat 12 tot 14
+  minderjarige statushouders te huisvesten, met begeleiding door Elker en
+  verhuur door Domesta; in de zesde woning woont al een gezin van statushouders.
+  De plannen zijn nog niet definitief en omwonenden worden later opnieuw
+  geïnformeerd en uitgenodigd voor een inloopmoment.
+milestones: []
+ai_processed_at: '2026-11-16T10:12:19.756Z'
+ai_status: done
 ---
 
 Van:

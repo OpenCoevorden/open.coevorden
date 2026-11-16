@@ -1,9 +1,26 @@
 ---
-title: "250619 Annotatie Lokale Driehoek 19 juni 2025 (1) (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250619 Annotatie Lokale Driehoek 19 juni 2025 (1) (Geanonimiseerd).pdf"
-s3_etag: "f1b09e10f4ca69b3ead982d35cf4cc51"
-date: 2026-11-16
+title: 250619 Annotatie Lokale Driehoek 19 juni 2025 (1) (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250619 Annotatie Lokale Driehoek 19 juni
+  2025 (1) (Geanonimiseerd).pdf
+s3_etag: f1b09e10f4ca69b3ead982d35cf4cc51
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Annotatie voor Renze Bergsma over het overleg van de Lokale Driehoek op 19
+  juni 2025, waarin de opvang van 14 alleenstaande minderjarige vreemdelingen
+  (meisjes) en de spanningen en dreigende uitspraken vanuit de wijk worden
+  besproken. De inrichting van de opvanglocatie gaat door, Elker start de
+  werkzaamheden in de week van 23 juni en er wordt overwogen vanaf 20 juni
+  cameratoezicht op grond van artikel 151c Gemeentewet in te zetten.
+milestones: []
+ai_processed_at: '2026-11-16T09:37:04.701Z'
+ai_status: done
 ---
 
 Annotatie bestuurlijk overleg

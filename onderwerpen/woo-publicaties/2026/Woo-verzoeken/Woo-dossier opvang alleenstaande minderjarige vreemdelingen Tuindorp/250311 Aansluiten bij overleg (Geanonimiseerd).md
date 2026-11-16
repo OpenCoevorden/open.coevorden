@@ -1,9 +1,25 @@
 ---
-title: "250311 Aansluiten bij overleg (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250311 Aansluiten bij overleg (Geanonimiseerd).pdf"
-s3_etag: "1299699617c0b92592ca0032f7f98cc0"
-date: 2026-11-16
+title: 250311 Aansluiten bij overleg (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250311 Aansluiten bij overleg
+  (Geanonimiseerd).pdf
+s3_etag: 1299699617c0b92592ca0032f7f98cc0
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden vraagt of er regulier overleg plaatsvindt over de komst
+  en plaatsing van AMV’ers, mede naar aanleiding van signalen van de politie en
+  een bericht van Elker. Zij stelt voor dat Veiligheid en de politie bij dit
+  overleg aansluiten om korte communicatielijnen te creëren en scenario’s voor
+  mogelijke onrust te bespreken.
+milestones: []
+ai_processed_at: '2026-11-16T09:49:23.733Z'
+ai_status: done
 ---
 
 J

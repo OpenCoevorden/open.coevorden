@@ -1,9 +1,25 @@
 ---
-title: "Concept aanwijsbesluit cameratoezicht (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Concept aanwijsbesluit cameratoezicht (Geanonimiseerd).pdf"
-s3_etag: "b3b060c6e5152c91a4aa584f5c3f8171"
-date: 2026-11-16
+title: Concept aanwijsbesluit cameratoezicht (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Concept aanwijsbesluit cameratoezicht
+  (Geanonimiseerd).pdf
+s3_etag: b3b060c6e5152c91a4aa584f5c3f8171
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft een concept-aanwijsbesluit voor cameratoezicht op de
+  AMV-locatie aan de Dr. J.C. Homanstraat in Coevorden, gebaseerd op artikel
+  151c van de Gemeentewet. Het besluit wordt voorgelegd aan de lokale driehoek
+  met het doel het de volgende dag te laten ondertekenen en aansluitend in
+  werking te laten treden.
+milestones: []
+ai_processed_at: '2026-11-16T09:26:58.798Z'
+ai_status: done
 ---
 
 B (geanonimiseerd) (geanonimiseerd)

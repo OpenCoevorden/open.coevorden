@@ -1,9 +1,26 @@
 ---
-title: "250703 brief CvdK aan burgemeester ikv noodverordening (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250703 brief CvdK aan burgemeester ikv noodverordening (Geanonimiseerd).pdf"
-s3_etag: "cbf037121dfb048c38febffd5a70a021"
-date: 2026-11-16
+title: 250703 brief CvdK aan burgemeester ikv noodverordening (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250703 brief CvdK aan burgemeester ikv
+  noodverordening (Geanonimiseerd).pdf
+s3_etag: cbf037121dfb048c38febffd5a70a021
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De commissaris van de Koning in Drenthe informeert de burgemeester van
+  Coevorden dat zij de noodverordening voor de wijk Tuindorp, ingesteld op grond
+  van artikel 176 van de Gemeentewet ter voorkoming van ernstige
+  wanordelijkheden en verstoringen van de openbare orde en veiligheid, heeft
+  getoetst. Zij concludeert dat de noodverordening aan de wettelijke criteria
+  voldoet.
+milestones: []
+ai_processed_at: '2026-11-16T09:32:23.526Z'
+ai_status: done
 ---
 
 Provinciehuis Westerbrink 1, Assen +31 592 365555

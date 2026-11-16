@@ -1,9 +1,32 @@
 ---
-title: "241219 FW Aanvraag Z2024-019585 - verlengen behandeltermijn (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241219 FW Aanvraag Z2024-019585 - verlengen behandeltermijn (Geanonimiseerd).pdf"
-s3_etag: "edd50b73280fe0707e839b1777e07b87"
-date: 2026-11-16
+title: 241219 FW Aanvraag Z2024-019585 - verlengen behandeltermijn (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241219 FW Aanvraag Z2024-019585 -
+  verlengen behandeltermijn (Geanonimiseerd).pdf
+s3_etag: edd50b73280fe0707e839b1777e07b87
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert Stichting Elker over de verlenging van de
+  beslistermijn voor de omgevingsvergunning voor de huisvesting van maximaal 14
+  alleenstaande minderjarige vreemdelingen aan de Dr. J.C. Homanstraat 55-63 in
+  Coevorden. De beslistermijn is op grond van de Omgevingswet met zes weken
+  verlengd.
+milestones:
+  - date: '2024-11-06'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor huisvesting van maximaal 14
+      alleenstaande minderjarige vreemdelingen aan de Dr. J.C. Homanstraat 55-63
+      in Coevorden.
+  - date: '2024-12-19'
+    event: Beslistermijn met zes weken verlengd.
+ai_processed_at: '2026-11-16T10:02:09.435Z'
+ai_status: done
 ---
 
 J

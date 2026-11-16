@@ -1,9 +1,25 @@
 ---
-title: "250629 Re Pers statement Renze Bergsma - Tuindorp juni 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250629 Re Pers statement Renze Bergsma - Tuindorp juni 2025 (Geanonimiseerd).pdf"
-s3_etag: "08c89d30e62ec9c1ea47e5a86afff132"
-date: 2026-11-16
+title: 250629 Re Pers statement Renze Bergsma - Tuindorp juni 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250629 Re Pers statement Renze Bergsma -
+  Tuindorp juni 2025 (Geanonimiseerd).pdf
+s3_etag: 08c89d30e62ec9c1ea47e5a86afff132
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne e-mailwisseling binnen de gemeente Coevorden over de communicatie na
+  een brandstichting op een kruising in de wijk Tuindorp in juni 2025.
+  Medewerkers bespreken een persstatement van Renze Bergsma en mogelijke
+  vervolgvragen over aangifte, bestraffing en de veiligheid van betrokken
+  meisjes en medewerkers van Elker.
+milestones: []
+ai_processed_at: '2026-11-16T09:35:32.372Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

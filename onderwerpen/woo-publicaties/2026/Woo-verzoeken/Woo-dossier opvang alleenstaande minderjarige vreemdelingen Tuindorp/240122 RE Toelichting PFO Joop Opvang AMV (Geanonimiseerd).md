@@ -1,9 +1,27 @@
 ---
-title: "240122 RE Toelichting PFO Joop Opvang AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240122 RE Toelichting PFO Joop Opvang AMV (Geanonimiseerd).pdf"
-s3_etag: "21c5dcebe2d9e20f857fdf3a6befe046"
-date: 2026-11-16
+title: 240122 RE Toelichting PFO Joop Opvang AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240122 RE Toelichting PFO Joop Opvang AMV
+  (Geanonimiseerd).pdf
+s3_etag: 21c5dcebe2d9e20f857fdf3a6befe046
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorgenomen oprichting van een kinderwoongroep in
+  Coevorden voor maximaal twaalf alleenstaande minderjarige vreemdelingen
+  (AMV’s), inclusief de samenwerking en taakverdeling tussen de gemeente
+  Coevorden, Nidos, uitvoerder Phusis en verhuurder Domesta. Het college stemt
+  in met de samenwerkingsovereenkomst met Nidos, de communicatie aan raad en
+  omwonenden en de verdere realisatie, onder meer afhankelijk van de
+  omgevingsvergunning en afspraken over de huurovereenkomst.
+milestones: []
+ai_processed_at: '2026-11-16T10:14:20.308Z'
+ai_status: done
 ---
 
 Verzonden: maandag 22 januari 2024 13:02

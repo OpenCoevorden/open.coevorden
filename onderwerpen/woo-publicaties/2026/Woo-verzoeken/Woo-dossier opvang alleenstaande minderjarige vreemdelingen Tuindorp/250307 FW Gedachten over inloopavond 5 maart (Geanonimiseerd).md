@@ -1,9 +1,27 @@
 ---
-title: "250307 FW Gedachten over inloopavond 5 maart (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250307 FW Gedachten over inloopavond 5 maart (Geanonimiseerd).pdf"
-s3_etag: "0ebc33cc85bfcfe8fc72fe8a8a8be886"
-date: 2026-11-16
+title: 250307 FW Gedachten over inloopavond 5 maart (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250307 FW Gedachten over inloopavond 5
+  maart (Geanonimiseerd).pdf
+s3_etag: 0ebc33cc85bfcfe8fc72fe8a8a8be886
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen de gemeente Coevorden, Elker, Domesta en andere
+  betrokkenen over de inloopavond in Tuindorp en de voorgenomen opvang van
+  alleenstaande minderjarige vreemdelingen (amv), waarbij circa 30-40 bewoners
+  aanwezig waren en 75 handtekeningen tegen de opvang werden aangeboden.
+  Bewoners uitten ernstige zorgen en diverse bedreigingen; de betrokken
+  organisaties bespraken de veiligheidsrisico’s en verdere advisering, terwijl
+  werd benadrukt dat een formele procedure loopt.
+milestones: []
+ai_processed_at: '2026-11-16T09:50:40.096Z'
+ai_status: done
 ---
 
 u nn

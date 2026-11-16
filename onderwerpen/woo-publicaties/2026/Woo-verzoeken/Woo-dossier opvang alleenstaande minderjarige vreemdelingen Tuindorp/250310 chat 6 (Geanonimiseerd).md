@@ -1,9 +1,26 @@
 ---
-title: "250310 chat 6 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250310 chat 6 (Geanonimiseerd).pdf"
-s3_etag: "a2f9582a1bd193c43908b877de80386b"
-date: 2026-11-16
+title: 250310 chat 6 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250310 chat 6 (Geanonimiseerd).pdf
+s3_etag: a2f9582a1bd193c43908b877de80386b
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat interne WhatsApp-correspondentie tussen (geanonimiseerde)
+  medewerkers over de afstemming van een werkgroep rond AMV, een inloopavond,
+  communicatie richting betrokkenen en bestuurlijke behandeling, met
+  betrokkenheid van onder meer het KCC, de politie en een extern bedrijf. Er
+  worden afspraken gepland, informatie en feedback gedeeld, contactpersonen
+  afgestemd en een zaak aangemaakt; daarnaast wordt contact gelegd met het
+  bedrijf over camerabeelden en worden betrokkenen bijgepraat.
+milestones: []
+ai_processed_at: '2026-11-16T09:49:35.290Z'
+ai_status: done
 ---
 
 0=03=2025, ls 22:09

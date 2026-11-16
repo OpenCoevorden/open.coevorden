@@ -1,9 +1,30 @@
 ---
-title: "250611 brief aan buurtbewoners (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250611 brief aan buurtbewoners (Geanonimiseerd).pdf"
-s3_etag: "a5eda0328c3362e0792f04a87862b56b"
-date: 2026-11-16
+title: 250611 brief aan buurtbewoners (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250611 brief aan buurtbewoners
+  (Geanonimiseerd).pdf
+s3_etag: a5eda0328c3362e0792f04a87862b56b
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stemt met Elker en Domesta de communicatie aan
+  buurtbewoners af over de komst van 14 jonge alleenstaande vrouwelijke
+  statushouders naar de Doctor J.C. Homanstraat, die 24 uur per dag door Elker
+  worden begeleid. Naar aanleiding van bezwaren van buurtbewoners heeft de
+  bezwaarschriftencommissie op 21 mei 2025 geoordeeld dat deze ongegrond zijn,
+  waarna de huisvesting doorgaat.
+milestones:
+  - date: '2025-05-21'
+    event: >-
+      Bezwaarschriftencommissie bespreekt het bezwaar en acht de bezwaren
+      ongegrond
+ai_processed_at: '2026-11-16T09:39:53.825Z'
+ai_status: done
 ---
 
 Verzonden: woensdag 11 juni 2025 11:02

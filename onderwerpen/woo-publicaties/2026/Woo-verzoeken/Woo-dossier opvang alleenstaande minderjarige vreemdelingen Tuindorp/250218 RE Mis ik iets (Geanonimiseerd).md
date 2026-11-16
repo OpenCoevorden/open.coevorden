@@ -1,9 +1,26 @@
 ---
-title: "250218 RE Mis ik iets (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250218 RE Mis ik iets (Geanonimiseerd).pdf"
-s3_etag: "cbac5dacddd29f549b0ba5b4cd6344ab"
-date: 2026-11-16
+title: 250218 RE Mis ik iets (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250218 RE Mis ik iets (Geanonimiseerd).pdf
+s3_etag: cbac5dacddd29f549b0ba5b4cd6344ab
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne e-mailwisseling tussen medewerkers van de gemeente Coevorden en
+  betrokken organisaties over de organisatie van een burenavond op 25 februari
+  2025 en een inloopmoment op 5 maart 2025. Besproken wordt onder meer wie wordt
+  uitgenodigd, aanmelding en deurbeleid, het weren van de pers, communicatie,
+  een Q&A en mogelijke inzet van een BOA; de betrokken organisaties zijn niet
+  aanwezig bij de burenavond en de uitnodigingskring voor het inloopmoment wordt
+  vergroot.
+milestones: []
+ai_processed_at: '2026-11-16T09:53:49.185Z'
+ai_status: done
 ---
 
 vi mn

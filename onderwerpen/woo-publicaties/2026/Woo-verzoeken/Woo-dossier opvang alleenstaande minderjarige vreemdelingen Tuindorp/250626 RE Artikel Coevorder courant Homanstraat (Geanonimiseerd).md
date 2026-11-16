@@ -1,9 +1,26 @@
 ---
-title: "250626 RE Artikel Coevorder courant Homanstraat (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250626 RE Artikel Coevorder courant Homanstraat (Geanonimiseerd).pdf"
-s3_etag: "59a8d2c8173222c993b46afb6f092f59"
-date: 2026-11-16
+title: 250626 RE Artikel Coevorder courant Homanstraat (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250626 RE Artikel Coevorder courant
+  Homanstraat (Geanonimiseerd).pdf
+s3_etag: 59a8d2c8173222c993b46afb6f092f59
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen de gemeente Coevorden, jeugdhulporganisatie Elker en
+  woningcorporatie Domesta over een artikel in de Coevorder Courant over
+  cameratoezicht in de J.C. Homanstraat. Elker uit kritiek op de stigmatiserende
+  titel en de publicatie van adressen en foto’s van minderjarigen; de gemeente
+  onderhoudt contact met de journalist en zal haar aanspreken op de gevolgen en
+  proberen dit in de toekomst te voorkomen.
+milestones: []
+ai_processed_at: '2026-11-16T09:35:54.583Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

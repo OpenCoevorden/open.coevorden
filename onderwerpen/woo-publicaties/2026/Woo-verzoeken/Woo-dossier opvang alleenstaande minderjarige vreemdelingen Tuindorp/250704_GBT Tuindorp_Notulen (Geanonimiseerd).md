@@ -1,9 +1,30 @@
 ---
-title: "250704_GBT Tuindorp_Notulen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250704_GBT Tuindorp_Notulen (Geanonimiseerd).pdf"
-s3_etag: "7f6f3375a2c9c23203d35976a599e294"
-date: 2026-11-16
+title: 250704_GBT Tuindorp_Notulen (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250704_GBT Tuindorp_Notulen
+  (Geanonimiseerd).pdf
+s3_etag: 7f6f3375a2c9c23203d35976a599e294
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De notulen gaan over het besluit om een plan voor de huisvesting van meisjes
+  in Tuindorp vanwege onvoldoende draagvlak, onveiligheid en recente
+  ongeregeldheden niet door te laten gaan. De gemeente stemt de communicatie af
+  met inwoners, Elker, Nidos, Domesta, politie en OM en informeert pers en
+  fractievoorzitters; er wordt een gesprek met een afvaardiging van inwoners
+  gepland.
+milestones:
+  - date: '2025-07-04'
+    event: >-
+      Besluit om de meisjes niet op deze locatie te huisvesten; het plan is van
+      de baan.
+ai_processed_at: '2026-11-16T09:31:36.459Z'
+ai_status: done
 ---
 
 Notulen GBT Tuindorp

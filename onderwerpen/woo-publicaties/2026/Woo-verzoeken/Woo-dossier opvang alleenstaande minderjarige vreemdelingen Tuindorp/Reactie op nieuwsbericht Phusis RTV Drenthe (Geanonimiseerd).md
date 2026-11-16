@@ -1,9 +1,25 @@
 ---
-title: "Reactie op nieuwsbericht Phusis RTV Drenthe (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Reactie op nieuwsbericht Phusis RTV Drenthe (Geanonimiseerd).pdf"
-s3_etag: "85ffbcfb65bcaea4597f2341d11bb988"
-date: 2026-11-16
+title: Reactie op nieuwsbericht Phusis RTV Drenthe (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Reactie op nieuwsbericht Phusis RTV
+  Drenthe (Geanonimiseerd).pdf
+s3_etag: 85ffbcfb65bcaea4597f2341d11bb988
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Nidos reageert op berichtgeving van RTV Drenthe over opvangorganisatie Phusis
+  en licht zijn bijzondere opdrachtgevers- en voogdijrol bij de huisvesting van
+  alleenstaande minderjarige vreemdelingen (AMV) toe. Nidos stelt dat het
+  welzijn en de veiligheid van jongeren vooropstaan, vertrouwt op Phusis en de
+  samenwerking, en signalen over mogelijke problemen direct oppakt.
+milestones: []
+ai_processed_at: '2026-11-16T09:22:12.869Z'
+ai_status: done
 ---
 
 Verzonden: donderdag 1 februari 2024 13:13

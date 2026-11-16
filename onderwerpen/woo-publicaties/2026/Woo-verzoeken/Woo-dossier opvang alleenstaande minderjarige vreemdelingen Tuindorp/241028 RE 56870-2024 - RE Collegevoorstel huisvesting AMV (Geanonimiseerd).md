@@ -1,9 +1,27 @@
 ---
-title: "241028 RE 56870-2024 - RE Collegevoorstel huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241028 RE 56870-2024 - RE Collegevoorstel huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "dac6eeaff0199f16f0aeaa910fe97bea"
-date: 2026-11-16
+title: 241028 RE 56870-2024 - RE Collegevoorstel huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241028 RE 56870-2024 - RE Collegevoorstel
+  huisvesting AMV (Geanonimiseerd).pdf
+s3_etag: dac6eeaff0199f16f0aeaa910fe97bea
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling tussen medewerkers van de gemeente Coevorden gaat over het
+  collegevoorstel voor de huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV), inclusief de benodigde stukken, planning en afstemming
+  met betrokken partners zoals Elker en Domesta. Afgesproken is dat het voorstel
+  en de stukken uiterlijk 4 november 2024 om 08.30 uur in het MP worden
+  aangepast, zodat agendering voor de collegevergadering van 5 november 2024
+  mogelijk blijft; uitstel is als alternatief besproken.
+milestones: []
+ai_processed_at: '2026-11-16T10:08:09.795Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

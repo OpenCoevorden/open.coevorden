@@ -1,9 +1,31 @@
 ---
-title: "250206 FW Mogelijke bezwaren tegen verleende omgevingsvergunning (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250206 FW Mogelijke bezwaren tegen verleende omgevingsvergunning (Geanonimiseerd).pdf"
-s3_etag: "a218e8f7f2a35f685cfe84fc6b7b7f3e"
-date: 2026-11-16
+title: >-
+  250206 FW Mogelijke bezwaren tegen verleende omgevingsvergunning
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250206 FW Mogelijke bezwaren tegen
+  verleende omgevingsvergunning (Geanonimiseerd).pdf
+s3_etag: a218e8f7f2a35f685cfe84fc6b7b7f3e
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling binnen de gemeente Coevorden gaat over de verleende
+  omgevingsvergunning voor de huisvesting van amv’s aan de J.C. Homanstraat in
+  Tuindorp en de mogelijke bezwaren daartegen. Afgesproken is dat binnengekomen
+  bezwaarschriften door het betreffende team worden behandeld en dat betrokken
+  gemeentemedewerkers hierover worden geïnformeerd.
+milestones:
+  - date: '2025-01-30'
+    event: >-
+      Omgevingsvergunning voor de huisvesting van AMV's aan de J.C. Homanstraat
+      verleend
+ai_processed_at: '2026-11-16T09:55:29.344Z'
+ai_status: done
 ---
 
 u nn

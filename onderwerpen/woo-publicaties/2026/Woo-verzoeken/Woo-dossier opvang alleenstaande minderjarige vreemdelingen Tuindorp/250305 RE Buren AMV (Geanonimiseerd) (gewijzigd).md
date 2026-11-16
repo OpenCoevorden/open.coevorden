@@ -1,9 +1,28 @@
 ---
-title: "250305 RE Buren AMV (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250305 RE Buren AMV (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "f641051ac73710d48da8a9f5a1c2710d"
-date: 2026-11-16
+title: 250305 RE Buren AMV (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250305 RE Buren AMV (Geanonimiseerd)
+  (gewijzigd).pdf
+s3_etag: f641051ac73710d48da8a9f5a1c2710d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne e-mails van de gemeente Coevorden en betrokken organisaties bereiden
+  een bewonersbijeenkomst voor over de huisvesting van veertien alleenstaande
+  minderjarige vreemdelingen (AMV’ers), met Domesta, Elker, Nidos en De Nieuwe
+  Veste als betrokken partijen. De Q&A behandelt onder meer de
+  informatievoorziening, bezwaarprocedure, selectie en begeleiding van de
+  jongeren, veiligheid, personeel en het contact met de buurt; de gemeente stelt
+  dat de gevolgde procedures correct zijn en dat de jongeren in de woningen van
+  Domesta worden geplaatst.
+milestones: []
+ai_processed_at: '2026-11-16T09:51:02.879Z'
+ai_status: done
 ---
 
 u nn

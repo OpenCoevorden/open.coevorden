@@ -1,9 +1,26 @@
 ---
-title: "240913 FW Overdracht dossier AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240913 FW Overdracht dossier AMV (Geanonimiseerd).pdf"
-s3_etag: "3732019c1aa77c26add07fbfcf86ac89"
-date: 2026-11-16
+title: 240913 FW Overdracht dossier AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240913 FW Overdracht dossier AMV
+  (Geanonimiseerd).pdf
+s3_etag: 3732019c1aa77c26add07fbfcf86ac89
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft de interne overdracht binnen de gemeente Coevorden van
+  een dossier over een mogelijke opvanglocatie voor alleenstaande minderjarige
+  vreemdelingen (AMV). Een medewerker draagt het vervolg over aan een collega
+  met ervaring met vergelijkbare huisvestingsvraagstukken, waaronder een
+  COA-locatie, en blijft zijdelings betrokken; een verdere uitkomst wordt niet
+  vermeld.
+milestones: []
+ai_processed_at: '2026-11-16T10:12:30.310Z'
+ai_status: done
 ---
 
 Van:

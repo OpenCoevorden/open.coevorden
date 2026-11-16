@@ -1,9 +1,26 @@
 ---
-title: "250219 FW Burenavond en inloopmoment 5 maart (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250219 FW Burenavond en inloopmoment 5 maart (Geanonimiseerd).pdf"
-s3_etag: "aa2d1f9e6e76b0b1b757d695057a1fc8"
-date: 2026-11-16
+title: 250219 FW Burenavond en inloopmoment 5 maart (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250219 FW Burenavond en inloopmoment 5
+  maart (Geanonimiseerd).pdf
+s3_etag: aa2d1f9e6e76b0b1b757d695057a1fc8
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over de organisatie van een burenavond op 25 februari
+  en een inloopmoment op 5 maart, waarbij de gemeente Coevorden, Nidos, Elker en
+  direct omwonenden betrokken zijn. De gemeente wil niet aanwezig zijn bij de
+  burenavond, maar organiseert het inloopmoment in Ravelijn Verbindt met een
+  grotere genodigdenkring, aanmelding en deurbeleid, zonder pers; anderen
+  pleiten alsnog voor gemeentelijke vertegenwoordiging bij de burenavond.
+milestones: []
+ai_processed_at: '2026-11-16T09:53:17.803Z'
+ai_status: done
 ---
 
 Van:

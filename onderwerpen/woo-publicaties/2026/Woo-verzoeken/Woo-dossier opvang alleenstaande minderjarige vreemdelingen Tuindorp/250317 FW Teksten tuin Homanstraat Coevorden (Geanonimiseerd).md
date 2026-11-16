@@ -1,9 +1,25 @@
 ---
-title: "250317 FW Teksten tuin Homanstraat Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250317 FW Teksten tuin Homanstraat Coevorden (Geanonimiseerd).pdf"
-s3_etag: "f81b4571203f1e6f5507822b3672c383"
-date: 2026-11-16
+title: 250317 FW Teksten tuin Homanstraat Coevorden (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250317 FW Teksten tuin Homanstraat
+  Coevorden (Geanonimiseerd).pdf
+s3_etag: f81b4571203f1e6f5507822b3672c383
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft e-mailcorrespondentie tussen Elker Jeugdhulp & Onderwijs
+  en medewerkers van de gemeente Coevorden over teksten op borden die in de tuin
+  bij woningen aan de Homanstraat in Coevorden zijn aangetroffen. Medewerkers
+  van Elker hebben de borden verwijderd en de gemeente hierover geïnformeerd,
+  met foto’s als bijlage.
+milestones: []
+ai_processed_at: '2026-11-16T09:48:20.098Z'
+ai_status: done
 ---
 
 . ui nn

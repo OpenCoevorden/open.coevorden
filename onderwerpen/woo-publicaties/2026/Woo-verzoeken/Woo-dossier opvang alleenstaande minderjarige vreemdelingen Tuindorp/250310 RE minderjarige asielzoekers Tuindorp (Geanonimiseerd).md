@@ -1,9 +1,26 @@
 ---
-title: "250310 RE minderjarige asielzoekers Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250310 RE minderjarige asielzoekers Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "010294eba71f7b583c47549022f4491a"
-date: 2026-11-16
+title: 250310 RE minderjarige asielzoekers Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250310 RE minderjarige asielzoekers
+  Tuindorp (Geanonimiseerd).pdf
+s3_etag: 010294eba71f7b583c47549022f4491a
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen politie en gemeente Coevorden over het verzet van
+  inwoners van Tuindorp tegen de huisvesting van minderjarige asielzoekers,
+  waaronder 96 verzamelde handtekeningen en protestborden met teksten als ‘eigen
+  kinderen eerst’. De gemeente stemt intern af over de ontvangst van een
+  delegatie met de handtekeningen op het gemeentehuis en bespreekt de situatie
+  met betrokken functionarissen.
+milestones: []
+ai_processed_at: '2026-11-16T09:49:46.679Z'
+ai_status: done
 ---
 
 Van: J

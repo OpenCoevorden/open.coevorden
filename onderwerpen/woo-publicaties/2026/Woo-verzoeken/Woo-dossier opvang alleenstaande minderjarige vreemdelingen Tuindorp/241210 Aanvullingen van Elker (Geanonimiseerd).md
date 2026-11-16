@@ -1,9 +1,24 @@
 ---
-title: "241210 Aanvullingen van Elker (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241210 Aanvullingen van Elker (Geanonimiseerd).pdf"
-s3_etag: "ad6f4bbfda5356e09bc7cc22910e09d8"
-date: 2026-11-16
+title: 241210 Aanvullingen van Elker (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241210 Aanvullingen van Elker
+  (Geanonimiseerd).pdf
+s3_etag: ad6f4bbfda5356e09bc7cc22910e09d8
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Elker verstrekt aan BEA aanvullende informatie voor een overleg, waaronder
+  contactgegevens, uit te nodigen betrokkenen voor de kennismaking met de
+  bredere kring en aandachtspunten voor werkafspraken. Elker kondigt daarnaast
+  aan een conceptprogramma voor een informatiebijeenkomst toe te sturen.
+milestones: []
+ai_processed_at: '2026-11-16T10:02:41.320Z'
+ai_status: done
 ---
 
 Van: EL (geanonimiseerd) (geanonimiseerd)

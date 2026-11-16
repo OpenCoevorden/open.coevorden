@@ -1,9 +1,25 @@
 ---
-title: "241210 Collegevoorstel goedgekeurd! (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241210 Collegevoorstel goedgekeurd! (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "c1741d0c5928d7acd142cae2d4541949"
-date: 2026-11-16
+title: 241210 Collegevoorstel goedgekeurd! (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241210 Collegevoorstel goedgekeurd!
+  (Geanonimiseerd) (gewijzigd).pdf
+s3_etag: c1741d0c5928d7acd142cae2d4541949
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mail over de goedkeuring door het college van een college- en raadsvoorstel
+  inzake adviesrecht en een omgevingsvergunning. De betrokken ambtenaren
+  bereiden de raadsvergadering van 28 januari voor en hopen dat de gemeenteraad
+  zich richt op instemming met de vergunning, niet op de vraag wie er zullen
+  komen wonen.
+milestones: []
+ai_processed_at: '2026-11-16T10:02:30.377Z'
+ai_status: done
 ---
 
 Verzonden: dinsdag 10 december 2024 17:03

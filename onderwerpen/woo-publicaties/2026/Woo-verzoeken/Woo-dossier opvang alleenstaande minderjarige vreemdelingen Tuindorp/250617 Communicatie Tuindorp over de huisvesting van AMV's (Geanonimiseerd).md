@@ -1,9 +1,39 @@
 ---
-title: "250617 Communicatie Tuindorp over de huisvesting van AMV's (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250617 Communicatie Tuindorp over de huisvesting van AMV's (Geanonimiseerd).pdf"
-s3_etag: "6124265226e83b38839332a75614ee94"
-date: 2026-11-16
+title: 250617 Communicatie Tuindorp over de huisvesting van AMV's (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250617 Communicatie Tuindorp over de
+  huisvesting van AMV's (Geanonimiseerd).pdf
+s3_etag: 6124265226e83b38839332a75614ee94
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorgenomen huisvesting van 14 alleenstaande
+  minderjarige statushouders, jonge meisjes van circa 15 tot 18 jaar, aan de Dr.
+  J.C. Homanstraat 55-63 in Coevorden door de gemeente Coevorden, in
+  samenwerking met Elker, Nidos en Domesta. De bezwaren van 57 omwonenden zijn
+  niet-ontvankelijk of ongegrond verklaard, waardoor de omgevingsvergunning in
+  stand blijft; de buurt wordt hierover geïnformeerd en vanwege spanningen
+  worden veiligheidsmaatregelen getroffen.
+milestones:
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend voor huisvesting van maximaal 14 AMV's.
+  - date: '2025-05-21'
+    event: Bezwaarschriften behandeld door de bezwaarschriftencommissie.
+  - date: '2025-06-05'
+    event: >-
+      Advies bezwaarschriftencommissie uitgebracht: bezwaren deels
+      niet-ontvankelijk en deels ongegrond; vergunning blijft in stand.
+  - date: '2025-06-19'
+    event: >-
+      Besluit op bezwaar: bezwaren niet-ontvankelijk dan wel ongegrond
+      verklaard; omgevingsvergunning blijft in stand.
+ai_processed_at: '2026-11-16T09:37:38.864Z'
+ai_status: done
 ---
 
 J

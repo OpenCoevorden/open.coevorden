@@ -1,9 +1,33 @@
 ---
-title: "241028 FW Ondertekenen samenwerkingsovereenkomst Nidos en gemeente Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241028 FW Ondertekenen samenwerkingsovereenkomst Nidos en gemeente Coevorden (Geanonimiseerd).pdf"
-s3_etag: "de41aaa683592e8addcc3b618f66f0b2"
-date: 2026-11-16
+title: >-
+  241028 FW Ondertekenen samenwerkingsovereenkomst Nidos en gemeente Coevorden
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241028 FW Ondertekenen
+  samenwerkingsovereenkomst Nidos en gemeente Coevorden (Geanonimiseerd).pdf
+s3_etag: de41aaa683592e8addcc3b618f66f0b2
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft de samenwerkingsovereenkomst tussen de gemeente Coevorden
+  en Stichting Nidos over de opvang, begeleiding en huisvesting van maximaal 14
+  alleenstaande minderjarige vreemdelingen in een kinderwoongroep, waarbij Elker
+  de uitvoering verzorgt en Domesta de verhuurder is. De overeenkomst regelt
+  onder meer taken, omgevingsbeheer, incidenten- en gegevensuitwisseling,
+  looptijd, evaluatie en beëindiging; ondertekening is voorzien door wethouder
+  J. Slomp namens Coevorden en bestuursvoorzitter A.P.J. Klijn namens Nidos.
+milestones:
+  - date: '2024-11-05'
+    event: >-
+      Besluit van burgemeester en wethouders over de samenwerkingsovereenkomst
+      en opening van een kinderwoongroep
+ai_processed_at: '2026-11-16T10:08:21.784Z'
+ai_status: done
 ---
 
 Van: EN <A nicos. (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

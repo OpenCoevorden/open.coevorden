@@ -1,9 +1,32 @@
 ---
-title: "FW_ Concept memo n_a_v_ gesprek gemeente_ Nidos en Elker (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/FW_ Concept memo n_a_v_ gesprek gemeente_ Nidos en Elker (Geanonimiseerd).pdf"
-s3_etag: "999e8e9d989682e1808e8b661e6ed099"
-date: 2026-11-16
+title: FW_ Concept memo n_a_v_ gesprek gemeente_ Nidos en Elker (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/FW_ Concept memo n_a_v_ gesprek gemeente_
+  Nidos en Elker (Geanonimiseerd).pdf
+s3_etag: 999e8e9d989682e1808e8b661e6ed099
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De vertrouwelijke memo beschrijft de voorgenomen huisvesting van veertien
+  alleenstaande minderjarige meisjes in Coevorden door de gemeente, in
+  samenwerking met voogdijinstelling Nidos en jeugdhulporganisatie Elker, en het
+  besluit om deze opvang na ernstige ordeverstoringen en veiligheidsrisico’s
+  niet door te laten gaan. De memo benoemt dat Nidos en Elker onvoldoende bij
+  het besluit en de communicatie zijn betrokken en bevat lessen over
+  locatiekeuze, afstemming, communicatie, het inlassen van een pauze en
+  bestuurlijke samenwerking.
+milestones:
+  - date: '2025-07-02'
+    event: Noodverordening afgekondigd vanwege aanhoudende onrust.
+  - date: '2025-07-04'
+    event: Besluit genomen om de geplande opvang in Tuindorp niet door te laten gaan.
+ai_processed_at: '2026-11-16T09:24:44.366Z'
+ai_status: done
 ---
 
 u er

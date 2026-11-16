@@ -1,9 +1,33 @@
 ---
-title: "241121 Collegevoorstel - Dr. JC homanstraat 55-63_opm (003) (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241121 Collegevoorstel - Dr. JC homanstraat 55-63_opm (003) (Geanonimiseerd).pdf"
-s3_etag: "6b130be74c3dff14a9065f0ff3c2fb87"
-date: 2026-11-16
+title: 241121 Collegevoorstel - Dr. JC homanstraat 55-63_opm (003) (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241121 Collegevoorstel - Dr. JC
+  homanstraat 55-63_opm (003) (Geanonimiseerd).pdf
+s3_etag: 6b130be74c3dff14a9065f0ff3c2fb87
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft een advies van het college van burgemeester en wethouders
+  van Coevorden aan de gemeenteraad over een omgevingsvergunning voor het
+  tijdelijk huisvesten van maximaal 14 alleenstaande minderjarige vreemdelingen
+  aan de Dr. J.C. Homanstraat 55-63, aangevraagd door een initiatiefnemer in
+  samenwerking met onder meer Elker/Nidos. Het college stelt voor de
+  gemeenteraad om een positief bindend advies te vragen, waarna het college de
+  vergunning kan verlenen; een definitief besluit is in dit document nog niet
+  genomen.
+milestones:
+  - date: '2024-11-06'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor het huisvesten van maximaal 14
+      alleenstaande minderjarige vreemdelingen voor vijf jaar aan de Dr. J.C.
+      Homanstraat 55-63 te Coevorden.
+ai_processed_at: '2026-11-16T10:04:10.997Z'
+ai_status: done
 ---
 
 J

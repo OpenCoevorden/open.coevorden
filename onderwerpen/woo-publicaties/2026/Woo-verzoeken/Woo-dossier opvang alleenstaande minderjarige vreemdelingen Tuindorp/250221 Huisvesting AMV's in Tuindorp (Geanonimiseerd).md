@@ -1,9 +1,27 @@
 ---
-title: "250221 Huisvesting AMV's in Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250221 Huisvesting AMV's in Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "7afbb45d5656b4ee8124ea246ab44b89"
-date: 2026-11-16
+title: 250221 Huisvesting AMV's in Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250221 Huisvesting AMV's in Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: 7afbb45d5656b4ee8124ea246ab44b89
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over het gezamenlijke plan van Domesta, Elker, Nidos en de
+  gemeente Coevorden om medio april 2025 in vijf woningen aan de Doctor J.C.
+  Homanstraat in de wijk Tuindorp een kinderwoongroep voor 14 alleenstaande
+  minderjarige vluchtelingen te openen, waarbij Elker de dagelijkse begeleiding
+  verzorgt. De benodigde omgevingsvergunning is verleend en er zijn
+  informatiebijeenkomsten voor omwonenden gepland om vragen te beantwoorden en
+  draagvlak te creëren; bezwaar was mogelijk tot 13 maart 2025.
+milestones: []
+ai_processed_at: '2026-11-16T09:52:44.803Z'
+ai_status: done
 ---
 
 u nn

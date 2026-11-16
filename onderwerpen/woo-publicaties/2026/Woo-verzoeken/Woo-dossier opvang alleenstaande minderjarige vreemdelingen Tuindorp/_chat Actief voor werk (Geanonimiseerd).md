@@ -1,9 +1,28 @@
 ---
-title: "_chat Actief voor werk (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/_chat Actief voor werk (Geanonimiseerd).pdf"
-s3_etag: "39c3500557d0f0f77d7dee8653000d8b"
-date: 2026-11-16
+title: _chat Actief voor werk (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/_chat Actief voor werk
+  (Geanonimiseerd).pdf
+s3_etag: 39c3500557d0f0f77d7dee8653000d8b
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over protesten, sabotage en intimidatie in de wijk Tuindorp
+  rond de voorgenomen huisvesting van 14 minderjarige alleenstaande
+  vreemdelingen (AMV’s), waarbij de gemeente, burgemeester, betrokken
+  bestuurders en organisaties NIDOS, Elker en Domesta overlegden over veiligheid
+  en de haalbaarheid. Vanwege de veiligheidsrisico’s besloot het college
+  uiteindelijk de huisvesting aan de Homanstraat niet door te laten gaan; de
+  wettelijke taakstelling voor de huisvesting van statushouders en AMV’s blijft
+  wel bestaan.
+milestones: []
+ai_processed_at: '2026-11-16T09:19:24.243Z'
+ai_status: done
 ---
 
 [01-07-2025, 10:41:09] Goedemorgen, de protesten, sabotage

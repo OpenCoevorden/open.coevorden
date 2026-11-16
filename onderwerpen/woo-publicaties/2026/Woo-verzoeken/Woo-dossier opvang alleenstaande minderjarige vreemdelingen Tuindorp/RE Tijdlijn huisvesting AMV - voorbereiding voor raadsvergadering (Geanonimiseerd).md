@@ -1,9 +1,27 @@
 ---
-title: "RE Tijdlijn huisvesting AMV - voorbereiding voor raadsvergadering (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/RE Tijdlijn huisvesting AMV - voorbereiding voor raadsvergadering (Geanonimiseerd).pdf"
-s3_etag: "0bf9cabb8ddee203193221dafa642ca9"
-date: 2026-11-16
+title: >-
+  RE Tijdlijn huisvesting AMV - voorbereiding voor raadsvergadering
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/RE Tijdlijn huisvesting AMV -
+  voorbereiding voor raadsvergadering (Geanonimiseerd).pdf
+s3_etag: 0bf9cabb8ddee203193221dafa642ca9
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling binnen de gemeente Coevorden over een opgestelde tijdlijn voor
+  de huisvesting van alleenstaande minderjarige vreemdelingen (AMV), bedoeld ter
+  voorbereiding op een raadsvergadering. De tijdlijn is door medewerkers vanuit
+  de asielportefeuille opgesteld en gedeeld met betrokken gemeentelijke
+  collega’s.
+milestones: []
+ai_processed_at: '2026-11-16T09:22:44.393Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

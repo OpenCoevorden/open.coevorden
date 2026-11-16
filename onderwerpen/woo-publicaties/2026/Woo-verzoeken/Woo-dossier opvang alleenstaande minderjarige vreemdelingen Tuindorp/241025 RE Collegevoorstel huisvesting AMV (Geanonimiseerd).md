@@ -1,9 +1,27 @@
 ---
-title: "241025 RE Collegevoorstel huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241025 RE Collegevoorstel huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "27edb2b00b13c8f00948471efdd42a30"
-date: 2026-11-16
+title: 241025 RE Collegevoorstel huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241025 RE Collegevoorstel huisvesting AMV
+  (Geanonimiseerd).pdf
+s3_etag: 27edb2b00b13c8f00948471efdd42a30
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over de voorbereiding en agendering van een
+  collegevoorstel over de huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV) binnen de gemeente Coevorden, waarbij medewerkers van het
+  bestuurssecretariaat en Team Actief voor Werk betrokken zijn. Er wordt
+  verduidelijkt dat het voorstel en de bijbehorende stukken voor de
+  collegevergadering van 5 november 2024 zijn geagendeerd; de verdere
+  behandeling wordt opgepakt en eventuele onduidelijkheden worden besproken.
+milestones: []
+ai_processed_at: '2026-11-16T10:08:43.484Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

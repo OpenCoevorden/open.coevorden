@@ -1,9 +1,35 @@
 ---
-title: "250304 Agenderen PFO J. Slomp 10 maart 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250304 Agenderen PFO J. Slomp 10 maart 2025 (Geanonimiseerd).pdf"
-s3_etag: "e1be0ac506b804890d9f266c93c8003f"
-date: 2026-11-16
+title: 250304 Agenderen PFO J. Slomp 10 maart 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250304 Agenderen PFO J. Slomp 10 maart
+  2025 (Geanonimiseerd).pdf
+s3_etag: e1be0ac506b804890d9f266c93c8003f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de samenwerking tussen de gemeente Coevorden en
+  Stichting Nidos voor de opvang en begeleiding van maximaal 14 alleenstaande
+  minderjarige vreemdelingen in een kinderwoongroep aan de Dr. J.C. Homanstraat,
+  waarbij Elker de dagelijkse begeleiding uitvoert en Domesta de verhuurder is.
+  De samenwerkingsovereenkomst legt onder meer verantwoordelijkheden,
+  omgevingsbeheer, gegevensdeling, evaluatie en beëindigingsmogelijkheden vast
+  voor de periode van 31 januari 2025 tot 31 januari 2030; het college wordt
+  voorgesteld deze vast te stellen en wethouder J. Slomp wordt gemachtigd tot
+  ondertekening.
+milestones:
+  - date: '2025-01-30'
+    event: >-
+      Omgevingsvergunning voor de opvang van 14 alleenstaande minderjarige
+      vreemdelingen verleend aan Elker.
+  - date: '2025-03-18'
+    event: College van B&W stelt de samenwerkingsovereenkomst met Nidos vast.
+ai_processed_at: '2026-11-16T09:51:58.884Z'
+ai_status: done
 ---
 
 vi mn

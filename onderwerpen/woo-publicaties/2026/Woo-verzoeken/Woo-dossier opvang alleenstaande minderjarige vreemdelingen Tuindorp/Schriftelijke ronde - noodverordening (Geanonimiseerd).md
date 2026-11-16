@@ -1,9 +1,25 @@
 ---
-title: "Schriftelijke ronde - noodverordening (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Schriftelijke ronde - noodverordening (Geanonimiseerd).pdf"
-s3_etag: "fed9cf5d004262f927f9a2b0e599fd0c"
-date: 2026-11-16
+title: Schriftelijke ronde - noodverordening (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Schriftelijke ronde - noodverordening
+  (Geanonimiseerd).pdf
+s3_etag: fed9cf5d004262f927f9a2b0e599fd0c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeentesecretaris van Coevorden vraagt betrokken ambtenaren en bestuurders
+  om uiterlijk maandag 9.00 uur in te stemmen met of te reageren op een
+  raadsvoorstel voor de noodverordening Tuindorp 2025. Het voorstel moet
+  vervolgens naar Milan Lucassen en dinsdag aan de gemeenteraad worden
+  voorgelegd voor instemming.
+milestones: []
+ai_processed_at: '2026-11-16T09:21:48.989Z'
+ai_status: done
 ---
 
 Joachim

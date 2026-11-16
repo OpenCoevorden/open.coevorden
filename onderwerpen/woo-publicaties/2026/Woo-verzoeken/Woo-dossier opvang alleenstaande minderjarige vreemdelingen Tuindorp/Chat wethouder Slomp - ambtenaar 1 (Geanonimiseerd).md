@@ -1,9 +1,25 @@
 ---
-title: "Chat wethouder Slomp - ambtenaar 1 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 1 (Geanonimiseerd).pdf"
-s3_etag: "84ee461df5365ee347115ee92f9ba10c"
-date: 2026-11-16
+title: Chat wethouder Slomp - ambtenaar 1 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 1
+  (Geanonimiseerd).pdf
+s3_etag: 84ee461df5365ee347115ee92f9ba10c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over een op 5 maart 2025 gehouden inloopbijeenkomst over de
+  vestiging van een kinderwoongroep, georganiseerd in samenwerking met
+  verschillende betrokken partijen, waaronder de wijkagent en De Nieuwe Veste.
+  De bijeenkomst verliep na een roerig begin goed, maar er werden circa 70
+  handtekeningen tegen de woongroep ingediend; er was geen pers aanwezig.
+milestones: []
+ai_processed_at: '2026-11-16T09:28:36.308Z'
+ai_status: done
 ---
 
 12:32 “al > WW

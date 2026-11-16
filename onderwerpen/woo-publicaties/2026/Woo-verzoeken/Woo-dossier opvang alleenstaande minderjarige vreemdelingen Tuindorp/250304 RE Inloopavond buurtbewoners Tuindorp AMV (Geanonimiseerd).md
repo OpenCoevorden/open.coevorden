@@ -1,9 +1,24 @@
 ---
-title: "250304 RE Inloopavond buurtbewoners Tuindorp AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250304 RE Inloopavond buurtbewoners Tuindorp AMV (Geanonimiseerd).pdf"
-s3_etag: "2145b6498d7094c446ec5fa9ebaf4345"
-date: 2026-11-16
+title: 250304 RE Inloopavond buurtbewoners Tuindorp AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250304 RE Inloopavond buurtbewoners
+  Tuindorp AMV (Geanonimiseerd).pdf
+s3_etag: 2145b6498d7094c446ec5fa9ebaf4345
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mails gaan over de organisatie van een inloopavond voor buurtbewoners
+  rond de AMV-locatie Tuindorp in Coevorden, met betrokkenheid van onder meer de
+  gemeente Coevorden, Elker, Nidos, Domesta en andere lokale partijen. Er zijn
+  115 uitnodigingen verspreid en vooraf hadden 15 personen zich aangemeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:51:24.634Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

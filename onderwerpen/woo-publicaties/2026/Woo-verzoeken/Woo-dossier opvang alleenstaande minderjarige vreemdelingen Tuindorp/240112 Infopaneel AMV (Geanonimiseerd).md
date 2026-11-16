@@ -1,9 +1,25 @@
 ---
-title: "240112 Infopaneel AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240112 Infopaneel AMV (Geanonimiseerd).pdf"
-s3_etag: "f63c91fd80a5ca1ef4ca5b737da41de0"
-date: 2026-11-16
+title: 240112 Infopaneel AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240112 Infopaneel AMV (Geanonimiseerd).pdf
+s3_etag: f63c91fd80a5ca1ef4ca5b737da41de0
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een concept-infopaneel van de gemeente Coevorden over de
+  wettelijke taakstelling voor de huisvesting van statushouders in 2022–2024 en
+  de gemeentelijke inburgeringstaken, waaronder maatschappelijke begeleiding,
+  samenwerking met Nidos en Phusis en ondersteuning van jongeren. De afzender
+  vraagt collega’s van de gemeente om inhoudelijke feedback voordat het paneel
+  in de gemeentelijke huisstijl wordt vormgegeven.
+milestones: []
+ai_processed_at: '2026-11-16T10:15:26.584Z'
+ai_status: done
 ---
 
 u In

@@ -1,9 +1,32 @@
 ---
-title: "250409 FW inzage besluit inzake nieuwe vergunning opvang locatie AMV te Dr J.C. Homanstraat (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250409 FW inzage besluit inzake nieuwe vergunning opvang locatie AMV te Dr J.C. Homanstraat (Geanonimiseerd).pdf"
-s3_etag: "93d15eab693d1710642d63fbc508f61c"
-date: 2026-11-16
+title: >-
+  250409 FW inzage besluit inzake nieuwe vergunning opvang locatie AMV te Dr
+  J.C. Homanstraat (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250409 FW inzage besluit inzake nieuwe
+  vergunning opvang locatie AMV te Dr J.C. Homanstraat (Geanonimiseerd).pdf
+s3_etag: 93d15eab693d1710642d63fbc508f61c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een inwoner verzoekt de gemeente Coevorden om inzage in het besluit en de
+  vergunning voor de vestiging en ingebruikneming van een opvanglocatie voor
+  alleenreizende minderjarige vluchtelingen aan de Dr. J.C. Homanstraat,
+  inclusief zaaknummer, publicatiedatum en termijn voor bezwaar. De gemeente
+  heeft het verzoek intern doorgestuurd; een inhoudelijke beslissing of
+  verstrekking van het besluit blijkt niet uit het document.
+milestones:
+  - date: '2025-03-10'
+    event: >-
+      Woo-verzoek om inzage in het besluit over de vergunning en ingebruikneming
+      van een opvanglocatie ingediend
+ai_processed_at: '2026-11-16T09:46:02.765Z'
+ai_status: done
 ---
 
 Van: "Gemeente Coevorden"

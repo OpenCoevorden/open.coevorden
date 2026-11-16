@@ -1,9 +1,26 @@
 ---
-title: "250423 RE Vervolg overleg amv opvang Coevorden 14 meisjes (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250423 RE Vervolg overleg amv opvang Coevorden 14 meisjes (Geanonimiseerd).pdf"
-s3_etag: "fc418d57f647cc8f5dfc84118fc7cb69"
-date: 2026-11-16
+title: 250423 RE Vervolg overleg amv opvang Coevorden 14 meisjes (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250423 RE Vervolg overleg amv opvang
+  Coevorden 14 meisjes (Geanonimiseerd).pdf
+s3_etag: fc418d57f647cc8f5dfc84118fc7cb69
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over het voorstel van Elker om veertien alleenstaande
+  minderjarige meisjes in Coevorden op te vangen, in samenwerking met de
+  gemeente, Domesta en betrokken wijkbewoners. Partijen bespreken een aangepast
+  veiligheidsplan, communicatie met bezwaarmakers en de voortgang van de
+  bezwaarprocedure; Domesta stelt voor de bezwaren af te wachten en daarna tot
+  huisvesting over te gaan.
+milestones: []
+ai_processed_at: '2026-11-16T09:45:21.345Z'
+ai_status: done
 ---
 
 u nn

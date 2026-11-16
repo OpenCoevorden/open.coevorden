@@ -1,9 +1,35 @@
 ---
-title: "250409 FW bezwaar tegen omgevingsvergunning dr j c homanstraat 55 te coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250409 FW bezwaar tegen omgevingsvergunning dr j c homanstraat 55 te coevorden (Geanonimiseerd).pdf"
-s3_etag: "51176843f51c683e8c7afca3744867f7"
-date: 2026-11-16
+title: >-
+  250409 FW bezwaar tegen omgevingsvergunning dr j c homanstraat 55 te coevorden
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250409 FW bezwaar tegen
+  omgevingsvergunning dr j c homanstraat 55 te coevorden (Geanonimiseerd).pdf
+s3_etag: 51176843f51c683e8c7afca3744867f7
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een belanghebbende maakt bezwaar tegen de door het college van burgemeester en
+  wethouders van Coevorden verleende omgevingsvergunning voor de huisvesting van
+  maximaal 14 alleenstaande minderjarige vreemdelingen aan de Dr. J.C.
+  Homanstraat 55. De indiener voert zorgen aan over veiligheid, gebrekkige
+  informatievoorziening en mogelijke waardedaling van woningen, verzoekt het
+  bezwaar ondanks de termijnoverschrijding in behandeling te nemen en vraagt om
+  intrekking van de vergunning; een uitkomst is niet vermeld.
+milestones:
+  - date: '2024-11-06'
+    event: Aanvraag omgevingsvergunning ingediend
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend en besluit verzonden
+  - date: '2025-04-09'
+    event: Bezwaar tegen de omgevingsvergunning ingediend
+ai_processed_at: '2026-11-16T09:46:16.490Z'
+ai_status: done
 ---
 
 Van: "Gemeente Coevorden"

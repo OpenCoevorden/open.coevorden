@@ -1,9 +1,28 @@
 ---
-title: "250213 Concept brief buren Homanstraat en programma burenavond (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250213 Concept brief buren Homanstraat en programma burenavond (Geanonimiseerd).pdf"
-s3_etag: "a597c2bfde67c801b30753b50c487af1"
-date: 2026-11-16
+title: >-
+  250213 Concept brief buren Homanstraat en programma burenavond
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250213 Concept brief buren Homanstraat en
+  programma burenavond (Geanonimiseerd).pdf
+s3_etag: a597c2bfde67c801b30753b50c487af1
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de communicatie rond de geplande huisvesting en
+  begeleiding van alleenstaande minderjarige vluchtelingen met verblijfstatus
+  aan de Homanstraat in Coevorden door Elker, in opdracht van de gemeente en in
+  samenwerking met NIDOS en woningcorporatie Domesta. Er worden een burenavond
+  voor directe omwonenden op 25 februari en een bredere inloopavond op 5 maart
+  voorbereid; de vergunning is verleend, terwijl de bezwaarprocedure nog loopt.
+milestones: []
+ai_processed_at: '2026-11-16T09:54:45.258Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

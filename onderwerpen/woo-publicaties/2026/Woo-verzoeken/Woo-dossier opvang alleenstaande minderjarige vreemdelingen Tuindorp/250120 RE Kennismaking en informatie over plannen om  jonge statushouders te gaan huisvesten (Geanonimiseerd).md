@@ -1,9 +1,27 @@
 ---
-title: "250120 RE Kennismaking en informatie over plannen om  jonge statushouders te gaan huisvesten (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250120 RE Kennismaking en informatie over plannen om  jonge statushouders te gaan huisvesten (Geanonimiseerd).pdf"
-s3_etag: "822b0dfdeb778f9c43da15fcee5ab9c1"
-date: 2026-11-16
+title: >-
+  250120 RE Kennismaking en informatie over plannen om  jonge statushouders te
+  gaan huisvesten (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250120 RE Kennismaking en informatie over
+  plannen om  jonge statushouders te gaan huisvesten (Geanonimiseerd).pdf
+s3_etag: 822b0dfdeb778f9c43da15fcee5ab9c1
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen de gemeente Coevorden, Elker jeugdhulp & onderwijs en
+  andere betrokken partners over de voorgenomen huisvesting van 14 jonge
+  statushouders in Tuindorp vanaf medio maart 2025. Het kennismakings- en
+  informatieoverleg is vastgesteld op 13 februari 2025 van 09.00 tot 10.30 uur
+  in het gemeentehuis van Coevorden, waarbij een deelnemer online aansluit.
+milestones: []
+ai_processed_at: '2026-11-16T09:59:02.326Z'
+ai_status: done
 ---
 
 Van: EN een (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

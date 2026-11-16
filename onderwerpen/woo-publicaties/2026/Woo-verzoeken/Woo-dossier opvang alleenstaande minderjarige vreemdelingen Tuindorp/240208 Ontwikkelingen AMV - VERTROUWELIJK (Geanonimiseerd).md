@@ -1,9 +1,25 @@
 ---
-title: "240208 Ontwikkelingen AMV - VERTROUWELIJK (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240208 Ontwikkelingen AMV - VERTROUWELIJK (Geanonimiseerd).pdf"
-s3_etag: "5d280ee14982be1aaa0f581c73001c42"
-date: 2026-11-16
+title: 240208 Ontwikkelingen AMV - VERTROUWELIJK (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240208 Ontwikkelingen AMV - VERTROUWELIJK
+  (Geanonimiseerd).pdf
+s3_etag: 5d280ee14982be1aaa0f581c73001c42
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mail gaat over ontwikkelingen rond de samenwerking met stichting Phusis
+  voor de opvang van alleenstaande minderjarige vreemdelingen (AMV) en de
+  mogelijke reacties van Phusis en Nidos. Domesta heeft besloten geen
+  huurovereenkomst met Phusis aan te gaan; de gemeente Coevorden bereidt verdere
+  communicatie en vervolgoverleg voor.
+milestones: []
+ai_processed_at: '2026-11-16T10:13:58.806Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

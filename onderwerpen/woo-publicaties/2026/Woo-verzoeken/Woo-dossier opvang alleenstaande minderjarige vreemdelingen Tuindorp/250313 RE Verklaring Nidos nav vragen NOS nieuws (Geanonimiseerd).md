@@ -1,9 +1,26 @@
 ---
-title: "250313 RE Verklaring Nidos nav vragen NOS nieuws (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250313 RE Verklaring Nidos nav vragen NOS nieuws (Geanonimiseerd).pdf"
-s3_etag: "b0c1c0f9cd391347f91c27d12242bd67"
-date: 2026-11-16
+title: 250313 RE Verklaring Nidos nav vragen NOS nieuws (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250313 RE Verklaring Nidos nav vragen NOS
+  nieuws (Geanonimiseerd).pdf
+s3_etag: b0c1c0f9cd391347f91c27d12242bd67
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de verklaring van Nidos naar aanleiding van
+  berichtgeving van de NOS en een geplande Zembla-uitzending over vermeende
+  tekortkomingen in de opvang en begeleiding van vluchtelingenjongeren. De
+  provincie Drenthe en Drentse gemeenten stemmen hierover hun risicoanalyse en
+  communicatiestrategie af; Nidos heeft op de NOS gereageerd en wacht de
+  uitzending af.
+milestones: []
+ai_processed_at: '2026-11-16T09:48:52.563Z'
+ai_status: done
 ---
 
 Van:

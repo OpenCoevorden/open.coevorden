@@ -1,9 +1,27 @@
 ---
-title: "250707 Documenten NidosElker (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250707 Documenten NidosElker (Geanonimiseerd).pdf"
-s3_etag: "1e5452b7d841777827e45fba68b1e937"
-date: 2026-11-16
+title: 250707 Documenten NidosElker (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250707 Documenten NidosElker
+  (Geanonimiseerd).pdf
+s3_etag: 1e5452b7d841777827e45fba68b1e937
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de samenwerking tussen de gemeente Coevorden, Nidos en
+  Elker voor de opvang en begeleiding van maximaal 14 alleenstaande minderjarige
+  vreemdelingen in een kinderwoongroep aan de Dr. J.C. Homanstraat, inclusief
+  afspraken over voogdij, 24/7-begeleiding, omgevingsbeheer, gegevensdeling en
+  vervolghuisvesting. Het college van burgemeester en wethouders stelde de
+  samenwerkingsovereenkomst met Nidos vast voor de periode van 31 januari 2025
+  tot 31 januari 2030 en machtigde wethouder J. Slomp om deze te ondertekenen.
+milestones: []
+ai_processed_at: '2026-11-16T09:31:14.732Z'
+ai_status: done
 ---
 
 J

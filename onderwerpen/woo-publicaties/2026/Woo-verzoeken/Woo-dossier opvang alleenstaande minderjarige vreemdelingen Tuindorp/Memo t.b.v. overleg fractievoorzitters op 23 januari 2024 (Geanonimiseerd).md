@@ -1,9 +1,25 @@
 ---
-title: "Memo t.b.v. overleg fractievoorzitters op 23 januari 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Memo t.b.v. overleg fractievoorzitters op 23 januari 2024 (Geanonimiseerd).pdf"
-s3_etag: "66da2dcb45b12a497d746993e80ef98c"
-date: 2026-11-16
+title: Memo t.b.v. overleg fractievoorzitters op 23 januari 2024 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Memo t.b.v. overleg fractievoorzitters op
+  23 januari 2024 (Geanonimiseerd).pdf
+s3_etag: 66da2dcb45b12a497d746993e80ef98c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mail van raadsgriffier Milan Lucassen van de gemeente Coevorden aan de
+  fractievoorzitters over een bijgevoegde memo ter voorbereiding op het overleg
+  van 23 januari 2024, voorafgaand aan de themabijeenkomst. Het overleg staat
+  gepland om 18.45 uur in de Tuinzaal; een inhoudelijke uitkomst is niet
+  vermeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:23:49.197Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

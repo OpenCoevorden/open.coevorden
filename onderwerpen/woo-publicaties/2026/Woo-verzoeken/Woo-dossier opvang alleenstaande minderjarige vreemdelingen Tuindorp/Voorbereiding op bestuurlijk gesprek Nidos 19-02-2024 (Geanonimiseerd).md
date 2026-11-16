@@ -1,9 +1,28 @@
 ---
-title: "Voorbereiding op bestuurlijk gesprek Nidos 19-02-2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Voorbereiding op bestuurlijk gesprek Nidos 19-02-2024 (Geanonimiseerd).pdf"
-s3_etag: "2270cc74988f6d991cff2d65725461ec"
-date: 2026-11-16
+title: Voorbereiding op bestuurlijk gesprek Nidos 19-02-2024 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Voorbereiding op bestuurlijk gesprek Nidos
+  19-02-2024 (Geanonimiseerd).pdf
+s3_etag: 2270cc74988f6d991cff2d65725461ec
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mail bereidt een bestuurlijk overleg tussen de gemeente Coevorden en
+  Nidos voor over de opvang en huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV) in Coevorden, naar aanleiding van het besluit van Domesta
+  om niet aan Phusis te verhuren en de reacties van Phusis en Nidos daarop.
+  Nidos wil geen andere contractpartner inzetten, terwijl Domesta het pand nog
+  steeds voor AMV-opvang beschikbaar wil stellen; hierdoor bestaat een impasse
+  die botst met de gemeentelijke inzet en wettelijke opgave om acht AMV’s te
+  huisvesten.
+milestones: []
+ai_processed_at: '2026-11-16T09:20:08.865Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

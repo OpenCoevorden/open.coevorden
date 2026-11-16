@@ -1,9 +1,27 @@
 ---
-title: "241031 Re Kort bijpraat moment AMV vóór college (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241031 Re Kort bijpraat moment AMV vóór college (Geanonimiseerd).pdf"
-s3_etag: "0519af89dc029020d94aba0b41432d16"
-date: 2026-11-16
+title: 241031 Re Kort bijpraat moment AMV vóór college (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241031 Re Kort bijpraat moment AMV vóór
+  college (Geanonimiseerd).pdf
+s3_etag: 0519af89dc029020d94aba0b41432d16
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over het aangepaste collegevoorstel over AMV (alleenstaande
+  minderjarige vreemdelingen) binnen de gemeente Coevorden, waarover tijdens de
+  agendacommissie veel vragen waren gesteld en waarvan de eerder gedeelde
+  planning niet haalbaar bleek. Medewerkers van de gemeente willen Joop Slomp
+  voorafgaand aan het college kort bijpraten; Slomp stemt hiermee in, maar geeft
+  aan dat hij in zijn eerdere terugkoppeling niets over de vragen en opmerkingen
+  had vernomen.
+milestones: []
+ai_processed_at: '2026-11-16T10:07:26.985Z'
+ai_status: done
 ---
 
 Van: “Joop Slomp"

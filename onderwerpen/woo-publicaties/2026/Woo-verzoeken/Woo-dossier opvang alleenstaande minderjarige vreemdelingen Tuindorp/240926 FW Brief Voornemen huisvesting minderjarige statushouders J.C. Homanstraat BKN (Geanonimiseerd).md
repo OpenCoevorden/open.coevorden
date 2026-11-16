@@ -1,9 +1,29 @@
 ---
-title: "240926 FW Brief Voornemen huisvesting minderjarige statushouders J.C. Homanstraat BKN (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240926 FW Brief Voornemen huisvesting minderjarige statushouders J.C. Homanstraat BKN (Geanonimiseerd).pdf"
-s3_etag: "0a6817fa4f654e8962ac5e9110bfe047"
-date: 2026-11-16
+title: >-
+  240926 FW Brief Voornemen huisvesting minderjarige statushouders J.C.
+  Homanstraat BKN (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240926 FW Brief Voornemen huisvesting
+  minderjarige statushouders J.C. Homanstraat BKN (Geanonimiseerd).pdf
+s3_etag: 0a6817fa4f654e8962ac5e9110bfe047
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden, woningcorporatie Domesta en jeugdhulporganisatie Elker
+  stemmen een bewonersbrief af over het voornemen om 12 tot 14 minderjarige
+  statushouders vanaf een nader te bepalen datum te huisvesten in vijf
+  leegstaande woningen aan de Doctor J.C. Homanstraat. De brief wordt
+  inhoudelijk aangepast en na definitieve besluitvorming volgt een uitnodiging
+  voor een inloopmoment; Domesta kan vooraf werkzaamheden aan de woningen
+  uitvoeren.
+milestones: []
+ai_processed_at: '2026-11-16T10:11:21.906Z'
+ai_status: done
 ---
 
 Van: er

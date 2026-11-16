@@ -1,9 +1,29 @@
 ---
-title: "250213 FW Concept brief buren Homanstraat en programma burenavond (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250213 FW Concept brief buren Homanstraat en programma burenavond (Geanonimiseerd).pdf"
-s3_etag: "d3d9780127ff015aae1df649b52c88b8"
-date: 2026-11-16
+title: >-
+  250213 FW Concept brief buren Homanstraat en programma burenavond
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250213 FW Concept brief buren Homanstraat
+  en programma burenavond (Geanonimiseerd).pdf
+s3_etag: d3d9780127ff015aae1df649b52c88b8
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorbereiding van communicatie met omwonenden over
+  de huisvesting en begeleiding door Elker van alleenstaande minderjarige
+  vluchtelingen met verblijfsstatus aan de Homanstraat in Coevorden. Elker, de
+  gemeente Coevorden, woningcorporatie Domesta en Stichting Nidos organiseren
+  een kennismakingsavond voor directe buren op 25 februari 2025 en een bredere
+  inloopavond op 5 maart; de vergunning is verleend, terwijl de bezwaarprocedure
+  nog loopt.
+milestones: []
+ai_processed_at: '2026-11-16T09:54:33.637Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

@@ -1,9 +1,27 @@
 ---
-title: "250702 Bewonersbrief Tuindorp 2 juli (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250702 Bewonersbrief Tuindorp 2 juli (Geanonimiseerd).pdf"
-s3_etag: "9acfd86beeb8401fd66b8b645e961bed"
-date: 2026-11-16
+title: 250702 Bewonersbrief Tuindorp 2 juli (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250702 Bewonersbrief Tuindorp 2 juli
+  (Geanonimiseerd).pdf
+s3_etag: 9acfd86beeb8401fd66b8b645e961bed
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een concept-bewonersbrief van burgemeester Renze Bergsma
+  van Coevorden over drie brandstichtingen in Tuindorp en de onrust rond de
+  huisvesting van 14 alleenstaande minderjarige vrouwelijke statushouders. De
+  gemeente benadrukt dat intimidatie en brandstichting onacceptabel zijn,
+  verduidelijkt dat het om jonge meiden van 15 tot 18 jaar gaat en dat Domesta,
+  Nidos en Elker afspraken hebben gemaakt voor een verblijf van vijf jaar,
+  waarbij de gemeente met bewoners en partners in gesprek blijft.
+milestones: []
+ai_processed_at: '2026-11-16T09:33:21.447Z'
+ai_status: done
 ---
 
 Van: nr (geanonimiseerd) (geanonimiseerd) J

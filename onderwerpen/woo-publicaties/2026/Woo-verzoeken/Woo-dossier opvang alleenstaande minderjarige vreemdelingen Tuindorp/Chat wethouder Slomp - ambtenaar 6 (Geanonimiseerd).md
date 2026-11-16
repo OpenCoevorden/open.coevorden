@@ -1,9 +1,25 @@
 ---
-title: "Chat wethouder Slomp - ambtenaar 6 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 6 (Geanonimiseerd).pdf"
-s3_etag: "7f94c8e7071dfa3ef7ac06c738ac4b32"
-date: 2026-11-16
+title: Chat wethouder Slomp - ambtenaar 6 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 6
+  (Geanonimiseerd).pdf
+s3_etag: 7f94c8e7071dfa3ef7ac06c738ac4b32
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Bewoners van Tuindorp uiten tegenover de gemeente zorgen over het voorgenomen
+  gebruik van woningen als opvang voor statushouders of getraumatiseerde
+  jongeren, vanwege mogelijke gevolgen voor henzelf en hun kinderen. Zij
+  verzoeken de gemeente het besluit in te trekken en een andere locatie te
+  overwegen; een uitkomst is niet vermeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:27:42.681Z'
+ai_status: done
 ---
 
 Q, Tuindorp € Annuleer

@@ -1,9 +1,27 @@
 ---
-title: "250603 FW Acties veiligheidsplan AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250603 FW Acties veiligheidsplan AMV (Geanonimiseerd).pdf"
-s3_etag: "9de309be212e7a65be817ad30af65197"
-date: 2026-11-16
+title: 250603 FW Acties veiligheidsplan AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250603 FW Acties veiligheidsplan AMV
+  (Geanonimiseerd).pdf
+s3_etag: 9de309be212e7a65be817ad30af65197
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat interne e-mails van de gemeente Coevorden,
+  jeugdhulporganisatie Elker, Nidos en de politie over het veiligheidsplan rond
+  de voorgenomen huisvesting van alleenstaande minderjarige vreemdelingen (AMV)
+  in Tuindorp. Besproken worden onder meer communicatie met buurtbewoners, een
+  Q&A, cameratoezicht, zichtbare inzet van boa’s en tijdelijke avond- en
+  nachtbeveiliging; de gemeente wil deze preventieve maatregelen uitwerken in
+  aanloop naar het advies over de omgevingsvergunning.
+milestones: []
+ai_processed_at: '2026-11-16T09:42:30.894Z'
+ai_status: done
 ---
 
 Van:

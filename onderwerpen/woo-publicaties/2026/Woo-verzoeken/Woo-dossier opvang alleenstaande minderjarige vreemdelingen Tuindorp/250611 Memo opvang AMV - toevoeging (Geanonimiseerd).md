@@ -1,9 +1,41 @@
 ---
-title: "250611 Memo opvang AMV - toevoeging (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250611 Memo opvang AMV - toevoeging (Geanonimiseerd).pdf"
-s3_etag: "586ee9dc2ef215570c52307efb7275c2"
-date: 2026-11-16
+title: 250611 Memo opvang AMV - toevoeging (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250611 Memo opvang AMV - toevoeging
+  (Geanonimiseerd).pdf
+s3_etag: 586ee9dc2ef215570c52307efb7275c2
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De memo informeert het college van burgemeester en wethouders van Coevorden
+  over de opvang van maximaal 14 alleenstaande minderjarige statushouders aan de
+  Dr. J.C. Homanstraat 55-63, de bezwaarprocedure van 57 omwonenden en de
+  communicatie- en veiligheidsmaatregelen, waarbij Elker, Nidos en Domesta
+  betrokken zijn. De bezwaarschriftencommissie verklaarde de bezwaren van acht
+  direct omwonenden ontvankelijk maar ongegrond en de overige bezwaren
+  niet-ontvankelijk, waardoor de omgevingsvergunning in stand blijft; beroep bij
+  de rechtbank Noord-Nederland is mogelijk.
+milestones:
+  - date: '2025-01-30'
+    event: >-
+      Omgevingsvergunning verleend voor de huisvesting van maximaal 14
+      alleenstaande minderjarige statushouders aan de Dr J C Homanstraat 55-63
+      in Coevorden.
+  - date: '2025-05-21'
+    event: >-
+      Bezwaarschriften van omwonenden behandeld door de
+      bezwaarschriftencommissie.
+  - date: '2025-06-05'
+    event: >-
+      Bezwaarschriftencommissie adviseert de bezwaren niet-ontvankelijk dan wel
+      ongegrond te verklaren; de omgevingsvergunning blijft in stand.
+ai_processed_at: '2026-11-16T09:40:28.633Z'
+ai_status: done
 ---
 
 MEMO

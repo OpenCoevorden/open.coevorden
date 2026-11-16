@@ -1,9 +1,27 @@
 ---
-title: "241021 voorstel toevoegen Ibabs (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241021 voorstel toevoegen Ibabs (Geanonimiseerd).pdf"
-s3_etag: "30e922568dffe6423e910fcabfe6ac49"
-date: 2026-11-16
+title: 241021 voorstel toevoegen Ibabs (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241021 voorstel toevoegen Ibabs
+  (Geanonimiseerd).pdf
+s3_etag: 30e922568dffe6423e910fcabfe6ac49
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft het voorgenomen besluit van de gemeente Coevorden om
+  samen met Nidos, Domesta en Elker een kinderwoongroep met 24-uursbegeleiding
+  voor 14 alleenstaande minderjarige vreemdelingen met een verblijfsvergunning
+  te realiseren aan de Doctor J.C. Homanstraat. Het college stemt in met de
+  samenwerkingsovereenkomst, machtigt wethouder Slomp deze namens de gemeente te
+  ondertekenen en keurt communicatie aan de gemeenteraad en direct omwonenden
+  goed.
+milestones: []
+ai_processed_at: '2026-11-16T10:09:06.369Z'
+ai_status: done
 ---
 
 vi mn

@@ -1,9 +1,26 @@
 ---
-title: "250116 RE Locatie vluchtelingen Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250116 RE Locatie vluchtelingen Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "501e0a667310afb2574c810116a1b04a"
-date: 2026-11-16
+title: 250116 RE Locatie vluchtelingen Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250116 RE Locatie vluchtelingen Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: 501e0a667310afb2574c810116a1b04a
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de communicatie rond het plan van de gemeente Coevorden
+  om veertien alleenstaande minderjarige vreemdelingen op te vangen in de wijk
+  Tuindorp, waarbij RTV Drenthe vragen stelde over de informatievoorziening, het
+  draagvlak en zorgen van buurtbewoners. De gemeente meldt dat direct omwonenden
+  een brief hebben ontvangen en dat Elker vóór ingebruikname een inloopmoment
+  organiseert, nadat de gemeenteraad positief heeft geadviseerd.
+milestones: []
+ai_processed_at: '2026-11-16T09:59:24.882Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

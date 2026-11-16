@@ -1,9 +1,26 @@
 ---
-title: "250304 Inloopavond buurtbewoners Tuindorp AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250304 Inloopavond buurtbewoners Tuindorp AMV (Geanonimiseerd).pdf"
-s3_etag: "9c24bbb07533d0c092c261b702db48c6"
-date: 2026-11-16
+title: 250304 Inloopavond buurtbewoners Tuindorp AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250304 Inloopavond buurtbewoners Tuindorp
+  AMV (Geanonimiseerd).pdf
+s3_etag: 9c24bbb07533d0c092c261b702db48c6
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de komst vanaf april 2025 van veertien alleenstaande
+  minderjarige vluchtelingen met een verblijfsstatus naar woningen aan de Doctor
+  J.C. Homanstraat 55 t/m 63 in Coevorden, begeleid door Elker in samenwerking
+  met de gemeente Coevorden, Domesta en Nidos. Buurtbewoners worden uitgenodigd
+  voor een inloopavond op 5 maart 2025 om kennis te maken, vragen te stellen en
+  tips of adviezen te geven.
+milestones: []
+ai_processed_at: '2026-11-16T09:51:46.207Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

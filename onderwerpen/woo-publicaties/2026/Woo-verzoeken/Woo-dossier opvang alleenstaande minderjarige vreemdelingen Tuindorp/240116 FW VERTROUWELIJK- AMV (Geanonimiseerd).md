@@ -1,9 +1,28 @@
 ---
-title: "240116 FW VERTROUWELIJK- AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240116 FW VERTROUWELIJK- AMV (Geanonimiseerd).pdf"
-s3_etag: "96de45314ca3ca411219a75445a4792c"
-date: 2026-11-16
+title: 240116 FW VERTROUWELIJK- AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240116 FW VERTROUWELIJK- AMV
+  (Geanonimiseerd).pdf
+s3_etag: 96de45314ca3ca411219a75445a4792c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de onderhandelingen tussen de gemeente Coevorden,
+  Nidos, Stichting Phusis en woningcorporatie Domesta over langdurige opvang van
+  alleenstaande minderjarige vreemdelingen (AMV) in een pand van Domesta,
+  waaronder de looptijd van het huurcontract en de gevolgen van dalende of
+  stoppende instroom. Een definitieve overeenkomst was nog niet bereikt;
+  partijen bespraken een intentie- of samenwerkingsovereenkomst en mogelijke
+  ontbindende voorwaarden, waarbij Nidos continuïteit nastreeft maar geen harde
+  garantie kan geven.
+milestones: []
+ai_processed_at: '2026-11-16T10:14:53.294Z'
+ai_status: done
 ---
 
 Van:

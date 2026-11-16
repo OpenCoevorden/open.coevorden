@@ -1,9 +1,28 @@
 ---
-title: "241107 RE Informatie i.v.m. mogelijke telefoontjes opvang AMV Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241107 RE Informatie i.v.m. mogelijke telefoontjes opvang AMV Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "1cbb7d58b7e3f94be7cc927e28f3ee87"
-date: 2026-11-16
+title: >-
+  241107 RE Informatie i.v.m. mogelijke telefoontjes opvang AMV Tuindorp
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241107 RE Informatie i.v.m. mogelijke
+  telefoontjes opvang AMV Tuindorp (Geanonimiseerd).pdf
+s3_etag: 1cbb7d58b7e3f94be7cc927e28f3ee87
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De communicatieadviseur van de gemeente Coevorden informeert het Klant Contact
+  Centrum (KCC) over mogelijke telefoontjes naar aanleiding van het voornemen om
+  alleenstaande minderjarige vreemdelingen op te vangen in Tuindorp, met
+  informatie voor omwonenden en de gemeenteraad. De opvang was nog niet
+  definitief; de gemeenteraad had nog adviesrecht, terwijl het KCC inmiddels
+  over de mogelijke vragen was geïnformeerd.
+milestones: []
+ai_processed_at: '2026-11-16T10:05:55.090Z'
+ai_status: done
 ---
 
 Van: J

@@ -1,9 +1,28 @@
 ---
-title: "250616 Brief AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250616 Brief AMV (Geanonimiseerd).pdf"
-s3_etag: "00e939a06f637b12f1b9cf9ec51702ba"
-date: 2026-11-16
+title: 250616 Brief AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250616 Brief AMV (Geanonimiseerd).pdf
+s3_etag: 00e939a06f637b12f1b9cf9ec51702ba
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden bereidt een brief aan buurtbewoners voor over de
+  huisvesting van 14 alleenstaande minderjarige vrouwelijke statushouders aan de
+  Doctor J.C. Homanstraat, met begeleiding door Elker en betrokkenheid van
+  Domesta. De brief meldt dat bezwaren tegen de komst ongegrond zijn verklaard
+  en licht de opvang, begeleiding en inburgering van de jongeren toe.
+milestones:
+  - date: '2025-05-21'
+    event: >-
+      Bezwaren tegen de komst van de statushouders besproken; bezwaren ongegrond
+      verklaard
+ai_processed_at: '2026-11-16T09:38:23.518Z'
+ai_status: done
 ---
 
 J

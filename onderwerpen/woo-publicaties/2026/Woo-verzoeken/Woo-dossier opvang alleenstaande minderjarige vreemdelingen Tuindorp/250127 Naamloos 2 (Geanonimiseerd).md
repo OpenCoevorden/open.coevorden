@@ -1,9 +1,25 @@
 ---
-title: "250127 Naamloos 2 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250127 Naamloos 2 (Geanonimiseerd).pdf"
-s3_etag: "99553dea66050ed1a34301b653a2ab80"
-date: 2026-11-16
+title: 250127 Naamloos 2 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250127 Naamloos 2 (Geanonimiseerd).pdf
+s3_etag: 99553dea66050ed1a34301b653a2ab80
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over een samenwerkingsovereenkomst tussen de gemeente
+  Coevorden en Nidos voor langdurige opvang van 14 alleenstaande minderjarige
+  vreemdelingen (AMV’s) in een kinderwoongroep aan de Doctor J.C. Homanstraat,
+  met 24/7 begeleiding gedurende vijf jaar. De overeenkomst sluit aan bij de
+  intenties van het college en regelt de verantwoordelijkheden, samenwerking en
+  mogelijke aanpassingen bij veranderende omstandigheden.
+milestones: []
+ai_processed_at: '2026-11-16T09:58:19.187Z'
+ai_status: done
 ---
 
 Verzonden: maandag 27 januari 2025 11:59

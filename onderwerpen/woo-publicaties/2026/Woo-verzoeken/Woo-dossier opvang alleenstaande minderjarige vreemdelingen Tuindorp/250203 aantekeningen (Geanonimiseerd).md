@@ -1,9 +1,25 @@
 ---
-title: "250203 aantekeningen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250203 aantekeningen (Geanonimiseerd).pdf"
-s3_etag: "ab1e0e1f0c76719610a04203e6cf0927"
-date: 2026-11-16
+title: 250203 aantekeningen (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250203 aantekeningen (Geanonimiseerd).pdf
+s3_etag: ab1e0e1f0c76719610a04203e6cf0927
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat werkafspraken tussen Nidos, gemeente Coevorden en Elker
+  over de opvang, begeleiding en overgang naar zelfstandigheid van alleenstaande
+  minderjarige vreemdelingen in een kleinschalige woonvoorziening. Afspraken
+  gaan onder meer over verantwoordelijkheden rond de leeftijd van 18 jaar,
+  gezinshereniging, zorg, onderwijs, incidenten, klachten en samenwerking;
+  persoonsgegevens zijn vanwege privacy geanonimiseerd.
+milestones: []
+ai_processed_at: '2026-11-16T09:55:39.561Z'
+ai_status: done
 ---
 
 vi mn

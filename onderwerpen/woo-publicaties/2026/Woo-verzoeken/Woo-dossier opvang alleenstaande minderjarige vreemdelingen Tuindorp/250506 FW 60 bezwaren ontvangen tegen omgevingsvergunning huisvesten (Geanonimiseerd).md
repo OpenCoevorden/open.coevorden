@@ -1,9 +1,35 @@
 ---
-title: "250506 FW 60 bezwaren ontvangen tegen omgevingsvergunning huisvesten (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250506 FW 60 bezwaren ontvangen tegen omgevingsvergunning huisvesten (Geanonimiseerd).pdf"
-s3_etag: "f8e732766dcec6ef3dadddaf401ab84b"
-date: 2026-11-16
+title: >-
+  250506 FW 60 bezwaren ontvangen tegen omgevingsvergunning huisvesten
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250506 FW 60 bezwaren ontvangen tegen
+  omgevingsvergunning huisvesten (Geanonimiseerd).pdf
+s3_etag: f8e732766dcec6ef3dadddaf401ab84b
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over 60 bezwaarschriften tegen de op 30 januari 2025 aan
+  Stichting Elker verleende omgevingsvergunning voor de huisvesting van maximaal
+  14 alleenstaande minderjarige vreemdelingen aan de J.C. Homanstraat 55-63 in
+  Coevorden. De gemeente Coevorden bereidt samen met betrokken medewerkers en
+  Stichting Elker de behandeling door de bezwaarschriftencommissie voor; de
+  hoorzitting staat gepland op 21 mei 2025, maar er is nog geen uitkomst
+  vermeld.
+milestones:
+  - date: '2025-01-30'
+    event: >-
+      Omgevingsvergunning verleend aan Stichting Elker voor huisvesting van
+      minderjarige vreemdelingen aan de Dr. J.C. Homanstraat 55-63 te Coevorden.
+  - date: '2025-04-28'
+    event: 60 bezwaarschriften tegen de omgevingsvergunning ontvangen.
+ai_processed_at: '2026-11-16T09:44:56.985Z'
+ai_status: done
 ---
 
 Van: En

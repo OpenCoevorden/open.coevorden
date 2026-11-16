@@ -1,9 +1,28 @@
 ---
-title: "250130 collegevoorstel samenwerkingsovereenkomst met NIDOS voor AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250130 collegevoorstel samenwerkingsovereenkomst met NIDOS voor AMV (Geanonimiseerd).pdf"
-s3_etag: "1a618155e02bd2616e0ec837757e5d32"
-date: 2026-11-16
+title: >-
+  250130 collegevoorstel samenwerkingsovereenkomst met NIDOS voor AMV
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250130 collegevoorstel
+  samenwerkingsovereenkomst met NIDOS voor AMV (Geanonimiseerd).pdf
+s3_etag: 1a618155e02bd2616e0ec837757e5d32
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft het collegevoorstel van de gemeente Coevorden om een
+  samenwerkingsovereenkomst met Nidos vast te stellen voor een kinderwoongroep
+  voor 14 alleenstaande minderjarige vreemdelingen aan de Doctor J.C.
+  Homanstraat. Nidos voert de voogdij uit, Elker verzorgt de dagelijkse
+  begeleiding en Domesta is eigenaar van het pand; de burgemeester wordt
+  gevraagd wethouder Slomp te machtigen de overeenkomst te ondertekenen.
+milestones: []
+ai_processed_at: '2026-11-16T09:56:27.253Z'
+ai_status: done
 ---
 
 J

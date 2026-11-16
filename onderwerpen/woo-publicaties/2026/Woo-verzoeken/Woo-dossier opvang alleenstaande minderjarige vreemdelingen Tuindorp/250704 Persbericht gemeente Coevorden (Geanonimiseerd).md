@@ -1,9 +1,29 @@
 ---
-title: "250704 Persbericht gemeente Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250704 Persbericht gemeente Coevorden (Geanonimiseerd).pdf"
-s3_etag: "21234c347ec275fc673da147a7d92475"
-date: 2026-11-16
+title: 250704 Persbericht gemeente Coevorden (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250704 Persbericht gemeente Coevorden
+  (Geanonimiseerd).pdf
+s3_etag: 21234c347ec275fc673da147a7d92475
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een persbericht van de gemeente Coevorden over het besluit
+  om de plannen voor de huisvesting van 14 alleenstaande minderjarige meisjes in
+  de wijk Tuindorp stop te zetten, omdat de gemeente de veiligheid daar niet kan
+  waarborgen na onrust, intimidatie en brandstichting. De gemeente wil na
+  herstel van de rust met bewoners bespreken wat de wijk nodig heeft.
+milestones:
+  - date: '2025-07-04'
+    event: >-
+      Gemeente Coevorden besluit de plannen voor huisvesting van minderjarige
+      meisjes in Tuindorp niet voort te zetten
+ai_processed_at: '2026-11-16T09:31:47.648Z'
+ai_status: done
 ---
 
 J

@@ -1,9 +1,27 @@
 ---
-title: "250220 RE Update burenavond en inloopmoment (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250220 RE Update burenavond en inloopmoment (Geanonimiseerd).pdf"
-s3_etag: "e4f6dd6cd65ffc6e86d8b66b371b20f9"
-date: 2026-11-16
+title: 250220 RE Update burenavond en inloopmoment (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250220 RE Update burenavond en
+  inloopmoment (Geanonimiseerd).pdf
+s3_etag: e4f6dd6cd65ffc6e86d8b66b371b20f9
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert betrokkenen over de huisvesting van 14 jonge
+  statushouders in de wijk Tuindorp en organiseert hiervoor een burenavond met
+  Elker en een bredere inloopavond met Elker, Nidos, Domesta en de gemeente. Een
+  medewerker van Maatschappelijk Welzijn Coevorden vraagt naar de tijdstippen en
+  uit kritiek op de voorgenomen locatie Ravelijn voor de inloopavond, omdat een
+  locatie in de wijk volgens haar de betrokkenheid van bewoners beter zou
+  bevorderen.
+milestones: []
+ai_processed_at: '2026-11-16T09:53:06.949Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd) Van: B Me mweoevorden.nl>

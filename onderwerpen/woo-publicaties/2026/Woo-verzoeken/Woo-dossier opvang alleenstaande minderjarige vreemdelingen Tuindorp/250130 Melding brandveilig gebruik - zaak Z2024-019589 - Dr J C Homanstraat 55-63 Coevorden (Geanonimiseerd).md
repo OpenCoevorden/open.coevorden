@@ -1,9 +1,34 @@
 ---
-title: "250130 Melding brandveilig gebruik - zaak Z2024-019589 - Dr J C Homanstraat 55-63 Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250130 Melding brandveilig gebruik - zaak Z2024-019589 - Dr J C Homanstraat 55-63 Coevorden (Geanonimiseerd).pdf"
-s3_etag: "a59d11d97a2b94275dda4511661c537d"
-date: 2026-11-16
+title: >-
+  250130 Melding brandveilig gebruik - zaak Z2024-019589 - Dr J C Homanstraat
+  55-63 Coevorden (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250130 Melding brandveilig gebruik - zaak
+  Z2024-019589 - Dr J C Homanstraat 55-63 Coevorden (Geanonimiseerd).pdf
+s3_etag: a59d11d97a2b94275dda4511661c537d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden heeft de melding brandveilig gebruik van Stichting Het
+  Poortje Jeugdinrichtingen voor de huisvesting van maximaal 14 alleenstaande
+  minderjarige vreemdelingen aan de Dr. J.C. Homanstraat 55-63 te Coevorden
+  beoordeeld. De melding is op 30 januari 2025 akkoord bevonden onder
+  voorwaarden, waaronder brandcompartimentering, rookmelders, blusmiddelen, BHV,
+  een ontruimingsplan en een ontruimingsoefening.
+milestones:
+  - date: '2024-11-07'
+    event: >-
+      Melding brandveilig gebruik ingediend voor huisvesting van maximaal 14
+      alleenstaande minderjarige vreemdelingen.
+  - date: '2025-01-30'
+    event: Melding brandveilig gebruik geaccordeerd onder voorwaarden.
+ai_processed_at: '2026-11-16T09:57:13.037Z'
+ai_status: done
 ---
 
 Verzonden: donderdag 30 januari 2

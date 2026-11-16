@@ -1,9 +1,27 @@
 ---
-title: "250630 FW statement Elker (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250630 FW statement Elker (Geanonimiseerd).pdf"
-s3_etag: "e38c0d12b4bb6c086c988309e62feb30"
-date: 2026-11-16
+title: 250630 FW statement Elker (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250630 FW statement Elker
+  (Geanonimiseerd).pdf
+s3_etag: e38c0d12b4bb6c086c988309e62feb30
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Elker spreekt zich uit over de schokkende gebeurtenissen bij de toekomstige
+  opvanglocatie in Coevorden voor 14 kinderen met een verblijfsstatus, benadrukt
+  het belang van veiligheid en stelt samen met de gemeente Coevorden,
+  woningcorporatie Domesta en andere betrokkenen de situatie zorgvuldig te
+  bekijken. Elker blijft openstaan voor contact en overleg met omwonenden en
+  hoopt op een goede afloop, in aansluiting op het statement van burgemeester
+  Renze Bergsma.
+milestones: []
+ai_processed_at: '2026-11-16T09:34:49.709Z'
+ai_status: done
 ---
 
 u mn

@@ -1,9 +1,26 @@
 ---
-title: "250130 Update huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250130 Update huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "f085b66dff33aa74e6f239dd68dd37b4"
-date: 2026-11-16
+title: 250130 Update huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250130 Update huisvesting AMV
+  (Geanonimiseerd).pdf
+s3_etag: f085b66dff33aa74e6f239dd68dd37b4
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stemt met Nidos, Domesta, Elker en andere betrokken
+  partijen de huisvesting van 14 alleenstaande minderjarige vreemdelingen
+  (AMV’s) in Tuindorp af, inclusief communicatie met de buurt, een inloopmoment
+  en praktische werkafspraken. De gemeenteraad heeft de huisvesting als
+  hamerstuk goedgekeurd, waardoor de omgevingsvergunning kan worden verleend;
+  daarnaast wordt een samenwerkingsovereenkomst met Nidos voorbereid.
+milestones: []
+ai_processed_at: '2026-11-16T09:56:49.031Z'
+ai_status: done
 ---
 
 nn

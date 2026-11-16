@@ -1,9 +1,26 @@
 ---
-title: "250106 RE Opzet e-mail (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250106 RE Opzet e-mail (Geanonimiseerd).pdf"
-s3_etag: "27a2734b3d1b2343e87b7af6c001725d"
-date: 2026-11-16
+title: 250106 RE Opzet e-mail (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250106 RE Opzet e-mail
+  (Geanonimiseerd).pdf
+s3_etag: 27a2734b3d1b2343e87b7af6c001725d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert betrokken partners over het plan om vanaf
+  medio maart 2025 veertien jonge statushouders, tussen circa 15 en 18 jaar, te
+  huisvesten in vijf woningen aan de Doctor J.C. Homanstraat in de wijk
+  Tuindorp, met begeleiding door Elker. De gemeenteraad zou hierover eind
+  januari een besluit nemen; daarna zou een inloopmoment voor direct omwonenden
+  worden georganiseerd.
+milestones: []
+ai_processed_at: '2026-11-16T10:01:13.079Z'
+ai_status: done
 ---
 
 vi mn

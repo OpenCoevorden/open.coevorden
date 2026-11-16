@@ -1,9 +1,26 @@
 ---
-title: "250612 chat 9 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250612 chat 9 (Geanonimiseerd).pdf"
-s3_etag: "aa37b4861158585257cd2f12e84aee7d"
-date: 2026-11-16
+title: 250612 chat 9 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250612 chat 9 (Geanonimiseerd).pdf
+s3_etag: aa37b4861158585257cd2f12e84aee7d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat interne berichten van gemeentelijke medewerkers over de
+  voorbereiding en accordering van een memo voor het college en over de situatie
+  in de wijk Tuindorp, waar ambtenaren, fractievoorzitters, politie, de
+  driehoek, de wijkvereniging en bewoners bij betrokken zijn. Naar aanleiding
+  van signalen over mogelijke zware ongeregeldheden is preventief een
+  noodverordening afgekondigd, wordt stevig politieoptreden voorbereid en is een
+  crisisorganisatie met een stuurgroep en operationeel beleidsteam ingericht.
+milestones: []
+ai_processed_at: '2026-11-16T09:38:44.834Z'
+ai_status: done
 ---
 
 [04-07-2019, 14:15:10

@@ -1,9 +1,31 @@
 ---
-title: "250605 Brief buurtbewoners AMV Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250605 Brief buurtbewoners AMV Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "39930f2befc24a9be990c3489c9b7528"
-date: 2026-11-16
+title: 250605 Brief buurtbewoners AMV Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250605 Brief buurtbewoners AMV Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: 39930f2befc24a9be990c3489c9b7528
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stelt een brief op voor buurtbewoners over de komst van
+  alleenstaande minderjarige vluchtelingenmeiden met verblijfsstatus naar
+  woningen aan de Doctor J.C. Homanstraat 55 t/m 63, waarbij Elker, Domesta en
+  Nidos betrokken zijn. De bezwaren van enkele buurtbewoners zijn door de
+  bezwaarschriftencommissie ongegrond verklaard, waardoor de plannen doorgaan.
+milestones:
+  - date: '2025-05-21'
+    event: >-
+      Bezwaren tegen de komst van de nieuwe bewoners besproken door de
+      bezwaarschriftencommissie
+  - date: '2025-06-04'
+    event: Bezwaarschriftencommissie concludeerde dat de bezwaren ongegrond zijn
+ai_processed_at: '2026-11-16T09:41:55.785Z'
+ai_status: done
 ---
 
 Verzonden: donderdag 5 juni 2025 13:04

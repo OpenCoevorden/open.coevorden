@@ -1,9 +1,26 @@
 ---
-title: "250630-Overleg situatie Tuindorp (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250630-Overleg situatie Tuindorp (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "a06a667c8cc2d4d3711c04580aa28749"
-date: 2026-11-16
+title: 250630-Overleg situatie Tuindorp (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250630-Overleg situatie Tuindorp
+  (Geanonimiseerd) (gewijzigd).pdf
+s3_etag: a06a667c8cc2d4d3711c04580aa28749
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over overleg naar aanleiding van brandstichtingen,
+  vernielingen en oplopende onrust in Tuindorp, waarbij de gemeente, politie,
+  Elker, Nidos, jongerenwerkers en inwoners betrokken zijn. Besproken zijn
+  de-escalatie, zorgen over de veiligheid van medewerkers en circa 15-jarige
+  meisjes, mogelijk 24/7-beveiliging, bestuurlijk overleg met de burgemeester en
+  verdere communicatie- en overlegacties.
+milestones: []
+ai_processed_at: '2026-11-16T09:34:28.191Z'
+ai_status: done
 ---
 
 Overleg situatie Tuindorp

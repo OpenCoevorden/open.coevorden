@@ -1,9 +1,29 @@
 ---
-title: "240913 FW Antwoorden op de vragen m.b.t. opvanglocatie AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240913 FW Antwoorden op de vragen m.b.t. opvanglocatie AMV (Geanonimiseerd).pdf"
-s3_etag: "624777e481f26496458e304cbe4fb024"
-date: 2026-11-16
+title: 240913 FW Antwoorden op de vragen m.b.t. opvanglocatie AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240913 FW Antwoorden op de vragen m.b.t.
+  opvanglocatie AMV (Geanonimiseerd).pdf
+s3_etag: 624777e481f26496458e304cbe4fb024
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat e-mailcorrespondentie tussen de gemeente Coevorden,
+  Stichting Phusis, Nidos en Domesta over de voorgenomen opvanglocatie voor
+  circa twaalf alleenstaande minderjarige vreemdelingen (AMV), waaronder de
+  begeleiding, huisvesting, vergunningprocedure, participatie en vereiste
+  onderbouwingen voor parkeren, woon- en leefklimaat, veiligheid, overlast en
+  planschade. Daarnaast is de gemeentelijke nota over verbindend besturen en
+  samenwerken opgenomen, die kaders geeft voor participatie en communicatie;
+  afgesproken is om omwonenden begin 2024 per brief te informeren, waarna
+  participatie en de aanvraag verder kunnen worden uitgewerkt.
+milestones: []
+ai_processed_at: '2026-11-16T10:12:41.822Z'
+ai_status: done
 ---
 
 Van: J

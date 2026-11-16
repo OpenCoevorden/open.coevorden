@@ -1,9 +1,25 @@
 ---
-title: "250403 Memo (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250403 Memo (Geanonimiseerd).pdf"
-s3_etag: "e952562ffadba6077adecab4b3056c08"
-date: 2026-11-16
+title: 250403 Memo (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250403 Memo (Geanonimiseerd).pdf
+s3_etag: e952562ffadba6077adecab4b3056c08
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De memo-in-wording gaat over de voorgenomen plaatsing van alleenstaande
+  minderjarige vreemdelingen (AMV’ers) in een woning van Domesta op een
+  Cosis-locatie in Tuindorp, met betrokkenheid van Domesta, Elker en Nidos. Er
+  zijn twee informatieavonden gehouden en tijdens de tweede avond zijn
+  handtekeningen tegen de komst aan de wethouder overhandigd; de indiening van
+  een formeel bezwaar wordt nog nagegaan.
+milestones: []
+ai_processed_at: '2026-11-16T09:47:03.097Z'
+ai_status: done
 ---
 
 Van: J

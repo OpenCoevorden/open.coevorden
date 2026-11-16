@@ -1,9 +1,24 @@
 ---
-title: "Chat wethouder Slomp - ambtenaar 7 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 7 (Geanonimiseerd).pdf"
-s3_etag: "4a152f778afb7f14e6dc2ebc49985bb2"
-date: 2026-11-16
+title: Chat wethouder Slomp - ambtenaar 7 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 7
+  (Geanonimiseerd).pdf
+s3_etag: 4a152f778afb7f14e6dc2ebc49985bb2
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een WhatsApp-gesprek tussen geanonimiseerde betrokkenen
+  over de afstemming tussen Elker en NIDOS, waarbij wordt gemeld dat Jan bij
+  NIDOS is ingelicht. Daarnaast spreken de betrokkenen elkaar bemoedigend toe en
+  constateren zij dat er nog werk te doen is.
+milestones: []
+ai_processed_at: '2026-11-16T09:27:31.768Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

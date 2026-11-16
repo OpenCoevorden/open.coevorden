@@ -1,9 +1,26 @@
 ---
-title: "240828 reactie op vraag (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240828 reactie op vraag (Geanonimiseerd).pdf"
-s3_etag: "0d13be1affff2fdcb27558d8ccf445a4"
-date: 2026-11-16
+title: 240828 reactie op vraag (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240828 reactie op vraag
+  (Geanonimiseerd).pdf
+s3_etag: 0d13be1affff2fdcb27558d8ccf445a4
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Elker Jeugdhulp & Onderwijs vraagt de gemeente Coevorden welke vergunningen,
+  meldingen en brandveiligheidsmaatregelen nodig zijn om een voormalig zorgpand
+  in te richten als vijf geschakelde woningen voor 12 tot 14 alleenstaande
+  minderjarige statushouders met 24-uursbegeleiding. De gemeente verwijst Elker
+  voor afstemming over het pand en de beoogde verhuur naar eigenaar
+  woningcorporatie Domesta en een betrokken contactpersoon.
+milestones: []
+ai_processed_at: '2026-11-16T10:13:15.047Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

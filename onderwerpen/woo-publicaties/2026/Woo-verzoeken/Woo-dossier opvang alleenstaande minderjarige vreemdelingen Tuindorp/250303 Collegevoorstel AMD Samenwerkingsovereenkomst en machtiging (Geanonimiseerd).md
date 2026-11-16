@@ -1,9 +1,29 @@
 ---
-title: "250303 Collegevoorstel AMD Samenwerkingsovereenkomst en machtiging (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250303 Collegevoorstel AMD Samenwerkingsovereenkomst en machtiging (Geanonimiseerd).pdf"
-s3_etag: "54f24cb961dbfc5b5c780e22473ece7f"
-date: 2026-11-16
+title: >-
+  250303 Collegevoorstel AMD Samenwerkingsovereenkomst en machtiging
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250303 Collegevoorstel AMD
+  Samenwerkingsovereenkomst en machtiging (Geanonimiseerd).pdf
+s3_etag: 54f24cb961dbfc5b5c780e22473ece7f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mail van gemeentelijke medewerkers over een collegevoorstel voor de
+  AMD-samenwerkingsovereenkomst en machtiging. De ingangsdatum van de
+  overeenkomst is vastgesteld op 31 januari 2025, waarna wordt gevraagd het
+  voorstel met kenmerk 7036-2025 te beoordelen ter voorbereiding op aanbieding
+  aan het PFO van 10 maart.
+milestones:
+  - date: '2025-01-30'
+    event: Omgevingsvergunning toegekend
+ai_processed_at: '2026-11-16T09:52:11.112Z'
+ai_status: done
 ---
 
 J

@@ -1,9 +1,23 @@
 ---
-title: "Chat wethouder Slomp - ambtenaar 2 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 2 (Geanonimiseerd).pdf"
-s3_etag: "defb966186a257c8d877c493a5280eca"
-date: 2026-11-16
+title: Chat wethouder Slomp - ambtenaar 2 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 2
+  (Geanonimiseerd).pdf
+s3_etag: defb966186a257c8d877c493a5280eca
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een chatwisseling over Tuindorp en het overhandigen van een
+  bezwaar naar aanleiding van een aankondiging. Daarbij wordt gemeld dat er op
+  dat moment nog geen bezwaren waren binnengekomen.
+milestones: []
+ai_processed_at: '2026-11-16T09:28:25.520Z'
+ai_status: done
 ---
 
 12:32 al > WW

@@ -1,9 +1,25 @@
 ---
-title: "241203 Datum geprikt bijpraten huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241203 Datum geprikt bijpraten huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "1dbefef686228f7af4f78ed04b39ed7e"
-date: 2026-11-16
+title: 241203 Datum geprikt bijpraten huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241203 Datum geprikt bijpraten huisvesting
+  AMV (Geanonimiseerd).pdf
+s3_etag: 1dbefef686228f7af4f78ed04b39ed7e
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stemt met betrokken partijen zoals Nidos, Elker en
+  Domesta af over de huisvesting van alleenstaande minderjarige vreemdelingen
+  (AMV). Een overleg is gepland op 10 december 2024 om de gewijzigde planning,
+  omgevingsvergunning, communicatie met omwonenden, bijeenkomsten en de
+  samenwerkingsovereenkomst tussen Nidos en de gemeente te bespreken.
+milestones: []
+ai_processed_at: '2026-11-16T10:03:23.655Z'
+ai_status: done
 ---
 
 nn

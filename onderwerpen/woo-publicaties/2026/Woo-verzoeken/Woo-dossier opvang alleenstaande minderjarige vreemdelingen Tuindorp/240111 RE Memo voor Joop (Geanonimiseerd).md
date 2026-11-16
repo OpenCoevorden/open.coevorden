@@ -1,9 +1,25 @@
 ---
-title: "240111 RE Memo voor Joop (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240111 RE Memo voor Joop (Geanonimiseerd).pdf"
-s3_etag: "d8f876552500ee03c1e4be9a1c4857f6"
-date: 2026-11-16
+title: 240111 RE Memo voor Joop (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240111 RE Memo voor Joop
+  (Geanonimiseerd).pdf
+s3_etag: d8f876552500ee03c1e4be9a1c4857f6
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Medewerkers van de gemeente Coevorden stemmen een memo aan Joop af over het
+  adviesrecht van de gemeenteraad, participatie bij inloopavonden en de gevolgen
+  van een bindend advies voor een omgevingsvergunning. De feedback is verwerkt,
+  de memo is akkoord bevonden en zou aan Joop en het bestuurssecretariaat worden
+  verzonden, met eventuele verdere toetsing door het college.
+milestones: []
+ai_processed_at: '2026-11-16T10:15:47.851Z'
+ai_status: done
 ---
 
 Van:

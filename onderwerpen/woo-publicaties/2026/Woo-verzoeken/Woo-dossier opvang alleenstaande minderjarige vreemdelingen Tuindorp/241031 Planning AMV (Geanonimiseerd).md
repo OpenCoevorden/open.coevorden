@@ -1,9 +1,26 @@
 ---
-title: "241031 Planning AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241031 Planning AMV (Geanonimiseerd).pdf"
-s3_etag: "eef9f9066b0fdd9c8676c96c38ad78c0"
-date: 2026-11-16
+title: 241031 Planning AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241031 Planning AMV (Geanonimiseerd).pdf
+s3_etag: eef9f9066b0fdd9c8676c96c38ad78c0
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert Domesta en Elker over de planning voor de
+  huisvesting van alleenstaande minderjarige vreemdelingen (AMV), waarbij de
+  omgevingsvergunning door Elker wordt aangevraagd en de gemeenteraad
+  adviesrecht heeft. Omdat aansluiting bij de raad in december niet haalbaar is,
+  verschuift de planning naar januari; bij een positief besluit en een
+  goedgekeurde vergunning volgen de inloopavond in februari en huisvesting in
+  maart.
+milestones: []
+ai_processed_at: '2026-11-16T10:07:37.907Z'
+ai_status: done
 ---
 
 J

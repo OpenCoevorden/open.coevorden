@@ -1,9 +1,25 @@
 ---
-title: "241014 Brief raad AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241014 Brief raad AMV (Geanonimiseerd).pdf"
-s3_etag: "c2522e207d8ce165efd400e3c506a6e4"
-date: 2026-11-16
+title: 241014 Brief raad AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241014 Brief raad AMV (Geanonimiseerd).pdf
+s3_etag: c2522e207d8ce165efd400e3c506a6e4
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over het voornemen van de gemeente Coevorden om samen met
+  woningcorporatie Domesta en begeleidingsorganisatie Elker een kinderwoongroep
+  voor 14 alleenstaande minderjarige vreemdelingen met een verblijfsstatus te
+  realiseren aan de Doctor J.C. Homanstraat 55-63. Hiervoor wordt een
+  omgevingsvergunning aangevraagd, waarop de gemeenteraad adviesrecht heeft; bij
+  vergunningverlening volgt een inloopbijeenkomst voor omwonenden.
+milestones: []
+ai_processed_at: '2026-11-16T10:09:51.559Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

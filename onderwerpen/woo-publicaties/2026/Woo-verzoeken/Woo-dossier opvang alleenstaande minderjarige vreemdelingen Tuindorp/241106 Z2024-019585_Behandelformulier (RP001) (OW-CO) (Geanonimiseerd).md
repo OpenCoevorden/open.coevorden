@@ -1,9 +1,30 @@
 ---
-title: "241106 Z2024-019585_Behandelformulier (RP001) (OW-CO) (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241106 Z2024-019585_Behandelformulier (RP001) (OW-CO) (Geanonimiseerd).pdf"
-s3_etag: "fad113c9fb8343826d379a4b13a68644"
-date: 2026-11-16
+title: 241106 Z2024-019585_Behandelformulier (RP001) (OW-CO) (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241106 Z2024-019585_Behandelformulier
+  (RP001) (OW-CO) (Geanonimiseerd).pdf
+s3_etag: fad113c9fb8343826d379a4b13a68644
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft de aanvraag van Stichting Elker voor het tijdelijk
+  huisvesten van maximaal 14 alleenstaande minderjarige vreemdelingen aan de Dr.
+  J.C. Homanstraat 55-63 in Coevorden. Het gebruik is in strijd met het
+  bestemmingsplan, maar er wordt medewerking verleend via een tijdelijke
+  afwijking van maximaal vijf jaar; de aanvraag is positief beoordeeld onder
+  oplegging van voorschriften en leges van € 67.070.
+milestones:
+  - date: '2024-11-06'
+    event: Aanvraag omgevingsvergunning ingediend
+  - date: '2024-12-19'
+    event: Beslistermijn met zes weken verlengd
+ai_processed_at: '2026-11-16T10:06:08.038Z'
+ai_status: done
 ---
 
 Behandelformulier Omgevingsvergunning

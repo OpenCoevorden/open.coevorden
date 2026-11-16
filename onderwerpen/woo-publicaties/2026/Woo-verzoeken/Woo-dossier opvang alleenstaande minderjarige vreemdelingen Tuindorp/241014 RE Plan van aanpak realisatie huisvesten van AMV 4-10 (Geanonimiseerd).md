@@ -1,9 +1,27 @@
 ---
-title: "241014 RE Plan van aanpak realisatie huisvesten van AMV 4-10 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241014 RE Plan van aanpak realisatie huisvesten van AMV 4-10 (Geanonimiseerd).pdf"
-s3_etag: "ac1e1e2eaaffb6ba83faf6391e4d608e"
-date: 2026-11-16
+title: 241014 RE Plan van aanpak realisatie huisvesten van AMV 4-10 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241014 RE Plan van aanpak realisatie
+  huisvesten van AMV 4-10 (Geanonimiseerd).pdf
+s3_etag: ac1e1e2eaaffb6ba83faf6391e4d608e
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over de communicatie- en woordvoeringsafspraken in het
+  plan van aanpak voor de huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV) van 4 tot 10 jaar, waarbij de gemeente Coevorden, Elker en
+  betrokken communicatieadviseurs zijn betrokken. Afgesproken wordt dat vragen
+  intern binnen de gemeente worden afgestemd én dat met communicatieadviseurs
+  van de andere partijen wordt overlegd, waarbij Elker of een aangewezen
+  adviseur mogelijk als woordvoerder optreedt.
+milestones: []
+ai_processed_at: '2026-11-16T10:09:41.367Z'
+ai_status: done
 ---
 
 Van: J

@@ -1,9 +1,26 @@
 ---
-title: "250604 RE Veiligheidsplan AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250604 RE Veiligheidsplan AMV (Geanonimiseerd).pdf"
-s3_etag: "71e0f342a2c221f875155e9440b346de"
-date: 2026-11-16
+title: 250604 RE Veiligheidsplan AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250604 RE Veiligheidsplan AMV
+  (Geanonimiseerd).pdf
+s3_etag: 71e0f342a2c221f875155e9440b346de
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling binnen de gemeente Coevorden over het veiligheidsplan voor een
+  AMV-locatie van Elker, met voorstellen zoals het afplakken van brievenbussen,
+  sluiten van ramen, gemeentelijke camera’s en meer aanwezigheid van boa’s en
+  politie in de wijk. Ook wordt besproken of beveiliging van de nabijgelegen
+  Oekraïnelocatie de AMV-locatie kan meenemen in rondes; de betrokken
+  medewerkers willen hierover verder afstemmen.
+milestones: []
+ai_processed_at: '2026-11-16T09:42:18.589Z'
+ai_status: done
 ---
 
 Van: J

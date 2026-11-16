@@ -1,9 +1,26 @@
 ---
-title: "250618 FW Inzet DVS-beveiliging AMV locatie (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250618 FW Inzet DVS-beveiliging AMV locatie (Geanonimiseerd).pdf"
-s3_etag: "e7d8dda756acac014203e399af25023a"
-date: 2026-11-16
+title: 250618 FW Inzet DVS-beveiliging AMV locatie (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250618 FW Inzet DVS-beveiliging AMV
+  locatie (Geanonimiseerd).pdf
+s3_etag: e7d8dda756acac014203e399af25023a
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden en jeugdhulporganisatie Elker stemmen de tijdelijke
+  inzet van beveiligingsbedrijf DVS af voor de alleenstaande minderjarige
+  vreemdelingenlocatie (AMV-locatie). DVS beveiligt van 21 juli tot en met 18
+  augustus 2025 tijdens nachtdiensten beide locaties, met het Mentorhuis aan de
+  Homanstraat als werkplek, separate rapportage en verdere operationele
+  afstemming; verlenging is mogelijk.
+milestones: []
+ai_processed_at: '2026-11-16T09:37:25.947Z'
+ai_status: done
 ---
 
 Van: nr (geanonimiseerd) (geanonimiseerd) J

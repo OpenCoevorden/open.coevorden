@@ -1,9 +1,25 @@
 ---
-title: "250221 chat 5 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250221 chat 5 (Geanonimiseerd).pdf"
-s3_etag: "251405e2dcc594e7db7691b891ebce01"
-date: 2026-11-16
+title: 250221 chat 5 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250221 chat 5 (Geanonimiseerd).pdf
+s3_etag: 251405e2dcc594e7db7691b891ebce01
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat WhatsApp-correspondentie tussen geanonimiseerde betrokkenen
+  over de huisvesting en inloopmomenten voor alleenstaande minderjarige
+  vreemdelingen in Tuindorp, waaronder de inzet van boa’s en afstemming met de
+  wijkagent en Nidos. Ook wordt een overleg verplaatst omdat een deelnemer niet
+  tijdig was uitgenodigd; verschillende passages zijn op grond van de Woo gelakt
+  wegens toezichtbelangen, privacy en persoonlijke beleidsopvattingen.
+milestones: []
+ai_processed_at: '2026-11-16T09:52:33.163Z'
+ai_status: done
 ---
 
 04-07-2023, 14:01:34 Berichten en oproepen worden end-

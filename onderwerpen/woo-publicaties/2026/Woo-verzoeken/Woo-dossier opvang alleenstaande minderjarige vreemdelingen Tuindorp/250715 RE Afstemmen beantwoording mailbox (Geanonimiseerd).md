@@ -1,9 +1,26 @@
 ---
-title: "250715 RE Afstemmen beantwoording mailbox (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250715 RE Afstemmen beantwoording mailbox (Geanonimiseerd).pdf"
-s3_etag: "a4b7bafb339f92f6526428c8962d512f"
-date: 2026-11-16
+title: 250715 RE Afstemmen beantwoording mailbox (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250715 RE Afstemmen beantwoording mailbox
+  (Geanonimiseerd).pdf
+s3_etag: a4b7bafb339f92f6526428c8962d512f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Ambtenaren van de gemeente Coevorden stemmen af hoe zij e-mails over het niet
+  doorgaan van de huisvesting van veertien minderjarige asielzoekers in Tuindorp
+  moeten behandelen, waaronder categoriseren, beantwoorden en uitnodigen van
+  betrokken inwoners. Zij onderschrijven een algemene reactie namens
+  burgemeester Renze Bergsma en willen de verdere verzending en eventuele
+  gesprekken organiseren na afstemming met hem en het college.
+milestones: []
+ai_processed_at: '2026-11-16T09:30:25.401Z'
+ai_status: done
 ---
 
 u mn

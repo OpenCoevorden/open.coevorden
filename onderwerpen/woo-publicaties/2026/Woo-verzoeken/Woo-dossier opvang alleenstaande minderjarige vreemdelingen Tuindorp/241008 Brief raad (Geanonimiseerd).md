@@ -1,9 +1,26 @@
 ---
-title: "241008 Brief raad (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241008 Brief raad (Geanonimiseerd).pdf"
-s3_etag: "0e7ffdf198ae93b52d44b29b5288a41d"
-date: 2026-11-16
+title: 241008 Brief raad (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241008 Brief raad (Geanonimiseerd).pdf
+s3_etag: 0e7ffdf198ae93b52d44b29b5288a41d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert de gemeenteraad over het voornemen om samen
+  met woningcorporatie Domesta en opvangorganisatie Elker vijf woningen aan de
+  Doctor J.C. Homanstraat in te zetten voor de huisvesting van veertien
+  alleenstaande minderjarige vreemdelingen, onder voogdij van Nidos en met
+  24-uursbegeleiding door Elker. Hiervoor is een omgevingsvergunning nodig; de
+  raad wordt betrokken via het adviesrecht en omwonenden worden geïnformeerd en
+  mogelijk uitgenodigd voor een inloopbijeenkomst.
+milestones: []
+ai_processed_at: '2026-11-16T10:10:14.319Z'
+ai_status: done
 ---
 
 Van: eere (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) J

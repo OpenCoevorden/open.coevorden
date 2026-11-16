@@ -1,9 +1,27 @@
 ---
-title: "250114 terugkoppeling commissie gemeente Coevorden 14 jan (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250114 terugkoppeling commissie gemeente Coevorden 14 jan (Geanonimiseerd).pdf"
-s3_etag: "8a849f65c97090d97cb5e1178d83ef78"
-date: 2026-11-16
+title: 250114 terugkoppeling commissie gemeente Coevorden 14 jan (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250114 terugkoppeling commissie gemeente
+  Coevorden 14 jan (Geanonimiseerd).pdf
+s3_etag: 8a849f65c97090d97cb5e1178d83ef78
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Elker informeert de gemeente Coevorden over de JeugdzorgPlus, de afbouw van
+  gesloten jeugdzorg, het verscherpte toezicht door de IGJ en de verschillen
+  tussen dit onderdeel en de overige dienstverlening van Elker. Na bespreking in
+  twee raadscommissietermijnen wordt het raadsvoorstel op 28 januari 2025 als
+  hamerstuk voorgelegd; aandachtspunten zoals sociale veiligheid, voldoende
+  personeel en escalatieafspraken worden meegenomen in de uitvoerings
+  overleggen.
+milestones: []
+ai_processed_at: '2026-11-16T09:59:45.426Z'
+ai_status: done
 ---
 
 u nn

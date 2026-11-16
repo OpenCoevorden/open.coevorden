@@ -1,9 +1,26 @@
 ---
-title: "240607 RE AMV groep (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240607 RE AMV groep (Geanonimiseerd).pdf"
-s3_etag: "39d564613d1811ebd25c021676e7ea5d"
-date: 2026-11-16
+title: 240607 RE AMV groep (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240607 RE AMV groep (Geanonimiseerd).pdf
+s3_etag: 39d564613d1811ebd25c021676e7ea5d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorgenomen opvang van een groep alleenstaande
+  minderjarige vreemdelingen (AMV) in Coevorden en de gevolgen daarvan voor
+  onderwijsorganisatie De Nieuwe Veste, waarbij de gemeente, Nidos en een
+  beoogde nieuwe opvangpartij (Elker) betrokken zijn. De startdatum en planning
+  zijn nog niet definitief: eerst moet Elker instemmen, waarna een huurcontract,
+  communicatie, werkafspraken en een globale planning voor realisatie in het
+  najaar worden vastgesteld.
+milestones: []
+ai_processed_at: '2026-11-16T10:13:25.721Z'
+ai_status: done
 ---
 
 Van:

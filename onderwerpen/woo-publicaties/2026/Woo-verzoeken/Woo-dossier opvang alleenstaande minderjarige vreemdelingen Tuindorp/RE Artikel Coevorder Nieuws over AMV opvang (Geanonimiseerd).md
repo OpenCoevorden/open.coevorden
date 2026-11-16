@@ -1,9 +1,25 @@
 ---
-title: "RE Artikel Coevorder Nieuws over AMV opvang (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/RE Artikel Coevorder Nieuws over AMV opvang (Geanonimiseerd).pdf"
-s3_etag: "25c4e331a1bc385a50a64520baf5e0d8"
-date: 2026-11-16
+title: RE Artikel Coevorder Nieuws over AMV opvang (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/RE Artikel Coevorder Nieuws over AMV
+  opvang (Geanonimiseerd).pdf
+s3_etag: 25c4e331a1bc385a50a64520baf5e0d8
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen medewerkers van de gemeente Coevorden over een artikel
+  in Coevorder Nieuws over de huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV) in Tuindorp, waarbij de opvang als wettelijke taak wordt
+  besproken. Het artikel is gedeeld met betrokken collega’s; Erik en Jeroen zijn
+  geïnformeerd vanwege hun betrokkenheid bij jeugdzorgtrajecten.
+milestones: []
+ai_processed_at: '2026-11-16T09:23:16.835Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

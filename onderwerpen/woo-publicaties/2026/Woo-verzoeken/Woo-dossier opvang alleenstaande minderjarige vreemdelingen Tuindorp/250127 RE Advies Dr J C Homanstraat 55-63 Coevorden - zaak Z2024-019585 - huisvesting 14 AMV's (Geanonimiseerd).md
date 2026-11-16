@@ -1,9 +1,28 @@
 ---
-title: "250127 RE Advies Dr J C Homanstraat 55-63 Coevorden - zaak Z2024-019585 - huisvesting 14 AMV's (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250127 RE Advies Dr J C Homanstraat 55-63 Coevorden - zaak Z2024-019585 - huisvesting 14 AMV's (Geanonimiseerd).pdf"
-s3_etag: "bea47a959268876e3e8ace7a91f84b27"
-date: 2026-11-16
+title: >-
+  250127 RE Advies Dr J C Homanstraat 55-63 Coevorden - zaak Z2024-019585 -
+  huisvesting 14 AMV's (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250127 RE Advies Dr J C Homanstraat 55-63
+  Coevorden - zaak Z2024-019585 - huisvesting 14 AMV's (Geanonimiseerd).pdf
+s3_etag: bea47a959268876e3e8ace7a91f84b27
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Gemeentelijke medewerkers van Coevorden stemmen per e-mail af over het
+  ruimtelijkordeningsadvies voor de huisvesting van 14 alleenstaande
+  minderjarige vluchtelingen aan de Dr. J.C. Homanstraat 55-63 (zaak
+  Z2024-019585). Het advies is aangeleverd en kan als definitief worden
+  beschouwd als de gemeenteraad ermee instemt, waarna de vergunning zou worden
+  verleend.
+milestones: []
+ai_processed_at: '2026-11-16T09:58:08.579Z'
+ai_status: done
 ---
 
 u mn

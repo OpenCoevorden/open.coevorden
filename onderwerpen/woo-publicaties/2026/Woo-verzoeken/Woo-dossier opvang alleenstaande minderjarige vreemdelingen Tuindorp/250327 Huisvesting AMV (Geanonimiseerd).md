@@ -1,9 +1,26 @@
 ---
-title: "250327 Huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250327 Huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "c3bbd5648575605462bf77d37916c3d3"
-date: 2026-11-16
+title: 250327 Huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250327 Huisvesting AMV
+  (Geanonimiseerd).pdf
+s3_etag: c3bbd5648575605462bf77d37916c3d3
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV), de koers van Nidos en Elker en de voorgenomen bespreking
+  binnen de gemeente Coevorden. Genoemde acties zijn het organiseren van een
+  gesprek met de harde kern van buurtbewoners, mede in relatie tot de
+  bezwaarprocedure, en het opstellen van een veiligheidsplan met een
+  escalatieladder en preventieve maatregelen.
+milestones: []
+ai_processed_at: '2026-11-16T09:47:13.711Z'
+ai_status: done
 ---
 
 Van:

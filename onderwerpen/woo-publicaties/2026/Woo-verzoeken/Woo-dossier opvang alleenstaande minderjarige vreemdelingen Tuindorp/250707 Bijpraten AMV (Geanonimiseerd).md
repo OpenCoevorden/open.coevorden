@@ -1,9 +1,23 @@
 ---
-title: "250707 Bijpraten AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250707 Bijpraten AMV (Geanonimiseerd).pdf"
-s3_etag: "6e604314ef78150c2ab71cbed2bf49b6"
-date: 2026-11-16
+title: 250707 Bijpraten AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250707 Bijpraten AMV (Geanonimiseerd).pdf
+s3_etag: 6e604314ef78150c2ab71cbed2bf49b6
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mail van de gemeente Coevorden aan betrokkenen van onder meer Elker en
+  Domesta over het voortzetten van een overleg over AMV’s. Het overleg is
+  bedoeld om terug te blikken op de afgelopen week/periode en vragen te
+  beantwoorden, hoewel nog niet op alle vragen een antwoord beschikbaar is.
+milestones: []
+ai_processed_at: '2026-11-16T09:31:25.608Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

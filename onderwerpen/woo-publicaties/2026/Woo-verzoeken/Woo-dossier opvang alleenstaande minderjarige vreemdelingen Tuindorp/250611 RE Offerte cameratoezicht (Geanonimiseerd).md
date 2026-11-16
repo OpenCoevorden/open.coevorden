@@ -1,9 +1,26 @@
 ---
-title: "250611 RE Offerte cameratoezicht (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250611 RE Offerte cameratoezicht (Geanonimiseerd).pdf"
-s3_etag: "04e62f90916f6b8aa7f26137f18bc734"
-date: 2026-11-16
+title: 250611 RE Offerte cameratoezicht (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250611 RE Offerte cameratoezicht
+  (Geanonimiseerd).pdf
+s3_etag: 04e62f90916f6b8aa7f26137f18bc734
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stemt met Actief voor Werk en Elker af over het plaatsen
+  van twee camera’s aan de voor- en achterzijde, op basis van de Gemeentewet en
+  onder voorbehoud van instemming in de lokale driehoek en afstemming met de
+  officier van justitie. Actief voor Werk gaat akkoord met de kosten volgens de
+  offerte voor maximaal twee maanden, terwijl nog afspraken nodig zijn over de
+  financiering, informatieborden en het uitlezen van de beelden.
+milestones: []
+ai_processed_at: '2026-11-16T09:40:04.345Z'
+ai_status: done
 ---
 
 Van: 5

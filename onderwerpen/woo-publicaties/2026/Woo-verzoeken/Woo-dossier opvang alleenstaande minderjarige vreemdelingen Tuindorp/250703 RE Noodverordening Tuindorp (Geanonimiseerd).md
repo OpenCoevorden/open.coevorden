@@ -1,9 +1,26 @@
 ---
-title: "250703 RE Noodverordening Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250703 RE Noodverordening Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "f307a7fd367666a7e4a46f8d25be73d5"
-date: 2026-11-16
+title: 250703 RE Noodverordening Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250703 RE Noodverordening Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: f307a7fd367666a7e4a46f8d25be73d5
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling tussen medewerkers van de gemeente Coevorden en Stichting
+  Maatschappelijk Welzijn Coevorden gaat over de noodverordening voor Tuindorp,
+  de plaatsing en de verdere afstemming daarover. Er was de avond ervoor
+  besloten tot de maatregel, die tot de daaropvolgende donderdag van kracht zou
+  zijn, en er werd een digitaal afstemmingsoverleg over de situatie
+  georganiseerd.
+milestones: []
+ai_processed_at: '2026-11-16T09:32:36.828Z'
+ai_status: done
 ---
 
 Van: E (geanonimiseerd) (geanonimiseerd) J

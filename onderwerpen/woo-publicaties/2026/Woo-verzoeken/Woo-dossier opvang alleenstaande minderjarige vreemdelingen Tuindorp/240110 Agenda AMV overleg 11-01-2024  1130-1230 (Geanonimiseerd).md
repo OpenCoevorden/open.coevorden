@@ -1,9 +1,26 @@
 ---
-title: "240110 Agenda AMV overleg 11-01-2024  1130-1230 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240110 Agenda AMV overleg 11-01-2024  1130-1230 (Geanonimiseerd).pdf"
-s3_etag: "b6b065954c9bc736d0ce5304f6de81c7"
-date: 2026-11-16
+title: 240110 Agenda AMV overleg 11-01-2024  1130-1230 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240110 Agenda AMV overleg 11-01-2024 
+  1130-1230 (Geanonimiseerd).pdf
+s3_etag: b6b065954c9bc736d0ce5304f6de81c7
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de geplande huisvesting van maximaal 12 alleenstaande
+  minderjarige statushouders en een gezin van 11 statushouders in zeven woningen
+  aan de JC Homanstraat in Coevorden. De gemeente Coevorden, woningcorporatie
+  Domesta, Nidos en uitvoerder Phusis leggen hun samenwerking, begeleiding,
+  omgevingscommunicatie en verantwoordelijkheden vast; de locatie wordt verbouwd
+  en de eerste bewoners kunnen vanaf half maart 2024 intrekken.
+milestones: []
+ai_processed_at: '2026-11-16T10:16:34.583Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

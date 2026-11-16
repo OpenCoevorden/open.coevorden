@@ -1,9 +1,28 @@
 ---
-title: "240927 Aanvraag omgevingsvergunning + adviesrecht en participatieplicht (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240927 Aanvraag omgevingsvergunning + adviesrecht en participatieplicht (Geanonimiseerd).pdf"
-s3_etag: "e1206e53874b211a2ae756d371aa8662"
-date: 2026-11-16
+title: >-
+  240927 Aanvraag omgevingsvergunning + adviesrecht en participatieplicht
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240927 Aanvraag omgevingsvergunning +
+  adviesrecht en participatieplicht (Geanonimiseerd).pdf
+s3_etag: e1206e53874b211a2ae756d371aa8662
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden bespreekt met Nidos, jeugdzorginstelling Elker en
+  Domesta de huisvesting van 14 alleenstaande minderjarige vreemdelingen aan de
+  D.C. Homanstraat 55-63 en de daarvoor benodigde omgevingsvergunning. Omdat het
+  initiatief mogelijk onder de gemeentelijke regels voor adviesrecht en
+  participatieplicht valt, wil de gemeente afspraken maken over de
+  vergunningbehandeling en het proces richting de gemeenteraad.
+milestones: []
+ai_processed_at: '2026-11-16T10:11:00.017Z'
+ai_status: done
 ---
 
 Verzonden: vrijdag

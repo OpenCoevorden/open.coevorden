@@ -1,9 +1,24 @@
 ---
-title: "250701 Vraag elker (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250701 Vraag elker (Geanonimiseerd).pdf"
-s3_etag: "22d2344456f66dbf17481b7ec869991f"
-date: 2026-11-16
+title: 250701 Vraag elker (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250701 Vraag elker (Geanonimiseerd).pdf
+s3_etag: 22d2344456f66dbf17481b7ec869991f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een medewerker van de gemeente Coevorden vraagt collega’s om met
+  opvangorganisatie Elker afspraken te maken over de doelgroep (meisjes) en de
+  duur van een opvanglocatie in Tuindorp. Aanleiding is de behoefte van een
+  inwoner, die bekendstaat als tegenstander van de opvanglocatie, aan zekerheid
+  en duidelijkheid om onrust te verminderen; een uitkomst wordt niet vermeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:33:32.390Z'
+ai_status: done
 ---
 
 Van: 5

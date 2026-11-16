@@ -1,9 +1,26 @@
 ---
-title: "Fw Communicatiestrategie KWG Havelte (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Fw Communicatiestrategie KWG Havelte (Geanonimiseerd).pdf"
-s3_etag: "98a55e056d6d8d22ea8dbbd7daff1ba0"
-date: 2026-11-16
+title: Fw Communicatiestrategie KWG Havelte (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Fw Communicatiestrategie KWG Havelte
+  (Geanonimiseerd).pdf
+s3_etag: 98a55e056d6d8d22ea8dbbd7daff1ba0
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Westerveld stemt met communicatiecollega’s van de gemeente
+  Coevorden een communicatiestrategie af over de huisvesting van jongeren in het
+  KWG Havelte en de informatievoorziening aan buurtbewoners en omwonenden.
+  Westerveld wil de omwonenden informeren en Coevorden aansluitend laten
+  communiceren dat er onderdak voor de jongeren is, waarvan een deel naar
+  Westerveld gaat.
+milestones: []
+ai_processed_at: '2026-11-16T09:24:20.957Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

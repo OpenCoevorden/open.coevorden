@@ -1,9 +1,30 @@
 ---
-title: "Communicatie huisvesting minderjarige statushouders NIDOS - versie 22 jan 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Communicatie huisvesting minderjarige statushouders NIDOS - versie 22 jan 2024 (Geanonimiseerd).pdf"
-s3_etag: "c8c9fcf594ea3179e4f2353e241fa607"
-date: 2026-11-16
+title: >-
+  Communicatie huisvesting minderjarige statushouders NIDOS - versie 22 jan 2024
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Communicatie huisvesting minderjarige
+  statushouders NIDOS - versie 22 jan 2024 (Geanonimiseerd).pdf
+s3_etag: c8c9fcf594ea3179e4f2353e241fa607
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een communicatieplan en bijbehorende brieven, een
+  persbericht en Q&A’s over de huisvesting van maximaal twaalf minderjarige
+  statushouders en een gezin van elf statushouders in zes voormalige
+  Cosis-woningen aan de JC Homanstraat in Coevorden. De gemeente Coevorden en
+  woningcorporatie Domesta werken hiervoor samen met NIDOS en Stichting Phusis;
+  de jongeren krijgen 24/7 begeleiding en de eerste bewoners worden vanaf half
+  maart 2024 verwacht, waarbij omwonenden via brieven en inloopavonden worden
+  geïnformeerd en betrokken bij de inpassing in de buurt.
+milestones: []
+ai_processed_at: '2026-11-16T09:27:21.195Z'
+ai_status: done
 ---
 
 Communicatie huisvesting minderjarige statushouders en

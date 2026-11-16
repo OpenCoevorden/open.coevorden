@@ -1,9 +1,26 @@
 ---
-title: "250630  FW Vragen RTV Drenthe Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250630  FW Vragen RTV Drenthe Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "8584469985a733597c38a581bf710666"
-date: 2026-11-16
+title: 250630  FW Vragen RTV Drenthe Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250630  FW Vragen RTV Drenthe Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: 8584469985a733597c38a581bf710666
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden reageert op vragen van RTV Drenthe over de opvanglocatie
+  in Tuindorp, waar Elker, Domesta, Nidos, de politie en andere betrokkenen
+  werken aan huisvesting voor 14 alleenstaande meisjes met een verblijfsstatus.
+  De gemeente stelt dat er geen jongens en meisjes samen in één huis komen, dat
+  de burgemeester vanwege mogelijke escalatie niet ter plaatse was en dat de
+  veiligheid en verdere aanpak gezamenlijk worden beoordeeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:35:11.714Z'
+ai_status: done
 ---
 
 u mn

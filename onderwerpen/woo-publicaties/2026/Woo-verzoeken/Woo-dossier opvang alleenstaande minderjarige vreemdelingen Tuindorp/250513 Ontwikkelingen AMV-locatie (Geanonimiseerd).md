@@ -1,9 +1,28 @@
 ---
-title: "250513 Ontwikkelingen AMV-locatie (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250513 Ontwikkelingen AMV-locatie (Geanonimiseerd).pdf"
-s3_etag: "b4fe5f6bd944a443dc320178fe939edf"
-date: 2026-11-16
+title: 250513 Ontwikkelingen AMV-locatie (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250513 Ontwikkelingen AMV-locatie
+  (Geanonimiseerd).pdf
+s3_etag: b4fe5f6bd944a443dc320178fe939edf
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mail gaat over ontwikkelingen rond de AMV-locatie in Tuindorp, waarbij
+  Elker heeft besloten uitsluitend meisjes te plaatsen en Domesta dit
+  gedeeltelijk met omwonenden heeft gedeeld. Het bezwaar tegen de locatie wordt
+  tijdens een hoorzitting behandeld; bij een positieve uitkomst voor de gemeente
+  start Elker met de voorbereidingen en wordt het veiligheidsplan met de
+  gemeente en mogelijk de politie besproken.
+milestones:
+  - date: '2025-05-21'
+    event: Geplande hoorzitting in de bezwaarprocedure
+ai_processed_at: '2026-11-16T09:43:56.381Z'
+ai_status: done
 ---
 
 Van: J

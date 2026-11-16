@@ -1,9 +1,41 @@
 ---
-title: "250428 bezwaren ontvangen tegen omgevingsvergunning huisvesten (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250428 bezwaren ontvangen tegen omgevingsvergunning huisvesten (Geanonimiseerd).pdf"
-s3_etag: "ac233ec1e545f3fb88712b637057692b"
-date: 2026-11-16
+title: >-
+  250428 bezwaren ontvangen tegen omgevingsvergunning huisvesten
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250428 bezwaren ontvangen tegen
+  omgevingsvergunning huisvesten (Geanonimiseerd).pdf
+s3_etag: ac233ec1e545f3fb88712b637057692b
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de omgevingsvergunning die de gemeente Coevorden aan
+  Stichting Elker heeft verleend voor de tijdelijke huisvesting van maximaal 14
+  alleenstaande minderjarige vreemdelingen aan de Dr. J.C. Homanstraat 55-63,
+  voor maximaal vijf jaar. Tegen de vergunning zijn 60 inhoudelijk grotendeels
+  gelijke bezwaarschriften van omwonenden ingediend; behandeling door de
+  onafhankelijke bezwaarschriftencommissie en een hoorzitting waren gepland,
+  maar een beslissing op bezwaar is nog niet opgenomen.
+milestones:
+  - date: '2024-11-06'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor huisvesting van maximaal 14
+      alleenstaande minderjarige vreemdelingen.
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend voor maximaal vijf jaar.
+  - date: '2025-01-30'
+    event: Beslistermijn met zes weken verlengd.
+  - date: '2025-04-10'
+    event: >-
+      Bezwaar ingediend tegen de omgevingsvergunning; in totaal zijn 60
+      bezwaarschriften ontvangen.
+ai_processed_at: '2026-11-16T09:45:09.763Z'
+ai_status: done
 ---
 
 Van: "bezwaarschriftencommissie"

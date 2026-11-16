@@ -1,9 +1,26 @@
 ---
-title: "241031 Kort bijpraat moment AMV vóór college (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241031 Kort bijpraat moment AMV vóór college (Geanonimiseerd).pdf"
-s3_etag: "ef996e150a94b6f9bbb3603779af3ac6"
-date: 2026-11-16
+title: 241031 Kort bijpraat moment AMV vóór college (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241031 Kort bijpraat moment AMV vóór
+  college (Geanonimiseerd).pdf
+s3_etag: ef996e150a94b6f9bbb3603779af3ac6
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mail gaat over het aangepaste collegevoorstel over AMV dat op 5 november
+  in het college van burgemeester en wethouders van Coevorden wordt besproken,
+  nadat de agendacommissie vragen had gesteld en aanpassingen had gevraagd. De
+  afzender meldt dat de eerder gedeelde planning niet haalbaar is en verzoekt
+  het bestuurssecretariaat een kort overleg met Joop Slomp en betrokken
+  medewerkers in te plannen.
+milestones: []
+ai_processed_at: '2026-11-16T10:07:48.414Z'
+ai_status: done
 ---
 
 vi mn

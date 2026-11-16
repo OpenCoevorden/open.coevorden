@@ -1,9 +1,24 @@
 ---
-title: "250630 Ophef Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250630 Ophef Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "53df920dc8647170d288d66d18fe226a"
-date: 2026-11-16
+title: 250630 Ophef Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250630 Ophef Tuindorp (Geanonimiseerd).pdf
+s3_etag: 53df920dc8647170d288d66d18fe226a
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een medewerker van Maatschappelijk Welzijn Coevorden biedt naar aanleiding van
+  een brand en protest in de wijk Tuindorp ondersteuning aan bij overleg en
+  acties rond de voorgenomen plaatsing van minderjarige statushouders, en vraagt
+  om op de hoogte te worden gehouden van besluiten zodat zij de wijk goed kan
+  ondersteunen.
+milestones: []
+ai_processed_at: '2026-11-16T09:34:38.509Z'
+ai_status: done
 ---
 
 Van: RN <emnweoevorden.nl> (geanonimiseerd) (geanonimiseerd)

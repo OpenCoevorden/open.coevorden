@@ -1,9 +1,27 @@
 ---
-title: "250605 Memo AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250605 Memo AMV (Geanonimiseerd).pdf"
-s3_etag: "28b9c586e52a61a0160d2a3fe1570fa2"
-date: 2026-11-16
+title: 250605 Memo AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250605 Memo AMV (Geanonimiseerd).pdf
+s3_etag: 28b9c586e52a61a0160d2a3fe1570fa2
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden beschrijft de voorbereiding van een kinderwoongroep voor
+  14 alleenstaande minderjarige meisjes aan de Doctor J.C. Homanstraat, samen
+  met Domesta, Elker en Nidos, tegen de achtergrond van verzet en dreigende
+  uitlatingen van buurtbewoners. Er is een veiligheidsplan opgesteld met
+  mogelijke maatregelen zoals extra toezicht, camera’s en beveiliging; de
+  uitkomst van de bezwaarprocedure werd nog verwacht.
+milestones:
+  - date: '2025-05-21'
+    event: Hoorzitting over bezwaar tegen de AMV-locatie
+ai_processed_at: '2026-11-16T09:41:21.883Z'
+ai_status: done
 ---
 
 Van: J

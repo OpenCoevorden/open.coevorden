@@ -1,9 +1,28 @@
 ---
-title: "250221 'Bijpraten' inloopmomenten huisvesting AMV en uitnodigingsbrief (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250221 'Bijpraten' inloopmomenten huisvesting AMV en uitnodigingsbrief (Geanonimiseerd).pdf"
-s3_etag: "02e85a73cfc68344ca0a6aea02c8b890"
-date: 2026-11-16
+title: >-
+  250221 'Bijpraten' inloopmomenten huisvesting AMV en uitnodigingsbrief
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250221 'Bijpraten' inloopmomenten
+  huisvesting AMV en uitnodigingsbrief (Geanonimiseerd).pdf
+s3_etag: 02e85a73cfc68344ca0a6aea02c8b890
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de huisvesting vanaf april 2025 van 14 alleenstaande
+  minderjarige vluchtelingen met verblijfsstatus aan de Doctor J.C. Homanstraat
+  in Coevorden, waarbij de gemeente Coevorden samenwerkt met Elker, Domesta en
+  Nidos. Buurtbewoners worden via twee inloopmomenten geïnformeerd en
+  uitgenodigd om vragen te stellen, met als doel draagvlak en goede integratie
+  in de wijk Tuindorp te bevorderen.
+milestones: []
+ai_processed_at: '2026-11-16T09:52:55.817Z'
+ai_status: done
 ---
 
 J

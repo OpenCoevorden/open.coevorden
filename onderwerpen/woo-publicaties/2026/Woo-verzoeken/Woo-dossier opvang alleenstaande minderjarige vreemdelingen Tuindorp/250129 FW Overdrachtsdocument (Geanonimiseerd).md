@@ -1,9 +1,25 @@
 ---
-title: "250129 FW Overdrachtsdocument (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250129 FW Overdrachtsdocument (Geanonimiseerd).pdf"
-s3_etag: "2481e7563e04127987e4a3d7a68a7315"
-date: 2026-11-16
+title: 250129 FW Overdrachtsdocument (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250129 FW Overdrachtsdocument
+  (Geanonimiseerd).pdf
+s3_etag: 2481e7563e04127987e4a3d7a68a7315
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over de overdracht van werkzaamheden binnen de
+  gemeente Coevorden, met bijzondere aandacht voor de spoedige behandeling van
+  de vergunningsaanvraag van Elker. Een gemeentemedewerker neemt de aanvraag op
+  zich en zal deze naar verwachting die week afronden, waarbij intern wordt
+  afgestemd wie Elker informeert.
+milestones: []
+ai_processed_at: '2026-11-16T09:57:46.088Z'
+ai_status: done
 ---
 
 u nn

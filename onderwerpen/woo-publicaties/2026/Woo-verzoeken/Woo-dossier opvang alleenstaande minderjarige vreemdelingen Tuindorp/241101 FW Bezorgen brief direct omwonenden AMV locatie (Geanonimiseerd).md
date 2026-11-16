@@ -1,9 +1,25 @@
 ---
-title: "241101 FW Bezorgen brief direct omwonenden AMV locatie (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241101 FW Bezorgen brief direct omwonenden AMV locatie (Geanonimiseerd).pdf"
-s3_etag: "18561f51ed325268f45cf560c60ff81f"
-date: 2026-11-16
+title: 241101 FW Bezorgen brief direct omwonenden AMV locatie (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241101 FW Bezorgen brief direct omwonenden
+  AMV locatie (Geanonimiseerd).pdf
+s3_etag: 18561f51ed325268f45cf560c60ff81f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Medewerkers van de gemeente Coevorden stemmen de bezorging van een brief aan
+  direct omwonenden van een AMV-locatie in Tuindorp af en bepalen welke
+  omliggende adressen tot deze groep behoren. Een collega zal de brieven op
+  woensdag bezorgen; vooraf wordt met een plattegrond toegelicht wat de
+  bedoeling is en eventuele vragen kunnen worden doorverwezen.
+milestones: []
+ai_processed_at: '2026-11-16T10:07:15.984Z'
+ai_status: done
 ---
 
 u nn

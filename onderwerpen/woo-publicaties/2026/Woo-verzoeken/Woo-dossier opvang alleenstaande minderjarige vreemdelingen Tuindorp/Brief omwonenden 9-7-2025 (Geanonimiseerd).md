@@ -1,9 +1,25 @@
 ---
-title: "Brief omwonenden 9-7-2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Brief omwonenden 9-7-2025 (Geanonimiseerd).pdf"
-s3_etag: "3295e889a660b2b1f9bdcecb8318c03c"
-date: 2026-11-16
+title: Brief omwonenden 9-7-2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Brief omwonenden 9-7-2025
+  (Geanonimiseerd).pdf
+s3_etag: 3295e889a660b2b1f9bdcecb8318c03c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Westerveld informeert omwonenden over de komst van 14
+  minderjarige, statushoudende meisjes van 15 tot 18 jaar naar de Eik Staete aan
+  de Rijksweg Noordzijde 14 in Havelte. De meisjes stromen vanaf 4 augustus 2025
+  gefaseerd in en krijgen 24 uur per dag begeleiding van Stichting Phusis bij
+  onder meer taal, scholing, inburgering en welzijn.
+milestones: []
+ai_processed_at: '2026-11-16T09:29:30.356Z'
+ai_status: done
 ---
 
 Aan de bewoners van:

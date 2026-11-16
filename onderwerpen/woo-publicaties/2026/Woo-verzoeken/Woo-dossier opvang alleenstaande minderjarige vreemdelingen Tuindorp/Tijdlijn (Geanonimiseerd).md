@@ -1,9 +1,39 @@
 ---
-title: "Tijdlijn (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Tijdlijn (Geanonimiseerd).pdf"
-s3_etag: "9f8a21dc0b278650bd7a3a4396527676"
-date: 2026-11-16
+title: Tijdlijn (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Tijdlijn (Geanonimiseerd).pdf
+s3_etag: 9f8a21dc0b278650bd7a3a4396527676
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document beschrijft de besluitvorming en participatie rond de huisvesting
+  van alleenstaande minderjarige vreemdelingen (AMV’s) door Elker in woningen
+  aan de Doctor J.C. Homanstraat 55-63 in Coevorden, in samenwerking met de
+  gemeente Coevorden en Domesta, met betrokkenheid van de gemeenteraad en
+  omwonenden. De omgevingsvergunning is verleend en na behandeling van 57
+  bezwaarschriften, waarvan acht ontvankelijk waren, in stand gebleven omdat de
+  bezwaren ongegrond of niet-ontvankelijk zijn verklaard; beroep bij de
+  rechtbank Noord-Nederland blijft mogelijk.
+milestones:
+  - date: '2024-11-06'
+    event: Omgevingsvergunning aangevraagd door Elker.
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend.
+  - date: '2025-05-21'
+    event: Bezwaarschriften van omwonenden behandeld.
+  - date: '2025-06-05'
+    event: >-
+      Advies bezwaarschriftencommissie uitgebracht: bezwaren niet-ontvankelijk
+      dan wel ongegrond.
+  - date: '2025-06-18'
+    event: Beslissing op bezwaar verzonden; omgevingsvergunning blijft in stand.
+ai_processed_at: '2026-11-16T09:20:20.707Z'
+ai_status: done
 ---
 
 Tijdlijn huisvesten AMV

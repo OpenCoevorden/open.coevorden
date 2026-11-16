@@ -1,9 +1,26 @@
 ---
-title: "250703 Bericht Elker 2 juli 16.00 uur (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250703 Bericht Elker 2 juli 16.00 uur (Geanonimiseerd).pdf"
-s3_etag: "eb04fbc8cc870fd8bd444ab8c5911f0e"
-date: 2026-11-16
+title: 250703 Bericht Elker 2 juli 16.00 uur (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250703 Bericht Elker 2 juli 16.00 uur
+  (Geanonimiseerd).pdf
+s3_etag: eb04fbc8cc870fd8bd444ab8c5911f0e
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Elker informeert betrokken collega’s dat de geplande opvang van 14
+  alleenstaande minderjarige vreemdelingen via Nidos aan de Homanstraat in
+  Coevorden wordt uitgesteld. Door recente protesten, dreigementen en verstoring
+  van de openbare orde kan de veiligheid niet worden gegarandeerd; Elker
+  overlegt met de gemeente, politie en buurtbewoners en hervat de
+  voorbereidingen zodra de situatie veilig is.
+milestones: []
+ai_processed_at: '2026-11-16T09:32:47.637Z'
+ai_status: done
 ---
 
 Van: J

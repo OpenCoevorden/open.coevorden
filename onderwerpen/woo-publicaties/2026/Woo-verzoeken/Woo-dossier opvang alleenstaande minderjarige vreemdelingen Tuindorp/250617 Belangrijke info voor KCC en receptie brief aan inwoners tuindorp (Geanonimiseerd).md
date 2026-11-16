@@ -1,9 +1,32 @@
 ---
-title: "250617 Belangrijke info voor KCC en receptie brief aan inwoners tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250617 Belangrijke info voor KCC en receptie brief aan inwoners tuindorp (Geanonimiseerd).pdf"
-s3_etag: "7967ecea7c2b70c4104fa1a81c58d702"
-date: 2026-11-16
+title: >-
+  250617 Belangrijke info voor KCC en receptie brief aan inwoners tuindorp
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250617 Belangrijke info voor KCC en
+  receptie brief aan inwoners tuindorp (Geanonimiseerd).pdf
+s3_etag: 7967ecea7c2b70c4104fa1a81c58d702
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert inwoners van de wijk Tuindorp over de komst
+  van veertien alleenstaande minderjarige vrouwelijke statushouders naar
+  woningen aan de Doctor J.C. Homanstraat. De jongeren worden 24 uur per dag
+  begeleid door Elker, onder voogdij van NIDOS, en hun huisvesting gaat door
+  omdat de bezwaren van omwonenden ongegrond zijn verklaard; Domesta en Elker
+  zijn betrokken.
+milestones:
+  - date: '2025-05-21'
+    event: >-
+      Bezwaarschriftencommissie verklaart de bezwaren tegen de huisvesting van
+      minderjarige statushouders ongegrond
+ai_processed_at: '2026-11-16T09:37:50.809Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

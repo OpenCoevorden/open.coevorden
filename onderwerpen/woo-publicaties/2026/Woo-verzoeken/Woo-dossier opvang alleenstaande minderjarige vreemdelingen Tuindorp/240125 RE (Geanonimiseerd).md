@@ -1,9 +1,24 @@
 ---
-title: "240125 RE (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240125 RE (Geanonimiseerd).pdf"
-s3_etag: "520f061cf5a2bd3c98800cf1a5fd0d2d"
-date: 2026-11-16
+title: 240125 RE (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240125 RE (Geanonimiseerd).pdf
+s3_etag: 520f061cf5a2bd3c98800cf1a5fd0d2d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  In e-mailcorrespondentie tussen medewerkers van de gemeente Coevorden wordt de
+  politieke bespreking over een omgevingsvergunning, het eventuele adviesrecht
+  van fracties en de ontbindende voorwaarde van Phusis besproken. De verwachting
+  is dat geen gebruik wordt gemaakt van het adviesrecht en dat de gemeentelijke
+  meerderheid, indien nodig, met de omgevingsvergunning instemt.
+milestones: []
+ai_processed_at: '2026-11-16T10:14:09.569Z'
+ai_status: done
 ---
 
 Verzonden: donderdag 25 januari 2024 10:59

@@ -1,9 +1,26 @@
 ---
-title: "241011 Brief raad OPM (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241011 Brief raad OPM (Geanonimiseerd).pdf"
-s3_etag: "9ec79ff4c2e95b2e11c4d6bffa855c0d"
-date: 2026-11-16
+title: 241011 Brief raad OPM (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241011 Brief raad OPM (Geanonimiseerd).pdf
+s3_etag: 9ec79ff4c2e95b2e11c4d6bffa855c0d
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert de gemeenteraad over het voornemen om
+  veertien alleenstaande minderjarige vreemdelingen met een verblijfsstatus te
+  huisvesten in een kinderwoongroep aan de Doctor J.C. Homanstraat 55-63, in
+  samenwerking met Domesta, Nidos en Elker. Elker zal de woningen huren, de
+  omgevingsvergunning aanvragen en dag en nacht begeleiding bieden; de
+  gemeenteraad krijgt adviesrecht en omwonenden worden bij de communicatie
+  betrokken.
+milestones: []
+ai_processed_at: '2026-11-16T10:10:02.600Z'
+ai_status: done
 ---
 
 Van:

@@ -1,9 +1,30 @@
 ---
-title: "Communicatiestrategie KWG Havelte (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Communicatiestrategie KWG Havelte (Geanonimiseerd).pdf"
-s3_etag: "e28d78cde87d8897478c1c740b639755"
-date: 2026-11-16
+title: Communicatiestrategie KWG Havelte (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Communicatiestrategie KWG Havelte
+  (Geanonimiseerd).pdf
+s3_etag: e28d78cde87d8897478c1c740b639755
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document beschrijft de communicatiestrategie van de gemeenten Westerveld
+  en Coevorden, Nidos en Stichting Phusis rond de opvang van 14 alleenstaande
+  minderjarige meisjes met status in de Eik Staete in Havelte. De meisjes
+  stromen vanaf 4 augustus 2025 gefaseerd in en krijgen daar twee jaar lang, met
+  de intentie tot langer verblijf, 24/7 begeleiding; omwonenden en lokale
+  organisaties worden hierover geïnformeerd.
+milestones:
+  - date: '2025-04-22'
+    event: >-
+      College van B&W stemt in met opvang van 12 tot 14 alleenstaande
+      minderjarige vluchtelingen in de Eik Staete in Havelte.
+ai_processed_at: '2026-11-16T09:27:10.014Z'
+ai_status: done
 ---
 
 Laatste update: 8 juli 2025

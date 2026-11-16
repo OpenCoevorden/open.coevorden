@@ -1,9 +1,30 @@
 ---
-title: "241122 FW Collegevoorstel - Dr. JC homanstraat 55-63_opm (003) (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241122 FW Collegevoorstel - Dr. JC homanstraat 55-63_opm (003) (Geanonimiseerd).pdf"
-s3_etag: "23ecb1249056c6414b7518f767242a50"
-date: 2026-11-16
+title: >-
+  241122 FW Collegevoorstel - Dr. JC homanstraat 55-63_opm (003)
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241122 FW Collegevoorstel - Dr. JC
+  homanstraat 55-63_opm (003) (Geanonimiseerd).pdf
+s3_etag: 23ecb1249056c6414b7518f767242a50
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne e-mailwisseling tussen medewerkers van de gemeente Coevorden over het
+  collegevoorstel voor de Dr. J.C. Homanstraat 55-63, betreffende het
+  adviesrecht over de huisvesting van alleenstaande minderjarige vreemdelingen
+  (AMV) gedurende vijf jaar. De betrokken medewerkers bespreken tekstuele en
+  inhoudelijke aanpassingen, waaronder het gebruik van de term
+  ‘kinderwoongroep’, en spreken af hun opmerkingen te bundelen en een
+  definitieve versie voor verdere beoordeling en agendering in het PFO aan te
+  leveren.
+milestones: []
+ai_processed_at: '2026-11-16T10:03:59.406Z'
+ai_status: done
 ---
 
 Van:

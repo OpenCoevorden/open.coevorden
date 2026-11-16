@@ -1,9 +1,26 @@
 ---
-title: "240926 Indiening aanvraag vestiging AMV-ers (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240926 Indiening aanvraag vestiging AMV-ers (Geanonimiseerd).pdf"
-s3_etag: "1016f74eb5e252076cfa704f7a11edbe"
-date: 2026-11-16
+title: 240926 Indiening aanvraag vestiging AMV-ers (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240926 Indiening aanvraag vestiging
+  AMV-ers (Geanonimiseerd).pdf
+s3_etag: 1016f74eb5e252076cfa704f7a11edbe
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert Elker over de aanvraag voor de vestiging van
+  alleenstaande minderjarige vreemdelingen (AMV’ers) aan de Dr. J.C. Homanstraat
+  55-63 in Coevorden. De gemeente geeft aan dat een omgevingsvergunning voor
+  afwijking van het omgevingsplan en een melding brandveilig gebruik nodig zijn
+  en beschrijft welke gegevens, tekeningen en brandveiligheidsvoorzieningen
+  moeten worden aangeleverd.
+milestones: []
+ai_processed_at: '2026-11-16T10:11:11.105Z'
+ai_status: done
 ---
 
 U nn

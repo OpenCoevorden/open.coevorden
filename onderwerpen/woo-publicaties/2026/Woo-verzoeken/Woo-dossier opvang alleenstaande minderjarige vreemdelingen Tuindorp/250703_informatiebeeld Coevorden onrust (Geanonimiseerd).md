@@ -1,9 +1,31 @@
 ---
-title: "250703_informatiebeeld Coevorden onrust (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250703_informatiebeeld Coevorden onrust (Geanonimiseerd).pdf"
-s3_etag: "fd91c66c04521bda25e1d6dd2f130dfc"
-date: 2026-11-16
+title: 250703_informatiebeeld Coevorden onrust (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250703_informatiebeeld Coevorden onrust
+  (Geanonimiseerd).pdf
+s3_etag: fd91c66c04521bda25e1d6dd2f130dfc
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Informatierapportage van Veiligheidsregio Drenthe over de onrust in de
+  Coevorder wijk Tuindorp rond de komst van veertien minderjarige vrouwelijke
+  statushouders, waarbij gemeente Coevorden, inwoners, politie, hulpdiensten en
+  jeugdhulporganisatie Elker betrokken zijn. Het rapport beschrijft protesten,
+  brandstichtingen, schade, sociale-mediabeeld en mogelijke oorzaken en
+  uitbreiding van de onrust; de burgemeester handhaafde het besluit en stelde
+  een noodverordening in tot 10 juli 2025.
+milestones:
+  - date: '2025-01-15'
+    event: >-
+      Gemeente maakt besluit bekend om veertien minderjarige statushouders in
+      vijf woningen te huisvesten.
+ai_processed_at: '2026-11-16T09:32:01.405Z'
+ai_status: done
 ---
 
 “4 Veiligheidsregio

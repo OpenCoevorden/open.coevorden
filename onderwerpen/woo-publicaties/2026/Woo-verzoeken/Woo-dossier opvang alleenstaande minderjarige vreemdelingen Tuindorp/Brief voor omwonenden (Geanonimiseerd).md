@@ -1,9 +1,24 @@
 ---
-title: "Brief voor omwonenden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Brief voor omwonenden (Geanonimiseerd).pdf"
-s3_etag: "b6db6e99278b60847bbb53441c100744"
-date: 2026-11-16
+title: Brief voor omwonenden (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Brief voor omwonenden (Geanonimiseerd).pdf
+s3_etag: b6db6e99278b60847bbb53441c100744
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert omwonenden over het voornemen om vanaf maart
+  2025 veertien alleenstaande minderjarige statushouders, begeleid door Elker,
+  te huisvesten in vijf woningen aan de Doctor J.C. Homanstraat. De jongeren
+  krijgen ondersteuning bij hun inburgering en er wordt, zodra de plannen
+  definitief zijn, een inloopmoment voor buurtbewoners georganiseerd.
+milestones: []
+ai_processed_at: '2026-11-16T09:29:19.755Z'
+ai_status: done
 ---
 
 Postadres:

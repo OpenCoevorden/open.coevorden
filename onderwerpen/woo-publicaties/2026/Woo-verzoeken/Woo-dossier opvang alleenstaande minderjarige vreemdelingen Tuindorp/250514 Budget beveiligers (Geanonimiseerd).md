@@ -1,9 +1,24 @@
 ---
-title: "250514 Budget beveiligers (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250514 Budget beveiligers (Geanonimiseerd).pdf"
-s3_etag: "e151afb36aa49db17d1615a9bfc2f78e"
-date: 2026-11-16
+title: 250514 Budget beveiligers (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250514 Budget beveiligers
+  (Geanonimiseerd).pdf
+s3_etag: e151afb36aa49db17d1615a9bfc2f78e
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mail gaat over de financiering van beveiligers op de AMV-locatie van de
+  gemeente Coevorden. Er is binnen de betrokken afdelingen geen budget
+  beschikbaar; eventuele beveiliging moet uit een ander budget worden betaald en
+  met een betrokken partij worden aanvullende preventieve maatregelen besproken.
+milestones: []
+ai_processed_at: '2026-11-16T09:43:43.471Z'
+ai_status: done
 ---
 
 Van: J

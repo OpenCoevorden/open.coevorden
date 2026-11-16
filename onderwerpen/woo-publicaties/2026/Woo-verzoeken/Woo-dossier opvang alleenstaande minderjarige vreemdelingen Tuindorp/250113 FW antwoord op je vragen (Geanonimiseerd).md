@@ -1,9 +1,26 @@
 ---
-title: "250113 FW antwoord op je vragen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250113 FW antwoord op je vragen (Geanonimiseerd).pdf"
-s3_etag: "21f316e3b7e789f0a0cc9f1134eb3763"
-date: 2026-11-16
+title: 250113 FW antwoord op je vragen (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250113 FW antwoord op je vragen
+  (Geanonimiseerd).pdf
+s3_etag: 21f316e3b7e789f0a0cc9f1134eb3763
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat antwoorden van jeugdhulporganisatie Elker aan Coevorder
+  Nieuws over een woonvoorziening in Coevorden voor vijf tot zes alleenstaande
+  minderjarige vluchtelingen van ongeveer 15 tot 18 jaar, die onder voogdij van
+  NIDOS staan. Elker biedt hen 24 uur per dag begeleiding in hun ontwikkeling
+  naar zelfstandigheid; de gemeente informeert omwonenden en Elker wil hen bij
+  buurtactiviteiten betrekken.
+milestones: []
+ai_processed_at: '2026-11-16T10:00:50.972Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

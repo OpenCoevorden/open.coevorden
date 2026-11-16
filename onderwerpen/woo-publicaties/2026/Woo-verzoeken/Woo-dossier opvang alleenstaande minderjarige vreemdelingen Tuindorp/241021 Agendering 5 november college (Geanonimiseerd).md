@@ -1,9 +1,25 @@
 ---
-title: "241021 Agendering 5 november college (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241021 Agendering 5 november college (Geanonimiseerd).pdf"
-s3_etag: "314cd909a08fb423735c47c76cf6f4fa"
-date: 2026-11-16
+title: 241021 Agendering 5 november college (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241021 Agendering 5 november college
+  (Geanonimiseerd).pdf
+s3_etag: 314cd909a08fb423735c47c76cf6f4fa
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een medewerker van de gemeente Coevorden verzoekt het bestuurssecretariaat om
+  zaak 56870-2024 over KWG voor alleenstaande minderjarige vreemdelingen met een
+  verblijfsstatus, inclusief vijf gekoppelde documenten, te agenderen voor de
+  collegevergadering van 5 november 2024. De stukken zijn daarmee ter agendering
+  aangemeld.
+milestones: []
+ai_processed_at: '2026-11-16T10:09:16.921Z'
+ai_status: done
 ---
 
 vi mn

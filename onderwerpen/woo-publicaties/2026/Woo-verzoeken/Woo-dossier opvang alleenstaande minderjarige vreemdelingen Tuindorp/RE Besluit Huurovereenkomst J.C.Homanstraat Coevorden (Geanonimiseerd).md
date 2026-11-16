@@ -1,9 +1,30 @@
 ---
-title: "RE Besluit Huurovereenkomst J.C.Homanstraat Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/RE Besluit Huurovereenkomst J.C.Homanstraat Coevorden (Geanonimiseerd).pdf"
-s3_etag: "27da41ce7be85ab9add7d2545c93cf3e"
-date: 2026-11-16
+title: RE Besluit Huurovereenkomst J.C.Homanstraat Coevorden (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/RE Besluit Huurovereenkomst
+  J.C.Homanstraat Coevorden (Geanonimiseerd).pdf
+s3_etag: 27da41ce7be85ab9add7d2545c93cf3e
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Domesta informeert Stichting Phusis over het besluit rond de huurovereenkomst
+  voor de locatie aan de J.C. Homanstraat in Coevorden, die geschikt is bevonden
+  voor de opvang van alleenstaande minderjarige vreemdelingen (AMV). Domesta wil
+  zich ook voor deze doelgroep inzetten, maar houdt rekening met haar
+  verantwoordelijkheid voor de wijk Tuindorp, en zal het besluit aan de gemeente
+  kenbaar maken.
+milestones:
+  - date: '2024-02-08'
+    event: >-
+      Besluit over de huurovereenkomst aan de J.C. Homanstraat in Coevorden
+      meegedeeld.
+ai_processed_at: '2026-11-16T09:23:06.313Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

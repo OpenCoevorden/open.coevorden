@@ -1,9 +1,27 @@
 ---
-title: "250616 FW brief + QA  aanvullingen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250616 FW brief + QA  aanvullingen (Geanonimiseerd).pdf"
-s3_etag: "f08b41f7908495c697ae57119fba6e8e"
-date: 2026-11-16
+title: 250616 FW brief + QA  aanvullingen (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250616 FW brief + QA  aanvullingen
+  (Geanonimiseerd).pdf
+s3_etag: f08b41f7908495c697ae57119fba6e8e
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat een conceptbrief en veelgestelde vragen over de huisvesting
+  van 14 alleenstaande minderjarige vrouwelijke statushouders van 15 tot 18 jaar
+  in vijf woningen aan de Doctor J.C. Homanstraat in de wijk Tuindorp in
+  Coevorden, met begeleiding door Elker in opdracht van NIDOS en betrokkenheid
+  van de gemeente Coevorden en Domesta. De locatie staat vast, de jongeren
+  worden naar verwachting in de zomer geplaatst en bezwaren van buurtbewoners
+  zijn door de bezwaarschriftencommissie ongegrond verklaard.
+milestones: []
+ai_processed_at: '2026-11-16T09:38:02.146Z'
+ai_status: done
 ---
 
 u nr

@@ -1,9 +1,28 @@
 ---
-title: "241119 RE Reacties van omwonenden t.a.v. huisvesting van AMV's (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241119 RE Reacties van omwonenden t.a.v. huisvesting van AMV's (Geanonimiseerd).pdf"
-s3_etag: "d9d9bb404582efa5442914b371d5f4d9"
-date: 2026-11-16
+title: >-
+  241119 RE Reacties van omwonenden t.a.v. huisvesting van AMV's
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241119 RE Reacties van omwonenden t.a.v.
+  huisvesting van AMV's (Geanonimiseerd).pdf
+s3_etag: d9d9bb404582efa5442914b371d5f4d9
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stemt met Domesta, Nidos en Elker af over reacties van
+  omwonenden op het voornemen om alleenstaande minderjarige vreemdelingen
+  (AMV’s) te huisvesten, ter voorbereiding van het college- en raadsvoorstel. Er
+  zijn nog geen rechtstreekse vragen of reacties van omwonenden ontvangen; de
+  buurtvereniging Tuindorp uit wel zorgen en benadrukt het belang van een
+  aanspreekpunt, korte communicatielijnen en een inloopmoment op locatie.
+milestones: []
+ai_processed_at: '2026-11-16T10:04:21.385Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

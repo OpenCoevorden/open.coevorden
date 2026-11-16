@@ -1,9 +1,24 @@
 ---
-title: "250612 RE _$Z_1935889a-6eae-4b13-b9ef-86be04c4e85e (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250612 RE _$Z_1935889a-6eae-4b13-b9ef-86be04c4e85e (Geanonimiseerd).pdf"
-s3_etag: "d3a6fe6b8feb689a45375fe11e79e3aa"
-date: 2026-11-16
+title: 250612 RE _$Z_1935889a-6eae-4b13-b9ef-86be04c4e85e (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250612 RE
+  _$Z_1935889a-6eae-4b13-b9ef-86be04c4e85e (Geanonimiseerd).pdf
+s3_etag: d3a6fe6b8feb689a45375fe11e79e3aa
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne medewerkers van de gemeente Coevorden stemmen de inhoud, routing en
+  vertrouwelijke behandeling van een document af, waarin nog niet-openbare
+  informatie staat. Zij vinden de inhoud akkoord en besluiten het document via
+  MP door te zetten en voorlopig niet openbaar te maken.
+milestones: []
+ai_processed_at: '2026-11-16T09:39:18.767Z'
+ai_status: done
 ---
 
 Verzonden: donderdag 12juni 2025 12:19

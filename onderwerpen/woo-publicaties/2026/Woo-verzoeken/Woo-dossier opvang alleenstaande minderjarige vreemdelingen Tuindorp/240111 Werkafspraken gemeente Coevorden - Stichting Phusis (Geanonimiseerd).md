@@ -1,9 +1,26 @@
 ---
-title: "240111 Werkafspraken gemeente Coevorden - Stichting Phusis (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240111 Werkafspraken gemeente Coevorden - Stichting Phusis (Geanonimiseerd).pdf"
-s3_etag: "151d350d67616c7216ec364082a2c6b3"
-date: 2026-11-16
+title: 240111 Werkafspraken gemeente Coevorden - Stichting Phusis (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240111 Werkafspraken gemeente Coevorden -
+  Stichting Phusis (Geanonimiseerd).pdf
+s3_etag: 151d350d67616c7216ec364082a2c6b3
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document beschrijft de werkafspraken tussen de gemeente Coevorden en
+  Stichting Phusis over de opvang en begeleiding van twaalf alleenstaande
+  minderjarige vreemdelingen in een kinderwoongroep, met betrokkenheid van
+  Nidos. De afspraken regelen onder meer de voorbereiding op de overgang naar
+  meerderjarigheid, huisvesting, scholing, inkomen en begeleiding,
+  gegevensdeling en periodiek samenwerkingsoverleg.
+milestones: []
+ai_processed_at: '2026-11-16T10:15:37.195Z'
+ai_status: done
 ---
 
 u nn

@@ -1,9 +1,25 @@
 ---
-title: "250307 minderjarige asielzoekers Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250307 minderjarige asielzoekers Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "e767b3d39e373b1871461cd072ee7555"
-date: 2026-11-16
+title: 250307 minderjarige asielzoekers Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250307 minderjarige asielzoekers Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: e767b3d39e373b1871461cd072ee7555
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een politiefunctionaris informeert medewerkers van de gemeente Coevorden over
+  weerstand in de wijk Tuindorp tegen de voorgenomen huisvesting van
+  minderjarige asielzoekers. Buurtbewoners hebben 96 handtekeningen verzameld en
+  willen op 11 maart 2025 met een delegatie bezwaar indienen bij het
+  gemeentehuis; een uitkomst wordt niet vermeld.
+milestones: []
+ai_processed_at: '2026-11-16T09:50:17.551Z'
+ai_status: done
 ---
 
 Verzonden: vrijdag 7 maart 2025 20:43

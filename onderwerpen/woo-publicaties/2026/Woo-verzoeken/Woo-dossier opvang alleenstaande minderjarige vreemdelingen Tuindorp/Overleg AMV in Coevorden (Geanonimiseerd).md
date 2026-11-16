@@ -1,9 +1,25 @@
 ---
-title: "Overleg AMV in Coevorden (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Overleg AMV in Coevorden (Geanonimiseerd).pdf"
-s3_etag: "e6b8fec5b27271f7614718faa6b90a3a"
-date: 2026-11-16
+title: Overleg AMV in Coevorden (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Overleg AMV in Coevorden
+  (Geanonimiseerd).pdf
+s3_etag: e6b8fec5b27271f7614718faa6b90a3a
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden bespreekt met betrokken partijen de ontstane situatie
+  nadat woningcorporatie Domesta heeft besloten een beoogde locatie niet aan
+  stichting Phusis te verhuren, mede naar aanleiding van publiciteit over Phusis
+  en een reactie van Nidos. De gemeente wil AMV met status blijven huisvesten en
+  nodigt de betrokkenen uit om vervolgstappen en mogelijke opties te bespreken.
+milestones: []
+ai_processed_at: '2026-11-16T09:23:38.790Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

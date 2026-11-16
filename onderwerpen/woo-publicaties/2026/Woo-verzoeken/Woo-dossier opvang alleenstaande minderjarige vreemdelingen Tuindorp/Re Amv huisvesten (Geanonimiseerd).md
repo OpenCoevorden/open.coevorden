@@ -1,9 +1,24 @@
 ---
-title: "Re Amv huisvesten (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Re Amv huisvesten (Geanonimiseerd).pdf"
-s3_etag: "707f6dbc51b1bfba3df225678690f510"
-date: 2026-11-16
+title: Re Amv huisvesten (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Re Amv huisvesten (Geanonimiseerd).pdf
+s3_etag: 707f6dbc51b1bfba3df225678690f510
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen Renze Bergsma en een medewerker van Nidos over de
+  opvang en huisvesting van alleenstaande minderjarige vreemdelingen (AMV’ers)
+  in de gemeente. De Nidos-medewerker biedt aan mee te helpen en partijen
+  spreken af telefonisch contact te hebben; er is geen verdere uitkomst
+  vastgelegd.
+milestones: []
+ai_processed_at: '2026-11-16T09:22:22.901Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

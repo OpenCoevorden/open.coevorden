@@ -1,9 +1,48 @@
 ---
-title: "250605 FW Advies bezwaarschriftencommissie inzake bezwaar omgevingsvergunning huisvesting  (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250605 FW Advies bezwaarschriftencommissie inzake bezwaar omgevingsvergunning huisvesting  (Geanonimiseerd).pdf"
-s3_etag: "5cfb1f9e4e22bc310ef657429078d580"
-date: 2026-11-16
+title: >-
+  250605 FW Advies bezwaarschriftencommissie inzake bezwaar omgevingsvergunning
+  huisvesting  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250605 FW Advies bezwaarschriftencommissie
+  inzake bezwaar omgevingsvergunning huisvesting  (Geanonimiseerd).pdf
+s3_etag: 5cfb1f9e4e22bc310ef657429078d580
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat het advies van de bezwaarschriftencommissie van de gemeente
+  Coevorden over bezwaren van omwonenden tegen de omgevingsvergunning voor
+  Stichting Elker voor de huisvesting van maximaal 14 alleenstaande minderjarige
+  vreemdelingen aan de Dr. J.C. Homanstraat 55-63. De commissie adviseert enkele
+  bezwaarmakers ontvankelijk en de overige niet-ontvankelijk te verklaren, de
+  ontvankelijke bezwaren ongegrond te verklaren en de vergunning in stand te
+  laten, omdat de locatie ruimtelijk aanvaardbaar is en de aangevoerde zorgen
+  over veiligheid, woningwaardedaling, alternatieve locaties en communicatie
+  geen reden vormen voor herroeping.
+milestones:
+  - date: '2024-11-06'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor huisvesting van maximaal 14
+      alleenstaande minderjarige vreemdelingen.
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend.
+  - date: '2025-03-12'
+    event: Meerdere omwonenden maken bezwaar tegen de verleende omgevingsvergunning.
+  - date: '2025-04-09'
+    event: >-
+      Aanvullend bezwaar ingediend; dit bezwaar is volgens de commissie
+      niet-ontvankelijk wegens termijnoverschrijding.
+  - date: '2025-06-05'
+    event: >-
+      Bezwaarschriftencommissie adviseert de ontvankelijke bezwaren ongegrond te
+      verklaren en de vergunning in stand te laten; overige bezwaren
+      niet-ontvankelijk te verklaren.
+ai_processed_at: '2026-11-16T09:41:42.262Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

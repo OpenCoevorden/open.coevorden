@@ -1,9 +1,27 @@
 ---
-title: "241001 FW Indiening aanvraag vestiging AMV-ers (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241001 FW Indiening aanvraag vestiging AMV-ers (Geanonimiseerd).pdf"
-s3_etag: "54b8c5db1db494caf300d8be4d3edee2"
-date: 2026-11-16
+title: 241001 FW Indiening aanvraag vestiging AMV-ers (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241001 FW Indiening aanvraag vestiging
+  AMV-ers (Geanonimiseerd).pdf
+s3_etag: 54b8c5db1db494caf300d8be4d3edee2
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorgenomen vestiging van maximaal 14 alleenstaande
+  minderjarige vreemdelingen (AMV’ers) in vijf woningen aan de Dr. J.C.
+  Homanstraat 55-63 in Coevorden, met 24-uursbegeleiding door Elker en voogdij
+  via NIDOS. De gemeente Coevorden bespreekt met jeugdhulporganisatie Elker de
+  vereisten voor de omgevingsvergunning en brandveiligheidsmelding, inclusief
+  een participatietraject met omwonenden; Elker levert hiervoor een beschrijving
+  van de opvang en het participatieplan aan.
+milestones: []
+ai_processed_at: '2026-11-16T10:10:35.675Z'
+ai_status: done
 ---
 
 U nr

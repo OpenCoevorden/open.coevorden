@@ -1,9 +1,28 @@
 ---
-title: "250522 Terugkoppeling hoorzitting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250522 Terugkoppeling hoorzitting AMV (Geanonimiseerd).pdf"
-s3_etag: "f4c617afbaf0f521a5d5e468397eedbc"
-date: 2026-11-16
+title: 250522 Terugkoppeling hoorzitting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250522 Terugkoppeling hoorzitting AMV
+  (Geanonimiseerd).pdf
+s3_etag: f4c617afbaf0f521a5d5e468397eedbc
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de terugkoppeling van een hoorzitting over bezwaren
+  tegen de AMV-locatie in Tuindorp, waarbij ongeveer 30 tot 35 bezwaarmakers
+  aanwezig waren en de gemeente Coevorden, de projectleider, Elker en de politie
+  betrokken zijn. De ingebrachte opmerkingen worden intern en met het bestuur
+  besproken; daarnaast is Elker gevraagd het veiligheidsplan opnieuw te
+  beoordelen.
+milestones:
+  - date: '2025-05-21'
+    event: Hoorzitting over bezwaar tegen de AMV-locatie in Tuindorp
+ai_processed_at: '2026-11-16T09:42:55.241Z'
+ai_status: done
 ---
 
 Van: 5

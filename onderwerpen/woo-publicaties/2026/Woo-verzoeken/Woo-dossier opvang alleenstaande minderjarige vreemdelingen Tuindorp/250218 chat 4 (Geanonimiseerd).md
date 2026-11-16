@@ -1,9 +1,24 @@
 ---
-title: "250218 chat 4 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250218 chat 4 (Geanonimiseerd).pdf"
-s3_etag: "4546192d5a3a52b482399cd2cb20a0ff"
-date: 2026-11-16
+title: 250218 chat 4 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250218 chat 4 (Geanonimiseerd).pdf
+s3_etag: 4546192d5a3a52b482399cd2cb20a0ff
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat communicatie tussen betrokken medewerkers over
+  berichtgeving en afstemming rond de onrust in Tuindorp, waaronder vernielingen
+  en brandstichting gericht tegen de komst van 14 jonge statushouders. Zij
+  spreken af elkaar bij te praten en deel te nemen aan overleg over de verdere
+  aanpak.
+milestones: []
+ai_processed_at: '2026-11-16T09:53:28.576Z'
+ai_status: done
 ---
 
 (geanonimiseerd)

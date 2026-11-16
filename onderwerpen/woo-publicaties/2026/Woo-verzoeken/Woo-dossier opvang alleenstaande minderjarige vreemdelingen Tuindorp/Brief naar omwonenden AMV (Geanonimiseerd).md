@@ -1,9 +1,25 @@
 ---
-title: "Brief naar omwonenden AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Brief naar omwonenden AMV (Geanonimiseerd).pdf"
-s3_etag: "5c08ac474e11d5cca8a9346dd3b09212"
-date: 2026-11-16
+title: Brief naar omwonenden AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Brief naar omwonenden AMV
+  (Geanonimiseerd).pdf
+s3_etag: 5c08ac474e11d5cca8a9346dd3b09212
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een medewerker van de gemeente Coevorden deelt een aangepaste brief aan
+  omwonenden over de huisvesting van alleenstaande minderjarige
+  vreemdelingen/statushouders en vraagt collega’s deze te controleren. De brief
+  maakt deel uit van een communicatieplan; persoonsgegevens zijn geanonimiseerd
+  ter bescherming van de persoonlijke levenssfeer.
+milestones: []
+ai_processed_at: '2026-11-16T09:29:40.576Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

@@ -1,9 +1,24 @@
 ---
-title: "250121 FW Artikel RTV Drenthe (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250121 FW Artikel RTV Drenthe (Geanonimiseerd).pdf"
-s3_etag: "0037e1fe6fb822c8c66b00daae58aa31"
-date: 2026-11-16
+title: 250121 FW Artikel RTV Drenthe (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250121 FW Artikel RTV Drenthe
+  (Geanonimiseerd).pdf
+s3_etag: 0037e1fe6fb822c8c66b00daae58aa31
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne e-mail van medewerkers van de gemeente Coevorden over een RTV
+  Drenthe-artikel waarin een buurt verbaasd reageert op de komst van
+  minderjarige vluchtelingen naar Coevorden. Daarbij wordt vermeld dat Elker de
+  betrokken gemeentemedewerkers tijdens de inloopavonden zal tegenkomen.
+milestones: []
+ai_processed_at: '2026-11-16T09:58:51.428Z'
+ai_status: done
 ---
 
 Van: J

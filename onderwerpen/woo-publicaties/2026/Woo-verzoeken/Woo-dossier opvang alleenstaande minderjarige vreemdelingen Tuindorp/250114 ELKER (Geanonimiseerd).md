@@ -1,9 +1,25 @@
 ---
-title: "250114 ELKER (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250114 ELKER (Geanonimiseerd).pdf"
-s3_etag: "fe1565824eb1105822f340fb56323c91"
-date: 2026-11-16
+title: 250114 ELKER (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250114 ELKER (Geanonimiseerd).pdf
+s3_etag: fe1565824eb1105822f340fb56323c91
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen medewerkers van de gemeente Coevorden over
+  berichtgeving rond de opvang van alleenstaande minderjarige vreemdelingen in
+  Tuindorp en het toezicht op jeugdzorgorganisatie Elker. De betrokkenen
+  bereiden afstemming met de manager van Elker en communicatie richting de
+  gemeenteraad voor, waarbij zij de verschillende activiteiten van Elker willen
+  onderscheiden.
+milestones: []
+ai_processed_at: '2026-11-16T10:00:16.788Z'
+ai_status: done
 ---
 
 Van: J

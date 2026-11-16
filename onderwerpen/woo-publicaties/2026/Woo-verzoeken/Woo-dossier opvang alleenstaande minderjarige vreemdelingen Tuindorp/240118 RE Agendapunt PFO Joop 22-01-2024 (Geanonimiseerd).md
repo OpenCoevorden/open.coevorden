@@ -1,9 +1,27 @@
 ---
-title: "240118 RE Agendapunt PFO Joop 22-01-2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240118 RE Agendapunt PFO Joop 22-01-2024 (Geanonimiseerd).pdf"
-s3_etag: "2e08982f7d6f5889fbe991f51776f5b0"
-date: 2026-11-16
+title: 240118 RE Agendapunt PFO Joop 22-01-2024 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240118 RE Agendapunt PFO Joop 22-01-2024
+  (Geanonimiseerd).pdf
+s3_etag: 2e08982f7d6f5889fbe991f51776f5b0
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over de voorgenomen opvang van alleenstaande
+  minderjarige vreemdelingen (AMV) en een groot gezin in Coevorden, waarbij de
+  gemeente Coevorden, Phusis en Domesta betrokken zijn. Er bestaan nog
+  juridische en beleidsmatige vraagstukken over onder meer doelgroepwijziging,
+  aanbestedingsrecht, woninggebruik en de omgevingsvergunning, waardoor meer
+  informatie en tijd nodig zijn en de planning en het collegevoorstel worden
+  uitgesteld.
+milestones: []
+ai_processed_at: '2026-11-16T10:14:42.016Z'
+ai_status: done
 ---
 
 Van:

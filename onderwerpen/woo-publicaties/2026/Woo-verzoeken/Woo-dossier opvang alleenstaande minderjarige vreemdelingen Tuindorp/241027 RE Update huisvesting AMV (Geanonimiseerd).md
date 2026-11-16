@@ -1,9 +1,28 @@
 ---
-title: "241027 RE Update huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241027 RE Update huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "9419df981474a30aaa1e6ee2ae7e7243"
-date: 2026-11-16
+title: 241027 RE Update huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241027 RE Update huisvesting AMV
+  (Geanonimiseerd).pdf
+s3_etag: 9419df981474a30aaa1e6ee2ae7e7243
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mails gaan over de voorbereiding van de huisvesting van alleenstaande
+  minderjarige vreemdelingen (AMV’s) in Coevorden door de gemeente Coevorden,
+  Elker, Domesta en Nidos, waaronder het plan van aanpak, communicatie met
+  omwonenden en de gemeenteraad, de samenwerkingsovereenkomst en de
+  omgevingsvergunning. De stukken zouden op 5 november aan het college worden
+  voorgelegd en de vergunning kon bij een positieve terugkoppeling op 6 november
+  worden ingediend; daarnaast werd een Q&A en mogelijke informatiebijeenkomst
+  voorbereid.
+milestones: []
+ai_processed_at: '2026-11-16T10:08:32.793Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

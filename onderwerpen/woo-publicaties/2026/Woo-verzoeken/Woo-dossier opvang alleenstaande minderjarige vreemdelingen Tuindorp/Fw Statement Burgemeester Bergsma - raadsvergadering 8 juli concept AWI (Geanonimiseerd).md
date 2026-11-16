@@ -1,9 +1,26 @@
 ---
-title: "Fw Statement Burgemeester Bergsma - raadsvergadering 8 juli concept AWI (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Fw Statement Burgemeester Bergsma - raadsvergadering 8 juli concept AWI (Geanonimiseerd).pdf"
-s3_etag: "20123058ac1ed4ec9c3386932760a2f7"
-date: 2026-11-16
+title: >-
+  Fw Statement Burgemeester Bergsma - raadsvergadering 8 juli concept AWI
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Fw Statement Burgemeester Bergsma -
+  raadsvergadering 8 juli concept AWI (Geanonimiseerd).pdf
+s3_etag: 20123058ac1ed4ec9c3386932760a2f7
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft de toezending en interne afstemming van een
+  conceptstatement van burgemeester Renze Bergsma voor de raadsvergadering van 8
+  juli 2025. Een geanonimiseerde afzender vraagt Bergsma het statement door te
+  nemen; Bergsma stuurt het vervolgens door aan Kim Brinks-de Vries.
+milestones: []
+ai_processed_at: '2026-11-16T09:24:10.451Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

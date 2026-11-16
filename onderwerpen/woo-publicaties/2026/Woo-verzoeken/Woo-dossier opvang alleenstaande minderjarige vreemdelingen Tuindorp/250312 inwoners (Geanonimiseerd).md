@@ -1,9 +1,22 @@
 ---
-title: "250312 inwoners (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250312 inwoners (Geanonimiseerd).pdf"
-s3_etag: "3c20c223f758de3a67cd02a167db85fa"
-date: 2026-11-16
+title: 250312 inwoners (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250312 inwoners (Geanonimiseerd).pdf
+s3_etag: 3c20c223f758de3a67cd02a167db85fa
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een medewerker van de gemeente Coevorden informeert een collega dat inwoners
+  aan de receptiebalie persoonlijk iets aan de wethouder wilden overhandigen;
+  het is onbekend om hoeveel inwoners het ging.
+milestones: []
+ai_processed_at: '2026-11-16T09:49:02.681Z'
+ai_status: done
 ---
 
 Verzonden: woensdag 12 maart 2025 14:27

@@ -1,9 +1,26 @@
 ---
-title: "250630 FW Vragen RTV Drenthe Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250630 FW Vragen RTV Drenthe Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "b7802c85588f2e4437e1eea819e2f960"
-date: 2026-11-16
+title: 250630 FW Vragen RTV Drenthe Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250630 FW Vragen RTV Drenthe Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: b7802c85588f2e4437e1eea819e2f960
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen RTV Drenthe en de gemeente Coevorden over de komst van
+  14 jonge meisjes naar Tuindorp, communicatie hierover met de buurt en
+  protesten in de omgeving. De gemeente wil toelichten dat de komst van de
+  meisjes via een omgevingsbrief is gecommuniceerd, dat de burgemeester bij de
+  escalatie niet ter plaatse is gegaan om spanningen niet te vergroten en dat
+  zij met de politie over vervolgstappen overlegt.
+milestones: []
+ai_processed_at: '2026-11-16T09:35:00.703Z'
+ai_status: done
 ---
 
 u mn

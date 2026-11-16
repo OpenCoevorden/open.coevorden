@@ -1,9 +1,30 @@
 ---
-title: "250606 RE Brief AMV Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250606 RE Brief AMV Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "8a4b0f736281815b3a070e33c8f6d35c"
-date: 2026-11-16
+title: 250606 RE Brief AMV Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250606 RE Brief AMV Tuindorp
+  (Geanonimiseerd).pdf
+s3_etag: 8a4b0f736281815b3a070e33c8f6d35c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorbereiding en finale controle van een
+  bewonersbrief van de gemeente Coevorden, Elker en Domesta over de komst van 14
+  alleenstaande minderjarige vluchtelingenmeisjes naar de Doctor J.C.
+  Homanstraat. De bezwaren tegen hun komst zijn door de
+  bezwaarschriftencommissie ongegrond verklaard; de brief licht de huisvesting,
+  begeleiding en contactmogelijkheden voor buurtbewoners toe.
+milestones:
+  - date: '2025-05-21'
+    event: >-
+      Bezwaren tegen de komst van de bewoners besproken; de
+      bezwaarschriftencommissie achtte deze ongegrond.
+ai_processed_at: '2026-11-16T09:40:56.132Z'
+ai_status: done
 ---
 
 J

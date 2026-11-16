@@ -1,9 +1,27 @@
 ---
-title: "250106 Afspraak plannen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250106 Afspraak plannen (Geanonimiseerd).pdf"
-s3_etag: "c177e0098681e278fc98e7030405ada7"
-date: 2026-11-16
+title: 250106 Afspraak plannen (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250106 Afspraak plannen
+  (Geanonimiseerd).pdf
+s3_etag: c177e0098681e278fc98e7030405ada7
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden bereidt de huisvesting voor van 14 jonge statushouders
+  van circa 15 tot 18 jaar in vijf woningen aan de Doctor J. C. Homanstraat in
+  de wijk Tuindorp, vanaf medio maart 2025, met begeleiding door Elker. De
+  gemeente wil hierover begin februari 2025 kennismaken en afstemmen met
+  betrokken partners, waaronder Nidos, Domesta, politie, ISK, BSV en MWC; de
+  plannen zijn afhankelijk van het advies van de gemeenteraad over de
+  omgevingsvergunning eind januari 2025.
+milestones: []
+ai_processed_at: '2026-11-16T10:01:37.116Z'
+ai_status: done
 ---
 
 J

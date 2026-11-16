@@ -1,9 +1,27 @@
 ---
-title: "250120 FW toezegging commissie (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250120 FW toezegging commissie (Geanonimiseerd).pdf"
-s3_etag: "fea5695e10f4502bdfd9e21819004050"
-date: 2026-11-16
+title: 250120 FW toezegging commissie (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250120 FW toezegging commissie
+  (Geanonimiseerd).pdf
+s3_etag: fea5695e10f4502bdfd9e21819004050
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden stemt de beantwoording aan de gemeenteraad af over de
+  vraag of het verscherpt toezicht op jeugdzorgorganisatie Elker locatiegebonden
+  is. Het toezicht geldt volgens de beantwoording uitsluitend voor het
+  organisatieonderdeel dat de overgang van jeugddetentie naar gesloten jeugdhulp
+  uitvoert en staat los van de opvang en begeleiding van alleenstaande
+  minderjarige statushouders; het antwoord wordt als hamerstuk doorgeleid naar
+  de raadsvergadering van 28 januari 2025.
+milestones: []
+ai_processed_at: '2026-11-16T09:59:13.858Z'
+ai_status: done
 ---
 
 Van: J

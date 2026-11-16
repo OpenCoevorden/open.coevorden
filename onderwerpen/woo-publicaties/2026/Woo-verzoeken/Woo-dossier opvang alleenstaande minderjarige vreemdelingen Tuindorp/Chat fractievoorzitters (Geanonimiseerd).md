@@ -1,9 +1,27 @@
 ---
-title: "Chat fractievoorzitters (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Chat fractievoorzitters (Geanonimiseerd).pdf"
-s3_etag: "e3a1a1ad43dddb4a6951c4ef558d5f17"
-date: 2026-11-16
+title: Chat fractievoorzitters (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Chat fractievoorzitters
+  (Geanonimiseerd).pdf
+s3_etag: e3a1a1ad43dddb4a6951c4ef558d5f17
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat WhatsApp-correspondentie tussen burgemeester Renze Bergsma,
+  raadsleden en ambtelijke veiligheidsbetrokkenen over de opvang van AMV’s in
+  Tuindorp, de zorgen en (dreigende) ongeregeldheden in de wijk en het contact
+  met bewoners en bezwaarmakers. Naar aanleiding van signalen over nieuwe zware
+  onrust werd, na overleg met de driehoek, preventief een noodverordening
+  afgekondigd; de gemeenteraad werd hierover bijgepraat en zou de verordening
+  formeel bekrachtigen.
+milestones: []
+ai_processed_at: '2026-11-16T09:28:58.532Z'
+ai_status: done
 ---
 
 [29-06-2025, 20:30:54] Jerry Stoker: <bijgevoegd: 00001298-PHOTO-2025-06-29-20-

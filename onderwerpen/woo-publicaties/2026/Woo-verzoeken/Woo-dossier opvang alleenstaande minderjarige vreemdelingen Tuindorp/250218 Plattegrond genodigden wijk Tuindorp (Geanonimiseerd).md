@@ -1,9 +1,25 @@
 ---
-title: "250218 Plattegrond genodigden wijk Tuindorp (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250218 Plattegrond genodigden wijk Tuindorp (Geanonimiseerd).pdf"
-s3_etag: "6cc959221d0e69791bb0253f31def804"
-date: 2026-11-16
+title: 250218 Plattegrond genodigden wijk Tuindorp (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250218 Plattegrond genodigden wijk
+  Tuindorp (Geanonimiseerd).pdf
+s3_etag: 6cc959221d0e69791bb0253f31def804
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een medewerker van de gemeente Coevorden deelt een plattegrond van de wijk
+  Tuindorp met een collega, waarop de adressen of woningen staan van inwoners
+  die een uitnodiging voor een inloopavond zullen ontvangen. De plattegrond
+  dient om de omvang van het uit te nodigen gebied inzichtelijk te maken; een
+  afzonderlijke adressenlijst wordt nog opgesteld.
+milestones: []
+ai_processed_at: '2026-11-16T09:53:59.353Z'
+ai_status: done
 ---
 
 Van: ere | (geanonimiseerd) (geanonimiseerd) J

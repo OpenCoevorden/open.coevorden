@@ -1,9 +1,27 @@
 ---
-title: "250325 Bestuurlijke koers college t.a.v. de huisvesting van AMV's (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250325 Bestuurlijke koers college t.a.v. de huisvesting van AMV's (Geanonimiseerd).pdf"
-s3_etag: "0635cd013673a6df1eaedb6c5c284e54"
-date: 2026-11-16
+title: >-
+  250325 Bestuurlijke koers college t.a.v. de huisvesting van AMV's
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250325 Bestuurlijke koers college t.a.v.
+  de huisvesting van AMV's (Geanonimiseerd).pdf
+s3_etag: 0635cd013673a6df1eaedb6c5c284e54
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een medewerker van de gemeente Coevorden bespreekt de bestuurlijke koers rond
+  de huisvesting van alleenstaande minderjarige vreemdelingen (AMV’s), ondanks
+  een ingediend bezwaar. Het college staat hier in beginsel positief tegenover,
+  mits er een gedragen veiligheidsplan komt; verdere afstemming, overleg over
+  communicatie en informatie over de bezwaarprocedure worden voorgesteld.
+milestones: []
+ai_processed_at: '2026-11-16T09:47:35.346Z'
+ai_status: done
 ---
 
 Van: ee (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) J

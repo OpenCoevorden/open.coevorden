@@ -1,9 +1,34 @@
 ---
-title: "250624 FW bezwaar ontvangen tegen Aanwijzingsbesluit Cameratoezicht (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250624 FW bezwaar ontvangen tegen Aanwijzingsbesluit Cameratoezicht (Geanonimiseerd).pdf"
-s3_etag: "635c2275a129934222a10a65ecaa337c"
-date: 2026-11-16
+title: >-
+  250624 FW bezwaar ontvangen tegen Aanwijzingsbesluit Cameratoezicht
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250624 FW bezwaar ontvangen tegen
+  Aanwijzingsbesluit Cameratoezicht (Geanonimiseerd).pdf
+s3_etag: 635c2275a129934222a10a65ecaa337c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een bezwaarmaker heeft bezwaar gemaakt tegen het Aanwijzingsbesluit
+  Cameratoezicht Dr. J.C. Homanstraat Coevorden van 19 juni 2025, omdat de
+  geplaatste beveiligingscamera volgens hem/haar de privacy kan schaden. De
+  bezwaarmaker verzoekt om aanpassing van de camerahoek of een alternatieve
+  locatie; de gemeente Coevorden legt het bezwaar voor aan de
+  bezwaarschriftencommissie en er is nog geen uitkomst.
+milestones:
+  - date: '2025-06-19'
+    event: >-
+      Besluit Aanwijzingsbesluit Cameratoezicht Dr. J.C. Homanstraat Coevorden
+      2025
+  - date: '2025-06-24'
+    event: Bezwaar ingediend tegen het aanwijzingsbesluit
+ai_processed_at: '2026-11-16T09:36:19.745Z'
+ai_status: done
 ---
 
 Van: 5

@@ -1,9 +1,24 @@
 ---
-title: "250715 RE Terugkoppeling gesprek Domesta (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250715 RE Terugkoppeling gesprek Domesta (Geanonimiseerd).pdf"
-s3_etag: "863112748ad806b32f507670edd8bbfc"
-date: 2026-11-16
+title: 250715 RE Terugkoppeling gesprek Domesta (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250715 RE Terugkoppeling gesprek Domesta
+  (Geanonimiseerd).pdf
+s3_etag: 863112748ad806b32f507670edd8bbfc
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Interne e-mailwisseling binnen de gemeente Coevorden over de terugkoppeling
+  van een gesprek met woningcorporatie Domesta. De inhoudelijke details zijn
+  grotendeels geanonimiseerd, maar uit de e-mails blijkt dat er nog
+  mogelijkheden voor vervolg of actie worden gezien.
+milestones: []
+ai_processed_at: '2026-11-16T09:30:13.881Z'
+ai_status: done
 ---
 
 u er

@@ -1,9 +1,33 @@
 ---
-title: "Scenario AMV d.d. 1 juli (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Scenario AMV d.d. 1 juli (Geanonimiseerd).pdf"
-s3_etag: "40f280130629e50fc89c223777cd7f98"
-date: 2026-11-16
+title: Scenario AMV d.d. 1 juli (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Scenario AMV d.d. 1 juli
+  (Geanonimiseerd).pdf
+s3_etag: 40f280130629e50fc89c223777cd7f98
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorgenomen opening van een kinderwoongroep voor 14
+  alleenstaande minderjarige vreemdelingen aan de Doctor J.C. Homanstraat in
+  Coevorden door de gemeente, Domesta, Elker en Nidos, en over de bezwaren en
+  daaropvolgende maatschappelijke onrust, waaronder vernielingen,
+  brandstichtingen en politie-inzet. De bezwaren tegen de omgevingsvergunning
+  zijn ongegrond verklaard; het huisvestingsplan is niet ingetrokken, maar de
+  haalbaarheid en veiligheid van de geplande start op 21 juli 2025 worden
+  opnieuw beoordeeld, met aandacht voor communicatie, beveiliging en
+  de-escalatie.
+milestones:
+  - date: '2025-06-05'
+    event: Bezwaren tegen de omgevingsvergunning ongegrond verklaard
+  - date: '2025-06-19'
+    event: Aanwijsbesluit genomen voor cameratoezicht
+ai_processed_at: '2026-11-16T09:22:02.748Z'
+ai_status: done
 ---
 
 Aanvullingen 1 juli 2025

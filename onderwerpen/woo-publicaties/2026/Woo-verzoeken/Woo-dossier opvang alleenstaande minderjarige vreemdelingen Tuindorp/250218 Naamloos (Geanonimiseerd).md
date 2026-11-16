@@ -1,9 +1,23 @@
 ---
-title: "250218 Naamloos (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250218 Naamloos (Geanonimiseerd).pdf"
-s3_etag: "df9a71372207bff6f02aaf3c565b9ea7"
-date: 2026-11-16
+title: 250218 Naamloos (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250218 Naamloos (Geanonimiseerd).pdf
+s3_etag: df9a71372207bff6f02aaf3c565b9ea7
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert betrokken bewoners over de plannen om 14
+  jonge statushouders te huisvesten in de wijk Tuindorp. Elker organiseert op 25
+  februari een burenavond voor directe omwonenden; informatie over de bredere
+  inloopavond wordt nog aangekondigd.
+milestones: []
+ai_processed_at: '2026-11-16T09:54:10.734Z'
+ai_status: done
 ---
 
 Verzonden: dinsdag 18 februari 2025 14:42

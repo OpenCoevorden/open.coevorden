@@ -1,9 +1,28 @@
 ---
-title: "FW_ reactie op verslag gesprek provinciehuis 14 juli 2025 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/FW_ reactie op verslag gesprek provinciehuis 14 juli 2025 (Geanonimiseerd).pdf"
-s3_etag: "6b0f0e7500f0a3af5a3da21db0c53249"
-date: 2026-11-16
+title: FW_ reactie op verslag gesprek provinciehuis 14 juli 2025 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/FW_ reactie op verslag gesprek
+  provinciehuis 14 juli 2025 (Geanonimiseerd).pdf
+s3_etag: 6b0f0e7500f0a3af5a3da21db0c53249
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden geeft een bestuurlijke reactie op het verslag van het
+  gesprek met de commissaris van de Koning van 14 juli 2025 over het besluit van
+  4 juli 2025 rond de opvang van minderjarige vluchtelingen in Tuindorp. De
+  gemeente vindt het verslag op belangrijke punten onjuist of onvolledig en doet
+  voorstellen voor aanpassingen, met nadruk op de verantwoordelijkheid van de
+  burgemeester voor openbare orde en veiligheid, betere betrokkenheid van
+  omwonenden en integrale, eenduidige communicatie met onder meer Nidos en
+  Elker.
+milestones: []
+ai_processed_at: '2026-11-16T09:24:32.264Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

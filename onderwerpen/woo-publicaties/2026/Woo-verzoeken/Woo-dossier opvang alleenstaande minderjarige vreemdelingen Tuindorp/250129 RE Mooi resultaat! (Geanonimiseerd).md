@@ -1,9 +1,26 @@
 ---
-title: "250129 RE Mooi resultaat! (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250129 RE Mooi resultaat! (Geanonimiseerd).pdf"
-s3_etag: "c64a97bb04f0f34a764bd69872f37e98"
-date: 2026-11-16
+title: 250129 RE Mooi resultaat! (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250129 RE Mooi resultaat!
+  (Geanonimiseerd).pdf
+s3_etag: c64a97bb04f0f34a764bd69872f37e98
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over de realisatie van een AMV-locatie in Coevorden
+  voor de huisvesting van 14 alleenstaande minderjarige vreemdelingen, waarbij
+  de gemeente Coevorden, Elker en Domesta betrokken zijn. Het raadsvoorstel is
+  als hamerstuk aangenomen, de verbouwing door Domesta is bijna afgerond en de
+  bezwaarprocedure voor belanghebbenden volgt; Elker meldt geen reacties van
+  buurtbewoners of andere inwoners te hebben ontvangen.
+milestones: []
+ai_processed_at: '2026-11-16T09:57:35.421Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

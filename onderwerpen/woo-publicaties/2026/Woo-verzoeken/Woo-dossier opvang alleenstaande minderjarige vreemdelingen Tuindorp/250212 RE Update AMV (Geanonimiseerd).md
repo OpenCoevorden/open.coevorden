@@ -1,9 +1,26 @@
 ---
-title: "250212 RE Update AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250212 RE Update AMV (Geanonimiseerd).pdf"
-s3_etag: "92029d5c51f3da9bfc9bc58d1a0abc15"
-date: 2026-11-16
+title: 250212 RE Update AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250212 RE Update AMV (Geanonimiseerd).pdf
+s3_etag: 92029d5c51f3da9bfc9bc58d1a0abc15
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de organisatie van twee inloopmomenten voor omwonenden
+  over de opvang van alleenstaande minderjarige vreemdelingen (AMV) bij woningen
+  aan de Homanstraat, met betrokkenheid van de gemeente, Elker en Joop.
+  Afgesproken is een bijeenkomst voor directe buren op 27 februari en een
+  bredere bijeenkomst op 5 maart, waarbij Joop bij de bredere bijeenkomst kan
+  aansluiten; Elker verzorgt de uitnodiging en de gemeente bespreekt onder meer
+  de locatie, adressen en briefbezorging.
+milestones: []
+ai_processed_at: '2026-11-16T09:54:55.665Z'
+ai_status: done
 ---
 
 Van: J

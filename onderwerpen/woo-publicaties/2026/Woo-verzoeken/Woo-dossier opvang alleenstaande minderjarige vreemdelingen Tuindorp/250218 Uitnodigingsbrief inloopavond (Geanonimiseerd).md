@@ -1,9 +1,27 @@
 ---
-title: "250218 Uitnodigingsbrief inloopavond (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250218 Uitnodigingsbrief inloopavond (Geanonimiseerd).pdf"
-s3_etag: "8d4b0707df0bce2d6fb5291bba72eb49"
-date: 2026-11-16
+title: 250218 Uitnodigingsbrief inloopavond (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250218 Uitnodigingsbrief inloopavond
+  (Geanonimiseerd).pdf
+s3_etag: 8d4b0707df0bce2d6fb5291bba72eb49
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat concepten voor een uitnodigingsbrief van de gemeente
+  Coevorden, Elker, Nidos en Domesta aan buurtbewoners over de huisvesting en
+  begeleiding van 14 alleenstaande minderjarige vluchtelingen met
+  verblijfsstatus aan de Doctor J.C. Homanstraat. De brief nodigt buurtbewoners
+  uit voor een inloopavond op 5 maart 2025 bij Ravelijn Verbindt, waar zij
+  informatie kunnen krijgen, vragen kunnen stellen en kennismaken met de
+  betrokken organisaties en jongeren.
+milestones: []
+ai_processed_at: '2026-11-16T09:53:38.900Z'
+ai_status: done
 ---
 
 vi mn

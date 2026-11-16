@@ -1,9 +1,26 @@
 ---
-title: "240530 Ontwikkelingen AMV-statushouders  NIDOS (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240530 Ontwikkelingen AMV-statushouders  NIDOS (Geanonimiseerd).pdf"
-s3_etag: "4e72152e11759f86c8d77920853d87e1"
-date: 2026-11-16
+title: 240530 Ontwikkelingen AMV-statushouders  NIDOS (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240530 Ontwikkelingen AMV-statushouders 
+  NIDOS (Geanonimiseerd).pdf
+s3_etag: 4e72152e11759f86c8d77920853d87e1
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document beschrijft de ontwikkelingen rond de mogelijke huisvesting van
+  twaalf alleenstaande minderjarige vreemdeling-statushouders
+  (AMV-statushouders) in Coevorden. Nadat Domesta had besloten de locatie niet
+  aan stichting Phusis te verhuren, onderzoekt Nidos of jeugdzorgorganisatie
+  Elker de locatie kan exploiteren; bij een positieve reactie volgen gesprekken
+  tussen Elker, Domesta en de gemeente.
+milestones: []
+ai_processed_at: '2026-11-16T10:13:36.404Z'
+ai_status: done
 ---
 
 J

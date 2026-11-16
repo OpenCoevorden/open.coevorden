@@ -1,9 +1,28 @@
 ---
-title: "FW Dossier Tuindorp - juridische scan (Geanonimiseerd) (gewijzigd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/FW Dossier Tuindorp - juridische scan (Geanonimiseerd) (gewijzigd).pdf"
-s3_etag: "b4b297273e0dad51ecf4d0ea9ee85b41"
-date: 2026-11-16
+title: FW Dossier Tuindorp - juridische scan (Geanonimiseerd) (gewijzigd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/FW Dossier Tuindorp - juridische scan
+  (Geanonimiseerd) (gewijzigd).pdf
+s3_etag: b4b297273e0dad51ecf4d0ea9ee85b41
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft een juridische scan van de voorgenomen
+  samenwerkingsovereenkomst tussen de gemeente Coevorden en Nidos voor de opvang
+  en begeleiding van minderjarige vreemdelingen, met betrokkenheid van Elker bij
+  praktische werkafspraken. Het advies concludeert dat waarschijnlijk geen
+  overeenkomst tot stand is gekomen omdat de vereiste werkafspraken niet formeel
+  zijn overeengekomen, terwijl de gemeente het afbreken van de samenwerking mede
+  kan rechtvaardigen met de ontstane veiligheidsproblemen, rellen en
+  noodverordening.
+milestones: []
+ai_processed_at: '2026-11-16T09:26:02.746Z'
+ai_status: done
 ---
 
 Verzonden: dinsdag 10 maart 2026 09:35

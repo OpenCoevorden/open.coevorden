@@ -1,9 +1,29 @@
 ---
-title: "FW AMV locatie (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/FW AMV locatie (Geanonimiseerd).pdf"
-s3_etag: "49a3c6c6b8329fbf1860169a25c4fa70"
-date: 2026-11-16
+title: FW AMV locatie (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/FW AMV locatie (Geanonimiseerd).pdf
+s3_etag: 49a3c6c6b8329fbf1860169a25c4fa70
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden bespreekt het plan om aan de Dr. J.C. Homanstraat 53-63
+  veertien alleenstaande minderjarige vreemdelingen (AMV’ers) met
+  24-uursbegeleiding te huisvesten, waarbij Domesta eigenaar/vergunhouder en
+  Cosis de voormalige gebruiker was. Omdat het zorgwonen eind 2023 is beëindigd
+  en het Veegplan Kernen sindsdien geldt, biedt de oude vergunning geen
+  zelfstandige basis; de AMV-opvang past waarschijnlijk niet zonder meer binnen
+  de bestemming ‘Woongebied’ en wordt daarom bij voorkeur expliciet via een
+  omgevingsvergunning geregeld.
+milestones:
+  - date: '2024-06-18'
+    event: Veegplan Kernen vastgesteld.
+ai_processed_at: '2026-11-16T09:26:25.737Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

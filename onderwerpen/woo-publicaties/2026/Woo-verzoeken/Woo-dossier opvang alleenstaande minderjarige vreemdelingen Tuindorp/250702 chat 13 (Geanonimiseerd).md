@@ -1,9 +1,26 @@
 ---
-title: "250702 chat 13 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250702 chat 13 (Geanonimiseerd).pdf"
-s3_etag: "3ae0fb6e1f3ee0892caee1d1667fc5c9"
-date: 2026-11-16
+title: 250702 chat 13 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250702 chat 13 (Geanonimiseerd).pdf
+s3_etag: 3ae0fb6e1f3ee0892caee1d1667fc5c9
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de bestuurlijke en operationele aanpak van dreigende
+  zware ongeregeldheden in de wijk Tuindorp, waarbij de gemeente Coevorden,
+  gemeentelijke crisisorganisaties, fractievoorzitters, politie,
+  maatschappelijke partners zoals Elker en bewonersgroepen betrokken zijn. Na
+  overleg in de driehoek is preventief een noodverordening ingesteld en zijn
+  verdere scenarioanalyses, draagvlakonderzoek, bestuurlijk overleg en een
+  operationeel beleidsteam georganiseerd.
+milestones: []
+ai_processed_at: '2026-11-16T09:32:58.957Z'
+ai_status: done
 ---
 
 02-07-2025 14:46 —

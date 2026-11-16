@@ -1,9 +1,25 @@
 ---
-title: "FW Schriftelijke ronde - noodverordening (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/FW Schriftelijke ronde - noodverordening (Geanonimiseerd).pdf"
-s3_etag: "6b4c97ab6d7284a77da212514e3500cf"
-date: 2026-11-16
+title: FW Schriftelijke ronde - noodverordening (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/FW Schriftelijke ronde - noodverordening
+  (Geanonimiseerd).pdf
+s3_etag: 6b4c97ab6d7284a77da212514e3500cf
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden bereidt een schriftelijke ronde voor over het
+  raadsvoorstel tot achteraf instemmen met de noodverordening voor Tuindorp uit
+  2025. Gemeentesecretaris Kim Brinks-de Vries vraagt betrokken ambtenaren en
+  bestuurders om vóór maandag te reageren, waarna het voorstel naar Milan
+  Lucassen en vervolgens naar de gemeenteraad gaat.
+milestones: []
+ai_processed_at: '2026-11-16T09:25:28.668Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

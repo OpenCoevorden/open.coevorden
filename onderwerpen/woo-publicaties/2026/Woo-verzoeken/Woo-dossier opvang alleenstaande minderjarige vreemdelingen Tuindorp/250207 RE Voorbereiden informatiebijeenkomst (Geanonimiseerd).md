@@ -1,9 +1,26 @@
 ---
-title: "250207 RE Voorbereiden informatiebijeenkomst (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250207 RE Voorbereiden informatiebijeenkomst (Geanonimiseerd).pdf"
-s3_etag: "e17e7451950f2b18d8d077805da501ac"
-date: 2026-11-16
+title: 250207 RE Voorbereiden informatiebijeenkomst (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250207 RE Voorbereiden
+  informatiebijeenkomst (Geanonimiseerd).pdf
+s3_etag: e17e7451950f2b18d8d077805da501ac
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden en Elker Jeugdhulp & Onderwijs stemmen af over de
+  organisatie, regie en communicatie rond een bijeenkomst voor omwonenden van
+  een locatie. De gemeente pleit voor een laagdrempelig inloopmoment met een
+  iets bredere groep buurtbewoners, terwijl Elker de regie bij de gemeente legt
+  en voorkeur houdt voor een bijeenkomst op locatie met eerst de directe buren;
+  daarna kan zo nodig een bredere bijeenkomst volgen.
+milestones: []
+ai_processed_at: '2026-11-16T09:55:17.713Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

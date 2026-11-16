@@ -1,9 +1,24 @@
 ---
-title: "Chat burgemeester - wethouder Slomp 1 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Chat burgemeester - wethouder Slomp 1 (Geanonimiseerd).pdf"
-s3_etag: "77023bcab094c048d4798d647284963c"
-date: 2026-11-16
+title: Chat burgemeester - wethouder Slomp 1 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Chat burgemeester - wethouder Slomp 1
+  (Geanonimiseerd).pdf
+s3_etag: 77023bcab094c048d4798d647284963c
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document bevat chatberichten over een koerswijziging van Elker en Nidos om
+  de locatie Tuindorp in te zetten voor meisjes, evenals uitwisseling van
+  contactgegevens tussen betrokkenen. Persoonsgegevens en persoonlijke
+  beleidsopvattingen zijn deels geanonimiseerd of weggelakt.
+milestones: []
+ai_processed_at: '2026-11-16T09:29:09.542Z'
+ai_status: done
 ---
 
 <3 8

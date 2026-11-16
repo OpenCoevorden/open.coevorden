@@ -1,9 +1,25 @@
 ---
-title: "250527 RE Veiligheidsplan huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250527 RE Veiligheidsplan huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "50e18772ddfec00057fb49ef0f81ef55"
-date: 2026-11-16
+title: 250527 RE Veiligheidsplan huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250527 RE Veiligheidsplan huisvesting AMV
+  (Geanonimiseerd).pdf
+s3_etag: 50e18772ddfec00057fb49ef0f81ef55
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden en Elker Jeugdhulp & Onderwijs stemmen af over het
+  veiligheidsplan voor de huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV), met betrokkenheid van wijkagenten en mogelijk een
+  communicatieadviseur. Besloten is om vanwege de urgentie op dinsdag 3 juni
+  2025 om 13.00 uur online bijeen te komen en praktisch aan het plan te werken.
+milestones: []
+ai_processed_at: '2026-11-16T09:42:42.973Z'
+ai_status: done
 ---
 
 J

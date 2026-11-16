@@ -1,9 +1,26 @@
 ---
-title: "241206 Agenda huisvesten AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241206 Agenda huisvesten AMV (Geanonimiseerd).pdf"
-s3_etag: "9a9d97c19a1c3a90d48b69f726907f9f"
-date: 2026-11-16
+title: 241206 Agenda huisvesten AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241206 Agenda huisvesten AMV
+  (Geanonimiseerd).pdf
+s3_etag: 9a9d97c19a1c3a90d48b69f726907f9f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Agenda voor het overleg over de huisvesting van alleenstaande minderjarige
+  vreemdelingen (AMV) in Coevorden, met vertegenwoordigers van de gemeente,
+  Nidos en Elker. Besproken worden onder meer de planning, communicatie met
+  omwonenden, een inloopavond, praktische werkafspraken, de
+  samenwerkingsovereenkomst met Nidos, bestuurlijke kennismakingen en reacties
+  uit Tuindorp.
+milestones: []
+ai_processed_at: '2026-11-16T10:03:01.627Z'
+ai_status: done
 ---
 
 Agenda huisvesten AMV

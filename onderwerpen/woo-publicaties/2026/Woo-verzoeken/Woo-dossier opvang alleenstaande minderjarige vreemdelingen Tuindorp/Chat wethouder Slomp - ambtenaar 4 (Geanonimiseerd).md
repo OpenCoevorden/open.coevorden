@@ -1,9 +1,29 @@
 ---
-title: "Chat wethouder Slomp - ambtenaar 4 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 4 (Geanonimiseerd).pdf"
-s3_etag: "583c4f4c9bbf582e25caf0103899d7a7"
-date: 2026-11-16
+title: Chat wethouder Slomp - ambtenaar 4 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Chat wethouder Slomp - ambtenaar 4
+  (Geanonimiseerd).pdf
+s3_etag: 583c4f4c9bbf582e25caf0103899d7a7
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een omwonende maakt bezwaar tegen de plannen van de gemeente om woningen aan
+  de J.G. Homanstraat in Tuindorp als onderdak voor statushouders, waaronder
+  getraumatiseerde jongeren, in te zetten. De brief vraagt de gemeente het
+  besluit terug te nemen en een alternatieve locatie te overwegen vanwege zorgen
+  over de veiligheid van omwonenden en hun kinderen.
+milestones:
+  - date: '2025-03-13'
+    event: >-
+      Bezwaar tegen het plan om woningen aan de J.G. Homanstraat in Tuindorp als
+      onderdak voor statushouders in te zetten
+ai_processed_at: '2026-11-16T09:28:04.026Z'
+ai_status: done
 ---
 
 Q. Tuindorp @ Annuleer

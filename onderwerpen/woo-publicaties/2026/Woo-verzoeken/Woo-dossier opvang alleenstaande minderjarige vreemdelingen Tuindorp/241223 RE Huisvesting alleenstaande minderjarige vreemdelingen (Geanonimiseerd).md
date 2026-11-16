@@ -1,9 +1,28 @@
 ---
-title: "241223 RE Huisvesting alleenstaande minderjarige vreemdelingen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241223 RE Huisvesting alleenstaande minderjarige vreemdelingen (Geanonimiseerd).pdf"
-s3_etag: "0a48a5954bf9122af319926a7035e838"
-date: 2026-11-16
+title: >-
+  241223 RE Huisvesting alleenstaande minderjarige vreemdelingen
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241223 RE Huisvesting alleenstaande
+  minderjarige vreemdelingen (Geanonimiseerd).pdf
+s3_etag: 0a48a5954bf9122af319926a7035e838
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden wil vanaf februari/maart 2025 veertien alleenstaande
+  minderjarige vreemdelingen met een verblijfsvergunning huisvesten in vijf
+  woningen aan de Doctor J.C. Homanstraat, met begeleiding door Elker. In de
+  e-mailwisseling wordt de kennismaking met betrokken organisaties en de buurt-
+  en speeltuinvereniging voorbereid; de gemeenteraad moest zich nog over de
+  plannen en de omgevingsvergunning buigen.
+milestones: []
+ai_processed_at: '2026-11-16T10:01:48.116Z'
+ai_status: done
 ---
 
 u nn

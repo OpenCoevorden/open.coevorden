@@ -1,9 +1,25 @@
 ---
-title: "Screenshot chat college (tijdelijk) 1 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Screenshot chat college (tijdelijk) 1 (Geanonimiseerd).pdf"
-s3_etag: "c419e35c0f8846a3d074cef3db92da21"
-date: 2026-11-16
+title: Screenshot chat college (tijdelijk) 1 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Screenshot chat college (tijdelijk) 1
+  (Geanonimiseerd).pdf
+s3_etag: c419e35c0f8846a3d074cef3db92da21
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de bestuurlijke reactie van het tijdelijke college van
+  B&W van Coevorden, met onder anderen Jeroen Huizing, op de kwestie Tuindorp en
+  de nasleep van een politieonderzoek. Er komt na de zomer een debat over
+  Tuindorp; voorlopig beperkt het college zich tot noodopvang en een verklaring
+  van Renze, terwijl de politie nader onderzoek aankondigt.
+milestones: []
+ai_processed_at: '2026-11-16T09:21:38.495Z'
+ai_status: done
 ---
 
 < 34 mas College B&W (tijdelijk)

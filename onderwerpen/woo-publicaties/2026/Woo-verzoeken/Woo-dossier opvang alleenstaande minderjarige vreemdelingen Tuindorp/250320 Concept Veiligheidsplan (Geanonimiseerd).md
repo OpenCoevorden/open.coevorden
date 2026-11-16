@@ -1,9 +1,27 @@
 ---
-title: "250320 Concept Veiligheidsplan (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250320 Concept Veiligheidsplan (Geanonimiseerd).pdf"
-s3_etag: "7b32c67421e928199a576d126cb33206"
-date: 2026-11-16
+title: 250320 Concept Veiligheidsplan (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250320 Concept Veiligheidsplan
+  (Geanonimiseerd).pdf
+s3_etag: 7b32c67421e928199a576d126cb33206
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document betreft een conceptveiligheidsplan voor de beoogde opvang van
+  alleenstaande minderjarige vluchtelingen in Tuindorp, gemeente Coevorden,
+  opgesteld door de gemeente met input van de veiligheidsadviseur, politie en
+  betrokken opvangpartijen. Het plan beschrijft voorbereidingsmaatregelen, een
+  escalatieladder, rollen en verantwoordelijkheden en een calamiteitenteam, en
+  zou op 21 maart 2025 gezamenlijk worden besproken met het oog op opening medio
+  april.
+milestones: []
+ai_processed_at: '2026-11-16T09:47:46.734Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

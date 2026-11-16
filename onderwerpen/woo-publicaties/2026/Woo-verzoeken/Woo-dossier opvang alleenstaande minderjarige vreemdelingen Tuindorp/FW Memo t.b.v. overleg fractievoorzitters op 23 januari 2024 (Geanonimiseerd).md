@@ -1,9 +1,26 @@
 ---
-title: "FW Memo t.b.v. overleg fractievoorzitters op 23 januari 2024 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/FW Memo t.b.v. overleg fractievoorzitters op 23 januari 2024 (Geanonimiseerd).pdf"
-s3_etag: "88cb362d6d785cb29a7c62d3f9797496"
-date: 2026-11-16
+title: FW Memo t.b.v. overleg fractievoorzitters op 23 januari 2024 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/FW Memo t.b.v. overleg fractievoorzitters
+  op 23 januari 2024 (Geanonimiseerd).pdf
+s3_etag: 88cb362d6d785cb29a7c62d3f9797496
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De e-mailwisseling gaat over de vraag of een voorgenomen voorstel van de
+  gemeente Coevorden vanwege de politieke gevoeligheid en mogelijke impact onder
+  categorie 4.8 valt en daarmee aan het adviesrecht van de gemeenteraad
+  onderhevig is. Advocaat F.L.P. Vulto stelt namens de betrokken
+  fractievoorzitters dat dit het geval is en kondigt schriftelijke vragen en
+  eventueel een interpellatie aan als het college de raad passeert.
+milestones: []
+ai_processed_at: '2026-11-16T09:25:39.395Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

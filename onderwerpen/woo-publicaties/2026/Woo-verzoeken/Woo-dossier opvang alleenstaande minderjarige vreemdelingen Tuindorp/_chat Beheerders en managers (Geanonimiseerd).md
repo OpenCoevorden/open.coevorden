@@ -1,9 +1,27 @@
 ---
-title: "_chat Beheerders en managers (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/_chat Beheerders en managers (Geanonimiseerd).pdf"
-s3_etag: "65c5c5c803605a27bd8f318cce69b7a4"
-date: 2026-11-16
+title: _chat Beheerders en managers (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/_chat Beheerders en managers
+  (Geanonimiseerd).pdf
+s3_etag: 65c5c5c803605a27bd8f318cce69b7a4
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De berichten gaan over protesten, brandstichting en veiligheidszorgen in de
+  Coevordense wijk Tuindorp rond de voorgenomen huisvesting van minderjarige
+  statushouders, met betrokkenheid van gemeentelijke medewerkers, beveiligers,
+  media en lokale woordvoerders. Er wordt intern afgestemd over beveiliging,
+  communicatie en een persmoment; in de berichtgeving wordt gesteld dat
+  Coevorden onder druk van de protesten geen veilige huisvesting zou kunnen
+  bieden.
+milestones: []
+ai_processed_at: '2026-11-16T09:19:12.906Z'
+ai_status: done
 ---
 
 weer begonnen!

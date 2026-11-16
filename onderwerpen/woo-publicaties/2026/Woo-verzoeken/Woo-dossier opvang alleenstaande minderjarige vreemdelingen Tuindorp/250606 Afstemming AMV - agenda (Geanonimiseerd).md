@@ -1,9 +1,42 @@
 ---
-title: "250606 Afstemming AMV - agenda (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250606 Afstemming AMV - agenda (Geanonimiseerd).pdf"
-s3_etag: "6b9fbe0aa569e8a660e48576174df321"
-date: 2026-11-16
+title: 250606 Afstemming AMV - agenda (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250606 Afstemming AMV - agenda
+  (Geanonimiseerd).pdf
+s3_etag: 6b9fbe0aa569e8a660e48576174df321
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de omgevingsvergunning van de gemeente Coevorden voor
+  de huisvesting van maximaal 14 alleenstaande minderjarige vluchtelingen aan de
+  Dr. J.C. Homanstraat 55-63, met Stichting Elker als vergunninghouder en
+  begeleiding voor de jongeren, en over de communicatie en
+  veiligheidsmaatregelen richting omwonenden. De bezwaarschriftencommissie
+  adviseert sommige omwonenden ontvankelijk en anderen niet-ontvankelijk te
+  verklaren, maar de inhoudelijke bezwaren ongegrond te verklaren en de
+  vergunning in stand te laten.
+milestones:
+  - date: '2024-11-06'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor huisvesting van maximaal 14
+      AMV’ers.
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend.
+  - date: '2025-03-12'
+    event: Meerdere omwonenden maken bezwaar tegen de vergunning.
+  - date: '2025-04-09'
+    event: 'Aanvullend bezwaar ingediend, te laat.'
+  - date: '2025-06-05'
+    event: >-
+      Bezwaarschriftencommissie adviseert de bezwaren deels niet-ontvankelijk en
+      voor het overige ongegrond te verklaren; vergunning in stand laten.
+ai_processed_at: '2026-11-16T09:41:09.801Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd) (geanonimiseerd) (geanonimiseerd)

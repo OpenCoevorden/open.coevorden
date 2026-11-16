@@ -1,9 +1,27 @@
 ---
-title: "240923 FW AMV locatie (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/240923 FW AMV locatie (Geanonimiseerd).pdf"
-s3_etag: "3907ccee54ae116a36c470b2482b5ff5"
-date: 2026-11-16
+title: 240923 FW AMV locatie (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/240923 FW AMV locatie (Geanonimiseerd).pdf
+s3_etag: 3907ccee54ae116a36c470b2482b5ff5
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de juridische beoordeling door de gemeente Coevorden
+  van het voorgenomen gebruik van de locatie aan de Dr. J.C. Homanstraat 53-63
+  voor de huisvesting van 14 alleenstaande minderjarige vreemdelingen (AMV’ers)
+  met 24-uursbegeleiding, in relatie tot een vergunning uit 2004 en het
+  bestemmingsplan Veegplan Kernen. Geconcludeerd is dat de oude vergunning geen
+  zelfstandige betekenis meer heeft, het beëindigde eerdere gebruik niet onder
+  het overgangsrecht valt en de AMV-opvang strijdig is met het omgevingsplan,
+  zodat hiervoor een omgevingsvergunning moet worden aangevraagd en verleend.
+milestones: []
+ai_processed_at: '2026-11-16T10:11:46.866Z'
+ai_status: done
 ---
 
 Verzonden: maandag 23 september 2024 09:05

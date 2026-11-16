@@ -1,9 +1,25 @@
 ---
-title: "250619 RE Huisvesting jonge statushouders (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250619 RE Huisvesting jonge statushouders (Geanonimiseerd).pdf"
-s3_etag: "0ae2490aa5207e74ee52997394d2dbbe"
-date: 2026-11-16
+title: 250619 RE Huisvesting jonge statushouders (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250619 RE Huisvesting jonge statushouders
+  (Geanonimiseerd).pdf
+s3_etag: 0ae2490aa5207e74ee52997394d2dbbe
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de voorgenomen huisvesting deze zomer van jonge
+  vrouwelijke statushouders in Coevorden en hun start op De Nieuwe Veste,
+  waarbij de gemeente Coevorden, Elker en de school betrokken zijn. Elker zal
+  contact opnemen met de school voor begeleiding en er worden gesprekken en
+  samenwerkingsafspraken voorbereid.
+milestones: []
+ai_processed_at: '2026-11-16T09:36:53.537Z'
+ai_status: done
 ---
 
 (geanonimiseerd) (geanonimiseerd)

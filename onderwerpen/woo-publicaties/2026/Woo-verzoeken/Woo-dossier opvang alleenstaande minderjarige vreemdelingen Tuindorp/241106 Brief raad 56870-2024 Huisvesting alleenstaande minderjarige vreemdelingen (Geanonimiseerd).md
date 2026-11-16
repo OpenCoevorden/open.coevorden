@@ -1,9 +1,28 @@
 ---
-title: "241106 Brief raad 56870-2024 Huisvesting alleenstaande minderjarige vreemdelingen (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241106 Brief raad 56870-2024 Huisvesting alleenstaande minderjarige vreemdelingen (Geanonimiseerd).pdf"
-s3_etag: "7715e214233b03aa47bf25943a2b36d3"
-date: 2026-11-16
+title: >-
+  241106 Brief raad 56870-2024 Huisvesting alleenstaande minderjarige
+  vreemdelingen (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241106 Brief raad 56870-2024 Huisvesting
+  alleenstaande minderjarige vreemdelingen (Geanonimiseerd).pdf
+s3_etag: 7715e214233b03aa47bf25943a2b36d3
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  De gemeente Coevorden informeert de gemeenteraad over het voornemen om
+  veertien alleenstaande minderjarige vreemdelingen met verblijfsstatus te
+  huisvesten in een kinderwoongroep aan de Doctor J.C. Homanstraat 55-63,
+  waarbij Elker de begeleiding verzorgt, Nidos de voogdij en Domesta de woningen
+  verhuurt. Voor de realisatie is een omgevingsvergunning van Elker nodig,
+  waarover de gemeenteraad bindend adviesrecht heeft.
+milestones: []
+ai_processed_at: '2026-11-16T10:06:31.460Z'
+ai_status: done
 ---
 
 Verzonden: woensdag 6 november 2024 08:39

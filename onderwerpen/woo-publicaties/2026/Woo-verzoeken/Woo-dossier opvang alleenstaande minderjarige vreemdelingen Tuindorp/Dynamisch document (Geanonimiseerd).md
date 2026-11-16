@@ -1,9 +1,23 @@
 ---
-title: "Dynamisch document (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/Dynamisch document (Geanonimiseerd).pdf"
-s3_etag: "275b6945e13e9ee9bb301c31fff51c07"
-date: 2026-11-16
+title: Dynamisch document (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/Dynamisch document (Geanonimiseerd).pdf
+s3_etag: 275b6945e13e9ee9bb301c31fff51c07
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Een medewerker van de gemeente Coevorden stuurt Renze Bergsma een dynamisch
+  document in BOB-structuur over de situatie in Tuindorp. De bijbehorende
+  verslaglegging moest nog worden opgesteld; persoonsgegevens zijn
+  geanonimiseerd op grond van de Woo.
+milestones: []
+ai_processed_at: '2026-11-16T09:26:48.112Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

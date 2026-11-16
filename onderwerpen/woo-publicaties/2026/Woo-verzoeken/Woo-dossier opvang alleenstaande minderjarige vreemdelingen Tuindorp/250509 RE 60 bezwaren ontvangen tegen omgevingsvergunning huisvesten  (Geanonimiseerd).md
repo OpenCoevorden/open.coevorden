@@ -1,9 +1,53 @@
 ---
-title: "250509 RE 60 bezwaren ontvangen tegen omgevingsvergunning huisvesten  (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/250509 RE 60 bezwaren ontvangen tegen omgevingsvergunning huisvesten  (Geanonimiseerd).pdf"
-s3_etag: "c46694b30447a35e074da52c0b08e21a-6"
-date: 2026-11-16
+title: >-
+  250509 RE 60 bezwaren ontvangen tegen omgevingsvergunning huisvesten 
+  (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/250509 RE 60 bezwaren ontvangen tegen
+  omgevingsvergunning huisvesten  (Geanonimiseerd).pdf
+s3_etag: c46694b30447a35e074da52c0b08e21a-6
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over de omgevingsvergunning van de gemeente Coevorden aan
+  Stichting Elker voor het tijdelijk huisvesten van maximaal 14 alleenstaande
+  minderjarige vreemdelingen in vijf woningen aan de Dr. J.C. Homanstraat 55-63,
+  met begeleiding door Elker en voogdij door NIDOS. De vergunning is op 30
+  januari 2025 voor maximaal vijf jaar verleend, waarna 60 omwonenden bezwaar
+  maakten vanwege zorgen over veiligheid, leefomgeving, communicatie en
+  mogelijke waardedaling van woningen; de bezwaren worden door de
+  bezwaarschriftencommissie behandeld.
+milestones:
+  - date: '2024-11-06'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor huisvesting van maximaal 14
+      alleenstaande minderjarige vreemdelingen aan de Dr. J.C. Homanstraat 55-63
+      te Coevorden.
+  - date: '2024-11-06'
+    event: >-
+      Aanvraag omgevingsvergunning ingediend voor huisvesting van maximaal 14
+      alleenstaande minderjarige vreemdelingen.
+  - date: '2024-12-19'
+    event: Beslistermijn met zes weken verlengd.
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend voor maximaal vijf jaar.
+  - date: '2025-01-30'
+    event: Omgevingsvergunning verleend.
+  - date: '2025-04-09'
+    event: Bezwaar ingediend tegen de verleende omgevingsvergunning.
+  - date: '2025-04-10'
+    event: >-
+      Meerdere, in totaal 60, bezwaarschriften tegen de omgevingsvergunning
+      ingediend.
+  - date: '2025-04-10'
+    event: Bezwaar tegen de omgevingsvergunning ingediend.
+ai_processed_at: '2026-11-16T09:44:20.320Z'
+ai_status: done
 ---
 
 J

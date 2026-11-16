@@ -1,9 +1,26 @@
 ---
-title: "RE Planning plan van aanpak realisatie huisvesting AMV (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/RE Planning plan van aanpak realisatie huisvesting AMV (Geanonimiseerd).pdf"
-s3_etag: "e73f33f5ba620099cdcf7f2516da04f8"
-date: 2026-11-16
+title: RE Planning plan van aanpak realisatie huisvesting AMV (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/RE Planning plan van aanpak realisatie
+  huisvesting AMV (Geanonimiseerd).pdf
+s3_etag: e73f33f5ba620099cdcf7f2516da04f8
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  E-mailwisseling tussen medewerkers van de gemeente Coevorden over de planning
+  en verdere afstemming van een plan van aanpak voor de realisatie van
+  huisvesting voor alleenstaande minderjarige vreemdelingen (AMV), waaronder een
+  raadsvoorstel en aankondigingsbrief. Op 4 oktober 2024 is het plan van aanpak
+  als bijlage toegezonden met het oog op verspreiding aan de werkgroep en
+  behandeling via portefeuillehouder, college en gemeenteraad.
+milestones: []
+ai_processed_at: '2026-11-16T09:22:55.071Z'
+ai_status: done
 ---
 
 BE (geanonimiseerd) (geanonimiseerd)

@@ -1,9 +1,42 @@
 ---
-title: "241014 agenderen PFO J. Slomp 21-10-24 (Geanonimiseerd)"
-maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
-source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/241014 agenderen PFO J. Slomp 21-10-24 (Geanonimiseerd).pdf"
-s3_etag: "9175480e29ac849346c97be76157ac6f"
-date: 2026-11-16
+title: 241014 agenderen PFO J. Slomp 21-10-24 (Geanonimiseerd)
+maps:
+  - woo-publicaties
+  - '2026'
+  - Woo-verzoeken
+  - Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp
+source: >-
+  woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande
+  minderjarige vreemdelingen Tuindorp/241014 agenderen PFO J. Slomp 21-10-24
+  (Geanonimiseerd).pdf
+s3_etag: 9175480e29ac849346c97be76157ac6f
+date: 2026-11-16T00:00:00.000Z
+summary: >-
+  Het document gaat over het plan van de gemeente Coevorden om samen met Nidos,
+  Elker en woningcorporatie Domesta een kinderwoongroep voor maximaal 14
+  alleenstaande minderjarige vreemdelingen met verblijfsstatus te realiseren aan
+  de Doctor J.C. Homanstraat 55-63, met 24/7 begeleiding en communicatie met
+  omwonenden en gemeenteraad. De samenwerkingsovereenkomst legt de taken en
+  verantwoordelijkheden vast en voorziet in ondertekening door wethouder J.
+  Slomp, onder voorbehoud van de benodigde besluitvorming en
+  omgevingsvergunning.
+milestones:
+  - date: '2024-11-05'
+    event: >-
+      College besluit in te stemmen met de samenwerkingsovereenkomst en
+      communicatie over de huisvesting van AMV’s.
+  - date: '2024-11-06'
+    event: Aanvraag omgevingsvergunning gepland.
+  - date: '2025-01-01'
+    event: >-
+      Besluit over de omgevingsvergunning voorzien, indien de beslistermijn niet
+      wordt verdaagd.
+  - date: '2025-02-12'
+    event: >-
+      Definitief besluit over de omgevingsvergunning en einde van de
+      bezwaartermijn voorzien.
+ai_processed_at: '2026-11-16T10:09:30.388Z'
+ai_status: done
 ---
 
 vi mn
