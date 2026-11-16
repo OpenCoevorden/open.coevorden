@@ -1,0 +1,1162 @@
+---
+title: "20240131 Factsheet Opvang (1) (Geanonimiseerd)"
+maps: ["woo-publicaties","2026","Woo-verzoeken","Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp"]
+source: "woo-publicaties/2026/Woo-verzoeken/Woo-dossier opvang alleenstaande minderjarige vreemdelingen Tuindorp/20240131 Factsheet Opvang (1) (Geanonimiseerd).pdf"
+s3_etag: "0ebe14141478f6c435c86c9e4f4bb3ca"
+date: 2026-11-16
+---
+
+Factsheet opvang bij Nidos
+Update vanmaandag 5 februari 2024
+waarvan
+na 1
+januari
+Taakstelling voor 1 juli 2024 , per gemeente
+gerealiseerd van taakstelling
+Gerealiseerd Taakstelling resterend
+AA EN HUNZE
+ASSEN
+BORGER-ODOORN
+COEVORDEN
+DE WOLDEN
+EMMEN
+HOOGEVEEN
+MEPPEL
+MIDDEN-DRENTHE
+NOORDENVELD
+TYNAARLO
+WESTERVELD
+ALMERE
+DRONTEN
+LELYSTAD
+NOORDOOSTPOLDER
+URK
+ZEEWOLDE
+ACHTKARSPELEN
+AMELAND
+DANTUMADIEL
+DE FRYSKE MARREN
+HARLINGEN
+HEERENVEEN
+LEEUWARDEN
+NOARDEAST-FRYSLÂN
+OOSTSTELLINGWERF
+OPSTERLAND
+SCHIERMONNIKOOG
+SMALLINGERLAND
+SÚDWEST-FRYSLÂN
+TERSCHELLING
+TYTSJERKSTERADIEL
+VLIELAND
+WAADHOEKE
+WESTSTELLINGWERF
+AALTEN
+APELDOORN
+ARNHEM
+BARNEVELD
+BERG EN DAL
+BERKELLAND
+BEUNINGEN
+BRONCKHORST
+BRUMMEN
+BUREN
+CULEMBORG
+0van 6
+33van 15
+0van 6
+0van 8
+0van 6
+8van 24
+0van 13
+0van 8
+6van 8
+7van 7
+0van 8
+0van 5
+12van 48
+0van 10
+6van 18
+0van 11
+0van 5
+0van 6
+0van 7
+0van 0
+0van 5
+0van 12
+0van 4
+24van 12
+8van 30
+12van 10
+0van 6
+0van 7
+0van 0
+0van 13
+0van 20
+0van 0
+0van 7
+0van 0
+0van 10
+0van 6
+0van 6
+50van 36
+34van 36
+14van 14
+0van 8
+15van 10
+0van 6
+0van 8
+7van 5
+0van 6
+0%
+220%
+0%
+0%
+0%
+33%
+0%
+0%
+75%
+100%
+0%
+0%
+25%
+0%
+33%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+200%
+27%
+120%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+139%
+94%
+100%
+0%
+150%
+0%
+0%
+140%
+0%
+D
+r e
+n t h
+e
+F le
+v
+o la
+n d
+F
+r ie
+s la
+n dwaarvan
+na 1
+januari
+Taakstelling voor 1 juli 2024 , per gemeente
+gerealiseerd van taakstelling
+Gerealiseerd
+BUREN
+CULEMBORG AA EN HUNZE
+Taakstelling resterend
+0van 7
+0van 0
+25van 13
+4van 5
+0van 6
+25van 27
+0van 6
+0van 8
+0van 6
+0van 11
+0van 0
+0van 5
+0van 4
+0van 11
+0van 8
+0van 6
+0van 8
+0van 6
+0van 10
+35van 40
+0van 7
+0van 6
+0van 7
+0van 9
+0van 11
+0van 6
+0van 7
+13van 10
+0van 0
+0van 0
+0van 10
+0van 6
+20van 9
+0van 12
+0van 5
+0van 4
+0van 9
+0van 7
+0van 7
+0van 10
+10van 11
+0van 10
+56van 51
+0van 11
+34van 14
+0van 9
+0van 0
+6van 7
+10van 6
+0van 14
+0van 6
+0%
+0%
+192%
+80%
+0%
+93%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+88%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+130%
+0%
+0%
+0%
+0%
+222%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+91%
+0%
+110%
+0%
+243%
+0%
+0%
+86%
+167%
+0%
+0%
+DOESBURG
+DOETINCHEM
+DRUTEN
+DUIVEN
+EDE
+ELBURG
+EPE
+ERMELO
+HARDERWIJK
+HATTEM
+HEERDE
+HEUMEN
+LINGEWAARD
+LOCHEM
+MAASDRIEL
+MONTFERLAND
+NEDER-BETUWE
+NIJKERK
+NIJMEGEN
+NUNSPEET
+OLDEBROEK
+OOST GELRE
+OUDE IJSSELSTREEK
+OVERBETUWE
+PUTTEN
+RENKUM
+RHEDEN
+ROZENDAAL
+SCHERPENZEEL
+TIEL
+VOORST
+WAGENINGEN
+WEST BETUWE
+WEST MAAS EN WAAL
+WESTERVOORT
+WIJCHEN
+WINTERSWIJK
+ZALTBOMMEL
+ZEVENAAR
+ZUTPHEN
+EEMSDELTA
+GRONINGEN
+HET HOGELAND
+MIDDEN-GRONINGEN
+OLDAMBT
+PEKELA
+STADSKANAAL
+VEENDAM
+WESTERKWARTIER
+WESTERWOLDE
+BEEK
++3
+G
+e ld
+e
+r la
+n d
+G
+r
+o
+n in g
+e
+n
++10waarvan
+na 1
+januari
+Taakstelling voor 1 juli 2024 , per gemeente
+gerealiseerd van taakstelling
+Gerealiseerd
+WESTERWOLDE
+BEEK AA EN HUNZE
+Taakstelling resterend
+0van 4
+0van 8
+0van 0
+0van 0
+0van 6
+0van 7
+0van 6
+0van 4
+0van 4
+0van 19
+0van 10
+0van 10
+0van 8
+18van 8
+8van 6
+5van 27
+5van 4
+0van 0
+0van 4
+0van 10
+0van 5
+0van 13
+0van 0
+10van 20
+0van 6
+0van 0
+0van 4
+0van 23
+0van 10
+0van 0
+0van 11
+0van 0
+12van 13
+0van 4
+0van 0
+0van 5
+0van 15
+4van 7
+0van 7
+0van 5
+21van 0
+0van 8
+35van 40
+0van 5
+0van 8
+0van 6
+8van 6
+0van 5
+0van 53
+4van 10
+0van 5
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+225%
+133%
+19%
+125%
+0%
+0%
+0%
+0%
+0%
+0%
+50%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+92%
+0%
+0%
+0%
+0%
+57%
+0%
+0%
+0%
+0%
+88%
+0%
+0%
+0%
+133%
+0%
+0%
+40%
+0%
+BEEKDAELEN
+BEESEL
+BERGEN (L.)
+BRUNSSUM
+ECHT-SUSTEREN
+EIJSDEN-MARGRATEN
+GENNEP
+GULPEN-WITTEM
+HEERLEN
+HORST AAN DE MAAS
+KERKRADE
+LANDGRAAF
+LEUDAL
+MAASGOUW
+MAASTRICHT
+MEERSSEN
+MOOK EN MIDDELAAR
+NEDERWEERT
+PEEL EN MAAS
+ROERDALEN
+ROERMOND
+SIMPELVELD
+SITTARD-GELEEN
+STEIN
+VAALS
+VALKENBURG AAN DE GEUL
+VENLO
+VENRAY
+VOERENDAAL
+WEERT
+ALPHEN-CHAAM
+ALTENA
+ASTEN
+BAARLE-NASSAU
+BERGEIJK
+BERGEN OP ZOOM
+BERNHEZE
+BEST
+BLADEL
+BOEKEL
+BOXTEL
+BREDA
+CRANENDONCK
+DEURNE
+DONGEN
+DRIMMELEN
+EERSEL
+EINDHOVEN
+ETTEN-LEUR
+GEERTRUIDENBERG
+GELDROP-MIERLO
+L im
+b
+u
+r gwaarvan
+na 1
+januari
+Taakstelling voor 1 juli 2024 , per gemeente
+gerealiseerd van taakstelling
+Gerealiseerd
+GEERTRUIDENBERG
+GELDROP-MIERLO AA EN HUNZE
+Taakstelling resterend
+12van 9
+0van 7
+0van 6
+0van 6
+0van 7
+0van 4
+0van 21
+0van 10
+0van 4
+0van 5
+0van 20
+0van 6
+0van 13
+0van 18
+8van 9
+0van 6
+0van 5
+0van 8
+12van 13
+0van 21
+0van 0
+23van 17
+0van 6
+21van 34
+0van 7
+0van 5
+0van 4
+0van 6
+48van 49
+0van 7
+0van 10
+0van 7
+0van 4
+28van 11
+0van 5
+0van 5
+0van 8
+33van 24
+7van 21
+109van 197
+0van 7
+0van 10
+0van 0
+6van 6
+0van 8
+0van 13
+0van 8
+4van 20
+0van 5
+0van 8
+0van 5
+133%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+89%
+0%
+0%
+0%
+92%
+0%
+0%
+135%
+0%
+62%
+0%
+0%
+0%
+0%
+98%
+0%
+0%
+0%
+0%
+255%
+0%
+0%
+0%
+138%
+33%
+55%
+0%
+0%
+0%
+100%
+0%
+0%
+0%
+20%
+0%
+0%
+0%
+GEMERT-BAKEL
+GILZE EN RIJEN
+GOIRLE
+HALDERBERGE
+HEEZE-LEENDE
+HELMOND
+HEUSDEN
+HILVARENBEEK
+LAARBEEK
+LAND VAN CUIJK
+LOON OP ZAND
+MAASHORST
+MEIERIJSTAD
+MOERDIJK
+NUENEN , GERWEN EN NEDERWETTEN
+OIRSCHOT
+OISTERWIJK
+OOSTERHOUT
+OSS
+REUSEL-DE MIERDEN
+ROOSENDAAL
+RUCPHEN
+'S-HERTOGENBOSCH
+SINT-MICHIELSGESTEL
+SOMEREN
+SON EN BREUGEL
+STEENBERGEN
+TILBURG
+VALKENSWAARD
+VELDHOVEN
+VUGHT
+WAALRE
+WAALWIJK
+WOENSDRECHT
+ZUNDERT
+AALSMEER
+ALKMAAR
+AMSTELVEEN
+AMSTERDAM
+BERGEN (NH. )
+BEVERWIJK
+BLARICUM
+BLOEMENDAAL
+CASTRICUM
+DEN HELDER
+DIEMEN
+DIJK EN WAARD
+DRECHTERLAND
+EDAM-VOLENDAM
+ENKHUIZEN
+GOOISE MEREN
+N
+o
+o
+r d
+-
+B
+r a b
+a
+n t
++4waarvan
+na 1
+januari
+Taakstelling voor 1 juli 2024 , per gemeente
+gerealiseerd van taakstelling
+Gerealiseerd
+ENKHUIZEN
+GOOISE MEREN AA EN HUNZE
+Taakstelling resterend
+0van 13
+0van 36
+0van 35
+0van 9
+0van 6
+10van 6
+0van 20
+0van 11
+13van 17
+15van 9
+4van 6
+0van 0
+0van 0
+0van 10
+0van 0
+0van 0
+3van 4
+0van 21
+8van 11
+0van 5
+0van 0
+0van 0
+0van 7
+0van 15
+0van 4
+0van 6
+10van 4
+3van 35
+0van 4
+0van 16
+0van 6
+0van 7
+18van 23
+0van 6
+0van 35
+0van 6
+0van 14
+0van 8
+0van 18
+12van 8
+0van 12
+0van 6
+0van 7
+0van 4
+0van 5
+0van 9
+0van 9
+0van 4
+0van 10
+0van 5
+0van 8
+0%
+0%
+0%
+0%
+0%
+167%
+0%
+0%
+76%
+167%
+67%
+0%
+0%
+0%
+0%
+0%
+75%
+0%
+73%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+250%
+9%
+0%
+0%
+0%
+0%
+78%
+0%
+0%
+0%
+0%
+0%
+0%
+150%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+HAARLEM
+HAARLEMMERMEER
+HEEMSKERK
+HEEMSTEDE
+HEILOO
+HILVERSUM
+HOLLANDS KROON
+HOORN
+HUIZEN
+KOGGENLAND
+LANDSMEER
+LAREN
+MEDEMBLIK
+OOSTZAAN
+OPMEER
+OUDER-AMSTEL
+PURMEREND
+SCHAGEN
+STEDE BROEC
+TEXEL
+UITGEEST
+UITHOORN
+VELSEN
+WATERLAND
+WIJDEMEREN
+WORMERLAND
+ZAANSTAD
+ZANDVOORT
+ALMELO
+BORNE
+DALFSEN
+DEVENTER
+DINKELLAND
+ENSCHEDE
+HAAKSBERGEN
+HARDENBERG
+HELLENDOORN
+HENGELO
+HOF VAN TWENTE
+KAMPEN
+LOSSER
+OLDENZAAL
+OLST-WIJHE
+OMMEN
+RAALTE
+RIJSSEN-HOLTEN
+STAPHORST
+STEENWIJKERLAND
+TUBBERGEN
+TWENTERAND
+WIERDEN
+N
+o
+o
+r d
+-
+H
+o lla
+n d
++5
+O
+v e
+r i j
+s
+s e lwaarvan
+na 1
+januari
+Taakstelling voor 1 juli 2024 , per gemeente
+gerealiseerd van taakstelling
+Gerealiseerd
+TWENTERAND
+WIERDEN AA EN HUNZE
+Taakstelling resterend
+0van 6
+0van 6
+12van 29
+34van 35
+0van 6
+0van 4
+0van 5
+16van 10
+0van 10
+0van 0
+8van 11
+0van 8
+4van 7
+0van 4
+0van 0
+4van 15
+11van 0
+0van 0
+9van 5
+0van 11
+0van 15
+23van 79
+0van 11
+0van 15
+0van 13
+0van 6
+0van 12
+4van 4
+0van 15
+0van 5
+24van 9
+0van 6
+0van 0
+0van 11
+0van 0
+0van 5
+16van 8
+0van 5
+0van 12
+4van 6
+0van 5
+0van 10
+0van 5
+0van 6
+0van 25
+0van 11
+0van 8
+20van 15
+13van 23
+0van 26
+0van 12
+0%
+0%
+41%
+97%
+0%
+0%
+0%
+160%
+0%
+0%
+73%
+0%
+57%
+0%
+0%
+27%
+0%
+0%
+180%
+0%
+0%
+29%
+0%
+0%
+0%
+0%
+0%
+100%
+0%
+0%
+267%
+0%
+0%
+0%
+0%
+0%
+200%
+0%
+0%
+67%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+133%
+57%
+0%
+0%
+ZWARTEWATERLAND
+ZWOLLE
+AMERSFOORT
+BAARN
+BUNNIK
+BUNSCHOTEN
+DE BILT
+DE RONDE VENEN
+EEMNES
+HOUTEN
+IJSSELSTEIN
+LEUSDEN
+LOPIK
+MONTFOORT
+NIEUWEGEIN
+OUDEWATER
+RENSWOUDE
+RHENEN
+SOEST
+STICHTSE VECHT
+UTRECHT
+UTRECHTSE HEUVELRUG
+VEENENDAAL
+VIJFHEERENLANDEN
+WIJK BIJ DUURSTEDE
+WOERDEN
+WOUDENBERG
+ZEIST
+BORSELE
+GOES
+HULST
+KAPELLE
+MIDDELBURG
+NOORD-BEVELAND
+REIMERSWAAL
+SCHOUWEN-DUIVELAND
+SLUIS
+TERNEUZEN
+THOLEN
+VEERE
+VLISSINGEN
+ALBLASSERDAM
+ALBRANDSWAARD
+ALPHEN AAN DEN RIJN
+BARENDRECHT
+BODEGRAVEN-REEUWIJK
+CAPELLE AAN DEN IJSSEL
+DELFT
+DORDRECHT
+GOEREE-OVERFLAKKEE
+GORINCHEM
+U
+t
+r e
+c h
+t
++11
+Z
+e
+e la
+n dwaarvan
+na 1
+januari
+Taakstelling voor 1 juli 2024 , per gemeente
+gerealiseerd van taakstelling
+Gerealiseerd
+GOEREE-OVERFLAKKEE
+GORINCHEM AA EN HUNZE
+Taakstelling resterend
+0van 9
+11van 17
+0van 4
+0van 7
+0van 5
+0van 20
+0van 7
+20van 15
+11van 7
+0van 13
+0van 14
+50van 28
+0van 6
+0van 17
+0van 6
+0van 8
+0van 5
+0van 10
+0van 7
+0van 19
+0van 10
+0van 6
+0van 7
+0van 13
+0van 11
+0van 13
+43van 143
+0van 18
+57van 121
+0van 6
+0van 9
+0van 17
+0van 16
+0van 6
+0van 7
+9van 6
+0van 25
+9van 28
+0van 0
+0van 11
+0van 10
+0%
+65%
+0%
+0%
+0%
+0%
+0%
+133%
+157%
+0%
+0%
+179%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+0%
+30%
+0%
+47%
+0%
+0%
+0%
+0%
+0%
+0%
+150%
+0%
+32%
+0%
+0%
+0%
+GOUDA
+HARDINXVELD-GIESSENDAM
+HENDRIK-IDO-AMBACHT
+HILLEGOM
+HOEKSCHE WAARD
+KAAG EN BRAASSEM
+KATWIJK
+KRIMPEN AAN DEN IJSSEL
+KRIMPENERWAARD
+LANSINGERLAND
+LEIDEN
+LEIDERDORP
+LEIDSCHENDAM-VOORBURG
+LISSE
+MAASSLUIS
+MIDDEN-DELFLAND
+MOLENLANDEN
+NIEUWKOOP
+NISSEWAARD
+NOORDWIJK
+OEGSTGEEST
+PAPENDRECHT
+PIJNACKER-NOOTDORP
+RIDDERKERK
+RIJSWIJK
+ROTTERDAM
+SCHIEDAM
+'S-GRAVENHAGE
+SLIEDRECHT
+TEYLINGEN
+VLAARDINGEN
+VOORNE AAN ZEE
+VOORSCHOTEN
+WADDINXVEEN
+WASSENAAR
+WESTLAND
+ZOETERMEER
+ZOETERWOUDE
+ZUIDPLAS
+ZWIJNDRECHT
++21
+Z
+u i d
+-
+H
+o lla
+n d
+0 100 200
+contact: bureauopvang @nidos.nl
