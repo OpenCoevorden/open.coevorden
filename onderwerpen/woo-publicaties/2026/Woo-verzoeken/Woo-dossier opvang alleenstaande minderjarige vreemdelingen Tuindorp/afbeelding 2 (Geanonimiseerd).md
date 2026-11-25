@@ -11,7 +11,7 @@ source: >-
 s3_etag: 42575c45734cee1e655f5e9ff419b2d3
 date: 2026-11-16T00:00:00.000Z
 ai_status: no_content
-ai_processed_at: '2026-11-24T07:44:34.601Z'
+ai_processed_at: '2026-11-25T06:16:49.146Z'
 ---
 
 a he
